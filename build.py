@@ -52,6 +52,32 @@ if not SITE_PASSWORD:
     )
 PBKDF2_ITERATIONS = 200000
 
+# ---- Per-page SEO overrides ---------------------------------------------
+# Mặc định, <title>/<meta description>/OG/Twitter/JSON-LD của mỗi trang doc
+# dùng chung mô tả của cả category (cat["desc"]) — điều này khiến nhiều
+# trang có description trùng nhau, không khớp đúng từ khóa người dùng hay
+# tìm (ví dụ "sao Thiên Cơ là sao gì"). DOC_META_OVERRIDES cho phép đặt
+# title/description riêng cho từng trang theo slug, ưu tiên tên các sao/cung
+# cụ thể để tăng khả năng khớp truy vấn tìm kiếm thực tế.
+DOC_META_OVERRIDES = {
+    "05-12-cung": {
+        "title": "12 Cung Trong Tử Vi: Mệnh, Quan Lộc, Tài Bạch, Phu Thê...",
+        "desc": "Giải mã 12 Cung trong lá số Tử Vi — Cung Mệnh, Phúc Đức, Tật Ách, Quan Lộc, Tài Bạch, Điền Trạch, Phụ Mẫu, Phu Thê, Tử Tức, Huynh Đệ, Nô Bộc, Thiên Di — theo Tử Vi Chữa Lành, ứng dụng Tâm lý học để Hiểu Mình.",
+    },
+    "06-14-chinh-tinh": {
+        "title": "14 Chính Tinh Là Sao Gì? Tử Vi, Thiên Cơ, Thái Dương...",
+        "desc": "Sao Tử Vi, Thiên Cơ, Thái Dương, Vũ Khúc, Thiên Đồng, Liêm Trinh, Thiên Phủ, Thái Âm, Tham Lang, Cự Môn, Thiên Tướng, Thiên Lương, Thất Sát, Phá Quân là sao gì? Luận giải đủ 14 Chính Tinh theo Tử Vi Chữa Lành.",
+    },
+    "07-hung-tinh": {
+        "title": "Hung Tinh Là Sao Gì? Kình Dương, Đà La, Hỏa Tinh, Địa Không...",
+        "desc": "Hung tinh là vùng bài học cần chữa lành, không phải lời nguyền. Luận giải Kình Dương, Đà La, Hỏa Tinh, Linh Tinh, Địa Không, Địa Kiếp — đủ Mặt Sáng, Mặt Tối và hướng chuyển hóa theo Tử Vi Chữa Lành.",
+    },
+    "08-cat-tinh": {
+        "title": "Cát Tinh Là Sao Gì? Tả Phù, Hữu Bật, Văn Xương, Thiên Khôi...",
+        "desc": "Cát tinh là phước báu cần dụng. Luận giải Tả Phù, Hữu Bật, Văn Xương, Văn Khúc, Thiên Khôi, Thiên Việt — ý nghĩa và cách khai thác năng lượng sao theo Tử Vi Chữa Lành.",
+    },
+}
+
 def encrypt_for_gate(html_str, password):
     """AES-256-GCM encrypt with a PBKDF2-derived key — decryptable in-browser
     via the Web Crypto API (see assets/js/protect.js). Fresh salt/iv per doc."""
@@ -269,6 +295,41 @@ CHANNELS = [
     },
 ]
 
+# Sub-item anchor id -> dedicated sao-*.html slug (no ".html").
+# When a subitem's anchor id has an entry here, sidebar/quicknav link
+# straight to that star's own page instead of an in-page anchor.
+STAR_PAGE_SLUGS = {
+    # 06-14-chinh-tinh
+    "i-tu-vi": "sao-tu-vi",
+    "ii-thien-co": "sao-thien-co",
+    "iii-thai-duong": "sao-thai-duong",
+    "iv-vu-khuc": "sao-vu-khuc",
+    "v-thien-ong": "sao-thien-dong",
+    "vi-liem-trinh": "sao-liem-trinh",
+    "vii-thien-phu": "sao-thien-phu",
+    "viii-thai-am": "sao-thai-am",
+    "ix-tham-lang": "sao-tham-lang",
+    "x-cu-mon": "sao-cu-mon",
+    "xi-thien-tuong": "sao-thien-tuong",
+    "xii-thien-luong": "sao-thien-luong",
+    "xiii-that-sat": "sao-that-sat",
+    "xiv-pha-quan": "sao-pha-quan",
+    # 07-hung-tinh
+    "1-kinh-duong-duong-nhan-chien-than-quyen-uy": "sao-kinh-duong",
+    "2-a-la-con-quay-cung-ten-nha-nghien-cuu-noi-tam": "sao-da-la",
+    "3-hoa-tinh-ngon-lua-bung-chay-ngon-lua-tam-linh": "sao-hoa-tinh",
+    "4-linh-tinh-ngon-lua-am-i-nguoi-giu-lua-bo-toc": "sao-linh-tinh",
+    "5-ia-khong-ho-en-khoang-trong-nha-hien-triet": "sao-dia-khong",
+    "6-ia-kiep-mat-mat-hon-loan-nha-tu-thien": "sao-dia-kiep",
+    # 08-cat-tinh
+    "1-ta-phu-nguoi-ho-tro-thuc-tien-anh-hung-hao-han-trong-tinh-nghia": "sao-ta-phu",
+    "2-huu-bat-nha-muu-luoc-tai-hoa": "sao-huu-bat",
+    "3-van-xuong-tri-tue-van-chuong-nha-tri-thuc-quan-van-chu-khoa-cu-chu-chinh-luan": "sao-van-xuong",
+    "4-van-khuc-nghe-thuat-va-cam-xuc-tai-nang-nghe-thuat-nguoi-tai-hoa-nang-khieu": "sao-van-khuc",
+    "5-thien-khoi-quy-nhan-bac-nhat-quy-nhan-danh-tieng": "sao-thien-khoi",
+    "6-thien-viet-quy-nhan-tro-giup-ngam": "sao-thien-viet",
+}
+
 SUBITEM_FILTERS = {
     "05-12-cung": _filter_cung,
     "06-14-chinh-tinh": _filter_roman_all,
@@ -365,6 +426,8 @@ def footer_html():
 
 def subitems_ul(d, prefix=""):
     items = "".join(
+        f'<li><a href="{prefix}{STAR_PAGE_SLUGS[i]}.html">{html.escape(t)}</a></li>'
+        if i in STAR_PAGE_SLUGS else
         f'<li><a href="{prefix}{d["slug"]}.html#{i}">{html.escape(t)}</a></li>'
         for i, t in d["subitems"]
     )
@@ -420,10 +483,18 @@ def doc_page(d):
 
     quicknav = ""
     if d["subitems"]:
-        chips = "".join(f'<a href="#{i}">{html.escape(t)}</a>' for i, t in d["subitems"])
+        chips = "".join(
+            f'<a href="{STAR_PAGE_SLUGS[i]}.html">{html.escape(t)}</a>'
+            if i in STAR_PAGE_SLUGS else
+            f'<a href="#{i}">{html.escape(t)}</a>'
+            for i, t in d["subitems"]
+        )
         quicknav = f'<div class="quicknav"><span>Đi nhanh tới:</span>{chips}</div>'
 
     protected = d["cat"]["id"] in PROTECTED_CATEGORY_IDS
+    _meta_override = DOC_META_OVERRIDES.get(d["slug"], {})
+    meta_title = _meta_override.get("title", d["title"])
+    meta_desc = _meta_override.get("desc", d["cat"]["desc"])
     protect_script = ""
     if protected:
         payload = encrypt_for_gate(d["body_html"], SITE_PASSWORD)
@@ -450,27 +521,27 @@ def doc_page(d):
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{html.escape(d["title"])} — {SITE_TITLE}</title>
-<meta name="description" content="{html.escape(d["cat"]["desc"])}">
+<title>{html.escape(meta_title)} — {SITE_TITLE}</title>
+<meta name="description" content="{html.escape(meta_desc)}">
 <link rel="canonical" href="{SITE_URL}/docs/{d["slug"]}.html">
 <link rel="icon" href="{FAVICON}">
 {GA_SNIPPET}
 {'<meta name="robots" content="noindex, nofollow">' if protected else ''}
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="{html.escape(SITE_TITLE)} — {html.escape(COMMUNITY)}">
-<meta property="og:title" content="{html.escape(d["title"])} — {SITE_TITLE}">
-<meta property="og:description" content="{html.escape(d["cat"]["desc"])}">
+<meta property="og:title" content="{html.escape(meta_title)} — {SITE_TITLE}">
+<meta property="og:description" content="{html.escape(meta_desc)}">
 <meta property="og:url" content="{SITE_URL}/docs/{d["slug"]}.html">
 <meta property="og:image" content="{OG_IMAGE}">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="{html.escape(d["title"])} — {SITE_TITLE}">
-<meta name="twitter:description" content="{html.escape(d["cat"]["desc"])}">
+<meta name="twitter:title" content="{html.escape(meta_title)} — {SITE_TITLE}">
+<meta name="twitter:description" content="{html.escape(meta_desc)}">
 <meta name="twitter:image" content="{OG_IMAGE}">
 <script type="application/ld+json">{json.dumps({
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": d["title"],
-    "description": d["cat"]["desc"],
+    "headline": meta_title,
+    "description": meta_desc,
     "url": f"{SITE_URL}/docs/{d['slug']}.html",
     "inLanguage": "vi",
     "isAccessibleForFree": not protected,

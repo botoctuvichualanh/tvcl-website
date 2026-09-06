@@ -1,0 +1,20 @@
+/* Keep narrow layouts within the viewport without hiding content. */
+@media (max-width: 560px) {
+  .hero-grid > *, .explain-grid > *, .reflection-grid > *,
+  .instructor-grid > *, .info-grid > * { min-width: 0; }
+  .core { width: 280px; max-width: 100%; }
+  .core-main { width: 126px; height: 126px; font-size: 21px; }
+  .core-item { width: 92px; font-size: 12px; }
+  .core-item:nth-child(3) { right: 0; top: 66px; }
+  .core-item:nth-child(4) { right: 0; bottom: 5px; }
+  .core-item:nth-child(5) { left: 0; bottom: 5px; }
+  .box { padding: 24px 20px; }
+  .price { padding: 18px 14px; }
+  .price .btn { padding-left: 10px; padding-right: 10px; }
+  .box h2 { font-size: clamp(25px, 7.5vw, 34px) !important; }
+  .feedback-shots { column-count: 1; }
+  .wrap { padding: 28px 14px 40px; }
+  .wrap .card { padding: 26px 18px; }
+  .wrap h1 { font-size: 30px; }
+  .wrap h2 { font-size: 24px; }
+}

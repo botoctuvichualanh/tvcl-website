@@ -687,6 +687,65 @@ def index_page():
     </div>
   </div>
 </section>
+<section class="section learning-section" id="khoa-hoc-su-kien" aria-labelledby="learning-title">
+  <div class="container">
+    <div class="section-kicker-wrap"><span class="kicker-label">Học tập &amp; kết nối cùng Bộ Tộc</span></div>
+    <h2 class="section-title" id="learning-title">Khóa học &amp; Sự kiện sắp diễn ra</h2>
+    <p class="section-sub">Chọn một hành trình phù hợp để hiểu mình sâu hơn và cùng nhau thực hành.</p>
+    <div class="learning-filters" role="group" aria-label="Lọc khóa học và sự kiện" hidden>
+      <button type="button" data-learning-filter="all" aria-pressed="true">Tất cả</button>
+      <button type="button" data-learning-filter="course" aria-pressed="false">Khóa học</button>
+      <button type="button" data-learning-filter="event" aria-pressed="false">Sự kiện</button>
+    </div>
+    <div class="learning-grid">
+      <article class="learning-card" data-learning-kind="course">
+        <div class="learning-art learning-art-foundation"><span>Nền tảng</span><p>Hiểu lá số<br><em>Hiểu chính mình</em></p></div>
+        <div class="learning-card-body"><p class="learning-category">Khóa học · Dành cho người mới</p>
+          <h3>Luận Nhanh Lá Số Tử Vi</h3><p>Từng bước làm quen với cung, sao và tự đọc lá số của mình theo tinh thần Tử Vi Chữa Lành.</p>
+          <p class="learning-date">Liên hệ để nhận lịch khai giảng</p>
+          <a class="learning-link" href="khoa-hoc/luan-nhanh-tu-vi/">Xem khóa học <span aria-hidden="true">↗</span><span class="learning-sr"> Luận Nhanh Lá Số Tử Vi</span></a>
+        </div>
+      </article>
+      <article class="learning-card" data-learning-kind="course">
+        <div class="learning-art learning-art-timing"><span>Ứng dụng</span><p>Hiểu vận hạn<br><em>Chủ động bước đi</em></p></div>
+        <div class="learning-card-body"><p class="learning-category">Khóa học · Luận giải &amp; thực hành</p>
+          <h3>Luận Vận Hạn Tử Vi</h3><p>Tìm hiểu nhịp vận động của lá số để nhìn lại trải nghiệm và chủ động hơn với những lựa chọn trong cuộc sống.</p>
+          <p class="learning-date">Liên hệ để nhận lịch khai giảng</p>
+          <a class="learning-link" href="luan-van-han/">Xem khóa học <span aria-hidden="true">↗</span><span class="learning-sr"> Luận Vận Hạn Tử Vi</span></a>
+        </div>
+      </article>
+      <article class="learning-card" data-learning-kind="course">
+        <div class="learning-art learning-art-healing"><span>Chuyên sâu</span><p>Chiêm nghiệm<br><em>&amp; chuyển hóa</em></p></div>
+        <div class="learning-card-body"><p class="learning-category">Khóa học · Tử Vi, Tâm lý &amp; Đạo học</p>
+          <h3>Tử Vi Bí Kíp<br>Ứng Dụng Chữa Lành</h3><p>Kết nối tri thức Tử Vi với Tâm lý và Đạo học trên hành trình hiểu mình, thực hành và chuyển hóa.</p>
+          <p class="learning-date">Khai giảng <time datetime="2026-10-08">08.10.2026</time></p>
+          <a class="learning-link" href="khoa-hoc-tu-vi-bi-kip-chua-lanh/">Xem khóa học <span aria-hidden="true">↗</span><span class="learning-sr"> Tử Vi Bí Kíp Ứng Dụng Chữa Lành</span></a>
+        </div>
+      </article>
+    </div>
+    <div class="learning-events" data-learning-kind="event">
+      <div><h3>Hẹn gặp tại những sự kiện của Bộ Tộc</h3><p>Lịch sự kiện tiếp theo sẽ được cập nhật tại đây khi có thông báo.</p></div>
+      <a class="btn btn-outline" href="#cong-dong">Kết nối với Bộ Tộc <span aria-hidden="true">→</span></a>
+    </div>
+    <p class="learning-sr" id="learning-result" aria-live="polite" aria-atomic="true"></p>
+  </div>
+</section>
+<script>
+(() => {{
+  const section = document.getElementById('khoa-hoc-su-kien');
+  const filters = section.querySelector('.learning-filters');
+  filters.hidden = false;
+  filters.addEventListener('click', (event) => {{
+    const button = event.target.closest('button');
+    if (!button) return;
+    const kind = button.dataset.learningFilter;
+    filters.querySelectorAll('button').forEach(item => item.setAttribute('aria-pressed', String(item === button)));
+    section.querySelectorAll('[data-learning-kind]').forEach(item => {{ item.hidden = kind !== 'all' && item.dataset.learningKind !== kind; }});
+    section.querySelector('.learning-grid').hidden = kind === 'event';
+    section.querySelector('#learning-result').textContent = kind === 'event' ? 'Chưa có lịch sự kiện mới.' : 'Hiển thị 3 khóa học.';
+  }});
+}})();
+</script>
 <section class="section intro-section">
   <div class="container intro-container">
     <p>Chào mừng bạn đến với một trong những hành trình quan trọng nhất của đời người: <strong>Hiểu Mình — Cải Mệnh — Chữa Lành</strong>, để sống sâu sắc hơn, có ý nghĩa hơn và bình an hơn.</p>

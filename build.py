@@ -607,6 +607,29 @@ def channels_html():
   </div>
 </section>'''
 
+def homepage_links_new_tab(page):
+    """Open information pages separately; keep in-page navigation in place."""
+    from urllib.parse import urljoin, urlsplit
+
+    def update(match):
+        tag = match.group(0)
+        href = re.search(r'\bhref=["\']([^"\']*)["\']', tag)
+        if not href or re.search(r'\bdownload(?:\s|=|>)', tag):
+            return tag
+        url = urlsplit(urljoin(SITE_URL + "/", html.unescape(href.group(1))))
+        if url.scheme not in ("http", "https"):
+            return tag
+        if url.netloc == urlsplit(SITE_URL).netloc and url.path in ("/", "/index.html") and not url.query:
+            return tag
+        tag = re.sub(r'\s+target=["\'][^"\']*["\']', '', tag)
+        rel = re.search(r'\s+rel=["\']([^"\']*)["\']', tag)
+        values = set(rel.group(1).split()) if rel else set()
+        values.add("noopener")
+        tag = re.sub(r'\s+rel=["\'][^"\']*["\']', '', tag)
+        return tag[:-1] + ' target="_blank" rel="' + ' '.join(sorted(values)) + '">'
+
+    return re.sub(r'<a\b[^>]*>', update, page)
+
 def index_page():
     cat_blocks = []
     for cat in CATEGORIES:
@@ -775,7 +798,7 @@ def index_page():
 {footer_html()}
 </body>
 </html>'''
-    return page
+    return homepage_links_new_tab(page)
 
 def sitemap_xml():
     # Không đưa các trang cần mật khẩu (nội dung mã hoá, crawler không đọc

@@ -280,7 +280,7 @@ CHANNELS = [
         "title": "Khóa Học TVCL",
         "tone": "teal",
         "links": [
-            ("Luận Nhanh Lá Số Tử Vi", "https://forms.gle/VomgHfUvfFGy1r397"),
+            ("Luận Nhanh Lá Số Tử Vi", "/khoa-hoc/luan-nhanh-tu-vi/"),
             ("Tử Vi Chữa Lành", "https://forms.gle/saXf6b418zxz3tLDA"),
             ("Tâm Lý Học Chữa Lành", "https://forms.gle/1spisoX7VQRmdUN16"),
             ("Tử Vi Luận Vận Hạn", "https://forms.gle/Q8Prn21P3rthntUr6"),

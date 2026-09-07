@@ -690,7 +690,7 @@ def index_page():
 }, ensure_ascii=False)}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css?v=course-s36-20260907">
+<link rel="stylesheet" href="assets/css/style.css?v=course-slider-20260907">
 </head>
 <body>
 {header_html(depth="")}
@@ -720,7 +720,11 @@ def index_page():
       <button type="button" data-learning-filter="course" aria-pressed="false">Khóa học</button>
       <button type="button" data-learning-filter="event" aria-pressed="false">Sự kiện</button>
     </div>
-    <div class="learning-grid">
+    <div class="learning-slider-controls" aria-label="Điều khiển danh sách khóa học">
+      <button type="button" data-slide-direction="-1" aria-label="Xem khóa học phía trước">←</button>
+      <button type="button" data-slide-direction="1" aria-label="Xem khóa học tiếp theo">→</button>
+    </div>
+    <div class="learning-grid" tabindex="0" role="region" aria-label="Khóa học theo lịch khai giảng, cuộn ngang để xem thêm">
       <article class="learning-card" data-learning-kind="course">
         <a class="learning-art learning-art-healing" href="cung-phuc-duc/" aria-label="Xem khóa học Giải Mã Cung Phúc Đức" target="_blank" rel="noopener"><img src="cung-phuc-duc/assets/celestial-hero.png" alt="Bản đồ sao và hoa sen của khóa Giải Mã Cung Phúc Đức" loading="lazy" decoding="async"></a>
         <div class="learning-card-body"><p class="learning-category">Khóa học · Không cần nền tảng Tử Vi</p>
@@ -762,6 +766,16 @@ def index_page():
   const section = document.getElementById('khoa-hoc-su-kien');
   const filters = section.querySelector('.learning-filters');
   filters.hidden = false;
+  const slider = section.querySelector('.learning-grid');
+  section.querySelectorAll('[data-slide-direction]').forEach(button => {{
+    button.addEventListener('click', () => {{
+      const card = slider.querySelector('.learning-card:not([hidden])');
+      if (!card) return;
+      const distance = card.getBoundingClientRect().width + parseFloat(getComputedStyle(slider).columnGap);
+      slider.scrollBy({{ left: Number(button.dataset.slideDirection) * distance, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' }});
+    }});
+  }});
+
   filters.addEventListener('click', (event) => {{
     const button = event.target.closest('button');
     if (!button) return;
@@ -769,6 +783,7 @@ def index_page():
     filters.querySelectorAll('button').forEach(item => item.setAttribute('aria-pressed', String(item === button)));
     section.querySelectorAll('[data-learning-kind]').forEach(item => {{ item.hidden = kind !== 'all' && !item.dataset.learningKind.split(' ').includes(kind); }});
     section.querySelector('.learning-grid').hidden = false;
+    slider.scrollLeft = 0;
     section.querySelector('#learning-result').textContent = kind === 'event' ? 'Hiển thị lớp Luận Nhanh S36 khai giảng 17/9.' : 'Hiển thị 4 khóa học theo lịch khai giảng.';
   }});
 }})();
@@ -838,7 +853,7 @@ def not_found_page():
 {GA_SNIPPET}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css?v=course-s36-20260907">
+<link rel="stylesheet" href="assets/css/style.css?v=course-slider-20260907">
 </head>
 <body>
 {header_html(depth="")}

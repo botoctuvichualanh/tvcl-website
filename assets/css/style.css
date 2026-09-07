@@ -493,3 +493,14 @@ ul.subitem-list li a:hover{color:var(--blue);opacity:1;}
 .learning-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
 .learning-art-s36 img{object-fit:contain}
 @media(max-width:650px){.learning-grid{grid-template-columns:1fr}}
+
+/* One-row course carousel: native swipe, keyboard scrolling and arrow controls. */
+.learning-slider-controls{display:flex;justify-content:flex-end;gap:10px;margin:0 0 16px}
+.learning-slider-controls button{width:44px;height:44px;border:1px solid var(--blue);border-radius:50%;background:var(--white);color:var(--blue);font-size:23px;cursor:pointer}
+.learning-slider-controls button:hover{background:var(--blue);color:var(--white)}
+.learning-section .learning-grid{display:flex;gap:24px;overflow-x:auto;scroll-snap-type:x mandatory;overscroll-behavior-x:contain;padding:4px 4px 18px;scrollbar-width:thin;scrollbar-color:var(--green-deep) var(--blue-light)}
+.learning-grid .learning-card{flex:0 0 calc((100% - 48px)/3);min-width:0;scroll-snap-align:start}
+.learning-grid:focus-visible{outline:3px solid var(--teal-deep);outline-offset:4px}
+@media(max-width:1000px){.learning-grid .learning-card{flex-basis:calc((100% - 24px)/2)}}
+@media(max-width:650px){.learning-grid .learning-card{flex-basis:88%}.learning-section .learning-grid{gap:16px}.learning-slider-controls{margin-bottom:12px}}
+.learning-section .learning-grid{contain:paint;max-width:100%}

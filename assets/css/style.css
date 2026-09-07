@@ -488,3 +488,8 @@ ul.subitem-list li a:hover{color:var(--blue);opacity:1;}
 .learning-date-detail{display:block;font-size:12px;line-height:1.6;margin-top:7px}
 @media(max-width:850px) and (min-width:651px){.learning-section .learning-art{height:180px}.learning-card .learning-date{padding:14px 12px}.learning-date strong{font-size:25px}}
 @media(max-width:650px){.learning-section .learning-art{height:auto;aspect-ratio:1.7}.learning-date strong{font-size:32px}}
+
+/* Four courses, ordered by opening date. */
+.learning-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.learning-art-s36 img{object-fit:contain}
+@media(max-width:650px){.learning-grid{grid-template-columns:1fr}}

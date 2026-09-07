@@ -690,7 +690,7 @@ def index_page():
 }, ensure_ascii=False)}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css?v=course-covers-20260907">
+<link rel="stylesheet" href="assets/css/style.css?v=course-s36-20260907">
 </head>
 <body>
 {header_html(depth="")}
@@ -722,33 +722,37 @@ def index_page():
     </div>
     <div class="learning-grid">
       <article class="learning-card" data-learning-kind="course">
-        <a class="learning-art learning-art-foundation" href="luan-van-han/" aria-label="Xem khóa học Tử Vi Luận Vận Hạn"><img src="luan-van-han/assets/cong-dong.jpg" alt="Cộng đồng Tử Vi Chữa Lành trong buổi gặp gỡ học viên" loading="lazy" decoding="async"></a>
-        <div class="learning-card-body"><p class="learning-category">Khóa học · Dành cho người đã biết Tử Vi</p>
-          <h3><a href="luan-van-han/">Tử Vi Luận Vận Hạn</a></h3><p>Kết nối Nguyên Cục, Đại Vận và Tiểu Vận; nghiệm lý trên lá số của chính mình để hiểu nhịp chuyển cuộc đời và chủ động trước mỗi bước ngoặt.</p>
-          <div class="learning-date"><span class="learning-date-label">Khai giảng</span><strong>28/09</strong><span class="learning-date-detail">Tử Vi Luận Vận Hạn</span></div>
-          <a class="learning-link" href="luan-van-han/">Xem khóa học <span aria-hidden="true">↗</span><span class="learning-sr"> Tử Vi Luận Vận Hạn</span></a>
-        </div>
-      </article>
-      <article class="learning-card" data-learning-kind="course">
-        <a class="learning-art learning-art-timing" href="khoa-hoc-tu-vi-bi-kip-chua-lanh/" aria-label="Xem khóa học Tử Vi Bí Kíp Chữa Lành"><img src="khoa-hoc-tu-vi-bi-kip-chua-lanh/assets/og.png" alt="Tử Vi Bí Kíp Ứng Dụng Chữa Lành — Lá số là bản đồ, không phải bản án" loading="lazy" decoding="async"></a>
-        <div class="learning-card-body"><p class="learning-category">Khóa học · Tử Vi, Tâm lý &amp; Đạo học</p>
-          <h3><a href="khoa-hoc-tu-vi-bi-kip-chua-lanh/">Tử Vi Bí Kíp Chữa Lành</a></h3><p>Dùng lá số như một bản đồ tâm thức để nhận diện niềm tin lõi, những mô thức đang lặp lại và tìm hướng chuyển hóa qua Tử Vi, Tâm lý và Đạo học.</p>
-          <div class="learning-date"><span class="learning-date-label">Khai giảng</span><strong><time datetime="2026-10-08">08/10/2026</time></strong><span class="learning-date-detail">5 tối Thứ Năm · Học qua Zoom</span></div>
-          <a class="learning-link" href="khoa-hoc-tu-vi-bi-kip-chua-lanh/">Xem khóa học <span aria-hidden="true">↗</span><span class="learning-sr"> Tử Vi Bí Kíp Chữa Lành</span></a>
-        </div>
-      </article>
-      <article class="learning-card" data-learning-kind="course">
-        <a class="learning-art learning-art-healing" href="cung-phuc-duc/" aria-label="Xem khóa học Giải Mã Cung Phúc Đức"><img src="cung-phuc-duc/assets/celestial-hero.png" alt="Bản đồ sao và hoa sen của khóa Giải Mã Cung Phúc Đức" loading="lazy" decoding="async"></a>
+        <a class="learning-art learning-art-healing" href="cung-phuc-duc/" aria-label="Xem khóa học Giải Mã Cung Phúc Đức" target="_blank" rel="noopener"><img src="cung-phuc-duc/assets/celestial-hero.png" alt="Bản đồ sao và hoa sen của khóa Giải Mã Cung Phúc Đức" loading="lazy" decoding="async"></a>
         <div class="learning-card-body"><p class="learning-category">Khóa học · Không cần nền tảng Tử Vi</p>
-          <h3><a href="cung-phuc-duc/">Giải Mã Cung Phúc Đức</a></h3><p>Khám phá nền phúc, mối liên hệ với gia đình, dòng họ và đời sống tinh thần; học cách quán chiếu để vun bồi nội lực, tìm sự an trú từ bên trong.</p>
+          <h3><a href="cung-phuc-duc/" target="_blank" rel="noopener">Giải Mã Cung Phúc Đức</a></h3><p>Khám phá nền phúc, mối liên hệ với gia đình, dòng họ và đời sống tinh thần; học cách quán chiếu để vun bồi nội lực, tìm sự an trú từ bên trong.</p>
           <div class="learning-date"><span class="learning-date-label">Khai giảng</span><strong>12/09</strong><span class="learning-date-detail">Lịch học: 12 – 14 – 15/09<br>19:30 – 22:30 · Học qua Zoom</span></div>
-          <a class="learning-link" href="cung-phuc-duc/">Xem khóa học <span aria-hidden="true">↗</span><span class="learning-sr"> Giải Mã Cung Phúc Đức</span></a>
+          <a class="learning-link" href="cung-phuc-duc/" target="_blank" rel="noopener">Xem khóa học <span aria-hidden="true">↗</span><span class="learning-sr"> Giải Mã Cung Phúc Đức</span></a>
         </div>
       </article>
-    </div>
-    <div class="learning-events" data-learning-kind="event">
-      <div><h3>Hẹn gặp tại những sự kiện của Bộ Tộc</h3><p>Lịch sự kiện tiếp theo sẽ được cập nhật tại đây khi có thông báo.</p></div>
-      <a class="btn btn-outline" href="#cong-dong">Kết nối với Bộ Tộc <span aria-hidden="true">→</span></a>
+      <article class="learning-card" data-learning-kind="course event">
+        <a class="learning-art learning-art-s36" href="khoa-hoc/luan-nhanh-tu-vi/" aria-label="Xem khóa học Luận Nhanh Lá Số Tử Vi S36" target="_blank" rel="noopener"><img src="assets/img/luan-nhanh-lop-zoom.png" alt="Buổi học Zoom cùng cộng đồng Luận Nhanh Lá Số Tử Vi" loading="lazy" decoding="async"></a>
+        <div class="learning-card-body"><p class="learning-category">Lớp S36 · Dành cho người mới</p>
+          <h3><a href="khoa-hoc/luan-nhanh-tu-vi/" target="_blank" rel="noopener">Luận Nhanh Lá Số Tử Vi S36</a></h3><p>Từng bước lập, đọc và hiểu lá số của chính mình. Thực hành cùng lớp trong 5 buổi, 15 tiếng Zoom và học lại miễn phí.</p>
+          <div class="learning-date"><span class="learning-date-label">Khai giảng</span><strong><time datetime="2026-09-17">17/09</time></strong><span class="learning-date-detail">17, 18, 21, 22, 24/09 · 19h30–22h30<br>5 buổi · 15 tiếng Zoom · Học lại miễn phí</span></div>
+          <a class="learning-link" href="khoa-hoc/luan-nhanh-tu-vi/" target="_blank" rel="noopener">Xem khóa học <span aria-hidden="true">↗</span><span class="learning-sr"> Luận Nhanh Lá Số Tử Vi S36</span></a>
+        </div>
+      </article>
+      <article class="learning-card" data-learning-kind="course">
+        <a class="learning-art learning-art-foundation" href="luan-van-han/" aria-label="Xem khóa học Tử Vi Luận Vận Hạn" target="_blank" rel="noopener"><img src="luan-van-han/assets/cong-dong.jpg" alt="Cộng đồng Tử Vi Chữa Lành trong buổi gặp gỡ học viên" loading="lazy" decoding="async"></a>
+        <div class="learning-card-body"><p class="learning-category">Khóa học · Dành cho người đã biết Tử Vi</p>
+          <h3><a href="luan-van-han/" target="_blank" rel="noopener">Tử Vi Luận Vận Hạn</a></h3><p>Kết nối Nguyên Cục, Đại Vận và Tiểu Vận; nghiệm lý trên lá số của chính mình để hiểu nhịp chuyển cuộc đời và chủ động trước mỗi bước ngoặt.</p>
+          <div class="learning-date"><span class="learning-date-label">Khai giảng</span><strong>28/09</strong><span class="learning-date-detail">Tử Vi Luận Vận Hạn</span></div>
+          <a class="learning-link" href="luan-van-han/" target="_blank" rel="noopener">Xem khóa học <span aria-hidden="true">↗</span><span class="learning-sr"> Tử Vi Luận Vận Hạn</span></a>
+        </div>
+      </article>
+      <article class="learning-card" data-learning-kind="course">
+        <a class="learning-art learning-art-timing" href="khoa-hoc-tu-vi-bi-kip-chua-lanh/" aria-label="Xem khóa học Tử Vi Bí Kíp Chữa Lành" target="_blank" rel="noopener"><img src="khoa-hoc-tu-vi-bi-kip-chua-lanh/assets/og.png" alt="Tử Vi Bí Kíp Ứng Dụng Chữa Lành — Lá số là bản đồ, không phải bản án" loading="lazy" decoding="async"></a>
+        <div class="learning-card-body"><p class="learning-category">Khóa học · Tử Vi, Tâm lý &amp; Đạo học</p>
+          <h3><a href="khoa-hoc-tu-vi-bi-kip-chua-lanh/" target="_blank" rel="noopener">Tử Vi Bí Kíp Chữa Lành</a></h3><p>Dùng lá số như một bản đồ tâm thức để nhận diện niềm tin lõi, những mô thức đang lặp lại và tìm hướng chuyển hóa qua Tử Vi, Tâm lý và Đạo học.</p>
+          <div class="learning-date"><span class="learning-date-label">Khai giảng</span><strong><time datetime="2026-10-08">08/10/2026</time></strong><span class="learning-date-detail">5 tối Thứ Năm · Học qua Zoom</span></div>
+          <a class="learning-link" href="khoa-hoc-tu-vi-bi-kip-chua-lanh/" target="_blank" rel="noopener">Xem khóa học <span aria-hidden="true">↗</span><span class="learning-sr"> Tử Vi Bí Kíp Chữa Lành</span></a>
+        </div>
+      </article>
     </div>
     <p class="learning-sr" id="learning-result" aria-live="polite" aria-atomic="true"></p>
   </div>
@@ -763,9 +767,9 @@ def index_page():
     if (!button) return;
     const kind = button.dataset.learningFilter;
     filters.querySelectorAll('button').forEach(item => item.setAttribute('aria-pressed', String(item === button)));
-    section.querySelectorAll('[data-learning-kind]').forEach(item => {{ item.hidden = kind !== 'all' && item.dataset.learningKind !== kind; }});
-    section.querySelector('.learning-grid').hidden = kind === 'event';
-    section.querySelector('#learning-result').textContent = kind === 'event' ? 'Chưa có lịch sự kiện mới.' : 'Hiển thị 3 khóa học.';
+    section.querySelectorAll('[data-learning-kind]').forEach(item => {{ item.hidden = kind !== 'all' && !item.dataset.learningKind.split(' ').includes(kind); }});
+    section.querySelector('.learning-grid').hidden = false;
+    section.querySelector('#learning-result').textContent = kind === 'event' ? 'Hiển thị lớp Luận Nhanh S36 khai giảng 17/9.' : 'Hiển thị 4 khóa học theo lịch khai giảng.';
   }});
 }})();
 </script>
@@ -834,7 +838,7 @@ def not_found_page():
 {GA_SNIPPET}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css?v=course-covers-20260907">
+<link rel="stylesheet" href="assets/css/style.css?v=course-s36-20260907">
 </head>
 <body>
 {header_html(depth="")}

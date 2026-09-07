@@ -475,3 +475,16 @@ ul.subitem-list li a:hover{color:var(--blue);opacity:1;}
 .learning-sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 @media(max-width:850px){.learning-grid{gap:14px}.learning-card-body{padding:18px}.learning-art{padding:22px 18px}.learning-art p{font-size:29px}.learning-events{align-items:flex-start;flex-direction:column}}
 @media(max-width:650px){.learning-section{padding:42px 0}.learning-grid{grid-template-columns:1fr;gap:24px}.learning-art{min-height:180px;padding:24px}.learning-art p{font-size:34px}.learning-card-body{padding:24px}.learning-section .section-title{font-size:32px}.learning-filters button{padding:8px 18px}}
+
+/* Course cover images and prominent opening dates */
+.learning-section .learning-art{display:block;min-height:0;height:230px;padding:0;overflow:hidden;background:var(--blue)}
+.learning-art img{display:block;width:100%;height:100%;object-fit:cover}
+.learning-art-foundation img{object-position:center 40%}
+.learning-art-timing img{object-fit:contain}
+.learning-art-healing img{object-position:75% center}
+.learning-card .learning-date{margin:auto 0 20px;padding:16px 18px;background:#EFE0B8;border:1px solid #C29A4F;border-left:4px solid #B07E2E;border-radius:4px;color:var(--blue)}
+.learning-date-label{display:block;font-size:12px;line-height:1.4;letter-spacing:2px;text-transform:uppercase;font-weight:700;margin-bottom:5px}
+.learning-date strong{display:block;font-family:"Source Serif 4",Georgia,serif;font-size:30px;line-height:1.25;font-weight:700;font-variant-numeric:tabular-nums}
+.learning-date-detail{display:block;font-size:12px;line-height:1.6;margin-top:7px}
+@media(max-width:850px) and (min-width:651px){.learning-section .learning-art{height:180px}.learning-card .learning-date{padding:14px 12px}.learning-date strong{font-size:25px}}
+@media(max-width:650px){.learning-section .learning-art{height:auto;aspect-ratio:1.7}.learning-date strong{font-size:32px}}

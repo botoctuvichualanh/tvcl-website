@@ -148,6 +148,28 @@
   }
   .schedule-heading p{font-size:17px;line-height:1.7;color:var(--ink);margin:0}
   .schedule-heading strong{color:var(--green-deep)}
+  .journey-glance{
+    display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:16px;
+    max-width:1040px;margin:0 auto 48px;padding:8px 0
+  }
+  .journey-step{
+    position:relative;z-index:1;aspect-ratio:1;border-radius:50%;padding:22px 17px;
+    display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;
+    background:linear-gradient(145deg,var(--white),var(--ivory));border:2px solid var(--gold);
+    box-shadow:0 10px 26px rgba(20,54,46,.1),inset 0 0 0 6px rgba(200,154,76,.08)
+  }
+  .journey-step:not(:last-child):after{
+    content:"";position:absolute;z-index:-1;left:calc(100% + 2px);top:50%;width:16px;height:2px;
+    background:var(--gold)
+  }
+  .journey-step:last-child{background:var(--forest-deep);border-color:var(--gold-light);box-shadow:0 12px 30px rgba(20,54,46,.2)}
+  .journey-step-number{
+    color:var(--gold);font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;margin-bottom:8px
+  }
+  .journey-step strong{
+    color:var(--blue);font-family:"Cormorant Garamond",Georgia,serif;font-size:18px;line-height:1.16;font-weight:700
+  }
+  .journey-step:last-child strong{color:var(--white)}
   .learning-path{position:relative;display:grid;gap:18px;max-width:960px;margin:0 auto}
   .learning-path:before{
     content:"";position:absolute;left:38px;top:46px;bottom:46px;width:2px;
@@ -192,6 +214,13 @@
   .schedule-close .btn{flex:0 0 auto;white-space:nowrap}
   @media(max-width:760px){
     .schedule-section{padding:58px 18px 64px}.schedule-heading{margin-bottom:34px}.schedule-heading h2{font-size:34px}
+    .journey-glance{
+      display:flex;overflow-x:auto;gap:14px;margin:0 -18px 40px;padding:8px 18px 18px;
+      scroll-snap-type:x mandatory;scrollbar-width:thin;scrollbar-color:var(--gold) transparent
+    }
+    .journey-step{flex:0 0 166px;width:166px;scroll-snap-align:start;padding:20px 15px}
+    .journey-step:not(:last-child):after{left:calc(100% + 2px);width:14px}
+    .journey-step strong{font-size:17px}
     .learning-path:before{left:27px}.session-card{grid-template-columns:54px 1fr;gap:12px;padding:22px 18px 22px 10px}
     .session-number{width:36px;height:36px;font-size:16px;box-shadow:0 0 0 6px var(--ivory)}
     .featured .session-number{box-shadow:0 0 0 6px var(--forest-deep)}
@@ -245,6 +274,29 @@
       <h2 id="schedule-title">Lịch Trình Luận Nhanh Lá Số Tử Vi</h2>
       <p>5 buổi đi từ <strong>nhìn đúng nền tảng</strong> đến <strong>tự luận một lá số hoàn chỉnh</strong>. Học đến đâu, thực hành và nghiệm lý trên lá số thật đến đó.</p>
     </header>
+
+    <div class="journey-glance" aria-label="Hành trình học qua 5 buổi">
+      <div class="journey-step">
+        <span class="journey-step-number">Buổi 1</span>
+        <strong>Đọc đúng điểm khởi đầu của một lá số</strong>
+      </div>
+      <div class="journey-step">
+        <span class="journey-step-number">Buổi 2</span>
+        <strong>Nắm ba trụ cột và thế liên kết của lá số</strong>
+      </div>
+      <div class="journey-step">
+        <span class="journey-step-number">Buổi 3</span>
+        <strong>Nhận diện Cát – Hung, thấy rõ thuận lợi và khó khăn</strong>
+      </div>
+      <div class="journey-step">
+        <span class="journey-step-number">Buổi 4</span>
+        <strong>Kết nối sao, Lộc và Tứ Hóa thành lời luận</strong>
+      </div>
+      <div class="journey-step">
+        <span class="journey-step-number">Buổi 5</span>
+        <strong>Tự luận chính lá số của mình cùng giảng viên</strong>
+      </div>
+    </div>
 
     <div class="learning-path">
       <article class="session-card">

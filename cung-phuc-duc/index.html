@@ -282,6 +282,7 @@ src="https://www.facebook.com/tr?id=285075021058385&ev=PageView&noscript=1"
         <label class="consent"><input name="dong_y_nhan_thong_tin_zalo" type="checkbox" value="dong_y" required><span>Tôi đồng ý nhận thông tin lớp qua Zalo.</span></label>
         <button class="btn" type="submit">ĐĂNG KÝ NGAY</button>
       </form>
+      <p id="submitStatus" style="display:none;margin-top:14px;text-align:center">Đang ghi nhận thông tin đăng ký...</p>
       <a class="secondary-cta" href="https://zalo.me/0966948401" target="_blank" rel="noopener noreferrer">Cần hỏi thêm trước khi đăng ký? Nhắn Zalo Bộ Tộc: 0966 948 401</a>
       <p class="form-footnote">*Học phí ưu đãi Vu Lan áp dụng cho 50 suất đầu tiên</p>
     </div>
@@ -297,11 +298,59 @@ src="https://www.facebook.com/tr?id=285075021058385&ev=PageView&noscript=1"
 </footer>
 
 <script>
-document.getElementById('registrationForm').addEventListener('submit', function (event) {
-  event.preventDefault();
-  if (typeof fbq === 'function') { fbq('track', 'Lead'); }
-  window.location.href = 'thanh-toan.html';
-});
+(function () {
+  var WEBHOOK_URL = 'https://script.google.com/macros/s/AKfycbzQnkUIxGKsMsnK8c2JFOhryS226VHRiUYvk0mBXYlkSIxGA0t81COUdmvwKjinRV8OAw/exec';
+  var form = document.getElementById('registrationForm');
+  var statusEl = document.getElementById('submitStatus');
+  var submitBtn = form.querySelector('button[type="submit"]');
+
+  function getParam(name) {
+    return new URLSearchParams(window.location.search).get(name) || '';
+  }
+
+  function showStatus(text, color) {
+    statusEl.textContent = text;
+    statusEl.style.display = 'block';
+    statusEl.style.color = color || '';
+  }
+
+  form.addEventListener('submit', function (event) {
+    event.preventDefault();
+
+    var payload = {
+      hoTen: form.ho_ten.value,
+      soDienThoai: form.so_dien_thoai.value,
+      url: window.location.href,
+      utm_source: getParam('utm_source'),
+      utm_medium: getParam('utm_medium'),
+      utm_campaign: getParam('utm_campaign'),
+      utm_content: getParam('utm_content'),
+      utm_term: getParam('utm_term'),
+      fbclid: getParam('fbclid')
+    };
+
+    submitBtn.disabled = true;
+    showStatus('Đang ghi nhận thông tin đăng ký...', '');
+
+    fetch(WEBHOOK_URL, {
+      method: 'POST',
+      body: JSON.stringify(payload)
+    })
+      .then(function (res) { return res.json(); })
+      .then(function (data) {
+        if (data && data.result === 'success') {
+          if (typeof fbq === 'function') { fbq('track', 'Lead'); }
+          window.location.href = 'thanh-toan.html';
+        } else {
+          throw new Error(data && data.message ? data.message : 'unknown error');
+        }
+      })
+      .catch(function () {
+        submitBtn.disabled = false;
+        showStatus('Có lỗi khi gửi đăng ký. Vui lòng thử lại.', '#b3261e');
+      });
+  });
+})();
 </script>
 
 </body>

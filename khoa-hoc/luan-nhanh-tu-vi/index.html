@@ -136,6 +136,68 @@
   .s36-details ul{list-style:none;padding:0;margin:10px 0 0;display:flex;gap:8px;flex-wrap:wrap}
   .s36-details li{background:var(--ivory);border:1px solid var(--line);border-radius:5px;padding:5px 10px;font-size:14px;font-weight:600}
   @media(max-width:600px){.s36-schedule{grid-template-columns:1fr}.s36-opening,.s36-details{padding:22px}.s36-opening h2{font-size:30px}}
+
+  /* Lộ trình 5 buổi — đặt ngay sau khối khai giảng */
+  .schedule-section{background:var(--white);padding:76px 24px 84px;overflow:hidden}
+  .schedule-wrap{max-width:1080px;margin:0 auto}
+  .schedule-heading{max-width:760px;margin:0 auto 46px;text-align:center}
+  .schedule-heading .kicker-label{justify-content:center}
+  .schedule-heading h2{
+    font-family:"Cormorant Garamond","Noto Serif",Georgia,serif;
+    color:var(--blue);font-size:42px;line-height:1.12;margin:14px 0 12px
+  }
+  .schedule-heading p{font-size:17px;line-height:1.7;color:var(--ink);margin:0}
+  .schedule-heading strong{color:var(--green-deep)}
+  .learning-path{position:relative;display:grid;gap:18px;max-width:960px;margin:0 auto}
+  .learning-path:before{
+    content:"";position:absolute;left:38px;top:46px;bottom:46px;width:2px;
+    background:linear-gradient(180deg,var(--gold),var(--green-deep));opacity:.7
+  }
+  .session-card{
+    position:relative;display:grid;grid-template-columns:76px 1fr auto;gap:22px;align-items:start;
+    background:var(--ivory);border:1px solid var(--line);border-radius:16px;padding:24px 26px 24px 18px;
+    box-shadow:0 9px 28px rgba(20,54,46,.08);transition:transform .2s ease,box-shadow .2s ease
+  }
+  .session-card:hover{transform:translateY(-3px);box-shadow:0 14px 34px rgba(20,54,46,.13)}
+  .session-card.featured{background:var(--forest-deep);border-color:var(--forest-deep);color:var(--white)}
+  .session-number{
+    position:relative;z-index:1;width:42px;height:42px;margin:0 auto;border-radius:50%;
+    display:flex;align-items:center;justify-content:center;background:var(--gold);color:var(--forest-deep);
+    box-shadow:0 0 0 7px var(--ivory);font-family:"Source Serif 4",Georgia,serif;font-size:18px;font-weight:700
+  }
+  .featured .session-number{box-shadow:0 0 0 7px var(--forest-deep);background:var(--gold-light)}
+  .session-date{display:block;color:var(--green-deep);font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;margin-bottom:5px}
+  .featured .session-date{color:var(--gold-light)}
+  .session-content h3{
+    font-family:"Cormorant Garamond",Georgia,serif;color:var(--blue);font-size:25px;line-height:1.25;margin:0 0 10px
+  }
+  .featured .session-content h3{color:var(--white)}
+  .session-content ul{margin:0;padding-left:19px}
+  .session-content li{font-size:15.5px;line-height:1.58;margin:5px 0;color:var(--ink)}
+  .featured .session-content li{color:var(--sage)}
+  .session-content li strong{color:var(--green-deep)}
+  .featured .session-content li strong{color:var(--gold-light)}
+  .session-result{
+    align-self:center;max-width:170px;background:var(--white);border:1px solid var(--line);border-radius:10px;
+    padding:12px 14px;color:var(--green-deep);font-size:13px;line-height:1.45;font-weight:600
+  }
+  .session-result span{display:block;color:var(--gold);font-size:10px;letter-spacing:.12em;text-transform:uppercase;margin-bottom:3px}
+  .featured .session-result{background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.18);color:var(--white)}
+  .schedule-close{
+    display:flex;align-items:center;justify-content:space-between;gap:28px;max-width:960px;margin:28px auto 0;
+    background:var(--gold);border-radius:16px;padding:22px 26px;color:var(--forest-deep)
+  }
+  .schedule-close p{font-size:16px;line-height:1.55;margin:0}
+  .schedule-close strong{display:block;font-family:"Cormorant Garamond",Georgia,serif;font-size:23px;margin-bottom:2px}
+  .schedule-close .btn{flex:0 0 auto;white-space:nowrap}
+  @media(max-width:760px){
+    .schedule-section{padding:58px 18px 64px}.schedule-heading{margin-bottom:34px}.schedule-heading h2{font-size:34px}
+    .learning-path:before{left:27px}.session-card{grid-template-columns:54px 1fr;gap:12px;padding:22px 18px 22px 10px}
+    .session-number{width:36px;height:36px;font-size:16px;box-shadow:0 0 0 6px var(--ivory)}
+    .featured .session-number{box-shadow:0 0 0 6px var(--forest-deep)}
+    .session-content h3{font-size:22px}.session-result{grid-column:2;max-width:none;width:auto}
+    .schedule-close{align-items:stretch;flex-direction:column;text-align:center}.schedule-close .btn{width:100%}
+  }
 </style>
 </head>
 <body>
@@ -173,6 +235,93 @@
       <a href="#cam-nhan" class="btn btn-outline">💬 Cảm Nhận Học Viên ↓</a>
     </div>
     <p class="five-khong">Lá số là bản đồ<span class="dot">·</span>Không phải bản án<span class="dot">·</span>Học theo tốc độ của riêng bạn</p>
+  </div>
+</section>
+
+<section class="schedule-section" id="lich-trinh" aria-labelledby="schedule-title">
+  <div class="schedule-wrap">
+    <header class="schedule-heading">
+      <span class="kicker-label">Lộ Trình Thực Hành Từng Bước</span>
+      <h2 id="schedule-title">Lịch Trình Luận Nhanh Lá Số Tử Vi</h2>
+      <p>5 buổi đi từ <strong>nhìn đúng nền tảng</strong> đến <strong>tự luận một lá số hoàn chỉnh</strong>. Học đến đâu, thực hành và nghiệm lý trên lá số thật đến đó.</p>
+    </header>
+
+    <div class="learning-path">
+      <article class="session-card">
+        <div class="session-number" aria-hidden="true">01</div>
+        <div class="session-content">
+          <time class="session-date" datetime="2026-09-17">17/09/2026 · Buổi 1</time>
+          <h3>Đọc đúng điểm khởi đầu của một lá số</h3>
+          <ul>
+            <li>Làm quen tổng quan về Tử Vi và những thông tin cần chú ý đầu tiên khi bắt đầu luận giải.</li>
+            <li>Hiểu rõ <strong>Mệnh – Thân</strong>; thực hành nghiệm lý cung Thân cư tại đâu và ý nghĩa trong đời sống.</li>
+            <li>Nghiệm lý <strong>chính tinh tại cung Mệnh</strong> — phần 1.</li>
+          </ul>
+        </div>
+        <div class="session-result"><span>Sau buổi học</span>Biết bắt đầu từ đâu khi cầm một lá số.</div>
+      </article>
+
+      <article class="session-card">
+        <div class="session-number" aria-hidden="true">02</div>
+        <div class="session-content">
+          <time class="session-date" datetime="2026-09-18">18/09/2026 · Buổi 2</time>
+          <h3>Nắm ba trụ cột và thế liên kết của lá số</h3>
+          <ul>
+            <li>Nghiệm lý <strong>chính tinh tại cung Mệnh</strong> — phần 2.</li>
+            <li>Nhận diện ba trụ cột chính của một lá số: <strong>Mệnh – Thân – Phúc</strong>.</li>
+            <li>Hiểu định nghĩa <strong>Tam phương Tứ chính</strong> và thực hành xác định 3P4C trên lá số.</li>
+          </ul>
+        </div>
+        <div class="session-result"><span>Sau buổi học</span>Thấy được cấu trúc cốt lõi và sự liên kết giữa các cung.</div>
+      </article>
+
+      <article class="session-card">
+        <div class="session-number" aria-hidden="true">03</div>
+        <div class="session-content">
+          <time class="session-date" datetime="2026-09-21">21/09/2026 · Buổi 3</time>
+          <h3>Nhận diện Cát – Hung, thấy rõ thuận lợi và khó khăn</h3>
+          <ul>
+            <li>Làm quen hệ thống <strong>Cát tinh và Hung tinh</strong>.</li>
+            <li>Nắm phương pháp xét tính cát – hung của một cung.</li>
+            <li><strong>Thực hành trực tiếp trên lá số:</strong> xét Mệnh – Thân và 12 cung để tìm ra đâu là vùng thuận lợi, đâu là vùng cần thận trọng.</li>
+          </ul>
+        </div>
+        <div class="session-result"><span>Sau buổi học</span>Biết phân loại cung cát, cung hung để luận có trọng tâm.</div>
+      </article>
+
+      <article class="session-card">
+        <div class="session-number" aria-hidden="true">04</div>
+        <div class="session-content">
+          <time class="session-date" datetime="2026-09-22">22/09/2026 · Buổi 4</time>
+          <h3>Kết nối sao, Lộc và Tứ Hóa thành lời luận</h3>
+          <ul>
+            <li>Tiếp tục nghiệm lý <strong>Cát tinh – Hung tinh</strong> trên các trường hợp thực tế.</li>
+            <li>Nhận diện các sao Lộc và hệ thống <strong>Tứ Hóa</strong>.</li>
+            <li>Được hướng dẫn mẫu <strong>quy trình luận 5 bước</strong> rõ ràng, dễ ghi nhớ và dễ áp dụng.</li>
+          </ul>
+        </div>
+        <div class="session-result"><span>Sau buổi học</span>Có khung 5 bước để tự tin triển khai một bài luận nhanh.</div>
+      </article>
+
+      <article class="session-card featured">
+        <div class="session-number" aria-hidden="true">05</div>
+        <div class="session-content">
+          <time class="session-date" datetime="2026-09-24">24/09/2026 · Buổi 5</time>
+          <h3>Tự luận chính lá số của mình cùng giảng viên</h3>
+          <ul>
+            <li>Học viên thực hành trọn quy trình luận trên <strong>chính lá số của mình</strong>.</li>
+            <li>Giảng viên quan sát, chỉnh cách kết nối dữ kiện và bổ sung những điểm còn thiếu.</li>
+            <li>Củng cố phương pháp để có thể tiếp tục tự học, tự nghiệm lý sau khóa học.</li>
+          </ul>
+        </div>
+        <div class="session-result"><span>Đích đến</span>Hoàn thành một lượt luận có phương pháp và nhận góp ý trực tiếp.</div>
+      </article>
+    </div>
+
+    <div class="schedule-close">
+      <p><strong>Không chỉ nghe giảng — bạn sẽ tự tay thực hành.</strong>Mỗi buổi là một bước tiến gần hơn đến khả năng đọc và hiểu lá số của chính mình.</p>
+      <a href="https://www.facebook.com/tuvichualanh" target="_blank" rel="noopener" class="btn btn-forest">✦ Giữ Chỗ Lớp S36</a>
+    </div>
   </div>
 </section>
 

@@ -152,24 +152,28 @@
     display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:16px;
     max-width:1040px;margin:0 auto 48px;padding:8px 0
   }
+  .session-1{--session-accent:#b57920;--session-soft:#f7e5bd;--session-ink:#593a08}
+  .session-2{--session-accent:#557d62;--session-soft:#dcebdd;--session-ink:#254532}
+  .session-3{--session-accent:#b66449;--session-soft:#f2ddd4;--session-ink:#653221}
+  .session-4{--session-accent:#4e7d91;--session-soft:#dceaf0;--session-ink:#244553}
+  .session-5{--session-accent:#7c5d7b;--session-soft:#eaddea;--session-ink:#493448}
   .journey-step{
     position:relative;z-index:1;aspect-ratio:1;border-radius:50%;padding:22px 17px;
     display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;
-    background:linear-gradient(145deg,var(--white),var(--ivory));border:2px solid var(--gold);
-    box-shadow:0 10px 26px rgba(20,54,46,.1),inset 0 0 0 6px rgba(200,154,76,.08)
+    background:linear-gradient(145deg,var(--white) 4%,var(--session-soft) 100%);border:2px solid var(--session-accent);
+    box-shadow:0 10px 26px rgba(20,54,46,.1),inset 0 0 0 6px rgba(255,255,255,.3)
   }
   .journey-step:not(:last-child):after{
     content:"";position:absolute;z-index:-1;left:calc(100% + 2px);top:50%;width:16px;height:2px;
-    background:var(--gold)
+    background:var(--session-accent)
   }
-  .journey-step:last-child{background:var(--forest-deep);border-color:var(--gold-light);box-shadow:0 12px 30px rgba(20,54,46,.2)}
   .journey-step-number{
-    color:var(--gold);font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;margin-bottom:8px
+    background:var(--session-accent);color:var(--white);border-radius:999px;padding:4px 10px;
+    font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;margin-bottom:9px
   }
   .journey-step strong{
-    color:var(--blue);font-family:"Cormorant Garamond",Georgia,serif;font-size:18px;line-height:1.16;font-weight:700
+    color:var(--session-ink);font-family:"Cormorant Garamond",Georgia,serif;font-size:18px;line-height:1.16;font-weight:700
   }
-  .journey-step:last-child strong{color:var(--white)}
   .learning-path{position:relative;display:grid;gap:18px;max-width:960px;margin:0 auto}
   .learning-path:before{
     content:"";position:absolute;left:38px;top:46px;bottom:46px;width:2px;
@@ -177,34 +181,34 @@
   }
   .session-card{
     position:relative;display:grid;grid-template-columns:76px 1fr auto;gap:22px;align-items:start;
-    background:var(--ivory);border:1px solid var(--line);border-radius:16px;padding:24px 26px 24px 18px;
+    background:linear-gradient(105deg,var(--session-soft) 0%,var(--white) 76%);border:2px solid var(--session-accent);border-radius:16px;padding:24px 26px 24px 18px;
     box-shadow:0 9px 28px rgba(20,54,46,.08);transition:transform .2s ease,box-shadow .2s ease
   }
   .session-card:hover{transform:translateY(-3px);box-shadow:0 14px 34px rgba(20,54,46,.13)}
-  .session-card.featured{background:var(--forest-deep);border-color:var(--forest-deep);color:var(--white)}
+  .session-card.featured{color:var(--ink)}
   .session-number{
     position:relative;z-index:1;width:42px;height:42px;margin:0 auto;border-radius:50%;
-    display:flex;align-items:center;justify-content:center;background:var(--gold);color:var(--forest-deep);
-    box-shadow:0 0 0 7px var(--ivory);font-family:"Source Serif 4",Georgia,serif;font-size:18px;font-weight:700
+    display:flex;align-items:center;justify-content:center;background:var(--session-accent);color:var(--white);
+    box-shadow:0 0 0 7px var(--session-soft);font-family:"Source Serif 4",Georgia,serif;font-size:18px;font-weight:700
   }
-  .featured .session-number{box-shadow:0 0 0 7px var(--forest-deep);background:var(--gold-light)}
-  .session-date{display:block;color:var(--green-deep);font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;margin-bottom:5px}
-  .featured .session-date{color:var(--gold-light)}
+  .featured .session-number{box-shadow:0 0 0 7px var(--session-soft);background:var(--session-accent)}
+  .session-date{display:block;color:var(--session-accent);font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;margin-bottom:5px}
+  .featured .session-date{color:var(--session-accent)}
   .session-content h3{
-    font-family:"Cormorant Garamond",Georgia,serif;color:var(--blue);font-size:25px;line-height:1.25;margin:0 0 10px
+    font-family:"Cormorant Garamond",Georgia,serif;color:var(--session-ink);font-size:25px;line-height:1.25;margin:0 0 10px
   }
-  .featured .session-content h3{color:var(--white)}
+  .featured .session-content h3{color:var(--session-ink)}
   .session-content ul{margin:0;padding-left:19px}
   .session-content li{font-size:15.5px;line-height:1.58;margin:5px 0;color:var(--ink)}
-  .featured .session-content li{color:var(--sage)}
-  .session-content li strong{color:var(--green-deep)}
-  .featured .session-content li strong{color:var(--gold-light)}
+  .featured .session-content li{color:var(--ink)}
+  .session-content li strong{color:var(--session-ink)}
+  .featured .session-content li strong{color:var(--session-ink)}
   .session-result{
-    align-self:center;max-width:170px;background:var(--white);border:1px solid var(--line);border-radius:10px;
-    padding:12px 14px;color:var(--green-deep);font-size:13px;line-height:1.45;font-weight:600
+    align-self:center;max-width:170px;background:rgba(255,255,255,.74);border:1px solid var(--session-accent);border-radius:10px;
+    padding:12px 14px;color:var(--session-ink);font-size:13px;line-height:1.45;font-weight:600
   }
-  .session-result span{display:block;color:var(--gold);font-size:10px;letter-spacing:.12em;text-transform:uppercase;margin-bottom:3px}
-  .featured .session-result{background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.18);color:var(--white)}
+  .session-result span{display:block;color:var(--session-accent);font-size:10px;letter-spacing:.12em;text-transform:uppercase;margin-bottom:3px}
+  .featured .session-result{background:rgba(255,255,255,.74);border-color:var(--session-accent);color:var(--session-ink)}
   .schedule-close{
     display:flex;align-items:center;justify-content:space-between;gap:28px;max-width:960px;margin:28px auto 0;
     background:var(--gold);border-radius:16px;padding:22px 26px;color:var(--forest-deep)
@@ -222,8 +226,8 @@
     .journey-step:not(:last-child):after{left:calc(100% + 2px);width:14px}
     .journey-step strong{font-size:17px}
     .learning-path:before{left:27px}.session-card{grid-template-columns:54px 1fr;gap:12px;padding:22px 18px 22px 10px}
-    .session-number{width:36px;height:36px;font-size:16px;box-shadow:0 0 0 6px var(--ivory)}
-    .featured .session-number{box-shadow:0 0 0 6px var(--forest-deep)}
+    .session-number{width:36px;height:36px;font-size:16px;box-shadow:0 0 0 6px var(--session-soft)}
+    .featured .session-number{box-shadow:0 0 0 6px var(--session-soft)}
     .session-content h3{font-size:22px}.session-result{grid-column:2;max-width:none;width:auto}
     .schedule-close{align-items:stretch;flex-direction:column;text-align:center}.schedule-close .btn{width:100%}
   }
@@ -276,30 +280,30 @@
     </header>
 
     <div class="journey-glance" aria-label="Hành trình học qua 5 buổi">
-      <div class="journey-step">
+      <div class="journey-step session-1">
         <span class="journey-step-number">Buổi 1</span>
         <strong>Đọc đúng điểm khởi đầu của một lá số</strong>
       </div>
-      <div class="journey-step">
+      <div class="journey-step session-2">
         <span class="journey-step-number">Buổi 2</span>
         <strong>Nắm ba trụ cột và thế liên kết của lá số</strong>
       </div>
-      <div class="journey-step">
+      <div class="journey-step session-3">
         <span class="journey-step-number">Buổi 3</span>
         <strong>Nhận diện Cát – Hung, thấy rõ thuận lợi và khó khăn</strong>
       </div>
-      <div class="journey-step">
+      <div class="journey-step session-4">
         <span class="journey-step-number">Buổi 4</span>
         <strong>Kết nối sao, Lộc và Tứ Hóa thành lời luận</strong>
       </div>
-      <div class="journey-step">
+      <div class="journey-step session-5">
         <span class="journey-step-number">Buổi 5</span>
         <strong>Tự luận chính lá số của mình cùng giảng viên</strong>
       </div>
     </div>
 
     <div class="learning-path">
-      <article class="session-card">
+      <article class="session-card session-1">
         <div class="session-number" aria-hidden="true">01</div>
         <div class="session-content">
           <span class="session-date">Buổi 1</span>
@@ -313,7 +317,7 @@
         <div class="session-result"><span>Sau buổi học</span>Biết bắt đầu từ đâu khi cầm một lá số.</div>
       </article>
 
-      <article class="session-card">
+      <article class="session-card session-2">
         <div class="session-number" aria-hidden="true">02</div>
         <div class="session-content">
           <span class="session-date">Buổi 2</span>
@@ -327,7 +331,7 @@
         <div class="session-result"><span>Sau buổi học</span>Thấy được cấu trúc cốt lõi và sự liên kết giữa các cung.</div>
       </article>
 
-      <article class="session-card">
+      <article class="session-card session-3">
         <div class="session-number" aria-hidden="true">03</div>
         <div class="session-content">
           <span class="session-date">Buổi 3</span>
@@ -341,7 +345,7 @@
         <div class="session-result"><span>Sau buổi học</span>Biết phân loại cung cát, cung hung để luận có trọng tâm.</div>
       </article>
 
-      <article class="session-card">
+      <article class="session-card session-4">
         <div class="session-number" aria-hidden="true">04</div>
         <div class="session-content">
           <span class="session-date">Buổi 4</span>
@@ -355,7 +359,7 @@
         <div class="session-result"><span>Sau buổi học</span>Có khung 5 bước để tự tin triển khai một bài luận nhanh.</div>
       </article>
 
-      <article class="session-card featured">
+      <article class="session-card session-5 featured">
         <div class="session-number" aria-hidden="true">05</div>
         <div class="session-content">
           <span class="session-date">Buổi 5</span>

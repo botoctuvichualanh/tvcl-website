@@ -281,7 +281,7 @@ CHANNELS = [
         "tone": "teal",
         "links": [
             ("Luận Nhanh Lá Số Tử Vi", "/khoa-hoc/luan-nhanh-tu-vi/"),
-            ("Tử Vi Chữa Lành", "https://forms.gle/saXf6b418zxz3tLDA"),
+            ("Tử Vi Chữa Lành", "https://tuvichualanh.com/khoa-hoc-tu-vi-chua-lanh/"),
             ("Tâm Lý Học Chữa Lành", "https://forms.gle/1spisoX7VQRmdUN16"),
             ("Tử Vi Luận Vận Hạn", "https://forms.gle/Q8Prn21P3rthntUr6"),
             ("Tử Vi Chữa Lành Tài Lộc", "https://forms.gle/LA967HBgEniFXNqv7"),

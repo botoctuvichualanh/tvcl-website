@@ -128,13 +128,17 @@
       const fileName = document.getElementById('file-name');
       const button = document.getElementById('submit-button');
       const message = document.getElementById('form-message');
-      const REGISTRATION_ENDPOINT = '';
-      message.textContent = 'Bản xem trước: form chưa gửi email thật cho đến khi kết nối Google.';
-      message.classList.add('error');
+      const REGISTRATION_ENDPOINT = 'https://script.google.com/macros/s/AKfycbykGeZZ9bLDx_f1-obojRvwB9Qi0hgo8IIHrjTdPS3Hfndx4iU5YRTMAEnRxccqFd_5/exec';
+      const fileToBase64 = file => new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = () => resolve(String(reader.result).split(',')[1] || '');
+        reader.onerror = () => reject(new Error('Không thể đọc ảnh biên lai. Vui lòng chọn lại ảnh.'));
+        reader.readAsDataURL(file);
+      });
       receipt?.addEventListener('change', () => { fileName.textContent = receipt.files?.[0]?.name || ''; });
       form?.addEventListener('submit', async event => {
         event.preventDefault();
-        if (!REGISTRATION_ENDPOINT) { message.textContent = 'Đây là bản xem trước. Chức năng gửi đăng ký sẽ được kích hoạt sau khi kết nối Google.'; message.className = 'form-message error'; return; }
+        if (!REGISTRATION_ENDPOINT) { message.textContent = 'Hệ thống đăng ký đang được kết nối. Vui lòng thử lại sau ít phút.'; message.className = 'form-message error'; return; }
         message.className = 'form-message';
         if (!form.checkValidity()) { form.reportValidity(); return; }
         const file = receipt.files?.[0];
@@ -142,9 +146,23 @@
         if (file.size > 5 * 1024 * 1024) { message.textContent = 'Ảnh biên lai vượt quá 5 MB. Vui lòng chọn ảnh nhỏ hơn.'; message.classList.add('error'); return; }
         button.disabled = true; button.textContent = 'Đang gửi đăng ký…';
         try {
-          const response = await fetch(REGISTRATION_ENDPOINT, {method:'POST', body:new FormData(form)});
-          const result = await response.json().catch(() => ({}));
-          if (!response.ok) throw new Error(result.error || 'Không thể gửi đăng ký lúc này.');
+          const payload = {
+            fullName: form.fullName.value.trim(),
+            phone: form.phone.value.trim(),
+            email: form.email.value.trim(),
+            note: form.note.value.trim(),
+            receiptName: file.name,
+            receiptType: file.type,
+            receiptBase64: await fileToBase64(file),
+            sourceUrl: window.location.href,
+            website: ''
+          };
+          await fetch(REGISTRATION_ENDPOINT, {
+            method: 'POST',
+            mode: 'no-cors',
+            headers: {'Content-Type':'text/plain;charset=utf-8'},
+            body: JSON.stringify(payload)
+          });
           message.textContent = 'Đăng ký đã được gửi thành công. Ban tổ chức sẽ liên hệ xác nhận với bạn.'; message.classList.add('success');
           form.reset(); fileName.textContent = '';
           if (typeof window.fbq === 'function') { fbq('track', 'Lead', {content_name:'Đăng ký Bản Đồ Nhân Quả',value:199000,currency:'VND'}); fbq('track', 'CompleteRegistration', {content_name:'Bản Đồ Nhân Quả Trong Tử Vi',value:199000,currency:'VND'}); }

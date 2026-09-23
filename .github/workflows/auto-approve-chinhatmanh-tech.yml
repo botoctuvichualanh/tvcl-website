@@ -1,0 +1,27 @@
+name: Auto-approve PRs from chinhatmanh-tech
+
+on:
+  pull_request_target:
+    types: [opened, reopened, synchronize, ready_for_review]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  approve:
+    if: >-
+      github.event.pull_request.user.login == 'chinhatmanh-tech' &&
+      github.event.pull_request.draft == false
+    runs-on: ubuntu-latest
+    steps:
+      - name: Approve trusted author's pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          gh api --method POST \
+            -H "Accept: application/vnd.github+json" \
+            "/repos/${GITHUB_REPOSITORY}/pulls/${PR_NUMBER}/reviews" \
+            -f event='APPROVE' \
+            -f body='Automatically approved for trusted author chinhatmanh-tech.'

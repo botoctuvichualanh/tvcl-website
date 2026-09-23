@@ -114,6 +114,7 @@ if(!demo&&['tuvichualanh.com','www.tuvichualanh.com'].includes(location.hostname
  let fbq=window.fbq;if(typeof fbq!=='function'){fbq=window.fbq=function(){fbq.callMethod?fbq.callMethod.apply(fbq,arguments):fbq.queue.push(arguments);};window._fbq=window._fbq||fbq;fbq.push=fbq;fbq.loaded=true;fbq.version='2.0';fbq.queue=[];const script=document.createElement('script');script.async=true;script.src='https://connect.facebook.net/en_US/fbevents.js';document.head.append(script);}
  fbq('init','285075021058385');fbq('track','PageView');
  try{const key='checkout:'+id;if(!sessionStorage.getItem(key)){fbq('track','InitiateCheckout',{content_name:offer.title,content_ids:[slug],content_type:'product',value:offer.value,currency:'VND'},{eventID:'checkout-'+id});sessionStorage.setItem(key,'1');}}catch(_){}
+ try{const pk='ping:'+id;if(!sessionStorage.getItem(pk)){fetch('https://script.google.com/macros/s/AKfycbwjloo8jSdLbjRa7PODE0U1TTiwiV2jViBcozII8hQ585wAyJSGu-miqEVCnXKIadSMTA/exec',{method:'POST',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify({action:'checkout',id}),keepalive:true}).catch(()=>{});sessionStorage.setItem(pk,'1');}}catch(_){}
 }
 })();
 </script></body></html>

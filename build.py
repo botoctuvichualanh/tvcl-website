@@ -720,35 +720,14 @@ def index_page():
       <button type="button" data-learning-filter="course" aria-pressed="false">Khóa học</button>
       <button type="button" data-learning-filter="event" aria-pressed="false">Sự kiện</button>
     </div>
-    <div class="learning-slider-controls" aria-label="Điều khiển danh sách khóa học">
+    <div class="learning-slider-controls" hidden aria-label="Điều khiển danh sách khóa học">
       <button type="button" data-slide-direction="-1" aria-label="Xem khóa học phía trước">←</button>
       <button type="button" data-slide-direction="1" aria-label="Xem khóa học tiếp theo">→</button>
     </div>
     <div class="learning-grid" tabindex="0" role="region" aria-label="Khóa học theo lịch khai giảng, cuộn ngang để xem thêm">
-      <article class="learning-card" data-learning-kind="event">
-        <a class="learning-art learning-art-healing" href="cung-phuc-duc/" aria-label="Xem khóa học Giải Mã Cung Phúc Đức" target="_blank" rel="noopener"><img src="cung-phuc-duc/assets/celestial-hero.png" alt="Bản đồ sao và hoa sen của khóa Giải Mã Cung Phúc Đức" loading="lazy" decoding="async"></a>
-        <div class="learning-card-body"><p class="learning-category">Sự kiện · Không cần nền tảng Tử Vi</p>
-          <h3><a href="cung-phuc-duc/" target="_blank" rel="noopener">Giải Mã Cung Phúc Đức</a></h3><p>Khám phá nền phúc, mối liên hệ với gia đình, dòng họ và đời sống tinh thần; học cách quán chiếu để vun bồi nội lực, tìm sự an trú từ bên trong.</p>
-          <div class="learning-date"><span class="learning-date-label">Khai giảng</span><strong>12/09</strong><span class="learning-date-detail">Lịch học: 12 – 14 – 15/09<br>19:30 – 22:30 · Học qua Zoom</span></div>
-          <a class="learning-link" href="cung-phuc-duc/" target="_blank" rel="noopener">Xem khóa học <span aria-hidden="true">↗</span><span class="learning-sr"> Giải Mã Cung Phúc Đức</span></a>
-        </div>
-      </article>
-      <article class="learning-card" data-learning-kind="course">
-        <a class="learning-art learning-art-s36" href="khoa-hoc/luan-nhanh-tu-vi/" aria-label="Xem khóa học Luận Nhanh Lá Số Tử Vi S36" target="_blank" rel="noopener"><img src="assets/img/luan-nhanh-lop-zoom.png" alt="Buổi học Zoom cùng cộng đồng Luận Nhanh Lá Số Tử Vi" loading="lazy" decoding="async"></a>
-        <div class="learning-card-body"><p class="learning-category">Lớp S36 · Dành cho người mới</p>
-          <h3><a href="khoa-hoc/luan-nhanh-tu-vi/" target="_blank" rel="noopener">Luận Nhanh Lá Số Tử Vi S36</a></h3><p>Từng bước lập, đọc và hiểu lá số của chính mình. Thực hành cùng lớp trong 5 buổi, 15 tiếng Zoom và học lại miễn phí.</p>
-          <div class="learning-date"><span class="learning-date-label">Khai giảng</span><strong><time datetime="2026-09-17">17/09</time></strong><span class="learning-date-detail">17, 18, 21, 22, 24/09 · 19h30–22h30<br>5 buổi · 15 tiếng Zoom · Học lại miễn phí</span></div>
-          <a class="learning-link" href="khoa-hoc/luan-nhanh-tu-vi/" target="_blank" rel="noopener">Xem khóa học <span aria-hidden="true">↗</span><span class="learning-sr"> Luận Nhanh Lá Số Tử Vi S36</span></a>
-        </div>
-      </article>
-      <article class="learning-card" data-learning-kind="course">
-        <a class="learning-art learning-art-foundation" href="luan-van-han/" aria-label="Xem khóa học Tử Vi Luận Vận Hạn" target="_blank" rel="noopener"><img src="luan-van-han/assets/cong-dong.jpg" alt="Cộng đồng Tử Vi Chữa Lành trong buổi gặp gỡ học viên" loading="lazy" decoding="async"></a>
-        <div class="learning-card-body"><p class="learning-category">Khóa học · Dành cho người đã biết Tử Vi</p>
-          <h3><a href="luan-van-han/" target="_blank" rel="noopener">Tử Vi Luận Vận Hạn</a></h3><p>Kết nối Nguyên Cục, Đại Vận và Tiểu Vận; nghiệm lý trên lá số của chính mình để hiểu nhịp chuyển cuộc đời và chủ động trước mỗi bước ngoặt.</p>
-          <div class="learning-date"><span class="learning-date-label">Khai giảng</span><strong>28/09</strong><span class="learning-date-detail">Tử Vi Luận Vận Hạn</span></div>
-          <a class="learning-link" href="luan-van-han/" target="_blank" rel="noopener">Xem khóa học <span aria-hidden="true">↗</span><span class="learning-sr"> Tử Vi Luận Vận Hạn</span></a>
-        </div>
-      </article>
+
+
+
       <article class="learning-card" data-learning-kind="course">
         <a class="learning-art learning-art-timing" href="khoa-hoc-tu-vi-bi-kip-chua-lanh/" aria-label="Xem khóa học Tử Vi Bí Kíp Chữa Lành" target="_blank" rel="noopener"><img src="khoa-hoc-tu-vi-bi-kip-chua-lanh/assets/og.png" alt="Tử Vi Bí Kíp Ứng Dụng Chữa Lành — Lá số là bản đồ, không phải bản án" loading="lazy" decoding="async"></a>
         <div class="learning-card-body"><p class="learning-category">Khóa học · Tử Vi, Tâm lý &amp; Đạo học</p>
@@ -758,6 +737,7 @@ def index_page():
         </div>
       </article>
     </div>
+    <p class="learning-empty" hidden>Chưa có sự kiện sắp diễn ra. Anh chị vui lòng quay lại sau.</p>
     <p class="learning-sr" id="learning-result" aria-live="polite" aria-atomic="true"></p>
   </div>
 </section>
@@ -766,6 +746,7 @@ def index_page():
   const section = document.getElementById('khoa-hoc-su-kien');
   const filters = section.querySelector('.learning-filters');
   filters.hidden = false;
+  section.querySelector('.learning-slider-controls').style.display = 'none';
   const slider = section.querySelector('.learning-grid');
   section.querySelectorAll('[data-slide-direction]').forEach(button => {{
     button.addEventListener('click', () => {{
@@ -782,9 +763,11 @@ def index_page():
     const kind = button.dataset.learningFilter;
     filters.querySelectorAll('button').forEach(item => item.setAttribute('aria-pressed', String(item === button)));
     section.querySelectorAll('[data-learning-kind]').forEach(item => {{ item.hidden = kind !== 'all' && !item.dataset.learningKind.split(' ').includes(kind); }});
-    section.querySelector('.learning-grid').hidden = false;
+    const visibleCount = slider.querySelectorAll('.learning-card:not([hidden])').length;
+    slider.hidden = visibleCount === 0;
+    section.querySelector('.learning-empty').hidden = visibleCount !== 0;
     slider.scrollLeft = 0;
-    section.querySelector('#learning-result').textContent = kind === 'event' ? 'Hiển thị sự kiện Giải Mã Cung Phúc Đức.' : kind === 'course' ? 'Hiển thị 3 khóa học.' : 'Hiển thị 1 sự kiện và 3 khóa học theo lịch khai giảng.';
+    section.querySelector('#learning-result').textContent = visibleCount ? 'Hiển thị ' + visibleCount + ' khóa học.' : 'Chưa có sự kiện sắp diễn ra.';
   }});
 }})();
 </script>

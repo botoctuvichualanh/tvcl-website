@@ -429,6 +429,9 @@ ul.subitem-list li a:hover{color:var(--blue);opacity:1;}
   font-size:16px;color:var(--gold-light);font-style:italic;
 }
 .site-footer .foot-meta{font-size:12.5px;opacity:.55;margin-top:8px;letter-spacing:.03em;}
+.site-footer .foot-links{margin:4px 0;}
+.site-footer .foot-links a{color:var(--gold-light);font-size:14px;text-decoration:underline;text-underline-offset:3px;}
+.site-footer .foot-links a:hover{color:var(--white);}
 
 @media (max-width:860px){
   .doc-layout{grid-template-columns:1fr;}
@@ -504,3 +507,19 @@ ul.subitem-list li a:hover{color:var(--blue);opacity:1;}
 @media(max-width:1000px){.learning-grid .learning-card{flex-basis:calc((100% - 24px)/2)}}
 @media(max-width:650px){.learning-grid .learning-card{flex-basis:88%}.learning-section .learning-grid{gap:16px}.learning-slider-controls{margin-bottom:12px}}
 .learning-section .learning-grid{contain:paint;max-width:100%}
+
+/* Contextual internal-link clusters for priority SEO guides. */
+.priority-guides{margin-bottom:64px;padding-bottom:64px;border-bottom:1px solid var(--line)}
+.priority-guides-grid,.related-guides-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.priority-guide-card,.related-guide-card{display:flex;flex-direction:column;gap:7px;padding:20px;border:1px solid var(--line);border-radius:6px;background:var(--white);color:var(--blue);transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease}
+.priority-guide-card:hover,.related-guide-card:hover{transform:translateY(-2px);border-color:var(--green-deep);box-shadow:0 10px 25px rgba(20,47,55,.08)}
+.priority-guide-card strong,.related-guide-card strong{font-family:"Cormorant Garamond",Georgia,serif;font-size:24px;line-height:1.1}
+.priority-guide-card span,.related-guide-card span{font-size:14px;line-height:1.55;color:var(--ink)}
+.related-guides{margin:48px 0 20px;padding:28px;background:var(--ivory);border-left:4px solid var(--green-deep)}
+.related-guides-kicker{margin:0 0 7px;color:var(--green-deep);font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
+.related-guides h2{margin:0 0 20px;font-size:30px}
+.related-guides-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.related-guide-card{padding:17px}
+.related-guide-card strong{font-size:21px}
+@media(max-width:900px){.priority-guides-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.related-guides-grid{grid-template-columns:1fr}}
+@media(max-width:560px){.priority-guides{margin-bottom:44px;padding-bottom:44px}.priority-guides-grid{grid-template-columns:1fr}.related-guides{padding:22px 18px}}

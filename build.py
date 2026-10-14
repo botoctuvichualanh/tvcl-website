@@ -78,6 +78,67 @@ DOC_META_OVERRIDES = {
     },
 }
 
+# Contextual internal-link clusters for the eight public SEO priority pages.
+# These links are intentionally separate from the global sidebar: they help
+# readers continue by topic and give search engines a clearer content graph.
+PRIORITY_GUIDES = [
+    ("05-12-cung", "12 Cung", "Hiểu 12 vùng đời sống được phản chiếu trên lá số."),
+    ("06-14-chinh-tinh", "14 Chính Tinh", "Khám phá 14 nguyên mẫu năng lượng cốt lõi."),
+    ("08-cat-tinh", "Cát Tinh", "Nhận diện nguồn lực và cách biến phước thành năng lực."),
+    ("07-hung-tinh", "Hung Tinh", "Hiểu năng lượng mạnh để thuần hóa thay vì sợ hãi."),
+    ("sao-tu-vi", "Sao Tử Vi", "Năng lượng lãnh đạo, trách nhiệm và khả năng quy tụ."),
+    ("sao-thien-co", "Sao Thiên Cơ", "Trí tuệ, khả năng thích nghi và bài học an định."),
+    ("sao-kinh-duong", "Sao Kình Dương", "Chuyển sức mạnh đối đầu thành quyết đoán có kỷ luật."),
+    ("sao-thien-khoi", "Sao Thiên Khôi", "Quý nhân, tinh thần cầu học và cơ hội trưởng thành."),
+]
+
+RELATED_GUIDES = {
+    "05-12-cung": ["06-14-chinh-tinh", "08-cat-tinh", "07-hung-tinh"],
+    "06-14-chinh-tinh": ["05-12-cung", "sao-tu-vi", "sao-thien-co"],
+    "07-hung-tinh": ["sao-kinh-duong", "05-12-cung", "06-14-chinh-tinh"],
+    "08-cat-tinh": ["sao-thien-khoi", "05-12-cung", "06-14-chinh-tinh"],
+    "sao-tu-vi": ["06-14-chinh-tinh", "05-12-cung", "sao-thien-co"],
+    "sao-thien-co": ["06-14-chinh-tinh", "05-12-cung", "sao-tu-vi"],
+    "sao-kinh-duong": ["07-hung-tinh", "05-12-cung", "sao-thien-khoi"],
+    "sao-thien-khoi": ["08-cat-tinh", "05-12-cung", "sao-kinh-duong"],
+}
+
+PRIORITY_GUIDE_BY_SLUG = {
+    slug: {"title": title, "desc": desc}
+    for slug, title, desc in PRIORITY_GUIDES
+}
+
+def related_guides_html(slug):
+    related = RELATED_GUIDES.get(slug)
+    if not related:
+        return ""
+    cards = "".join(
+        f'<a class="related-guide-card" href="{item}.html">'
+        f'<strong>{html.escape(PRIORITY_GUIDE_BY_SLUG[item]["title"])}</strong>'
+        f'<span>{html.escape(PRIORITY_GUIDE_BY_SLUG[item]["desc"])}</span></a>'
+        for item in related
+    )
+    return (
+        '<aside class="related-guides" aria-labelledby="related-guides-title">'
+        '<p class="related-guides-kicker">Đọc tiếp theo lộ trình</p>'
+        '<h2 id="related-guides-title">Hiểu lá số theo từng lớp</h2>'
+        f'<div class="related-guides-grid">{cards}</div></aside>'
+    )
+
+def priority_guides_home_html():
+    cards = "".join(
+        f'<a class="priority-guide-card" href="docs/{slug}.html">'
+        f'<strong>{html.escape(title)}</strong><span>{html.escape(desc)}</span></a>'
+        for slug, title, desc in PRIORITY_GUIDES
+    )
+    return (
+        '<div class="priority-guides" aria-labelledby="priority-guides-title">'
+        '<div class="section-kicker-wrap"><span class="kicker-label">Bắt đầu từ đây</span></div>'
+        '<h2 class="section-title" id="priority-guides-title">8 bài nền tảng để hiểu lá số</h2>'
+        '<p class="section-sub">Đi từ cấu trúc tổng quan đến từng ngôi sao tiêu biểu, theo cách dễ đọc và không định mệnh hóa.</p>'
+        f'<div class="priority-guides-grid">{cards}</div></div>'
+    )
+
 def encrypt_for_gate(html_str, password):
     """AES-256-GCM encrypt with a PBKDF2-derived key — decryptable in-browser
     via the Web Crypto API (see assets/js/protect.js). Fresh salt/iv per doc."""
@@ -420,6 +481,7 @@ def footer_html():
   <div class="container">
     <div class="foot-slogan">{html.escape(SLOGAN)}</div>
     <div class="foot-tagline">{html.escape(TAGLINE)}</div>
+    <div class="foot-links"><a href="/chinh-sach-bao-mat/">Chính sách bảo mật</a></div>
     <div class="foot-meta">© {COMMUNITY} · Knowledge Base v3.1.1</div>
   </div>
 </footer>'''
@@ -563,6 +625,7 @@ def doc_page(d):
     {"" if not meta_line else f'<div class="meta-box">{html.escape(meta_line)}</div>'}
     {quicknav}
     {body_block}
+    {related_guides_html(d["slug"])}
     <div class="doc-nav-links">{nav_bits[0]}{nav_bits[1]}</div>
   </main>
 </div>
@@ -713,8 +776,8 @@ def index_page():
 <section class="section learning-section" id="khoa-hoc-su-kien" aria-labelledby="learning-title">
   <div class="container">
     <div class="section-kicker-wrap"><span class="kicker-label">Học tập &amp; kết nối cùng Bộ Tộc</span></div>
-    <h2 class="section-title" id="learning-title">Khóa học &amp; Sự kiện sắp diễn ra</h2>
-    <p class="section-sub">Chọn một hành trình phù hợp để hiểu mình sâu hơn và cùng nhau thực hành.</p>
+    <h2 class="section-title" id="learning-title">Khóa học &amp; Sự kiện</h2>
+    <p class="section-sub">Các hành trình đang mở và đang diễn ra để bạn chọn lộ trình phù hợp.</p>
     <div class="learning-filters" role="group" aria-label="Lọc khóa học và sự kiện" hidden>
       <button type="button" data-learning-filter="all" aria-pressed="true">Tất cả</button>
       <button type="button" data-learning-filter="course" aria-pressed="false">Khóa học</button>
@@ -725,6 +788,14 @@ def index_page():
       <button type="button" data-slide-direction="1" aria-label="Xem khóa học tiếp theo">→</button>
     </div>
     <div class="learning-grid" tabindex="0" role="region" aria-label="Danh sách khóa học, cuộn ngang để xem thêm">
+      <article class="learning-card" data-learning-kind="course">
+        <a class="learning-art learning-art-timing" href="khoa-hoc/luan-nhanh-tu-vi/" aria-label="Xem khóa học Luận Nhanh Lá Số Tử Vi S37" target="_blank" rel="noopener"><img src="assets/img/luan-nhanh-og.png" alt="Khóa học Luận Nhanh Lá Số Tử Vi S37" loading="lazy" decoding="async"></a>
+        <div class="learning-card-body"><p class="learning-category">Khóa học · Tử Vi căn bản</p>
+          <h3><a href="khoa-hoc/luan-nhanh-tu-vi/" target="_blank" rel="noopener">Luận Nhanh Lá Số Tử Vi S37</a></h3><p>Lộ trình từng bước dành cho người mới, giúp bạn tự lập, đọc và hiểu những nét chính trong lá số của mình.</p>
+          <div class="learning-date"><span class="learning-date-label">Dự kiến khai giảng</span><strong><time datetime="2026-10-21">21/10/2026</time></strong><span class="learning-date-detail">5 buổi Zoom · Học lại miễn phí</span></div>
+          <a class="learning-link" href="khoa-hoc/luan-nhan-tu-vi/" target="_blank" rel="noopener">Xem khóa học <span aria-hidden="true">↗</span><span class="learning-sr"> Luận Nhanh Lá Số Tử Vi S37</span></a>
+        </div>
+      </article>
 
 
 
@@ -733,13 +804,6 @@ def index_page():
         <div class="learning-card-body"><p class="learning-category">Khóa học · Tử Vi ứng dụng</p>
           <h3><a href="/luan-van-han/" target="_blank" rel="noopener">Luận Vận Hạn Tử Vi</a></h3><p>Thấu hiểu dòng chảy cuộc đời, nghiệm lý vận hạn và chủ động chuẩn bị trước những bước ngoặt trên lá số.</p>
           <a class="learning-link" href="/luan-van-han/" target="_blank" rel="noopener">Xem khóa học <span aria-hidden="true">↗</span><span class="learning-sr"> Luận Vận Hạn Tử Vi</span></a>
-        </div>
-      </article>
-      <article class="learning-card" data-learning-kind="course">
-        <a class="learning-art" href="/khoa-hoc/luan-nhanh-tu-vi/" aria-label="Xem khóa học Luận Nhanh Lá Số Tử Vi" target="_blank" rel="noopener"><img src="/assets/img/luan-nhanh-og.png" alt="Khóa học Luận Nhanh Lá Số Tử Vi" loading="lazy" decoding="async"></a>
-        <div class="learning-card-body"><p class="learning-category">Khóa học · Tử Vi căn bản</p>
-          <h3><a href="/khoa-hoc/luan-nhanh-tu-vi/" target="_blank" rel="noopener">Luận Nhanh Lá Số Tử Vi</a></h3><p>Từng bước lập, đọc và hiểu lá số của chính mình cùng Bộ Tộc Tử Vi Chữa Lành.</p>
-          <a class="learning-link" href="/khoa-hoc/luan-nhanh-tu-vi/" target="_blank" rel="noopener">Xem khóa học <span aria-hidden="true">↗</span><span class="learning-sr"> Luận Nhanh Lá Số Tử Vi</span></a>
         </div>
       </article>
       <article class="learning-card" data-learning-kind="course">
@@ -753,11 +817,12 @@ def index_page():
         <a class="learning-art learning-art-timing" href="khoa-hoc-tu-vi-bi-kip-chua-lanh/" aria-label="Xem khóa học Tử Vi Bí Kíp Chữa Lành" target="_blank" rel="noopener"><img src="khoa-hoc-tu-vi-bi-kip-chua-lanh/assets/og.png" alt="Tử Vi Bí Kíp Ứng Dụng Chữa Lành — Lá số là bản đồ, không phải bản án" loading="lazy" decoding="async"></a>
         <div class="learning-card-body"><p class="learning-category">Khóa học · Tử Vi, Tâm lý &amp; Đạo học</p>
           <h3><a href="khoa-hoc-tu-vi-bi-kip-chua-lanh/" target="_blank" rel="noopener">Tử Vi Bí Kíp Chữa Lành</a></h3><p>Dùng lá số như một bản đồ tâm thức để nhận diện niềm tin lõi, những mô thức đang lặp lại và tìm hướng chuyển hóa qua Tử Vi, Tâm lý và Đạo học.</p>
+          <div class="learning-date"><span class="learning-date-label">Đang diễn ra</span><strong><time datetime="2026-10-08">08/10</time>–<time datetime="2026-11-05">05/11/2026</time></strong><span class="learning-date-detail">5 tối Thứ Năm · Học qua Zoom</span></div>
           <a class="learning-link" href="khoa-hoc-tu-vi-bi-kip-chua-lanh/" target="_blank" rel="noopener">Xem khóa học <span aria-hidden="true">↗</span><span class="learning-sr"> Tử Vi Bí Kíp Chữa Lành</span></a>
         </div>
       </article>
     </div>
-    <p class="learning-empty" hidden>Chưa có sự kiện sắp diễn ra. Anh chị vui lòng quay lại sau.</p>
+    <p class="learning-empty" hidden>Chưa có chương trình phù hợp. Anh chị vui lòng quay lại sau.</p>
     <p class="learning-sr" id="learning-result" aria-live="polite" aria-atomic="true"></p>
   </div>
 </section>
@@ -787,7 +852,7 @@ def index_page():
     slider.hidden = visibleCount === 0;
     section.querySelector('.learning-empty').hidden = visibleCount !== 0;
     slider.scrollLeft = 0;
-    section.querySelector('#learning-result').textContent = visibleCount ? 'Hiển thị ' + visibleCount + ' khóa học.' : 'Chưa có sự kiện sắp diễn ra.';
+    section.querySelector('#learning-result').textContent = visibleCount ? 'Hiển thị ' + visibleCount + ' khóa học.' : 'Chưa có chương trình phù hợp.';
   }});
 }})();
 </script>
@@ -808,6 +873,7 @@ def index_page():
 </section>
 <section class="section" id="kham-pha">
   <div class="container">
+    {priority_guides_home_html()}
     <div class="section-kicker-wrap"><span class="kicker-label">Thư Viện Tri Thức TVCL</span></div>
     <h2 class="section-title">Khám phá Tàng Kinh Các TVCL</h2>
     <p class="section-sub">Toàn bộ hệ tri thức nền tảng của Bộ Tộc — từ triết lý gốc đến chi tiết từng lá số</p>
@@ -826,6 +892,15 @@ def sitemap_xml():
     # Không đưa các trang cần mật khẩu (nội dung mã hoá, crawler không đọc
     # được) vào sitemap — tránh lãng phí crawl budget / tín hiệu thin content.
     urls = [(f"{SITE_URL}/", "1.0")]
+    urls += [
+        (f"{SITE_URL}/khoa-hoc/luan-nhanh-tu-vi/", "0.9"),
+        (f"{SITE_URL}/khoa-hoc-tu-vi-bi-kip-chua-lanh/", "0.9"),
+        (f"{SITE_URL}/cung-phuc-duc/", "0.9"),
+        (f"{SITE_URL}/luan-van-han/", "0.9"),
+        (f"{SITE_URL}/khoa-hoc-tu-vi-chua-lanh/", "0.9"),
+        (f"{SITE_URL}/su-kien-ban-do-nhan-qua-trong-tu-vi/", "0.9"),
+        (f"{SITE_URL}/chinh-sach-bao-mat/", "0.5"),
+    ]
     urls += [(f"{SITE_URL}/docs/{d['slug']}.html", "0.8") for d in FLAT if d["cat"]["id"] not in PROTECTED_CATEGORY_IDS]
     items = "\n".join(
         f"  <url>\n    <loc>{html.escape(u)}</loc>\n    <priority>{p}</priority>\n  </url>"

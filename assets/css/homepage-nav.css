@@ -1,0 +1,14 @@
+/* Four compact navigation groups for the TVCL homepage */
+nav.main-nav{display:flex;align-items:center;gap:10px 20px;flex-wrap:wrap;padding:2px 0;}
+nav.main-nav>.nav-home,nav.main-nav>.nav-group>summary{display:flex;align-items:center;gap:7px;min-height:36px;color:var(--ink);opacity:.78;font-size:12px;font-weight:600;letter-spacing:.055em;line-height:1.3;text-transform:uppercase;white-space:nowrap;}
+nav.main-nav>.nav-home:hover,nav.main-nav>.nav-group>summary:hover,nav.main-nav>.nav-group[open]>summary{color:var(--blue);opacity:1;text-decoration:none;}
+nav.main-nav>.nav-group{position:relative;}
+nav.main-nav>.nav-group>summary{cursor:pointer;list-style:none;}
+nav.main-nav>.nav-group>summary::-webkit-details-marker{display:none;}
+nav.main-nav>.nav-group>summary::after{content:"";width:6px;height:6px;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:rotate(45deg) translateY(-2px);transition:transform .18s ease;}
+nav.main-nav>.nav-group[open]>summary::after{transform:rotate(225deg) translate(-1px,-1px);}
+nav.main-nav .nav-menu{position:absolute;z-index:80;top:calc(100% + 5px);left:0;display:grid;min-width:255px;max-width:min(340px,calc(100vw - 32px));padding:8px;border:1px solid var(--line);border-radius:12px;background:var(--white);box-shadow:0 14px 34px rgba(14,42,36,.15);}
+nav.main-nav .nav-menu a{display:block;padding:10px 12px;border-radius:7px;color:var(--ink);font-size:14px;font-weight:500;letter-spacing:0;line-height:1.45;opacity:1;text-transform:none;white-space:normal;}
+nav.main-nav .nav-menu a:hover,nav.main-nav .nav-menu a:focus-visible{background:rgba(33,128,133,.1);color:var(--blue);text-decoration:none;}
+nav.main-nav>.nav-home:focus-visible,nav.main-nav>.nav-group>summary:focus-visible{outline:2px solid var(--blue);outline-offset:3px;border-radius:4px;}
+@media(max-width:860px){nav.main-nav{display:grid;width:100%;grid-template-columns:repeat(2,minmax(0,1fr));align-items:start;gap:4px 8px;padding:0;}nav.main-nav>.nav-home,nav.main-nav>.nav-group>summary{min-height:40px;padding:5px 8px;white-space:normal;font-size:11px;}nav.main-nav>.nav-group>summary{justify-content:space-between;}nav.main-nav>.nav-group:nth-of-type(even) .nav-menu{left:auto;right:0;}nav.main-nav .nav-menu{top:calc(100% + 2px);min-width:230px;max-height:min(65vh,420px);overflow:auto;}}

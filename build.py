@@ -700,7 +700,7 @@ def index_page():
             doc_nav_entry(next(x for x in FLAT if x["path"] == entry[0]), active_slug=None, prefix="docs/")
             for entry in cat["docs"]
         )
-        lock_badge = ' <span class="lock-tag" title="Cần mật khẩu để đọc">🔒 Cần mật khẩu</span>' if cat["id"] in PROTECTED_CATEGORY_IDS else ""
+        lock_badge = ' <span class="lock-tag" title="Dành riêng cho học viên lớp TVCL">🔒 Dành riêng cho học viên lớp TVCL</span>' if cat["id"] in PROTECTED_CATEGORY_IDS else ""
         accent = cat.get("accent", "blue")
         cat_blocks.append(f'''<div class="cat-card cat-accent-{accent}" id="{cat["id"]}">
       <h3>{html.escape(cat["name"])}{lock_badge}</h3>

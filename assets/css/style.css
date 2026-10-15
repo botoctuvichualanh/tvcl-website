@@ -227,15 +227,18 @@ nav.main-nav a.active{color:var(--blue);opacity:1;font-weight:600;}
 .band-dark .cat-card::before{color:var(--white);opacity:.10;}
 .band-dark .cat-card h3{color:var(--white);}
 .band-dark .cat-card p{color:var(--sage);opacity:.9;}
-.band-dark .channel-card.tone-blue{background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.16);}
-.band-dark .channel-card.tone-green{background:rgba(191,217,207,.10);border-color:rgba(191,217,207,.22);}
-.band-dark .channel-card.tone-teal{background:rgba(213,180,102,.10);border-color:rgba(213,180,102,.24);}
-.band-dark .channel-list li{border-bottom-color:rgba(255,255,255,.14);}
-.band-dark .channel-list a{color:var(--white);opacity:.92;}
-.band-dark .channel-list a:hover{color:var(--gold-light);}
-.band-dark .channel-note{border-top-color:rgba(255,255,255,.18);color:var(--sage);}
-.band-dark .channel-note-heading{color:var(--gold-light);}
-.band-dark .channel-note-contact{opacity:.8;}
+.band-dark .channel-card.tone-blue{background:#E3ECE8;border-color:#9BB8AE;border-top-color:#6D9B8C;}
+.band-dark .channel-card.tone-green{background:#D8E8DD;border-color:#9AB7A2;border-top-color:#5F9275;}
+.band-dark .channel-card.tone-teal{background:#F1E4C8;border-color:#C7A96A;border-top-color:var(--gold);}
+.band-dark .channel-card::before{color:var(--blue);opacity:.08;}
+.band-dark .channel-card h3{color:var(--blue);}
+.band-dark .channel-card p{color:var(--ink);opacity:1;}
+.band-dark .channel-list li{border-bottom-color:rgba(13,59,50,.18);}
+.band-dark .channel-list a{color:var(--ink);opacity:1;}
+.band-dark .channel-list a:hover{color:var(--teal-deep);}
+.band-dark .channel-note{border-top-color:rgba(13,59,50,.22);color:var(--ink);}
+.band-dark .channel-note-heading{color:var(--gold-deep);}
+.band-dark .channel-note-contact{opacity:.78;}
 
 /* ---- Philosophy quote band (Triết Lý Tử Vi Chữa Lành) ---- */
 .philosophy-section{text-align:center;}

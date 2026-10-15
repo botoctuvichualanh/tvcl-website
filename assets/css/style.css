@@ -526,3 +526,32 @@ ul.subitem-list li a:hover{color:var(--blue);opacity:1;}
 .related-guide-card strong{font-size:21px}
 @media(max-width:900px){.priority-guides-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.related-guides-grid{grid-template-columns:1fr}}
 @media(max-width:560px){.priority-guides{margin-bottom:44px;padding-bottom:44px}.priority-guides-grid{grid-template-columns:1fr}.related-guides{padding:22px 18px}}
+
+
+
+/* ---- Tàng Kinh Các: nền riêng, đậm và dễ đọc cho từng nhóm ---- */
+#kham-pha .cat-grid > .cat-card{
+  background:var(--library-bg);color:var(--library-text);
+  border-color:var(--library-border);border-top:4px solid var(--library-accent);
+  box-shadow:0 8px 22px rgba(8,24,22,.16);
+}
+#kham-pha .cat-grid > .cat-card::before{color:var(--library-accent);opacity:.16;}
+#kham-pha .cat-grid > .cat-card h3{color:var(--library-accent);}
+#kham-pha .cat-grid > .cat-card p{color:var(--library-muted);opacity:1;}
+#kham-pha .cat-grid > .cat-card .doc-row a,
+#kham-pha .cat-grid > .cat-card ul.subitem-list li a{color:var(--library-text);opacity:1;}
+#kham-pha .cat-grid > .cat-card .doc-row a:hover,
+#kham-pha .cat-grid > .cat-card ul.subitem-list li a:hover{color:var(--library-accent);opacity:1;}
+#kham-pha .cat-grid > .cat-card .arrow-mark,
+#kham-pha .cat-grid > .cat-card .arrow-spacer{color:var(--library-accent);}
+#kham-pha .cat-grid > .cat-card ul.subitem-list{border-left-color:var(--library-border);}
+#kham-pha .cat-grid > .cat-card:nth-child(1){--library-bg:#153E38;--library-border:#32675D;--library-text:#F0F6F1;--library-muted:#C9DED5;--library-accent:#E9C978;}
+#kham-pha .cat-grid > .cat-card:nth-child(2){--library-bg:#183D55;--library-border:#355F78;--library-text:#EFF6FA;--library-muted:#C9DCE8;--library-accent:#9FE0D5;}
+#kham-pha .cat-grid > .cat-card:nth-child(3){--library-bg:#24443A;--library-border:#456D5D;--library-text:#F0F6EE;--library-muted:#D0E0D0;--library-accent:#E7C77E;}
+#kham-pha .cat-grid > .cat-card:nth-child(4){--library-bg:#433452;--library-border:#695477;--library-text:#F6F0F8;--library-muted:#DED1E7;--library-accent:#D7B9F0;}
+#kham-pha .cat-grid > .cat-card:nth-child(5){--library-bg:#1D4650;--library-border:#39707A;--library-text:#EFF8F6;--library-muted:#C8E2DE;--library-accent:#93E0D1;}
+#kham-pha .cat-grid > .cat-card:nth-child(6){--library-bg:#4A3632;--library-border:#79574A;--library-text:#FFF4EB;--library-muted:#EAD3C6;--library-accent:#F0C77F;}
+#kham-pha .cat-grid > .cat-card:nth-child(7){--library-bg:#414326;--library-border:#707342;--library-text:#F8F6E7;--library-muted:#DEDFC1;--library-accent:#E7DD83;}
+#kham-pha .cat-grid > .cat-card:nth-child(8){--library-bg:#482F43;--library-border:#704B69;--library-text:#FBF1F7;--library-muted:#E5D1E0;--library-accent:#F0BBD7;}
+#kham-pha .cat-grid > .cat-card:nth-child(9){--library-bg:#293F5B;--library-border:#486487;--library-text:#F1F5FC;--library-muted:#CEDAEE;--library-accent:#B8D5FF;}
+@media(max-width:650px){#kham-pha .cat-grid > .cat-card{box-shadow:0 6px 18px rgba(8,24,22,.14);}}

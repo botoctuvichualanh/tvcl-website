@@ -469,9 +469,30 @@ def header_html(depth=""):
         <span class="sub-title">Bộ Tộc Tử Vi Chữa Lành</span>
       </div>
     </a>
-    <nav class="main-nav">
-      <a href="{depth}index.html">Trang chủ</a>
-      {"".join(f'<a href="{depth}index.html#{c["id"]}">{html.escape(c["name"])}</a>' for c in CATEGORIES)}
+    <nav class="main-nav" aria-label="Điều hướng chính">
+      <a class="nav-home" href="{depth}index.html">Trang chủ</a>
+      <details class="nav-group"><summary>Giới thiệu TVCL</summary><div class="nav-menu">
+        <a href="{depth}index.html#gioi-thieu">Giới thiệu TVCL</a>
+        <a href="{depth}index.html#nen-tang">Nền tảng &amp; Triết lý</a>
+      </div></details>
+      <details class="nav-group"><summary>Tri thức Tử Vi cơ bản</summary><div class="nav-menu">
+        <a href="{depth}index.html#tri-thuc-la-so">Tri thức lá số</a>
+        <a href="{depth}index.html#tinh-hoa">Tinh Hoa TVCL</a>
+        <a href="{depth}index.html#toan-thu">Tử Vi Đẩu Số Toàn Thư</a>
+      </div></details>
+      <details class="nav-group"><summary>Tri thức chuyên sâu TVCL</summary><div class="nav-menu">
+        <a href="{depth}index.html#lieu-phap-tam-ly">Tử Vi &amp; Tâm lý học</a>
+        <a href="{depth}index.html#tu-vi-dao-hoc">Tử Vi &amp; Đạo học</a>
+        <a href="{depth}index.html#ban-do-nhan-qua">Bản đồ nhân quả trong Tử Vi</a>
+        <a href="{depth}index.html#tai-loc">Tử Vi Chữa Lành Tài Lộc</a>
+      </div></details>
+      <details class="nav-group"><summary>Khóa học</summary><div class="nav-menu">
+        <a href="{depth}index.html#khoa-hoc-su-kien">Khóa học &amp; sự kiện sắp diễn ra</a>
+        <a href="/khoa-hoc/luan-nhanh-tu-vi/">Luận Nhanh</a>
+        <a href="/luan-van-han/">Luận Vận Hạn</a>
+        <a href="/khoa-hoc-tu-vi-chua-lanh/">Tử Vi Chữa Lành</a>
+        <a href="/khoa-hoc-tu-vi-bi-kip-chua-lanh/">Tử Vi Bí Kíp Chữa Lành</a>
+      </div></details>
     </nav>
   </div>
 </header>'''
@@ -614,6 +635,7 @@ def doc_page(d):
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&family=Noto+Serif:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../assets/css/style.css?v=20261015-noto-serif">
+<link rel="stylesheet" href="../assets/css/homepage-nav.css?v=20261015-nav-groups">
 {protect_script}
 </head>
 <body>
@@ -754,6 +776,7 @@ def index_page():
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&family=Noto+Serif:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css?v=20261015-noto-serif">
+<link rel="stylesheet" href="assets/css/homepage-nav.css?v=20261015-nav-groups">
 </head>
 <body>
 {header_html(depth="")}
@@ -932,6 +955,7 @@ def not_found_page():
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&family=Noto+Serif:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css?v=20261015-noto-serif">
+<link rel="stylesheet" href="assets/css/homepage-nav.css?v=20261015-nav-groups">
 </head>
 <body>
 {header_html(depth="")}

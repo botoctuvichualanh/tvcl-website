@@ -613,7 +613,7 @@ def doc_page(d):
 }, ensure_ascii=False)}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../assets/css/style.css?v=20261015-library-tabs">
+<link rel="stylesheet" href="../assets/css/style.css?v=20261015-library-tabs-light">
 {protect_script}
 </head>
 <body>
@@ -753,7 +753,7 @@ def index_page():
 }, ensure_ascii=False)}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css?v=20261015-library-tabs">
+<link rel="stylesheet" href="assets/css/style.css?v=20261015-library-tabs-light">
 </head>
 <body>
 {header_html(depth="")}
@@ -931,7 +931,7 @@ def not_found_page():
 {GA_SNIPPET}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css?v=20261015-library-tabs">
+<link rel="stylesheet" href="assets/css/style.css?v=20261015-library-tabs-light">
 </head>
 <body>
 {header_html(depth="")}

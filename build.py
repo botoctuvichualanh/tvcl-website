@@ -474,6 +474,7 @@ def header_html(depth=""):
       <details class="nav-group"><summary>Giới thiệu TVCL</summary><div class="nav-menu">
         <a href="{depth}index.html#gioi-thieu">Giới thiệu TVCL</a>
         <a href="{depth}index.html#nen-tang">Nền tảng &amp; Triết lý</a>
+        <a href="/tham-van-quan-trung/">Tham vấn cùng Quán Trung</a>
       </div></details>
       <details class="nav-group"><summary>Tri thức Tử Vi cơ bản</summary><div class="nav-menu">
         <a href="{depth}index.html#tri-thuc-la-so">Tri thức lá số</a>
@@ -923,6 +924,7 @@ def sitemap_xml():
         (f"{SITE_URL}/luan-van-han/", "0.9"),
         (f"{SITE_URL}/khoa-hoc-tu-vi-chua-lanh/", "0.9"),
         (f"{SITE_URL}/su-kien-ban-do-nhan-qua-trong-tu-vi/", "0.9"),
+        (f"{SITE_URL}/tham-van-quan-trung/", "0.9"),
         (f"{SITE_URL}/chinh-sach-bao-mat/", "0.5"),
     ]
     urls += [(f"{SITE_URL}/docs/{d['slug']}.html", "0.8") for d in FLAT if d["cat"]["id"] not in PROTECTED_CATEGORY_IDS]

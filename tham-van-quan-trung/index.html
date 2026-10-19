@@ -320,6 +320,7 @@
               <div class="q-form-field"><label for="q-phone">Số điện thoại Zalo <span>*</span></label><input id="q-phone" name="phone" type="tel" autocomplete="tel" required maxlength="30" placeholder="Số điện thoại bạn dùng trên Zalo"></div>
               <div class="q-form-field"><label for="q-birthday">Ngày sinh dương lịch <span>*</span></label><input id="q-birthday" name="birthday" type="date" required><span class="q-form-hint">Vui lòng điền ngày sinh thật, chính xác.</span></div>
               <div class="q-form-field"><label for="q-birthtime">Giờ sinh <span>*</span></label><input id="q-birthtime" name="birthTime" type="text" required maxlength="100" placeholder="Ví dụ: 14:30 hoặc khoảng 14:00–15:00"><span class="q-form-hint">Nếu chỉ nhớ khoảng giờ, bạn ghi rõ khoảng thời gian.</span></div>
+              <div class="q-form-field"><label for="q-availability">Lịch rảnh bạn có thể tham vấn với thầy Quán Trung <span>*</span></label><input id="q-availability" name="availability" type="text" required maxlength="300" placeholder="Ví dụ: Thứ Hai, 9:00–10:30"><span class="q-form-hint">Thời gian tham vấn từ 9:00 đến 15:00; mỗi ca kéo dài 1–1,5 tiếng. Ghi ngày và khung giờ thuận tiện với bạn.</span></div>
               <div class="q-form-field"><label for="q-topic">Điều bạn muốn tham vấn <span>*</span></label><textarea id="q-topic" name="topic" required maxlength="3000" placeholder="Chia sẻ ngắn gọn vấn đề hoặc khía cạnh bạn muốn hiểu rõ hơn"></textarea></div>
               <fieldset class="q-service-options"><legend>Dịch vụ bạn muốn đăng ký <span>*</span></legend>
                 <label class="q-service-choice"><input type="radio" name="serviceChoice" required value="Tử Vi 1 tiếng (1,5 triệu)" data-amount="1.500.000đ"><span><strong>Tử Vi 1 tiếng · 1.500.000đ</strong><span>Tham vấn Tử Vi Chữa Lành</span></span></label>
@@ -379,7 +380,9 @@
     document.getElementById('q-google-phone').value = String(values.get('phone') || '').trim();
     document.getElementById('q-google-birthday').value = day && month && year ? `${day}/${month}/${year}` : birthday;
     document.getElementById('q-google-birthtime').value = String(values.get('birthTime') || '').trim();
-    document.getElementById('q-google-topic').value = String(values.get('topic') || '').trim();
+    const topic = String(values.get('topic') || '').trim();
+    const availability = String(values.get('availability') || '').trim();
+    document.getElementById('q-google-topic').value = `${topic}\n\nLịch rảnh có thể tham vấn: ${availability}`;
     document.getElementById('q-google-service').value = chosenService?.value || '';
     document.getElementById('q-payment-service').textContent = chosenService?.value || '—';
     document.getElementById('q-payment-amount').textContent = chosenService?.dataset.amount || '—';

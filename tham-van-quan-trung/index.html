@@ -56,6 +56,21 @@
     .q-trust-row{display:flex;justify-content:center;gap:clamp(18px,4vw,58px);flex-wrap:wrap;color:#53687a;font-size:var(--q-small);font-weight:600}
     .q-trust-row span{display:flex;align-items:center;gap:8px}
     .q-trust-row i{font-style:normal;color:#5eaa8b;font-size:17px}
+    .q-principles{max-width:900px;margin:20px auto 0;border:1px solid #dce8ed;border-radius:12px;background:#f8fbfc;overflow:hidden}
+    .q-principles summary{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:17px 20px;color:#315d83;cursor:pointer;list-style:none}
+    .q-principles summary::-webkit-details-marker{display:none}
+    .q-principles summary:focus-visible{outline:3px solid #58a6a2;outline-offset:-4px;border-radius:12px}
+    .q-principles-summary{display:grid;gap:3px}
+    .q-principles-summary strong{font-size:17px}
+    .q-principles-summary span{font-size:var(--q-small);font-weight:400;color:#5d7182}
+    .q-principles-toggle{flex:none;color:#397fbd;font-size:15px;font-weight:700}
+    .q-principles-toggle::after{content:"⌄";display:inline-block;margin-left:8px;font-size:20px;transition:transform .2s}
+    .q-principles[open] .q-principles-toggle::after{transform:rotate(180deg)}
+    .q-principles-content{display:grid;grid-template-columns:1fr 1fr;gap:30px;padding:4px 20px 20px;border-top:1px solid #e1ebf0}
+    .q-principles-content h3{margin:16px 0 10px;color:#287c8e;font-size:18px}
+    .q-principles-content ol{margin:0;padding-left:22px;color:#4e6477;font-size:var(--q-small);line-height:1.65}
+    .q-principles-content li+li{margin-top:8px}
+    .q-principles-content strong{color:#315d83}
     .q-section{padding:88px 0}
     .q-section h2,.q-form-head h2{font-size:clamp(36px,4.2vw,52px);margin:11px 0 17px;color:#2d659d}
     .q-lede{max-width:710px;color:#53687a;font-size:16px;margin:0}
@@ -191,7 +206,7 @@
     .q-footer a{color:#397fbd;font-weight:600}
     @media(max-width:900px){.site-header-inner{flex-direction:column;align-items:flex-start}}
     @media(max-width:850px){.q-hero-grid,.q-about-grid,.q-form-layout,.q-tvcl-grid{grid-template-columns:1fr;gap:32px}.q-hero{padding:62px 0}.q-portrait img{height:min(540px,105vw)}.q-services-head{display:block}.q-services-head .q-lede{margin-top:12px}.q-form-head{position:static}.q-service-grid{grid-template-columns:1fr}.q-service{min-height:auto}.q-about-grid{gap:28px}}
-    @media(max-width:600px){.q-container{width:min(100% - 28px,1120px)}.q-section{padding:62px 0}.q-hero h1{font-size:clamp(44px,12vw,53px)}.q-slogan{font-size:16px}.q-trust-row{justify-content:flex-start;gap:10px 18px}.q-trust-row span{font-size:var(--q-micro)}.q-steps{grid-template-columns:1fr}.q-step+.q-step{border-left:0;border-top:1px solid var(--q-line)}.q-form-section{padding:60px 0}.q-form-stage,.q-payment-stage{padding:21px}.q-payment-amount,.q-bank-row{align-items:flex-start;flex-direction:column;gap:4px}.q-bank-row strong{text-align:left}.q-moment{grid-template-columns:1fr;gap:4px}.q-timeline{padding-left:23px}.q-moment::before{left:-29px}.q-story-note{margin:28px 0 0 0}.q-course-list{grid-template-columns:1fr}.brand-lockup .tvcl-logo{width:58px;height:58px}.q-service{padding:25px 22px}}
+    @media(max-width:600px){.q-container{width:min(100% - 28px,1120px)}.q-section{padding:62px 0}.q-hero h1{font-size:clamp(44px,12vw,53px)}.q-slogan{font-size:16px}.q-trust-row{justify-content:flex-start;gap:10px 18px}.q-trust-row span{font-size:var(--q-micro)}.q-principles{margin-top:16px}.q-principles summary{align-items:flex-start;padding:15px}.q-principles-summary strong{font-size:16px}.q-principles-toggle{font-size:14px}.q-principles-content{grid-template-columns:1fr;gap:8px;padding:4px 15px 16px}.q-principles-content h3{margin-top:14px}.q-steps{grid-template-columns:1fr}.q-step+.q-step{border-left:0;border-top:1px solid var(--q-line)}.q-form-section{padding:60px 0}.q-form-stage,.q-payment-stage{padding:21px}.q-payment-amount,.q-bank-row{align-items:flex-start;flex-direction:column;gap:4px}.q-bank-row strong{text-align:left}.q-moment{grid-template-columns:1fr;gap:4px}.q-timeline{padding-left:23px}.q-moment::before{left:-29px}.q-story-note{margin:28px 0 0 0}.q-course-list{grid-template-columns:1fr}.brand-lockup .tvcl-logo{width:58px;height:58px}.q-service{padding:25px 22px}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.q-btn{transition:none}}
   </style>
 </head>
@@ -269,7 +284,28 @@
     </section>
 
     <section class="q-trust" aria-label="Nguyên tắc tham vấn">
-      <div class="q-container q-trust-row"><span><i>✦</i> Tôn trọng trải nghiệm riêng</span><span><i>✦</i> Không định mệnh hóa lá số</span><span><i>✦</i> Hướng đến lựa chọn có trách nhiệm</span></div>
+      <div class="q-container">
+        <div class="q-trust-row"><span><i>✦</i> Tôn trọng trải nghiệm riêng</span><span><i>✦</i> Không định mệnh hóa lá số</span><span><i>✦</i> Hướng đến lựa chọn có trách nhiệm</span></div>
+        <details class="q-principles">
+          <summary><span class="q-principles-summary"><strong>Nguyên tắc luận giải: 5 KHÔNG – 5 LUÔN</strong><span>Lá số là bản đồ khuynh hướng; bạn luôn giữ quyền tự quyết.</span></span><span class="q-principles-toggle">Xem chi tiết</span></summary>
+          <div class="q-principles-content">
+            <section aria-labelledby="q-principles-no"><h3 id="q-principles-no">5 KHÔNG</h3><ol>
+              <li><strong>Không phán xét định mệnh:</strong> không xem lá số như bản án cuộc đời.</li>
+              <li><strong>Không gieo sợ hãi:</strong> không dùng hung tinh, vận hạn hay nghiệp để tạo lệ thuộc.</li>
+              <li><strong>Không bịa đặt:</strong> không tự thêm dữ kiện, sự kiện hay động cơ chưa được xác minh.</li>
+              <li><strong>Không thay thế chuyên gia:</strong> không chẩn đoán hay thay tư vấn y tế, tâm lý, pháp lý và tài chính chuyên môn.</li>
+              <li><strong>Không kết luận tuyệt đối:</strong> diễn đạt theo khuynh hướng, điều kiện và mức độ chắc chắn.</li>
+            </ol></section>
+            <section aria-labelledby="q-principles-always"><h3 id="q-principles-always">5 LUÔN</h3><ol>
+              <li><strong>Luôn trao quyền:</strong> bạn giữ quyền cân nhắc và quyết định hướng đi của mình.</li>
+              <li><strong>Luôn nhìn nhiều mặt:</strong> cùng nhận diện mặt sáng, mặt tối và khả năng trưởng thành.</li>
+              <li><strong>Luôn kết nối với trải nghiệm:</strong> nhìn cảm xúc, cơ thể và mô thức khi có dữ kiện.</li>
+              <li><strong>Luôn hướng đến thực hành:</strong> tìm hành động cụ thể, phù hợp và an toàn.</li>
+              <li><strong>Luôn giữ sự từ bi và rõ ràng:</strong> thực tế, không phán xét hay áp đặt.</li>
+            </ol></section>
+          </div>
+        </details>
+      </div>
     </section>
 
     <section class="q-section" id="ve-quan-trung">

@@ -18,22 +18,22 @@
   <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../assets/css/style.css?v=20261015-channel-colors">
   <style>
-    :root{--q-ink:#243447;--q-blue:#4A8FD4;--q-blue-soft:#DCEAF7;--q-green:#6FB496;--q-paper:#F7F5F0;--q-line:#d9e3eb;--q-white:#fff;--q-text:16px;--q-small:14px;--q-micro:13px}
+    :root{--q-ink:#243447;--q-blue:#286BA7;--q-blue-soft:#DCEAF7;--q-green:#39785F;--q-paper:#F7F4EC;--q-line:#d9e3eb;--q-white:#fff;--q-text:16px;--q-small:14px;--q-micro:13px}
     html{scroll-behavior:smooth;scroll-padding-top:86px}
     body{font-family:"Be Vietnam Pro",sans-serif;color:var(--q-ink);background:var(--q-white);line-height:1.75}
     .q-wrap{overflow:hidden}
     .q-container{width:min(1120px,calc(100% - 40px));margin-inline:auto}
     .site-header{background:#fff;border-bottom:1px solid var(--q-line)}
     .site-header-inner{max-width:1120px;flex-direction:row;align-items:center;gap:20px}
-    .brand-lockup .main-title{font-family:"Be Vietnam Pro",sans-serif;font-size:19px;color:#397dbb}
+    .brand-lockup .main-title{font-family:"Be Vietnam Pro",sans-serif;font-size:19px;color:var(--q-blue)}
     .brand-lockup .sub-title{color:#587087;opacity:1;font-size:var(--q-micro)}
     .brand-lockup .tvcl-logo{display:block;width:68px;height:68px;object-fit:contain;background:#fff;border-radius:50%}
     .main-nav{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:5px 17px}
     .main-nav a{font-family:"Be Vietnam Pro",sans-serif;color:#45627a;font-size:var(--q-small)}
-    .q-hero{position:relative;padding:84px 0 74px;background:linear-gradient(115deg,rgba(247,250,253,.98) 8%,rgba(238,246,252,.9) 53%,rgba(220,234,247,.72)),url('../assets/img/hero-shanshui.jpg') center/cover}
+    .q-hero{position:relative;padding:84px 0 74px;background:linear-gradient(115deg,rgba(251,248,242,.98) 8%,rgba(244,247,243,.92) 53%,rgba(224,237,233,.78)),url('../assets/img/hero-shanshui.jpg') center/cover}
     .q-hero::after{content:"";position:absolute;inset:auto 0 0;height:1px;background:var(--q-line)}
     .q-hero-grid{display:grid;grid-template-columns:1.08fr .92fr;align-items:center;gap:62px;position:relative;z-index:1}
-    .q-eyebrow,.q-kicker{font-size:var(--q-micro);letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:#397dbb}
+    .q-eyebrow,.q-kicker{font-size:var(--q-micro);letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:var(--q-blue)}
     .q-eyebrow{display:inline-flex;align-items:center;gap:10px;padding:8px 13px;border:1px solid #c7dced;border-radius:99px;background:#ffffffbd}
     .q-eyebrow::before{content:"✦";color:var(--q-green)}
     .q-hero h1,.q-section h2,.q-form-head h2{font-family:"Cormorant Garamond",Georgia,serif;line-height:1.08;font-weight:600;letter-spacing:-.02em}
@@ -44,7 +44,7 @@
     .q-actions{display:flex;flex-wrap:wrap;gap:12px}
     .q-btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:48px;padding:12px 20px;border-radius:7px;font:600 15px "Be Vietnam Pro",sans-serif;text-decoration:none;transition:transform .2s,background .2s}
     .q-btn:hover{transform:translateY(-2px);text-decoration:none}
-    .q-btn-primary{background:#397fbd;color:white;box-shadow:0 8px 22px #347db52b}
+    .q-btn-primary{background:var(--q-blue);color:white;box-shadow:0 8px 22px #347db52b}
     .q-btn-primary:hover{background:#286ba7;color:white}
     .q-btn-outline{border:1px solid #8eb8d8;color:#2c679e;background:#ffffff9e}
     .q-portrait{margin:0;border-radius:18px;overflow:hidden;background:#f4f8fb;border:1px solid #e3edf4;box-shadow:0 24px 70px #2c58731c}
@@ -63,7 +63,7 @@
     .q-principles-summary{display:grid;gap:3px}
     .q-principles-summary strong{font-size:17px}
     .q-principles-summary span{font-size:var(--q-small);font-weight:400;color:#5d7182}
-    .q-principles-toggle{flex:none;color:#397fbd;font-size:15px;font-weight:700}
+    .q-principles-toggle{flex:none;color:var(--q-blue);font-size:15px;font-weight:700}
     .q-principles-toggle::after{content:"⌄";display:inline-block;margin-left:8px;font-size:20px;transition:transform .2s}
     .q-principles[open] .q-principles-toggle::after{transform:rotate(180deg)}
     .q-principles-content{display:grid;grid-template-columns:1fr 1fr;gap:30px;padding:4px 20px 20px;border-top:1px solid #e1ebf0}
@@ -79,12 +79,12 @@
     .q-about-aside blockquote{margin:0;font:600 25px/1.35 "Cormorant Garamond",Georgia,serif;color:#3977ad}
     .q-about-aside p{margin:16px 0 0;font-size:var(--q-small);color:#66798a}
     .q-about-copy p{margin:0 0 16px;color:#465c70}
-    .q-story{background:#f7fafc}
+    .q-story{background:#fbf8f2}
     .q-story-head{max-width:760px}
     .q-timeline{margin:38px 0 0 8px;padding:0 0 0 28px;border-left:1px solid #b9d2e4;display:grid;gap:27px}
     .q-moment{position:relative;display:grid;grid-template-columns:130px 1fr;gap:20px;max-width:890px}
-    .q-moment::before{content:"";position:absolute;width:11px;height:11px;left:-34px;top:7px;border-radius:50%;background:#6FB496;border:3px solid #f7fafc;box-shadow:0 0 0 1px #6FB496}
-    .q-moment time{font-size:var(--q-micro);line-height:1.5;font-weight:700;color:#397fbd;letter-spacing:.04em}
+    .q-moment::before{content:"";position:absolute;width:11px;height:11px;left:-34px;top:7px;border-radius:50%;background:var(--q-green);border:3px solid #fbf8f2;box-shadow:0 0 0 1px var(--q-green)}
+    .q-moment time{font-size:var(--q-micro);line-height:1.5;font-weight:700;color:var(--q-blue);letter-spacing:.04em}
     .q-moment h3{font-size:18px;margin:0 0 5px;color:#315d83}
     .q-moment p{font-size:15px;color:#5a6e80;margin:0}
     .q-story-note{margin:35px 0 0 158px;max-width:680px;padding:18px 22px;background:#fff;border-left:3px solid var(--q-green);border-radius:0 8px 8px 0;color:#3b6384;font:600 22px/1.4 "Cormorant Garamond",Georgia,serif}
@@ -95,9 +95,9 @@
     .q-tvcl-copy p strong{color:#315f89}
     .q-course-list{list-style:none;padding:0;margin:18px 0 20px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
     .q-course-list li{display:flex;align-items:center;gap:12px;min-height:74px;padding:12px 14px;background:#f5f9fc;border:1px solid #e1ebf2;border-radius:8px}
-    .q-course-list li strong{flex:none;font:700 25px/1 "Cormorant Garamond",Georgia,serif;color:#397fbd}
+    .q-course-list li strong{flex:none;font:700 25px/1 "Cormorant Garamond",Georgia,serif;color:var(--q-blue)}
     .q-course-list li span{font-size:var(--q-small);line-height:1.55;color:#52697d}
-    .q-tvcl-link{display:inline-flex;flex-wrap:wrap;align-items:center;gap:5px;color:#397fbd;font-size:var(--q-text);font-weight:500}
+    .q-tvcl-link{display:inline-flex;flex-wrap:wrap;align-items:center;gap:5px;color:var(--q-blue);font-size:var(--q-text);font-weight:500}
     .q-tvcl-aside{background:#f5f9fc;border:1px solid #e0ebf2;border-radius:14px;padding:24px;text-align:center}
     .q-tvcl-aside img{display:block;width:min(100%,230px);height:auto;margin:0 auto 12px;border-radius:50%}
     .q-tvcl-aside p{margin:0;color:#287c8e;font:600 21px/1.5 "Cormorant Garamond",Georgia,serif}
@@ -106,9 +106,9 @@
     .q-services-head .q-lede{max-width:440px}
     .q-service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
     .q-service{display:flex;flex-direction:column;align-items:flex-start;position:relative;border:1px solid;border-radius:13px;padding:29px 27px 27px;min-height:290px;box-shadow:0 10px 30px #253d4b08}
-    .q-service:nth-child(1){background:#eff9f7;border-color:#cce8e2}
-    .q-service:nth-child(2){background:#f0f6fc;border-color:#d2e2f1}
-    .q-service:nth-child(3){background:#f8f5eb;border-color:#e8dfc6}
+    .q-service:nth-child(1){background:#eff8f3;border-color:#cce5d8}
+    .q-service:nth-child(2){background:#eff5fa;border-color:#d2e2f1}
+    .q-service:nth-child(3){background:#faf4e8;border-color:#e8dfc6}
     .q-service-label{display:inline-flex;align-items:center;min-height:30px;padding:5px 12px;border-radius:99px;background:#ffffffb8;color:#287c8e;font-size:var(--q-micro);font-weight:700;letter-spacing:.06em;text-transform:uppercase}
     .q-service:nth-child(2) .q-service-label{color:#356c9f}
     .q-service:nth-child(3) .q-service-label{color:#806b37}
@@ -117,40 +117,40 @@
     .q-service-price{display:block;margin:0 0 12px;color:#287c8e;font-size:26px;line-height:1.25;font-weight:700}
     .q-service:nth-child(2) .q-service-price{color:#356c9f}
     .q-service:nth-child(3) .q-service-price{color:#806b37}
-    .q-service-featured{grid-column:1/-1;min-height:0;display:grid;grid-template-columns:minmax(0,1.2fr) minmax(260px,.8fr);align-items:center;gap:18px 36px;background:linear-gradient(115deg,#eaf5f5,#f2f7fb)!important;border-color:#c5e0e3!important}
+    .q-service-featured{grid-column:1/-1;min-height:0;display:grid;grid-template-columns:minmax(0,1.2fr) minmax(260px,.8fr);align-items:center;gap:18px 36px;background:linear-gradient(115deg,#eaf4ef,#f3f6f1)!important;border-color:#c5dfd2!important}
     .q-service-featured h3{font-size:25px;margin:14px 0 7px}
     .q-service-featured .q-service-price{margin-bottom:8px}
     .q-service-featured .q-service-actions{grid-column:2;grid-row:1;justify-content:flex-end;margin:0;padding:0}
     .q-service-featured .q-service-label{color:#287c8e}
     .q-service-actions{display:flex;align-items:center;gap:18px;flex-wrap:wrap;margin-top:auto;padding-top:20px}
-    .q-service-more{display:inline-flex;align-items:center;gap:8px;padding:0;border:0;background:none;color:#397fbd;font:700 15px "Be Vietnam Pro",sans-serif;cursor:pointer}
+    .q-service-more{display:inline-flex;align-items:center;gap:8px;padding:0;border:0;background:none;color:var(--q-blue);font:700 15px "Be Vietnam Pro",sans-serif;cursor:pointer}
     .q-service-more span{display:grid;place-items:center;width:22px;height:22px;border:1px solid #b9d5e8;border-radius:50%;font-size:15px;line-height:1;transition:transform .2s}
     .q-service-more:hover span{transform:translateX(3px)}
-    .q-service-apply{color:#397fbd;font-size:15px;font-weight:700}
+    .q-service-apply{color:var(--q-blue);font-size:15px;font-weight:700}
     .q-service-more:focus-visible,.q-dialog-close:focus-visible,.q-service-dialog a:focus-visible{outline:3px solid #58a6a2;outline-offset:4px;border-radius:4px}
     .q-service-dialog{width:min(760px,calc(100% - 28px));max-width:none;max-height:min(86vh,900px);padding:0;border:1px solid #dbe8ed;border-radius:16px;color:#40566a;background:#fff;box-shadow:0 28px 90px #19334c3d}
     .q-service-dialog::backdrop{background:#17354fcc;backdrop-filter:blur(3px)}
     .q-dialog-inner{max-height:min(86vh,900px);overflow:auto;padding:clamp(23px,5vw,42px)}
     .q-dialog-top{display:flex;justify-content:space-between;gap:20px;align-items:flex-start;border-bottom:1px solid #e4edf1;padding-bottom:18px;margin-bottom:22px}
-    .q-dialog-kicker{display:block;color:#59a184;font-size:var(--q-micro);font-weight:700;letter-spacing:.12em;text-transform:uppercase}
+    .q-dialog-kicker{display:block;color:var(--q-green);font-size:var(--q-micro);font-weight:700;letter-spacing:.12em;text-transform:uppercase}
     .q-dialog-top h2{margin:6px 0 0;color:#2d659d;font:600 clamp(28px,5vw,38px)/1.15 "Cormorant Garamond",Georgia,serif}
     .q-dialog-close{flex:none;width:38px;height:38px;border:1px solid #d6e5ec;border-radius:50%;background:#f7fafb;color:#315d83;font-size:24px;line-height:1;cursor:pointer}
     .q-dialog-content{font-size:var(--q-text);line-height:1.75}
     .q-dialog-content section+section{margin-top:22px;padding-top:20px;border-top:1px solid #e8eff2}
     .q-dialog-content h3{margin:0 0 8px;color:#315f89;font-size:20px;line-height:1.45}
-    .q-dialog-content h4{margin:14px 0 5px;color:#397fbd;font-size:var(--q-text)}
+    .q-dialog-content h4{margin:14px 0 5px;color:var(--q-blue);font-size:var(--q-text)}
     .q-dialog-content p{margin:0 0 10px}
     .q-dialog-content ul{margin:8px 0 0;padding-left:21px}
     .q-dialog-content li+li{margin-top:5px}
     .q-dialog-price{color:#287c8e;font-size:15px;font-weight:700}
-    .q-dialog-cta{display:inline-flex;margin-top:24px;padding:11px 16px;border-radius:6px;background:#397fbd;color:#fff;font-size:15px;font-weight:700;text-decoration:none}
+    .q-dialog-cta{display:inline-flex;margin-top:24px;padding:11px 16px;border-radius:6px;background:var(--q-blue);color:#fff;font-size:15px;font-weight:700;text-decoration:none}
     .q-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:38px;border:1px solid var(--q-line);border-radius:12px;overflow:hidden}
     .q-step{padding:24px;background:#fff}
     .q-step+.q-step{border-left:1px solid var(--q-line)}
-    .q-step b{display:block;font-size:var(--q-micro);letter-spacing:.1em;text-transform:uppercase;color:#59a184;margin-bottom:8px}
+    .q-step b{display:block;font-size:var(--q-micro);letter-spacing:.1em;text-transform:uppercase;color:var(--q-green);margin-bottom:8px}
     .q-step h3{font-size:20px;line-height:1.45;margin:0 0 7px;color:#315d83}
     .q-step p{font-size:var(--q-text);line-height:1.7;color:#566b7d;margin:0}
-    .q-form-section{background:linear-gradient(145deg,#eef6fb 0%,#f9fbfc 70%);padding:84px 0}
+    .q-form-section{background:linear-gradient(145deg,#f4f2e9 0%,#f6f8f4 70%);padding:84px 0}
     .q-form-layout{display:grid;grid-template-columns:.72fr 1.28fr;gap:44px;align-items:start}
     .q-form-head{position:sticky;top:30px}
     .q-form-head p{font-size:var(--q-text);color:#52677a}
@@ -159,34 +159,34 @@
     .q-form-stage,.q-payment-stage{padding:clamp(22px,4vw,38px)}
     .q-form-stage[hidden],.q-payment-stage[hidden],.q-form-fallback[hidden]{display:none!important}
     .q-form-progress{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:0 0 27px;padding:0;list-style:none}
-    .q-form-progress li{padding:10px 12px;border-bottom:2px solid #dce8ee;color:#8493a0;font-size:var(--q-small);font-weight:700}
-    .q-form-progress li[aria-current="step"]{border-color:#59a184;color:#287c8e}
+    .q-form-progress li{padding:10px 12px;border-bottom:2px solid #dce8ee;color:#5d7080;font-size:var(--q-small);font-weight:700}
+    .q-form-progress li[aria-current="step"]{border-color:var(--q-green);color:#287c8e}
     .q-registration-form{display:grid;gap:19px}
     .q-form-field{display:grid;gap:7px}
     .q-form-field label,.q-service-options legend{color:#315d83;font-size:var(--q-text);font-weight:700}
     .q-form-field label span{color:#b65454}
-    .q-form-field label .q-optional-label{color:#687b8c;font-size:var(--q-small);font-weight:500}
+    .q-form-field label .q-optional-label{color:#5b6e7d;font-size:var(--q-small);font-weight:500}
     .q-form-field input,.q-form-field select,.q-form-field textarea{width:100%;min-height:50px;padding:11px 13px;border:1px solid #d5e1e8;border-radius:6px;background:#fff;color:#344b5e;font:400 var(--q-text)/1.55 "Be Vietnam Pro",sans-serif}
     .q-form-field textarea{min-height:112px;resize:vertical}
-    .q-form-field input::placeholder,.q-form-field textarea::placeholder{color:#94a1ab}
-    .q-form-field input:focus,.q-form-field select:focus,.q-form-field textarea:focus{outline:3px solid #cde7e5;border-color:#58a6a2}
-    .q-form-hint{color:#687b8c;font-size:var(--q-small);line-height:1.6}
+    .q-form-field input::placeholder,.q-form-field textarea::placeholder{color:#5b6e7d}
+    .q-form-field input:focus,.q-form-field select:focus,.q-form-field textarea:focus{outline:3px solid #d8ebe2;border-color:var(--q-green)}
+    .q-form-hint{color:#5b6e7d;font-size:var(--q-small);line-height:1.6}
     .q-service-options{display:grid;gap:9px;margin:0;padding:0;border:0}
     .q-service-options legend{margin-bottom:8px}
     .q-service-choice{display:flex;align-items:flex-start;gap:11px;padding:13px;border:1px solid #dbe6eb;border-radius:7px;background:#fbfcfc;color:#40566a;font-size:var(--q-small);cursor:pointer}
-    .q-service-choice:has(input:checked){border-color:#63a88b;background:#f1f9f5;box-shadow:0 0 0 1px #63a88b}
-    .q-service-choice input{flex:none;margin-top:4px;accent-color:#3b947f}
+    .q-service-choice:has(input:checked){border-color:var(--q-green);background:#f1f9f5;box-shadow:0 0 0 1px var(--q-green)}
+    .q-service-choice input{flex:none;margin-top:4px;accent-color:var(--q-green)}
     .q-service-choice strong{display:block;color:#315d83;font-size:var(--q-text)}
     .q-service-choice span{display:block;margin-top:2px;color:#65798a;font-size:var(--q-small)}
     .q-form-consent{display:flex;align-items:flex-start;gap:10px;color:#586d7f;font-size:var(--q-small);line-height:1.65}
-    .q-form-consent input{flex:none;margin-top:4px;accent-color:#3b947f}
-    .q-form-submit{min-height:52px;padding:13px 20px;border:0;border-radius:7px;background:#397fbd;color:#fff;font:700 16px "Be Vietnam Pro",sans-serif;cursor:pointer;box-shadow:0 8px 22px #347db52b}
+    .q-form-consent input{flex:none;margin-top:4px;accent-color:var(--q-green)}
+    .q-form-submit{min-height:52px;padding:13px 20px;border:0;border-radius:7px;background:var(--q-blue);color:#fff;font:700 16px "Be Vietnam Pro",sans-serif;cursor:pointer;box-shadow:0 8px 22px #347db52b}
     .q-form-submit:hover{background:#286ba7}
     .q-form-submit:disabled{opacity:.65;cursor:wait}
     .q-form-status{min-height:20px;margin:0;color:#637687;font-size:var(--q-small)}
     .q-form-fallback{padding:15px 17px;border:1px solid #ead8b7;border-radius:7px;background:#fffaf0;color:#725d3c;font-size:var(--q-small);line-height:1.65}
-    .q-form-fallback a{font-weight:700;color:#397fbd}
-    .q-payment-kicker{display:block;color:#59a184;font-size:var(--q-micro);font-weight:700;letter-spacing:.12em;text-transform:uppercase}
+    .q-form-fallback a{font-weight:700;color:var(--q-blue)}
+    .q-payment-kicker{display:block;color:var(--q-green);font-size:var(--q-micro);font-weight:700;letter-spacing:.12em;text-transform:uppercase}
     .q-payment-stage h3{margin:7px 0;color:#2d659d;font:600 clamp(30px,4vw,40px)/1.15 "Cormorant Garamond",Georgia,serif}
     .q-payment-lede{margin:0 0 22px;color:#53687a;font-size:var(--q-text);line-height:1.7}
     .q-payment-amount{display:flex;justify-content:space-between;gap:16px;padding:15px 17px;border-radius:8px;background:#f1f8f6;color:#42647f;font-size:var(--q-small)}
@@ -194,13 +194,13 @@
     .q-bank-card{margin-top:16px;padding:19px;border:1px solid #dbe8ed;border-radius:9px;background:#fbfcfd}
     .q-bank-card h4{margin:0 0 12px;color:#315d83;font-size:18px}
     .q-bank-row{display:flex;justify-content:space-between;gap:18px;padding:9px 0;border-top:1px solid #e7eef1;font-size:var(--q-small)}
-    .q-bank-row span{color:#718291}
+    .q-bank-row span{color:#5b6e7d}
     .q-bank-row strong{color:#345570;text-align:right}
     .q-payment-qr-wrap{margin:18px 0 2px;text-align:center}
     .q-payment-qr{display:block;width:min(100%,300px);height:auto;margin:0 auto;border:1px solid #e3ebee;border-radius:12px;background:#fff}
     .q-payment-qr-caption{margin:9px 0 0;color:#64798a;font-size:var(--q-small)}
     .q-payment-note{margin:16px 0 0;color:#5a6f80;font-size:var(--q-small);line-height:1.7}
-    .q-payment-contact{display:inline-flex;margin-top:18px;padding:12px 16px;border-radius:7px;background:#397fbd;color:#fff;font-size:15px;font-weight:700;text-decoration:none}
+    .q-payment-contact{display:inline-flex;margin-top:18px;padding:12px 16px;border-radius:7px;background:var(--q-blue);color:#fff;font-size:15px;font-weight:700;text-decoration:none}
     .q-hidden-submit-frame{position:absolute;left:-9999px;width:1px;height:1px;opacity:0;pointer-events:none;border:0}
     .q-boundary{padding:38px 0;background:#fff}
     .q-boundary-inner{display:flex;gap:20px;align-items:flex-start;border:1px solid #dce6eb;border-radius:10px;padding:22px 25px;background:#fbfcfc}
@@ -209,7 +209,7 @@
     .q-boundary p{font-size:var(--q-small);color:#586d7f;margin:0}
     .q-footer{background:#f1f5f7;padding:26px 0;text-align:center;font-size:var(--q-micro);color:#586d7f}
     .q-footer p{margin:3px}
-    .q-footer a{color:#397fbd;font-weight:600}
+    .q-footer a{color:var(--q-blue);font-weight:600}
     @media(max-width:900px){.site-header-inner{flex-direction:column;align-items:flex-start}}
     @media(max-width:850px){.q-hero-grid,.q-about-grid,.q-form-layout,.q-tvcl-grid{grid-template-columns:1fr;gap:32px}.q-hero{padding:62px 0}.q-portrait img{height:min(540px,105vw)}.q-services-head{display:block}.q-services-head .q-lede{margin-top:12px}.q-form-head{position:static}.q-service-grid{grid-template-columns:1fr}.q-service{min-height:auto}.q-service-featured{grid-template-columns:1fr;gap:14px}.q-service-featured .q-service-actions{grid-column:1;grid-row:auto;justify-content:flex-start;padding-top:8px}.q-about-grid{gap:28px}}
     @media(max-width:600px){.q-container{width:min(100% - 28px,1120px)}.q-section{padding:62px 0}.q-hero h1{font-size:clamp(44px,12vw,53px)}.q-slogan{font-size:16px}.q-trust-row{justify-content:flex-start;gap:10px 18px}.q-trust-row span{font-size:var(--q-micro)}.q-principles{margin-top:16px}.q-principles summary{align-items:flex-start;padding:15px}.q-principles-summary strong{font-size:16px}.q-principles-toggle{font-size:14px}.q-principles-content{grid-template-columns:1fr;gap:8px;padding:4px 15px 16px}.q-principles-content h3{margin-top:14px}.q-steps{grid-template-columns:1fr}.q-step+.q-step{border-left:0;border-top:1px solid var(--q-line)}.q-form-section{padding:60px 0}.q-form-stage,.q-payment-stage{padding:21px}.q-payment-amount,.q-bank-row{align-items:flex-start;flex-direction:column;gap:4px}.q-bank-row strong{text-align:left}.q-moment{grid-template-columns:1fr;gap:4px}.q-timeline{padding-left:23px}.q-moment::before{left:-29px}.q-story-note{margin:28px 0 0 0}.q-course-list{grid-template-columns:1fr}.brand-lockup .tvcl-logo{width:58px;height:58px}.q-service{padding:25px 22px}}

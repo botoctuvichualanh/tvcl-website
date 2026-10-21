@@ -148,35 +148,18 @@ footer b{color:var(--deep)}
 }
 @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto}}
 
-/* Love consultation intake */
+/* Google Forms intake */
 .intake-section{background:linear-gradient(180deg,var(--blush),var(--cream))}
 .intake-layout{display:grid;grid-template-columns:.82fr 1.18fr;gap:34px;align-items:start;margin-top:34px;text-align:left}
 .intake-intro{padding:12px 0}
 .intake-intro p{color:var(--muted);font-size:15.5px}
 .intake-note{margin-top:18px;padding:16px 18px;border:1px solid #f4d7e6;border-radius:16px;background:#fff8fc;color:#68485a;font-size:14px}
-.intake-card{padding:28px;border:1px solid #f2dce7;border-radius:var(--r);background:#fff;box-shadow:0 14px 36px rgba(120,57,91,.08)}
-.intake-fields{display:grid;grid-template-columns:1fr 1fr;gap:15px}
-.intake-field{display:grid;gap:6px}
-.intake-field.full{grid-column:1/-1}
-.intake-field label,.intake-legend{font-size:14px;font-weight:700;color:var(--ink)}
-.intake-field label span,.intake-legend span{color:var(--rose)}
-.intake-field input,.intake-field select,.intake-field textarea{width:100%;min-height:48px;padding:11px 13px;border:1px solid #ead6e1;border-radius:10px;background:#fff;color:var(--ink);font:400 15px/1.55 'Be Vietnam Pro',sans-serif}
-.intake-field textarea{min-height:112px;resize:vertical}
-.intake-field input:focus,.intake-field select:focus,.intake-field textarea:focus{outline:3px solid #fbd6e8;border-color:var(--rose)}
-.intake-hint{font-size:12.5px;color:var(--muted);line-height:1.55}
-.intake-consent{display:flex;align-items:flex-start;gap:10px;margin:18px 0;color:var(--muted);font-size:13px;line-height:1.6}
-.intake-consent input{flex:none;margin-top:4px;accent-color:var(--rose)}
-.intake-submit,.intake-copy{min-height:48px;padding:12px 18px;border:0;border-radius:40px;background:var(--rose);color:#fff;font:700 15px 'Be Vietnam Pro',sans-serif;cursor:pointer}
-.intake-submit:hover,.intake-copy:hover{background:#c43b80}
-.intake-result{display:grid;gap:12px;margin-top:18px;padding:17px;border:1px solid #d8eee2;border-radius:14px;background:#f4fbf6}
-.intake-result[hidden]{display:none}
-.intake-result p{font-size:14px;color:#3d6654}
-.intake-message{width:100%;min-height:160px;padding:12px;border:1px solid #d6e8de;border-radius:10px;background:#fff;color:var(--ink);font:14px/1.6 'Be Vietnam Pro',sans-serif;resize:vertical}
-.intake-actions{display:flex;flex-wrap:wrap;align-items:center;gap:11px}
-.intake-zalo{display:inline-block;padding:12px 18px;border:1px solid var(--deep);border-radius:40px;color:var(--deep);font-weight:700;text-decoration:none}
-.intake-status{min-height:20px;margin:0;color:var(--deep);font-size:13px}
-@media(max-width:760px){.intake-layout{grid-template-columns:1fr;gap:16px}.intake-card{padding:20px}}
-@media(max-width:520px){.intake-fields{grid-template-columns:1fr}.intake-field.full{grid-column:auto}.intake-submit,.intake-copy,.intake-zalo{width:100%;text-align:center}}
+.intake-card{overflow:hidden;border:1px solid #f2dce7;border-radius:var(--r);background:#fff;box-shadow:0 14px 36px rgba(120,57,91,.08)}
+.google-form-frame{display:block;width:100%;height:1800px;border:0;background:#fff}
+.intake-form-link{display:inline-block;margin-top:14px;color:var(--rose);font-weight:700;text-decoration:none}
+.intake-form-link:hover{text-decoration:underline}
+@media(max-width:760px){.intake-layout{grid-template-columns:1fr;gap:16px}.intake-card{border-radius:18px}.google-form-frame{height:1900px}}
+@media(max-width:520px){.google-form-frame{height:2050px}}
 
 </style></head><body>
 
@@ -304,28 +287,11 @@ footer b{color:var(--deep)}
 <div class="intake-layout">
 <div class="intake-intro"><h3>Thông tin giúp buổi trò chuyện bắt đầu nhẹ nhàng hơn</h3>
 <p>Bạn chỉ cần điền những điều mình thấy thoải mái chia sẻ. Giờ sinh có thể ghi theo khoảng thời gian nếu chưa nhớ chính xác.</p>
-<div class="intake-note"><b>Thông tin chưa được gửi tự động.</b> Sau khi điền form, bạn sẽ xem lại nội dung, sao chép tin nhắn và tự gửi qua Zalo cho Trợ lý Phương Anh.</div>
+<div class="intake-note"><b>Thời gian tham vấn:</b> 9:00–16:00, thứ Hai đến thứ Sáu. Mỗi buổi 90 phút. Thông tin bạn gửi được lưu vào Google Sheets để TVCL chuẩn bị và liên hệ về buổi tham vấn.</div>
 </div>
-<div class="intake-card"><form id="love-intake-form">
-<div class="intake-fields">
-<div class="intake-field"><label for="love-name">Họ tên <span>*</span></label><input id="love-name" name="name" autocomplete="name" required maxlength="120" placeholder="Tên bạn muốn được gọi"></div>
-<div class="intake-field"><label for="love-zalo">Số điện thoại Zalo <span>*</span></label><input id="love-zalo" name="zalo" type="tel" autocomplete="tel" required maxlength="30" placeholder="Số điện thoại bạn dùng trên Zalo"></div>
-<div class="intake-field"><label for="love-birthday">Ngày sinh dương lịch <span>*</span></label><input id="love-birthday" name="birthday" type="date" required><span class="intake-hint">Vui lòng điền ngày sinh chính xác.</span></div>
-<div class="intake-field"><label for="love-birthtime">Giờ sinh <span>*</span></label><input id="love-birthtime" name="birthtime" required maxlength="100" placeholder="Ví dụ: 14:30 hoặc khoảng 14:00–15:00"><span class="intake-hint">Nếu chưa rõ, bạn có thể ghi khoảng giờ gần nhất.</span></div>
-<div class="intake-field"><label for="love-status">Tình trạng hiện tại</label><select id="love-status" name="status"><option value="">Chọn nếu bạn muốn chia sẻ</option><option>Độc thân</option><option>Đang tìm hiểu một người</option><option>Đang trong mối quan hệ</option><option>Đã kết hôn</option><option>Đã đi qua hôn nhân</option><option>Xin trao đổi riêng</option></select></div>
-<div class="intake-field"><label for="love-availability">Thời gian thuận tiện để liên hệ</label><input id="love-availability" name="availability" maxlength="200" placeholder="Ví dụ: buổi tối sau 19:00"></div>
-<div class="intake-field full"><label for="love-topic">Điều bạn muốn được đồng hành <span>*</span></label><textarea id="love-topic" name="topic" required maxlength="2500" placeholder="Bạn có thể chia sẻ ngắn gọn điều mình đang băn khoăn hoặc mong muốn hiểu rõ hơn"></textarea></div>
-<div class="intake-field full"><label for="love-package">Gói tham vấn bạn đang quan tâm</label><select id="love-package" name="package"><option value="">Chưa quyết định / muốn được trao đổi thêm</option><option>Gói tham vấn Tình yêu &amp; Hôn nhân</option><option>Gói đồng hành 1 tháng</option><option>Khác / muốn được tư vấn thêm</option></select></div>
+<div class="intake-card"><iframe class="google-form-frame" src="https://docs.google.com/forms/d/e/1FAIpQLScPG1eiWtf-0KxX0Hty3Oa8rikI8sRVkOw-VELMoHUyN8gXEw/viewform?embedded=true" title="Biểu mẫu đăng ký tham vấn Tình yêu và Hôn nhân" loading="lazy"></iframe></div>
 </div>
-<label class="intake-consent"><input type="checkbox" name="consent" required><span>Tôi đồng ý đưa các thông tin trên vào tin nhắn Zalo để Trợ lý Phương Anh liên hệ về dịch vụ tham vấn. Tôi sẽ tự xem lại và gửi tin nhắn sau khi form chuẩn bị xong.</span></label>
-<button class="intake-submit" type="submit">Chuẩn bị tin nhắn Zalo <span aria-hidden="true">→</span></button>
-<div class="intake-result" id="love-intake-result" hidden>
-<p><b>Tin nhắn đã sẵn sàng.</b> Sao chép nội dung bên dưới, mở Zalo và dán vào cuộc trò chuyện với Trợ lý Phương Anh để gửi.</p>
-<textarea class="intake-message" id="love-intake-message" readonly aria-label="Nội dung tin nhắn Zalo"></textarea>
-<div class="intake-actions"><button class="intake-copy" type="button" id="love-intake-copy">Sao chép tin nhắn</button><a class="intake-zalo" href="https://zalo.me/0856941341" target="_blank" rel="noopener noreferrer">Mở Zalo ↗</a></div>
-<p class="intake-status" id="love-intake-status" role="status" aria-live="polite"></p>
-</div>
-</form></div></div>
+<div class="center"><a class="intake-form-link" href="https://docs.google.com/forms/d/e/1FAIpQLScPG1eiWtf-0KxX0Hty3Oa8rikI8sRVkOw-VELMoHUyN8gXEw/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer">Nếu biểu mẫu chưa hiển thị, mở biểu mẫu trong tab mới ↗</a></div>
 </div></section>
 
 <section class="cta"><div class="wrap">
@@ -340,45 +306,5 @@ footer b{color:var(--deep)}
 
 <footer><b>Bộ tộc Tử Vi Chữa Lành</b><br>Tử Vi Chữa Lành: Ứng dụng Tử Vi, Tâm Lý, Đạo Học để Hiểu Mình, Cải Mệnh &amp; Chữa Lành<br>Lá số là bản đồ, không phải bản án</footer>
 <a class="sticky" href="#form-dang-ky">📝 Điền biểu mẫu đăng ký</a>
-<script>
-(() => {
-  const form = document.getElementById('love-intake-form');
-  if (!form) return;
-  const result = document.getElementById('love-intake-result');
-  const message = document.getElementById('love-intake-message');
-  const status = document.getElementById('love-intake-status');
-  const value = (name) => (new FormData(form).get(name) || '').toString().trim();
-  form.addEventListener('submit', (event) => {
-    event.preventDefault();
-    const birth = value('birthday');
-    const birthday = birth ? new Date(`${birth}T00:00:00Z`).toLocaleDateString('vi-VN', {timeZone:'UTC'}) : '';
-    const lines = [
-      'ĐĂNG KÝ THAM VẤN TÌNH YÊU & HÔN NHÂN',
-      `Họ tên: ${value('name')}`,
-      `Số điện thoại Zalo: ${value('zalo')}`,
-      `Ngày sinh dương lịch: ${birthday}`,
-      `Giờ sinh: ${value('birthtime')}`,
-      `Tình trạng hiện tại: ${value('status') || 'Chưa chia sẻ'}`,
-      `Thời gian thuận tiện để liên hệ: ${value('availability') || 'Trao đổi thêm'}`,
-      `Gói tham vấn quan tâm: ${value('package') || 'Chưa quyết định'}`,
-      `Điều muốn được đồng hành: ${value('topic')}`
-    ];
-    message.value = lines.join('\n');
-    result.hidden = false;
-    status.textContent = 'Bạn có thể sao chép tin nhắn rồi mở Zalo để gửi.';
-    result.scrollIntoView({behavior:'smooth', block:'nearest'});
-  });
-  document.getElementById('love-intake-copy').addEventListener('click', async () => {
-    try {
-      await navigator.clipboard.writeText(message.value);
-      status.textContent = 'Đã sao chép. Hãy dán tin nhắn vào Zalo và nhấn gửi.';
-    } catch (_) {
-      message.focus(); message.select();
-      const copied = document.execCommand('copy');
-      status.textContent = copied ? 'Đã sao chép. Hãy dán tin nhắn vào Zalo và nhấn gửi.' : 'Hãy chọn và sao chép nội dung trong ô tin nhắn.';
-    }
-  });
-})();
-</script>
 
 </body></html>

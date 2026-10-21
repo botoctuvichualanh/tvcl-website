@@ -788,7 +788,7 @@ def index_page():
     <div class="hero-content">
       <p class="hero-pillars">Hiểu Mình – Cải Mệnh – Chữa Lành</p>
       <h1><span>Tử Vi</span> Chữa Lành</h1>
-      <p class="slogan">{html.escape(HERO_SUBTITLE)}</p>
+      <p class="slogan">{html.escape(HERO_SUBTITLE)}</p><p class="hero-training">Đào tạo Nhà luận giải/ Coach Tử Vi theo hướng Chữa lành.</p>
       <p class="tagline-big">Lá số là bản đồ chữa lành</p>
       <div class="btn-row hero-btn-row">
         <a href="#kham-pha" class="btn btn-forest">✦ Khám Phá Tàng Kinh Các</a>

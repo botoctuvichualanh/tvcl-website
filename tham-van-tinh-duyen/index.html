@@ -360,7 +360,7 @@ footer b{color:var(--deep)}
       waitingForResponse = false;
       setSending(false);
       result.hidden = false;
-      result.innerHTML = '<p><b>Chưa xác nhận được trạng thái gửi.</b> Bạn có thể mở biểu mẫu Google dự phòng để gửi thông tin.</p>';
+      result.innerHTML = '<p><b>Chưa xác nhận được trạng thái gửi.</b> <a href="https://docs.google.com/forms/d/e/1FAIpQLScPG1eiWtf-0KxX0Hty3Oa8rikI8sRVkOw-VELMoHUyN8gXEw/viewform" target="_blank" rel="noopener noreferrer">Mở biểu mẫu Google dự phòng ↗</a></p>';
       result.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     }, 20000);
   });

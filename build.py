@@ -494,7 +494,7 @@ def header_html(depth=""):
         <a href="/khoa-hoc-tu-vi-chua-lanh/">Tử Vi Chữa Lành</a>
         <a href="/khoa-hoc-tu-vi-bi-kip-chua-lanh/">Tử Vi Bí Kíp Chữa Lành</a>
       </div></details>
-      <a class="nav-service" href="/tham-van-quan-trung/">Dịch vụ Luận Tử Vi Chữa Lành</a>    </nav>
+      <a class="nav-service" href="/dich-vu-luan-tu-vi/">Dịch vụ Luận Tử Vi Chữa Lành</a>    </nav>
   </div>
 </header>
 <script src="{depth}assets/js/homepage-nav.js?v=20261015-hover" defer></script>'''

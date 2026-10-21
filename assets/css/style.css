@@ -129,7 +129,7 @@ nav.main-nav a.active{color:var(--blue);opacity:1;font-weight:600;}
   max-width:520px;margin:0 0 16px;font-size:19px;color:var(--ink);
   font-weight:400;opacity:.85;
 }
-.hero .tagline-big{
+.hero .hero-training{max-width:520px;margin:-4px 0 20px;padding:10px 14px;border-left:3px solid var(--gold);border-radius:0 8px 8px 0;background:rgba(194,154,79,.13);color:var(--green-deep);font-size:17px;line-height:1.55;font-weight:700;letter-spacing:.01em;}.hero .tagline-big{
     font-family:"Noto Serif","Noto Serif",Georgia,serif;
   font-style:italic;
   max-width:520px;margin:0 0 30px;font-size:32px;color:var(--gold-deep);

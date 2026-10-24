@@ -27,3 +27,9 @@ nav.main-nav>.nav-group:nth-of-type(3) .nav-menu a:hover,nav.main-nav>.nav-group
 nav.main-nav>.nav-group:nth-of-type(4) .nav-menu a:hover,nav.main-nav>.nav-group:nth-of-type(4) .nav-menu a:focus-visible{background:#f4dfd3;}
 @media(max-width:860px){nav.main-nav{display:grid;width:100%;grid-template-columns:repeat(2,minmax(0,1fr));align-items:start;gap:4px 8px;padding:0;}nav.main-nav>.nav-home,nav.main-nav>.nav-group>summary{min-height:40px;padding:5px 8px;white-space:normal;font-size:11px;}nav.main-nav>.nav-group>summary{justify-content:space-between;}nav.main-nav>.nav-group:nth-of-type(even) .nav-menu{left:auto;right:0;}nav.main-nav .nav-menu{top:100%;min-width:230px;max-height:min(65vh,420px);overflow:auto;}}
 
+
+/* Prominent service dropdown, matching the navigation tabs */
+nav.main-nav>.nav-service-group>summary{background:#f2ecfa;border:1px solid #cdbce3;border-radius:9px;padding:6px 9px;color:#42345b;font-weight:800;opacity:1;}
+nav.main-nav>.nav-service-group[open]>summary{color:#42345b;opacity:1;}
+nav.main-nav>.nav-service-group .nav-menu{background:#f2ecfa;border-color:#cdbce3;}
+nav.main-nav>.nav-service-group .nav-menu a:hover,nav.main-nav>.nav-service-group .nav-menu a:focus-visible{background:#e6dcf3;}

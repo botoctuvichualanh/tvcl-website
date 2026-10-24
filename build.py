@@ -494,7 +494,7 @@ def header_html(depth=""):
         <a href="/khoa-hoc-tu-vi-chua-lanh/">Tử Vi Chữa Lành</a>
         <a href="/khoa-hoc-tu-vi-bi-kip-chua-lanh/">Tử Vi Bí Kíp Chữa Lành</a>
       </div></details>
-      <a class="nav-service" href="/dich-vu-luan-tu-vi/">Dịch vụ Luận Tử Vi Chữa Lành</a>    </nav>
+      <details class="nav-group nav-service-group"><summary>Dịch vụ Luận Tử Vi</summary><div class="nav-menu"><a href="/dich-vu-luan-tu-vi/">Dịch vụ chung</a><a href="/tham-van-quan-trung/">Tham vấn Tình Duyên</a><a href="/tham-van-quan-trung/">Tham vấn vs Tộc Trưởng</a></div></details>    </nav>
   </div>
 </header>
 <script src="{depth}assets/js/homepage-nav.js?v=20261015-hover" defer></script>'''
@@ -637,7 +637,7 @@ def doc_page(d):
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&family=Noto+Serif:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../assets/css/style.css?v=20261015-noto-serif">
-<link rel="stylesheet" href="../assets/css/homepage-nav.css?v=20261015-nav-hover-v2">
+<link rel="stylesheet" href="../assets/css/homepage-nav.css?v=20261024-service-menu">
 {protect_script}
 </head>
 <body>
@@ -778,7 +778,7 @@ def index_page():
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&family=Noto+Serif:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css?v=20261015-noto-serif">
-<link rel="stylesheet" href="assets/css/homepage-nav.css?v=20261015-nav-hover-v2">
+<link rel="stylesheet" href="assets/css/homepage-nav.css?v=20261024-service-menu">
 </head>
 <body>
 {header_html(depth="")}
@@ -958,7 +958,7 @@ def not_found_page():
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&family=Noto+Serif:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css?v=20261015-noto-serif">
-<link rel="stylesheet" href="assets/css/homepage-nav.css?v=20261015-nav-hover-v2">
+<link rel="stylesheet" href="assets/css/homepage-nav.css?v=20261024-service-menu">
 </head>
 <body>
 {header_html(depth="")}

@@ -777,7 +777,7 @@ def index_page():
 }, ensure_ascii=False)}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&family=Noto+Serif:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css?v=20261015-noto-serif">
+<link rel="stylesheet" href="assets/css/style.css?v=20261025-career-path">
 <link rel="stylesheet" href="assets/css/homepage-nav.css?v=20261024-service-menu">
 </head>
 <body>
@@ -796,6 +796,15 @@ def index_page():
       </div>
       <p class="five-khong">Không định mệnh luận<span class="dot">·</span>Không gieo sợ hãi<span class="dot">·</span>Tôn trọng sự thật<span class="dot">·</span>Hướng đến chuyển hóa</p>
     </div>
+  </div>
+</section>
+<section class="section career-path-section" id="lo-trinh-hanh-nghe" aria-labelledby="career-path-title">
+  <div class="container">
+    <div class="section-kicker-wrap"><span class="kicker-label">Đào Tạo Người Hành Nghề</span></div>
+    <h2 class="section-title" id="career-path-title">Lộ Trình Hành Nghề</h2>
+    <a class="career-path-banner" href="https://tuvichualanh.com/lo-trinh-hanh-nghe-tvcl/" aria-label="Mở Lộ Trình Hành Nghề Tử Vi Chữa Lành" target="_blank" rel="noopener">
+      <img src="assets/img/lo-trinh-hanh-nghe-banner.png" alt="Lộ trình hành nghề Tử Vi Chữa Lành — từ Luận Nhanh đến Hành nghề" decoding="async">
+    </a>
   </div>
 </section>
 <section class="section learning-section" id="khoa-hoc-su-kien" aria-labelledby="learning-title">

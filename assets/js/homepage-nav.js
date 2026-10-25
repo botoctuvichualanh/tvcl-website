@@ -1,5 +1,14 @@
 (() => {
   const initialize = () => {
+    document.addEventListener("pointerdown", (event) => {
+      if (event.pointerType !== "touch") return;
+      const target = event.target instanceof Element ? event.target : event.target.parentElement;
+      const activeGroup = target?.closest("nav.main-nav > details.nav-group");
+      document.querySelectorAll("nav.main-nav > details.nav-group").forEach((group) => {
+        if (group !== activeGroup) group.open = false;
+      });
+    }, true);
+
     document.querySelectorAll("nav.main-nav > details.nav-group").forEach((group) => {
       group.addEventListener("pointerenter", (event) => {
         if (event.pointerType === "touch") return;
@@ -16,7 +25,8 @@
       });
 
       group.addEventListener("focusout", (event) => {
-        if (!group.contains(event.relatedTarget)) group.open = false;
+        // Touch browsers may report no related target while a submenu link activates.
+        if (event.relatedTarget && !group.contains(event.relatedTarget)) group.open = false;
       });
     });
   };

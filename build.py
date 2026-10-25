@@ -497,7 +497,7 @@ def header_html(depth=""):
       <details class="nav-group nav-service-group"><summary onclick="event.preventDefault();this.parentElement.open=true">Dịch vụ Luận Tử Vi</summary><div class="nav-menu"><a href="/dich-vu-luan-tu-vi/">Dịch vụ chung</a><a href="/tham-van-tinh-duyen/">Tham vấn Tình Duyên</a><a href="/tham-van-quan-trung/">Tham vấn vs Tộc Trưởng</a></div></details>    </nav>
   </div>
 </header>
-<script src="{depth}assets/js/homepage-nav.js?v=20261015-hover" defer></script>'''
+<script src="{depth}assets/js/homepage-nav.js?v=20261025-touch-links" defer></script>'''
 
 def footer_html():
     return f'''<footer class="site-footer">

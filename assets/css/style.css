@@ -460,12 +460,9 @@ ul.subitem-list li a:hover{color:var(--blue);opacity:1;}
 .sidebar .doc-row a{font-size:14px;}
 .sidebar a.active{font-weight:700;}
 
-/* Homepage courses and upcoming events */
+/* Homepage featured courses */
 .learning-section{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--blue-light)}
-.learning-filters{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin:-10px 0 32px}
 .learning-section [hidden]{display:none!important}
-.learning-filters button{font:inherit;font-size:15px;border:1px solid var(--line);border-radius:30px;padding:9px 23px;background:transparent;color:var(--blue);cursor:pointer}
-.learning-filters button[aria-pressed="true"]{background:var(--blue);color:var(--white)}
 .learning-section :is(button,a):focus-visible{outline:3px solid var(--teal-deep);outline-offset:5px}
 .learning-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
 .learning-card{background:var(--white);border:1px solid var(--line);border-radius:6px;overflow:hidden;display:flex;flex-direction:column}
@@ -480,46 +477,26 @@ ul.subitem-list li a:hover{color:var(--blue);opacity:1;}
 .learning-card-body{padding:25px;display:flex;flex:1;flex-direction:column}
 .learning-category{font-size:12px;color:var(--green-deep);margin:0 0 10px}
 .learning-card h3{font-family:"Cormorant Garamond",Georgia,serif;color:var(--blue);font-size:29px;line-height:1.12;margin:0 0 15px}
-.learning-card-body>p:not(.learning-category):not(.learning-date){font-size:15px;margin:0 0 24px}
-.learning-card .learning-date{margin:auto 0 17px;padding-top:12px;font-size:13px;color:var(--green-deep)}
+.learning-card-body>p:not(.learning-category){font-size:15px;margin:0 0 24px}
 .learning-link{display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--line);padding-top:16px;font-weight:600;font-size:15px}
 .learning-link>span[aria-hidden]{font-size:23px}
-.learning-events{display:flex;align-items:center;justify-content:space-between;gap:25px;margin-top:30px;padding:25px 0 0;border-top:1px solid var(--line)}
-.learning-events h3{font-size:22px;color:var(--blue);margin:0 0 5px}
-.learning-events p{font-size:14px;margin:0}
-.learning-events .btn{flex-shrink:0;font-size:14px}
 .learning-sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
-@media(max-width:850px){.learning-grid{gap:14px}.learning-card-body{padding:18px}.learning-art{padding:22px 18px}.learning-art p{font-size:29px}.learning-events{align-items:flex-start;flex-direction:column}}
-@media(max-width:650px){.learning-section{padding:42px 0}.learning-grid{grid-template-columns:1fr;gap:24px}.learning-art{min-height:180px;padding:24px}.learning-art p{font-size:34px}.learning-card-body{padding:24px}.learning-section .section-title{font-size:32px}.learning-filters button{padding:8px 18px}}
+@media(max-width:850px){.learning-grid{gap:14px}.learning-card-body{padding:18px}.learning-art{padding:22px 18px}.learning-art p{font-size:29px}}
+@media(max-width:650px){.learning-section{padding:42px 0}.learning-grid{grid-template-columns:1fr;gap:24px}.learning-art{min-height:180px;padding:24px}.learning-art p{font-size:34px}.learning-card-body{padding:24px}.learning-section .section-title{font-size:32px}}
 
-/* Course cover images and prominent opening dates */
+/* Course cover images */
 .learning-section .learning-art{display:block;min-height:0;height:230px;padding:0;overflow:hidden;background:var(--blue)}
 .learning-art img{display:block;width:100%;height:100%;object-fit:cover}
 .learning-art-foundation img{object-position:center 40%}
 .learning-art-timing img{object-fit:contain}
 .learning-art-healing img{object-position:75% center}
-.learning-card .learning-date{margin:auto 0 20px;padding:16px 18px;background:#EFE0B8;border:1px solid #C29A4F;border-left:4px solid #B07E2E;border-radius:4px;color:var(--blue)}
-.learning-date-label{display:block;font-size:12px;line-height:1.4;letter-spacing:2px;text-transform:uppercase;font-weight:700;margin-bottom:5px}
-.learning-date strong{display:block;font-family:"Noto Serif",Georgia,serif;font-size:30px;line-height:1.25;font-weight:700;font-variant-numeric:tabular-nums}
-.learning-date-detail{display:block;font-size:12px;line-height:1.6;margin-top:7px}
-@media(max-width:850px) and (min-width:651px){.learning-section .learning-art{height:180px}.learning-card .learning-date{padding:14px 12px}.learning-date strong{font-size:25px}}
-@media(max-width:650px){.learning-section .learning-art{height:auto;aspect-ratio:1.7}.learning-date strong{font-size:32px}}
+@media(max-width:850px) and (min-width:651px){.learning-section .learning-art{height:180px}}
+@media(max-width:650px){.learning-section .learning-art{height:auto;aspect-ratio:1.7}}
 
-/* Four courses, ordered by opening date. */
-.learning-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
-.learning-art-s36 img{object-fit:contain}
-@media(max-width:650px){.learning-grid{grid-template-columns:1fr}}
-
-/* One-row course carousel: native swipe, keyboard scrolling and arrow controls. */
-.learning-slider-controls{display:flex;justify-content:flex-end;gap:10px;margin:0 0 16px}
-.learning-slider-controls button{width:44px;height:44px;border:1px solid var(--blue);border-radius:50%;background:var(--white);color:var(--blue);font-size:23px;cursor:pointer}
-.learning-slider-controls button:hover{background:var(--blue);color:var(--white)}
-.learning-section .learning-grid{display:flex;gap:24px;overflow-x:auto;scroll-snap-type:x mandatory;overscroll-behavior-x:contain;padding:4px 4px 18px;scrollbar-width:thin;scrollbar-color:var(--green-deep) var(--blue-light)}
-.learning-grid .learning-card{flex:0 0 calc((100% - 48px)/3);min-width:0;scroll-snap-align:start}
-.learning-grid:focus-visible{outline:3px solid var(--teal-deep);outline-offset:4px}
-@media(max-width:1000px){.learning-grid .learning-card{flex-basis:calc((100% - 24px)/2)}}
-@media(max-width:650px){.learning-grid .learning-card{flex-basis:88%}.learning-section .learning-grid{gap:16px}.learning-slider-controls{margin-bottom:12px}}
-.learning-section .learning-grid{contain:paint;max-width:100%}
+/* Four featured courses. */
+.learning-section .learning-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:20px;max-width:100%}
+@media(max-width:1000px){.learning-section .learning-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){.learning-section .learning-grid{grid-template-columns:1fr;gap:16px}}
 
 /* Contextual internal-link clusters for priority SEO guides. */
 .priority-guides{margin-bottom:64px;padding-bottom:64px;border-bottom:1px solid var(--line)}

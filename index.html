@@ -27,7 +27,7 @@
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://tuvichualanh.com/#organization", "name": "Bộ Tộc Tử Vi Chữa Lành", "url": "https://tuvichualanh.com", "logo": "https://tuvichualanh.com/assets/img/logo.png", "sameAs": ["https://www.facebook.com/tuvichualanh/", "https://www.facebook.com/groups/congdongtuvichualanh", "https://zalo.me/g/aqtxsx783", "https://open.spotify.com/show/360Khz3n8hnTJ89lq31Zd4", "https://www.youtube.com/@tuvichualanh", "https://www.daotuvi.com/"]}, {"@type": "WebSite", "@id": "https://tuvichualanh.com/#website", "name": "Tử Vi Chữa Lành", "alternateName": "Bộ Tộc Tử Vi Chữa Lành", "url": "https://tuvichualanh.com", "description": "Tử Vi Chữa Lành kết hợp Tử Vi, Tâm lý học, Phật học và Đạo học để giúp bạn hiểu mình, nhận diện khuynh hướng, thuận thời và chuyển hóa cuộc sống. Lá số là bản đồ, không phải bản án.", "inLanguage": "vi", "publisher": {"@id": "https://tuvichualanh.com/#organization"}}]}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&family=Noto+Serif:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css?v=20261025-career-path">
+<link rel="stylesheet" href="assets/css/style.css?v=20261025-featured-courses">
 <link rel="stylesheet" href="assets/css/homepage-nav.css?v=20261024-service-menu">
 <script src="assets/js/homepage-nav.js?v=20261025-touch-links" defer></script>
 </head>
@@ -54,7 +54,7 @@
         <a href="index.html#lieu-phap-tam-ly">Tử Vi &amp; Tâm Lý Học</a><a href="index.html#tu-vi-dao-hoc">Tử Vi &amp; Đạo</a><a href="index.html#ban-do-nhan-qua">Bản Đồ Nhân Quả Trong Tử Vi</a><a href="index.html#tai-loc">Tử Vi Chữa Lành Tài Lộc</a>
       </div></details>
       <details class="nav-group"><summary>Khóa học</summary><div class="nav-menu">
-        <a href="index.html#khoa-hoc-su-kien">Tất cả khóa học</a><a href="/khoa-hoc/luan-nhanh-tu-vi/">Luận Nhanh Tử Vi</a><a href="/luan-van-han/">Luận Vận Hạn Tử Vi</a><a href="/khoa-hoc-tu-vi-chua-lanh/">Tử Vi Chữa Lành</a><a href="/khoa-hoc-tu-vi-bi-kip-chua-lanh/">Tử Vi Bí Kíp Chữa Lành</a>
+        <a href="index.html#khoa-hoc-su-kien">4 khóa học nổi bật</a><a href="/khoa-hoc/luan-nhanh-tu-vi/">Luận Nhanh Tử Vi</a><a href="/luan-van-han/">Luận Vận Hạn Tử Vi</a><a href="/khoa-hoc-tu-vi-chua-lanh/">Tử Vi Chữa Lành</a><a href="/khoa-hoc-tu-vi-bi-kip-chua-lanh/">Tử Vi Bí Kíp Chữa Lành</a>
       </div></details>
     <details class="nav-group nav-service-group"><summary onclick="event.preventDefault();this.parentElement.open=true">Dịch vụ Luận Tử Vi</summary><div class="nav-menu"><a href="/dich-vu-luan-tu-vi/">Dịch vụ chung</a><a href="/tham-van-tinh-duyen/">Tham vấn Tình Duyên</a><a href="/tham-van-quan-trung/">Tham vấn vs Tộc Trưởng</a></div></details></nav>
   </div>
@@ -87,86 +87,43 @@
 <section class="section learning-section" id="khoa-hoc-su-kien" aria-labelledby="learning-title">
   <div class="container">
     <div class="section-kicker-wrap"><span class="kicker-label">Học tập &amp; kết nối cùng Bộ Tộc</span></div>
-    <h2 class="section-title" id="learning-title">Khóa học &amp; Sự kiện</h2>
-    <p class="section-sub">Các hành trình đang mở và đang diễn ra để bạn chọn lộ trình phù hợp.</p>
-    <div class="learning-filters" role="group" aria-label="Lọc khóa học và sự kiện" hidden>
-      <button type="button" data-learning-filter="all" aria-pressed="true">Tất cả</button>
-      <button type="button" data-learning-filter="course" aria-pressed="false">Khóa học</button>
-      <button type="button" data-learning-filter="event" aria-pressed="false">Sự kiện</button>
-    </div>
-    <div class="learning-slider-controls" hidden aria-label="Điều khiển danh sách khóa học">
-      <button type="button" data-slide-direction="-1" aria-label="Xem khóa học phía trước">←</button>
-      <button type="button" data-slide-direction="1" aria-label="Xem khóa học tiếp theo">→</button>
-    </div>
-    <div class="learning-grid" tabindex="0" role="region" aria-label="Danh sách khóa học, cuộn ngang để xem thêm">
-      <article class="learning-card" data-learning-kind="course">
+    <h2 class="section-title" id="learning-title">Khóa học nổi bật</h2>
+    <p class="section-sub">Khám phá 4 hành trình học tập nổi bật của TVCL và chọn lộ trình phù hợp với bạn.</p>
+    <div class="learning-grid" aria-label="4 khóa học nổi bật của Tử Vi Chữa Lành">
+      <article class="learning-card">
         <a class="learning-art learning-art-timing" href="khoa-hoc/luan-nhanh-tu-vi/" aria-label="Xem khóa học Luận Nhanh Lá Số Tử Vi S37" target="_blank" rel="noopener"><img src="assets/img/luan-nhanh-og.png" alt="Khóa học Luận Nhanh Lá Số Tử Vi S37" loading="lazy" decoding="async"></a>
         <div class="learning-card-body"><p class="learning-category">Khóa học · Tử Vi căn bản</p>
           <h3><a href="khoa-hoc/luan-nhanh-tu-vi/" target="_blank" rel="noopener">Luận Nhanh Lá Số Tử Vi S37</a></h3><p>Lộ trình từng bước dành cho người mới, giúp bạn tự lập, đọc và hiểu những nét chính trong lá số của mình.</p>
-          <div class="learning-date"><span class="learning-date-detail">5 buổi Zoom · Học lại miễn phí</span></div>
-          <a class="learning-link" href="khoa-hoc/luan-nhan-tu-vi/" target="_blank" rel="noopener">Xem khóa học <span aria-hidden="true">↗</span><span class="learning-sr"> Luận Nhanh Lá Số Tử Vi S37</span></a>
+          <a class="learning-link" href="/khoa-hoc/luan-nhanh-tu-vi/" target="_blank" rel="noopener">Đọc thêm <span aria-hidden="true">↗</span><span class="learning-sr"> Luận Nhanh Lá Số Tử Vi</span></a>
         </div>
       </article>
 
 
 
-      <article class="learning-card" data-learning-kind="course">
+      <article class="learning-card">
         <a class="learning-art" href="/luan-van-han/" aria-label="Xem khóa học Luận Vận Hạn Tử Vi" target="_blank" rel="noopener"><img src="/luan-van-han/assets/cong-dong.jpg" alt="Cộng đồng học tập Tử Vi Chữa Lành trong khóa Luận Vận Hạn" loading="lazy" decoding="async"></a>
         <div class="learning-card-body"><p class="learning-category">Khóa học · Tử Vi ứng dụng</p>
           <h3><a href="/luan-van-han/" target="_blank" rel="noopener">Luận Vận Hạn Tử Vi</a></h3><p>Thấu hiểu dòng chảy cuộc đời, nghiệm lý vận hạn và chủ động chuẩn bị trước những bước ngoặt trên lá số.</p>
-          <a class="learning-link" href="/luan-van-han/" target="_blank" rel="noopener">Xem khóa học <span aria-hidden="true">↗</span><span class="learning-sr"> Luận Vận Hạn Tử Vi</span></a>
+          <a class="learning-link" href="/luan-van-han/" target="_blank" rel="noopener">Đọc thêm <span aria-hidden="true">↗</span><span class="learning-sr"> Luận Vận Hạn Tử Vi</span></a>
         </div>
       </article>
-      <article class="learning-card" data-learning-kind="course">
+      <article class="learning-card">
         <a class="learning-art learning-art-healing" href="/khoa-hoc-tu-vi-chua-lanh/" aria-label="Xem khóa học Tử Vi Chữa Lành" target="_blank" rel="noopener"><img src="/khoa-hoc-tu-vi-chua-lanh/assets/og-tvcl-zalo-1200x630-v2.jpg" alt="Khóa học Tử Vi Chữa Lành — Hiểu Mình, Cải Mệnh, Chữa Lành" loading="lazy" decoding="async"></a>
         <div class="learning-card-body"><p class="learning-category">Khóa học · Tử Vi, Tâm lý &amp; Đạo học</p>
           <h3><a href="/khoa-hoc-tu-vi-chua-lanh/" target="_blank" rel="noopener">Tử Vi Chữa Lành</a></h3><p>Kết hợp Tử Vi, Tâm lý học và Đạo học để hiểu mình, nhận diện mô thức cũ và chủ động chuyển hóa.</p>
-          <a class="learning-link" href="/khoa-hoc-tu-vi-chua-lanh/" target="_blank" rel="noopener">Xem khóa học <span aria-hidden="true">↗</span><span class="learning-sr"> Tử Vi Chữa Lành</span></a>
+          <a class="learning-link" href="/khoa-hoc-tu-vi-chua-lanh/" target="_blank" rel="noopener">Đọc thêm <span aria-hidden="true">↗</span><span class="learning-sr"> Tử Vi Chữa Lành</span></a>
         </div>
       </article>
-      <article class="learning-card" data-learning-kind="course">
+      <article class="learning-card">
         <a class="learning-art learning-art-timing" href="khoa-hoc-tu-vi-bi-kip-chua-lanh/" aria-label="Xem khóa học Tử Vi Bí Kíp Chữa Lành" target="_blank" rel="noopener"><img src="khoa-hoc-tu-vi-bi-kip-chua-lanh/assets/og.png" alt="Tử Vi Bí Kíp Ứng Dụng Chữa Lành — Lá số là bản đồ, không phải bản án" loading="lazy" decoding="async"></a>
         <div class="learning-card-body"><p class="learning-category">Khóa học · Tử Vi, Tâm lý &amp; Đạo học</p>
           <h3><a href="khoa-hoc-tu-vi-bi-kip-chua-lanh/" target="_blank" rel="noopener">Tử Vi Bí Kíp Chữa Lành</a></h3><p>Dùng lá số như một bản đồ tâm thức để nhận diện niềm tin lõi, những mô thức đang lặp lại và tìm hướng chuyển hóa qua Tử Vi, Tâm lý và Đạo học.</p>
-          <div class="learning-date"><span class="learning-date-label">Đang diễn ra</span><strong><time datetime="2026-10-08">08/10</time>–<time datetime="2026-11-05">05/11/2026</time></strong><span class="learning-date-detail">5 tối Thứ Năm · Học qua Zoom</span></div>
-          <a class="learning-link" href="khoa-hoc-tu-vi-bi-kip-chua-lanh/" target="_blank" rel="noopener">Xem khóa học <span aria-hidden="true">↗</span><span class="learning-sr"> Tử Vi Bí Kíp Chữa Lành</span></a>
+          <a class="learning-link" href="/khoa-hoc-tu-vi-bi-kip-chua-lanh/" target="_blank" rel="noopener">Đọc thêm <span aria-hidden="true">↗</span><span class="learning-sr"> Tử Vi Bí Kíp Chữa Lành</span></a>
         </div>
       </article>
     </div>
-    <p class="learning-empty" hidden>Chưa có chương trình phù hợp. Anh chị vui lòng quay lại sau.</p>
-    <p class="learning-sr" id="learning-result" aria-live="polite" aria-atomic="true"></p>
   </div>
 </section>
-<script>
-(() => {
-  const section = document.getElementById('khoa-hoc-su-kien');
-  const filters = section.querySelector('.learning-filters');
-  filters.hidden = false;
-  section.querySelector('.learning-slider-controls').style.display = 'none';
-  const slider = section.querySelector('.learning-grid');
-  section.querySelectorAll('[data-slide-direction]').forEach(button => {
-    button.addEventListener('click', () => {
-      const card = slider.querySelector('.learning-card:not([hidden])');
-      if (!card) return;
-      const distance = card.getBoundingClientRect().width + parseFloat(getComputedStyle(slider).columnGap);
-      slider.scrollBy({ left: Number(button.dataset.slideDirection) * distance, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
-    });
-  });
-
-  filters.addEventListener('click', (event) => {
-    const button = event.target.closest('button');
-    if (!button) return;
-    const kind = button.dataset.learningFilter;
-    filters.querySelectorAll('button').forEach(item => item.setAttribute('aria-pressed', String(item === button)));
-    section.querySelectorAll('[data-learning-kind]').forEach(item => { item.hidden = kind !== 'all' && !item.dataset.learningKind.split(' ').includes(kind); });
-    const visibleCount = slider.querySelectorAll('.learning-card:not([hidden])').length;
-    slider.hidden = visibleCount === 0;
-    section.querySelector('.learning-empty').hidden = visibleCount !== 0;
-    slider.scrollLeft = 0;
-    section.querySelector('#learning-result').textContent = visibleCount ? 'Hiển thị ' + visibleCount + ' khóa học.' : 'Chưa có chương trình phù hợp.';
-  });
-})();
-</script>
 <section class="section intro-section">
   <div class="container intro-container">
     <p>Chào mừng bạn đến với một trong những hành trình quan trọng nhất của đời người: <strong>Hiểu Mình — Cải Mệnh — Chữa Lành</strong>, để sống sâu sắc hơn, có ý nghĩa hơn và bình an hơn.</p>

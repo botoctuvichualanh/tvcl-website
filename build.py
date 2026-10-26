@@ -494,7 +494,7 @@ def header_html(depth=""):
         <a href="/khoa-hoc-tu-vi-chua-lanh/">Tử Vi Chữa Lành</a>
         <a href="/khoa-hoc-tu-vi-bi-kip-chua-lanh/">Tử Vi Bí Kíp Chữa Lành</a>
       </div></details>
-      <details class="nav-group nav-service-group"><summary onclick="event.preventDefault();this.parentElement.open=true">Dịch vụ Luận Tử Vi</summary><div class="nav-menu"><a href="/dich-vu-luan-tu-vi/">Dịch vụ chung</a><a href="/tham-van-tinh-duyen/">Tham vấn Tình Duyên</a><a href="/tham-van-quan-trung/">Tham vấn vs Tộc Trưởng</a></div></details>    </nav>
+      <details class="nav-group nav-service-group"><summary onclick="event.preventDefault();this.parentElement.open=true">Dịch vụ Luận Tử Vi</summary><div class="nav-menu"><a href="/dich-vu-luan-tu-vi/">Dịch vụ chung</a><a href="/tham-van-tinh-duyen/">Tham vấn Tình Duyên</a><a href="/tham-van-quan-trung/">Tham vấn vs Tộc Trưởng</a><a href="https://tuvichualanh.com/100-ban-do-chua-lanh/?v=2">100 Bản Đồ Chữa Lành</a></div></details>    </nav>
   </div>
 </header>
 <script src="{depth}assets/js/homepage-nav.js?v=20261025-touch-links" defer></script>'''

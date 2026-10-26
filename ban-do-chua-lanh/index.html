@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>100 Bản Đồ Chữa Lành · Tham vấn cùng Tộc trưởng Quán Trung</title>
+<meta name="description" content="Chương trình đặc biệt: ưu đãi đến 50% phí tham vấn cùng Tộc trưởng Quán Trung mỗi đợt 20 suất, dành cho người đồng ý chia sẻ cảm nhận và câu chuyện đã ẩn danh.">
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--w:#fff;--ivory:#F7F5F0;--blue:#4A8FD4;--sky:#DCEAF7;--green:#6FB496;--ink:#243447;--muted:#5b6b7c;--teal:#187888;--line:#e3eaf2}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Be Vietnam Pro',system-ui,sans-serif;color:var(--ink);background:var(--ivory);line-height:1.65;font-size:17px}
+.wrap{max-width:880px;margin:0 auto;padding:0 18px}
+section{padding:56px 0}
+.eb{font-weight:700;font-size:13px;letter-spacing:5px;color:var(--blue);text-transform:uppercase}
+h1{font-weight:800;font-size:clamp(30px,6vw,50px);line-height:1.18;margin-top:12px}
+h2{font-weight:800;font-size:clamp(24px,4.4vw,34px);line-height:1.25;margin-bottom:18px}
+.tribe{color:var(--teal);font-weight:500;letter-spacing:1px;margin-top:10px}
+.rule{width:56px;height:2px;background:var(--green);margin:18px 0}
+.center{text-align:center}.center .rule{margin:18px auto}
+.slogan{font-size:14px;color:var(--muted)}
+.hero{background:radial-gradient(circle at 85% 20%,var(--sky),transparent 55%),var(--ivory);padding-top:64px}
+.lead{font-size:clamp(17px,2.6vw,20px);max-width:680px;margin:22px auto 0}
+.badge{display:inline-flex;gap:10px;align-items:center;background:var(--w);border:1px solid var(--line);border-radius:40px;padding:10px 20px;margin-top:26px;font-weight:600}
+.badge b{color:var(--blue);font-size:20px}
+.journey{max-width:420px;margin:22px auto 0;font-size:14px;color:var(--muted)}
+.bar{height:8px;background:var(--sky);border-radius:8px;overflow:hidden;margin-top:8px}
+.bar i{display:block;height:100%;background:var(--green);border-radius:8px}
+.btn{display:inline-block;background:var(--blue);color:#fff;text-decoration:none;font-weight:700;border:0;border-radius:40px;padding:15px 30px;font-size:17px;cursor:pointer;font-family:inherit;margin-top:26px}
+.btn.alt{background:var(--green)}
+.btn:disabled{opacity:.5;cursor:not-allowed}
+.white{background:var(--w)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.card{background:var(--w);border:1px solid var(--line);border-radius:18px;padding:24px}
+.ivory .card,.hero .card{background:var(--w)}
+.white .card{background:var(--ivory);border-color:transparent}
+.num{font-weight:800;color:var(--blue);font-size:15px;letter-spacing:2px}
+.card h3{font-size:19px;margin:6px 0 8px}
+.card p{color:var(--muted);font-size:16px}
+ul.d{list-style:none}
+ul.d li{padding:9px 0 9px 26px;position:relative;border-top:1px solid var(--line)}
+ul.d li:first-child{border-top:0}
+ul.d li:before{content:"✦";position:absolute;left:0;color:var(--green)}
+.price{display:flex;justify-content:space-between;align-items:center;gap:14px;padding:18px 0;border-top:1px solid var(--line)}
+.price:first-of-type{border-top:0}
+.price .n{font-weight:700}.price .n small{display:block;font-weight:400;color:var(--muted);font-size:14px}
+.price .p{text-align:right;white-space:nowrap}
+.price s{color:var(--muted);font-size:14px;display:block}
+.price strong{color:var(--blue);font-size:21px}
+.quote{border-left:3px solid var(--green);padding:6px 0 6px 18px;font-style:italic;font-size:19px;margin:22px 0}
+.note{background:var(--sky);border-radius:14px;padding:16px 20px;font-size:15px}
+form{background:var(--w);border:1px solid var(--line);border-radius:20px;padding:26px}
+label.f{display:block;font-weight:600;font-size:15px;margin:16px 0 6px}
+input[type=text],input[type=tel],textarea{width:100%;border:1px solid #cdd8e4;border-radius:12px;padding:12px 14px;font:inherit;font-size:16px;color:var(--ink);background:#fff}
+textarea{min-height:84px;resize:vertical}
+.opt{display:flex;gap:12px;align-items:flex-start;border:1px solid var(--line);border-radius:14px;padding:14px;margin-top:10px;cursor:pointer}
+.opt:has(input:checked){border-color:var(--blue);background:#f4f9fe}
+.opt input{margin-top:5px;width:18px;height:18px;accent-color:var(--blue);flex:none}
+.opt .t{font-weight:600}.opt .s{font-size:14px;color:var(--muted)}
+.opt .pp{margin-left:auto;text-align:right;white-space:nowrap;font-size:15px}
+.pp s{color:var(--muted);font-size:13px;display:block}
+.pp b{color:var(--blue)}
+.consent{background:var(--ivory);border-radius:14px;padding:6px 16px 16px;margin-top:22px}
+.consent .opt{background:#fff}
+.req{color:#c0563f;font-weight:700}
+.total{display:flex;justify-content:space-between;align-items:center;margin-top:22px;padding-top:18px;border-top:1px dashed #cdd8e4;gap:12px}
+.total .lb{font-size:15px;color:var(--muted)}
+.total .v{font-size:24px;font-weight:800;color:var(--blue)}
+.state{font-size:14px;font-weight:600;margin-top:6px}
+.state.on{color:#3f8f6d}.state.off{color:var(--muted)}
+#out{display:none;margin-top:18px}
+#msg{width:100%;min-height:170px;font-size:14px}
+details{border-top:1px solid var(--line);padding:14px 0}
+details summary{font-weight:600;cursor:pointer}
+details p{color:var(--muted);margin-top:8px;font-size:16px}
+footer{background:var(--ink);color:#d8e2ec;padding:36px 0;font-size:14px;text-align:center}
+footer b{color:#fff}
+@media(max-width:640px){.grid2{grid-template-columns:1fr}section{padding:42px 0}.opt{flex-wrap:wrap}.opt .pp{margin-left:30px;text-align:left}}
+</style>
+<style>
+/* ===== Lớp màu & năng lượng ===== */
+:root{--teal2:#28A8B0;--mint:#E6F4EC;--grad:linear-gradient(135deg,#4A8FD4 0%,#28A8B0 55%,#6FB496 100%)}
+.hero{position:relative;overflow:hidden;background:var(--grad);color:#fff;padding:84px 0 72px}
+.hero .wrap{position:relative;z-index:2}
+.hero .eb{display:inline-block;background:rgba(255,255,255,.18);color:#fff;padding:8px 18px;border-radius:30px;backdrop-filter:blur(4px)}
+.hero h1{color:#fff;text-shadow:0 6px 30px rgba(20,60,90,.25)}
+.hero .tribe{color:#E8F7F2}.hero .rule{background:#fff;opacity:.7}
+.hero .slogan,.hero .journey{color:rgba(255,255,255,.88)}
+.hero .lead{color:#fff}.hero .lead b{background:rgba(255,255,255,.18);padding:0 6px;border-radius:6px}
+.hero .btn{background:#fff;color:var(--blue);box-shadow:0 10px 30px rgba(20,60,90,.25);transition:transform .2s}
+.hero .btn:hover{transform:translateY(-3px)}
+.orb{position:absolute;border-radius:50%;filter:blur(40px);opacity:.55;z-index:1;animation:float 12s ease-in-out infinite}
+.o1{width:320px;height:320px;background:#DCEAF7;top:-90px;left:-80px}
+.o2{width:260px;height:260px;background:#9BE0C0;bottom:-90px;right:8%;animation-delay:-4s}
+.o3{width:180px;height:180px;background:#7FC8F0;top:30%;right:-40px;animation-delay:-8s}
+@keyframes float{0%,100%{transform:translate(0,0)}50%{transform:translate(20px,-24px)}}
+.hstar{position:absolute;z-index:1;right:6%;top:14%;width:140px;opacity:.9;animation:spin 40s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.dot{position:absolute;width:4px;height:4px;border-radius:50%;background:#fff;z-index:1;animation:tw 3s ease-in-out infinite}
+@keyframes tw{0%,100%{opacity:.2}50%{opacity:1}}
+.eb{display:inline-block;background:var(--sky);padding:6px 14px;border-radius:30px;letter-spacing:3px}
+section:not(.white){background:linear-gradient(180deg,#F7F5F0 0%,#EEF6FB 100%)}
+.grid2 .card{border:0;position:relative;overflow:hidden;transition:transform .25s,box-shadow .25s}
+.grid2 .card:hover{transform:translateY(-4px);box-shadow:0 14px 34px rgba(36,52,71,.10)}
+.grid2 .card:nth-child(1){background:linear-gradient(150deg,#DCEAF7,#F4F9FE)!important}
+.grid2 .card:nth-child(2){background:linear-gradient(150deg,#D7F0E4,#F3FBF7)!important}
+.grid2 .card:nth-child(2) .num{background:var(--green)}
+.num{display:inline-block;background:var(--blue);color:#fff;border-radius:20px;padding:3px 12px;font-size:13px}
+.quote{border-left:4px solid transparent;border-image:var(--grad) 1;background:linear-gradient(90deg,#EEF6FB,transparent);padding:16px 22px;border-radius:0 12px 12px 0}
+#pricelist{border:0;box-shadow:0 12px 34px rgba(36,52,71,.08)}
+.price{padding-left:16px;position:relative}
+.price:before{content:"";position:absolute;left:0;top:18px;bottom:18px;width:4px;border-radius:4px;background:var(--grad)}
+.price strong,.total .v{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.note{background:linear-gradient(135deg,#DCEAF7,#E6F4EC)}
+ul.d li:before{content:"✦";width:20px;height:20px;line-height:20px;text-align:center;border-radius:50%;background:var(--grad);color:#fff;font-size:11px;top:12px}
+ul.d li{padding-left:32px}
+form{border:0;box-shadow:0 18px 50px rgba(36,52,71,.10);position:relative;overflow:hidden}
+form:before{content:"";position:absolute;top:0;left:0;right:0;height:6px;background:var(--grad)}
+.opt{transition:all .2s}
+.opt:hover{border-color:#9cc4ea}
+.opt:has(input:checked){border-color:transparent;background:linear-gradient(#f4f9fe,#f4f9fe) padding-box,var(--grad) border-box;border:2px solid transparent}
+.consent{background:linear-gradient(135deg,#EEF6FB,#EDF8F2)}
+#go{background:var(--grad);box-shadow:0 12px 28px rgba(74,143,212,.35);transition:transform .2s}
+#go:hover{transform:translateY(-2px)}
+details summary{list-style:none;position:relative;padding-left:26px}
+details summary:before{content:"+";position:absolute;left:0;top:-1px;width:18px;height:18px;line-height:18px;text-align:center;border-radius:50%;background:var(--grad);color:#fff;font-size:14px}
+details[open] summary:before{content:"–"}
+footer{background:linear-gradient(135deg,#243447,#187888)}
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease}
+.reveal.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){.orb,.hstar,.dot{animation:none}.reveal{opacity:1;transform:none;transition:none}}
+@media(max-width:640px){.hstar{width:84px;top:6%;right:4%;opacity:.5}}
+</style>
+<style>
+/* ===== Đầu trang: dịu, ấm, chữa lành ===== */
+.hero{background:linear-gradient(160deg,#FBF7F1 0%,#FCEEE4 38%,#EEF5F3 70%,#E6F0FA 100%);color:var(--ink)}
+.hero h1{color:var(--ink);text-shadow:none}
+.hero .eb{background:rgba(255,255,255,.75);color:var(--blue);box-shadow:0 4px 14px rgba(36,52,71,.06)}
+.hero .tribe{color:var(--teal)}.hero .rule{background:var(--green);opacity:1}
+.hero .slogan,.hero .journey{color:var(--muted)}
+.hero .lead{color:var(--ink)}
+.hero .lead b{background:linear-gradient(transparent 58%,#F8D9C6 58%);padding:0 2px;border-radius:0}
+.hero .btn{background:linear-gradient(135deg,#4A8FD4,#28A8B0);color:#fff;box-shadow:0 10px 26px rgba(74,143,212,.28)}
+.o1{background:#FAD8C3;opacity:.6}.o2{background:#CDEBDC;opacity:.7}.o3{background:#D3E6F8;opacity:.7}
+.hstar circle{stroke:rgba(74,143,212,.35)}.hstar path{fill:#F2B999}.hstar circle:last-of-type{fill:#4A8FD4;stroke:none}
+.dot{background:#E9A983}
+/* ===== Mỗi gói một màu ===== */
+#pricelist{background:transparent!important;box-shadow:none;padding:0}
+#pricelist .price{border:0;border-radius:18px;padding:22px 22px 22px 26px;margin-bottom:14px;background:var(--bg);box-shadow:0 8px 22px rgba(36,52,71,.06)}
+#pricelist .price:before{background:var(--ac);top:22px;bottom:22px;left:12px}
+#pricelist .price strong{background:none;color:var(--ac);-webkit-text-fill-color:var(--ac)}
+#pricelist .price:nth-child(1),#packs .opt:nth-child(1){--bg:#E4EFFB;--ac:#3B7FC7}
+#pricelist .price:nth-child(2),#packs .opt:nth-child(2){--bg:#E1F3EA;--ac:#3E9A72}
+#pricelist .price:nth-child(3),#packs .opt:nth-child(3){--bg:#DFF2F3;--ac:#1F8F98}
+#pricelist .price:nth-child(4),#packs .opt:nth-child(4){--bg:#FCE7EC;--ac:#D0607E}
+#packs .opt{background:var(--bg);border:2px solid transparent}
+#packs .opt .pp b{color:var(--ac)}
+#packs .opt input{accent-color:var(--ac)}
+#packs .opt:has(input:checked){background:var(--bg);border:2px solid var(--ac);box-shadow:0 8px 22px rgba(36,52,71,.10)}
+</style>
+<style>
+#nextTier{display:flex;flex-direction:column;align-items:center;gap:10px;margin-top:26px}
+.tierNow{display:inline-block;background:linear-gradient(135deg,#F4A27E,#E8806A);color:#fff;font-weight:800;font-size:clamp(17px,2.8vw,21px);padding:12px 26px;border-radius:40px;box-shadow:0 10px 26px rgba(232,128,106,.32);animation:pulse 2.6s ease-in-out infinite}
+.tierNext{font-size:15px;color:var(--muted)}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.04)}}
+@media(prefers-reduced-motion:reduce){.tierNow{animation:none}}
+</style>
+<style>.firstcome{display:inline-block;background:#FCEEE4;color:#B4583F;font-weight:600;font-size:15px;padding:10px 18px;border-radius:14px;margin:-4px 0 20px}</style>
+<style>
+.steps{display:grid;gap:12px;margin:0 0 24px}
+.st{display:flex;gap:14px;align-items:flex-start;background:var(--b);border-radius:16px;padding:16px 18px}
+.st>span{flex:none;width:34px;height:34px;border-radius:50%;background:var(--c);color:#fff;font-weight:800;display:flex;align-items:center;justify-content:center}
+.st b{font-size:17px}.st p{font-size:15px;color:var(--muted);margin-top:2px}
+@media(min-width:760px){.steps{grid-template-columns:repeat(3,1fr)}.st{flex-direction:column}}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="orb o1"></div><div class="orb o2"></div><div class="orb o3"></div>
+  <svg class="hstar" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="46" fill="none" stroke="rgba(255,255,255,.45)" stroke-width="1.2"/><circle cx="50" cy="50" r="38" fill="none" stroke="rgba(255,255,255,.25)" stroke-dasharray="2 4"/><path d="M50 14 L56 44 L86 50 L56 56 L50 86 L44 56 L14 50 L44 44 Z" fill="#fff" opacity=".9"/><circle cx="50" cy="50" r="4" fill="#4A8FD4"/></svg>
+  <i class="dot" style="top:18%;left:12%"></i><i class="dot" style="top:70%;left:20%;animation-delay:-1s"></i><i class="dot" style="top:30%;left:78%;animation-delay:-2s"></i><i class="dot" style="top:82%;left:64%;animation-delay:-1.5s"></i><i class="dot" style="top:12%;left:52%;animation-delay:-.5s"></i>
+  <div class="wrap center">
+    <div class="eb">Chương trình cộng đồng · <span id="batchLabel"></span></div>
+    <h1>100 Bản Đồ Chữa Lành</h1>
+    <div class="tribe">Bộ tộc Tử Vi Chữa Lành</div>
+    <div class="rule"></div>
+    <p class="slogan">Tử Vi Chữa Lành: Ứng dụng Tử Vi, Tâm Lý, Đạo Học để Hiểu Mình, Cải Mệnh &amp; Chữa Lành</p>
+    <p class="lead">Hành trình Tộc trưởng Quán Trung cùng <b>100 người đọc lại tấm bản đồ của chính mình</b>. Mỗi đợt chỉ mở <b>20 suất</b>, ưu đãi <b><span class="pct">50%</span> phí tham vấn</b> cho người sẵn lòng chia sẻ cảm nhận và câu chuyện <b>đã được ẩn danh hoàn toàn</b>, để cùng xây kho bài giảng chữa lành cho cộng đồng.</p>
+    <p class="journey" id="nextTier"></p>
+    <a href="#dangky" class="btn">Đăng ký giữ suất</a>
+  </div>
+</header>
+
+<section class="white">
+  <div class="wrap">
+    <div class="eb">Vì sao có chương trình này</div>
+    <h2>Một cuộc trao đổi tử tế, đôi bên cùng có ích</h2>
+    <div class="grid2">
+      <div class="card"><div class="num">01</div><h3>Mở cửa cho người chưa có dịp</h3><p>Nhiều bạn theo dõi Bộ tộc đã lâu nhưng chưa có cơ hội ngồi cùng Tộc trưởng để nhìn lại tấm bản đồ của mình. Chương trình này dành cho các bạn.</p></div>
+      <div class="card"><div class="num">02</div><h3>Mỗi bản đồ soi đường cho nhiều người</h3><p>Hành trình chuyển hóa của bạn, sau khi được ẩn danh, sẽ trở thành bài giảng mẫu giúp cộng đồng hiểu Tử Vi Chữa Lành vận hành thế nào trong đời thật.</p></div>
+    </div>
+    <p class="quote">"Lá số là bản đồ, không phải bản án." Và câu chuyện của bạn có thể là ngọn đèn cho người đi sau.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="eb">Các gói áp dụng</div>
+    <h2>Ưu đãi <span class="pct">50%</span>, mỗi tháng chỉ 20 suất</h2>
+    <div class="card" id="pricelist"></div>
+    <p class="note" style="margin-top:16px"><b>Lịch ưu đãi:</b> Tháng 11/2026: 20 suất giảm 50% · Tháng 12/2026: 20 suất giảm 40%. Khi tháng đã đủ suất, phí trở về giá thường. Bộ tộc sẽ xác nhận suất qua Zalo khi bạn đăng ký.</p>
+    <p class="note" style="margin-top:12px">Mỗi buổi đều có ghi hình hoặc ghi âm và bản tóm tắt luận giải gửi riêng cho bạn. Hình thức online, hoặc gặp trực tiếp tại Đà Nẵng. Lịch được xếp lần lượt theo thứ tự đăng ký và thanh toán trong đợt.</p>
+  </div>
+</section>
+
+<section class="white">
+  <div class="wrap">
+    <div class="eb">Điều bạn nhận và điều bạn trao</div>
+    <h2>Hai việc nhỏ đổi lấy ưu đãi <span class="pct">50%</span></h2>
+    <div class="grid2">
+      <div class="card"><div class="num">BẠN TRAO 01</div><h3>Phản hồi chi tiết sau buổi tham vấn</h3><p>Trong 2 ngày sau buổi (hoặc sau chặng đồng hành), bạn điền một phiếu cảm nhận khoảng 15 phút: điều bạn nhận ra, điều đã thay đổi, điều Bộ tộc nên làm tốt hơn. Chân thật quan trọng hơn khen ngợi.</p></div>
+      <div class="card"><div class="num">BẠN TRAO 02</div><h3>Cho phép dùng câu chuyện đã ẩn danh</h3><p>Bộ tộc được dùng câu chuyện và hành trình chuyển hóa của bạn làm bài giảng mẫu hoặc bài luận cho cộng đồng, theo đúng các cam kết ẩn danh bên dưới.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="eb">Cam kết ẩn danh của Bộ tộc</div>
+    <h2>Không ai nhận ra bạn qua câu chuyện</h2>
+    <div class="card">
+      <ul class="d">
+        <li><b>Xóa toàn bộ thông tin định danh:</b> họ tên, tuổi, ngày giờ sinh, nơi ở, nơi làm việc, nghề nghiệp cụ thể, tên người thân và mọi chi tiết có thể lần ra đời sống của bạn.</li>
+        <li><b>Thay đổi một phần câu chuyện:</b> đổi bối cảnh, mốc thời gian và chi tiết phụ để không ai nhận ra, nhưng vẫn giữ đúng bài học cốt lõi.</li>
+        <li><b>Lá số được che thông tin:</b> lá số dùng trong bài giảng đã che tên, tuổi và toàn bộ ngày giờ tháng năm sinh, chỉ giữ phần sao và cung để cộng đồng thấy mối tương quan trên tấm bản đồ.</li>
+        <li><b>Không dùng hình ảnh, giọng nói, video</b> của buổi tham vấn. Bản ghi chỉ để gửi riêng cho bạn.</li>
+        <li><b>Bạn có thể rút lại sự đồng ý</b> bất cứ lúc nào trước khi câu chuyện được công bố, chỉ cần nhắn cho Bộ tộc.</li>
+        <li>Những gì bạn muốn giữ riêng (sức khỏe, chuyện gia đình nhạy cảm...) chỉ cần nói "phần này không dùng", Bộ tộc tôn trọng tuyệt đối.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="white" id="dangky">
+  <div class="wrap">
+    <div class="eb">Đăng ký</div>
+    <h2>Giữ suất của bạn</h2>
+    <p class="firstcome">✦ Ưu đãi được trao theo thứ tự đăng ký: ai đến trước nhận trước, cho đến khi tháng đủ suất.</p>
+    <div class="steps">
+      <div class="st" style="--c:#4A8FD4;--b:#E4EFFB"><span>1</span><div><b>Nhắn Zalo đăng ký</b><p>Điền vài thông tin bên dưới rồi bấm gửi. Nội dung được soạn sẵn, bạn chỉ cần dán vào Zalo của Trợ lý Phương Anh.</p></div></div>
+      <div class="st" style="--c:#28A8B0;--b:#DFF2F3"><span>2</span><div><b>Điền phiếu chi tiết (~10 phút)</b><p>Phương Anh gửi bạn phiếu online: thông tin lập lá số, điều bạn đang trăn trở và xác nhận đồng ý tham gia chương trình.</p></div></div>
+      <div class="st" style="--c:#6FB496;--b:#E1F3EA"><span>3</span><div><b>Chuyển khoản &amp; xác nhận lịch</b><p>Sau khi nhận phiếu và phí tham vấn, suất của bạn được giữ và lịch hẹn cùng Tộc trưởng được chốt.</p></div></div>
+    </div>
+    <form id="f" novalidate>
+      <label class="f" for="name">Tên gọi của bạn <span class="req">*</span></label>
+      <input type="text" id="name" autocomplete="name" placeholder="Chỉ cần tên gọi, không bắt buộc họ tên đầy đủ">
+      <label class="f" for="phone">Số Zalo <span class="req">*</span></label>
+      <input type="tel" id="phone" autocomplete="tel" placeholder="09xx xxx xxx">
+
+      <label class="f">Chọn gói <span class="req">*</span></label>
+      <div id="packs"></div>
+
+      <label class="f">Hình thức</label>
+      <label class="opt"><input type="radio" name="mode" value="Online" checked><span class="t">Online</span></label>
+      <label class="opt"><input type="radio" name="mode" value="Gặp trực tiếp tại Đà Nẵng"><span><span class="t">Gặp trực tiếp tại Đà Nẵng</span><br><span class="s">Địa điểm cụ thể sẽ được trợ lý gửi khi xác nhận lịch.</span></span></label>
+
+      <label class="f" for="topic">Điều bạn đang muốn nhìn rõ (không bắt buộc)</label>
+      <textarea id="topic" placeholder="Vài dòng ngắn là đủ, chi tiết sẽ trao đổi trong buổi tham vấn"></textarea>
+
+      <div class="consent">
+        <label class="f">Điều kiện nhận ưu đãi <span class="pct">50%</span></label>
+        <label class="opt"><input type="checkbox" id="c1"><span><span class="t">Tôi đồng ý gửi phản hồi chi tiết <span class="req">*</span></span><br><span class="s">Điền phiếu cảm nhận trong 2 ngày sau buổi tham vấn hoặc chặng đồng hành.</span></span></label>
+        <label class="opt"><input type="checkbox" id="c2"><span><span class="t">Tôi đồng ý cho Bộ tộc dùng câu chuyện của tôi đã ẩn danh <span class="req">*</span></span><br><span class="s">Làm bài giảng mẫu hoặc bài luận cho cộng đồng, theo đúng các cam kết ẩn danh ở trên. Nếu đổi ý, tôi có thể nhắn rút lại trước khi công bố.</span></span></label>
+        <label class="opt"><input type="checkbox" id="c3"><span><span class="t">Cho phép trích lời cảm nhận của tôi (không kèm tên) <span style="font-weight:400">· tùy chọn</span></span><br><span class="s">Để đăng như một lời chia sẻ thật trên các kênh của Bộ tộc.</span></span></label>
+      </div>
+
+      <div class="total">
+        <div><div class="lb">Phí tham vấn</div><div class="state" id="state"></div></div>
+        
+      </div>
+      <button type="submit" class="btn" id="go" style="width:100%">Gửi đăng ký qua Zalo</button>
+      <p class="slogan" style="margin-top:12px">Phí được thanh toán trước khi xác nhận lịch. Nếu chưa hài lòng, bạn chỉ trả mức phí bạn thấy xứng đáng, Bộ tộc hoàn lại phần chênh lệch.</p>
+
+      <div id="out">
+        <p class="note">Nội dung đăng ký đã được sao chép. Zalo của Trợ lý Phương Anh đang mở, bạn chỉ cần <b>dán (nhấn giữ → Dán) và gửi</b>. Nếu Zalo không tự mở, hãy nhắn tới số <b id="zno"></b> với nội dung dưới đây:</p>
+        <textarea id="msg" readonly></textarea>
+      </div>
+    </form>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="eb">Câu hỏi thường gặp</div>
+    <h2>Bạn có thể đang băn khoăn</h2>
+    <details><summary>Nếu tôi không muốn chia sẻ câu chuyện thì sao?</summary><p>Hoàn toàn được. Bạn vẫn đăng ký tham vấn cùng Tộc trưởng theo giá thường. Ưu đãi <span class="pct">50%</span> chỉ dành cho người tự nguyện đồng ý cả hai điều kiện.</p></details>
+    <details><summary>Người quen có nhận ra tôi trong bài giảng không?</summary><p>Bộ tộc xóa mọi thông tin định danh, che tên và ngày giờ sinh trên lá số, đồng thời thay đổi bối cảnh và chi tiết phụ của câu chuyện. Những phần bạn muốn giữ riêng, chỉ cần dặn khi tham vấn.</p></details>
+    <details><summary>Tôi đổi ý sau khi đã đồng ý thì sao?</summary><p>Không sao cả, mỗi người đều có lý do riêng và Bộ tộc luôn tôn trọng. Bạn chỉ cần nhắn cho Bộ tộc trước khi câu chuyện được công bố. Nếu đổi ý trước buổi tham vấn, buổi của bạn chuyển sang giá thường, hoặc bạn có thể hủy và nhận lại phí đã đóng. Nếu đổi ý sau buổi, Bộ tộc sẽ không dùng câu chuyện của bạn, và bạn chỉ cần bổ sung phần chênh lệch về giá thường, vì ưu đãi vốn là lời cảm ơn dành cho câu chuyện ấy. Câu chuyện đã công bố thì không gỡ được, nhưng nếu còn chi tiết nào khiến bạn lo bị nhận ra, Bộ tộc sẽ sửa ngay.</p></details>
+    <details><summary>Nếu tôi bận, chưa kịp gửi phản hồi trong 2 ngày?</summary><p>Trợ lý sẽ nhắn nhắc nhẹ bạn một lần. Bộ tộc hiểu ai cũng có lúc bận, chỉ mong bạn dành khoảng 15 phút khi có thể.</p></details>
+    <details><summary>Tham vấn có thay thế bác sĩ hay chuyên gia trị liệu không?</summary><p>Không. Tử Vi Chữa Lành là công cụ hiểu mình và chuyển hóa. Với những vấn đề sức khỏe thể chất hoặc tinh thần cần điều trị, Tộc trưởng sẽ khuyến nghị bạn tìm đến chuyên gia phù hợp.</p></details>
+    <details><summary>Khi nào chương trình kết thúc?</summary><p>Tháng 11/2026 có 20 suất ưu đãi 50%, tháng 12/2026 có 20 suất ưu đãi 40%. Tháng nào đủ suất thì phí trở về giá thường. Số suất còn lại được Bộ tộc thông báo trên các kênh và xác nhận khi bạn nhắn Zalo.</p></details>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <b>Bộ tộc Tử Vi Chữa Lành</b><br>
+    Lá số là bản đồ, không phải bản án.<br>
+    Đăng ký qua Zalo: Trợ lý Phương Anh 085 694 1341
+  </div>
+</footer>
+
+<script>
+// ===== CẤU HÌNH =====
+// Lịch ưu đãi theo tháng. Muốn mở thêm tháng: thêm 1 dòng.
+const ROWS = [
+  {m:'2026-11', label:'Tháng 11/2026', pct:50, total:20},
+  {m:'2026-12', label:'Tháng 12/2026', pct:40, total:20}
+];
+const PACKS = [
+  {id:'p1', name:'Tham vấn 1:1 cùng Tộc trưởng', desc:'1 buổi · 90 phút', base:2000000, zalo:'0856941341'},
+  {id:'p2', name:'Đồng hành 1 tháng', desc:'2 buổi tham vấn & 1 tháng đồng hành chuyển hóa', base:5000000, zalo:'0856941341'},
+  {id:'p3', name:'Đồng hành 3 tháng', desc:'6 buổi tham vấn & 3 tháng đồng hành chuyển hóa', base:10000000, zalo:'0856941341'},
+  {id:'p4', name:'Tham vấn Tình Yêu & Hôn nhân', desc:'3 buổi × 90 phút & 1 tháng đồng hành', base:7000000, zalo:'0856941341'}
+];
+// ====================
+const $ = id => document.getElementById(id);
+const vnd = n => n.toLocaleString('vi-VN') + 'đ';
+let ROW = null, NEXT = null, DISC = 0, PCT = '';
+
+function pick(){
+  const d = new Date(), key = d.getFullYear() + '-' + String(d.getMonth()+1).padStart(2,'0');
+  ROWS.sort((a,b) => a.m < b.m ? -1 : 1);
+  let i = ROWS.findIndex(r => r.m === key);
+  if(i < 0 && ROWS.length && key < ROWS[0].m) i = 0;   // mở đăng ký sớm cho tháng đầu
+  ROW = i >= 0 ? ROWS[i] : null; NEXT = i >= 0 ? ROWS[i+1] : null;
+  DISC = ROW ? ROW.pct/100 : 0;
+  PCT = (ROW ? ROW.pct : (ROWS[ROWS.length-1]||{pct:0}).pct) + '%';
+
+  document.querySelectorAll('.pct').forEach(e => e.textContent = PCT);
+  $('batchLabel').textContent = ROW ? ROW.label : 'Đang chuẩn bị đợt mới';
+  $('nextTier').innerHTML = (ROW ? `<span class="tierNow">${ROW.label}: ${ROW.total} suất ưu đãi ${ROW.pct}%</span>` : '') +
+    (NEXT ? `<span class="tierNext">${NEXT.label}: ${NEXT.total} suất ưu đãi ${NEXT.pct}%</span>` : '');
+  const sale = p => Math.round(p.base*(1-DISC));
+  $('pricelist').innerHTML = PACKS.map(p =>
+    `<div class="price"><div class="n">${p.name}<small>${p.desc}</small></div><div class="p">${DISC?`<s>${vnd(p.base)}</s>`:''}<strong>${vnd(sale(p))}</strong></div></div>`).join('');
+  const cur = (document.querySelector('input[name=pack]:checked')||{}).value || 'p1';
+  $('packs').innerHTML = PACKS.map(p =>
+    `<label class="opt"><input type="radio" name="pack" value="${p.id}" ${p.id===cur?'checked':''}><span><span class="t">${p.name}</span><br><span class="s">${p.desc}</span></span><span class="pp">${DISC?`<s>${vnd(p.base)}</s><b>${vnd(sale(p))}</b>`:`<b>${vnd(p.base)}</b>`}</span></label>`).join('');
+  document.querySelectorAll('input').forEach(el => el.onchange = update);
+  update();
+}
+const pack = () => PACKS.find(p => p.id === (document.querySelector('input[name=pack]:checked')||{}).value);
+const eligible = () => $('c1').checked && $('c2').checked && DISC > 0;
+
+function update(){
+  const p = pack(); if(!p) return;
+  const ok = eligible(), s = Math.round(p.base*(1-DISC));
+  $('state').textContent = DISC === 0 ? 'Chương trình ưu đãi hiện chưa mở, phí theo giá thường' : ok ? '✓ Đã đủ điều kiện ưu đãi ' + PCT : 'Tích 2 ô bắt buộc để nhận ưu đãi ' + PCT;
+  $('state').className = 'state ' + (ok ? 'on' : 'off');
+  $('go').textContent = ok ? 'Giữ suất ưu đãi qua Zalo' : 'Đăng ký qua Zalo';
+  $('go').className = 'btn' + (ok ? ' alt' : '');
+}
+pick();
+
+$('f').addEventListener('submit', e => {
+  e.preventDefault();
+  const name = $('name').value.trim(), phone = $('phone').value.trim();
+  if(!name || !phone){ alert('Bạn vui lòng điền tên gọi và số Zalo nhé.'); return; }
+  const p = pack(), ok = eligible(), s = Math.round(p.base*(1-DISC));
+  const mode = document.querySelector('input[name=mode]:checked').value;
+  const lines = [
+    ok ? 'ĐĂNG KÝ 100 BẢN ĐỒ CHỮA LÀNH · ' + ROW.label.toUpperCase() + ' (ưu đãi ' + PCT + ')' : 'ĐĂNG KÝ THAM VẤN CÙNG TỘC TRƯỞNG QUÁN TRUNG',
+    'Tên gọi: ' + name, 'Zalo: ' + phone,
+    'Gói: ' + p.name + ' (' + p.desc + ')',
+    'Phí: ' + (ok ? vnd(s) + ' (giá gốc ' + vnd(p.base) + ')' : vnd(p.base)),
+    'Hình thức: ' + mode
+  ];
+  if($('topic').value.trim()) lines.push('Điều muốn nhìn rõ: ' + $('topic').value.trim());
+  if(ok){
+    lines.push('', 'XÁC NHẬN ĐỒNG Ý:',
+      '[x] Gửi phản hồi chi tiết trong 2 ngày sau buổi tham vấn/chặng đồng hành',
+      '[x] Cho phép Bộ tộc dùng câu chuyện đã ẩn danh làm bài giảng mẫu/bài luận cho cộng đồng, có thể rút lại đồng ý trước khi công bố',
+      ($('c3').checked ? '[x]' : '[ ]') + ' Cho phép trích lời cảm nhận (không kèm tên)');
+  }
+  lines.push('', 'Thời điểm đăng ký: ' + new Date().toLocaleString('vi-VN'));
+  const text = lines.join('\n');
+  $('msg').value = text; $('zno').textContent = p.zalo.replace(/(\d{3})(\d{3})(\d{4})/,'$1 $2 $3');
+  $('out').style.display = 'block';
+  try { navigator.clipboard && navigator.clipboard.writeText(text); } catch(err){}
+  window.open('https://zalo.me/' + p.zalo, '_blank');
+});
+
+// hiệu ứng hiện dần khi cuộn
+(function(){var els=document.querySelectorAll('section .card,section h2,.quote,.note,form,details');
+if(!('IntersectionObserver' in window))return;els.forEach(function(e){e.classList.add('reveal')});
+var io=new IntersectionObserver(function(es){es.forEach(function(x){if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}})},{threshold:.12});
+els.forEach(function(e){io.observe(e)});})();
+</script>
+</body>
+</html>

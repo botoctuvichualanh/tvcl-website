@@ -505,6 +505,8 @@ ul.subitem-list li a:hover{color:var(--blue);opacity:1;}
 .priority-guide-card:hover,.related-guide-card:hover{transform:translateY(-2px);border-color:var(--green-deep);box-shadow:0 10px 25px rgba(20,47,55,.08)}
 .priority-guide-card strong,.related-guide-card strong{font-family:"Cormorant Garamond",Georgia,serif;font-size:24px;line-height:1.1}
 .priority-guide-card span,.related-guide-card span{font-size:14px;line-height:1.55;color:var(--ink)}
+.priority-guide-card .priority-guide-cta{display:flex;align-items:center;gap:5px;margin-top:4px;color:var(--green-deep);font-size:12px;font-weight:600}
+.priority-guide-card:focus-visible{outline:3px solid var(--green-deep);outline-offset:4px}
 .related-guides{margin:48px 0 20px;padding:28px;background:var(--ivory);border-left:4px solid var(--green-deep)}
 .related-guides-kicker{margin:0 0 7px;color:var(--green-deep);font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
 .related-guides h2{margin:0 0 20px;font-size:30px}

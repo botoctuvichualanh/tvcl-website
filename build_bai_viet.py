@@ -8,6 +8,9 @@ import json
 import re
 import xml.etree.ElementTree as ET
 from pathlib import Path
+import sys
+
+import bai_viet_lotrinh as LT  # giao diện chuẩn Lộ trình (30/10/2026)
 
 
 ROOT = Path(__file__).resolve().parent
@@ -47,6 +50,7 @@ def render_hubs(data):
     (OUT / "assets" / "data.js").write_text("window.TVCL_DATA=" + json_script({k: data[k] for k in ("categories", "personas", "courses", "tagGroups", "wikiEntries", "articles")}) + ";\n", encoding="utf-8")
     (OUT / "assets" / "library.js").write_text(library_js(), encoding="utf-8")
     (OUT / "assets" / "newsroom.css").write_text(newsroom_css(), encoding="utf-8")
+    LT.write_assets()
 
     for category in [all_category] + data["categories"]:
         is_root = category["id"] == "all"
@@ -57,7 +61,7 @@ def render_hubs(data):
         title = "Bài viết & Chiêm nghiệm lá số | Tử Vi Chữa Lành" if is_root else f"{category['name']} | Bài viết Tử Vi Chữa Lành"
         description = category["heroDesc"]
         static_articles = [a for a in data["articles"] if is_root or a["category"] == category["id"]]
-        html_doc = render_library_page(data, category, static_articles, title, description, canonical, is_root)
+        html_doc = LT.render_library(data, category, static_articles, title, description, canonical, is_root)
         out_file.write_text(html_doc, encoding="utf-8")
 
 
@@ -329,12 +333,13 @@ def reader_css():
 
 
 def render_articles(data):
+    KB = LT.load_kb()
     categories = {c["id"]: c for c in data["categories"]}
     for article in data["articles"]:
         category = categories[article["category"]]
         path = OUT / article["category"] / article["id"] / "index.html"
         path.parent.mkdir(parents=True, exist_ok=True)
-        path.write_text(render_article_news(article, category, data), encoding="utf-8")
+        path.write_text(LT.render_article(article, category, data, KB, sys.modules[__name__]), encoding="utf-8")
 
 
 def update_sitemap(data):

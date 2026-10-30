@@ -743,7 +743,8 @@
           "description": "Lắng lại, tách dữ kiện khỏi diễn giải, kiểm chứng trước khi tin. Kết hợp với [Hóa Lộc](wiki:HoaLoc) và lực từ [3P4C](wiki:3P4C) để có nguồn nuôi dưỡng. Hóa Kỵ bậc cao là sự thấu suốt, sâu sắc và cam kết bền bỉ.",
           "example": "Mỗi tối viết một dòng: 'Điều thật sự xảy ra hôm nay là…' rồi để câu chuyện lo âu nằm sang một bên."
         }
-      ]
+      ],
+      "showCausalMap": true
     },
     {
       "index": 2,
@@ -887,7 +888,8 @@
           "description": "Dùng [IFS](wiki:IFS) để lắng nghe phần vệ sĩ: 'Bạn đang bảo vệ mình khỏi điều gì?'. Rèn kỷ luật thể chất để có chỗ cho năng lượng mạnh. Khi được chuyển hóa, Kình Dương thành dũng tướng mở đường, Đà La thành chuyên gia kiên trì.",
           "example": "Chạy bộ 30 phút mỗi sáng, và tự hỏi trước khi trả lời: 'Phần nào trong mình đang muốn lên tiếng?'."
         }
-      ]
+      ],
+      "showCausalMap": true
     },
     {
       "index": 3,
@@ -1027,7 +1029,8 @@
           "description": "Dẫn kênh ngọn lửa qua vận động thể chất, nghệ thuật và thiền quán. Dùng [CBT](wiki:CBT) tạo khoảng dừng 90 giây trước khi phản ứng. Khi đó Hỏa – Linh trở thành người truyền cảm hứng và có trực giác sâu sắc.",
           "example": "Thấy nóng lên: thở ra thật dài ba lần, uống một cốc nước, rồi mới trả lời."
         }
-      ]
+      ],
+      "showCausalMap": true
     },
     {
       "index": 4,
@@ -1175,7 +1178,8 @@
           "description": "Chủ động 'tán tài tạo phước': cho đi có ý thức, sống vị tha. Học đạo lý ([Đạo học](wiki:DaoHoc)), nuôi [Phúc Đức](wiki:PhucDuc), sáng tạo khác biệt trên nền móng vững. Không Kiếp chuyển hóa thành nhà hiền triết thấu suốt và nhà từ thiện rộng lòng.",
           "example": "Trích 5–10% thu nhập mỗi tháng cho việc thiện, và đặt nguyên tắc 'không đầu tư điều mình chưa hiểu'."
         }
-      ]
+      ],
+      "showCausalMap": true
     },
     {
       "index": 5,
@@ -1323,7 +1327,8 @@
           "description": "Học cách cởi áo giáp khi về nhà: dùng [IFS](wiki:IFS) để cảm ơn phần chiến binh rồi cho nó nghỉ. Dùng lực từ [Quan Lộc](wiki:CungQuanLoc) để giữ bản lĩnh ngoài xã hội, và ấm áp nơi gia đình.",
           "example": "Mỗi tối trước khi vào nhà, ngồi trong xe một phút, thở và nói thầm: 'Giờ mình là bố, không phải sếp'."
         }
-      ]
+      ],
+      "showCausalMap": true
     },
     {
       "index": 6,
@@ -1475,7 +1480,8 @@
           "description": "Kết hợp [CBT](wiki:CBT) để phân biệt 'cải tiến có mục đích' và 'phá bỏ vì bức bối'. Nuôi [Phúc Đức](wiki:PhucDuc) để có sự tĩnh tại làm gốc. Phá Quân chuyển hóa thành người tiên phong mở lối sáng tạo bền vững.",
           "example": "Trước mỗi quyết định thay đổi lớn, chờ 7 ngày và viết ra: 'Mình muốn xây gì, không chỉ muốn bỏ gì?'."
         }
-      ]
+      ],
+      "showCausalMap": true
     },
     {
       "index": 7,
@@ -1627,7 +1633,8 @@
           "description": "Chuyển hướng khát vọng sang học hỏi nghệ thuật, tâm lý, [Đạo học](wiki:DaoHoc). Dùng [CBT](wiki:CBT) nhận diện 'cơn thèm' trước khi hành động, nuôi [Phúc Đức](wiki:PhucDuc). Tham Lang đạt tới sự viên mãn nội tâm và sức hút chân thành.",
           "example": "Mỗi khi muốn mua gì đó, chờ 48 giờ; dùng khoản tiền ấy cho một lớp vẽ hay một cuốn sách."
         }
-      ]
+      ],
+      "showCausalMap": true
     },
     {
       "index": 8,
@@ -1777,7 +1784,8 @@
           "description": "Kết hợp ánh sáng [Thái Dương](wiki:ThaiDuong) (thiện ý) và kiểm chứng [CBT](wiki:CBT): nói điều đúng bằng ái ngữ, hỏi để hiểu chứ không để thắng. Cự Môn trở thành giảng viên, chuyên gia phân tích, người truyền đạt chân lý.",
           "example": "Quy tắc 'một khen – một góp ý – một đề xuất' mỗi khi phản biện."
         }
-      ]
+      ],
+      "showCausalMap": true
     },
     {
       "index": 9,
@@ -1925,7 +1933,8 @@
           "description": "Thực hành lòng tự trắc ẩn (Self-Compassion), dùng [IFS](wiki:IFS) lắng nghe phần 'quan tòa' bên trong, và [CBT](wiki:CBT) để nới rộng tư duy trắng – đen. Liêm Trinh sống chính trực, thanh lịch mà tâm hồn vẫn tự do, mềm mại.",
           "example": "Khi tự trách, hỏi: 'Nếu bạn thân mình mắc lỗi này, mình sẽ nói gì với họ?' rồi nói điều ấy với chính mình."
         }
-      ]
+      ],
+      "showCausalMap": true
     },
     {
       "index": 10,
@@ -2077,7 +2086,8 @@
           "description": "Học cách trao quyền (Tả Hữu), hạ bớt cái tôi thể diện, nuôi [Phúc Đức](wiki:PhucDuc) bằng lòng khiêm cung. Tử Vi trở thành người lãnh đạo nhân hậu, quy tụ được hiền tài.",
           "example": "Mỗi tuần hỏi một người trong nhóm: 'Theo em, anh nên làm khác điều gì?' và chỉ lắng nghe."
         }
-      ]
+      ],
+      "showCausalMap": true
     },
     {
       "index": 11,
@@ -2227,7 +2237,8 @@
           "description": "Đặt Phục Binh trở lại tổng thể [3P4C](wiki:3P4C), 14 Chính tinh và 18 Trung tinh của cung. Giữ sự cẩn trọng vừa đủ mà không đánh mất niềm tin vào con người.",
           "example": "Nguyên tắc 'tin người, kiểm tra việc': tin tưởng mặc định, kiểm tra giấy tờ khi có giao dịch quan trọng."
         }
-      ]
+      ],
+      "showCausalMap": true
     },
     {
       "index": 12,
@@ -2381,7 +2392,8 @@
           "description": "Rèn hành vi quân bình, không thái quá không bất cập. Dùng [IFS](wiki:IFS) và [CBT](wiki:CBT) để làm bạn với mặt tối, nuôi [Phúc Đức](wiki:PhucDuc) làm gốc. Từng bước làm chủ 32 sao trên bản đồ đời mình.",
           "example": "Viết ra 3 sao chính của mình, mỗi sao một dòng 'mặt sáng mình đang dùng' và 'mặt tối mình đang học'."
         }
-      ]
+      ],
+      "showCausalMap": true
     },
     {
       "index": 13,
@@ -2539,7 +2551,8 @@
           "description": "Kết hợp năng lực chuyên môn ([Quan Lộc](wiki:CungQuanLoc)) và tạo phước ([Phúc Đức](wiki:PhucDuc)). Dụng Hóa Lộc bằng sự sáng tạo, dụng Lộc Tồn bằng kỷ luật tích lũy. Tài lộc vừa sung túc vừa an vui.",
           "example": "Quy tắc 50/30/20 cho thu nhập, và mỗi năm đầu tư cho một kỹ năng mới."
         }
-      ]
+      ],
+      "showCausalMap": true
     },
     {
       "index": 14,
@@ -2687,7 +2700,8 @@
           "description": "Tỉnh thức nhận diện mô thức bằng Tâm lý học ([CBT](wiki:CBT), [ACT](wiki:ACT), [IFS](wiki:IFS)) và Đạo học, tạo nhân mới ngay trong hiện tại để đổi quả tương lai. Lá số là bản đồ, không phải bản án.",
           "example": "Hôm nay chọn một thói quen nhỏ để đổi: đi ngủ sớm 30 phút, nói một lời cảm ơn, đọc 10 trang sách."
         }
-      ]
+      ],
+      "showCausalMap": false
     },
     {
       "index": 15,
@@ -2845,7 +2859,8 @@
           "description": "Cha mẹ tự chữa lành vết thương của chính mình, dùng [IFS](wiki:IFS) để thấy phần lo âu bên trong, lắng nghe khí chất riêng của con, nuôi [Phúc Đức](wiki:PhucDuc) gia đình. Khi Thiên – Địa – Nhân hòa hợp, đứa trẻ phát triển trọn vẹn cả tài năng lẫn sự bình an.",
           "example": "Mỗi ngày 15 phút chơi cùng con theo cách con chọn, không dạy, không sửa."
         }
-      ]
+      ],
+      "showCausalMap": false
     },
     {
       "index": 16,
@@ -3009,7 +3024,8 @@
           "description": "Ngừng đổ lỗi cho lá số và bắt đầu gieo nhân mới. Dùng [3P4C](wiki:3P4C): 60% lực Quan Lộc để có đời sống tự chủ, không đặt toàn bộ giá trị bản thân vào người kia; 30% lực [Phúc Đức](wiki:PhucDuc) để nuôi lòng biết ơn và sự bình an bên trong. Khi đó Hóa Kỵ tại Phu Thê trở thành 'Hóa Kỵ bậc cao': thấy rõ khuyết điểm của nhau mà vẫn chọn đồng hành.",
           "example": "Mỗi tối dành 10 phút nói 'hôm nay anh/em cảm thấy…' thay cho 'sao anh/em lại…': nhân nhỏ, quả bền."
         }
-      ]
+      ],
+      "showCausalMap": false
     },
     {
       "index": 17,
@@ -3161,7 +3177,8 @@
           "description": "Mượn lực 60% từ [Thiên Di](wiki:CungThienDi): chọn môi trường tốt, người tốt. Rèn luyện qua cung Thân và trục [Quan Lộc](wiki:CungQuanLoc), nuôi [Phúc Đức](wiki:PhucDuc). Dùng [IFS](wiki:IFS) để ôm lấy phần từng thấy mình kém cỏi.",
           "example": "Mỗi quý chọn một môi trường mới để học: một câu lạc bộ, một khóa học, một nhóm cùng chí hướng."
         }
-      ]
+      ],
+      "showCausalMap": false
     },
     {
       "index": 18,
@@ -3309,7 +3326,8 @@
           "description": "Đối chiếu đại vận với nguyên cục qua [3P4C](wiki:3P4C), chủ động điều chỉnh chiến lược tiến – lùi, chuẩn bị nguồn lực. Biến 10 năm thử thách thành 10 năm nâng cấp toàn diện năng lực.",
           "example": "Đầu mỗi đại vận, viết ra ba năng lực mình cần học thêm trong 10 năm tới."
         }
-      ]
+      ],
+      "showCausalMap": false
     },
     {
       "index": 19,
@@ -3445,7 +3463,8 @@
           "description": "Học theo lộ trình chuẩn: 12 Cung → 14 Chính tinh → 18 Trung tinh → công thức [3P4C](wiki:3P4C). Dùng [CBT](wiki:CBT) gỡ niềm tin 'mình không có căn'. Tử Vi là ngôn ngữ biểu tượng có công thức; ai chăm chỉ đúng phương pháp đều đọc được.",
           "example": "Mỗi tuần học sâu một sao, viết lại bằng lời của mình và đối chiếu với lá số người thân."
         }
-      ]
+      ],
+      "showCausalMap": false
     },
     {
       "index": 20,
@@ -3635,7 +3654,8 @@
           "description": "Học chắc 32 sao: 14 Chính tinh (khí chất gốc), 6 Cát tinh, 6 Hung tinh, 4 Tứ Hóa, Lộc Tồn, [Thiên Mã](wiki:ThienMa). Kết hợp qua [3P4C](wiki:3P4C) để có bức tranh tổng thể mạch lạc.",
           "example": "Làm 32 thẻ ghi nhớ, mỗi thẻ một sao với một dòng mặt sáng và một dòng vùng bài học."
         }
-      ]
+      ],
+      "showCausalMap": false
     },
     {
       "index": 21,
@@ -3791,7 +3811,8 @@
           "description": "Áp dụng tỷ lệ vàng [3P4C](wiki:3P4C): bản cung 100%, đối cung xung chiếu 60%, hai cung tam hợp mỗi cung 30%. Khi bản cung tắc, kích hoạt 60% từ đối cung ([Thiên Di](wiki:CungThienDi) cho Mệnh, [Phúc Đức](wiki:PhucDuc) cho Tài Bạch, Quan Lộc cho Phu Thê) và bồi đắp hai cung tam hợp.",
           "example": "Tài Bạch tắc: mỗi ngày dành 20 phút cho Phúc Đức (thiền, biết ơn) và 1 giờ cho Quan Lộc (nâng nghề)."
         }
-      ]
+      ],
+      "showCausalMap": false
     },
     {
       "index": 22,
@@ -3941,7 +3962,8 @@
           "description": "Đi đúng 5 bước, đọc qua [3P4C](wiki:3P4C), luôn kết thúc bằng hướng chuyển hóa: [Phúc Đức](wiki:PhucDuc) làm gốc, [Đạo học](wiki:DaoHoc) làm la bàn. Lá số trở thành bản đồ để sống tỉnh thức.",
           "example": "Mỗi lá số luận xong, viết ra một câu 'Cung cát để dụng là…' và một câu 'Vùng bài học cần chuyển hóa là…'."
         }
-      ]
+      ],
+      "showCausalMap": false
     },
     {
       "index": 23,
@@ -4091,7 +4113,8 @@
           "description": "Xét trung tinh tại bản cung, mượn 60% lực chính tinh đối cung và 30% từ tam hợp ([3P4C](wiki:3P4C)), xét cung Thân, nuôi [Phúc Đức](wiki:PhucDuc). Chủ động chọn môi trường lành mạnh và người dẫn đường sáng suốt.",
           "example": "Nếu đối cung có [Thái Dương](wiki:ThaiDuong) – [Thái Âm](wiki:ThaiAm): chọn môi trường cân bằng giữa làm việc và nghỉ ngơi."
         }
-      ]
+      ],
+      "showCausalMap": false
     },
     {
       "index": 24,
@@ -4241,7 +4264,8 @@
           "description": "Người Xương Khúc tập buông bớt nỗi sợ sai, chấp nhận 'đủ tốt'; người Không Kiếp tập ghi chép quy trình, hoàn thành từng phần nhỏ. Kết hợp cả chiều sâu trực giác lẫn cấu trúc thực thi qua [3P4C](wiki:3P4C).",
           "example": "Xương Khúc: đặt hạn 'bản nháp 70%'. Không Kiếp: mỗi ý tưởng viết một trang kế hoạch trước khi làm."
         }
-      ]
+      ],
+      "showCausalMap": true
     },
     {
       "index": 25,
@@ -4389,7 +4413,8 @@
           "description": "Mở van xả: viết suy nghĩ ra giấy ([CBT](wiki:CBT)), trò chuyện với người tin cậy, vận động đều đặn. Biến tổ hợp này thành năng lực nghiên cứu chuyên sâu, kỷ luật và sắc bén.",
           "example": "Mỗi tối 10 phút 'đổ não' ra giấy: viết hết điều đang lo, rồi gạch dưới một việc làm được ngày mai."
         }
-      ]
+      ],
+      "showCausalMap": true
     },
     {
       "index": 26,
@@ -4539,7 +4564,8 @@
           "description": "Quay về chăm sóc Phúc Đức: giữ tâm tĩnh lặng, hiếu kính cha mẹ, làm việc thiện. Hạ bớt lòng tham ở Tài Bạch và sự đòi hỏi ở Phu Thê. Gốc vững tự khắc nâng đỡ cả hôn nhân lẫn sự thịnh vượng.",
           "example": "Mỗi tuần một việc thiện nhỏ, mỗi ngày 10 phút thiền, mỗi tháng một bữa cơm với cha mẹ."
         }
-      ]
+      ],
+      "showCausalMap": false
     },
     {
       "index": 27,
@@ -4689,7 +4715,8 @@
           "description": "Dịch chuyển năng lượng sang đối cung Quan Lộc (60%) và Thiên Di (30%) theo [3P4C](wiki:3P4C): phát triển chuyên môn, có niềm vui và cộng đồng riêng, nuôi [Phúc Đức](wiki:PhucDuc). Mang năng lượng tươi mới, độc lập quay về làm ấm lại Phu Thê.",
           "example": "Mỗi tuần dành ít nhất một buổi cho việc học hoặc nhóm cộng đồng của riêng mình."
         }
-      ]
+      ],
+      "showCausalMap": false
     },
     {
       "index": 28,
@@ -4839,7 +4866,8 @@
           "description": "Chủ động chăm sóc tổ ấm (Điền Trạch) và kết nối với con cái, học trò, dự án ấp ủ (Tử Tức); nuôi [Phúc Đức](wiki:PhucDuc). Từ nền tảng gia đạo vững vàng, bước ra giải bài toán sự nghiệp sáng suốt hơn ([3P4C](wiki:3P4C)).",
           "example": "Mỗi ngày 30 phút dọn một góc nhà và 30 phút chơi cùng con không điện thoại."
         }
-      ]
+      ],
+      "showCausalMap": false
     },
     {
       "index": 29,
@@ -4989,7 +5017,8 @@
           "description": "Dùng [IFS](wiki:IFS) và [CBT](wiki:CBT) để tách bạch quá khứ khỏi hiện tại: 'Sếp không phải là bố'. Hiếu kính tỉnh thức: biết ơn mà không phải gánh thay. Nuôi [Phúc Đức](wiki:PhucDuc), chăm sóc cơ thể đều đặn. Thân nhẹ, tâm an, hòa giải với nguồn cội.",
           "example": "Trước cuộc họp căng thẳng, đặt tay lên ngực, thở chậm và nhắc: 'Đây là hiện tại, mình đã là người lớn'."
         }
-      ]
+      ],
+      "showCausalMap": false
     },
     {
       "index": 30,
@@ -5143,7 +5172,8 @@
           "description": "Chủ động biến cung Thân thành bàn đạp tu tập và tạo giá trị, dùng [3P4C](wiki:3P4C) để cân bằng, [CBT](wiki:CBT) để gỡ những niềm tin dính mắc. Sáu con đường, mỗi người một chìa khóa riêng.",
           "example": "Viết ra: 'Cung Thân của mình ở đâu? Mình đang dính mắc hay đang dùng nó để trưởng thành?'."
         }
-      ]
+      ],
+      "showCausalMap": false
     },
     {
       "index": 31,
@@ -5301,7 +5331,8 @@
           "description": "Đi qua 8 nguyên lý: dụng chính tinh, dụng cung cát, phát huy cát tinh, thuần hóa hung tinh ([Kình Đà](wiki:KinhDa)), nhận diện bài học [Hóa Kỵ](wiki:HoaKy), dụng vận, mượn lực [3P4C](wiki:3P4C), chữa lành bằng [IFS](wiki:IFS), CBT, ACT và Đạo học.",
           "example": "Mỗi tháng chọn một nguyên lý để thực hành, viết nhật ký thay đổi cuối tháng."
         }
-      ]
+      ],
+      "showCausalMap": false
     },
     {
       "index": 32,
@@ -5451,7 +5482,8 @@
           "description": "Muốn kích hoạt Tả Hữu: nhiệt tình hỗ trợ đồng sự trước. Muốn kích hoạt Xương Khúc và Khôi Việt: giữ tâm khiêm cung cầu học. Nuôi [Phúc Đức](wiki:PhucDuc). Cát tinh chỉ thức dậy khi ta sống đúng phẩm chất của nó.",
           "example": "Mỗi tuần một việc: giúp một đồng nghiệp, viết một bài chia sẻ, hỏi một người đi trước một câu."
         }
-      ]
+      ],
+      "showCausalMap": true
     },
     {
       "index": 33,
@@ -5603,7 +5635,8 @@
           "description": "Chuyển hóa là thấy rõ cả tiến trình để gieo nhân mới: đặt tỉnh thức vào Tâm và Hành, nuôi [Phúc Đức](wiki:PhucDuc), dùng [3P4C](wiki:3P4C) và [Đạo học](wiki:DaoHoc) làm la bàn. Lá số trở thành tấm gương tu tập.",
           "example": "Khi một chuyện lặp lại, viết ra 8 dòng theo bản đồ này, rồi khoanh tròn mắt xích mình có thể đổi ngay hôm nay."
         }
-      ]
+      ],
+      "showCausalMap": false
     },
     {
       "index": 34,
@@ -5775,7 +5808,8 @@
           "description": "Xác định tinh hệ chủ đạo qua [3P4C](wiki:3P4C), chọn môi trường nghề nghiệp khớp với khí chất thay vì chạy theo trào lưu, nuôi [Phúc Đức](wiki:PhucDuc) để có sự bền bỉ. Chuyên môn, quản lý hay tự kinh doanh, mỗi con đường đều có thể thành công.",
           "example": "Viết ra 3 lần mình làm việc 'quên thời gian', đối chiếu với tinh hệ Mệnh – Tài – Quan của mình."
         }
-      ]
+      ],
+      "showCausalMap": false
     },
     {
       "index": 35,
@@ -5923,7 +5957,8 @@
           "description": "Quay về bồi đắp Phúc Đức (60% lực): mỗi ngày ghi nhận ba nguồn lực đang có (sức khỏe, tri thức, mái nhà, người thân). Khi tâm thấy đủ, ta kiếm tiền bằng sự sáng tạo thay vì nỗi sợ, và quản lý tiền bằng sự điềm tĩnh thay vì báo động.",
           "example": "Lập 'quỹ bình an' 3–6 tháng chi tiêu và một con số 'đủ' rõ ràng: khi chạm mốc, cho phép mình thở."
         }
-      ]
+      ],
+      "showCausalMap": false
     },
     {
       "index": 36,
@@ -6079,7 +6114,8 @@
           "description": "Dùng [IFS](wiki:IFS) thấu hiểu và vỗ về nỗi sợ mất mát bên dưới lớp vỏ, [CBT](wiki:CBT) để tách tiền khỏi giá trị sinh mệnh, nuôi [Phúc Đức](wiki:PhucDuc). Giữ năng lực quản lý tài chính xuất sắc mà tâm vẫn nhẹ nhàng, kết nối.",
           "example": "Đặt một con số 'đủ an toàn' cụ thể; khi đã chạm mốc, cho phép mình chi cho trải nghiệm cùng người thân."
         }
-      ]
+      ],
+      "showCausalMap": true
     },
     {
       "index": 37,
@@ -6223,7 +6259,8 @@
           "description": "Dùng IFS trò chuyện với đứa trẻ 10 tuổi bên trong: 'Giờ mình đã trưởng thành, mình lo được'. [CBT](wiki:CBT) để nhận diện quyết định cảm tính, nuôi [Phúc Đức](wiki:PhucDuc). Tiêu tiền và giữ tiền bằng trí tuệ của người lớn tỉnh thức.",
           "example": "Trước mỗi khoản chi lớn, hỏi: 'Đứa trẻ bên trong hay người lớn trong mình đang quyết định?'."
         }
-      ]
+      ],
+      "showCausalMap": false
     },
     {
       "index": 38,
@@ -6379,7 +6416,8 @@
           "description": "Dùng [3P4C](wiki:3P4C) và [CBT](wiki:CBT) tách biệt 'đồng tiền trung tính' khỏi 'nỗi đau quá khứ'. Bồi đắp Phúc Đức, chữa lành ký ức gia đình. Đón nhận dòng chảy tài chính thuận tự nhiên để phụng sự nhiều hơn.",
           "example": "Viết ra: 'Nếu có nhiều tiền hơn, mình sẽ dùng nó để làm điều tốt gì?' và đọc lại mỗi khi thấy bất an."
         }
-      ]
+      ],
+      "showCausalMap": true
     },
     {
       "index": 39,
@@ -6541,7 +6579,8 @@
           "description": "Dùng [CBT](wiki:CBT) nhận diện giá trị tự thân không phụ thuộc nhãn mác bên ngoài, nuôi [Phúc Đức](wiki:PhucDuc). Kiếm tiền bằng thực lực vững chãi và tiêu tiền cho những điều thực chất.",
           "example": "Liệt kê 5 điều khiến mình tự hào mà không liên quan đến tiền."
         }
-      ]
+      ],
+      "showCausalMap": true
     },
     {
       "index": 40,
@@ -6695,7 +6734,8 @@
           "description": "Thiết lập kế hoạch tài chính bằng con số thực tế thay vì cảm tính lo âu, dùng CBT kiểm chứng những kịch bản thảm họa, nuôi [Phúc Đức](wiki:PhucDuc). Vừa có quỹ an toàn vững chắc, vừa cho phép mình tận hưởng thành quả lao động.",
           "example": "Chia ngân sách thành ba phần: 'an toàn', 'tương lai', 'niềm vui', và tiêu phần niềm vui không cần áy náy."
         }
-      ]
+      ],
+      "showCausalMap": true
     },
     {
       "index": 41,
@@ -6853,7 +6893,8 @@
           "description": "Bốn chiến lược [3P4C](wiki:3P4C): chữa lành tâm thức tiền bạc tại Phúc Đức (60%), nâng năng lực tại Quan Lộc (30%), chuyển tiền mặt sang tích sản tại Điền Trạch, thuần hóa hung tinh tại Tài Bạch bằng kỷ luật chi tiêu, không đầu cơ mạo hiểm.",
           "example": "Tự động chuyển 20% thu nhập vào tài khoản tích sản ngay ngày nhận lương."
         }
-      ]
+      ],
+      "showCausalMap": false
     },
     {
       "index": 42,
@@ -7017,7 +7058,8 @@
           "description": "Nhận diện nhóm sao của mình: Tử – Phủ – Vũ qua quản trị, tích lũy; Cơ – Nguyệt – Đồng – Lương qua trí tuệ, chăm sóc, giáo dục; [Thái Dương](wiki:ThaiDuong) – Cự – Tướng qua uy tín, ngôn từ; Sát – Phá – [Tham](wiki:ThamLang) – Liêm qua đột phá có kỷ luật. Kiếm tiền đúng mặt sáng của sao mình.",
           "example": "Viết ra sao chủ ở Tài Bạch, rồi liệt kê ba cách kiếm tiền khớp với mặt sáng của sao ấy."
         }
-      ]
+      ],
+      "showCausalMap": true
     },
     {
       "index": 43,
@@ -7181,7 +7223,8 @@
           "description": "Tra Hóa Lộc của tuổi mình, sống đúng mặt sáng của ngôi sao ấy, nuôi khí chất Hóa Lộc: nụ cười ấm áp, lời ghi nhận, tâm thế trao giá trị trước. Đặt Hóa Lộc vào đúng cung vị để mở nhân duyên, nuôi [Phúc Đức](wiki:PhucDuc) qua [3P4C](wiki:3P4C).",
           "example": "Mỗi ngày gửi một lời ghi nhận chân thành đến một người: đồng nghiệp, khách hàng, người thân."
         }
-      ]
+      ],
+      "showCausalMap": true
     },
     {
       "index": 44,
@@ -7337,7 +7380,8 @@
           "description": "Thiết lập hàng rào kỷ luật: không vay nợ đầu cơ, chốt lời chuyển sang tích sản, không đầu tư điều mình chưa hiểu. Chủ động 'tán tài tạo phước', trích phần trăm thu nhập làm thiện, nuôi [Phúc Đức](wiki:PhucDuc) để giữ quân bình qua [3P4C](wiki:3P4C).",
           "example": "Quy tắc: mỗi khoản đầu tư rủi ro không quá 10% tài sản, và mỗi lần chốt lời trích 5% làm phước."
         }
-      ]
+      ],
+      "showCausalMap": true
     },
     {
       "index": 45,
@@ -7485,7 +7529,8 @@
           "description": "Định kỳ chuyển một phần dòng tiền sang tích sản bền vững và tri thức; chăm sóc không gian sống ấm áp để Điền Trạch nuôi ngược năng lượng làm việc; nuôi [Phúc Đức](wiki:PhucDuc) qua [3P4C](wiki:3P4C).",
           "example": "Ngày nhận lương, tự động trích 20% vào tài khoản tích sản; mỗi cuối tuần dọn dẹp một góc nhà."
         }
-      ]
+      ],
+      "showCausalMap": false
     },
     {
       "index": 46,
@@ -7637,7 +7682,8 @@
           "description": "'Tri túc giả phú' (Đạo Đức Kinh): người biết đủ là người giàu. Xác định mức 'đủ' rõ ràng cho nhu cầu sống, học tập, dự phòng; dùng phần dư để phụng sự, sẻ chia, tu dưỡng ([Đạo học](wiki:DaoHoc), [3P4C](wiki:3P4C)).",
           "example": "Viết ra 'Một ngày giàu có và hạnh phúc thật sự của tôi trông như thế nào?', rồi tính con số cần cho ngày ấy."
         }
-      ]
+      ],
+      "showCausalMap": false
     },
     {
       "index": 47,
@@ -7789,7 +7835,8 @@
           "description": "Giữ tâm tri túc (biết đủ), tri chỉ (biết dừng). Thực hành phép trừ 'bớt là thêm': bớt một kỳ vọng thái quá, dùng [CBT](wiki:CBT) nhận diện cực đoan, nuôi [Phúc Đức](wiki:PhucDuc) theo [Đạo học](wiki:DaoHoc).",
           "example": "Mỗi quý bỏ bớt một việc, một cam kết hoặc một kỳ vọng không còn cần thiết."
         }
-      ]
+      ],
+      "showCausalMap": false
     },
     {
       "index": 48,
@@ -7941,7 +7988,8 @@
           "description": "Dùng câu hỏi CBT tách 'khả năng thực tế' khỏi 'kịch bản tưởng tượng', kết hợp [ACT](wiki:ACT) để để ý nghĩ trôi qua. Hoạch định một lần sắc bén rồi trở về hiện tại.",
           "example": "Viết ra kịch bản xấu nhất, khả năng thật (%) và một việc làm được ngay; xong thì gấp giấy lại, đi ngủ."
         }
-      ]
+      ],
+      "showCausalMap": true
     },
     {
       "index": 49,
@@ -8095,7 +8143,8 @@
           "description": "Tách dữ kiện khỏi diễn giải: viết ra 'Điều đã xảy ra là gì?' và 'Mình đang kể câu chuyện gì về nó?'. Hỏi lại nhẹ nhàng hoặc buông giả định. Ở tầng tỉnh thức, Hóa Kỵ trở thành sự thấu suốt: nhạy để hiểu người, không nhạy để tự làm đau mình.",
           "example": "Câu hỏi 3 giây: 'Mình có biết chắc 100% không?' Nếu không, nhắn: 'Mọi chuyện ổn chứ? Có gì cần mình hỗ trợ không?'."
         }
-      ]
+      ],
+      "showCausalMap": true
     },
     {
       "index": 50,
@@ -8245,7 +8294,8 @@
           "description": "Dùng [CBT](wiki:CBT) gỡ niềm tin 'từ chối là ích kỷ', [IFS](wiki:IFS) lắng nghe phần sợ mất lòng. Học nói lời từ chối ấm áp nhưng rõ ranh giới, nhìn qua [3P4C](wiki:3P4C). Giúp đúng việc, đúng người, bền vững.",
           "example": "Câu mẫu: 'Mình rất muốn giúp, nhưng tuần này mình kín lịch. Mình có thể hỗ trợ vào thứ Hai nhé.'"
         }
-      ]
+      ],
+      "showCausalMap": true
     },
     {
       "index": 51,
@@ -8389,7 +8439,8 @@
           "description": "Nhận ra đây là nỗi sợ, không phải lười ([CBT](wiki:CBT)). Dùng [IFS](wiki:IFS) cảm ơn phần muốn bảo vệ mình khỏi thất bại. Chia nhỏ thành 'bước 5 phút không cần hoàn hảo'. Đà La trở lại thành sức bền nghiên cứu.",
           "example": "Đặt hẹn giờ 5 phút, chỉ viết một đoạn nháp xấu; hết giờ được phép dừng."
         }
-      ]
+      ],
+      "showCausalMap": true
     },
     {
       "index": 52,
@@ -8533,7 +8584,8 @@
           "description": "Tạo 'khoảng dừng tỉnh thức' 6 giây; nhận diện nỗi đau, mệt mỏi bên dưới cơn giận ([IFS](wiki:IFS)); dùng [CBT](wiki:CBT) kiểm chứng suy nghĩ 'họ cố tình'. Nói ra nhu cầu thật bằng giọng điềm tĩnh.",
           "example": "Khi thấy nóng mặt: đếm thầm 6 nhịp thở, rồi bắt đầu câu bằng 'Mình đang thấy…'."
         }
-      ]
+      ],
+      "showCausalMap": true
     },
     {
       "index": 53,
@@ -8685,7 +8737,8 @@
           "description": "Thực hành [ACT](wiki:ACT): phân biệt 'vòng tròn kiểm soát được' (thái độ, hành vi của mình) và 'vòng tròn ngoài tầm tay' (suy nghĩ người khác, tương lai). Dùng [IFS](wiki:IFS) vỗ về phần sợ hãi, nuôi [Phúc Đức](wiki:PhucDuc) theo [Đạo học](wiki:DaoHoc). Hóa Quyền trở về độ vừa.",
           "example": "Vẽ hai vòng tròn trên giấy, viết điều đang lo vào đúng vòng; chỉ hành động với vòng bên trong."
         }
-      ]
+      ],
+      "showCausalMap": true
     },
     {
       "index": 54,
@@ -8837,7 +8890,8 @@
           "description": "Dừng lại kiểm chứng: 'Bài học ở đây mình đã học xong chưa?'. Chuyển hóa tại chỗ trước, hoặc dịch chuyển khi đã có mục tiêu trưởng thành rõ ràng, nhìn qua [3P4C](wiki:3P4C).",
           "example": "Trước khi nộp đơn nghỉ, viết ra: 'Mình đang đi tới điều gì, hay chỉ đang chạy khỏi điều gì?'."
         }
-      ]
+      ],
+      "showCausalMap": true
     },
     {
       "index": 55,
@@ -8985,7 +9039,8 @@
           "description": "Quay vào bên trong qua thiền định, đọc sách minh triết ([Đạo học](wiki:DaoHoc)), làm việc có ý nghĩa cho đời. Dùng [IFS](wiki:IFS) và [CBT](wiki:CBT) để lắng nghe khoảng trống thay vì lấp đầy nó.",
           "example": "Mỗi sáng 10 phút ngồi yên, hỏi: 'Hôm nay mình có thể làm một điều gì có ý nghĩa?'."
         }
-      ]
+      ],
+      "showCausalMap": true
     },
     {
       "index": 56,
@@ -9137,7 +9192,8 @@
           "description": "Chữa lành bằng [IFS](wiki:IFS): ghi nhận chính mình vô điều kiện, cho phép 'mặt trời được lặn để nghỉ'. Học từ [Thái Âm](wiki:ThaiAm) nhịp tĩnh dưỡng, dùng [CBT](wiki:CBT) gỡ niềm tin 'giá trị = cống hiến', nuôi [Phúc Đức](wiki:PhucDuc). Tỏa sáng ấm áp, bền bỉ mà không tự đốt cháy.",
           "example": "Mỗi tối viết một dòng ghi nhận bản thân không liên quan đến thành tích: 'Hôm nay mình đã tử tế với…'."
         }
-      ]
+      ],
+      "showCausalMap": true
     },
     {
       "index": 57,
@@ -9285,7 +9341,8 @@
           "description": "Thực hành [IFS](wiki:IFS): trở thành 'người cha, người mẹ tinh thần' vững chãi cho đứa trẻ bên trong. Nuôi [Phúc Đức](wiki:PhucDuc) bằng những thói quen tự chăm sóc. Giữ trọn sự dịu dàng, hồn nhiên mà vẫn tự chủ vững vàng.",
           "example": "Khi thấy sợ bị bỏ rơi, đặt tay lên ngực và nói với mình: 'Mình ở đây với bạn, bạn không một mình'."
         }
-      ]
+      ],
+      "showCausalMap": true
     },
     {
       "index": 58,
@@ -9435,7 +9492,8 @@
           "description": "Chuyển từ 'cứu hộ áp đặt' sang 'đồng hành tôn trọng': để mỗi người tự học bài học của họ. Dùng [CBT](wiki:CBT) và [IFS](wiki:IFS) nhận diện phần lo âu đằng sau lời khuyên, nuôi [Phúc Đức](wiki:PhucDuc). Giữ tâm từ bi mà nhẹ nhàng, bao dung.",
           "example": "Trước khi khuyên, hỏi: 'Con muốn bố lắng nghe hay muốn bố góp ý?'."
         }
-      ]
+      ],
+      "showCausalMap": true
     },
     {
       "index": 59,
@@ -9591,7 +9649,8 @@
           "description": "Đi qua 5 bước [IFS](wiki:IFS): nhận diện phần sao đang chiếm sóng, tách nhẹ, lắng nghe nó đang bảo vệ mình khỏi nỗi đau nào, đưa ánh sáng từ bi của Self ôm lấy vết thương, mời phần sao chuyển sang vai trò mới lành mạnh như dũng khí, kỷ luật, [Vũ Khúc](wiki:VuKhuc) thành chữ tín.",
           "example": "Khi cảm xúc mạnh, nói thầm: 'Một phần trong mình đang thấy… Mình ở đây để lắng nghe phần ấy'."
         }
-      ]
+      ],
+      "showCausalMap": false
     },
     {
       "index": 60,
@@ -9755,7 +9814,8 @@
           "description": "Nhận diện nguyên mẫu chủ đạo và phần bóng tối, ngừng phóng chiếu, tích hợp cả mặt sáng lẫn bóng tối bằng tỉnh thức ([IFS](wiki:IFS), [CBT](wiki:CBT)), nhìn qua [3P4C](wiki:3P4C), nuôi [Phúc Đức](wiki:PhucDuc). Đi tới sự toàn vẹn của nhân cách.",
           "example": "Khi thấy khó chịu mạnh với ai đó, hỏi: 'Điều gì ở họ đang phản chiếu một phần mình chưa chấp nhận?'."
         }
-      ]
+      ],
+      "showCausalMap": false
     },
     {
       "index": 61,
@@ -9899,7 +9959,8 @@
           "description": "Bắt đầu từ một góc nhỏ: dọn bàn, mở cửa đón nắng, cắm một nhành xanh. Nuôi Phúc Đức bằng giấc ngủ đủ, hơi thở chậm, lời nói tử tế dưới mái nhà ([3P4C](wiki:3P4C)). An cư bắt đầu từ bên trong.",
           "example": "Mỗi tối trước khi ngủ dọn 10 phút một góc nhà, rồi ngồi yên 5 phút với một tách trà."
         }
-      ]
+      ],
+      "showCausalMap": false
     },
     {
       "index": 62,
@@ -10051,7 +10112,8 @@
           "description": "Đạo đế: thực hành Bát chánh đạo mỗi ngày (chánh kiến, chánh tư duy, chánh ngữ, chánh nghiệp, chánh niệm…), nuôi [Phúc Đức](wiki:PhucDuc), nhìn qua [3P4C](wiki:3P4C) và [Đạo học](wiki:DaoHoc). Chuyển hóa nghiệp cũ thành tuệ giác và từ bi.",
           "example": "Mỗi tối hỏi bốn câu: 'Hôm nay mình khổ vì gì? Gốc ở đâu? Buông được không? Mai thực hành gì?'."
         }
-      ]
+      ],
+      "showCausalMap": false
     },
     {
       "index": 63,
@@ -10211,7 +10273,8 @@
           "description": "Đổi mệnh lệnh sang câu hỏi mở kiểu Socratic, thì thầm trước giấc ngủ (Sleep Whispering), bố dẫn con vận động xả năng lượng Hỏa Tinh. Nuôi [Phúc Đức](wiki:PhucDuc) gia đình; chuyển Không Kiếp thành lòng trắc ẩn qua 'tán tài tạo phước' cùng con.",
           "example": "Thay 'Đi ngủ ngay!' bằng 'Con muốn mẹ kể chuyện gì trước khi ngủ?'."
         }
-      ]
+      ],
+      "showCausalMap": true
     },
     {
       "index": 64,
@@ -10379,7 +10442,8 @@
           "description": "Đi đủ ba bước: xét chính tinh tại Mệnh – Tài – Quan ([3P4C](wiki:3P4C)), so độ sáng cung Tử Tức với các sao nghệ thuật ([Đào Hồng](wiki:DaoHong), [Xương Khúc](wiki:XuongKhuc)), xét Nô Bộc và đại vận. Chọn hướng đi khớp khí chất, nuôi [Phúc Đức](wiki:PhucDuc).",
           "example": "Trước khi đầu tư, làm thử 3 tháng ở quy mô nhỏ nhất để kiểm chứng mình có thật sự vui với việc ấy."
         }
-      ]
+      ],
+      "showCausalMap": false
     },
     {
       "index": 65,
@@ -10529,7 +10593,8 @@
           "description": "Dồn 80% tâm huyết vào vùng có cát tinh, trao giá trị tận tâm, nhìn qua [3P4C](wiki:3P4C), nuôi [Phúc Đức](wiki:PhucDuc). Cát tinh chỉ thức dậy khi ta sống đúng phẩm chất của nó.",
           "example": "Mỗi tuần gửi phụ huynh một ghi nhận cụ thể về sự tiến bộ của con."
         }
-      ]
+      ],
+      "showCausalMap": false
     },
     {
       "index": 66,
@@ -10679,7 +10744,8 @@
           "description": "Thực hành [CBT](wiki:CBT) và [IFS](wiki:IFS): tách 'giá trị hiện hữu của bản thân' khỏi 'những việc mình làm cho người khác'. Học đón nhận yêu thương, dám nói nhu cầu, buông bớt gánh gồng; nuôi [Phúc Đức](wiki:PhucDuc).",
           "example": "Mỗi tuần nhờ một người giúp một việc nhỏ, và chỉ nói 'cảm ơn' mà không xin lỗi."
         }
-      ]
+      ],
+      "showCausalMap": true
     },
     {
       "index": 67,
@@ -10833,7 +10899,8 @@
           "description": "Bài học cho mỗi người: lá số 'đẹp' hay 'xấu' tùy vào điều ta dùng nó để làm. Nuôi [Phúc Đức](wiki:PhucDuc), học [Đạo học](wiki:DaoHoc), nhìn qua [3P4C](wiki:3P4C); 'bài học linh hồn' là ẩn dụ để sống có ý nghĩa, không phải gánh nặng phải mang.",
           "example": "Hỏi mình: 'Những vùng bài học trên lá số của mình có thể trở thành món quà gì cho người khác?'."
         }
-      ]
+      ],
+      "showCausalMap": false
     },
     {
       "index": 68,
@@ -10987,7 +11054,8 @@
           "description": "Điểm danh cát tinh (trợ lực cần phát huy) và hung tinh (bài học cần chuyển hóa); dùng đối cung Quan Lộc (60%) theo [3P4C](wiki:3P4C) để giữ thế cân bằng; nuôi [Phúc Đức](wiki:PhucDuc). Tổng kết thành lộ trình hành động cụ thể.",
           "example": "Bản luận kết thúc bằng ba việc cụ thể cho năm tới: một khóa học, một thói quen, một cuộc trò chuyện."
         }
-      ]
+      ],
+      "showCausalMap": false
     },
     {
       "index": 69,
@@ -11145,7 +11213,8 @@
           "description": "Dùng [CBT](wiki:CBT) nhận diện điểm mù, chọn vị trí công việc khớp khí chất (Tử Phá: cải cách, tự chủ; Liêm Tướng: quản trị, chuẩn mực), mềm lại trong gia đình; nhìn qua [3P4C](wiki:3P4C) và [Thiên Phủ](wiki:ThienPhu) ở Thân.",
           "example": "Tử Phá: trước mỗi thay đổi lớn, hỏi ý kiến hai người. Liêm Tướng: mỗi tuần nói một lời ghi nhận thay vì một lời sửa."
         }
-      ]
+      ],
+      "showCausalMap": true
     },
     {
       "index": 70,
@@ -11295,7 +11364,8 @@
           "description": "Hỏi 3 câu tỉnh thức: Tổng thể cát hay hung? Năm nay nên tiến hay lùi? Bài học là gì? Nhìn qua [3P4C](wiki:3P4C), nuôi Phúc Đức. Mùa xuân gieo hạt, mùa đông ủ mầm, tâm bình an đi qua mọi mùa vận.",
           "example": "Đầu mỗi năm, viết ra câu trả lời cho 3 câu hỏi này và đọc lại mỗi quý."
         }
-      ]
+      ],
+      "showCausalMap": false
     },
     {
       "index": 71,
@@ -11449,7 +11519,8 @@
           "description": "Xác định cung Lưu Thái Tuế và Lưu Hóa Kỵ, hiểu đó là đề thi cần tập trung tháo gỡ, tìm lời giải ở cung Lưu Hóa Lộc và 3P4C, dùng [CBT](wiki:CBT) gỡ nỗi sợ thảm họa hóa.",
           "example": "Đầu năm viết: 'Đề thi năm nay là… Lời giải mình sẽ thử là…', rồi tự chấm điểm cuối năm."
         }
-      ]
+      ],
+      "showCausalMap": false
     },
     {
       "index": 72,
@@ -11603,7 +11674,8 @@
           "description": "Đi từng chặng, thực hành trên chính lá số của mình trước, nuôi [Phúc Đức](wiki:PhucDuc) bằng tâm khiêm cung và trao đi. Lá số là bản đồ, không phải bản án.",
           "example": "Mỗi tuần một buổi: học một sao, soi vào lá số của mình, viết một hành động chuyển hóa nhỏ."
         }
-      ]
+      ],
+      "showCausalMap": false
     },
     {
       "index": 73,
@@ -11747,7 +11819,8 @@
           "description": "Nhận diện bằng tỉnh thức: 'Đây là vết thương cũ của gia đình gốc, không phải lỗi của người bạn đời'. Dùng [IFS](wiki:IFS) chăm sóc đứa trẻ bên trong, nuôi [Phúc Đức](wiki:PhucDuc), viết lại kịch bản hôn nhân bằng tôn trọng và ái ngữ.",
           "example": "Liệt kê 3 điều tốt muốn giữ và 3 điều muốn dừng lại từ hôn nhân của cha mẹ, chia sẻ với bạn đời."
         }
-      ]
+      ],
+      "showCausalMap": false
     },
     {
       "index": 74,
@@ -11905,7 +11978,8 @@
           "description": "Đi theo 8 viên gạch nền tảng 'Bắt đầu từ đây', kết hợp [3P4C](wiki:3P4C), nuôi [Phúc Đức](wiki:PhucDuc) bằng thái độ học khiêm cung. Biến cát tinh thành năng lực, thuần hóa hung tinh thành bản lĩnh.",
           "example": "Mỗi ngày đọc một bài nền tảng, và viết một dòng: 'Điều này giúp mình hiểu gì về bản thân?'."
         }
-      ]
+      ],
+      "showCausalMap": false
     },
     {
       "index": 75,
@@ -12061,7 +12135,8 @@
           "description": "Tập nói lời cảm ơn, chia sẻ cảm xúc mềm mại, dùng tài lực để nâng đỡ người xung quanh, kết hợp sự ấm áp của [Phúc Đức](wiki:PhucDuc). Vũ – Phủ trở thành người quản trị tài chính vừa sắc bén vừa nhân hậu.",
           "example": "Mỗi tuần một bữa tối không bàn chuyện tiền, chỉ hỏi nhau: 'Tuần này điều gì làm em/anh vui?'."
         }
-      ]
+      ],
+      "showCausalMap": true
     },
     {
       "index": 76,
@@ -12213,7 +12288,8 @@
           "description": "Dùng [IFS](wiki:IFS) để lắng nghe cả phần 'Mặt Trời gồng gánh' và phần 'Mặt Trăng nhạy cảm'. Ban ngày hành động hướng ngoại, buổi tối tĩnh lặng chăm sóc cảm xúc, nuôi [Phúc Đức](wiki:PhucDuc). Nhật Nguyệt tịnh minh ngay trong tâm.",
           "example": "Đặt giờ 'tắt mặt trời' lúc 21 giờ: tắt máy tính, đọc sách hoặc trò chuyện nhẹ nhàng."
         }
-      ]
+      ],
+      "showCausalMap": true
     },
     {
       "index": 77,
@@ -12369,7 +12445,8 @@
           "description": "Giữ tâm khiêm tốn, biết ơn, chủ động học hỏi. Rèn chuyên môn sâu (Hóa Khoa), sống tử tế và sẵn lòng giúp người mới (Khôi Việt), nuôi [Phúc Đức](wiki:PhucDuc). Trở thành quý nhân của chính mình và của người xung quanh.",
           "example": "Mỗi tháng gửi lời cảm ơn một người đã giúp mình, và dành một giờ hướng dẫn một người mới."
         }
-      ]
+      ],
+      "showCausalMap": true
     },
     {
       "index": 78,
@@ -12529,7 +12606,8 @@
           "description": "Tháo gỡ tâm lý cả nể bằng giao tiếp thẳng thắn ([CBT](wiki:CBT)). Thiết lập nguyên tắc minh bạch về quyền lợi – trách nhiệm từ đầu ([Hóa Khoa](wiki:HoaKhoa), [Vũ Khúc](wiki:VuKhuc)). Chuyển từ phụ thuộc cảm xúc sang đồng hành trưởng thành.",
           "example": "Trước khi hợp tác, ngồi lại viết một trang: ai góp gì, ai làm gì, chia thế nào, rút ra thế nào."
         }
-      ]
+      ],
+      "showCausalMap": false
     },
     {
       "index": 79,
@@ -12683,7 +12761,8 @@
           "description": "Nhận diện môi trường nào nuôi dưỡng, môi trường nào rút cạn. Chủ động bước ra không gian mới có mục đích: học tập, cộng đồng thiện lành, dịch chuyển; dùng [3P4C](wiki:3P4C), nuôi [Phúc Đức](wiki:PhucDuc). Đặc biệt quan trọng với Mệnh [Vô Chính Diệu](wiki:VoChinhDieu).",
           "example": "Mỗi tháng thử một môi trường mới: một buổi workshop, một nhóm đọc sách, một chuyến đi ngắn."
         }
-      ]
+      ],
+      "showCausalMap": false
     },
     {
       "index": 80,
@@ -12833,7 +12912,8 @@
           "description": "Dùng [IFS](wiki:IFS) vỗ về phần khao khát được yêu thương, [CBT](wiki:CBT) gỡ niềm tin 'giá trị = sự ngưỡng mộ', nuôi [Phúc Đức](wiki:PhucDuc) qua [3P4C](wiki:3P4C). Đưa năng lượng Đào – Hồng vào nghệ thuật, làm đẹp không gian sống, truyền thông, chăm sóc. Sức hút tỏa ra từ nội tâm bình an.",
           "example": "Mỗi tuần dành một buổi cho một hoạt động sáng tạo: vẽ, cắm hoa, chụp ảnh, chỉ để mình vui."
         }
-      ]
+      ],
+      "showCausalMap": true
     }
   ]
 }

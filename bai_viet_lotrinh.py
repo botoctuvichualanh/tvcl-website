@@ -300,7 +300,9 @@ def render_article(article, category, data, kb, B):
         band("Hệ sinh thái 3P4C", "Trục liên kết trên lá số",
              '<p class="lead">TVCL luận theo hệ sinh thái, không luận đơn cung, đơn sao. Đây là trục năng lượng chính của bài, các thành phần cùng nâng đỡ và điều hòa nhau.</p>'
              f'<div style="margin-top:12px">{axes_html(article)}</div>', "3p4c")
-    if article.get("causalFlow8Steps"):
+    if article.get("showCausalMap") is False:
+        pass
+    elif article.get("causalFlow8Steps"):
         band("Chuỗi nhân quả", "Bản đồ nhân quả trong Tử Vi Chữa Lành",
              '<p class="lead" style="margin-bottom:16px">Sao không trực tiếp tạo ra sự kiện. Sao là hạt giống, Duyên nuôi hạt giống, Tâm diễn dịch, Hành đưa nội tâm ra đời sống; lặp lại thành Nghiệp, gặp Vận và duyên ngoài thì trổ thành Quả. Ở mỗi bước, bạn đều có chỗ để chọn lại và gieo nhân mới.</p>'
              + steps_html(article, md), "chuyen-hoa")

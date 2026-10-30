@@ -744,7 +744,8 @@
           "example": "Mỗi tối viết một dòng: 'Điều thật sự xảy ra hôm nay là…' rồi để câu chuyện lo âu nằm sang một bên."
         }
       ],
-      "showCausalMap": true
+      "showCausalMap": true,
+      "showPracticeSteps": false
     },
     {
       "index": 2,
@@ -889,7 +890,8 @@
           "example": "Chạy bộ 30 phút mỗi sáng, và tự hỏi trước khi trả lời: 'Phần nào trong mình đang muốn lên tiếng?'."
         }
       ],
-      "showCausalMap": true
+      "showCausalMap": true,
+      "showPracticeSteps": false
     },
     {
       "index": 3,
@@ -1030,7 +1032,8 @@
           "example": "Thấy nóng lên: thở ra thật dài ba lần, uống một cốc nước, rồi mới trả lời."
         }
       ],
-      "showCausalMap": true
+      "showCausalMap": true,
+      "showPracticeSteps": false
     },
     {
       "index": 4,
@@ -1179,7 +1182,8 @@
           "example": "Trích 5–10% thu nhập mỗi tháng cho việc thiện, và đặt nguyên tắc 'không đầu tư điều mình chưa hiểu'."
         }
       ],
-      "showCausalMap": true
+      "showCausalMap": true,
+      "showPracticeSteps": false
     },
     {
       "index": 5,
@@ -1328,7 +1332,8 @@
           "example": "Mỗi tối trước khi vào nhà, ngồi trong xe một phút, thở và nói thầm: 'Giờ mình là bố, không phải sếp'."
         }
       ],
-      "showCausalMap": true
+      "showCausalMap": true,
+      "showPracticeSteps": false
     },
     {
       "index": 6,
@@ -1481,7 +1486,8 @@
           "example": "Trước mỗi quyết định thay đổi lớn, chờ 7 ngày và viết ra: 'Mình muốn xây gì, không chỉ muốn bỏ gì?'."
         }
       ],
-      "showCausalMap": true
+      "showCausalMap": true,
+      "showPracticeSteps": false
     },
     {
       "index": 7,
@@ -1634,7 +1640,8 @@
           "example": "Mỗi khi muốn mua gì đó, chờ 48 giờ; dùng khoản tiền ấy cho một lớp vẽ hay một cuốn sách."
         }
       ],
-      "showCausalMap": true
+      "showCausalMap": true,
+      "showPracticeSteps": false
     },
     {
       "index": 8,
@@ -1785,7 +1792,8 @@
           "example": "Quy tắc 'một khen – một góp ý – một đề xuất' mỗi khi phản biện."
         }
       ],
-      "showCausalMap": true
+      "showCausalMap": true,
+      "showPracticeSteps": false
     },
     {
       "index": 9,
@@ -1934,7 +1942,8 @@
           "example": "Khi tự trách, hỏi: 'Nếu bạn thân mình mắc lỗi này, mình sẽ nói gì với họ?' rồi nói điều ấy với chính mình."
         }
       ],
-      "showCausalMap": true
+      "showCausalMap": true,
+      "showPracticeSteps": false
     },
     {
       "index": 10,
@@ -2087,7 +2096,8 @@
           "example": "Mỗi tuần hỏi một người trong nhóm: 'Theo em, anh nên làm khác điều gì?' và chỉ lắng nghe."
         }
       ],
-      "showCausalMap": true
+      "showCausalMap": true,
+      "showPracticeSteps": false
     },
     {
       "index": 11,
@@ -2238,7 +2248,8 @@
           "example": "Nguyên tắc 'tin người, kiểm tra việc': tin tưởng mặc định, kiểm tra giấy tờ khi có giao dịch quan trọng."
         }
       ],
-      "showCausalMap": true
+      "showCausalMap": true,
+      "showPracticeSteps": false
     },
     {
       "index": 12,
@@ -2393,7 +2404,8 @@
           "example": "Viết ra 3 sao chính của mình, mỗi sao một dòng 'mặt sáng mình đang dùng' và 'mặt tối mình đang học'."
         }
       ],
-      "showCausalMap": true
+      "showCausalMap": true,
+      "showPracticeSteps": false
     },
     {
       "index": 13,
@@ -2552,7 +2564,8 @@
           "example": "Quy tắc 50/30/20 cho thu nhập, và mỗi năm đầu tư cho một kỹ năng mới."
         }
       ],
-      "showCausalMap": true
+      "showCausalMap": true,
+      "showPracticeSteps": false
     },
     {
       "index": 14,
@@ -2701,7 +2714,8 @@
           "example": "Hôm nay chọn một thói quen nhỏ để đổi: đi ngủ sớm 30 phút, nói một lời cảm ơn, đọc 10 trang sách."
         }
       ],
-      "showCausalMap": false
+      "showCausalMap": false,
+      "showPracticeSteps": false
     },
     {
       "index": 15,
@@ -2860,7 +2874,8 @@
           "example": "Mỗi ngày 15 phút chơi cùng con theo cách con chọn, không dạy, không sửa."
         }
       ],
-      "showCausalMap": false
+      "showCausalMap": false,
+      "showPracticeSteps": false
     },
     {
       "index": 16,
@@ -3025,7 +3040,8 @@
           "example": "Mỗi tối dành 10 phút nói 'hôm nay anh/em cảm thấy…' thay cho 'sao anh/em lại…': nhân nhỏ, quả bền."
         }
       ],
-      "showCausalMap": false
+      "showCausalMap": false,
+      "showPracticeSteps": false
     },
     {
       "index": 17,
@@ -3178,7 +3194,8 @@
           "example": "Mỗi quý chọn một môi trường mới để học: một câu lạc bộ, một khóa học, một nhóm cùng chí hướng."
         }
       ],
-      "showCausalMap": false
+      "showCausalMap": false,
+      "showPracticeSteps": false
     },
     {
       "index": 18,
@@ -3327,7 +3344,8 @@
           "example": "Đầu mỗi đại vận, viết ra ba năng lực mình cần học thêm trong 10 năm tới."
         }
       ],
-      "showCausalMap": false
+      "showCausalMap": false,
+      "showPracticeSteps": false
     },
     {
       "index": 19,
@@ -3464,7 +3482,8 @@
           "example": "Mỗi tuần học sâu một sao, viết lại bằng lời của mình và đối chiếu với lá số người thân."
         }
       ],
-      "showCausalMap": false
+      "showCausalMap": false,
+      "showPracticeSteps": false
     },
     {
       "index": 20,
@@ -3655,7 +3674,8 @@
           "example": "Làm 32 thẻ ghi nhớ, mỗi thẻ một sao với một dòng mặt sáng và một dòng vùng bài học."
         }
       ],
-      "showCausalMap": false
+      "showCausalMap": false,
+      "showPracticeSteps": true
     },
     {
       "index": 21,
@@ -3693,7 +3713,7 @@
       ],
       "seo": {
         "metaTitle": "Kỹ thuật mượn lực 3P4C (Tam Phương Tứ Chính)",
-        "metaDescription": "Lá số không phải 12 căn phòng đóng kín mà là một mạng lưới giao thông liên thông. Khi một cung bị khóa chặt 100%, đây là chiến thuật mượn lực giúp bạn xoay chuyển cục diện.",
+        "metaDescription": "Kỹ thuật mượn lực 3P4C với tỷ lệ 100 – 60 – 30: khi một cung bế tắc, kích hoạt đối cung và hai cung tam hợp để cải cung qua cung.",
         "keywords": [
           "Kỹ thuật mượn lực 3P4C (Tam Phương Tứ Chính)",
           "Công thức 3P4C (Tam Phương Tứ Chính)",
@@ -3812,7 +3832,8 @@
           "example": "Tài Bạch tắc: mỗi ngày dành 20 phút cho Phúc Đức (thiền, biết ơn) và 1 giờ cho Quan Lộc (nâng nghề)."
         }
       ],
-      "showCausalMap": false
+      "showCausalMap": false,
+      "showPracticeSteps": true
     },
     {
       "index": 22,
@@ -3963,7 +3984,8 @@
           "example": "Mỗi lá số luận xong, viết ra một câu 'Cung cát để dụng là…' và một câu 'Vùng bài học cần chuyển hóa là…'."
         }
       ],
-      "showCausalMap": false
+      "showCausalMap": false,
+      "showPracticeSteps": true
     },
     {
       "index": 23,
@@ -4114,7 +4136,8 @@
           "example": "Nếu đối cung có [Thái Dương](wiki:ThaiDuong) – [Thái Âm](wiki:ThaiAm): chọn môi trường cân bằng giữa làm việc và nghỉ ngơi."
         }
       ],
-      "showCausalMap": false
+      "showCausalMap": false,
+      "showPracticeSteps": true
     },
     {
       "index": 24,
@@ -4265,7 +4288,8 @@
           "example": "Xương Khúc: đặt hạn 'bản nháp 70%'. Không Kiếp: mỗi ý tưởng viết một trang kế hoạch trước khi làm."
         }
       ],
-      "showCausalMap": true
+      "showCausalMap": true,
+      "showPracticeSteps": false
     },
     {
       "index": 25,
@@ -4414,7 +4438,8 @@
           "example": "Mỗi tối 10 phút 'đổ não' ra giấy: viết hết điều đang lo, rồi gạch dưới một việc làm được ngày mai."
         }
       ],
-      "showCausalMap": true
+      "showCausalMap": true,
+      "showPracticeSteps": false
     },
     {
       "index": 26,
@@ -4565,7 +4590,8 @@
           "example": "Mỗi tuần một việc thiện nhỏ, mỗi ngày 10 phút thiền, mỗi tháng một bữa cơm với cha mẹ."
         }
       ],
-      "showCausalMap": false
+      "showCausalMap": false,
+      "showPracticeSteps": false
     },
     {
       "index": 27,
@@ -4716,7 +4742,8 @@
           "example": "Mỗi tuần dành ít nhất một buổi cho việc học hoặc nhóm cộng đồng của riêng mình."
         }
       ],
-      "showCausalMap": false
+      "showCausalMap": false,
+      "showPracticeSteps": false
     },
     {
       "index": 28,
@@ -4867,7 +4894,8 @@
           "example": "Mỗi ngày 30 phút dọn một góc nhà và 30 phút chơi cùng con không điện thoại."
         }
       ],
-      "showCausalMap": false
+      "showCausalMap": false,
+      "showPracticeSteps": false
     },
     {
       "index": 29,
@@ -5018,7 +5046,8 @@
           "example": "Trước cuộc họp căng thẳng, đặt tay lên ngực, thở chậm và nhắc: 'Đây là hiện tại, mình đã là người lớn'."
         }
       ],
-      "showCausalMap": false
+      "showCausalMap": false,
+      "showPracticeSteps": false
     },
     {
       "index": 30,
@@ -5173,7 +5202,8 @@
           "example": "Viết ra: 'Cung Thân của mình ở đâu? Mình đang dính mắc hay đang dùng nó để trưởng thành?'."
         }
       ],
-      "showCausalMap": false
+      "showCausalMap": false,
+      "showPracticeSteps": false
     },
     {
       "index": 31,
@@ -5332,7 +5362,8 @@
           "example": "Mỗi tháng chọn một nguyên lý để thực hành, viết nhật ký thay đổi cuối tháng."
         }
       ],
-      "showCausalMap": false
+      "showCausalMap": false,
+      "showPracticeSteps": true
     },
     {
       "index": 32,
@@ -5483,7 +5514,8 @@
           "example": "Mỗi tuần một việc: giúp một đồng nghiệp, viết một bài chia sẻ, hỏi một người đi trước một câu."
         }
       ],
-      "showCausalMap": true
+      "showCausalMap": true,
+      "showPracticeSteps": false
     },
     {
       "index": 33,
@@ -5636,7 +5668,8 @@
           "example": "Khi một chuyện lặp lại, viết ra 8 dòng theo bản đồ này, rồi khoanh tròn mắt xích mình có thể đổi ngay hôm nay."
         }
       ],
-      "showCausalMap": false
+      "showCausalMap": false,
+      "showPracticeSteps": false
     },
     {
       "index": 34,
@@ -5809,7 +5842,8 @@
           "example": "Viết ra 3 lần mình làm việc 'quên thời gian', đối chiếu với tinh hệ Mệnh – Tài – Quan của mình."
         }
       ],
-      "showCausalMap": false
+      "showCausalMap": false,
+      "showPracticeSteps": true
     },
     {
       "index": 35,
@@ -5958,7 +5992,8 @@
           "example": "Lập 'quỹ bình an' 3–6 tháng chi tiêu và một con số 'đủ' rõ ràng: khi chạm mốc, cho phép mình thở."
         }
       ],
-      "showCausalMap": false
+      "showCausalMap": false,
+      "showPracticeSteps": false
     },
     {
       "index": 36,
@@ -6115,7 +6150,8 @@
           "example": "Đặt một con số 'đủ an toàn' cụ thể; khi đã chạm mốc, cho phép mình chi cho trải nghiệm cùng người thân."
         }
       ],
-      "showCausalMap": true
+      "showCausalMap": true,
+      "showPracticeSteps": false
     },
     {
       "index": 37,
@@ -6260,7 +6296,8 @@
           "example": "Trước mỗi khoản chi lớn, hỏi: 'Đứa trẻ bên trong hay người lớn trong mình đang quyết định?'."
         }
       ],
-      "showCausalMap": false
+      "showCausalMap": false,
+      "showPracticeSteps": false
     },
     {
       "index": 38,
@@ -6417,7 +6454,8 @@
           "example": "Viết ra: 'Nếu có nhiều tiền hơn, mình sẽ dùng nó để làm điều tốt gì?' và đọc lại mỗi khi thấy bất an."
         }
       ],
-      "showCausalMap": true
+      "showCausalMap": true,
+      "showPracticeSteps": false
     },
     {
       "index": 39,
@@ -6580,7 +6618,8 @@
           "example": "Liệt kê 5 điều khiến mình tự hào mà không liên quan đến tiền."
         }
       ],
-      "showCausalMap": true
+      "showCausalMap": true,
+      "showPracticeSteps": false
     },
     {
       "index": 40,
@@ -6735,7 +6774,8 @@
           "example": "Chia ngân sách thành ba phần: 'an toàn', 'tương lai', 'niềm vui', và tiêu phần niềm vui không cần áy náy."
         }
       ],
-      "showCausalMap": true
+      "showCausalMap": true,
+      "showPracticeSteps": false
     },
     {
       "index": 41,
@@ -6894,7 +6934,8 @@
           "example": "Tự động chuyển 20% thu nhập vào tài khoản tích sản ngay ngày nhận lương."
         }
       ],
-      "showCausalMap": false
+      "showCausalMap": false,
+      "showPracticeSteps": true
     },
     {
       "index": 42,
@@ -7059,7 +7100,8 @@
           "example": "Viết ra sao chủ ở Tài Bạch, rồi liệt kê ba cách kiếm tiền khớp với mặt sáng của sao ấy."
         }
       ],
-      "showCausalMap": true
+      "showCausalMap": true,
+      "showPracticeSteps": false
     },
     {
       "index": 43,
@@ -7224,7 +7266,8 @@
           "example": "Mỗi ngày gửi một lời ghi nhận chân thành đến một người: đồng nghiệp, khách hàng, người thân."
         }
       ],
-      "showCausalMap": true
+      "showCausalMap": true,
+      "showPracticeSteps": false
     },
     {
       "index": 44,
@@ -7381,7 +7424,8 @@
           "example": "Quy tắc: mỗi khoản đầu tư rủi ro không quá 10% tài sản, và mỗi lần chốt lời trích 5% làm phước."
         }
       ],
-      "showCausalMap": true
+      "showCausalMap": true,
+      "showPracticeSteps": false
     },
     {
       "index": 45,
@@ -7530,7 +7574,8 @@
           "example": "Ngày nhận lương, tự động trích 20% vào tài khoản tích sản; mỗi cuối tuần dọn dẹp một góc nhà."
         }
       ],
-      "showCausalMap": false
+      "showCausalMap": false,
+      "showPracticeSteps": false
     },
     {
       "index": 46,
@@ -7683,7 +7728,8 @@
           "example": "Viết ra 'Một ngày giàu có và hạnh phúc thật sự của tôi trông như thế nào?', rồi tính con số cần cho ngày ấy."
         }
       ],
-      "showCausalMap": false
+      "showCausalMap": false,
+      "showPracticeSteps": false
     },
     {
       "index": 47,
@@ -7836,7 +7882,8 @@
           "example": "Mỗi quý bỏ bớt một việc, một cam kết hoặc một kỳ vọng không còn cần thiết."
         }
       ],
-      "showCausalMap": false
+      "showCausalMap": false,
+      "showPracticeSteps": false
     },
     {
       "index": 48,
@@ -7989,7 +8036,8 @@
           "example": "Viết ra kịch bản xấu nhất, khả năng thật (%) và một việc làm được ngay; xong thì gấp giấy lại, đi ngủ."
         }
       ],
-      "showCausalMap": true
+      "showCausalMap": true,
+      "showPracticeSteps": false
     },
     {
       "index": 49,
@@ -8144,7 +8192,8 @@
           "example": "Câu hỏi 3 giây: 'Mình có biết chắc 100% không?' Nếu không, nhắn: 'Mọi chuyện ổn chứ? Có gì cần mình hỗ trợ không?'."
         }
       ],
-      "showCausalMap": true
+      "showCausalMap": true,
+      "showPracticeSteps": false
     },
     {
       "index": 50,
@@ -8295,7 +8344,8 @@
           "example": "Câu mẫu: 'Mình rất muốn giúp, nhưng tuần này mình kín lịch. Mình có thể hỗ trợ vào thứ Hai nhé.'"
         }
       ],
-      "showCausalMap": true
+      "showCausalMap": true,
+      "showPracticeSteps": false
     },
     {
       "index": 51,
@@ -8440,7 +8490,8 @@
           "example": "Đặt hẹn giờ 5 phút, chỉ viết một đoạn nháp xấu; hết giờ được phép dừng."
         }
       ],
-      "showCausalMap": true
+      "showCausalMap": true,
+      "showPracticeSteps": false
     },
     {
       "index": 52,
@@ -8585,7 +8636,8 @@
           "example": "Khi thấy nóng mặt: đếm thầm 6 nhịp thở, rồi bắt đầu câu bằng 'Mình đang thấy…'."
         }
       ],
-      "showCausalMap": true
+      "showCausalMap": true,
+      "showPracticeSteps": false
     },
     {
       "index": 53,
@@ -8738,7 +8790,8 @@
           "example": "Vẽ hai vòng tròn trên giấy, viết điều đang lo vào đúng vòng; chỉ hành động với vòng bên trong."
         }
       ],
-      "showCausalMap": true
+      "showCausalMap": true,
+      "showPracticeSteps": false
     },
     {
       "index": 54,
@@ -8891,7 +8944,8 @@
           "example": "Trước khi nộp đơn nghỉ, viết ra: 'Mình đang đi tới điều gì, hay chỉ đang chạy khỏi điều gì?'."
         }
       ],
-      "showCausalMap": true
+      "showCausalMap": true,
+      "showPracticeSteps": false
     },
     {
       "index": 55,
@@ -9040,7 +9094,8 @@
           "example": "Mỗi sáng 10 phút ngồi yên, hỏi: 'Hôm nay mình có thể làm một điều gì có ý nghĩa?'."
         }
       ],
-      "showCausalMap": true
+      "showCausalMap": true,
+      "showPracticeSteps": false
     },
     {
       "index": 56,
@@ -9193,7 +9248,8 @@
           "example": "Mỗi tối viết một dòng ghi nhận bản thân không liên quan đến thành tích: 'Hôm nay mình đã tử tế với…'."
         }
       ],
-      "showCausalMap": true
+      "showCausalMap": true,
+      "showPracticeSteps": false
     },
     {
       "index": 57,
@@ -9342,7 +9398,8 @@
           "example": "Khi thấy sợ bị bỏ rơi, đặt tay lên ngực và nói với mình: 'Mình ở đây với bạn, bạn không một mình'."
         }
       ],
-      "showCausalMap": true
+      "showCausalMap": true,
+      "showPracticeSteps": false
     },
     {
       "index": 58,
@@ -9493,7 +9550,8 @@
           "example": "Trước khi khuyên, hỏi: 'Con muốn bố lắng nghe hay muốn bố góp ý?'."
         }
       ],
-      "showCausalMap": true
+      "showCausalMap": true,
+      "showPracticeSteps": false
     },
     {
       "index": 59,
@@ -9650,7 +9708,8 @@
           "example": "Khi cảm xúc mạnh, nói thầm: 'Một phần trong mình đang thấy… Mình ở đây để lắng nghe phần ấy'."
         }
       ],
-      "showCausalMap": false
+      "showCausalMap": false,
+      "showPracticeSteps": true
     },
     {
       "index": 60,
@@ -9815,7 +9874,8 @@
           "example": "Khi thấy khó chịu mạnh với ai đó, hỏi: 'Điều gì ở họ đang phản chiếu một phần mình chưa chấp nhận?'."
         }
       ],
-      "showCausalMap": false
+      "showCausalMap": false,
+      "showPracticeSteps": false
     },
     {
       "index": 61,
@@ -9960,7 +10020,8 @@
           "example": "Mỗi tối trước khi ngủ dọn 10 phút một góc nhà, rồi ngồi yên 5 phút với một tách trà."
         }
       ],
-      "showCausalMap": false
+      "showCausalMap": false,
+      "showPracticeSteps": false
     },
     {
       "index": 62,
@@ -10113,7 +10174,8 @@
           "example": "Mỗi tối hỏi bốn câu: 'Hôm nay mình khổ vì gì? Gốc ở đâu? Buông được không? Mai thực hành gì?'."
         }
       ],
-      "showCausalMap": false
+      "showCausalMap": false,
+      "showPracticeSteps": true
     },
     {
       "index": 63,
@@ -10155,7 +10217,7 @@
       ],
       "seo": {
         "metaTitle": "Lá số thực tế Mệnh Thiên Đồng | Tử Vi Chữa Lành",
-        "metaDescription": "Từ một trường hợp tham vấn thực tế (đã ẩn danh): Khi những biểu hiện chậm nói, xếp đồ vật và chống đối giấc ngủ của trẻ được soi chiếu qua Tâm lý học hệ thống gia đình và lá số Tử Vi.",
+        "metaDescription": "Ca thực tế bé Mệnh Thiên Đồng – Hỏa Tinh, Không Kiếp cư Phúc Đức: hiểu nhu cầu an toàn của con để hóa giải xung đột cha mẹ – con cái.",
         "keywords": [
           "Lá số thực tế Mệnh Thiên Đồng",
           "Sao Thiên Đồng (Chính Tinh)",
@@ -10274,7 +10336,8 @@
           "example": "Thay 'Đi ngủ ngay!' bằng 'Con muốn mẹ kể chuyện gì trước khi ngủ?'."
         }
       ],
-      "showCausalMap": true
+      "showCausalMap": true,
+      "showPracticeSteps": false
     },
     {
       "index": 64,
@@ -10443,7 +10506,8 @@
           "example": "Trước khi đầu tư, làm thử 3 tháng ở quy mô nhỏ nhất để kiểm chứng mình có thật sự vui với việc ấy."
         }
       ],
-      "showCausalMap": false
+      "showCausalMap": false,
+      "showPracticeSteps": true
     },
     {
       "index": 65,
@@ -10594,7 +10658,8 @@
           "example": "Mỗi tuần gửi phụ huynh một ghi nhận cụ thể về sự tiến bộ của con."
         }
       ],
-      "showCausalMap": false
+      "showCausalMap": false,
+      "showPracticeSteps": false
     },
     {
       "index": 66,
@@ -10745,7 +10810,8 @@
           "example": "Mỗi tuần nhờ một người giúp một việc nhỏ, và chỉ nói 'cảm ơn' mà không xin lỗi."
         }
       ],
-      "showCausalMap": true
+      "showCausalMap": true,
+      "showPracticeSteps": false
     },
     {
       "index": 67,
@@ -10900,7 +10966,8 @@
           "example": "Hỏi mình: 'Những vùng bài học trên lá số của mình có thể trở thành món quà gì cho người khác?'."
         }
       ],
-      "showCausalMap": false
+      "showCausalMap": false,
+      "showPracticeSteps": false
     },
     {
       "index": 68,
@@ -11055,7 +11122,8 @@
           "example": "Bản luận kết thúc bằng ba việc cụ thể cho năm tới: một khóa học, một thói quen, một cuộc trò chuyện."
         }
       ],
-      "showCausalMap": false
+      "showCausalMap": false,
+      "showPracticeSteps": true
     },
     {
       "index": 69,
@@ -11095,7 +11163,7 @@
       ],
       "seo": {
         "metaTitle": "Luận lá số Tử Vi Phá Quân và Liêm Trinh Thiên Tướng",
-        "metaDescription": "So sánh hai mẫu lá số kinh điển trong tuyển tập bài luận học viên TVCL: Khi chất tiên phong của Tử Vi – Phá Quân gặp chất chuẩn mực của Liêm Trinh – Thiên Tướng.",
+        "metaDescription": "Luận mẫu Mệnh Tử Phá và Liêm Tướng: nhận diện điểm mù tâm lý, chọn vị trí công việc hợp khí chất và giao tiếp mềm mại hơn trong gia đình.",
         "keywords": [
           "Luận lá số Tử Vi Phá Quân và Liêm Trinh Thiên Tướng",
           "Công thức 3P4C (Tam Phương Tứ Chính)",
@@ -11214,7 +11282,8 @@
           "example": "Tử Phá: trước mỗi thay đổi lớn, hỏi ý kiến hai người. Liêm Tướng: mỗi tuần nói một lời ghi nhận thay vì một lời sửa."
         }
       ],
-      "showCausalMap": true
+      "showCausalMap": true,
+      "showPracticeSteps": false
     },
     {
       "index": 70,
@@ -11365,7 +11434,8 @@
           "example": "Đầu mỗi năm, viết ra câu trả lời cho 3 câu hỏi này và đọc lại mỗi quý."
         }
       ],
-      "showCausalMap": false
+      "showCausalMap": false,
+      "showPracticeSteps": true
     },
     {
       "index": 71,
@@ -11520,7 +11590,8 @@
           "example": "Đầu năm viết: 'Đề thi năm nay là… Lời giải mình sẽ thử là…', rồi tự chấm điểm cuối năm."
         }
       ],
-      "showCausalMap": false
+      "showCausalMap": false,
+      "showPracticeSteps": false
     },
     {
       "index": 72,
@@ -11675,7 +11746,8 @@
           "example": "Mỗi tuần một buổi: học một sao, soi vào lá số của mình, viết một hành động chuyển hóa nhỏ."
         }
       ],
-      "showCausalMap": false
+      "showCausalMap": false,
+      "showPracticeSteps": true
     },
     {
       "index": 73,
@@ -11820,7 +11892,8 @@
           "example": "Liệt kê 3 điều tốt muốn giữ và 3 điều muốn dừng lại từ hôn nhân của cha mẹ, chia sẻ với bạn đời."
         }
       ],
-      "showCausalMap": false
+      "showCausalMap": false,
+      "showPracticeSteps": false
     },
     {
       "index": 74,
@@ -11979,7 +12052,8 @@
           "example": "Mỗi ngày đọc một bài nền tảng, và viết một dòng: 'Điều này giúp mình hiểu gì về bản thân?'."
         }
       ],
-      "showCausalMap": false
+      "showCausalMap": false,
+      "showPracticeSteps": true
     },
     {
       "index": 75,
@@ -12013,7 +12087,7 @@
       ],
       "seo": {
         "metaTitle": "Sao Vũ Khúc và Thiên Phủ là gì? | Tử Vi Chữa Lành",
-        "metaDescription": "Vũ Khúc quyết đoán, thực tế kết hợp cùng Thiên Phủ điềm tĩnh, giỏi tích lũy tạo nên năng lực quản trị tài chính vững vàng — nhưng làm sao để không rơi vào cô đơn hay quá phòng thủ?",
+        "metaDescription": "Vũ Khúc – Thiên Phủ là bộ tài tinh của kỷ luật và kho tàng. Hiểu hai mặt của Vũ – Phủ để vừa vững tài chính vừa ấm áp, biết mở lòng.",
         "keywords": [
           "Sao Vũ Khúc và Thiên Phủ là gì?",
           "Sao Vũ Khúc (Chính Tinh)",
@@ -12136,7 +12210,8 @@
           "example": "Mỗi tuần một bữa tối không bàn chuyện tiền, chỉ hỏi nhau: 'Tuần này điều gì làm em/anh vui?'."
         }
       ],
-      "showCausalMap": true
+      "showCausalMap": true,
+      "showPracticeSteps": false
     },
     {
       "index": 76,
@@ -12166,7 +12241,7 @@
       ],
       "seo": {
         "metaTitle": "Sao Thái Dương và Thái Âm (Nhật Nguyệt) | Tử Vi Chữa Lành",
-        "metaDescription": "Thái Dương như mặt trời thích chiếu sáng, gánh vác; Thái Âm như mặt trăng dịu dàng, hướng nội và thấu cảm. Hiểu đúng cặp Nhật – Nguyệt để không bị kiệt sức vì cho đi quá mức hay thu mình vì nhạy cảm.",
+        "metaDescription": "Thái Dương – Thái Âm là nhịp Âm Dương trong tâm: lúc tỏa sáng hành động, lúc lùi lại tĩnh dưỡng. Cách giữ Nhật Nguyệt cân bằng.",
         "keywords": [
           "Sao Thái Dương và Thái Âm (Nhật Nguyệt)",
           "Sao Thái Dương (Chính Tinh)",
@@ -12289,7 +12364,8 @@
           "example": "Đặt giờ 'tắt mặt trời' lúc 21 giờ: tắt máy tính, đọc sách hoặc trò chuyện nhẹ nhàng."
         }
       ],
-      "showCausalMap": true
+      "showCausalMap": true,
+      "showPracticeSteps": false
     },
     {
       "index": 77,
@@ -12327,7 +12403,7 @@
       ],
       "seo": {
         "metaTitle": "Sao Thiên Khôi, Thiên Việt và Hóa Khoa | Tử Vi Chữa Lành",
-        "metaDescription": "Ai cũng mong có Khôi Việt, Hóa Khoa để gặp dữ hóa lành và có người nâng đỡ — nhưng quý nhân không tự nhiên xuất hiện nếu thiếu nhân duyên từ chính thái độ sống của bạn.",
+        "metaDescription": "Thiên Khôi – Thiên Việt và Hóa Khoa: quý nhân đến từ đâu, vì sao cần khiêm cung cầu học và cách trở thành quý nhân của chính mình.",
         "keywords": [
           "Sao Thiên Khôi, Thiên Việt và Hóa Khoa",
           "Thiên Khôi – Thiên Việt (Lục Cát Tinh)",
@@ -12446,7 +12522,8 @@
           "example": "Mỗi tháng gửi lời cảm ơn một người đã giúp mình, và dành một giờ hướng dẫn một người mới."
         }
       ],
-      "showCausalMap": true
+      "showCausalMap": true,
+      "showPracticeSteps": false
     },
     {
       "index": 78,
@@ -12488,7 +12565,7 @@
       ],
       "seo": {
         "metaTitle": "Cung Huynh Đệ và Cung Nô Bộc trong Tử Vi | Tử Vi Chữa Lành",
-        "metaDescription": "Trục Huynh Đệ – Nô Bộc phản chiếu cách bạn thiết lập ranh giới, hợp tác làm ăn và xây dựng đội ngũ. Đọc đúng trục này để không còn cảnh 'hợp tác thì tan, giúp bạn thì mang ơn oán'.",
+        "metaDescription": "Cung Huynh Đệ và Nô Bộc chỉ ra cách bạn kết nối ngang hàng. Ranh giới rõ, quy chế minh bạch giúp xây đội ngũ cộng sự bền vững.",
         "keywords": [
           "Cung Huynh Đệ và Cung Nô Bộc trong Tử Vi",
           "Cung Huynh Đệ",
@@ -12607,7 +12684,8 @@
           "example": "Trước khi hợp tác, ngồi lại viết một trang: ai góp gì, ai làm gì, chia thế nào, rút ra thế nào."
         }
       ],
-      "showCausalMap": false
+      "showCausalMap": false,
+      "showPracticeSteps": false
     },
     {
       "index": 79,
@@ -12643,7 +12721,7 @@
       ],
       "seo": {
         "metaTitle": "Cung Thiên Di trong Tử Vi và cách phát huy | Tử Vi Chữa Lành",
-        "metaDescription": "Cung Thiên Di là tấm gương đối diện trực tiếp với cung Mệnh. Khi cảm thấy bế tắc trong bốn bức tường quen thuộc, việc thay đổi môi trường và cách tương tác xã hội tại Thiên Di chính là chìa khóa mở lối.",
+        "metaDescription": "Cung Thiên Di đối diện trực tiếp cung Mệnh. Khi thấy bế tắc, đổi môi trường sống, làm việc và kết nối chính là chìa khóa mở lối.",
         "keywords": [
           "Cung Thiên Di trong Tử Vi và cách phát huy",
           "Cung Thiên Di",
@@ -12762,7 +12840,8 @@
           "example": "Mỗi tháng thử một môi trường mới: một buổi workshop, một nhóm đọc sách, một chuyến đi ngắn."
         }
       ],
-      "showCausalMap": false
+      "showCausalMap": false,
+      "showPracticeSteps": false
     },
     {
       "index": 80,
@@ -12794,7 +12873,7 @@
       ],
       "seo": {
         "metaTitle": "Sao Đào Hoa, Hồng Loan, Thiên Hỷ trong Tử Vi",
-        "metaDescription": "Đào Hoa, Hồng Loan không chỉ là chuyện tình trường hay đa đoan. Dưới góc nhìn Tử Vi Chữa Lành, đây là nguồn năng lượng của thẩm mỹ, sự thấu cảm nghệ thuật và khả năng kết nối trái tim.",
+        "metaDescription": "Đào Hoa – Hồng Loan – Thiên Hỷ là năng lượng của cái đẹp và sức hút. Hiểu đúng để biến Đào Hồng thành duyên lành và sáng tạo.",
         "keywords": [
           "Sao Đào Hoa, Hồng Loan, Thiên Hỷ trong Tử Vi",
           "Đào Hoa – Hồng Loan – Thiên Hỷ",
@@ -12913,7 +12992,8 @@
           "example": "Mỗi tuần dành một buổi cho một hoạt động sáng tạo: vẽ, cắm hoa, chụp ảnh, chỉ để mình vui."
         }
       ],
-      "showCausalMap": true
+      "showCausalMap": true,
+      "showPracticeSteps": false
     }
   ]
 }

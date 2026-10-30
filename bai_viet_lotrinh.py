@@ -169,6 +169,36 @@ def steps_html(article, md):
     return "".join(out)
 
 
+PRAC_RE = re.compile(r"^(Bước|Chiến lược|Tầng|Chặng|Phần)\s*(\d+)\s*(?:\(([^)]*)\))?\s*:\s*(.*)$", re.S)
+DE_RE = re.compile(r"^([A-ZÀ-Ỹ ]+ĐẾ)\s*:\s*(.*)$", re.S)
+NUM_RE = re.compile(r"^([\d–-]+)\s*:\s*(.*)$", re.S)
+PRAC_HEAD = {"Bước": "Các bước thực hành", "Chiến lược": "Các chiến lược thực hành", "Tầng": "Luận theo từng tầng",
+             "Chặng": "Lộ trình từng chặng", "Phần": "Cấu trúc bài luận", "ĐẾ": "Tứ Diệu Đế ứng dụng", "NUM": "Các nguyên lý cải mệnh"}
+
+
+def practice_html(article, md):
+    steps = article.get("causalFlow5Steps", [])
+    out, kinds = [], []
+    for i, s in enumerate(steps):
+        t = s.get("description", "")
+        m, de, nm = PRAC_RE.match(t), DE_RE.match(t), NUM_RE.match(t)
+        if m:
+            kinds.append(m.group(1)); title = f"{m.group(1)} {m.group(2)}" + (f" · {m.group(3)}" if m.group(3) else ""); body = m.group(4)
+        elif de:
+            kinds.append("ĐẾ"); title = de.group(1).strip().capitalize(); body = de.group(2)
+        elif nm:
+            kinds.append("NUM"); title = f"Nguyên lý {nm.group(1)}"; body = nm.group(2)
+        else:
+            title = "Nhận diện" if i == 0 else ("Đích đến" if i == len(steps) - 1 else "Thực hành"); body = t
+        k = f"k{min(i + 1, 5)}"
+        dot = "✦" if i == len(steps) - 1 and not (m or de or nm) else str(i + 1)
+        b = md(body).replace("<p>", "").replace("</p>", "")
+        out.append(f'<div class="course {k}"><div class="node"><div class="dot">{dot}</div><div class="rail"></div></div>'
+                   f'<div class="cbody"><h3 class="cname">{esc(title)}</h3><p class="step-sm">{b}</p></div></div>')
+    kind = max(set(kinds), key=kinds.count) if kinds else "Bước"
+    return PRAC_HEAD.get(kind, "Các bước thực hành"), "".join(out)
+
+
 def kb_html(article, kb, wiki):
     blocks = []
     for key in article.get("tags", []):
@@ -301,7 +331,9 @@ def render_article(article, category, data, kb, B):
              '<p class="lead">TVCL luận theo hệ sinh thái, không luận đơn cung, đơn sao. Đây là trục năng lượng chính của bài, các thành phần cùng nâng đỡ và điều hòa nhau.</p>'
              f'<div style="margin-top:12px">{axes_html(article)}</div>', "3p4c")
     if article.get("showCausalMap") is False:
-        pass
+        if article.get("showPracticeSteps"):
+            ph, pbody = practice_html(article, md)
+            band("Thực hành", ph, '<p class="lead" style="margin-bottom:16px">Đi lần lượt từng bước, đối chiếu ngay trên lá số của chính bạn.</p>' + pbody, "thuc-hanh")
     elif article.get("causalFlow8Steps"):
         band("Chuỗi nhân quả", "Bản đồ nhân quả trong Tử Vi Chữa Lành",
              '<p class="lead" style="margin-bottom:16px">Sao không trực tiếp tạo ra sự kiện. Sao là hạt giống, Duyên nuôi hạt giống, Tâm diễn dịch, Hành đưa nội tâm ra đời sống; lặp lại thành Nghiệp, gặp Vận và duyên ngoài thì trổ thành Quả. Ở mỗi bước, bạn đều có chỗ để chọn lại và gieo nhân mới.</p>'

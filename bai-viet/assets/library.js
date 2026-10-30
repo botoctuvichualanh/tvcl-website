@@ -1,0 +1,30 @@
+(()=>{
+const D=window.TVCL_DATA,A=D.articles,C=D.categories,groups=D.tagGroups;
+const page=document.body.dataset.category||'all',params=new URLSearchParams(location.search);
+const selected=new Set(params.getAll('tag')),input=document.getElementById('library-search');
+const domain=document.getElementById('life-domain'),sort=document.getElementById('sort-order');
+const cards=document.getElementById('article-results'),active=document.getElementById('active-filters');
+const count=document.getElementById('result-count'),more=document.getElementById('show-more');
+let query=params.get('q')||'',limit=12;
+const norm=s=>(s||'').toString().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[đĐ]/g,'d').toLowerCase();
+const esc=s=>(s||'').toString().replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const urlFor=a=>`/bai-viet/${a.category}/${a.id}/`;
+const categories=page==='all'?A:A.filter(a=>a.category===page);
+const searchCache=new Map(A.map(a=>[a.id,norm([a.title,a.subtitle,a.categoryName,...a.tagLabels,...a.sections.map(s=>s.bodyMarkdown)].join(' '))]));
+function updateURL(){const p=new URLSearchParams();if(query)p.set('q',query);selected.forEach(t=>p.append('tag',t));if(domain.value!=='all')p.set('domain',domain.value);const s=p.toString();history.replaceState({},'',location.pathname+(s?'?'+s:''))}
+function tagLabel(key){for(const g of groups)for(const t of g.items)if(t.key===key)return t.label;return key}
+function drawTags(){const host=document.getElementById('filter-groups'),opened=new Set([...host.querySelectorAll('details[open]')].map(x=>x.dataset.group));host.innerHTML=groups.map((g,i)=>{
+ const items=g.items.map(t=>{const n=categories.filter(a=>a.tags.includes(t.key)).length,yes=selected.has(t.key);return `<button type="button" class="filter-chip${yes?' is-active':''}" data-filter-tag="${esc(t.key)}" aria-pressed="${yes}"><span>${esc(t.label)}</span><small>${n}</small></button>`}).join('');
+ const open=opened.has(g.id)||[...selected].some(k=>g.items.some(t=>t.key===k));
+ return `<details class="filter-group" data-group="${esc(g.id)}" ${open?'open':''}><summary>${esc(g.title.replace(/^[^\p{L}\p{N}]+/u,''))}<span>${g.items.length}</span></summary><div class="filter-chip-list">${items}</div></details>`
+}).join('')}
+function drawActive(){const tags=[...selected].map(k=>`<button type="button" class="active-chip" data-remove-tag="${esc(k)}">${esc(tagLabel(k))}<span aria-hidden="true">×</span></button>`).join('');const q=query?`<button type="button" class="active-chip" data-clear-query>Tìm: “${esc(query)}”<span aria-hidden="true">×</span></button>`:'';active.innerHTML=tags+q;active.hidden=!tags&&!q}
+function articleCard(a){const c=C.find(x=>x.id===a.category),tagButtons=a.tagLabels.slice(0,3).map((label,i)=>`<button type="button" class="story-tag" data-filter-tag="${esc(a.tags[i])}" aria-label="Lọc theo ${esc(label)}">${esc(label)}</button>`).join('');return `<article class="story-card"><div class="story-meta"><a href="/bai-viet/${a.category}/">${esc(c?.shortName||a.categoryName)}</a><span>${esc(a.readTime||'')}</span></div><h3><a href="${urlFor(a)}">${esc(a.title)}</a></h3><p class="story-deck">${esc(a.subtitle)}</p><div class="story-tags">${tagButtons}</div></article>`}
+function matches(a){if(page!=='all'&&a.category!==page)return false;if(domain.value!=='all'&&a.lifeDomain!==domain.value)return false;if([...selected].some(t=>!a.tags.includes(t)))return false;if(query){const corpus=searchCache.get(a.id),words=norm(query).split(/\s+/).filter(Boolean);if(!words.every(w=>corpus.includes(w)))return false}return true}
+function render(){drawTags();drawActive();let result=categories.filter(matches);if(sort.value==='az')result.sort((a,b)=>a.title.localeCompare(b.title,'vi'));else result.sort((a,b)=>a.index-b.index);count.textContent=`${result.length} bài viết${query?' phù hợp':' trong thư viện'}`;cards.innerHTML=result.slice(0,limit).map(articleCard).join('')||`<div class="empty-result"><h3>Chưa tìm thấy bài phù hợp</h3><p>Thử từ khóa khác hoặc bỏ bớt điều kiện lọc.</p><button type="button" class="button button-outline" data-clear-all>Xóa bộ lọc</button></div>`;more.hidden=result.length<=limit;more.textContent=`Xem thêm ${Math.min(12,result.length-limit)} bài`;document.getElementById('filter-summary').textContent=selected.size?`${selected.size} chủ đề đã chọn`:'45 chủ đề';updateURL()}
+input.value=query;if(params.has('domain'))domain.value=params.get('domain');
+input.addEventListener('input',()=>{query=input.value.trim();limit=12;render()});domain.addEventListener('change',()=>{limit=12;render()});sort.addEventListener('change',()=>{limit=12;render()});
+document.getElementById('search-form').addEventListener('submit',e=>{e.preventDefault();query=input.value.trim();limit=12;render();cards.scrollIntoView({behavior:'smooth',block:'start'})});
+document.addEventListener('click',e=>{const tag=e.target.closest('[data-filter-tag]');if(tag){const k=tag.dataset.filterTag;selected.has(k)?selected.delete(k):selected.add(k);limit=12;document.getElementById('filter-panel').open=true;render();return}const remove=e.target.closest('[data-remove-tag]');if(remove){selected.delete(remove.dataset.removeTag);render();return}if(e.target.closest('[data-clear-query]')){query='';input.value='';render();input.focus();return}if(e.target.closest('[data-clear-all]')){selected.clear();query='';input.value='';domain.value='all';render();return}const moreBtn=e.target.closest('#show-more');if(moreBtn){limit+=12;render();return}const suggestion=e.target.closest('[data-query]');if(suggestion){query=suggestion.dataset.query;input.value=query;limit=12;render();document.getElementById('library-search').scrollIntoView({behavior:'smooth',block:'center'})}});
+document.getElementById('clear-all').addEventListener('click',()=>{selected.clear();query='';input.value='';domain.value='all';render()});render();
+})();

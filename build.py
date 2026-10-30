@@ -4,6 +4,7 @@
 import re, os, html, base64, json, secrets
 import markdown as md
 from unidecode import unidecode
+from build_bai_viet import build as build_bai_viet
 from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.ciphers.aead import AESGCM
@@ -471,6 +472,7 @@ def header_html(depth=""):
     </a>
     <nav class="main-nav" aria-label="Điều hướng chính">
       <a class="nav-home" href="{depth}index.html">Trang chủ</a>
+      <a href="/bai-viet/">Bài viết &amp; Chiêm nghiệm</a>
       <details class="nav-group"><summary>Giới thiệu TVCL</summary><div class="nav-menu">
         <a href="{depth}index.html#gioi-thieu">Giới thiệu TVCL</a>
         <a href="{depth}index.html#nen-tang">Nền tảng &amp; Triết lý</a>
@@ -964,6 +966,7 @@ def main():
     with open(os.path.join(ROOT, "404.html"), "w", encoding="utf-8") as f:
         f.write(not_found_page())
     print("wrote 404.html")
+    build_bai_viet()
 
 if __name__ == "__main__":
     main()

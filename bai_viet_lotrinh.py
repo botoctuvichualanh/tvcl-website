@@ -17,7 +17,7 @@ ROOT = Path(__file__).resolve().parent
 SOURCE = ROOT / "_bai-viet-source"
 OUT = ROOT / "bai-viet"
 SITE = "https://tuvichualanh.com"
-CSS_URL = "/bai-viet/assets/tvcl-bv-reading-suggestions.css"
+CSS_URL = "/bai-viet/assets/tvcl-bv-reading-suggestions.css?v=20261030-library-palette"
 LOGO_URL = "/bai-viet/assets/logo-tvcl.webp"
 SLOGAN = "Tử Vi Chữa Lành: Ứng dụng Tử Vi, Tâm Lý, Đạo Học để Hiểu Mình, Cải Mệnh &amp; Chữa Lành"
 TAGLINE = "Lá số là bản đồ, không phải bản án."
@@ -418,7 +418,7 @@ def render_article(article, category, data, kb, B):
 
 def story_card(a):
     tags = "".join(f'<span class="article-tag">{esc(l)}</span>' for l in a.get("tagLabels", [])[:3])
-    return (f'<article class="story-card" data-id="{esc(a["id"])}"><div class="story-meta"><a href="/bai-viet/{esc(a["category"])}/">{esc(short_cat(a["categoryName"]))}</a><span>{esc(a.get("readTime", ""))}</span></div>'
+    return (f'<article class="story-card category-{esc(a["category"])}" data-id="{esc(a["id"])}"><div class="story-meta"><a href="/bai-viet/{esc(a["category"])}/">{esc(short_cat(a["categoryName"]))}</a><span>{esc(a.get("readTime", ""))}</span></div>'
             f'<h3><a href="{url_of(a)}">{esc(a["title"])}</a></h3><p class="story-deck">{esc(a.get("subtitle", ""))}</p><div class="story-tags">{tags}</div></article>')
 
 
@@ -461,7 +461,7 @@ def render_library(data, category, articles, title, description, canonical, is_r
     domains = [("all", "Tất cả lĩnh vực"), ("noi-tam", "Nội tâm & chữa lành"), ("tai-chinh", "Tiền bạc & tài chính"), ("tinh-duyen", "Tình duyên & hôn nhân"), ("con-cai", "Cha mẹ & con cái"), ("su-nghiep", "Sự nghiệp & tự học"), ("van-han", "Vận hạn & bước ngoặt")]
     opts = "".join(f'<option value="{v}">{esc(l)}</option>' for v, l in domains)
     return head(title, description, canonical, "website",
-                f'<script type="application/ld+json">{schema}</script><script defer src="/bai-viet/assets/data.js"></script><script defer src="/bai-viet/assets/library.js"></script>') + f'''
+                f'<script type="application/ld+json">{schema}</script><script defer src="/bai-viet/assets/data.js"></script><script defer src="/bai-viet/assets/library.js?v=20261030-library-palette"></script>') + f'''
 <body class="lib" data-category="{pagecat}">
 <header class="hero">
   {hero_svg()}
@@ -606,6 +606,23 @@ EXTRA_CSS = r'''
 .path-card .pk{font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;font-weight:700;color:var(--muted)}.path-card b{color:var(--c);font-size:1.08rem}.path-card span:not(.pk){font-size:.92rem}
 .path-card em{margin-top:auto;font-style:normal;font-weight:700;color:var(--c);font-size:.9rem}.path-card:hover{transform:translateY(-2px);transition:transform .15s}
 .zalo{margin-top:14px;background:var(--sky-soft);border-radius:12px;padding:14px 18px;max-width:760px}.zalo a{font-weight:700}
+/* Thư viện: nền giấy ấm, phân biệt Góc Nhìn Mới với các chuyên đề còn lại */
+#thu-vien{background:#F7F4EC}
+#thu-vien>.wrap{max-width:1280px}
+.story-card{--story-accent:#A8752B;--story-tint:#F5EBDD;background:#FFFEFB;border-color:#E5DED1;border-top:4px solid var(--story-accent);box-shadow:0 2px 8px rgba(37,48,39,.035)}
+.story-card.category-goc-nhin-moi{--story-accent:#167F7B;--story-tint:#E7F3F1}
+.story-card:hover{border-color:color-mix(in srgb,var(--story-accent) 42%,#E5DED1);box-shadow:0 7px 20px rgba(37,48,39,.09)}
+.story-meta a{color:var(--story-accent)}
+.story-card h3 a:hover{color:var(--story-accent);text-decoration-color:var(--story-accent)}
+.story-card .article-tag{background:var(--story-tint);color:color-mix(in srgb,var(--story-accent) 82%,#243447);border:1px solid color-mix(in srgb,var(--story-accent) 18%,transparent)}
+.filter-panel{border-top:4px solid #167F7B;background:#FFFEFB}
+.filter-panel[open]>summary{background:#E8F3F1}
+.filter-panel>summary b,.filter-panel>summary .chev{color:#17645F}
+.aside-note{background:#173B35;border:1px solid #173B35;color:#FBF7EC}
+.aside-note .eyebrow{color:#DDBB78}
+.aside-note>p:not(.eyebrow){color:#FBF7EC}
+.aside-note a{color:#F0D69F}
+@media (prefers-color-scheme:dark){#thu-vien{background:var(--paper)}.story-card{background:var(--card);border-color:var(--line);box-shadow:none}.story-card.category-goc-nhin-moi{--story-accent:#6FC4BD;--story-tint:#203B3A}.story-card{--story-accent:#D2AA6A;--story-tint:#393127}.filter-panel{background:var(--card)}.filter-panel[open]>summary{background:color-mix(in srgb,#167F7B 16%,var(--card))}}
 @media (max-width:860px){.lib-layout{grid-template-columns:1fr}.lib-aside{position:static;order:-1}}
 @media (max-width:560px){.ax{grid-template-columns:1fr 46px;gap:6px 10px}.ax .lbl{grid-column:1/-1}.prevnext{grid-template-columns:1fr}.prevnext a.nx{text-align:left;border-right:1px solid var(--line);border-left:4px solid var(--sky)}.search-row{flex-direction:column}}
 '''

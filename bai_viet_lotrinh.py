@@ -17,7 +17,7 @@ ROOT = Path(__file__).resolve().parent
 SOURCE = ROOT / "_bai-viet-source"
 OUT = ROOT / "bai-viet"
 SITE = "https://tuvichualanh.com"
-CSS_URL = "/bai-viet/assets/tvcl-bv-topic-chips.css"
+CSS_URL = "/bai-viet/assets/tvcl-bv-reading-suggestions.css"
 LOGO_URL = "/bai-viet/assets/logo-tvcl.webp"
 SLOGAN = "Tử Vi Chữa Lành: Ứng dụng Tử Vi, Tâm Lý, Đạo Học để Hiểu Mình, Cải Mệnh &amp; Chữa Lành"
 TAGLINE = "Lá số là bản đồ, không phải bản án."
@@ -572,9 +572,12 @@ EXTRA_CSS = r'''
 .lib .path-strip .pill{text-decoration:none}.lib .path-strip{gap:8px}
 .search{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;display:grid;gap:10px;max-width:820px}
 .search-row{display:flex;gap:8px}.search-row input{flex:1;min-width:0;border:1.5px solid var(--line);border-radius:999px;padding:11px 18px;font:inherit;background:var(--bg);color:var(--ink)}.search-row input:focus{outline:none;border-color:var(--sky)}
-.hint{font-size:.85rem;color:var(--muted)}.suggestions{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:.85rem;color:var(--muted)}
+.hint{font-size:.85rem;color:var(--muted)}.suggestions{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:.85rem;color:var(--muted);padding:10px 12px;background:#F1F6F7;border:1px solid #D7E5E8;border-radius:12px}
+.suggestions>span{font-weight:700;color:var(--ink)}
 .query-chip,.story-tag,.active-chip,.filter-chip{font:inherit;font-size:.82rem;border:1px solid var(--line);border-radius:999px;padding:4px 11px;background:var(--card);color:var(--ink);cursor:pointer}
-.query-chip:hover,.story-tag:hover,.filter-chip:hover{border-color:var(--sky);color:var(--sky-ink)}
+.query-chip{font-weight:700;background:#E3EFF8;border-color:#C5D9E9;color:#2F6FB0;padding:6px 11px;text-decoration:none;transition:background-color .18s,border-color .18s,color .18s}
+.query-chip:hover{border-color:var(--sky);color:var(--sky-ink);background:#D4E6F5}
+.story-tag:hover,.filter-chip:hover{border-color:var(--sky);color:var(--sky-ink)}
 .card.pick{text-decoration:none;color:var(--ink)}.card.pick .pk{font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;font-weight:700;color:var(--muted)}.card.pick .go{margin-top:auto;font-weight:700;color:var(--c);font-size:.9rem}.card.pick:hover{transform:translateY(-2px);transition:transform .15s}
 .res-head{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;align-items:end}.sort{font-size:.85rem;color:var(--muted)}.sort select,.filter-controls select{font:inherit;border:1px solid var(--line);border-radius:8px;padding:6px 10px;background:var(--card);color:var(--ink)}
 .count{color:var(--muted);font-size:.9rem}
@@ -615,6 +618,7 @@ def write_assets():
     css = base + "\n" + EXTRA_CSS
     (assets / "tvcl-bv.css").write_text(css, encoding="utf-8")
     (assets / "tvcl-bv-topic-chips.css").write_text(css, encoding="utf-8")
+    (assets / "tvcl-bv-reading-suggestions.css").write_text(css, encoding="utf-8")
     shutil.copyfile(SOURCE / "logo-tvcl.webp", assets / "logo-tvcl.webp")
 
 

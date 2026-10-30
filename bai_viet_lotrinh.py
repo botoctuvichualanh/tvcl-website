@@ -60,7 +60,9 @@ def hero_svg():
     return (SOURCE / "hero-shanshui.svg.html").read_text(encoding="utf-8")
 
 
-def head(title, description, canonical, og_type, extra=""):
+def head(title, description, canonical, og_type, extra="", pub=""):
+    pubmeta = (f'<meta property="article:published_time" content="{pub}T08:00:00+07:00">'
+               f'<meta property="article:modified_time" content="{pub}T08:00:00+07:00">') if pub else ""
     return f'''<!doctype html>
 <html lang="vi">
 <head>
@@ -70,7 +72,7 @@ def head(title, description, canonical, og_type, extra=""):
 <meta name="description" content="{esc(description)}">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="canonical" href="{esc(canonical)}">
-<meta property="og:type" content="{og_type}"><meta property="og:site_name" content="Tử Vi Chữa Lành — Bộ tộc Tử Vi Chữa Lành">
+<meta property="og:type" content="{og_type}">{pubmeta}<meta property="og:site_name" content="Tử Vi Chữa Lành — Bộ tộc Tử Vi Chữa Lành">
 <meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(description)}"><meta property="og:url" content="{esc(canonical)}">
 <meta property="og:image" content="{SITE}/assets/img/hero-shanshui.jpg"><meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="{LOGO_URL}" type="image/webp">
@@ -382,7 +384,7 @@ def render_article(article, category, data, kb, B):
     toc_links = "".join(f'<a href="#{a}">{esc(h)}</a>' for a, h in toc)
     toc_html = f'<nav class="toc" aria-label="Trong bài viết"><span>Trong bài</span>{toc_links}<a href="#cau-hoi-thuong-gap">Hỏi đáp</a></nav>' if toc else ""
     wiki = jscript(data["wikiEntries"])
-    return head(title_tag, description, canonical, "article", f'<script type="application/ld+json">{schema}</script>') + f'''
+    return head(title_tag, description, canonical, "article", f'<script type="application/ld+json">{schema}</script>', article.get("datePublished", "2026-10-30")) + f'''
 <body class="art">
 <div class="progress" id="progress"></div>
 <header class="hero">

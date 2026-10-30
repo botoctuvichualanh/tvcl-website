@@ -225,7 +225,7 @@ def schema_for(article, category, data):
         {"@type": "Article", "headline": article["title"], "description": article["seo"]["metaDescription"],
          "mainEntityOfPage": {"@type": "WebPage", "@id": canonical}, "url": canonical,
          "author": {"@type": "Person", "name": author}, "publisher": {"@type": "Organization", "name": "Bộ Tộc Tử Vi Chữa Lành", "url": SITE + "/"},
-         "articleSection": category["name"], "keywords": article["seo"].get("keywords", []), "inLanguage": "vi"},
+         "datePublished": article.get("datePublished", "2026-10-30") + "T08:00:00+07:00", "dateModified": article.get("dateModified", article.get("datePublished", "2026-10-30")) + "T08:00:00+07:00", "articleSection": category["name"], "keywords": article["seo"].get("keywords", []), "inLanguage": "vi"},
         {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": f["question"], "acceptedAnswer": {"@type": "Answer", "text": f["answer"]}} for f in article.get("faq", [])]},
         {"@type": "BreadcrumbList", "itemListElement": [
             {"@type": "ListItem", "position": 1, "name": "Trang chủ", "item": SITE + "/"},

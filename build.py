@@ -44,7 +44,7 @@ GA_SNIPPET = f'''<script async src="https://www.googletagmanager.com/gtag/js?id=
 # trước khi build, ví dụ:
 #   export TVCL_SITE_PASSWORD='mat-khau-moi'
 #   python3 build.py
-PROTECTED_CATEGORY_IDS = {"lieu-phap-tam-ly", "tu-vi-dao-hoc", "ban-do-nhan-qua", "tai-loc", "toan-thu"}
+PROTECTED_CATEGORY_IDS = {"lieu-phap-tam-ly", "tu-vi-dao-hoc", "ban-do-nhan-qua", "tai-loc"}
 SITE_PASSWORD = os.environ.get("TVCL_SITE_PASSWORD")
 if not SITE_PASSWORD:
     raise SystemExit(

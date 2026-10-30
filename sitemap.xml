@@ -499,4 +499,65 @@
     <loc>https://tuvichualanh.com/bai-viet/luan-tri-thuc/cung-thien-di-buoc-ra-the-gioi-lam-sang-cung-menh/</loc>
     <priority>0.7</priority>
   </url>
+
+  <url>
+    <loc>https://tuvichualanh.com/docs/tt1-tu-vi-dau-so-toan-thu.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tuvichualanh.com/sao-tu-vi-tu-vi-dau-so-toan-thu/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tuvichualanh.com/sao-thien-co-tu-vi-dau-so-toan-thu/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tuvichualanh.com/sao-thai-duong-tu-vi-dau-so-toan-thu/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tuvichualanh.com/sao-vu-khuc-tu-vi-dau-so-toan-thu/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tuvichualanh.com/sao-thien-dong-tu-vi-dau-so-toan-thu/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tuvichualanh.com/sao-liem-trinh-tu-vi-dau-so-toan-thu/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tuvichualanh.com/sao-thien-phu-tu-vi-dau-so-toan-thu/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tuvichualanh.com/sao-thai-am-tu-vi-dau-so-toan-thu/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tuvichualanh.com/sao-tham-lang-tu-vi-dau-so-toan-thu/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tuvichualanh.com/sao-cu-mon-tu-vi-dau-so-toan-thu/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tuvichualanh.com/sao-thien-tuong-tu-vi-dau-so-toan-thu/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tuvichualanh.com/sao-thien-luong-tu-vi-dau-so-toan-thu/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tuvichualanh.com/sao-that-sat-tu-vi-dau-so-toan-thu/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tuvichualanh.com/sao-pha-quan-tu-vi-dau-so-toan-thu/</loc>
+    <priority>0.8</priority>
+  </url>
 </urlset>

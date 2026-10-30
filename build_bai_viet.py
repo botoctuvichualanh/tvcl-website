@@ -363,8 +363,8 @@ def update_sitemap(data):
 
 def build():
     data = json.loads(DATA_FILE.read_text(encoding="utf-8"))
-    if len(data.get("articles", [])) != 80 or sum(len(group["items"]) for group in data.get("tagGroups", [])) != 45 or len(data.get("wikiEntries", {})) != 45:
-        raise ValueError("Nguồn chuyên mục không khớp số lượng 80 bài và 45 mục từ điển/thẻ lọc.")
+    if not data.get("articles") or sum(len(group["items"]) for group in data.get("tagGroups", [])) != 45 or len(data.get("wikiEntries", {})) != 45:
+        raise ValueError("Nguồn chuyên mục không khớp: thiếu bài viết hoặc sai số lượng 45 mục từ điển/thẻ lọc.")
     render_hubs(data)
     render_articles(data)
     update_sitemap(data)

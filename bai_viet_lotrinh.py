@@ -17,7 +17,7 @@ ROOT = Path(__file__).resolve().parent
 SOURCE = ROOT / "_bai-viet-source"
 OUT = ROOT / "bai-viet"
 SITE = "https://tuvichualanh.com"
-CSS_URL = "/bai-viet/assets/tvcl-bv.css?v=20261030"
+CSS_URL = "/bai-viet/assets/tvcl-bv-topic-chips.css"
 LOGO_URL = "/bai-viet/assets/logo-tvcl.webp"
 SLOGAN = "Tử Vi Chữa Lành: Ứng dụng Tử Vi, Tâm Lý, Đạo Học để Hiểu Mình, Cải Mệnh &amp; Chữa Lành"
 TAGLINE = "Lá số là bản đồ, không phải bản án."
@@ -442,6 +442,13 @@ def render_library(data, category, articles, title, description, canonical, is_r
     sugg = "".join(f'<button type="button" class="query-chip" data-query="{esc(tag_label[k])}">{esc(tag_label[k])}</button>' for k in popular)
     cards = "".join(story_card(a) for a in articles)
     topics = "".join(f'<a class="card pillar {CAT_K.get(c["id"], "k2")} pick" href="/bai-viet/{c["id"]}/"><span class="pk">{counts[c["id"]]} bài viết</span><h3>{esc(short_cat(c["name"]))}</h3><p>{esc(c["heroDesc"])}</p><span class="go">Xem chuyên đề →</span></a>' for c in cats)
+    topics_section = f'''<section class="band paper" style="--c:var(--k1)">
+    <div class="wrap stack">
+      <p class="eyebrow">5 chuyên đề</p>
+      <h2>Đi sâu theo từng chủ đề</h2>
+      <div class="grid topics" style="margin-top:8px">{topics}</div>
+    </div>
+  </section>''' if is_root else ""
     h1 = 'Bài viết &amp; <span>Chiêm nghiệm</span> lá số' if is_root else esc(category.get("heroTitle") or category["name"])
     eyebrow = "Tàng Kinh Các · Thư viện bài viết" if is_root else "Chuyên đề · " + esc(short_cat(category["name"]))
     schema = jscript({"@context": "https://schema.org", "@graph": [
@@ -468,6 +475,7 @@ def render_library(data, category, articles, title, description, canonical, is_r
   </div>
 </header>
 <main>
+{topics_section}
   <section class="band" style="--c:var(--k2)">
     <div class="wrap stack">
       <p class="eyebrow">Tìm bài viết</p>
@@ -503,13 +511,6 @@ def render_library(data, category, articles, title, description, canonical, is_r
       </div>
     </div>
   </section>
-  <section class="band paper" style="--c:var(--k4)">
-    <div class="wrap stack">
-      <p class="eyebrow">5 chuyên đề</p>
-      <h2>Đi sâu theo từng chủ đề</h2>
-      <div class="grid topics" style="margin-top:8px">{topics}</div>
-    </div>
-  </section>
 </main>
 {footer()}
 </body>
@@ -520,9 +521,9 @@ EXTRA_CSS = r'''
 /* ══ Bổ sung cho /bai-viet/ (chuẩn Lộ trình, 30/10/2026) ══ */
 .art .hero h1,.lib .hero h1{font-size:clamp(1.8rem,4.4vw,2.8rem);max-width:24ch}
 .crumb{font-size:.85rem;color:var(--muted);margin-bottom:6px}.crumb a{text-decoration:none}.crumb a:hover{text-decoration:underline}
-.byline{margin-top:18px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:.88rem;color:var(--muted)}.byline b{color:var(--ink)}.byline .sep{opacity:.5}.byline a{font-weight:600;color:var(--c,var(--sky-ink));text-decoration:none}
-.toc{margin-top:16px;display:flex;flex-wrap:wrap;gap:6px;align-items:center;max-width:720px}.toc span{font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;font-weight:700;color:var(--muted);margin-right:4px}
-.toc a{font-size:.82rem;text-decoration:none;color:var(--ink);background:color-mix(in srgb,var(--card) 80%,transparent);border:1px solid var(--line);border-radius:999px;padding:4px 11px}.toc a:hover{border-color:var(--sky);color:var(--sky-ink)}
+.byline{margin-top:18px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:1.04rem;color:var(--muted)}.byline b{color:var(--ink)}.byline .sep{opacity:.5}.byline a{font-weight:600;color:var(--c,var(--sky-ink));text-decoration:none}
+.toc{margin-top:16px;display:flex;flex-wrap:wrap;gap:6px;align-items:center;max-width:720px}.toc span{font-size:1.04rem;letter-spacing:.1em;text-transform:uppercase;font-weight:700;color:var(--muted);margin-right:4px}
+.toc a{font-size:1.04rem;text-decoration:none;color:var(--ink);background:color-mix(in srgb,var(--card) 80%,transparent);border:1px solid var(--line);border-radius:999px;padding:4px 11px}.toc a:hover{border-color:var(--sky);color:var(--sky-ink)}
 .progress{position:fixed;top:0;left:0;height:3px;width:0;background:linear-gradient(90deg,var(--sky),var(--heal));z-index:20}
 .prose{max-width:68ch;display:grid;gap:14px;font-size:1.04rem}.prose p,.prose ul,.prose ol{margin:0}.prose ul,.prose ol{padding-left:22px;display:grid;gap:6px}
 .prose h3,.prose h4,.prose h5{color:var(--c);margin-top:6px}.prose strong{color:var(--ink)}.prose code{background:var(--sky-soft);border-radius:4px;padding:0 4px}
@@ -546,7 +547,7 @@ EXTRA_CSS = r'''
 .related{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
 .related a,.prevnext a{display:block;padding:14px 16px;border:1px solid var(--line);border-left:4px solid var(--sky);border-radius:12px;background:var(--card);text-decoration:none;font-weight:600;color:var(--ink);line-height:1.45}
 .related a span,.prevnext a span{display:block;font-size:.78rem;color:var(--muted);font-weight:500;margin-bottom:2px}.related a:hover,.prevnext a:hover{border-color:var(--sky)}
-.tagrow{display:flex;flex-wrap:wrap;gap:6px}.tagchip{font-size:.82rem;text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:4px 11px;color:var(--ink);background:var(--card)}.tagchip:hover{border-color:var(--sky);color:var(--sky-ink)}
+.tagrow{display:flex;flex-wrap:wrap;gap:6px}.tagchip{font-size:.82rem;text-decoration:none;border:1px solid color-mix(in srgb,var(--sky) 28%,var(--line));border-radius:999px;padding:4px 11px;color:var(--sky-ink);background:color-mix(in srgb,var(--sky) 11%,var(--card));transition:background-color .18s,border-color .18s,color .18s}.tagchip:hover{border-color:var(--sky);color:var(--sky-ink);background:color-mix(in srgb,var(--sky) 19%,var(--card))}
 .prevnext{display:grid;gap:10px;grid-template-columns:1fr 1fr;margin-top:16px}.prevnext a.nx{text-align:right;border-left:1px solid var(--line);border-right:4px solid var(--sky)}
 .wiki-modal{position:fixed;inset:0;z-index:30;display:none;place-items:center;padding:16px;background:rgba(20,27,36,.55)}.wiki-modal.open{display:grid}
 .wiki-card{max-width:520px;width:100%;background:var(--card);border-radius:16px;border-top:4px solid var(--sky);padding:22px;box-shadow:0 20px 60px rgba(0,0,0,.25)}.wiki-card h3{font-size:1.35rem;color:var(--sky-ink);margin:6px 40px 4px 0}
@@ -597,7 +598,9 @@ def write_assets():
     assets = OUT / "assets"
     assets.mkdir(parents=True, exist_ok=True)
     base = (SOURCE / "tvcl-lotrinh-base.css").read_text(encoding="utf-8")
-    (assets / "tvcl-bv.css").write_text(base + "\n" + EXTRA_CSS, encoding="utf-8")
+    css = base + "\n" + EXTRA_CSS
+    (assets / "tvcl-bv.css").write_text(css, encoding="utf-8")
+    (assets / "tvcl-bv-topic-chips.css").write_text(css, encoding="utf-8")
     shutil.copyfile(SOURCE / "logo-tvcl.webp", assets / "logo-tvcl.webp")
 
 

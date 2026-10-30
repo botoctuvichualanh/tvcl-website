@@ -55,7 +55,7 @@ tbody tr{background:color-mix(in srgb,var(--c) 9%,var(--card))}
 .slogan{margin-top:6px;color:var(--muted);font-size:.95rem;max-width:60ch}
 .quote{margin-top:28px;font-size:clamp(1.15rem,2.6vw,1.45rem);font-weight:600;border-left:3px solid var(--heal);padding-left:16px;max-width:30ch}
 .path-strip{margin-top:32px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
-.pill{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:6px 14px;font-weight:600;font-size:.9rem}
+.pill{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:6px 14px;font-weight:600;font-size:1.04rem}
 .pill{border-color:var(--c);color:var(--c)}
 .pill.end{background:var(--c);color:#fff}
 .arrow{color:var(--muted)}
@@ -114,8 +114,8 @@ td.c{font-weight:700;color:var(--c);white-space:nowrap;border-left:4px solid var
 
 /* Pass criteria */
 .criteria{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(180px,1fr))}
-.crit{border-top:3px solid var(--sky);background:var(--card);border-radius:0 0 10px 10px;padding:14px;font-size:.92rem;border-left:1px solid var(--line);border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
-.crit b{display:block;font-size:.78rem;color:var(--muted);letter-spacing:.06em}
+.crit{border-top:3px solid var(--sky);background:var(--card);border-radius:0 0 10px 10px;padding:14px;font-size:1.04rem;border-left:1px solid var(--line);border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
+.crit b{display:block;font-size:1.04rem;color:var(--muted);letter-spacing:.06em}
 .pass{margin-top:6px;background:var(--sky-soft);border-radius:12px;padding:16px 18px}
 
 /* 5 Không 5 Luôn */
@@ -145,9 +145,9 @@ footer .brand{color:var(--sky-ink);font-weight:700}
 /* ══ Bổ sung cho /bai-viet/ (chuẩn Lộ trình, 30/10/2026) ══ */
 .art .hero h1,.lib .hero h1{font-size:clamp(1.8rem,4.4vw,2.8rem);max-width:24ch}
 .crumb{font-size:.85rem;color:var(--muted);margin-bottom:6px}.crumb a{text-decoration:none}.crumb a:hover{text-decoration:underline}
-.byline{margin-top:18px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:.88rem;color:var(--muted)}.byline b{color:var(--ink)}.byline .sep{opacity:.5}.byline a{font-weight:600;color:var(--c,var(--sky-ink));text-decoration:none}
-.toc{margin-top:16px;display:flex;flex-wrap:wrap;gap:6px;align-items:center;max-width:720px}.toc span{font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;font-weight:700;color:var(--muted);margin-right:4px}
-.toc a{font-size:.82rem;text-decoration:none;color:var(--ink);background:color-mix(in srgb,var(--card) 80%,transparent);border:1px solid var(--line);border-radius:999px;padding:4px 11px}.toc a:hover{border-color:var(--sky);color:var(--sky-ink)}
+.byline{margin-top:18px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:1.04rem;color:var(--muted)}.byline b{color:var(--ink)}.byline .sep{opacity:.5}.byline a{font-weight:600;color:var(--c,var(--sky-ink));text-decoration:none}
+.toc{margin-top:16px;display:flex;flex-wrap:wrap;gap:6px;align-items:center;max-width:720px}.toc span{font-size:1.04rem;letter-spacing:.1em;text-transform:uppercase;font-weight:700;color:var(--muted);margin-right:4px}
+.toc a{font-size:1.04rem;text-decoration:none;color:var(--ink);background:color-mix(in srgb,var(--card) 80%,transparent);border:1px solid var(--line);border-radius:999px;padding:4px 11px}.toc a:hover{border-color:var(--sky);color:var(--sky-ink)}
 .progress{position:fixed;top:0;left:0;height:3px;width:0;background:linear-gradient(90deg,var(--sky),var(--heal));z-index:20}
 .prose{max-width:68ch;display:grid;gap:14px;font-size:1.04rem}.prose p,.prose ul,.prose ol{margin:0}.prose ul,.prose ol{padding-left:22px;display:grid;gap:6px}
 .prose h3,.prose h4,.prose h5{color:var(--c);margin-top:6px}.prose strong{color:var(--ink)}.prose code{background:var(--sky-soft);border-radius:4px;padding:0 4px}
@@ -171,7 +171,7 @@ footer .brand{color:var(--sky-ink);font-weight:700}
 .related{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
 .related a,.prevnext a{display:block;padding:14px 16px;border:1px solid var(--line);border-left:4px solid var(--sky);border-radius:12px;background:var(--card);text-decoration:none;font-weight:600;color:var(--ink);line-height:1.45}
 .related a span,.prevnext a span{display:block;font-size:.78rem;color:var(--muted);font-weight:500;margin-bottom:2px}.related a:hover,.prevnext a:hover{border-color:var(--sky)}
-.tagrow{display:flex;flex-wrap:wrap;gap:6px}.tagchip{font-size:.82rem;text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:4px 11px;color:var(--ink);background:var(--card)}.tagchip:hover{border-color:var(--sky);color:var(--sky-ink)}
+.tagrow{display:flex;flex-wrap:wrap;gap:6px}.tagchip{font-size:.82rem;text-decoration:none;border:1px solid color-mix(in srgb,var(--sky) 28%,var(--line));border-radius:999px;padding:4px 11px;color:var(--sky-ink);background:color-mix(in srgb,var(--sky) 11%,var(--card));transition:background-color .18s,border-color .18s,color .18s}.tagchip:hover{border-color:var(--sky);color:var(--sky-ink);background:color-mix(in srgb,var(--sky) 19%,var(--card))}
 .prevnext{display:grid;gap:10px;grid-template-columns:1fr 1fr;margin-top:16px}.prevnext a.nx{text-align:right;border-left:1px solid var(--line);border-right:4px solid var(--sky)}
 .wiki-modal{position:fixed;inset:0;z-index:30;display:none;place-items:center;padding:16px;background:rgba(20,27,36,.55)}.wiki-modal.open{display:grid}
 .wiki-card{max-width:520px;width:100%;background:var(--card);border-radius:16px;border-top:4px solid var(--sky);padding:22px;box-shadow:0 20px 60px rgba(0,0,0,.25)}.wiki-card h3{font-size:1.35rem;color:var(--sky-ink);margin:6px 40px 4px 0}

@@ -109,6 +109,17 @@ PRIORITY_GUIDE_BY_SLUG = {
     for slug, title, desc in PRIORITY_GUIDES
 }
 
+HOMEPAGE_ARTICLE_LINKS = {
+    "05-12-cung": "/bai-viet/luan-tri-thuc/5-buoc-luan-mot-la-so-tu-vi-cho-nguoi-moi/",
+    "06-14-chinh-tinh": "/bai-viet/tam-ly-dao-hoc/tu-vi-duoi-lang-kinh-phan-tam-hoc-carl-jung/",
+    "08-cat-tinh": "/bai-viet/luan-tri-thuc/cach-van-dung-6-cat-tinh-trong-tu-vi/",
+    "07-hung-tinh": "/bai-viet/tam-ly-dao-hoc/chuyen-hoa-hung-tinh-bang-tu-dieu-de-phat-hoc/",
+    "sao-tu-vi": "/bai-viet/goc-nhin-moi/sao-tu-vi-cu-menh-co-suong-khong/",
+    "sao-thien-co": "/bai-viet/tam-ly-dao-hoc/vi-sao-ban-cu-suy-nghi-mai-thien-co-cbt/",
+    "sao-kinh-duong": "/bai-viet/goc-nhin-moi/sao-kinh-duong-da-la-tot-hay-xau/",
+    "sao-thien-khoi": "/bai-viet/luan-tri-thuc/sao-thien-khoi-thien-viet-hoa-khoa-kich-hoat-quy-nhan/",
+}
+
 def related_guides_html(slug):
     related = RELATED_GUIDES.get(slug)
     if not related:
@@ -128,8 +139,9 @@ def related_guides_html(slug):
 
 def priority_guides_home_html():
     cards = "".join(
-        f'<a class="priority-guide-card" href="docs/{slug}.html">'
-        f'<strong>{html.escape(title)}</strong><span>{html.escape(desc)}</span></a>'
+        f'<a class="priority-guide-card" href="{HOMEPAGE_ARTICLE_LINKS[slug]}">'
+        f'<strong>{html.escape(title)}</strong><span>{html.escape(desc)}</span>'
+        '<span class="priority-guide-cta">Đọc bài viết <span aria-hidden="true">→</span></span></a>'
         for slug, title, desc in PRIORITY_GUIDES
     )
     return (

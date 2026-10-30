@@ -32,6 +32,8 @@ COURSE_LINKS = [
     ("Tử Vi Chữa Lành", "/khoa-hoc-tu-vi-chua-lanh/", "Xem khóa Tử Vi Chữa Lành"),
 ]
 STEP_NAMES = ["Sao · Gốc", "Duyên · Bối cảnh", "Tâm · Nhận thức", "Hành · Phương pháp", "Quả · Chuyển hóa"]
+STEP_NAMES_8 = ["Sao · Hạt giống", "Duyên · Bối cảnh", "Tâm · Lăng kính", "Hành · Phản ứng", "Nghiệp · Mô thức lặp", "Vận · Thời điểm", "Quả · Sự kiện", "Chuyển hóa · Nhân mới"]
+K8 = ["k1", "k2", "k2", "k3", "k3", "k4", "k4", "k5"]
 
 
 def esc(v):
@@ -151,16 +153,19 @@ def axes_html(article):
 
 
 def steps_html(article, md):
-    steps = article.get("causalFlow5Steps", [])
+    steps = article.get("causalFlow8Steps") or article.get("causalFlow5Steps", [])
+    eight = len(steps) == 8
     out = []
     for i, s in enumerate(steps):
-        k = f"k{min(i + 1, 5)}"
+        k = K8[i] if eight else f"k{min(i + 1, 5)}"
         dot = "✦" if i == len(steps) - 1 else str(i + 1)
         raw = (s.get("step") or "").replace("/", "·").title()
-        name = STEP_NAMES[i] if i < len(STEP_NAMES) and len(steps) == 5 else raw
+        name = STEP_NAMES_8[i] if eight else (STEP_NAMES[i] if i < len(STEP_NAMES) and len(steps) == 5 else raw)
         desc = md(s.get("description", "")).replace("<p>", "").replace("</p>", "")
+        ex = ('<p class="step-sm" style="margin-top:6px;padding:8px 12px;background:#F7F5F0;border-left:3px solid #6FB496;border-radius:6px;font-style:italic">'
+              '<b style="font-style:normal;color:#4A8FD4">Ví dụ:</b> ' + md(s["example"]).replace("<p>", "").replace("</p>", "") + '</p>') if s.get("example") else ""
         out.append(f'<div class="course {k}"><div class="node"><div class="dot">{dot}</div><div class="rail"></div></div>'
-                   f'<div class="cbody"><h3 class="cname">{esc(name)}</h3><p class="step-sm">{desc}</p></div></div>')
+                   f'<div class="cbody"><h3 class="cname">{esc(name)}</h3><p class="step-sm">{desc}</p>{ex}</div></div>')
     return "".join(out)
 
 
@@ -295,7 +300,11 @@ def render_article(article, category, data, kb, B):
         band("Hệ sinh thái 3P4C", "Trục liên kết trên lá số",
              '<p class="lead">TVCL luận theo hệ sinh thái, không luận đơn cung, đơn sao. Đây là trục năng lượng chính của bài, các thành phần cùng nâng đỡ và điều hòa nhau.</p>'
              f'<div style="margin-top:12px">{axes_html(article)}</div>', "3p4c")
-    if article.get("causalFlow5Steps"):
+    if article.get("causalFlow8Steps"):
+        band("Chuỗi nhân quả", "Bản đồ nhân quả trong Tử Vi Chữa Lành",
+             '<p class="lead" style="margin-bottom:16px">Sao không trực tiếp tạo ra sự kiện. Sao là hạt giống, Duyên nuôi hạt giống, Tâm diễn dịch, Hành đưa nội tâm ra đời sống; lặp lại thành Nghiệp, gặp Vận và duyên ngoài thì trổ thành Quả. Ở mỗi bước, bạn đều có chỗ để chọn lại và gieo nhân mới.</p>'
+             + steps_html(article, md), "chuyen-hoa")
+    elif article.get("causalFlow5Steps"):
         band("Chuỗi nhân quả", "5 điểm then chốt trên hành trình chuyển hóa",
              '<p class="lead" style="margin-bottom:16px">Tiến trình nhân quả đầy đủ trong Tử Vi là Sao → Duyên → Tâm → Hành → Nghiệp → Vận → Quả → Chuyển hóa. Dưới đây là 5 điểm then chốt của chủ đề này, mỗi điểm đều có chỗ để bạn chọn lại.</p>'
              + steps_html(article, md), "chuyen-hoa")

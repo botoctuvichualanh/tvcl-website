@@ -91,10 +91,10 @@ def footer():
 
 
 def path_strip(label="Chuỗi chuyển hóa nhân quả"):
-    names = ["Sao", "Duyên", "Tâm", "Hành", "Chuyển hóa"]
+    names = ["Sao", "Duyên", "Tâm", "Hành", "Nghiệp", "Vận", "Quả", "Chuyển hóa"]
     out = []
     for i, n in enumerate(names):
-        cls = "pill end k5" if i == 4 else f"pill k{i + 1}"
+        cls = "pill end k5" if i == len(names) - 1 else f"pill {['k1', 'k2', 'k3', 'k4', 'k1', 'k2', 'k3'][i]}"
         out.append(f'<span class="{cls}">{n}</span>')
     return f'<div class="path-strip" aria-label="{label}">' + '<span class="arrow">→</span>'.join(out) + "</div>"
 
@@ -296,8 +296,8 @@ def render_article(article, category, data, kb, B):
              '<p class="lead">TVCL luận theo hệ sinh thái, không luận đơn cung, đơn sao. Đây là trục năng lượng chính của bài, các thành phần cùng nâng đỡ và điều hòa nhau.</p>'
              f'<div style="margin-top:12px">{axes_html(article)}</div>', "3p4c")
     if article.get("causalFlow5Steps"):
-        band("Chuỗi nhân quả", "5 bước chuyển hóa",
-             '<p class="lead" style="margin-bottom:16px">Từ năng lượng sao đến kết quả trong đời sống, mỗi bước đều có chỗ để bạn chọn lại.</p>'
+        band("Chuỗi nhân quả", "5 điểm then chốt trên hành trình chuyển hóa",
+             '<p class="lead" style="margin-bottom:16px">Tiến trình nhân quả đầy đủ trong Tử Vi là Sao → Duyên → Tâm → Hành → Nghiệp → Vận → Quả → Chuyển hóa. Dưới đây là 5 điểm then chốt của chủ đề này, mỗi điểm đều có chỗ để bạn chọn lại.</p>'
              + steps_html(article, md), "chuyen-hoa")
     toc = []
     for i, s in enumerate(article.get("sections", []), 1):

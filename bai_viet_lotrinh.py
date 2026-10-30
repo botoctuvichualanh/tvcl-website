@@ -17,7 +17,7 @@ ROOT = Path(__file__).resolve().parent
 SOURCE = ROOT / "_bai-viet-source"
 OUT = ROOT / "bai-viet"
 SITE = "https://tuvichualanh.com"
-CSS_URL = "/bai-viet/assets/tvcl-bv.css?v=20261030"
+CSS_URL = "/bai-viet/assets/tvcl-bv.css?v=20261030-reading-size"
 LOGO_URL = "/bai-viet/assets/logo-tvcl.webp"
 SLOGAN = "Tử Vi Chữa Lành: Ứng dụng Tử Vi, Tâm Lý, Đạo Học để Hiểu Mình, Cải Mệnh &amp; Chữa Lành"
 TAGLINE = "Lá số là bản đồ, không phải bản án."
@@ -430,7 +430,7 @@ def render_library(data, category, articles, title, description, canonical, is_r
   </div>
 </header>
 <main>
-  {topics_section}
+{topics_section}
   <section class="band" style="--c:var(--k2)">
     <div class="wrap stack">
       <p class="eyebrow">Tìm bài viết</p>
@@ -476,9 +476,9 @@ EXTRA_CSS = r'''
 /* ══ Bổ sung cho /bai-viet/ (chuẩn Lộ trình, 30/10/2026) ══ */
 .art .hero h1,.lib .hero h1{font-size:clamp(1.8rem,4.4vw,2.8rem);max-width:24ch}
 .crumb{font-size:.85rem;color:var(--muted);margin-bottom:6px}.crumb a{text-decoration:none}.crumb a:hover{text-decoration:underline}
-.byline{margin-top:18px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:.88rem;color:var(--muted)}.byline b{color:var(--ink)}.byline .sep{opacity:.5}.byline a{font-weight:600;color:var(--c,var(--sky-ink));text-decoration:none}
-.toc{margin-top:16px;display:flex;flex-wrap:wrap;gap:6px;align-items:center;max-width:720px}.toc span{font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;font-weight:700;color:var(--muted);margin-right:4px}
-.toc a{font-size:.82rem;text-decoration:none;color:var(--ink);background:color-mix(in srgb,var(--card) 80%,transparent);border:1px solid var(--line);border-radius:999px;padding:4px 11px}.toc a:hover{border-color:var(--sky);color:var(--sky-ink)}
+.byline{margin-top:18px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:1.04rem;color:var(--muted)}.byline b{color:var(--ink)}.byline .sep{opacity:.5}.byline a{font-weight:600;color:var(--c,var(--sky-ink));text-decoration:none}
+.toc{margin-top:16px;display:flex;flex-wrap:wrap;gap:6px;align-items:center;max-width:720px}.toc span{font-size:1.04rem;letter-spacing:.1em;text-transform:uppercase;font-weight:700;color:var(--muted);margin-right:4px}
+.toc a{font-size:1.04rem;text-decoration:none;color:var(--ink);background:color-mix(in srgb,var(--card) 80%,transparent);border:1px solid var(--line);border-radius:999px;padding:4px 11px}.toc a:hover{border-color:var(--sky);color:var(--sky-ink)}
 .progress{position:fixed;top:0;left:0;height:3px;width:0;background:linear-gradient(90deg,var(--sky),var(--heal));z-index:20}
 .prose{max-width:68ch;display:grid;gap:14px;font-size:1.04rem}.prose p,.prose ul,.prose ol{margin:0}.prose ul,.prose ol{padding-left:22px;display:grid;gap:6px}
 .prose h3,.prose h4,.prose h5{color:var(--c);margin-top:6px}.prose strong{color:var(--ink)}.prose code{background:var(--sky-soft);border-radius:4px;padding:0 4px}

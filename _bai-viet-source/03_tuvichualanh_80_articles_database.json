@@ -3991,7 +3991,7 @@
       "lifeDomain": "su-nghiep",
       "personaId": "anh-gia-su",
       "authorName": "Anh Gia Sư TVCL",
-      "readTime": "7 phút",
+      "readTime": "9 phút",
       "featured": true,
       "tags": [
         "3P4C",
@@ -4046,33 +4046,45 @@
       "causalFlow5Steps": [
         {
           "step": "SAO / GỐC",
-          "description": "Xác định Bản cung đang gặp bế tắc (Mệnh / Phu Thê / Tài Bạch)"
+          "description": "Bước 1 (Chọn cung cần cải): Gọi tên cung đang bế tắc nhất lúc này."
         },
         {
           "step": "DUYÊN / BỐI CẢNH",
-          "description": "Ngừng đâm đầu cưỡng cầu tại 100% điểm nghẽn của Bản cung"
+          "description": "Bước 2 (Cải nội lực – 100%): Làm gì ngay tại chính cung đó?"
         },
         {
           "step": "TÂM / NHẬN THỨC",
-          "description": "Kích hoạt 60% sức mạnh từ Đối cung xung chiếu trực diện"
+          "description": "Bước 3 (Mượn cung đối – 60%): Cung đối có tốt không, tận dụng thế nào?"
         },
         {
           "step": "HÀNH / PHƯƠNG PHÁP",
-          "description": "Bồi đắp 30% + 30% từ hai cung Tam hợp và kích hoạt Trung tinh tốt"
+          "description": "Bước 4 (Mượn tam hợp – 30%): Hai cung tam hợp hỗ trợ được gì?"
         },
         {
           "step": "QUẢ / CHUYỂN HÓA",
-          "description": "Dòng năng lượng mới chảy ngược về giải cứu Bản cung một cách tự nhiên"
+          "description": "Bước 5 (Hành động 21–90 ngày): Chọn một việc cho mỗi tầng lực và theo dõi thay đổi."
         }
       ],
       "sections": [
         {
-          "heading": "1. Tư duy Hệ sinh thái và 'Tỷ lệ vàng' 100% – 60% – 30%",
-          "bodyMarkdown": "Trong Tử Vi Chữa Lành, khi xét một cung bất kỳ, mạng lưới [3P4C (Tam Phương Tứ Chính)](wiki:3P4C) gồm: Bản cung nắm 100% sức mạnh (nội lực thực tại); Đối cung xung chiếu nắm 60% sức mạnh (tác động trực diện từ môi trường đối diện); và 2 cung Tam hợp mỗi cung nắm 30% sức mạnh (lực lượng đồng minh bền bỉ). Khi một Bản cung đang 'ốm', nguyên tắc sống còn là không đâm đầu vào bức tường đó mà đi đường vòng qua các cung đồng minh."
+          "heading": "1. Vì sao có thể cải một cung qua cung khác?",
+          "bodyMarkdown": "TVCL luận theo hệ sinh thái, không luận đơn cung. [Tam Phương Tứ Chính](wiki:3P4C) của một cung gồm: bản cung, cung đối và hai cung tam hợp. Vì các cung liên thông, **cải thiện một cung thì các cung trong 3P4C của nó đều được nâng lên.**\n\nĐây là nguyên lý thứ 7 trong 8 nguyên lý Cải Mệnh: *Cải cung qua cung.*"
         },
         {
-          "heading": "2. Ba chiến thuật thực chiến: Giải cứu Mệnh, Phu Thê và Tài Bạch",
-          "bodyMarkdown": "• Giải cứu Cung Mệnh u uất: Bước ra ngoài đổi môi trường để kích hoạt 60% lực từ Đối cung Thiên Di; đồng thời nâng cấp kỹ năng công việc (30% Quan Lộc) và quản lý tài chính (30% Tài Bạch).\n• Giải cứu [Cung Phu Thê](wiki:PhuThe) rạn nứt: Thay vì cố kiểm soát bạn đời, hãy tập trung phát triển sự nghiệp độc lập (60% Quan Lộc), nuôi dưỡng tâm bao dung (30% [Cung Phúc Đức](wiki:PhucDuc)) và mở rộng kết nối lành mạnh (30% Thiên Di).\n• Giải cứu Cung Tài Bạch bế tắc: Mượn 60% từ Đối cung Phúc Đức bằng cách chữa lành tâm thức tài chính, tạo phước lành, kết hợp nâng cao chuyên môn tại Quan Lộc (30%) và kỷ luật tại Mệnh (30%)."
+          "heading": "2. Ba tầng lực: 100% – 60% – 30%",
+          "bodyMarkdown": "- **Nội lực của chính cung đó:** ảnh hưởng 100%.\n- **Ngoại lực 1 – cung đối:** ảnh hưởng 60%.\n- **Ngoại lực 2 – hai cung tam hợp:** mỗi cung ảnh hưởng 30%.\n\nKhi một cung bị \"tắc\", ta không cố tác động trực tiếp mãi, mà **đi đường vòng** qua cung đối và tam hợp. Lưu ý từ bộ tri thức TVCL: bản cung xấu có thể dùng cung đối để bổ cứu nếu cung đối tốt; **bản cung và cung đối đều xấu thì khó bổ cứu hơn**, cần kiên nhẫn và đi từ nội lực."
+        },
+        {
+          "heading": "3. Sáu trục đối cung",
+          "bodyMarkdown": "- **Mệnh – Thiên Di** (bản thân và xã hội): nội tâm u tối thì dùng Thiên Di, đổi môi trường, tham gia cộng đồng mới; môi trường độc hại thì rút về Mệnh, tu tập, rèn kỹ năng.\n- **Phúc Đức – Tài Bạch** (tinh thần và vật chất): tiền tắc thì bước sang Phúc, làm thiện, chữa lành tâm thức tài chính; tinh thần bất an thì dùng Tài cho những trải nghiệm có ý nghĩa.\n- **Quan Lộc – Phu Thê** (sự nghiệp và gia đạo): việc bế tắc thì chăm lo người bạn đời; hôn nhân lục đục thì đứng dậy dồn sức cho công việc.\n- **Điền Trạch – Tử Tức** (tổ ấm và con cái): muốn con tốt, xem lại không khí trong nhà; nhà bất ổn thì dồn sự chú ý sang con, dự án mới.\n- **Phụ Mẫu – Tật Ách** (nguồn cội và cơ thể): sức khỏe suy kiệt thì kết nối, hóa giải với cha mẹ; xung đột với người trên thì chăm sóc cơ thể, dọn suy nghĩ tiêu cực.\n- **Huynh Đệ – Nô Bộc** (tình thân và mạng lưới): bạn bè phản trắc thì về với người thân tín; nội bộ mâu thuẫn thì mở rộng mạng lưới bên ngoài."
+        },
+        {
+          "heading": "4. Ví dụ: cải Phu Thê và Tài Bạch",
+          "bodyMarkdown": "**Cải [Phu Thê](wiki:PhuThe)** mà không tác động trực tiếp: dụng Quan Lộc (đối cung, 60%) bằng công việc ổn định và có niềm vui; dụng Thiên Di (tam hợp) bằng cách ra ngoài, gặp gỡ nhiều hơn; dụng [Phúc Đức](wiki:PhucDuc) (tam hợp) bằng thiện nghiệp và chữa lành mô thức tình cảm.\n\n**Cải [Tài Bạch](wiki:CungTaiBach):** cải tại bản cung bằng cách kiếm tiền hợp sao; qua Phúc Đức (60%) bằng chữa lành tâm thức tài chính; qua Quan Lộc và Mệnh (30%) bằng thay đổi công việc và phát huy sức mạnh Chính tinh."
+        },
+        {
+          "heading": "5. Bài tập chiêm nghiệm cải cung",
+          "bodyMarkdown": "Chọn cung bạn muốn cải nhất lúc này và trả lời:\n\n- Cung đối của nó là cung nào? Cung tam hợp là những cung nào?\n- Cải từ nội lực: bạn sẽ làm gì ngay tại cung đó?\n- Cải từ cung đối: bạn sẽ tận dụng thế nào?\n- Cải từ tam hợp: bạn sẽ tận dụng hai cung còn lại thế nào?\n\nBộ tri thức TVCL gợi ý thiết kế kế hoạch cải mệnh trong **21–90 ngày** để thấy được sự thay đổi."
         }
       ],
       "faq": [
@@ -4081,15 +4093,23 @@
           "answer": "Nhiều người lầm tưởng: \"Cung nào xấu thì chỉ biết chịu trận ở cung đó, không có cách nào dùng cung khác để cứu được.\". Sự thật dưới góc nhìn Tử Vi Chữa Lành: Mọi cung đều nằm trong hệ sinh thái 3P4C: Bản cung (100%) + Đối cung xung chiếu (60% lực trực diện) + 2 cung Tam hợp (mỗi cung 30% lực đồng minh). Khi Bản cung tắc, hãy mượn lực từ 3 cung đồng minh."
         },
         {
+          "question": "Vì sao cung đối lại mạnh tới 60%?",
+          "answer": "Theo trọng số TVCL, cung đối chiếu trực tiếp vào bản cung nên ảnh hưởng mạnh thứ hai sau chính nó (100%), còn hai cung tam hợp hỗ trợ từ xa (30%)."
+        },
+        {
+          "question": "Bản cung và cung đối đều xấu thì sao?",
+          "answer": "Bộ tri thức TVCL ghi nhận trường hợp này khó bổ cứu hơn; nên bắt đầu từ nội lực và dụng các cung tam hợp, đồng thời kiên nhẫn với tiến trình."
+        },
+        {
           "question": "Làm sao để ứng dụng bài học này vào cải mệnh thực tế ngay hôm nay?",
-          "answer": "Vẽ tam giác 3P4C của cung bạn đang muốn cải thiện ra giấy và chọn 1 hành động thuộc Đối cung (60%) để thực hiện ngay trong 3 ngày tới."
+          "answer": "Chọn một cung đang bế tắc, viết ra cung đối và hai cung tam hợp, rồi chọn một hành động cho mỗi cung trong 21 ngày tới."
         }
       ],
       "reflectionPrompts": [
-        "Cung vị nào trên lá số đang khiến bạn tốn nhiều tâm sức nhất lúc này?",
-        "Đối cung (60% lực) và hai cung Tam hợp (30% lực) của cung đó là những cung nào?"
+        "Cung nào trên lá số bạn đang muốn cải nhất?",
+        "Cung đối của nó đang tốt hay đang cần chăm sóc?"
       ],
-      "microPractice": "Vẽ tam giác 3P4C của cung bạn đang muốn cải thiện ra giấy và chọn 1 hành động thuộc Đối cung (60%) để thực hiện ngay trong 3 ngày tới.",
+      "microPractice": "Chọn một cung đang bế tắc, viết ra cung đối và hai cung tam hợp, rồi chọn một hành động cho mỗi cung trong 21 ngày tới.",
       "recommendedCourse": {
         "title": "Khóa học Luận Nhanh Lá Số Tử Vi (S37)",
         "desc": "Lộ trình từng bước dành cho người mới: nắm vững 32 sao cốt lõi, công thức 3P4C và 5 bước tự đọc lá số của chính mình."
@@ -4334,7 +4354,7 @@
       "lifeDomain": "su-nghiep",
       "personaId": "anh-gia-su",
       "authorName": "Anh Gia Sư TVCL",
-      "readTime": "6 phút",
+      "readTime": "8 phút",
       "featured": false,
       "tags": [
         "3P4C",
@@ -4383,33 +4403,37 @@
       "causalFlow5Steps": [
         {
           "step": "SAO / GỐC",
-          "description": "Nhận diện cung Vô Chính Diệu (không có 14 Chính tinh tọa thủ)"
+          "description": "Bước 1 (Nhận diện): Cung không có Chính tinh tọa thủ là cung Vô Chính Diệu."
         },
         {
           "step": "DUYÊN / BỐI CẢNH",
-          "description": "Bước 1: Xét các Trung tinh (Lộc, Tứ Hóa, Cát/Hung tinh) đang cầm nhịp tại bản cung"
+          "description": "Bước 2 (Mượn Chính tinh): Lấy Chính tinh ở cung đối diện mang về luận; Mệnh VCD thì lấy Chính tinh cung Thiên Di."
         },
         {
           "step": "TÂM / NHẬN THỨC",
-          "description": "Bước 2: Mượn lực từ Chính tinh ở Đối cung xung chiếu (60%) và Tam hợp (30%)"
-        },
-        {
-          "step": "HÀNH / PHƯƠNG PHÁP",
-          "description": "Bước 3: Xét cung Thân để biết nơi neo đậu năng lượng sau tuổi 30"
+          "description": "Bước 3 (Quản gia): Trung tinh tại bản cung tính đủ 100% sức mạnh, xem kỹ những \"quản gia\" này."
         },
         {
           "step": "QUẢ / CHUYỂN HÓA",
-          "description": "Chủ động chọn môi trường lành mạnh và người dẫn đường sáng suốt"
+          "description": "Bước 4 (Chọn môi trường): Người VCD phản chiếu môi trường, nên chọn môi trường lành là chiến lược số một."
         }
       ],
       "sections": [
         {
-          "heading": "1. Bản chất thật của cung Vô Chính Diệu: Khả năng thấu cảm và thích ứng",
-          "bodyMarkdown": "Nếu cung có Chính tinh giống như một căn phòng đã thiết kế cố định, thì cung Vô Chính Diệu giống như dòng nước mềm mại: ở trong bầu thì tròn, ở trong ống thì dài. Người có Mệnh Vô Chính Diệu thường không bảo thủ, rất biết lắng nghe và dễ thích nghi với nhiều hoàn cảnh khác nhau."
+          "heading": "1. Vô Chính Diệu là gì?",
+          "bodyMarkdown": "Cung không có Chính tinh tọa thủ gọi là cung [Vô Chính Diệu](wiki:VoChinhDieu) (VCD). Nếu cung có Chính tinh giống ngôi nhà có gia chủ rõ ràng, thì cung VCD giống **ngôi nhà vắng chủ**.\n\nNhiều người mới học nghe \"vắng chủ\" thì lo, nghĩ mình yếu đuối. Bộ tri thức TVCL khẳng định: **hoàn toàn không phải vậy.** VCD mang vẻ đẹp của sự linh hoạt."
         },
         {
-          "heading": "2. Ba bước đọc cung Vô Chính Diệu không bao giờ bị loạn",
-          "bodyMarkdown": "• Bước 1: Xem trong bản cung có mặt Trung tinh nào thuộc nhóm 18 Trung tinh không — ngôi sao đó sẽ trực tiếp định hình màu sắc của cung.\n• Bước 2: Nhìn thẳng sang Đối cung xung chiếu (truyền 60% lực) và hai cung Tam hợp theo công thức [3P4C](wiki:3P4C), đặc biệt khi có Thái Dương – Thái Âm sáng sủa hợp chiếu.\n• Bước 3: Rèn luyện một trục giá trị sống rõ ràng và chọn môi trường bạn bè, thầy hiền để dòng nước Vô Chính Diệu luôn chảy về biển lớn."
+          "heading": "2. Cách luận",
+          "bodyMarkdown": "- **Nguyên lý lấy Chính tinh:** nhà vắng chủ thì \"người hàng xóm đối diện\" ảnh hưởng mạnh nhất. Lấy Chính tinh ở cung đối diện mang về luận. **Mệnh VCD lấy Chính tinh cung Thiên Di.** Ví dụ: Phu Thê VCD thì lấy Chính tinh cung Quan Lộc.\n- **Nguyên lý luận Trung tinh:** nhà không có chủ nhưng có thể có \"quản gia giỏi\". Trung tinh tại bản cung tính đủ **100% sức mạnh**.\n\nSau đó vẫn đi tiếp 5 bước luận nhanh như bình thường."
+        },
+        {
+          "heading": "3. Hai mặt của Mệnh VCD",
+          "bodyMarkdown": "Bộ tri thức TVCL ví Mệnh VCD như **căn phòng trống, ly nước rỗng**:\n\n- **Điểm mạnh:** vì rỗng nên chứa được mọi thứ. Người VCD thông minh, nhạy bén, học nhanh, thích nghi rất tốt.\n- **Điểm yếu:** vì rỗng nên dễ bị môi trường chi phối; thiếu cột trụ tinh thần thì dễ mông lung, thiếu bản sắc."
+        },
+        {
+          "heading": "4. Chiến lược chữa lành cho người VCD",
+          "bodyMarkdown": "- **Chọn môi trường (quan trọng số một):** người có Chính tinh mạnh có thể áp đặt môi trường; người VCD là tấm gương phản chiếu môi trường. *Gần mực thì đen, gần đèn thì rạng.* Muốn thành công, đến gần người thành công; muốn bình an, đến nơi thiện lành; tránh xa môi trường độc hại.\n- **Thấu cảm và vô ngã:** người VCD thấu hiểu cảm xúc người khác rất tốt vì cái tôi không quá lớn. Họ có thể là nhà ngoại giao, nhà tư vấn, nhà chữa lành; hãy dùng sự \"rỗng\" để lắng nghe và chuyển hóa."
         }
       ],
       "faq": [
@@ -4418,15 +4442,23 @@
           "answer": "Nhiều người lầm tưởng: \"Sách cũ viết 'Mệnh Vô Chính Diệu phi yểu tắc bần' (không yểu mệnh thì cũng nghèo khổ).\". Sự thật dưới góc nhìn Tử Vi Chữa Lành: Cung Vô Chính Diệu là một không gian mở giàu tính thích nghi. Khi biết xét Trung tinh tại bản cung, mượn 60% lực từ Đối cung xung chiếu và chọn môi trường tốt, người mệnh Vô Chính Diệu tiến bộ cực nhanh."
         },
         {
+          "question": "Mệnh Vô Chính Diệu có phải số yếu?",
+          "answer": "Không. Bộ tri thức TVCL khẳng định VCD không phải yếu; đó là sự linh hoạt, học nhanh, thích nghi tốt, với bài học là chọn môi trường lành."
+        },
+        {
+          "question": "Cung VCD luận Trung tinh thế nào?",
+          "answer": "Trung tinh tại bản cung tính đủ 100% sức mạnh; Chính tinh mượn từ cung đối, rồi xét 3P4C như bình thường."
+        },
+        {
           "question": "Làm sao để ứng dụng bài học này vào cải mệnh thực tế ngay hôm nay?",
-          "answer": "Nhìn sang cung đối diện trực tiếp (Đối cung) của cung Vô Chính Diệu trên lá số của bạn và ghi xuống tên các Chính tinh đang chiếu sang."
+          "answer": "Tìm các cung VCD trên lá số của bạn, ghi Chính tinh mượn từ cung đối cho từng cung, và xem lại môi trường bạn đang sống có nuôi dưỡng bạn không."
         }
       ],
       "reflectionPrompts": [
-        "Trên lá số của bạn có những cung nào là Vô Chính Diệu?",
-        "Ở lĩnh vực của cung đó, bạn thấy mình có ưu điểm linh hoạt hay đôi khi còn thiếu sự quyết đoán?"
+        "Môi trường hiện tại đang phản chiếu điều gì lên bạn?",
+        "Đâu là cột trụ tinh thần giúp bạn không bị cuốn theo ngoại cảnh?"
       ],
-      "microPractice": "Nhìn sang cung đối diện trực tiếp (Đối cung) của cung Vô Chính Diệu trên lá số của bạn và ghi xuống tên các Chính tinh đang chiếu sang.",
+      "microPractice": "Tìm các cung VCD trên lá số của bạn, ghi Chính tinh mượn từ cung đối cho từng cung, và xem lại môi trường bạn đang sống có nuôi dưỡng bạn không.",
       "recommendedCourse": {
         "title": "Khóa học Luận Nhanh Lá Số Tử Vi (S37)",
         "desc": "Lộ trình từng bước dành cho người mới: nắm vững 32 sao cốt lõi, công thức 3P4C và 5 bước tự đọc lá số của chính mình."
@@ -4488,7 +4520,7 @@
       "lifeDomain": "su-nghiep",
       "personaId": "anh-gia-su",
       "authorName": "Anh Gia Sư TVCL",
-      "readTime": "6 phút",
+      "readTime": "8 phút",
       "featured": false,
       "tags": [
         "KhongKiep",
@@ -4558,12 +4590,20 @@
       ],
       "sections": [
         {
-          "heading": "1. Văn Xương – Văn Khúc: Vẻ đẹp của tri thức bài bản và sự tinh tế",
-          "bodyMarkdown": "Văn Xương đại diện cho tư duy cấu trúc, chữ nghĩa mạch lạc; Văn Khúc đại diện cho sự nhạy cảm nghệ thuật và khả năng thấu hiểu cảm xúc. Tuy nhiên, khi gặp [Hóa Kỵ](wiki:HoaKy) hoặc quá cầu toàn, người có Xương Khúc đôi khi tự làm khổ mình vì đòi hỏi mọi thứ phải hoàn hảo 100% mới dám xuất bản hay hành động."
+          "heading": "1. Hai kiểu trí tuệ trên lá số",
+          "bodyMarkdown": "- [Văn Xương – Văn Khúc](wiki:XuongKhuc) là sức mạnh của **tri thức, học tập, nghiên cứu, thi cử, tài hoa, ăn nói, nghệ thuật**. Văn Xương là cây bút của trí tuệ sáng rõ; Văn Khúc là tiếng đàn của người nghệ sĩ.\n- [Địa Không – Địa Kiếp](wiki:KhongKiep) là **tư duy khác lạ, thông minh, sâu sắc, tư tưởng vượt người thường**, nhiều ý tưởng phá cách.\n\nMột bên học bằng cấu trúc, một bên học bằng đột phá."
         },
         {
-          "heading": "2. Địa Không – Địa Kiếp: Trí tuệ sinh ra từ khoảng không và trải nghiệm thật",
-          "bodyMarkdown": "Người mang năng lượng [Địa Không – Địa Kiếp](wiki:KhongKiep) thường học rất nhanh bằng cách nắm thẳng vào bản chất cốt lõi hoặc ngộ ra sau những biến cố thực tế. Để trí tuệ Không Kiếp không bị tản mạn, hãy mượn tính kỷ luật của Xương Khúc: đóng gói những phát kiến đột phá của bạn thành tài liệu, quy trình cụ thể để giúp người khác."
+          "heading": "2. Xương Khúc: học bài bản",
+          "bodyMarkdown": "- **Mặt sáng:** ham học, tư duy hệ thống, thành tựu qua chuyên môn; năng khiếu nghệ thuật, diễn đạt tinh tế.\n- **Mặt tối:** cầu toàn, màu mè chữ nghĩa, quá tin vào lý trí, kiêu ngạo tri thức; ngụy biện, lãng mạn hóa nỗi đau.\n- **Bài học:** tri thức cần đi cùng khiêm tốn; biết nhiều chưa đủ, cần sống đúng.\n- **Cách dụng:** tập trung đào sâu chuyên môn; viết, nghiên cứu, giảng dạy, xây hệ thống tri thức."
+        },
+        {
+          "heading": "3. Không Kiếp: học bằng đột phá",
+          "bodyMarkdown": "- **Mặt sáng:** tư duy đi trước thời đại, không bị khuôn mẫu trói buộc; độc đáo, phá cách.\n- **Mặt tối:** lý tưởng cao nhưng hành động kém; nghĩ nhiều làm ít; tụ rồi tán.\n- **Cách dụng (8 nguyên lý Cải Mệnh):** tập trung nghiên cứu sâu, đi sâu chuyên môn, **không chạy theo trào lưu xã hội**. Hợp đông y, toán học, mệnh lý, nghệ thuật, marketing, tham mưu, tâm lý, tâm linh."
+        },
+        {
+          "heading": "4. Khi hai kiểu trí tuệ hợp nhất",
+          "bodyMarkdown": "Bài học chung của cả hai nhóm là **chiều sâu**: Xương Khúc đào sâu bằng cấu trúc, Không Kiếp đào sâu bằng trực giác và trải nghiệm.\n\n- Người nặng Không Kiếp: mượn kỷ luật của Xương Khúc, ghi chép, hệ thống hóa ý tưởng để chúng không tản mạn.\n- Người nặng Xương Khúc: mượn sự dám phá khuôn của Không Kiếp, chấp nhận \"bản nháp đủ tốt\" thay vì đợi hoàn hảo.\n\nCả hai đều cần tránh mặt tối chung: **nghĩ nhiều mà không làm.**"
         }
       ],
       "faq": [
@@ -4572,15 +4612,23 @@
           "answer": "Nhiều người lầm tưởng: \"Chỉ có Văn Xương, Văn Khúc, Hóa Khoa mới là người thông minh; còn có Không Kiếp là học hành dang dở.\". Sự thật dưới góc nhìn Tử Vi Chữa Lành: Văn Xương – Văn Khúc là trí tuệ tích lũy có cấu trúc; còn Địa Không – Địa Kiếp là trí tuệ trực giác, đột phá ngoài khuôn mẫu. Khi hợp nhất cả hai, ý tưởng mới sẽ được đóng gói thành giá trị bền vững."
         },
         {
+          "question": "Có Không Kiếp thì học có kém không?",
+          "answer": "Không. Không Kiếp có tư duy khác lạ, sâu sắc; bài học là đi sâu chuyên môn và biến ý tưởng thành hành động."
+        },
+        {
+          "question": "Xương Khúc có chắc thi cử tốt?",
+          "answer": "Xương Khúc có duyên với học tập, thi cử; nhưng mặt tối cầu toàn có thể cản trở. Kết quả còn phụ thuộc Chính tinh và 3P4C."
+        },
+        {
           "question": "Làm sao để ứng dụng bài học này vào cải mệnh thực tế ngay hôm nay?",
-          "answer": "Nếu đang trì hoãn vì muốn hoàn hảo, hôm nay hãy cho phép mình hoàn thành công việc ở mức 80% rồi tinh chỉnh dần."
+          "answer": "Chọn một ý tưởng bạn đang ấp ủ, viết nó thành một trang có cấu trúc (mục tiêu, các bước, hạn chót) và làm bước đầu tiên."
         }
       ],
       "reflectionPrompts": [
-        "Cách học tự nhiên của bạn nghiêng về 'đọc tuần tự từng bước' (Xương Khúc) hay 'nắm thẳng nguyên lý rồi thử nghiệm ngay' (Không Kiếp)?",
-        "Bạn cần bổ sung thêm tính kỷ luật hay sự linh hoạt lúc này?"
+        "Bạn học tốt nhất bằng cấu trúc hay bằng trải nghiệm?",
+        "Ý tưởng nào của bạn đang chờ được đóng gói thành sản phẩm?"
       ],
-      "microPractice": "Nếu đang trì hoãn vì muốn hoàn hảo, hôm nay hãy cho phép mình hoàn thành công việc ở mức 80% rồi tinh chỉnh dần.",
+      "microPractice": "Chọn một ý tưởng bạn đang ấp ủ, viết nó thành một trang có cấu trúc (mục tiêu, các bước, hạn chót) và làm bước đầu tiên.",
       "recommendedCourse": {
         "title": "Khóa học Tử Vi Chữa Lành — Hiểu Mình, Cải Mệnh, Chữa Lành",
         "desc": "Kết hợp Tử Vi Đẩu Số, Tâm lý học và Đạo học để nhận diện mô thức cũ, dụng cung Cát và chuyển hóa cung Hung."
@@ -4642,7 +4690,7 @@
       "lifeDomain": "noi-tam",
       "personaId": "anh-gia-su",
       "authorName": "Anh Gia Sư TVCL",
-      "readTime": "6 phút",
+      "readTime": "9 phút",
       "featured": false,
       "tags": [
         "KinhDa",
@@ -4710,12 +4758,20 @@
       ],
       "sections": [
         {
-          "heading": "1. Bóc tách 4 mảnh ghép tâm lý của bộ Linh – Xương – Đà – Vũ",
-          "bodyMarkdown": "Thay vì sợ câu phú cổ, chúng ta hãy nhìn thẳng vào cơ chế tâm lý khi 4 ngôi sao này đi cùng nhau: Vũ Khúc là người trọng thực tế, tự tôn cao và không muốn ai thấy mình thất bại; Văn Xương là người hay suy xét theo lý lẽ đúng–sai; [Đà La](wiki:KinhDa) giữ những suy nghĩ đó quay vòng trong đầu; còn [Linh Tinh](wiki:HoaTinh) là ngọn lửa cảm xúc âm ỉ bên dưới. Khi một người vừa cầu toàn, vừa tự trách, lại vừa đóng cửa không tâm sự với ai, họ tự tạo ra áp lực rất lớn cho hệ thần kinh của mình."
+          "heading": "1. Cách \"Linh Xương Đà Vũ\" trong cổ thư",
+          "bodyMarkdown": "Theo cổ thư được ghi lại trong bộ tri thức TVCL, cách **Linh Xương Đà Vũ** là khi cung Mệnh ở Thìn hoặc Tuất, và Tam Phương Tứ Chính hội đủ bốn sao **Linh Tinh, Văn Xương, Đà La, Vũ Khúc**. Cổ nhân xem đây là cách cục dễ thất bại, và ghi chú một điểm rất đáng suy ngẫm: **sự thất bại này do chính mệnh tạo tự chuốc lấy.** Cổ thư cũng lưu ý cần có lưu Xương, lưu Đà hội hợp ở vận thì cách mới bị kích hoạt.\n\nTử Vi Chữa Lành không đọc đây như một lời đe dọa. Chữ \"tự chuốc lấy\" chính là cánh cửa: điều do tâm tạo thì tâm có thể chuyển."
         },
         {
-          "heading": "2. Cách tháo ngòi nổ cho bộ Linh – Xương – Đà – Vũ",
-          "bodyMarkdown": "Chỉ cần bạn cắt đứt 1 trong 4 mắt xích trên, nút thắt sẽ tự mở: (1) Tập nói ra cảm xúc hoặc viết nhật ký xả tâm (giải phóng Linh Tinh), (2) Bước ra ngoài vận động cơ thể và đổi không gian (phá vòng quay của Đà La), và (3) Dùng [CBT](wiki:CBT) để hạ bớt tiêu chuẩn hoàn hảo cứng nhắc của Vũ Khúc – Văn Xương."
+          "heading": "2. Bốn năng lượng, một nút thắt",
+          "bodyMarkdown": "- **[Vũ Khúc](wiki:VuKhuc):** *\"Tôi phải tự gánh hết\"*, khô cứng, khó bày tỏ cảm xúc.\n- **[Văn Xương](wiki:XuongKhuc):** cầu toàn, quá tin vào lý trí.\n- **[Đà La](wiki:KinhDa):** trì kéo, dây dưa, vòng lặp, *\"tôi không thể thoát khỏi chuyện này\"*.\n- **[Linh Tinh](wiki:HoaTinh):** lửa ngầm, uất ức, căng thẳng, lo âu bị nén lại.\n\nGhép lại, đây là chân dung một người **gồng gánh, cầu toàn, nén cảm xúc và mắc kẹt**: áp lực tích tụ âm thầm đến lúc vỡ."
+        },
+        {
+          "heading": "3. Mở nút thắt từ bên trong",
+          "bodyMarkdown": "- **Với Vũ Khúc:** học nhận hỗ trợ, mở lại dòng cảm xúc; biến kỷ luật thành nền an toàn, không thành nhà tù.\n- **Với Văn Xương:** biết nhiều chưa đủ, cần sống đúng; chấp nhận \"đủ tốt\".\n- **Với Đà La:** viết ra vòng lặp của mình, chọn một hành động nhỏ trong 10 phút; *\"buông không phải là thua\"*.\n- **Với Linh Tinh:** nói ra sớm điều mình để bụng; *tha thứ không phải vì người khác xứng đáng, mà vì mình xứng đáng được bình yên.*"
+        },
+        {
+          "heading": "4. Khi vận chạm vào cách cục",
+          "bodyMarkdown": "Theo nguyên lý vận hạn TVCL, **cung là nền, Hóa và sao lưu chỉ là lực kích hoạt.** Những năm có lưu Xương, lưu Đà chạm vào nguyên cục là lúc nên:\n\n- **Thủ, đừng công;** tránh quyết định lớn khi đang căng thẳng.\n- Giữ gìn sức khỏe, nghỉ ngơi đủ, chú ý an toàn khi đi lại.\n- Chủ động tìm người chia sẻ, không ôm hết một mình.\n- Nếu căng thẳng, lo âu kéo dài, hãy gặp chuyên gia tâm lý.\n\nCổ nhân nói: *\"Thiên hạ vô nan sự, nhân tâm tự phiền chi\"*: không có việc nào khó, chỉ tâm người tự làm phiền mình."
         }
       ],
       "faq": [
@@ -4724,15 +4780,23 @@
           "answer": "Nhiều người lầm tưởng: \"Gặp bộ Linh Xương Đà Vũ trên lá số là số bế tắc cùng cực, tai họa không lối thoát.\". Sự thật dưới góc nhìn Tử Vi Chữa Lành: Dưới lăng kính tâm lý, Linh – Xương – Đà – Vũ là sự cộng hưởng của 4 nét tâm lý: nguyên tắc cứng nhắc (Vũ Khúc) + suy nghĩ cầu toàn (Văn Xương) + tự giam mình trong vòng lặp (Đà La) + uất ức âm ỉ không nói ra (Linh Tinh). Tháo gỡ từng mắt xích bằng CBT sẽ hóa giải hoàn toàn nút thắt."
         },
         {
+          "question": "Có cách Linh Xương Đà Vũ có đáng sợ không?",
+          "answer": "Cổ thư xem đây là cách cục dễ thất bại do chính mình tự tạo. TVCL đọc đó là nút thắt tâm lý (gồng gánh, cầu toàn, nén cảm xúc, mắc kẹt) có thể chuyển hóa từ bên trong, không phải bản án."
+        },
+        {
+          "question": "Cách này cần điều kiện gì?",
+          "answer": "Theo cổ thư trong bộ tri thức TVCL: Mệnh ở Thìn hoặc Tuất, 3P4C hội Linh Tinh, Văn Xương, Đà La, Vũ Khúc; khi vận có lưu Xương, lưu Đà hội hợp thì cách bị kích hoạt."
+        },
+        {
           "question": "Làm sao để ứng dụng bài học này vào cải mệnh thực tế ngay hôm nay?",
-          "answer": "Mỗi khi thấy đầu óc căng cứng vì một bài toán khó, hãy dừng ngồi một chỗ — đứng dậy đi bộ 15 phút và viết hết mọi lo lắng ra giấy để nhìn chúng từ bên ngoài."
+          "answer": "Viết ra một điều bạn đang gồng gánh một mình và một người bạn có thể chia sẻ, rồi nói với họ trong tuần này."
         }
       ],
       "reflectionPrompts": [
-        "Khi gặp một thất bại hoặc áp lực lớn, bạn có xu hướng tự đóng cửa phòng chịu đựng một mình không?",
-        "Ai là người an toàn mà bạn có thể chia sẻ thật lòng khi thấy mình quá tải?"
+        "Bạn đang gồng gánh điều gì một mình?",
+        "Cảm xúc nào bạn đã nén lại quá lâu?"
       ],
-      "microPractice": "Mỗi khi thấy đầu óc căng cứng vì một bài toán khó, hãy dừng ngồi một chỗ — đứng dậy đi bộ 15 phút và viết hết mọi lo lắng ra giấy để nhìn chúng từ bên ngoài.",
+      "microPractice": "Viết ra một điều bạn đang gồng gánh một mình và một người bạn có thể chia sẻ, rồi nói với họ trong tuần này.",
       "recommendedCourse": {
         "title": "Khóa học Tử Vi Bí Kíp Ứng Dụng Chữa Lành (CBT · ACT · IFS)",
         "desc": "Dùng lá số như bản đồ tâm thức để nhận diện niềm tin cốt lõi và thực hành chuyển hóa sâu qua CBT, ACT, IFS và Đạo học."
@@ -4794,7 +4858,7 @@
       "lifeDomain": "tinh-duyen",
       "personaId": "anh-phap-su",
       "authorName": "Anh Pháp Sư TVCL",
-      "readTime": "7 phút",
+      "readTime": "8 phút",
       "featured": false,
       "tags": [
         "PhucDuc",
@@ -4864,12 +4928,20 @@
       ],
       "sections": [
         {
-          "heading": "1. Ý nghĩa sâu sắc của vị trí cung Phúc Đức trên lá số",
-          "bodyMarkdown": "Không phải ngẫu nhiên mà tiền nhân sắp đặt [Cung Phúc Đức](wiki:PhucDuc) nằm trong tam hợp Phúc – Phối ([Cung Phu Thê](wiki:PhuThe)) – Di (Thiên Di) và luôn xung chiếu trực diện với cung Tài Bạch. Điều đó nhắc nhở chúng ta rằng: bạn không thể có một cuộc hôn nhân êm ấm hay một dòng tài chính bền vững nếu đời sống tinh thần và hệ giá trị bên trong bạn luôn bất an, cạn kiệt."
+          "heading": "1. Phúc Đức: \"phòng thờ\" của lá số",
+          "bodyMarkdown": "[Phúc Đức](wiki:PhucDuc) là đời sống tinh thần, nội tâm, tư tưởng, phước báu và dòng nghiệp gia tộc. Góc nhìn chữa lành: Phúc Đức cho thấy nền tâm linh, niềm tin, khả năng an trú và sức nâng đỡ vô hình của một người.\n\nTrên lá số, Phúc Đức là **đối cung của Tài Bạch** (60%) và **tam hợp của Phu Thê** (30%). Vì vậy chăm Phúc Đức là chăm cả tiền bạc lẫn tình duyên."
         },
         {
-          "heading": "2. Ba cách thực hành bồi đắp cung Phúc Đức ngay trong đời sống hàng ngày",
-          "bodyMarkdown": "• Nuôi dưỡng sự tĩnh lặng nội tâm: Dành thời gian thiền định, thở chánh niệm, nghỉ ngơi đủ để hệ thần kinh được hồi phục.\n• Kết nối lành mạnh với cội nguồn gia tộc: Giữ lòng biết ơn ông bà cha mẹ, hóa giải những oán trách cũ trong gia đình.\n• Gieo phước qua Thân – Khẩu – Ý: Nói lời ái ngữ nâng đỡ người khác, làm việc có ích cho cộng đồng một cách chân thành."
+          "heading": "2. Phúc Đức và Tài Bạch",
+          "bodyMarkdown": "Bộ tri thức TVCL viết: *\"Có Phúc mặc sức mà ăn\"*; tiền bạc là quả ngọt mọc trên cây phước đức.\n\n- **Khi tiền tắc nghẽn:** càng tham lam gỡ gạc càng mất. Hãy bước sang Phúc Đức: làm thiện, chữa lành tâm thức tài chính, nhìn lại vì sao mình mất tiền hoặc ra quyết định sai.\n- **Khi tinh thần bất an dù không thiếu tiền:** dùng Tài để chữa Phúc, đầu tư vào những trải nghiệm có ý nghĩa, dự án cộng đồng, quà tặng người thân.\n- **Phúc chưa đẹp:** hạn chế đầu tư, đầu cơ, việc trông chờ may rủi."
+        },
+        {
+          "heading": "3. Phúc Đức và Phu Thê",
+          "bodyMarkdown": "Trong 3 cách cải Phu Thê mà không tác động trực tiếp vào Phu Thê, **dụng Phúc Đức** gồm:\n\n- **Làm nhiều thiện nghiệp:** tâm hạnh phúc hơn, năng lượng lành ảnh hưởng đến cả gia đình và tình cảm.\n- **Thay đổi thái độ, học tập, chữa lành:** nhận diện mô thức, hành vi, góc nhìn và tổn thương của mình trong tình cảm để chuyển hóa. Người thương thường tương ứng với mức trưởng thành nội tâm của chính bạn.\n- **Học về tâm lý con người** để có thái độ thấu hiểu, bao dung, hài hòa hơn trong quan hệ."
+        },
+        {
+          "heading": "4. Cách chăm Phúc Đức mỗi ngày",
+          "bodyMarkdown": "Theo bộ tri thức TVCL, cải Phúc Đức bằng:\n\n- Tu dưỡng tâm tính.\n- Làm thiện **có trí tuệ** (giúp đúng người, đúng việc).\n- Chữa lành dòng họ, nhìn lại những mô thức gia đình.\n- Xây dựng đời sống tinh thần: đọc sách, thiền, nhóm học tập.\n\nLưu ý từ bộ Tài Lộc: Phúc Đức không phải tài khoản siêu nhiên để \"đổi thiện nghiệp lấy tiền\"; đó là nền tâm thức và nếp sống."
         }
       ],
       "faq": [
@@ -4878,15 +4950,23 @@
           "answer": "Nhiều người lầm tưởng: \"Hôn nhân trục trặc thì chỉ lo sửa người bạn đời; tiền bạc thiếu hụt thì chỉ lo chạy đôn chạy đáo kiếm tiền bên ngoài.\". Sự thật dưới góc nhìn Tử Vi Chữa Lành: Cấu trúc lá số đã chỉ sẵn bí mật: Phúc Đức là gốc rễ nuôi dưỡng cả Tài Bạch (đối cung 60%) lẫn Phu Thê (tam hợp 30%). Khi tâm thức bình an và phước đức dày lên, cả tiền tài lẫn tình duyên đều tự nhiên khởi sắc."
         },
         {
+          "question": "Vì sao Phúc Đức ảnh hưởng tiền bạc?",
+          "answer": "Phúc Đức là đối cung của Tài Bạch, ảnh hưởng 60%; tâm thức, niềm tin và cách ra quyết định của bạn tác động trực tiếp đến dòng tiền."
+        },
+        {
+          "question": "Làm thiện có phải để được giàu?",
+          "answer": "Không nên hiểu như cuộc đổi chác. Thiện nghiệp nuôi nền tâm thức và nhân duyên; kết quả tài chính còn cần năng lực, hành động và thời vận."
+        },
+        {
           "question": "Làm sao để ứng dụng bài học này vào cải mệnh thực tế ngay hôm nay?",
-          "answer": "Thực hành 7 ngày liên tiếp: mỗi sáng thức dậy dành 3 phút hít thở sâu và khởi tâm chúc bình an cho người thân trước khi bước vào ngày mới."
+          "answer": "Chọn một niềm tin về tiền hoặc về tình yêu mà bạn học từ gia đình, viết nó ra và viết một niềm tin mới lành hơn."
         }
       ],
       "reflectionPrompts": [
-        "Khi công việc hoặc chuyện tình cảm căng thẳng, đời sống tinh thần (giấc ngủ, sự bình yên trong tâm) của bạn đang ở mức mấy trên thang điểm 10?",
-        "Việc thiện lành nhỏ nào làm bạn thấy tâm mình ấm áp nhất?"
+        "Niềm tin nào về tiền bạn mang từ gia đình?",
+        "Mô thức nào trong tình yêu bạn thấy mình hay lặp lại?"
       ],
-      "microPractice": "Thực hành 7 ngày liên tiếp: mỗi sáng thức dậy dành 3 phút hít thở sâu và khởi tâm chúc bình an cho người thân trước khi bước vào ngày mới.",
+      "microPractice": "Chọn một niềm tin về tiền hoặc về tình yêu mà bạn học từ gia đình, viết nó ra và viết một niềm tin mới lành hơn.",
       "recommendedCourse": {
         "title": "Khóa học Tử Vi Chữa Lành — Hiểu Mình, Cải Mệnh, Chữa Lành",
         "desc": "Kết hợp Tử Vi Đẩu Số, Tâm lý học và Đạo học để nhận diện mô thức cũ, dụng cung Cát và chuyển hóa cung Hung."
@@ -4948,7 +5028,7 @@
       "lifeDomain": "tinh-duyen",
       "personaId": "anh-gia-su",
       "authorName": "Anh Gia Sư TVCL",
-      "readTime": "6 phút",
+      "readTime": "8 phút",
       "featured": false,
       "tags": [
         "PhuThe",
@@ -5018,12 +5098,20 @@
       ],
       "sections": [
         {
-          "heading": "1. Quy luật chiếc bình thông nhau giữa Quan Lộc và Phu Thê",
-          "bodyMarkdown": "Trên lá số Tử Vi, [Cung Phu Thê](wiki:PhuThe) và cung Quan Lộc luôn nằm đối diện nhau trên một trục thẳng. Khi một người đánh mất niềm vui trong công việc hoặc không có mục tiêu phát triển bản thân (Quan Lộc yếu), họ rất dễ dồn toàn bộ sự chú ý, đòi hỏi và bất an sang người bạn đời, làm cung Phu Thê bị quá tải."
+          "heading": "1. Ba cung nâng đỡ Phu Thê",
+          "bodyMarkdown": "Trên lá số, cung **Quan Lộc đối cung với [Phu Thê](wiki:PhuThe)** (60%), còn **Phúc Đức và Thiên Di là tam hợp** (30%). Vì vậy có thể cải Phu Thê **mà không cần tác động trực tiếp vào Phu Thê.**\n\nBộ tri thức TVCL gọi trục Quan – Phu là trục **cân bằng Âm Dương**: công việc thất bại thường làm hôn nhân lục đục; gia đình bất hòa thì khó an tâm thăng tiến."
         },
         {
-          "heading": "2. Mở rộng Thiên Di để mang gió mới về cho hôn nhân",
-          "bodyMarkdown": "Cùng nằm trong bộ [3P4C](wiki:3P4C) của Phu Thê còn có cung Thiên Di (30% lực). Đôi khi một mối quan hệ trở nên căng thẳng chỉ vì hai người nhìn nhau trong bốn bức tường quen thuộc quá lâu. Việc cùng nhau đi đến một không gian mới, hoặc mỗi người có những hoạt động học tập, thể thao lành mạnh bên ngoài xã hội sẽ giúp hôn nhân có 'khoảng thở' để yêu thương nhau bền lâu hơn."
+          "heading": "2. Dụng Quan Lộc",
+          "bodyMarkdown": "- Khi công việc ổn định, có thu nhập tốt, và đặc biệt **có niềm vui, ý nghĩa trong công việc**, cung Phu Thê cũng được cải rất mạnh.\n- Công việc tốt đảm bảo tài chính cho gia đình, mang lại niềm vui cho đời sống chung.\n- Công việc tốt cũng giúp bạn **bớt bám chấp, bớt nương tựa** vào người thương, tạo sự độc lập cho cả hai.\n- Khi hôn nhân lục đục: đừng chìm vào kiểm soát hay cố thay đổi đối phương; hãy đứng dậy, dồn sức cho công việc của chính mình.\n- Bạn cũng có thể tìm duyên qua công việc."
+        },
+        {
+          "heading": "3. Dụng Thiên Di",
+          "bodyMarkdown": "[Thiên Di](wiki:CungThienDi) là cánh cửa ra thế giới:\n\n- **Ra ngoài nhiều hơn, gặp gỡ nhiều người hơn** thì có nhiều nhân duyên hơn.\n- Gặp gỡ và trải nghiệm giúp mở rộng tầm mắt, hiểu hơn về chính mình và người khác, từ đó chọn người phù hợp hơn.\n- Khi Thiên Di tốt: càng đi càng mở vận. Khi Thiên Di chưa thuận: chọn môi trường lành, học kỹ năng xã hội."
+        },
+        {
+          "heading": "4. Kế hoạch 30 ngày",
+          "bodyMarkdown": "- **Tuần 1:** viết ra một mục tiêu công việc mang lại niềm vui thật, không chỉ thu nhập.\n- **Tuần 2:** tham gia một hoạt động, lớp học hoặc cộng đồng mới.\n- **Tuần 3:** làm một việc thiện nhỏ và quan sát tâm mình (Phúc Đức).\n- **Tuần 4:** nhìn lại: sự độc lập và niềm vui của bạn đã thay đổi cách bạn yêu như thế nào?\n\nVà nhớ nguyên tắc cải Phu Thê của TVCL: **không dùng Tử Vi để đổ lỗi cho bạn đời.**"
         }
       ],
       "faq": [
@@ -5032,15 +5120,23 @@
           "answer": "Nhiều người lầm tưởng: \"Muốn giữ hạnh phúc gia đình thì phải dồn 100% thời gian, tâm trí để canh chừng và xoay quanh người bạn đời.\". Sự thật dưới góc nhìn Tử Vi Chữa Lành: Cung Quan Lộc xung chiếu trực tiếp (60% lực) với cung Phu Thê: khi bạn có công việc ý nghĩa, tự chủ và bước ra xã hội (Thiên Di 30%) với năng lượng rạng rỡ, sức hút và sự tôn trọng trong hôn nhân tự khắc quay trở lại."
         },
         {
+          "question": "Cung Phu Thê xấu thì có cải được không?",
+          "answer": "Có thể cải qua 3P4C: Quan Lộc (đối cung, 60%), Thiên Di và Phúc Đức (tam hợp, 30%), cùng với chữa lành mô thức yêu từ bên trong."
+        },
+        {
+          "question": "Tập trung vào công việc có làm lơ gia đình?",
+          "answer": "Mục tiêu là cân bằng: công việc có niềm vui giúp bạn độc lập, bớt bám chấp, và mang năng lượng tốt về gia đình."
+        },
+        {
           "question": "Làm sao để ứng dụng bài học này vào cải mệnh thực tế ngay hôm nay?",
-          "answer": "Dành riêng 1 giờ mỗi ngày cho việc học nâng cao chuyên môn hoặc chăm sóc bản thân độc lập để làm sáng cung Quan Lộc và Thiên Di."
+          "answer": "Đăng ký một hoạt động hoặc lớp học mới trong tháng này để mở Thiên Di, và viết một mục tiêu công việc mang lại niềm vui thật."
         }
       ],
       "reflectionPrompts": [
-        "Bạn có đang đặt toàn bộ niềm vui hay nỗi buồn của mình phụ thuộc vào thái độ của người thương không?",
-        "Đâu là mục tiêu phát triển bản thân tại cung Quan Lộc mà bạn muốn tập trung trong quý này?"
+        "Bạn đang nương tựa vào người thương ở điều gì có thể tự mình xây dựng?",
+        "Lần gần nhất bạn mở rộng vòng gặp gỡ là khi nào?"
       ],
-      "microPractice": "Dành riêng 1 giờ mỗi ngày cho việc học nâng cao chuyên môn hoặc chăm sóc bản thân độc lập để làm sáng cung Quan Lộc và Thiên Di.",
+      "microPractice": "Đăng ký một hoạt động hoặc lớp học mới trong tháng này để mở Thiên Di, và viết một mục tiêu công việc mang lại niềm vui thật.",
       "recommendedCourse": {
         "title": "Chương trình Tử Vi Chữa Lành Tình Duyên & Hôn Nhân",
         "desc": "Thấu hiểu mô thức gắn bó của 14 Chính Tinh, hóa giải xung đột và cải thiện cung Phu Thê qua hệ sinh thái 3P4C."
@@ -5102,7 +5198,7 @@
       "lifeDomain": "con-cai",
       "personaId": "anh-gia-su",
       "authorName": "Anh Gia Sư TVCL",
-      "readTime": "6 phút",
+      "readTime": "8 phút",
       "featured": false,
       "tags": [
         "3P4C",
@@ -5172,12 +5268,20 @@
       ],
       "sections": [
         {
-          "heading": "1. Khi cung Tử Tức là nơi đánh thức 'Đứa trẻ hồn nhiên' và sức sáng tạo",
-          "bodyMarkdown": "Trong Tử Vi, cung Tử Tức không chỉ nói về con cái ruột thịt, mà còn đại diện cho học trò, những ý tưởng sáng tạo mới và niềm vui thuần khiết. Nhiều học viên trong Bộ Tộc chia sẻ rằng: đúng vào lúc công việc kinh doanh bế tắc nhất, khi họ buông điện thoại xuống để chơi đùa trọn vẹn với con hoặc tập trung gieo hạt dạy học cho thế hệ sau, một cánh cửa ý tưởng mới lại bất ngờ mở ra."
+          "heading": "1. Tử Tức và Điền Trạch: một trục đối cung",
+          "bodyMarkdown": "- [Tử Tức](wiki:CungTuTuc) là con cái, học trò, hậu duệ, và cả **sản phẩm sáng tạo mang dấu ấn của mình**: một dự án, một lớp học, một cộng đồng.\n- [Điền Trạch](wiki:CungDienTrach) là nhà cửa, môi trường sống, cảm giác an cư; góc nhìn chữa lành là **cảm giác có nơi thuộc về, có chỗ trú ẩn để quay về.**\n\nHai cung nằm trên cùng một trục đối chiếu (60%). Bộ tri thức TVCL gọi đây là trục **\"Môi trường tạo nên tính cách\"**."
         },
         {
-          "heading": "2. Câu chuyện cải Tử Tức bằng Điền Trạch và ngược lại",
-          "bodyMarkdown": "Tử Tức và Điền Trạch nằm trên cùng một trục đối chiếu (60% lực). Khi muốn nuôi dạy con tốt hơn (Tử Tức), thay vì chỉ la mắng con, hãy cải tạo lại không gian sống trong nhà (Điền Trạch): tạo một góc đọc sách ấm cúng, giảm tiếng ồn tivi, giữ mâm cơm gia đình đầm ấm. Môi trường Điền Trạch đổi, tâm tính con trẻ tại Tử Tức tự khắc chuyển theo."
+          "heading": "2. Cải Tử Tức qua Điền Trạch và ngược lại",
+          "bodyMarkdown": "- **Muốn con tốt (Tử Tức), xem lại không khí trong nhà (Điền Trạch).** Nhà cửa bừa bộn, cha mẹ hay cãi nhau thì con khó phát triển tốt. Dọn dẹp, bỏ đồ cũ, tạo góc sống ấm áp.\n- **Khi nhà cửa bất ổn (Điền Trạch),** dồn sự chú ý sang Tử Tức: dành thời gian chơi với con, chăm một thú cưng, hoặc bắt tay vào một dự án mới.\n\nĐây là cách \"đi đường vòng\" của nguyên lý cải cung qua cung."
+        },
+        {
+          "heading": "3. Khi các cung khác đang bế tắc",
+          "bodyMarkdown": "Nguyên lý dụng vận của TVCL dạy: **chuyển lực sang cung đẹp.** Khi Mệnh, Tài, Quan đang chịu áp lực, nếu Tử Tức hoặc Điền Trạch đang tốt, đó là nơi để nạp lại năng lượng:\n\n- **Tử Tức tốt:** nhờ con, làm việc liên quan đến trẻ em, nhờ học trò tâm phúc; nuôi một dự án sáng tạo mới.\n- **Điền Trạch tốt:** chăm không gian sống, tích lũy tài sản bền vững, hoặc làm việc tại một nơi có môi trường tốt."
+        },
+        {
+          "heading": "4. Thực hành",
+          "bodyMarkdown": "- Dọn một góc nhà trong tuần này, biến nó thành nơi bạn muốn trở về.\n- Dành 30 phút trọn vẹn cho con, học trò hoặc dự án bạn yêu thích, không điện thoại.\n- Với Tử Tức: học cách **nuôi dưỡng thay vì kiểm soát**.\n- Với Điền Trạch: tạo nơi ở sạch, ấm, an toàn; hạn chế đầu tư nhà đất mạo hiểm nếu cung Điền đang hung."
         }
       ],
       "faq": [
@@ -5186,15 +5290,23 @@
           "answer": "Nhiều người lầm tưởng: \"Khi bản thân (Mệnh) và sự nghiệp (Quan) đang bế tắc thì chuyện nhà cửa, con cái chỉ là gánh nặng làm phân tâm.\". Sự thật dưới góc nhìn Tử Vi Chữa Lành: Có những giai đoạn Mệnh – Tài – Quan đang chịu áp lực lớn, chính việc quay về chăm sóc không gian sống (Điền Trạch) và kết nối với con cái hoặc dự án ấp ủ mới (Tử Tức) lại là nguồn sinh lực giúp bạn tái tạo năng lượng."
         },
         {
+          "question": "Không có con thì cung Tử Tức có ý nghĩa gì?",
+          "answer": "Tử Tức còn là học trò, dự án, sản phẩm sáng tạo, cộng đồng bạn nuôi dưỡng; đó đều là nơi có thể dụng."
+        },
+        {
+          "question": "Vì sao nhà cửa ảnh hưởng đến con cái?",
+          "answer": "Điền Trạch và Tử Tức là trục đối cung (60%); bộ tri thức TVCL gọi đây là trục \"môi trường tạo nên tính cách\"."
+        },
+        {
           "question": "Làm sao để ứng dụng bài học này vào cải mệnh thực tế ngay hôm nay?",
-          "answer": "Tối nay, hãy cùng các thành viên trong nhà tạo một 'khung giờ không màn hình' selama 30 phút để trò chuyện hoặc đọc sách cùng nhau."
+          "answer": "Dọn một góc nhà thành nơi bạn muốn trở về, và dành 30 phút trọn vẹn cho con hoặc một dự án bạn yêu thích."
         }
       ],
       "reflectionPrompts": [
-        "Trong nhà bạn hiện đã có một góc chung ấm áp để cả gia đình cùng đọc sách hoặc trò chuyện mỗi tối chưa?",
-        "Dự án tâm huyết nào giống như 'đứa con tinh thần' đang mang lại niềm vui cho bạn?"
+        "Ngôi nhà của bạn đang là nơi trú ẩn hay nơi căng thẳng?",
+        "Dự án nào là \"đứa con tinh thần\" bạn muốn nuôi dưỡng?"
       ],
-      "microPractice": "Tối nay, hãy cùng các thành viên trong nhà tạo một 'khung giờ không màn hình' selama 30 phút để trò chuyện hoặc đọc sách cùng nhau.",
+      "microPractice": "Dọn một góc nhà thành nơi bạn muốn trở về, và dành 30 phút trọn vẹn cho con hoặc một dự án bạn yêu thích.",
       "recommendedCourse": {
         "title": "Khóa học Tử Vi Chữa Lành — Hiểu Mình, Cải Mệnh, Chữa Lành",
         "desc": "Kết hợp Tử Vi Đẩu Số, Tâm lý học và Đạo học để nhận diện mô thức cũ, dụng cung Cát và chuyển hóa cung Hung."
@@ -5256,7 +5368,7 @@
       "lifeDomain": "noi-tam",
       "personaId": "quan-trung",
       "authorName": "Tộc trưởng Quán Trung",
-      "readTime": "7 phút",
+      "readTime": "8 phút",
       "featured": false,
       "tags": [
         "IFS",
@@ -5326,12 +5438,20 @@
       ],
       "sections": [
         {
-          "heading": "1. Vì sao cổ nhân đặt cung Phụ Mẫu xung chiếu trực tiếp với cung Tật Ách?",
-          "bodyMarkdown": "Khi quan sát bàn cờ 12 cung của Tử Vi Đẩu Số, một trong những cặp trục kỳ diệu nhất là Phụ Mẫu – Tật Ách. Về mặt sinh học, ta nhận bộ gen cơ thể từ cha mẹ; về mặt tâm lý học, tiếng nói của cha mẹ trong những năm đầu đời sẽ trở thành 'tiếng nói nội tâm' đi theo ta khi lớn lên. Những nỗi đau hoặc nỗi sợ bị kìm nén thời thơ ấu thường ẩn mình trong vùng tiềm thức của cung Tật Ách."
+          "heading": "1. Trục Phụ Mẫu – Tật Ách: nguồn cội và cơ thể",
+          "bodyMarkdown": "- [Phụ Mẫu](wiki:CungPhuMau): cha mẹ, bề trên, hệ gen di truyền và môi trường nuôi dưỡng từ ấu thơ. Góc nhìn chữa lành: gốc rễ tuổi thơ, cảm giác được nâng đỡ, được công nhận hoặc bị áp lực bởi quyền uy.\n- [Tật Ách](wiki:CungTatAch): cơ thể, sức khỏe, và cả **phần vô thức mang theo những tổn thương kìm nén**. Đây là \"phòng thuốc\" và \"kho bí mật\" của lá số.\n\nHai cung đối nhau. Bài học chữa lành của trục này: *\"Cơ thể ghi nhớ mọi nỗi đau từ cội rễ.\"*"
         },
         {
-          "heading": "2. Dọn dẹp 'tàng thức' tại Tật Ách và sống Thuận Đạo",
-          "bodyMarkdown": "Chữa lành trục Phụ Mẫu – Tật Ách không phải là quay lại trách móc cha mẹ — vì cha mẹ cũng từng có những vết thương của thế hệ trước. Chữa lành là nhìn nhận cha mẹ bằng đôi mắt trưởng thành và từ bi, đồng thời lắng nghe tín hiệu cơ thể mình mỗi ngày: ăn uống chánh niệm, tập luyện thể chất và buông xả những gánh nặng cảm xúc không thuộc về hiện tại."
+          "heading": "2. Khi Tật Ách suy kiệt: dùng Phụ Mẫu",
+          "bodyMarkdown": "Khi cơ thể hay mệt, ốm đau kéo dài hoặc mang nặng những căng thẳng tâm lý, bộ tri thức TVCL gợi ý: **ngoài việc điều trị y khoa**, hãy dùng Phụ Mẫu:\n\n- Kết nối lại với cha mẹ, hóa giải những hiểu lầm.\n- Nhìn lại và chữa lành những tổn thương tuổi thơ.\n- Hiếu kính với bề trên theo cách lành mạnh, không lệ thuộc.\n\nViệc này không thay thế khám chữa bệnh. Tật Ách xấu thì càng cần **khám sức khỏe định kỳ và trị liệu tâm lý khi cần.**"
+        },
+        {
+          "heading": "3. Khi Phụ Mẫu rắc rối: dùng Tật Ách",
+          "bodyMarkdown": "Khi xung đột với cha mẹ, áp lực với cấp trên hoặc vướng giấy tờ pháp lý:\n\n- Đừng cãi tay đôi; hãy quay về **chăm sóc cơ thể**: tập luyện, yoga, ăn ngủ điều độ.\n- Dọn dẹp những suy nghĩ tiêu cực trong vô thức.\n- Khi cơ thể khỏe, năng lượng bạn tỏa ra vững chãi hơn, quan hệ với người trên cũng dễ chịu hơn."
+        },
+        {
+          "heading": "4. Thực hành",
+          "bodyMarkdown": "- Viết ra một ký ức tuổi thơ với cha mẹ còn làm bạn nặng lòng, và cảm giác trong cơ thể khi nhớ lại nó.\n- Chọn một cách chăm sóc cơ thể đều đặn trong 21 ngày.\n- Tìm một người thầy, người dẫn dắt lành mạnh (cách cải Phụ Mẫu: tôn trọng người đi trước nhưng không lệ thuộc).\n\nVới những tổn thương sâu, hãy làm việc cùng chuyên gia tâm lý; với triệu chứng cơ thể, hãy gặp bác sĩ."
         }
       ],
       "faq": [
@@ -5340,15 +5460,23 @@
           "answer": "Nhiều người lầm tưởng: \"Cung Tật Ách chỉ nói về bệnh tật thể xác ngẫu nhiên; cung Phụ Mẫu chỉ nói về cha mẹ bên ngoài.\". Sự thật dưới góc nhìn Tử Vi Chữa Lành: Trục Phụ Mẫu ↔ Tật Ách phản ánh sự thật sâu sắc của tâm lý học: những tổn thương, áp lực hoặc tiếng nói phê phán từ thuở nhỏ (Phụ Mẫu) nếu không được hóa giải sẽ lắng xuống tiềm thức và biểu hiện qua tín hiệu cơ thể (Tật Ách)."
         },
         {
+          "question": "Tật Ách xấu có phải sẽ bệnh nặng?",
+          "answer": "Không thể kết luận như vậy. Tật Ách cho thấy nơi thân tâm dễ tích tụ căng thẳng; cách cải là chăm sóc thân thể, khám định kỳ và trị liệu khi cần."
+        },
+        {
+          "question": "Hòa giải với cha mẹ có chữa được bệnh không?",
+          "answer": "Đây là hướng chăm sóc tinh thần đi kèm, không thay thế điều trị y khoa. Mọi vấn đề sức khỏe cần được bác sĩ thăm khám."
+        },
+        {
           "question": "Làm sao để ứng dụng bài học này vào cải mệnh thực tế ngay hôm nay?",
-          "answer": "Tối nay trước khi ngủ, hãy đặt tay lên vùng cơ thể hay mỏi nhất, thở chậm 5 nhịp và thầm cảm ơn cơ thể đã đồng hành cùng bạn suốt những năm qua."
+          "answer": "Chọn một thói quen chăm sóc cơ thể làm đều trong 21 ngày, và viết một lá thư (không cần gửi) cho cha hoặc mẹ."
         }
       ],
       "reflectionPrompts": [
-        "Có 'tiếng nói phê phán' quen thuộc nào từ thời thơ ấu vẫn thường vang lên trong đầu bạn mỗi khi bạn mệt mỏi không?",
-        "Cơ thể bạn thường phát tín hiệu ở vùng nào (vai gáy, dạ dày, giấc ngủ) khi bạn căng thẳng?"
+        "Cơ thể bạn đang mang theo nỗi căng thẳng nào?",
+        "Điều gì trong quan hệ với cha mẹ bạn muốn hóa giải?"
       ],
-      "microPractice": "Tối nay trước khi ngủ, hãy đặt tay lên vùng cơ thể hay mỏi nhất, thở chậm 5 nhịp và thầm cảm ơn cơ thể đã đồng hành cùng bạn suốt những năm qua.",
+      "microPractice": "Chọn một thói quen chăm sóc cơ thể làm đều trong 21 ngày, và viết một lá thư (không cần gửi) cho cha hoặc mẹ.",
       "recommendedCourse": {
         "title": "Khóa học Tử Vi Bí Kíp Ứng Dụng Chữa Lành (CBT · ACT · IFS)",
         "desc": "Dùng lá số như bản đồ tâm thức để nhận diện niềm tin cốt lõi và thực hành chuyển hóa sâu qua CBT, ACT, IFS và Đạo học."
@@ -5957,7 +6085,7 @@
       "lifeDomain": "noi-tam",
       "personaId": "quan-trung",
       "authorName": "Tộc trưởng Quán Trung",
-      "readTime": "7 phút",
+      "readTime": "10 phút",
       "featured": true,
       "tags": [
         "3P4C",
@@ -6029,12 +6157,24 @@
       ],
       "sections": [
         {
-          "heading": "1. Vì sao Sao không đi thẳng đến Quả?",
-          "bodyMarkdown": "Nếu Sao đi thẳng đến Quả thì Tử Vi chỉ là một cuốn sổ phán xét lạnh lùng. Nhưng sự thật của đời sống không vận hành như vậy: một ngôi sao (như [Kình Dương](wiki:KinhDa) hay [Hóa Kỵ](wiki:HoaKy)) chỉ là hạt giống nằm trong đất. Nó cần gặp Duyên (một biến cố hay một mối quan hệ) để thức dậy, rồi đi qua lăng kính của TÂM (cách bạn suy nghĩ và cảm nhận) mới biến thành HÀNH (cách bạn cư xử). Khi Hành lặp lại nhiều lần mới thành NGHIỆP (thói quen/mô thức), và đợi đến VẬN mới trổ ra QUẢ."
+          "heading": "1. Sao không trực tiếp tạo ra sự kiện",
+          "bodyMarkdown": "Tử Vi Chữa Lành dùng một bản đồ nhân quả gồm 8 tầng:\n\n**SAO → DUYÊN → TÂM → HÀNH → NGHIỆP → VẬN → QUẢ → CHUYỂN HÓA**\n\nBộ tri thức TVCL nhấn mạnh: bản đồ này là **liên hệ biểu tượng**, không xác nhận sao là nguyên nhân hay bằng chứng của nghiệp. Sao là hạt giống; điều trổ thành sự kiện còn tùy duyên, tâm, hành và thời."
         },
         {
-          "heading": "2. Điểm xoay chuyển vận mệnh nằm ở chữ TÂM và chữ HÀNH",
-          "bodyMarkdown": "Bạn không đổi được giờ sinh (Sao), nhiều khi cũng không chọn được hết hoàn cảnh bất ngờ (Duyên, Vận). Nhưng mắt xích TÂM và HÀNH nằm 100% trong tay bạn ngay giây phút hiện tại. Dừng một phản ứng quen thuộc từ vết thương cũ, gieo một cách đáp lại từ bi và sáng suốt hơn — đó chính là khoảnh khắc Cải Mệnh bắt đầu."
+          "heading": "2. Tám tầng và câu hỏi cốt lõi",
+          "bodyMarkdown": "- **Sao:** hạt giống nào đang có? (năng lượng, mặt sáng – mặt tối)\n- **Duyên ban đầu:** hạt giống được nuôi bởi điều kiện nào? (gia đình, tuổi thơ, giáo dục, môi trường)\n- **Tâm:** người này nhìn đời qua lăng kính nào? (niềm tin cốt lõi, cảm xúc lặp lại, cơ chế phòng vệ). Tâm còn diễn giải, phóng chiếu, chiêu cảm.\n- **Hành:** tôi đang làm gì bằng thân – khẩu – ý?\n- **Nghiệp:** điều gì đang lặp lại thành lực? (tập khí, kịch bản quan hệ, kịch bản tiền bạc)\n- **Vận + duyên ngoài:** khi nào và trong hoàn cảnh nào mô thức trổ?\n- **Quả:** sự kiện biểu hiện là gì?\n- **Chuyển hóa:** ta có thể gieo nhân mới ở đâu?"
+        },
+        {
+          "heading": "3. Công thức nền",
+          "bodyMarkdown": "- *Sự kiện = Hạt giống Sao + Duyên ban đầu + Tâm hiện tại + Hành vi lặp lại + Nghiệp tích lũy + Vận đúng thời + Duyên ngoài phù hợp.*\n- *Quả = Nghiệp bên trong + Vận kích hoạt + Duyên ngoài cụ thể + Hành vi hiện tại.*\n\nMuốn đổi Quả, đừng chỉ hỏi \"hạn gì?\". Hãy hỏi: **Tâm nào? Hành nào? Duyên nào? Nghiệp nào? Có thể chuyển hóa ở đâu?**"
+        },
+        {
+          "heading": "4. Quy trình luận nhân quả 10 bước",
+          "bodyMarkdown": "1. Xác định vùng đời sống đang luận.\n2. Xác định hạt giống sao (Chính tinh, cát – hung, Tứ Hóa).\n3. Xét duyên ban đầu nuôi hạt giống.\n4. Dịch sang Tâm: niềm tin, cảm xúc, mô thức gắn bó.\n5. Nhận diện diễn giải, phóng chiếu, chiêu cảm.\n6. Quan sát Hành đang lặp lại.\n7. Gọi tên Nghiệp: kịch bản đang chạy.\n8. Xem Vận và duyên ngoài.\n9. Đọc Quả có thể trổ, cả kịch bản vô thức lẫn tỉnh thức.\n10. Thiết kế chuyển hóa: dừng gì, tạo gì, học gì, nhờ ai; kế hoạch **21–90 ngày**."
+        },
+        {
+          "heading": "5. Mẫu câu luận chữa lành",
+          "bodyMarkdown": "Bộ tri thức TVCL gợi ý cách nói với người được luận: *\"Trong lá số này, nhóm sao không nói rằng bạn chắc chắn sẽ khổ vì tình, tiền hay nghề. Nó cho thấy một hạt giống và một mô thức dễ kích hoạt.\"*\n\nỞ mỗi tầng của bản đồ, bạn đều có chỗ để chọn lại và gieo nhân mới."
         }
       ],
       "faq": [
@@ -6043,15 +6183,23 @@
           "answer": "Nhiều người lầm tưởng: \"Sao trên lá số trực tiếp đẻ ra Quả (Sự kiện tốt/xấu), con người hoàn toàn bất lực ở giữa.\". Sự thật dưới góc nhìn Tử Vi Chữa Lành: Sao chỉ là Hạt giống (mắt xích số 1). Từ Sao đến Quả phải đi qua Duyên, Tâm, Hành và Nghiệp. Chỉ cần bạn đặt sự tỉnh thức vào mắt xích TÂM và HÀNH, toàn bộ Quả phía sau sẽ dịch chuyển."
         },
         {
+          "question": "Sao có phải là nguyên nhân của sự kiện?",
+          "answer": "Không. Bộ tri thức TVCL ghi rõ: sao là hạt giống, bản đồ nhân quả là liên hệ biểu tượng; sự kiện còn phụ thuộc duyên, tâm, hành, nghiệp, vận và duyên ngoài."
+        },
+        {
+          "question": "Chuyển hóa bắt đầu ở tầng nào?",
+          "answer": "Ở tầng nào cũng có thể, nhưng tầng Hành – Nghiệp là nơi cải mệnh bắt đầu rõ nhất: dừng hành cũ, chọn hành mới và lặp lại 21–90 ngày."
+        },
+        {
           "question": "Làm sao để ứng dụng bài học này vào cải mệnh thực tế ngay hôm nay?",
-          "answer": "Vẽ sơ đồ 7 chữ SAO → DUYÊN → TÂM → HÀNH → NGHIỆP → VẬN → QUẢ vào sổ tay và khoanh tròn thật đậm hai chữ TÂM – HÀNH."
+          "answer": "Chọn một chuyện đang lặp lại trong đời bạn, viết nó qua 8 tầng Sao – Duyên – Tâm – Hành – Nghiệp – Vận – Quả – Chuyển hóa."
         }
       ],
       "reflectionPrompts": [
-        "Trong một tình huống lặp đi lặp lại gần đây của bạn, mắt xích TÂM (suy nghĩ tự động) nào đã dẫn bạn đến cách phản ứng quen thuộc?",
-        "Nếu đổi mắt xích HÀNH một chút, kết quả sẽ khác đi thế nào?"
+        "Kịch bản nào trong đời bạn đang lặp lại thành Nghiệp?",
+        "Ở tầng nào bạn có thể gieo nhân mới ngay tuần này?"
       ],
-      "microPractice": "Vẽ sơ đồ 7 chữ SAO → DUYÊN → TÂM → HÀNH → NGHIỆP → VẬN → QUẢ vào sổ tay và khoanh tròn thật đậm hai chữ TÂM – HÀNH.",
+      "microPractice": "Chọn một chuyện đang lặp lại trong đời bạn, viết nó qua 8 tầng Sao – Duyên – Tâm – Hành – Nghiệp – Vận – Quả – Chuyển hóa.",
       "recommendedCourse": {
         "title": "Khóa học Tử Vi Bí Kíp Ứng Dụng Chữa Lành (CBT · ACT · IFS)",
         "desc": "Dùng lá số như bản đồ tâm thức để nhận diện niềm tin cốt lõi và thực hành chuyển hóa sâu qua CBT, ACT, IFS và Đạo học."
@@ -6113,7 +6261,7 @@
       "lifeDomain": "su-nghiep",
       "personaId": "anh-gia-su",
       "authorName": "Anh Gia Sư TVCL",
-      "readTime": "7 phút",
+      "readTime": "9 phút",
       "featured": false,
       "tags": [
         "3P4C",
@@ -6184,33 +6332,41 @@
       "causalFlow5Steps": [
         {
           "step": "SAO / GỐC",
-          "description": "Xác định tinh hệ chủ đạo tại tam hợp Mệnh – Tài – Quan ([3P4C](wiki:3P4C))"
+          "description": "Bước 1 (Mệnh): Chính tinh tại Mệnh cho biết khí chất và năng lực cốt lõi."
         },
         {
           "step": "DUYÊN / BỐI CẢNH",
-          "description": "Nhóm Tử Phủ Vũ Tướng: mạnh về quản trị, tài chính, tổ chức hệ thống"
+          "description": "Bước 2 (Quan Lộc): Bạn tạo giá trị cho đời bằng cách nào, nên phát triển theo hướng nào?"
         },
         {
           "step": "TÂM / NHẬN THỨC",
-          "description": "Nhóm Sát Phá Tham: mạnh về đột phá, kinh doanh, khai phá thị trường mới"
+          "description": "Bước 3 (Tài Bạch): Cách kiếm tiền thuận với sao tại cung Tài."
         },
         {
           "step": "HÀNH / PHƯƠNG PHÁP",
-          "description": "Nhóm Cơ Nguyệt Đồng Lương & Cự Nhật: mạnh về hoạch định, giáo dục, tâm lý, truyền thông"
+          "description": "Bước 4 (Thiên Di): Môi trường nào giúp bạn mở vận?"
         },
         {
           "step": "QUẢ / CHUYỂN HÓA",
-          "description": "Chọn môi trường nghề nghiệp khớp với khí chất tự nhiên thay vì chạy theo trào lưu"
+          "description": "Bước 5 (Kiểm tra thực tế): Công việc hiện tại có đang đi ngược khí chất Chính tinh không?"
         }
       ],
       "sections": [
         {
-          "heading": "1. Bốn nhóm năng lực sự nghiệp cốt lõi trong Tử Vi Đẩu Số",
-          "bodyMarkdown": "• Tử Phủ Vũ Tướng Liêm: Mẫu người quản lý, điều hành, giữ kho và thực thi có kỷ luật chuẩn mực.\n• Sát Phá Tham: Mẫu người hành động, chịu được áp lực biến động cao, hợp khởi nghiệp, bán hàng hoặc cải tổ.\n• Cơ Nguyệt Đồng Lương: Mẫu người tham mưu, nghiên cứu, giảng dạy, y dược, tâm lý chữa lành hoặc làm việc trong tổ chức ổn định.\n• Cự Nhật (Cự Môn – Thái Dương): Mẫu người dùng ngôn từ, trí tuệ phân tích, luật pháp, ngoại giao và truyền bá tri thức."
+          "heading": "1. Tam giác vàng Mệnh – Tài – Quan",
+          "bodyMarkdown": "Với cung Mệnh, **Tam Phương** gồm Mệnh + Tài Bạch + Quan Lộc, được gọi là **tam giác vàng**; Tứ Chính thêm Thiên Di ở vị trí xung chiếu.\n\n- **Mệnh:** tôi là ai, khí chất gì?\n- **[Quan Lộc](wiki:CungQuanLoc):** không chỉ \"làm nghề gì\" mà sâu hơn: *tôi sinh ra để đóng góp điều gì?*\n- **[Tài Bạch](wiki:CungTaiBach):** khả năng kiếm, giữ, dùng tiền và quan hệ tâm lý với tiền.\n- **[Thiên Di](wiki:CungThienDi):** thế giới bên ngoài, môi trường làm việc."
         },
         {
-          "heading": "2. Ba bước chuyển hóa khi đang cảm thấy bế tắc trong công việc",
-          "bodyMarkdown": "Nếu bạn đang mệt mỏi với công việc hiện tại, hãy kiểm tra xem: (1) Công việc đó có đang bắt bạn làm ngược lại hoàn toàn khí chất Chính tinh của mình không? (2) Bạn có đang dùng Hung tinh ở Quan Lộc sai cách (ví dụ để [Hỏa Tinh](wiki:HoaTinh) thành nóng vội thay vì nhiệt huyết)? (3) Mối quan hệ với đồng sự (Nô Bộc) và bạn đời ([Phu Thê](wiki:PhuThe) xung chiếu Quan Lộc) có đang được cân bằng không?"
+          "heading": "2. Những tổ hợp sao thường gặp trên trục Mệnh – Tài – Quan",
+          "bodyMarkdown": "Bộ tri thức TVCL ghi nhận một số cách cục kinh điển:\n\n- **Cơ Nguyệt Đồng Lương:** Thiên Cơ, Thái Âm, Thiên Đồng, Thiên Lương tập hợp ở Mệnh – Tài – Quan; có lợi trong văn hóa, giáo dục, tôn giáo, công việc tham mưu, chăm sóc. Thiên Lương trong cách này ở vị trí \"giám sát ngự sử\", trưởng lão cộng đồng.\n- **Sát Phá Tham:** Thất Sát, Phá Quân, Tham Lang; năng lượng hành động, khai phá, chịu biến động. Vũ Khúc ưa gặp một trong ba sao này.\n- **Cự Nhật:** Cự Môn và Thái Dương đồng cung ở Dần hoặc Thân, có tài ăn nói hùng biện, vất vả trước thành công sau.\n\nĐây là gợi ý về khuynh hướng, cần đọc cùng Miếu Hãm và trung tinh."
+        },
+        {
+          "heading": "3. Chọn nghề theo Chính tinh",
+          "bodyMarkdown": "Nguyên lý cải Quan Lộc của TVCL:\n\n- **Chọn nghề hợp Chính tinh.**\n- **Phát triển chuyên môn sâu.**\n- **Xây uy tín.**\n- **Giữ đạo đức nghề nghiệp.**\n\nVí dụ gợi ý từ bộ tri thức: Thất Sát hợp quản trị khủng hoảng, dự án khó; Phá Quân hợp startup, cải tổ; Tham Lang hợp bán hàng, truyền thông; Cự Môn hợp luật, giảng dạy; Thiên Phủ hợp quản lý tài chính, tài sản; Thái Dương hợp giáo dục, truyền thông, cộng đồng."
+        },
+        {
+          "heading": "4. Khi đang bế tắc trong công việc",
+          "bodyMarkdown": "- Kiểm tra: công việc có đang bắt bạn sống ngược khí chất Chính tinh không?\n- Kiểm tra: Hung tinh ở Quan Lộc đang được dùng đúng chỗ hay đang thành mặt tối?\n- Dụng cung đối Phu Thê: khi Quan Lộc bế tắc, tạm dừng bươn chải, chăm lo người bạn đời, lắng nghe lời khuyên của họ.\n- Dụng vận: muốn đổi việc, chọn vận Quan Lộc hoặc Phụ Mẫu tốt; vận Quan khó thì không đổi việc nếu không bắt buộc, củng cố kỹ năng."
         }
       ],
       "faq": [
@@ -6219,15 +6375,23 @@
           "answer": "Nhiều người lầm tưởng: \"Ai cũng phải ra làm chủ, khởi nghiệp kinh doanh riêng mới gọi là thành đạt.\". Sự thật dưới góc nhìn Tử Vi Chữa Lành: Mỗi tinh hệ trên lá số có một 'vùng thiên tài' (Zone of Genius) khác nhau: có người sinh ra để tiên phong mở cõi (Sát Phá Tham), có người tỏa sáng nhất khi làm chuyên gia cố vấn, giáo dục, chăm sóc (Cơ Nguyệt Đồng Lương)."
         },
         {
+          "question": "Mệnh – Tài – Quan có phải là quan trọng nhất?",
+          "answer": "Đây là tam giác vàng của cung Mệnh, phản ánh con người, cách tạo giá trị và cách kiếm tiền; nhưng luận đầy đủ vẫn cần xét Thiên Di và các cung khác."
+        },
+        {
+          "question": "Cơ Nguyệt Đồng Lương hợp nghề gì?",
+          "answer": "Bộ tri thức TVCL ghi nhận cách này có lợi trong văn hóa, giáo dục, tôn giáo, tham mưu, chăm sóc; đây là gợi ý khuynh hướng, không phải chỉ định."
+        },
+        {
           "question": "Làm sao để ứng dụng bài học này vào cải mệnh thực tế ngay hôm nay?",
-          "answer": "Viết ra 3 thế mạnh tự nhiên nhất của Chính tinh cung Quan Lộc của bạn và tìm cách ứng dụng chúng nhiều hơn 20% trong tuần làm việc tới."
+          "answer": "Viết Chính tinh ở Mệnh, Tài, Quan của bạn, rồi đối chiếu với công việc hiện tại: điểm nào thuận, điểm nào đang ngược."
         }
       ],
       "reflectionPrompts": [
-        "Tinh hệ tại tam hợp Mệnh – Tài – Quan của bạn thuộc nhóm nào trong 4 nhóm trên?",
-        "Công việc hiện tại đang giúp bạn phát huy điểm mạnh nào của nhóm sao đó?"
+        "Công việc hiện tại có cho bạn sống đúng khí chất Chính tinh không?",
+        "Bạn sinh ra để đóng góp điều gì?"
       ],
-      "microPractice": "Viết ra 3 thế mạnh tự nhiên nhất của Chính tinh cung Quan Lộc của bạn và tìm cách ứng dụng chúng nhiều hơn 20% trong tuần làm việc tới.",
+      "microPractice": "Viết Chính tinh ở Mệnh, Tài, Quan của bạn, rồi đối chiếu với công việc hiện tại: điểm nào thuận, điểm nào đang ngược.",
       "recommendedCourse": {
         "title": "Khóa học Luận Nhanh Lá Số Tử Vi (S37)",
         "desc": "Lộ trình từng bước dành cho người mới: nắm vững 32 sao cốt lõi, công thức 3P4C và 5 bước tự đọc lá số của chính mình."
@@ -8431,7 +8595,7 @@
       "lifeDomain": "noi-tam",
       "personaId": "anh-gia-su",
       "authorName": "Anh Gia Sư TVCL",
-      "readTime": "6 phút",
+      "readTime": "8 phút",
       "featured": false,
       "tags": [
         "CBT",
@@ -8503,12 +8667,20 @@
       ],
       "sections": [
         {
-          "heading": "1. Mặt sáng và vòng lặp lo âu của sao Thiên Cơ",
-          "bodyMarkdown": "Trong 14 Chính tinh, Thiên Cơ là bộ óc chiến lược nhạy bén, nhân hậu và luôn nghĩ cho đại cục. Nhưng khi năng lượng Thiên Cơ bị kích hoạt quá mức (nhất là khi đi cùng [Hóa Kỵ](wiki:HoaKy), Đà La hoặc Linh Tinh), tâm trí bạn giống như một chiếc máy tính mở 50 cửa sổ cùng lúc: chuyện đã qua cũng tính lại, chuyện chưa tới cũng lo trước."
+          "heading": "1. Thiên Cơ: tâm trí phân tích",
+          "bodyMarkdown": "[Thiên Cơ](wiki:ThienCo) là quân sư, nhà cố vấn, hóa \"Thiện\" (khéo). Đây là tâm trí phân tích, linh hoạt, giỏi tìm giải pháp.\n\n- **Mặt sáng:** thông minh, ham học, tư duy nhanh, tìm giải pháp.\n- **Mặt lệch:** nghĩ quá nhiều (overthinking), lo âu, bất định.\n\nKhi năng lượng lệch, cái đầu không ngừng chạy kịch bản và người Thiên Cơ khó ra quyết định."
         },
         {
-          "heading": "2. Công thức CBT 3 bước giúp Thiên Cơ 'tắt bớt cửa sổ' trong đầu",
-          "bodyMarkdown": "Khi thấy mình bắt đầu nghĩ quẩn quanh, hãy lấy bút viết ra: (1) Điều tệ nhất mình đang sợ thực sự có xác suất xảy ra là bao nhiêu phần trăm? (2) Nếu điều đó xảy ra thật, mình có phương án B nào để xử lý không? (3) Ngay trong 1 giờ tới, việc cụ thể duy nhất mình có thể làm bằng tay chân là gì? Đưa năng lượng từ 'đầu óc' xuống 'đôi tay và hơi thở' là liều thuốc an định cho Thiên Cơ."
+          "heading": "2. Niềm tin lõi và suy nghĩ tự động",
+          "bodyMarkdown": "Theo bộ tri thức CBT của TVCL, Thiên Cơ lệch thường mang các **niềm tin lõi**:\n\n- *\"Tôi phải nghĩ hết mọi khả năng mới an toàn.\"*\n- *\"Nếu tôi không chuẩn bị, chuyện xấu sẽ xảy ra.\"*\n- *\"Sai là nguy hiểm.\"*\n\nVà các **suy nghĩ tự động** quen thuộc: *\"Lỡ như…\"*, *\"Chưa đủ thông tin\"*, *\"Tôi phải tính thêm.\"*"
+        },
+        {
+          "heading": "3. Bốn câu hỏi CBT cho Thiên Cơ",
+          "bodyMarkdown": "[CBT](wiki:CBT) không bảo bạn ngừng suy nghĩ, mà giúp bạn nhìn lại suy nghĩ:\n\n- Tôi đang giải quyết vấn đề hay đang nhai lại lo âu?\n- Quyết định nào là \"đủ tốt\"?\n- Xác suất thật sự của điều tôi sợ là bao nhiêu?\n- Nếu sai, tôi có thể sửa không?"
+        },
+        {
+          "heading": "4. Thực hành",
+          "bodyMarkdown": "- **Giới hạn thời gian suy nghĩ:** 20 phút cho một vấn đề.\n- **Viết ra 3 phương án, chọn 1.**\n- **Tập quyết định nhỏ mỗi ngày.**\n- Dùng câu neo: *\"Đủ rõ để bước tiếp.\"*\n\nBộ tri thức TVCL còn gợi ý Thiên Cơ kết hợp viết nhật ký, thiền hoặc yoga, và [ACT](wiki:ACT) để chấp nhận sự bất định. Câu khóa của Thiên Cơ Hóa Lộc cũng nhắc: *trí tuệ chỉ sinh Lộc khi được chuyển thành quyết định và giải pháp có ích.*"
         }
       ],
       "faq": [
@@ -8517,15 +8689,23 @@
           "answer": "Nhiều người lầm tưởng: \"Người mệnh Thiên Cơ hay nghĩ nhiều là bản tính trời sinh, đành chấp nhận mất ngủ và lo âu suốt đời.\". Sự thật dưới góc nhìn Tử Vi Chữa Lành: Thiên Cơ là ngôi sao của trí tuệ linh hoạt và khả năng lập kế hoạch. Vòng lặp lo âu chỉ xảy ra khi Thiên Cơ rơi vào bẫy tư duy 'Thảm họa hóa' (Catastrophizing) của CBT — nhầm lẫn giữa việc chuẩn bị thực tế với việc tự dọa mình."
         },
         {
+          "question": "Người có Thiên Cơ có phải lúc nào cũng lo âu?",
+          "answer": "Không. Lo âu là mặt lệch; mặt sáng là thông minh, linh hoạt, giỏi tìm giải pháp. CBT giúp đưa năng lượng về mặt sáng."
+        },
+        {
+          "question": "Nếu lo âu kéo dài thì sao?",
+          "answer": "Hãy tìm đến chuyên gia tâm lý. Tử Vi Chữa Lành không thay thế trị liệu."
+        },
+        {
           "question": "Làm sao để ứng dụng bài học này vào cải mệnh thực tế ngay hôm nay?",
-          "answer": "Đặt một 'Khung giờ lo lắng' cố định 15 phút vào lúc 5 giờ chiều để viết hết mọi việc cần tính ra sổ; ngoài khung giờ đó, hãy nhắc mình quay về hơi thở."
+          "answer": "Chọn một việc bạn đang đắn đo, đặt hẹn giờ 20 phút, viết 3 phương án, chọn 1 và làm bước đầu tiên ngay."
         }
       ],
       "reflectionPrompts": [
-        "Trong 10 điều bạn từng lo lắng mất ăn mất ngủ năm ngoái, có mấy điều thực sự xảy ra đúng như kịch bản tệ nhất bạn tưởng tượng?",
-        "Khi nào trong ngày tâm trí bạn thường hay chạy vòng lặp nhất?"
+        "Câu \"Lỡ như…\" nào đang lặp lại trong đầu bạn?",
+        "Quyết định nào bạn đã có đủ thông tin để làm nhưng vẫn trì hoãn?"
       ],
-      "microPractice": "Đặt một 'Khung giờ lo lắng' cố định 15 phút vào lúc 5 giờ chiều để viết hết mọi việc cần tính ra sổ; ngoài khung giờ đó, hãy nhắc mình quay về hơi thở.",
+      "microPractice": "Chọn một việc bạn đang đắn đo, đặt hẹn giờ 20 phút, viết 3 phương án, chọn 1 và làm bước đầu tiên ngay.",
       "recommendedCourse": {
         "title": "Khóa học Tử Vi Bí Kíp Ứng Dụng Chữa Lành (CBT · ACT · IFS)",
         "desc": "Dùng lá số như bản đồ tâm thức để nhận diện niềm tin cốt lõi và thực hành chuyển hóa sâu qua CBT, ACT, IFS và Đạo học."
@@ -8587,7 +8767,7 @@
       "lifeDomain": "noi-tam",
       "personaId": "anh-gia-su",
       "authorName": "Anh Gia Sư TVCL",
-      "readTime": "6 phút",
+      "readTime": "8 phút",
       "featured": false,
       "tags": [
         "HoaKy",
@@ -8661,12 +8841,20 @@
       ],
       "sections": [
         {
-          "heading": "1. Vì sao Hóa Kỵ rất dễ rơi vào bẫy 'Đọc tâm' và 'Cá nhân hóa'?",
-          "bodyMarkdown": "Khi có [Hóa Kỵ](wiki:HoaKy) tại Mệnh, Quan Lộc, Nô Bộc hay [Cung Phu Thê](wiki:PhuThe), bạn rất nhạy cảm với thái độ của người xung quanh. Chỉ cần một tin nhắn trả lời chậm hay một câu nói thiếu chủ ngữ, tâm trí đã vội vàng kết luận 'Do mình làm gì sai' hoặc 'Họ không tôn trọng mình'. Thực chất, 90% hành xử của người khác phản ánh trạng thái của chính họ lúc đó chứ không nhằm vào bạn."
+          "heading": "1. Vì sao một lời nói có thể ám ảnh nhiều ngày?",
+          "bodyMarkdown": "[Hóa Kỵ](wiki:HoaKy) là nơi chấp trước, nghi ngờ, mặc cảm. Khi Hóa Kỵ ở Mệnh, tiếng nói phê bình bên trong rất mạnh; khi ở [Phúc Đức](wiki:PhucDuc), đời sống tinh thần dễ mang theo nỗi lo âm ỉ.\n\nBộ tri thức TVCL viết: *Hóa Kỵ là vết thương chưa được hiểu. Càng chống lại càng khổ; càng nhìn thẳng càng trưởng thành.* Một câu nói vô tình có thể chạm đúng vào vết thương ấy, và tâm trí cứ nhai lại nó."
         },
         {
-          "heading": "2. Cách tách 'Dữ kiện' khỏi 'Diễn giải' để giải phóng Hóa Kỵ",
-          "bodyMarkdown": "Dữ kiện là: 'Anh ấy nói câu X với giọng trầm'. Diễn giải là: 'Anh ấy hết thương mình rồi'. Đừng bao giờ lấy phần diễn giải của lúc tâm đang nhạy cảm để làm căn cứ tự làm khổ mình. Khi cần làm rõ, hãy hỏi trực tiếp bằng sự chân thành thay vì tự đoán trong im lặng."
+          "heading": "2. Tách sự kiện khỏi cách diễn dịch",
+          "bodyMarkdown": "[CBT](wiki:CBT) giúp tách **chuyện đã xảy ra** khỏi **câu chuyện ta kể về nó**. Bộ tri thức TVCL dùng mẫu **nhật ký suy nghĩ** khi bị kích hoạt bởi một sao, một cung hay một giai đoạn vận:\n\n- **Tình huống:** chuyện gì đã xảy ra?\n- **Sao/cung liên quan:** năng lượng nào đang bị kích hoạt?\n- **Suy nghĩ tự động:** câu gì bật lên trong đầu?\n- **Cảm xúc:** tôi cảm thấy gì, mức độ 0–100?\n- **Cơ thể:** thân thể phản ứng thế nào?\n- **Hành vi cũ:** tôi thường làm gì?\n- **Bằng chứng ủng hộ và phản biện.**\n- **Suy nghĩ cân bằng:** cách hiểu lành hơn là gì?\n- **Hành vi mới:** tôi sẽ làm gì khác trong 24 giờ tới?"
+        },
+        {
+          "heading": "3. Tái cấu trúc nhận thức",
+          "bodyMarkdown": "Không tin tuyệt đối vào suy nghĩ tự động. Hãy hỏi:\n\n- Suy nghĩ này là sự thật hay chỉ là diễn dịch?\n- Có bằng chứng nào? Có bằng chứng ngược lại không?\n- Có cách nghĩ nào **vừa thật vừa từ bi hơn**?\n\nVới Hóa Kỵ, bài học chữa lành là: *đừng cố loại bỏ nỗi đau; hãy học cách lắng nghe điều nỗi đau đang muốn dạy mình.*"
+        },
+        {
+          "heading": "4. Thực hành",
+          "bodyMarkdown": "- Khi một lời nói cứ quay lại, viết nó vào nhật ký suy nghĩ theo mẫu trên.\n- Gọi tên cảm xúc và chấm mức độ trước, sau khi viết.\n- Thực hành thiền định ngắn để quan sát vòng lặp mà không chạy theo nó.\n- Nếu cần, nói chuyện trực tiếp với người kia bằng câu \"Mình đã hiểu câu đó là…, có đúng ý bạn không?\".\n\nNếu nỗi ám ảnh kéo dài và ảnh hưởng nhiều đến đời sống, hãy tìm đến chuyên gia tâm lý."
         }
       ],
       "faq": [
@@ -8675,15 +8863,23 @@
           "answer": "Nhiều người lầm tưởng: \"Người khác nói câu đó hay nhìn mình như vậy chắc chắn là họ đang coi thường, ghét bỏ mình.\". Sự thật dưới góc nhìn Tử Vi Chữa Lành: Trong CBT, đó là bẫy tư duy 'Đọc tâm' (Mind Reading) và 'Cá nhân hóa' (Personalization). Hóa Kỵ làm tâm trí phóng đại một tín hiệu nhỏ thành sự từ chối lớn vì vết thương sợ không được chấp nhận."
         },
         {
+          "question": "Hóa Kỵ ở Mệnh có phải là người hay để bụng?",
+          "answer": "Hóa Kỵ có xu hướng chấp trước và tự phê bình mạnh; nhưng mặt sáng là sâu sắc, quan sát tốt, hiểu nỗi đau con người. Chuyển hóa bắt đầu từ nhìn thẳng thay vì chống lại."
+        },
+        {
+          "question": "Nhật ký suy nghĩ khác viết nhật ký thường thế nào?",
+          "answer": "Nhật ký suy nghĩ có cấu trúc: tách tình huống, suy nghĩ tự động, cảm xúc, bằng chứng, rồi tìm suy nghĩ cân bằng và hành vi mới trong 24 giờ."
+        },
+        {
           "question": "Làm sao để ứng dụng bài học này vào cải mệnh thực tế ngay hôm nay?",
-          "answer": "Khi thấy mình bắt đầu đoán ý người khác, hãy tự nhủ: 'Cảm xúc của mình là thật, nhưng suy đoán của mình về ý nghĩ của họ chưa chắc đã đúng'."
+          "answer": "Chọn một câu nói vẫn còn làm bạn khó chịu và điền đủ 10 mục của nhật ký suy nghĩ cho nó."
         }
       ],
       "reflectionPrompts": [
-        "Gần đây có câu nói hay thái độ nào của ai đó khiến bạn suy nghĩ mãi trong lòng mà chưa hỏi thẳng họ không?",
-        "Có lời giải thích nào khác nhẹ nhàng hơn cho hành vi đó của họ không?"
+        "Câu nói nào gần đây vẫn quay lại trong đầu bạn?",
+        "Câu đó chạm vào vết thương cũ nào?"
       ],
-      "microPractice": "Khi thấy mình bắt đầu đoán ý người khác, hãy tự nhủ: 'Cảm xúc của mình là thật, nhưng suy đoán của mình về ý nghĩ của họ chưa chắc đã đúng'.",
+      "microPractice": "Chọn một câu nói vẫn còn làm bạn khó chịu và điền đủ 10 mục của nhật ký suy nghĩ cho nó.",
       "recommendedCourse": {
         "title": "Khóa học Tử Vi Bí Kíp Ứng Dụng Chữa Lành (CBT · ACT · IFS)",
         "desc": "Dùng lá số như bản đồ tâm thức để nhận diện niềm tin cốt lõi và thực hành chuyển hóa sâu qua CBT, ACT, IFS và Đạo học."
@@ -8745,7 +8941,7 @@
       "lifeDomain": "noi-tam",
       "personaId": "anh-gia-su",
       "authorName": "Anh Gia Sư TVCL",
-      "readTime": "6 phút",
+      "readTime": "8 phút",
       "featured": false,
       "tags": [
         "CBT",
@@ -8815,12 +9011,20 @@
       ],
       "sections": [
         {
-          "heading": "1. Vết thương thể diện và gánh nặng trách nhiệm của Thiên Tướng, Tả Phù",
-          "bodyMarkdown": "Những người có sao Thiên Tướng, Thiên Lương hoặc Tả Phù – Hữu Bật rất trọng chữ tín, thích nâng đỡ người khác và sợ làm mất hòa khí. Nhưng mặt lệch của năng lượng này là hội chứng 'Làm hài lòng tất cả mọi người' (People Pleasing): bạn ưu tiên nhu cầu của cả thế giới lên trước sức khỏe và gia đình nhỏ của chính mình."
+          "heading": "1. Thiên Tướng và Tả Phù: người giữ vai và người giúp đỡ",
+          "bodyMarkdown": "- [Thiên Tướng](wiki:ThienTuong) là **người bảo vệ trật tự**, tể tướng giữ ấn. Mặt sáng: công bằng, phụng sự, giữ phẩm cách. Mặt lệch: sống vì vai trò, sợ sai hình ảnh, cứng nhắc.\n- **Tả Phù** là cánh tay trái trung nghĩa. Góc nhìn tâm lý: phần bên trong muốn được thuộc về một nhóm, sống có tình nghĩa, không bỏ rơi người khác. Mặt tối: bao đồng, gánh việc thay người khác.\n\nKhi hai năng lượng này cùng lệch, nói \"không\" trở thành điều rất khó."
         },
         {
-          "heading": "2. Thiết lập ranh giới không làm bạn bớt tử tế đi",
-          "bodyMarkdown": "Trong tâm lý học, ranh giới lành mạnh chính là chiếc hàng rào giúp khu vườn tình thương của bạn không bị giẫm nát. Một câu nói nhẹ nhàng như: 'Em rất trân trọng lời nhờ của anh/chị, nhưng tuần này lịch của em đã kín để đảm bảo chất lượng công việc hiện tại, hẹn anh/chị dịp sau nhé' vừa giữ được sự lịch thiệp của Thiên Tướng, vừa bảo vệ được sự bình an của bạn."
+          "heading": "2. Niềm tin lõi của người khó từ chối",
+          "bodyMarkdown": "Theo bộ tri thức CBT của TVCL, Thiên Tướng lệch thường mang:\n\n- *\"Tôi phải đúng vai mới được chấp nhận.\"*\n- *\"Tôi không được làm ai thất vọng.\"*\n- *\"Hình ảnh của tôi là giá trị của tôi.\"*\n\nSuy nghĩ tự động: *\"Người ta sẽ đánh giá tôi\"*, *\"Tôi phải giữ thể diện\"*, *\"Tôi không được sống thật.\"*"
+        },
+        {
+          "heading": "3. Câu hỏi CBT",
+          "bodyMarkdown": "- Tôi đang sống theo giá trị hay theo vai diễn?\n- Ai đang là người phán xét trong đầu tôi?\n- Nếu tôi thật hơn một chút, điều gì sẽ xảy ra?\n- Phẩm cách khác gì với hình ảnh?\n\nVà với Tả Phù, bài học chữa lành: *giúp người nhưng không cứu hộ; trọng tình nhưng không đánh mất ranh giới.*"
+        },
+        {
+          "heading": "4. Thực hành",
+          "bodyMarkdown": "- **Nói thật một nhu cầu nhỏ** mỗi ngày.\n- **Làm một việc đúng giá trị dù không ai khen.**\n- **Ghi ra 3 vai trò mình đang gồng.**\n- Tập câu từ chối mềm: *\"Mình rất muốn giúp, nhưng tuần này mình không đủ sức. Mình có thể hỗ trợ phần nhỏ này.\"*\n\nTừ chối đúng lúc không làm bạn kém tình nghĩa; nó giữ cho sự giúp đỡ của bạn bền lâu."
         }
       ],
       "faq": [
@@ -8829,15 +9033,23 @@
           "answer": "Nhiều người lầm tưởng: \"Đã là người tốt (Thiên Tướng, Thiên Lương, Tả Phù) thì ai nhờ gì cũng phải nhận lời, từ chối là ích kỷ.\". Sự thật dưới góc nhìn Tử Vi Chữa Lành: Giúp người từ sự tự nguyện và đủ đầy nội lực là từ bi; còn không dám từ chối vì sợ mất lòng hoặc sợ bị đánh giá là đánh mất ranh giới bản thân, lâu ngày sinh ra kiệt sức và tủi thân ngầm."
         },
         {
+          "question": "Có Thiên Tướng, Tả Phù có phải là người tốt bụng?",
+          "answer": "Đây là năng lượng phụng sự, tình nghĩa. Nhưng khi lệch thành sống vì vai trò và bao đồng, người đó dễ kiệt sức vì không dám từ chối."
+        },
+        {
+          "question": "Từ chối có làm mất lòng người khác?",
+          "answer": "Có thể có lúc; nhưng ranh giới lành mạnh giúp quan hệ bền hơn. Bài học của Tả Phù là giúp người mà không cứu hộ."
+        },
+        {
           "question": "Làm sao để ứng dụng bài học này vào cải mệnh thực tế ngay hôm nay?",
-          "answer": "Tập nói 'Để mình xem lại lịch rồi báo bạn sau nhé' thay vì gật đầu đồng ý ngay lập tức khi có người nhờ việc."
+          "answer": "Ghi ra 3 vai trò bạn đang gồng, chọn một vai và nói thật một nhu cầu nhỏ của mình trong vai đó."
         }
       ],
       "reflectionPrompts": [
-        "Có việc nào bạn đang nhận làm giúp người khác nhưng trong lòng lại thấy nặng nề, quá tải không?",
-        "Điều gì bạn sợ nhất sẽ xảy ra nếu bạn nói lời từ chối lịch sự?"
+        "Vai trò nào bạn đang gồng vì sợ người khác thất vọng?",
+        "Lần gần nhất bạn muốn nói \"không\" mà lại nói \"có\" là khi nào?"
       ],
-      "microPractice": "Tập nói 'Để mình xem lại lịch rồi báo bạn sau nhé' thay vì gật đầu đồng ý ngay lập tức khi có người nhờ việc.",
+      "microPractice": "Ghi ra 3 vai trò bạn đang gồng, chọn một vai và nói thật một nhu cầu nhỏ của mình trong vai đó.",
       "recommendedCourse": {
         "title": "Khóa học Tử Vi Bí Kíp Ứng Dụng Chữa Lành (CBT · ACT · IFS)",
         "desc": "Dùng lá số như bản đồ tâm thức để nhận diện niềm tin cốt lõi và thực hành chuyển hóa sâu qua CBT, ACT, IFS và Đạo học."
@@ -8899,7 +9111,7 @@
       "lifeDomain": "su-nghiep",
       "personaId": "anh-gia-su",
       "authorName": "Anh Gia Sư TVCL",
-      "readTime": "6 phút",
+      "readTime": "8 phút",
       "featured": false,
       "tags": [
         "KinhDa",
@@ -8963,12 +9175,20 @@
       ],
       "sections": [
         {
-          "heading": "1. Vì sao người cầu toàn (Văn Xương) và người trầm ngâm (Đà La) lại hay trì hoãn nhất?",
-          "bodyMarkdown": "Nhiều người ngạc nhiên khi biết rằng nguyên nhân số một của sự trì hoãn không phải là lười biếng, mà là nỗi sợ hãi đi kèm chủ nghĩa hoàn hảo. Khi Văn Xương vẽ ra một tiêu chuẩn quá cao trong đầu, phần vệ sĩ [Đà La](wiki:KinhDa) sẽ chọn giải pháp 'chưa làm vội' — vì chừng nào chưa làm thì chừng đó chưa phải đối mặt với sự phán xét."
+          "heading": "1. Đà La và Văn Xương: chậm và cầu toàn",
+          "bodyMarkdown": "- [Đà La](wiki:KinhDa) là năng lượng trì kéo, dây dưa, khó buông, khó dứt. Góc nhìn tâm lý: phần bên trong sợ thay đổi vì từng đau khi thay đổi.\n- [Văn Xương](wiki:XuongKhuc) là phần muốn hiểu đời bằng kiến thức, lý luận, cấu trúc. Mặt tối: cầu toàn, quá tin vào lý trí.\n\nKhi hai năng lượng này gặp nhau, điều trông như \"lười\" thường là **sợ làm chưa hoàn hảo** và **mắc kẹt trong vòng lặp suy nghĩ**."
         },
         {
-          "heading": "2. Kỹ thuật 'Chia nhỏ hành động 5 phút' để bước qua Đà La",
-          "bodyMarkdown": "Đừng bắt mình phải viết xong cả một cuốn sách hay hoàn thành cả dự án trong hôm nay. Hãy giao hẹn với phần Đà La trong bạn: 'Mình chỉ ngồi vào bàn viết đúng 5 dòng nháp dở nhất trong 5 phút thôi, xong muốn nghỉ cũng được'. Một khi đã vượt qua lực ma sát ban đầu, sự kiên trì bẩm sinh của Đà La sẽ giúp bạn đi tiếp rất sâu."
+          "heading": "2. Niềm tin lõi của vòng lặp Đà La",
+          "bodyMarkdown": "Bộ tri thức CBT của TVCL mô tả Đà La vô thức: mắc kẹt, trì hoãn, lặp lại vòng cũ, nghĩ mãi về điều đã qua.\n\n- **Niềm tin lõi:** *\"Nếu tôi buông, nghĩa là tôi thua.\"* *\"Tôi phải hiểu cho ra mới được yên.\"* *\"Tôi không thể thoát khỏi chuyện này.\"*\n- **Suy nghĩ tự động:** *\"Lẽ ra tôi phải…\"*, *\"Chuyện này sẽ không bao giờ qua.\"*\n\nVới Văn Xương, *\"phải hiểu cho ra\"* dễ biến thành *\"phải chuẩn bị đủ mới bắt đầu\"*."
+        },
+        {
+          "heading": "3. Câu hỏi CBT",
+          "bodyMarkdown": "- Tôi đang giải quyết hay đang mắc kẹt?\n- Việc nghĩ thêm có tạo ra hành động mới không?\n- Tôi đang bám vào người, chuyện hay hình ảnh nào?\n- Một bước rất nhỏ để thoát vòng lặp hôm nay là gì?\n\nBài học của Văn Xương: *tri thức cần đi cùng khiêm tốn; biết nhiều chưa đủ, cần sống đúng.*"
+        },
+        {
+          "heading": "4. Thực hành",
+          "bodyMarkdown": "- **Viết \"vòng lặp của tôi\" ra giấy.**\n- **Chọn một hành động nhỏ làm trong 10 phút.**\n- **Dọn một vật cũ** tượng trưng cho sự mắc kẹt.\n- Tập câu: *\"Buông không phải là thua.\"*\n- Với Văn Xương: đặt chuẩn \"bản nháp đủ tốt\" trước, chỉnh sửa sau.\n\nĐà La khi được chuyển hóa là **kiên trì và chiều sâu**: \"đi chậm nhưng không ngừng tiến\"."
         }
       ],
       "faq": [
@@ -8977,15 +9197,23 @@
           "answer": "Nhiều người lầm tưởng: \"Trì hoãn không chịu bắt tay vào làm là do bản tính lười biếng, vô kỷ luật, phải tự mắng mình thật nặng mới sửa được.\". Sự thật dưới góc nhìn Tử Vi Chữa Lành: Dưới góc nhìn CBT và IFS, càng tự mắng mình bạn càng tê liệt. Sự trì hoãn của Đà La và Văn Xương thường bắt nguồn từ nỗi sợ: 'Nếu bắt tay làm mà kết quả không hoàn hảo thì chứng tỏ mình kém cỏi'."
         },
         {
+          "question": "Đà La ở Mệnh có phải là người lười?",
+          "answer": "Không hẳn. Đà La là năng lượng trì kéo, thường gắn với nỗi sợ thay đổi; mặt sáng là kiên trì, bền bỉ, đào sâu."
+        },
+        {
+          "question": "Làm sao phân biệt cẩn trọng và trì hoãn?",
+          "answer": "Hỏi: việc nghĩ thêm có tạo ra hành động mới không? Nếu không, đó thường là vòng lặp, không phải cẩn trọng."
+        },
+        {
           "question": "Làm sao để ứng dụng bài học này vào cải mệnh thực tế ngay hôm nay?",
-          "answer": "Bấm đồng hồ đếm ngược đúng 5 phút ngay bây giờ và làm bước đầu tiên của việc bạn đang ngại nhất mà không được phép xóa hay sửa chữa."
+          "answer": "Chọn việc bạn trì hoãn lâu nhất và làm đúng 10 phút đầu tiên, không cần hoàn hảo."
         }
       ],
       "reflectionPrompts": [
-        "Công việc nào bạn đã trì hoãn quá 1 tuần nay? Nỗi sợ thật sự đằng sau việc chưa bắt đầu đó là gì?",
-        "Bước đầu tiên nhỏ nhất (chỉ tốn 5 phút) của việc đó là gì?"
+        "Bạn đang trì hoãn vì lười hay vì sợ làm chưa tốt?",
+        "Vòng lặp nào trong đời bạn đã lặp lại nhiều lần?"
       ],
-      "microPractice": "Bấm đồng hồ đếm ngược đúng 5 phút ngay bây giờ và làm bước đầu tiên của việc bạn đang ngại nhất mà không được phép xóa hay sửa chữa.",
+      "microPractice": "Chọn việc bạn trì hoãn lâu nhất và làm đúng 10 phút đầu tiên, không cần hoàn hảo.",
       "recommendedCourse": {
         "title": "Khóa học Tử Vi Bí Kíp Ứng Dụng Chữa Lành (CBT · ACT · IFS)",
         "desc": "Dùng lá số như bản đồ tâm thức để nhận diện niềm tin cốt lõi và thực hành chuyển hóa sâu qua CBT, ACT, IFS và Đạo học."
@@ -9047,7 +9275,7 @@
       "lifeDomain": "noi-tam",
       "personaId": "anh-gia-su",
       "authorName": "Anh Gia Sư TVCL",
-      "readTime": "6 phút",
+      "readTime": "8 phút",
       "featured": false,
       "tags": [
         "KinhDa",
@@ -9111,12 +9339,20 @@
       ],
       "sections": [
         {
-          "heading": "1. Điều gì nằm bên dưới ngọn lửa của Kình Dương và Hỏa Tinh?",
-          "bodyMarkdown": "Nhiều người có [Kình Dương](wiki:KinhDa) hoặc [Hỏa Tinh](wiki:HoaTinh) rất khổ tâm vì lúc nóng lên thì buột miệng nói lời sắc như dao, nhưng chỉ 15 phút sau nguôi giận lại thương người thân và ân hận vô cùng. Trong liệu pháp [IFS](wiki:IFS), cơn giận chỉ là người lính cứu hỏa chạy ra dập đám cháy: bên dưới cơn giận ấy thường là một nỗi buồn vì không được thấu hiểu, hoặc một cơ thể đã làm việc quá sức."
+          "heading": "1. Kình Dương và Hỏa Tinh: kiếm và lửa",
+          "bodyMarkdown": "- [Kình Dương](wiki:KinhDa): sắc bén, trực diện, chiến đấu. Mặt vô thức: nóng nảy, hiếu thắng, thích đối đầu, phản ứng kiểu \"phải thắng\".\n- [Hỏa Tinh](wiki:HoaTinh): lửa, nhanh, nóng, bộc phát. Mặt vô thức: xung động, làm trước nghĩ sau, quyết định khi đang nóng.\n\nKhi cả hai cùng kích hoạt, cơn giận đến rất nhanh và rất mạnh."
         },
         {
-          "heading": "2. Quy tắc 'Khoảng dừng 60 giây' trước khi phản ứng",
-          "bodyMarkdown": "Về mặt sinh lý thần kinh, một làn sóng Adrenaline của cơn giận chỉ đạt đỉnh trong khoảng 60 đến 90 giây. Nếu bạn không đổ thêm dầu vào lửa bằng những suy nghĩ buộc tội ([CBT](wiki:CBT)), cơn sóng đó sẽ tự lắng xuống. Khi thấy tim đập nhanh và mặt nóng lên, hãy xin phép rời khỏi cuộc đối thoại 5 phút, uống một ngụm nước mát và thở ra thật dài trước khi quay lại nói chuyện."
+          "heading": "2. Niềm tin lõi đứng sau cơn giận",
+          "bodyMarkdown": "- **Kình Dương:** *\"Nếu tôi không tấn công trước, tôi sẽ bị hại.\"* *\"Nhường là thua.\"* *\"Tôi phải chứng minh mình đúng.\"* Suy nghĩ tự động: *\"Tôi phải đáp trả ngay.\"*\n- **Hỏa Tinh:** *\"Tôi phải xả ngay.\"* *\"Nếu tôi không nói ra, tôi sẽ nổ tung.\"* *\"Cảm xúc của tôi là mệnh lệnh.\"* Suy nghĩ tự động: *\"Không chịu nổi nữa.\"*"
+        },
+        {
+          "heading": "3. Câu hỏi CBT",
+          "bodyMarkdown": "- Tôi đang bảo vệ điều đúng hay bảo vệ cái tôi?\n- Nếu tôi thắng cuộc tranh cãi này, tôi mất gì?\n- Cảm xúc này còn y nguyên sau 10 phút không?\n- Tôi đang phản ứng hay đang lựa chọn?\n- Nếu hành động lúc này, ngày mai tôi có hối hận không?\n- Có cách nào sắc bén nhưng không sát thương không?"
+        },
+        {
+          "heading": "4. Thực hành",
+          "bodyMarkdown": "- **Quy tắc 3 – 3 – 3:** 3 hơi thở, 3 phút, 3 dòng viết trước khi phản ứng.\n- **Không nhắn tin khi đang nóng.**\n- **Đi bộ nhanh 10 phút.**\n- Viết ra câu muốn nói, sửa lại cho bớt sát thương rồi mới nói.\n- **Chuyển lửa thành việc cụ thể:** dọn dẹp, vận động, bắt đầu dự án.\n- Dùng năng lượng Kình Dương để cắt bỏ thói quen xấu, không cắt vào người khác.\n\n*Bài học chữa lành Kình Dương: dùng kiếm để bảo vệ sự thật, không dùng kiếm để chém người mình thương.*"
         }
       ],
       "faq": [
@@ -9125,15 +9361,23 @@
           "answer": "Nhiều người lầm tưởng: \"Tôi mệnh Kình Dương, Hỏa Tinh nên tính tôi nóng như lửa, ai làm trái ý là tôi phải xả ra ngay không kìm được.\". Sự thật dưới góc nhìn Tử Vi Chữa Lành: Cơn giận là cảm xúc thứ cấp: bên dưới lớp băng nóng giận của Kình – Hỏa thường là cảm giác bị xâm phạm ranh giới, không được tôn trọng hoặc quá tải mệt mỏi. Tạo khoảng dừng 6 giây giúp bạn chọn cách phản hồi không gây sát thương."
         },
         {
+          "question": "Có Kình Dương, Hỏa Tinh ở Mệnh là người nóng tính?",
+          "answer": "Có xu hướng phản ứng nhanh và mạnh; nhưng mặt sáng là quyết đoán, nhiệt huyết, chớp thời cơ. CBT giúp chuyển từ phản ứng sang lựa chọn."
+        },
+        {
+          "question": "Kìm nén cơn giận có tốt không?",
+          "answer": "Mục tiêu không phải kìm nén mà là dừng lại đủ lâu để chọn cách bày tỏ không sát thương, và chuyển năng lượng vào hành động có ích."
+        },
+        {
           "question": "Làm sao để ứng dụng bài học này vào cải mệnh thực tế ngay hôm nay?",
-          "answer": "Thỏa thuận trước với người bạn đời/người thân một 'tín hiệu tạm dừng' (ví dụ: giơ tay xin nghỉ 5 phút uống nước) mỗi khi cuộc trò chuyện bắt đầu căng thẳng."
+          "answer": "Lần tới khi nóng giận, áp dụng quy tắc 3 hơi thở – 3 phút – 3 dòng viết trước khi nói hoặc nhắn bất cứ điều gì."
         }
       ],
       "reflectionPrompts": [
-        "Lần gần nhất bạn nổi nóng với người thân, cảm xúc thật sự ẩn bên dưới cơn giận đó là sự mệt mỏi, lo lắng hay cảm giác không được lắng nghe?",
-        "Dấu hiệu cơ thể đầu tiên báo cho bạn biết cơn giận sắp bùng lên là gì?"
+        "Lần nóng giận gần nhất, bạn đang bảo vệ điều gì?",
+        "Lửa trong bạn có thể dành cho việc gì có ích hơn?"
       ],
-      "microPractice": "Thỏa thuận trước với người bạn đời/người thân một 'tín hiệu tạm dừng' (ví dụ: giơ tay xin nghỉ 5 phút uống nước) mỗi khi cuộc trò chuyện bắt đầu căng thẳng.",
+      "microPractice": "Lần tới khi nóng giận, áp dụng quy tắc 3 hơi thở – 3 phút – 3 dòng viết trước khi nói hoặc nhắn bất cứ điều gì.",
       "recommendedCourse": {
         "title": "Khóa học Tử Vi Bí Kíp Ứng Dụng Chữa Lành (CBT · ACT · IFS)",
         "desc": "Dùng lá số như bản đồ tâm thức để nhận diện niềm tin cốt lõi và thực hành chuyển hóa sâu qua CBT, ACT, IFS và Đạo học."
@@ -9195,7 +9439,7 @@
       "lifeDomain": "noi-tam",
       "personaId": "quan-trung",
       "authorName": "Tộc trưởng Quán Trung",
-      "readTime": "6 phút",
+      "readTime": "8 phút",
       "featured": false,
       "tags": [
         "CBT",
@@ -9267,12 +9511,20 @@
       ],
       "sections": [
         {
-          "heading": "1. Cái bẫy của 'Sư tử đầu đàn' Hóa Quyền khi quá tải",
-          "bodyMarkdown": "Hóa Quyền trên lá số là một nguồn lực tuyệt vời giúp bạn dám nhận trách nhiệm, có uy tín và làm việc hiệu quả. Nhưng khi Hóa Quyền bị nỗi sợ dẫn dắt, nó biến thành câu mệnh lệnh ngầm: 'Nếu tôi buông kiểm soát một chút thôi, mọi thứ sẽ sụp đổ'. Từ đó, bạn ôm hết việc của chồng/vợ, của con, của cấp dưới vào người rồi vừa làm vừa bực bội."
+          "heading": "1. Hóa Quyền và Tử Vi: nhu cầu nắm quyền",
+          "bodyMarkdown": "- [Hóa Quyền](wiki:HoaQuyen): hình tượng tướng quân, CEO, sư tử đầu đàn. Góc nhìn tâm lý: nhu cầu khẳng định năng lực và tạo ảnh hưởng. Mặt tối: kiêu ngạo, thích kiểm soát, áp đặt.\n- [Tử Vi](wiki:TuVi): vị vua, có thể là minh quân hoặc bạo chúa tùy mức tự nhận thức. Khi lệch dễ thành độc đoán, tự mãn.\n\nCàng muốn kiểm soát mọi thứ, người ta càng bất an, vì đời sống vốn không thể kiểm soát hết."
         },
         {
-          "heading": "2. Bài học từ Liệu pháp ACT và Đạo học Vô Vi",
-          "bodyMarkdown": "Tinh thần cốt lõi của ACT không phải là buông xuôi, mà là: mở lòng chấp nhận những cảm xúc và hoàn cảnh nằm ngoài tầm kiểm soát, đồng thời dồn 100% cam kết vào những hành động mang lại giá trị sống đích thực. Hãy để người thân của bạn được phép làm theo cách của họ, được phép sai và tự lớn lên."
+          "heading": "2. Điểm kẹt tâm lý",
+          "bodyMarkdown": "Bộ tri thức ACT của TVCL mô tả Tử Vi vô thức thường mắc vào: *\"Tôi phải đúng\"*, *\"Tôi phải kiểm soát\"*, *\"Tôi phải giữ thể diện\"*, *\"Tôi không được yếu\"*, *\"Tôi phải ở trên.\"*\n\nTổn thương sâu hơn: sợ mất phẩm giá, sợ bị coi thường, sợ lộ sự yếu mềm, và **cô độc vì luôn phải mạnh.**"
+        },
+        {
+          "heading": "3. ACT: từ kiểm soát đến linh hoạt",
+          "bodyMarkdown": "[ACT](wiki:ACT) không phải \"nghĩ tích cực\"; mục tiêu là **linh hoạt tâm lý**.\n\n- **Chấp nhận:** *\"Tôi đang có nhu cầu được tôn trọng.\"* *\"Tôi đang sợ mất phẩm giá.\"*\n- **Tách khỏi suy nghĩ:** *\"Tôi đang có suy nghĩ rằng nếu tôi sai thì tôi mất giá trị.\"*\n- **Chọn giá trị:** lãnh đạo, bao dung, chính trực, phụng sự, khiêm cung.\n- **Hành động cam kết:** lắng nghe trước khi quyết định, thừa nhận một lỗi nhỏ, giao quyền cho người khác."
+        },
+        {
+          "heading": "4. Thực hành",
+          "bodyMarkdown": "- Mỗi ngày giao một việc và không can thiệp vào cách làm.\n- Khi muốn kiểm soát, thêm câu \"Tôi đang có suy nghĩ rằng…\" trước ý nghĩ đó.\n- Thừa nhận một lỗi nhỏ với người dưới quyền hoặc người thân.\n\n*Bài học chữa lành Hóa Quyền: học cách lãnh đạo thay vì kiểm soát; dùng quyền lực để phụng sự thay vì thống trị.*"
         }
       ],
       "faq": [
@@ -9281,15 +9533,23 @@
           "answer": "Nhiều người lầm tưởng: \"Mình có Hóa Quyền nên mọi việc trong nhà ngoài ngõ đều phải theo đúng ý mình thì mới yên tâm được.\". Sự thật dưới góc nhìn Tử Vi Chữa Lành: Nhu cầu kiểm soát quá mức thực chất sinh ra từ nỗi sợ bất trắc. Liệu pháp ACT giúp bạn phân biệt rõ 'vòng tròn kiểm soát được' (thái độ, hành vi của mình) và 'vòng tròn ngoài tầm kiểm soát' (suy nghĩ người khác, kết quả khách quan)."
         },
         {
+          "question": "Có Hóa Quyền ở Mệnh có phải người độc đoán?",
+          "answer": "Hóa Quyền là nhu cầu khẳng định năng lực; mặt sáng là quyết đoán, tự tin, chuyên sâu. Độc đoán là mặt lệch khi quyền lực dùng để kiểm soát."
+        },
+        {
+          "question": "ACT khác CBT thế nào?",
+          "answer": "CBT giúp kiểm tra và tái cấu trúc suy nghĩ; ACT giúp chấp nhận cảm xúc, tách khỏi suy nghĩ và hành động theo giá trị."
+        },
+        {
           "question": "Làm sao để ứng dụng bài học này vào cải mệnh thực tế ngay hôm nay?",
-          "answer": "Vẽ 2 vòng tròn đồng tâm: vòng trong ghi những việc bạn kiểm soát được 100% (lời nói, hơi thở, việc của mình), vòng ngoài ghi những việc không thể ép buộc — và tập buông dần vòng ngoài."
+          "answer": "Giao trọn một việc cho người khác hôm nay và không sửa cách họ làm, rồi ghi lại cảm giác của mình."
         }
       ],
       "reflectionPrompts": [
-        "Đâu là việc trong gia đình hoặc công việc mà bạn đang cố kiểm soát nhưng càng kiểm soát lại càng gây mệt mỏi cho cả hai bên?",
-        "Điều gì tốt đẹp sẽ xảy ra nếu bạn lùi lại một bước để trao quyền cho họ?"
+        "Điều gì bạn sợ sẽ xảy ra nếu buông kiểm soát?",
+        "Giá trị nào bạn muốn sống khi làm lãnh đạo?"
       ],
-      "microPractice": "Vẽ 2 vòng tròn đồng tâm: vòng trong ghi những việc bạn kiểm soát được 100% (lời nói, hơi thở, việc của mình), vòng ngoài ghi những việc không thể ép buộc — và tập buông dần vòng ngoài.",
+      "microPractice": "Giao trọn một việc cho người khác hôm nay và không sửa cách họ làm, rồi ghi lại cảm giác của mình.",
       "recommendedCourse": {
         "title": "Khóa học Tử Vi Bí Kíp Ứng Dụng Chữa Lành (CBT · ACT · IFS)",
         "desc": "Dùng lá số như bản đồ tâm thức để nhận diện niềm tin cốt lõi và thực hành chuyển hóa sâu qua CBT, ACT, IFS và Đạo học."
@@ -9351,7 +9611,7 @@
       "lifeDomain": "noi-tam",
       "personaId": "anh-gia-su",
       "authorName": "Anh Gia Sư TVCL",
-      "readTime": "6 phút",
+      "readTime": "8 phút",
       "featured": false,
       "tags": [
         "CBT",
@@ -9423,12 +9683,20 @@
       ],
       "sections": [
         {
-          "heading": "1. Khi Thiên Mã chạy vì khát vọng và khi Thiên Mã chạy vì nỗi sợ",
-          "bodyMarkdown": "Ngôi sao Thiên Mã đại diện cho sự năng động, dám bước ra khỏi vùng an toàn để mở rộng chân trời. Tuy nhiên, trong tham vấn thực tế, có những người cứ mỗi 6 tháng lại đổi việc hoặc đổi mối quan hệ một lần. Khi soi chiếu bằng [CBT](wiki:CBT), điểm chung là họ rất sợ cảm giác nhàm chán hoặc sợ phải đối diện với xung đột: hễ thấy một điểm bất như ý là bật ngay suy nghĩ 'Tất cả hoặc không có gì' (All-or-Nothing)."
+          "heading": "1. Thiên Mã và Phá Quân: hai năng lượng chuyển động",
+          "bodyMarkdown": "- [Thiên Mã](wiki:ThienMa): con ngựa chiến, người lữ hành, doanh nhân mở thị trường. Góc nhìn tâm lý: **nhu cầu phát triển**; người mạnh Thiên Mã thấy ngột ngạt nếu bị giam trong môi trường quá cố định.\n- [Phá Quân](wiki:PhaQuan): phá cũ, đổi mới, mạo hiểm, khai phá, tái sinh. Bộ tri thức TVCL liên hệ với cổ mẫu *Kẻ Hủy Diệt* của Jung: thanh lọc những gì không còn phục vụ sự sống, nhưng khi lệch có thể thành tự hủy.\n\nCả hai đều thích đổi. Câu hỏi là: **đổi để lớn lên, hay đổi để chạy trốn?**"
         },
         {
-          "heading": "2. Ba câu hỏi trước khi quyết định rẽ hướng",
-          "bodyMarkdown": "Trước khi nộp đơn nghỉ việc hay rời bỏ một hành trình, hãy hỏi mình: (1) Mình đang đi về phía một mục tiêu rõ ràng hay đang chạy trốn một cảm xúc khó chịu? (2) Nếu mang nguyên cách phản ứng hiện tại của mình sang môi trường mới, vấn đề cũ có lặp lại không? (3) Mình có thể thử 1 hành động điều chỉnh nhỏ nào tại đây trong 30 ngày tới trước khi quyết định?"
+          "heading": "2. Điểm kẹt của Phá Quân vô thức",
+          "bodyMarkdown": "- *\"Tôi phải phá.\"* *\"Tôi không chịu nổi ràng buộc.\"* *\"Tôi muốn bỏ hết.\"* *\"Tôi không cần ai.\"* *\"Tôi thà hủy còn hơn bị kiểm soát.\"*\n- Tổn thương sâu: bị áp đặt, bị bỏ rơi, bị hiểu lầm là nổi loạn, thiếu an toàn trong quan hệ, sợ bị nhốt.\n\nKhi thay đổi xuất phát từ nỗi sợ này, nó thường lặp lại cùng một kết cục ở môi trường mới."
+        },
+        {
+          "heading": "3. Câu hỏi tự soi",
+          "bodyMarkdown": "- Tôi đang đi về phía điều tôi muốn, hay đang rời khỏi điều tôi sợ?\n- Trước khi phá, tôi đã biết mình sẽ xây gì chưa?\n- Điều gì ở chỗ cũ vẫn đáng giữ lại?\n- Nếu tôi ở lại thêm 3 tháng và thay đổi chính mình, điều gì có thể khác?\n\n*Bài học chữa lành Thiên Mã: di chuyển không phải để chạy trốn; di chuyển là để trưởng thành.*"
+        },
+        {
+          "heading": "4. Thực hành",
+          "bodyMarkdown": "- Viết hai cột: \"Tôi đi về phía…\" và \"Tôi đang rời khỏi…\". Cột nào dài hơn?\n- Với mỗi thay đổi lớn: ghi \"phá gì – xây gì – giữ gì\".\n- Dụng Thiên Mã đúng cách: đi học, đi xa, du lịch, mở thị trường mới có kế hoạch.\n- Học quản trị rủi ro trước khi bước vào lĩnh vực mới.\n\nPhá Quân chuyển hóa là **tái sinh có hướng**: nổi loạn → tái cấu trúc → nhà cải cách có trách nhiệm."
         }
       ],
       "faq": [
@@ -9437,15 +9705,23 @@
           "answer": "Nhiều người lầm tưởng: \"Mệnh có Thiên Mã, Phá Quân là số phải nhảy việc, đổi chỗ liên tục không bao giờ gắn bó lâu dài được.\". Sự thật dưới góc nhìn Tử Vi Chữa Lành: Thiên Mã là nghị lực vươn xa, Phá Quân là dũng khí đổi mới. Nhưng khi bị bẫy tư duy Trắng – Đen ('Không hợp hoàn toàn nghĩa là bỏ đi hết') dẫn dắt, ta dễ mượn cớ 'đổi môi trường' để trốn tránh bài học nội tâm."
         },
         {
+          "question": "Có Thiên Mã ở Mệnh có phải nên đi xa?",
+          "answer": "Thiên Mã hợp với vận động, đi học, đi xa, mở thị trường; nhưng bài học là di chuyển để trưởng thành chứ không để chạy trốn."
+        },
+        {
+          "question": "Làm sao biết mình đang chạy trốn?",
+          "answer": "Khi lý do thay đổi chủ yếu là rời khỏi điều mình sợ, và cùng một vấn đề lặp lại ở nơi mới, đó thường là chạy trốn."
+        },
+        {
           "question": "Làm sao để ứng dụng bài học này vào cải mệnh thực tế ngay hôm nay?",
-          "answer": "Thực hành 'Nhật ký CBT 3 dòng' tối nay: (1) Sự việc thực tế là gì? (2) Suy nghĩ cực đoan Trắng – Đen là gì? (3) Góc nhìn đa chiều ở khoảng giữa là gì?"
+          "answer": "Với thay đổi bạn đang tính, viết hai cột \"đi về phía\" và \"rời khỏi\", rồi xem cột nào chiếm ưu thế."
         }
       ],
       "reflectionPrompts": [
-        "Lần gần nhất bạn muốn 'bỏ hết để làm lại từ đầu', bạn đang tiến về một mục tiêu rõ ràng hay đang muốn thoát khỏi một cảm xúc khó chịu?",
-        "Mô thức nào từng lặp lại ở 2 nơi làm việc khác nhau của bạn?"
+        "Lần thay đổi lớn gần nhất, bạn đi về phía điều gì?",
+        "Vấn đề nào đã theo bạn qua nhiều nơi?"
       ],
-      "microPractice": "Thực hành 'Nhật ký CBT 3 dòng' tối nay: (1) Sự việc thực tế là gì? (2) Suy nghĩ cực đoan Trắng – Đen là gì? (3) Góc nhìn đa chiều ở khoảng giữa là gì?",
+      "microPractice": "Với thay đổi bạn đang tính, viết hai cột \"đi về phía\" và \"rời khỏi\", rồi xem cột nào chiếm ưu thế.",
       "recommendedCourse": {
         "title": "Khóa học Tử Vi Bí Kíp Ứng Dụng Chữa Lành (CBT · ACT · IFS)",
         "desc": "Dùng lá số như bản đồ tâm thức để nhận diện niềm tin cốt lõi và thực hành chuyển hóa sâu qua CBT, ACT, IFS và Đạo học."
@@ -9507,7 +9783,7 @@
       "lifeDomain": "noi-tam",
       "personaId": "lao-phap-su",
       "authorName": "Lão Pháp Sư TVCL",
-      "readTime": "6 phút",
+      "readTime": "8 phút",
       "featured": false,
       "tags": [
         "KhongKiep",
@@ -9575,12 +9851,20 @@
       ],
       "sections": [
         {
-          "heading": "1. Giải mã 'Hố đen' của sao Địa Không dưới góc nhìn Tâm lý học hiện sinh",
-          "bodyMarkdown": "Trong Tàng Kinh Các của Tử Vi Chữa Lành, [Địa Không](wiki:KhongKiep) mang hình tượng 'Hố Đen — Khoảng Trống — Nhà Hiền Triết'. Nhiều người có Địa Không ở Mệnh, Thân hoặc [Cung Phúc Đức](wiki:PhucDuc) thường trải qua những giai đoạn tự hỏi những câu rất lớn về ý nghĩa cuộc đời. Đó không phải là lời nguyền mất mát, mà là dấu hiệu tâm thức bạn không thể bằng lòng với một đời sống hời hợt."
+          "heading": "1. Địa Không: cảm giác rỗng khi mọi thứ vẫn ổn",
+          "bodyMarkdown": "[Địa Không](wiki:KhongKiep) là năng lượng hư không, đứt mạch, rỗng, buông khỏi ảo tưởng. Khi ở Mệnh hoặc [Phúc Đức](wiki:PhucDuc), người ta có thể có đủ mọi thứ bên ngoài mà bên trong vẫn thấy trống.\n\nBộ tri thức CBT của TVCL gọi đây là **\"nghiệp trống rỗng, mất nghĩa\"**. Mặt vô thức: cảm giác vô nghĩa, chán nản, tách rời, tự phủ định."
         },
         {
-          "heading": "2. Từ 'Trống rỗng cô đơn' sang 'Khoảng không bao dung'",
-          "bodyMarkdown": "Một chiếc bát muốn chứa được nước trà thơm thì bên trong nó phải có khoảng không. Khi bạn ngừng sợ hãi khoảng lặng của Địa Không và bắt đầu nuôi dưỡng nó bằng sự thực hành chánh niệm (như thiền Vipassana), nghiên cứu Đạo học và trao tặng giá trị cho tha nhân, bạn sẽ tìm thấy niềm an lạc tự thân không phụ thuộc vào ngoại cảnh."
+          "heading": "2. Niềm tin lõi và suy nghĩ tự động",
+          "bodyMarkdown": "- **Niềm tin lõi:** *\"Không có gì có ý nghĩa.\"* *\"Tôi không thuộc về đâu.\"* *\"Mọi thứ rồi cũng mất.\"*\n- **Suy nghĩ tự động:** *\"Cố làm gì?\"* *\"Không ai thật sự hiểu.\"* *\"Tất cả đều rỗng.\"*\n\nĐịa Kiếp đi cùng thường thêm cảm giác đứt gãy, khủng hoảng sau mất mát."
+        },
+        {
+          "heading": "3. Vô thường bằng trí tuệ hay tuyệt vọng?",
+          "bodyMarkdown": "Câu hỏi CBT cho Địa Không:\n\n- Tôi đang thấy vô thường bằng trí tuệ hay đang rơi vào tuyệt vọng?\n- Có một điều nhỏ nào vẫn còn giá trị hôm nay không?\n- Tôi có đang dùng \"vô nghĩa\" để tránh đau không?\n- Một hành động nối lại với đời sống là gì?\n\n*Bài học chữa lành: hiểu vô thường không phải để buông xuôi, mà để sống sâu hơn.*"
+        },
+        {
+          "heading": "4. Thực hành",
+          "bodyMarkdown": "- **Tạo nhịp sống tối thiểu:** ăn, ngủ, đi bộ đều đặn.\n- **Gọi một người lành.**\n- **Viết 3 điều nhỏ vẫn còn có ý nghĩa.**\n- **Làm một việc chăm sóc thân thể.**\n- Dụng mặt sáng Địa Không: công việc tinh thần, sáng tạo, tâm lý, tâm linh, sau khi đã chăm sóc chính mình.\n\nNếu cảm giác trống rỗng, vô nghĩa kéo dài hoặc có ý nghĩ muốn biến mất, hãy liên hệ ngay chuyên gia tâm lý hoặc người thân tin cậy. Tử Vi Chữa Lành không thay thế trị liệu."
         }
       ],
       "faq": [
@@ -9589,15 +9873,23 @@
           "answer": "Nhiều người lầm tưởng: \"Đang yên đang lành mà thấy trống rỗng, chán nản là dấu hiệu của sự bất ổn hoặc vô ơn.\". Sự thật dưới góc nhìn Tử Vi Chữa Lành: Cảm giác trống rỗng của Địa Không tại Mệnh hoặc Phúc Đức thường là 'tiếng gọi của linh hồn' báo hiệu chiếc áo mục tiêu bề nổi đã chật — mời gọi bạn bước sang tầng sống có ý nghĩa, chiều sâu và phụng sự."
         },
         {
+          "question": "Có Địa Không ở Phúc Đức có phải sẽ trầm cảm?",
+          "answer": "Không thể kết luận như vậy. Địa Không là xu hướng cảm nhận vô thường, trống rỗng; mặt sáng là buông bỏ, sâu sắc, hợp công việc tinh thần. Mọi lo ngại về sức khỏe tâm thần cần được chuyên gia đánh giá."
+        },
+        {
+          "question": "Vì sao đủ đầy rồi vẫn thấy trống?",
+          "answer": "Vì nhu cầu ý nghĩa không được lấp bằng vật chất. CBT giúp tìm lại những điều nhỏ có ý nghĩa và hành động nối lại với đời sống."
+        },
+        {
           "question": "Làm sao để ứng dụng bài học này vào cải mệnh thực tế ngay hôm nay?",
-          "answer": "Dành 10 phút mỗi tối ngồi yên lặng quan sát hơi thở mà không cố xua đuổi cảm giác trống trải — tập làm bạn với khoảng lặng bên trong."
+          "answer": "Viết 3 điều nhỏ hôm nay vẫn còn ý nghĩa với bạn, và làm một việc chăm sóc thân thể trước khi ngủ."
         }
       ],
       "reflectionPrompts": [
-        "Những lúc ngồi một mình không có điện thoại hay công việc bận rộn, cảm giác rõ nhất bên trong bạn là gì?",
-        "Hoạt động nào khiến bạn cảm thấy cuộc sống của mình thật sự có ý nghĩa?"
+        "Điều nhỏ nào hôm nay vẫn làm bạn thấy có ý nghĩa?",
+        "Bạn có đang dùng \"vô nghĩa\" để tránh một nỗi đau cụ thể?"
       ],
-      "microPractice": "Dành 10 phút mỗi tối ngồi yên lặng quan sát hơi thở mà không cố xua đuổi cảm giác trống trải — tập làm bạn với khoảng lặng bên trong.",
+      "microPractice": "Viết 3 điều nhỏ hôm nay vẫn còn ý nghĩa với bạn, và làm một việc chăm sóc thân thể trước khi ngủ.",
       "recommendedCourse": {
         "title": "Khóa học Tử Vi Bí Kíp Ứng Dụng Chữa Lành (CBT · ACT · IFS)",
         "desc": "Dùng lá số như bản đồ tâm thức để nhận diện niềm tin cốt lõi và thực hành chuyển hóa sâu qua CBT, ACT, IFS và Đạo học."
@@ -9659,7 +9951,7 @@
       "lifeDomain": "noi-tam",
       "personaId": "anh-phap-su",
       "authorName": "Anh Pháp Sư TVCL",
-      "readTime": "7 phút",
+      "readTime": "8 phút",
       "featured": false,
       "tags": [
         "IFS",
@@ -9731,12 +10023,20 @@
       ],
       "sections": [
         {
-          "heading": "1. Vì sao người có sao Thái Dương lại khó cho phép mình nghỉ ngơi?",
-          "bodyMarkdown": "Trong chuỗi Podcast 32 sao dưới góc nhìn tâm lý chữa lành, sao Thái Dương gắn liền với khao khát được nhìn nhận và trách nhiệm gánh vác. Dù là nam hay nữ, người có Thái Dương ở Mệnh, Quan Lộc hay [Cung Phúc Đức](wiki:PhucDuc) thường tự đặt mình vào vai 'trụ cột': luôn muốn lo cho gia đình, hỗ trợ bạn bè và giữ hình ảnh vững vàng. Nhưng khi cho đi rất nhiều mà cảm thấy không được thấu hiểu, họ dễ rơi vào tủi thân và kiệt sức ngầm."
+          "heading": "1. Thái Dương: mặt trời và hình bóng người cha",
+          "bodyMarkdown": "[Thái Dương](wiki:ThaiDuong) là mặt trời, minh chủ, người dẫn dắt. Mặt sáng: lý tưởng, cho đi, chính trực, dẫn đường. Mặt lệch: áp lực phải mạnh, cần được công nhận, kiệt sức vì cho quá nhiều.\n\nTrong biểu tượng âm dương, Thái Dương là năng lượng dương, người dẫn đầu, người che chở. Nhiều người mang Thái Dương lệch lớn lên với hình mẫu \"phải mạnh, phải gánh\" từ gia đình."
         },
         {
-          "heading": "2. Mặt trời cũng có ban đêm: Bài học cân bằng Thái Dương – Thái Âm",
-          "bodyMarkdown": "Trong tự nhiên, mặt trời (Thái Dương) chỉ chiếu sáng ban ngày rồi nhường chỗ cho mặt trăng (Thái Âm) dịu mát vào ban đêm. Bạn không cần phải giải cứu cả thế giới 24/24 giờ mới xứng đáng được yêu thương. Hãy học cách đón nhận sự chăm sóc từ người thân và tự trao cho mình sự ghi nhận ấm áp nhất."
+          "heading": "2. Niềm tin lõi của mặt trời kiệt sức",
+          "bodyMarkdown": "- *\"Tôi phải hữu ích mới được yêu.\"*\n- *\"Tôi phải tỏa sáng.\"*\n- *\"Nếu tôi yếu, người khác sẽ thất vọng.\"*\n\nSuy nghĩ tự động: *\"Tôi không được nghỉ\"*, *\"Mọi người cần tôi\"*, *\"Nếu tôi từ chối, tôi ích kỷ.\"*\n\nĐây là gợi ý để tự soi, không phải kết luận về gia đình của bạn. Hãy đối chiếu với trải nghiệm thật."
+        },
+        {
+          "heading": "3. Câu hỏi CBT",
+          "bodyMarkdown": "- Cho đi có nhất thiết là hy sinh bản thân không?\n- Tôi đang giúp bằng tình thương hay bằng nhu cầu được công nhận?\n- Nếu tôi nghỉ, điều gì thật sự xảy ra?\n- Tôi có thể tỏa sáng mà không đốt cháy mình không?\n\nCon đường chuyển hóa của Thái Dương: **Cần được nhìn thấy → Hiện diện chân thật → Soi sáng người khác.**"
+        },
+        {
+          "heading": "4. Thực hành",
+          "bodyMarkdown": "- **Mỗi tuần từ chối một việc không phù hợp.**\n- **Ghi nhận 3 giá trị của bản thân không liên quan đến thành tích.**\n- **Nghỉ có chủ đích**, lên lịch như một cuộc hẹn.\n- Viết một lá thư (không cần gửi) cho hình mẫu \"phải mạnh\" mình đã mang theo, cảm ơn và đặt xuống.\n\n*Câu khóa Thái Dương Hóa Lộc: ánh sáng bền khi người soi đường cũng biết nghỉ.*"
         }
       ],
       "faq": [
@@ -9745,15 +10045,23 @@
           "answer": "Nhiều người lầm tưởng: \"Người mệnh Thái Dương lúc nào cũng mạnh mẽ, hào sảng, chẳng bao giờ biết buồn hay cần ai chăm sóc.\". Sự thật dưới góc nhìn Tử Vi Chữa Lành: Thái Dương đại diện cho hình tượng người cha, người che chở và ánh sáng cống hiến. Vết thương sâu nhất của Thái Dương là nỗi sợ 'Nếu tôi không chiếu sáng, không lo toan được cho mọi người thì tôi không còn giá trị'."
         },
         {
+          "question": "Thái Dương có phải luôn liên quan đến người cha?",
+          "answer": "Thái Dương là biểu tượng dương, người dẫn dắt; liên hệ với hình mẫu người cha là một gợi ý để tự soi. Cần đối chiếu với trải nghiệm thật, không kết luận về gia đình chỉ từ lá số."
+        },
+        {
+          "question": "Vì sao người Thái Dương hay kiệt sức?",
+          "answer": "Vì niềm tin \"phải hữu ích mới được yêu\" khiến họ khó nghỉ và khó từ chối."
+        },
+        {
           "question": "Làm sao để ứng dụng bài học này vào cải mệnh thực tế ngay hôm nay?",
-          "answer": "Tối nay, hãy chủ động tắt thông báo công việc sớm hơn 1 tiếng để cho 'mặt trời' trong bạn được nghỉ ngơi trọn vẹn."
+          "answer": "Ghi 3 giá trị của bạn không liên quan đến thành tích, và lên lịch một khoảng nghỉ có chủ đích trong tuần."
         }
       ],
       "reflectionPrompts": [
-        "Có phải bạn rất dễ mở lời giúp đỡ người khác nhưng lại cực kỳ ngại ngùng khi phải mở lời nhờ ai đó giúp mình không?",
-        "Nếu hôm nay không làm được việc gì lớn lao, bạn có vẫn yêu thương và tôn trọng chính mình không?"
+        "Bạn học câu \"phải mạnh\" từ ai?",
+        "Nếu không cần chứng minh gì, bạn muốn cho đi điều gì?"
       ],
-      "microPractice": "Tối nay, hãy chủ động tắt thông báo công việc sớm hơn 1 tiếng để cho 'mặt trời' trong bạn được nghỉ ngơi trọn vẹn.",
+      "microPractice": "Ghi 3 giá trị của bạn không liên quan đến thành tích, và lên lịch một khoảng nghỉ có chủ đích trong tuần.",
       "recommendedCourse": {
         "title": "Khóa học Tử Vi Bí Kíp Ứng Dụng Chữa Lành (CBT · ACT · IFS)",
         "desc": "Dùng lá số như bản đồ tâm thức để nhận diện niềm tin cốt lõi và thực hành chuyển hóa sâu qua CBT, ACT, IFS và Đạo học."
@@ -9815,7 +10123,7 @@
       "lifeDomain": "noi-tam",
       "personaId": "anh-phap-su",
       "authorName": "Anh Pháp Sư TVCL",
-      "readTime": "7 phút",
+      "readTime": "8 phút",
       "featured": false,
       "tags": [
         "ThienDong",
@@ -9883,12 +10191,20 @@
       ],
       "sections": [
         {
-          "heading": "1. Thái Âm và vết thương hoài niệm; Thiên Đồng và đứa trẻ cần được vỗ về",
-          "bodyMarkdown": "Nếu Thái Dương hướng ra ánh sáng bên ngoài, thì Thái Âm quay vào bóng tối dịu dàng của ký ức và sự chăm sóc. Người có Thái Âm khi tổn thương rất hay sống mãi trong chuyện đã qua, khó buông một kỷ niệm cũ. Trong khi đó, [Thiên Đồng](wiki:ThienDong) lại mang nguyên mẫu Đứa trẻ bên trong (Inner Child): rất cần sự hòa thuận, sợ sự gay gắt và đôi khi dùng việc ăn uống, vui chơi để trốn cảm giác cô đơn."
+          "heading": "1. Thái Âm và Thiên Đồng: cảm xúc và đứa trẻ",
+          "bodyMarkdown": "- [Thái Âm](wiki:ThaiAm): nội tâm, cảm xúc, ký ức. Mặt sáng: sâu sắc, nuôi dưỡng, trực giác. Mặt lệch: u buồn, phụ thuộc cảm xúc, sống trong ký ức.\n- [Thiên Đồng](wiki:ThienDong): đứa trẻ của trời. Mặt sáng: vui sống, mềm mại, nhân ái. Mặt lệch: ỷ lại, né tránh, sợ lớn.\n\nBộ tri thức TVCL gợi ý cả hai sao này hợp với [IFS](wiki:IFS): làm việc với các \"phần\" bên trong như đứa trẻ."
         },
         {
-          "heading": "2. Trở thành điểm tựa an toàn cho chính mình",
-          "bodyMarkdown": "Đừng chờ một người hoàn hảo ở bên ngoài đến để không bao giờ làm bạn buồn. Bằng liệu pháp [IFS](wiki:IFS), mỗi khi thấy phần Thái Âm tủi thân hay phần Thiên Đồng sợ hãi, hãy dùng chính Bản Ngã Tỉnh Thức (Self) của bạn để trò chuyện, vỗ về và chăm sóc cảm xúc ấy."
+          "heading": "2. Niềm tin lõi",
+          "bodyMarkdown": "- **Thái Âm:** *\"Cảm xúc của tôi quá nhiều.\"* *\"Không ai chứa nổi tôi.\"* *\"Tôi không an toàn khi bộc lộ.\"*\n- **Thiên Đồng:** *\"Tôi cần ai đó cứu mình.\"* *\"Tôi không tự lo được.\"* *\"Xung đột là đáng sợ.\"* *\"Trưởng thành nghĩa là mất vui.\"*"
+        },
+        {
+          "heading": "3. Câu hỏi CBT",
+          "bodyMarkdown": "**Với Thái Âm:**\n\n- Cảm xúc mạnh có nghĩa là tôi sai không?\n- Tôi đang sống với hiện tại hay ký ức?\n- Tôi cần được lắng nghe hay cần tự ôm lấy mình trước?\n\n**Với Thiên Đồng:**\n\n- Tôi thật sự không chịu nổi, hay tôi chưa thử từng bước?\n- Việc trưởng thành nhỏ nhất hôm nay là gì?\n- Tôi có thể chăm sóc đứa trẻ bên trong mà vẫn làm người lớn không?"
+        },
+        {
+          "heading": "4. Thực hành",
+          "bodyMarkdown": "- **Nhật ký cảm xúc mỗi tối**; đặt tên cảm xúc thay vì chìm vào nó.\n- Tập câu: *\"Tôi đang buồn, nhưng tôi vẫn an toàn.\"*\n- **Chăm sóc giấc ngủ.**\n- **Làm một việc trưởng thành nhỏ mỗi ngày**; tự chăm sóc thay vì chờ được cứu.\n- **Đối diện một cuộc trò chuyện khó mỗi tuần.**\n\nThái Âm chuyển hóa: *tự trở thành nơi trú ẩn cho chính mình.* Thiên Đồng Hóa Lộc: *sự dễ chịu tạo duyên; trách nhiệm và kỷ luật nhẹ nhàng giúp duyên ấy thành Lộc.*"
         }
       ],
       "faq": [
@@ -9897,15 +10213,23 @@
           "answer": "Nhiều người lầm tưởng: \"Người mệnh Thái Âm, Thiên Đồng là yếu đuối, ủy mị, hay sống trong hoài niệm và dễ phụ thuộc tình cảm.\". Sự thật dưới góc nhìn Tử Vi Chữa Lành: Thái Âm là ánh trăng của sự thấu cảm, chăm sóc; Thiên Đồng là phúc tinh của sự hồn nhiên, tươi mới. Khi người lớn trưởng thành trong bạn biết tự ôm ấp 'đứa trẻ bên trong', sự nhạy cảm đó trở thành năng lực chữa lành tuyệt vời."
         },
         {
+          "question": "Người Thái Âm có phải quá nhạy cảm?",
+          "answer": "Nhạy cảm là mặt sáng của trực giác và chiều sâu; bài học là gọi tên cảm xúc, phân biệt trực giác với lo âu và tự nuôi dưỡng mình."
+        },
+        {
+          "question": "Thiên Đồng có phải là người ỷ lại?",
+          "answer": "Ỷ lại là mặt lệch; mặt sáng là vui sống, nhân ái. Bài học là làm từng việc trưởng thành nhỏ mà vẫn giữ niềm vui."
+        },
+        {
           "question": "Làm sao để ứng dụng bài học này vào cải mệnh thực tế ngay hôm nay?",
-          "answer": "Dành 5 phút viết một lời nhắn dịu dàng gửi cho 'đứa trẻ 7 tuổi' bên trong bạn: 'Giờ mình đã lớn rồi, mình sẽ luôn ở đây bảo vệ và yêu thương em'."
+          "answer": "Tối nay viết nhật ký cảm xúc 5 phút và chọn một việc trưởng thành nhỏ cho ngày mai."
         }
       ],
       "reflectionPrompts": [
-        "Khi buồn hoặc cảm thấy cô đơn, bạn thường tự ôm ấp vỗ về mình hay lại bỏ mặc cảm xúc đó?",
-        "Kỷ niệm cũ nào bạn đã giữ trong lòng quá lâu và giờ đã đến lúc có thể nhẹ nhàng đặt xuống?"
+        "Đứa trẻ bên trong bạn đang cần điều gì?",
+        "Bạn đang chờ ai đó cứu mình ở việc nào?"
       ],
-      "microPractice": "Dành 5 phút viết một lời nhắn dịu dàng gửi cho 'đứa trẻ 7 tuổi' bên trong bạn: 'Giờ mình đã lớn rồi, mình sẽ luôn ở đây bảo vệ và yêu thương em'.",
+      "microPractice": "Tối nay viết nhật ký cảm xúc 5 phút và chọn một việc trưởng thành nhỏ cho ngày mai.",
       "recommendedCourse": {
         "title": "Khóa học Tử Vi Bí Kíp Ứng Dụng Chữa Lành (CBT · ACT · IFS)",
         "desc": "Dùng lá số như bản đồ tâm thức để nhận diện niềm tin cốt lõi và thực hành chuyển hóa sâu qua CBT, ACT, IFS và Đạo học."
@@ -9967,7 +10291,7 @@
       "lifeDomain": "noi-tam",
       "personaId": "anh-phap-su",
       "authorName": "Anh Pháp Sư TVCL",
-      "readTime": "6 phút",
+      "readTime": "8 phút",
       "featured": false,
       "tags": [
         "CBT",
@@ -10037,12 +10361,20 @@
       ],
       "sections": [
         {
-          "heading": "1. Gánh nặng của 'Người trưởng lão' Thiên Lương",
-          "bodyMarkdown": "Trong Tử Vi, Thiên Lương là Phúc ấm tinh — rất hợp với nghề y, nghề giáo, công tác xã hội và tu tập. Nhưng trong gia đình, người có sao Thiên Lương (nhất là khi đi cùng Hóa Quyền hoặc ở thế cô độc) thường mặc định mình phải đứng ở vị trí bề trên để chỉ dạy. Họ thương người thân thật lòng, nhưng cách thể hiện lại hay bắt đầu bằng việc chỉ ra cái sai, khiến bầu không khí trở nên nặng nề."
+          "heading": "1. Thiên Lương và Liêm Trinh: lương tri và chuẩn mực",
+          "bodyMarkdown": "- [Thiên Lương](wiki:ThienLuong): lương tri, bảo hộ, chữa lành. Mặt sáng: đạo đức, nâng đỡ, người thầy thuốc. Mặt lệch: đạo đức hóa, xét nét, gánh vai cứu người.\n- [Liêm Trinh](wiki:LiemTrinh): ranh giới, đạo đức và ham muốn. Mặt sáng: chính trực, có nguyên tắc. Mặt lệch: xấu hổ, tội lỗi, cực đoan, kẹt giữa ham muốn và đạo đức.\n\nCả hai đều có tiêu chuẩn đạo đức cao, và đều dễ gánh nặng vì tiêu chuẩn ấy."
         },
         {
-          "heading": "2. Yêu thương bằng sự tôn trọng thay vì gánh thay",
-          "bodyMarkdown": "Mỗi linh hồn đến cuộc đời này đều có giáo trình trưởng thành riêng của họ. Giúp đỡ đúng Đạo là trao cần câu và tạo không gian an toàn để người thân tự bước đi, chứ không phải sống thay hay ép họ đi đúng từng bước chân của mình. Khi Thiên Lương bớt 'nhắc nhở' và tăng 'lắng nghe', phước ấm của ngôi sao này sẽ tỏa rạng khắp gia đình."
+          "heading": "2. Niềm tin lõi",
+          "bodyMarkdown": "- **Thiên Lương:** *\"Tôi phải cứu người khác.\"* *\"Nếu tôi không đúng, tôi không có giá trị.\"* *\"Tôi chịu khổ là cao thượng.\"* Suy nghĩ tự động: *\"Họ cần tôi\"*, *\"Tôi biết điều gì tốt cho họ.\"*\n- **Liêm Trinh:** *\"Tôi có ham muốn nghĩa là tôi xấu.\"* *\"Tôi phải hoàn toàn trong sạch.\"* *\"Nếu tôi sai, tôi không đáng được yêu.\"*"
+        },
+        {
+          "heading": "3. Câu hỏi CBT",
+          "bodyMarkdown": "**Với Thiên Lương:**\n\n- Tôi đang giúp bằng từ bi hay đang kiểm soát?\n- Người kia có thật sự yêu cầu tôi cứu không?\n- Phụng sự có cần tự hy sinh không?\n\n**Với Liêm Trinh:**\n\n- Sai lầm có đồng nghĩa với bản chất xấu không?\n- Tôi đang giữ giới bằng trí tuệ hay tự giam bằng xấu hổ?\n- Có cách nào sửa lỗi mà không tự hủy không?"
+        },
+        {
+          "heading": "4. Thực hành",
+          "bodyMarkdown": "- **Hỏi trước khi giúp.**\n- **Đặt giới hạn thời gian hỗ trợ.**\n- Viết ra: *\"Điều gì thuộc trách nhiệm của tôi, điều gì không?\"*\n- **Viết thư tha thứ cho bản thân.**\n- Phân biệt rõ: cảm xúc – ham muốn – hành động.\n- Thiết lập một ranh giới rõ ràng trong một quan hệ.\n\n*Câu khóa Thiên Lương Hóa Lộc: phụng sự có giới hạn; trí tuệ và lương tri tạo uy tín bền hơn vai trò cứu hộ.*"
         }
       ],
       "faq": [
@@ -10051,15 +10383,23 @@
           "answer": "Nhiều người lầm tưởng: \"Tôi có sao Thiên Lương là sao Ấm tinh che chở, tôi khuyên bảo hay la mắng cũng chỉ vì muốn tốt cho con cái, người thân.\". Sự thật dưới góc nhìn Tử Vi Chữa Lành: Thiên Lương là ngôi sao của người thầy, người bác sĩ và trưởng lão từ tâm. Nhưng khi lòng tốt đi kèm cái tôi 'tôi luôn biết điều gì đúng hơn bạn', nó biến thành sự kiểm soát gia trưởng và gánh nặng hy sinh quá mức."
         },
         {
+          "question": "Vì sao người Thiên Lương hay mệt vì giúp người?",
+          "answer": "Vì niềm tin \"tôi phải cứu người khác\" khiến họ gánh cả phần không thuộc trách nhiệm của mình. Bài học là hỏi trước khi giúp và phụng sự có giới hạn."
+        },
+        {
+          "question": "Liêm Trinh có hay tự trách không?",
+          "answer": "Khi lệch, Liêm Trinh dễ xấu hổ, tội lỗi và tự kết án; bài học là chính trực nhưng không tự kết án."
+        },
+        {
           "question": "Làm sao để ứng dụng bài học này vào cải mệnh thực tế ngay hôm nay?",
-          "answer": "Trong tuần này, khi muốn khuyên bảo người thân một điều gì, hãy tập lắng nghe họ nói hết 100% và hỏi 'Bạn muốn mình lắng nghe hay muốn mình góp ý giải pháp?' trước khi nói."
+          "answer": "Viết hai cột \"trách nhiệm của tôi\" và \"không phải trách nhiệm của tôi\" cho một mối quan hệ bạn đang gánh nhiều."
         }
       ],
       "reflectionPrompts": [
-        "Khi người thân gặp vấp ngã, câu đầu tiên bạn thường nói là 'Đã bảo rồi không nghe' hay là 'Để mình ngồi nghe bạn kể nhé'?",
-        "Có ai trong gia đình mà bạn đang cố 'gánh thay' bài học trưởng thành của họ không?"
+        "Bạn đang cứu ai mà họ chưa từng nhờ?",
+        "Lỗi nào bạn vẫn chưa tha thứ cho chính mình?"
       ],
-      "microPractice": "Trong tuần này, khi muốn khuyên bảo người thân một điều gì, hãy tập lắng nghe họ nói hết 100% và hỏi 'Bạn muốn mình lắng nghe hay muốn mình góp ý giải pháp?' trước khi nói.",
+      "microPractice": "Viết hai cột \"trách nhiệm của tôi\" và \"không phải trách nhiệm của tôi\" cho một mối quan hệ bạn đang gánh nhiều.",
       "recommendedCourse": {
         "title": "Khóa học Tử Vi Chữa Lành — Hiểu Mình, Cải Mệnh, Chữa Lành",
         "desc": "Kết hợp Tử Vi Đẩu Số, Tâm lý học và Đạo học để nhận diện mô thức cũ, dụng cung Cát và chuyển hóa cung Hung."
@@ -12381,7 +12721,7 @@
       "lifeDomain": "tinh-duyen",
       "personaId": "anh-phap-su",
       "authorName": "Anh Pháp Sư TVCL",
-      "readTime": "6 phút",
+      "readTime": "9 phút",
       "featured": false,
       "tags": [
         "PhuThe",
@@ -12445,12 +12785,20 @@
       ],
       "sections": [
         {
-          "heading": "1. Chiếc cầu nối vô hình giữa cung Phụ Mẫu và cung Phu Thê",
-          "bodyMarkdown": "Nhiều người tự nhủ 'Mình sẽ không bao giờ sống giống cách bố/mẹ mình đã khổ', nhưng khi kết hôn rồi lại giật mình thấy mình đang nói đúng những câu nói năm xưa hoặc chọn đúng mẫu người giống hệt. Đó là vì khi chưa được đưa ra ánh sáng ý thức, tiềm thức luôn tìm về những gì 'quen thuộc' chứ không phải những gì 'hạnh phúc'."
+          "heading": "1. Vì sao ta mang bóng dáng cha mẹ vào tình yêu?",
+          "bodyMarkdown": "Bộ tri thức TVCL dẫn các tiên đề của phân tâm học:\n\n- Khi còn nhỏ, ta học cách cảm nhận về bản thân qua phản ứng của người chăm sóc.\n- Khi lớn lên, ta có xu hướng **lặp lại mối quan hệ quen thuộc thời thơ ấu**; đối xử với chính mình theo cách cha mẹ từng đối xử với mình.\n- **Sự lặp lại mang tính cưỡng chế:** trải nghiệm chưa hoàn thành muốn được lặp lại.\n\nCác mối quan hệ là sự phóng chiếu của \"cha mẹ nội tâm\" và \"đứa trẻ nội tâm\". Vì vậy [Phụ Mẫu](wiki:CungPhuMau) và [Phu Thê](wiki:PhuThe) liên hệ rất sâu."
         },
         {
-          "heading": "2. Hóa giải di sản cảm xúc để yêu người bạn đời trong hiện tại",
-          "bodyMarkdown": "Mỗi khi bạn thấy mình phản ứng quá mạnh với một hành động nhỏ của vợ/chồng, hãy dừng lại tự hỏi: 'Mình đang giận người trước mặt, hay đang giận một ký ức cũ từ thời thơ ấu?'. Khi bạn biết tri ân cha mẹ nhưng trả lại cho quá khứ những gánh nặng không thuộc về mình, [Cung Phu Thê](wiki:PhuThe) của bạn sẽ trở nên nhẹ nhàng và sáng trong."
+          "heading": "2. Ba kiểu gắn bó",
+          "bodyMarkdown": "Bộ tri thức TVCL dùng thuyết gắn bó để đọc các cung quan hệ:\n\n- **Gắn bó an toàn:** lớn lên được đáp ứng và yêu thương nhất quán.\n- **Gắn bó lo âu:** thiếu chăm sóc hoặc được đáp ứng thiếu nhất quán; lớn lên dễ lo bị bỏ rơi.\n- **Gắn bó né tránh:** từng gặp sự lạnh nhạt, xa cách; lớn lên khó chia sẻ cảm xúc sâu, không nhờ vả ai, sợ bộc lộ điểm yếu.\n\nCung Phu Thê cho thấy cách ta yêu, cách ta chọn người, cách ta lặp lại mô thức tình cảm."
+        },
+        {
+          "heading": "3. Nhân quả trong các cung quan hệ",
+          "bodyMarkdown": "- Cung quan hệ tốt: bạn được hưởng nhiều lợi ích từ quan hệ đó, nên tận dụng và phát triển.\n- Cung quan hệ khó: bạn có nhiều bài học từ quan hệ đó.\n- Nếu người khác thường đối xử với bạn theo cách bạn không muốn, có thể trong bạn đang có một niềm tin, định kiến thu hút điều đó.\n\nMuốn cung phát triển, hãy **tạo nhân mới tốt đẹp**: gần người thiện lành, ghi nhận người khác nếu muốn được ghi nhận."
+        },
+        {
+          "heading": "4. Cách chuyển hóa gốc",
+          "bodyMarkdown": "1. Tập trung vào điểm mạnh trong cung quan hệ đó và phát triển.\n2. Nhận diện vấn đề mình hay gặp trong quan hệ.\n3. Nhận diện nguyên nhân, gốc rễ tổn thương.\n4. Giải phóng đè nén, chuyển hóa dần các tổn thương.\n5. Thay đổi nhận thức, cảm xúc và hành vi để không lặp lại vô thức.\n\nCải Phụ Mẫu: chữa lành quan hệ với cha mẹ, học nhận hỗ trợ. Cải Phu Thê: chữa lành mô thức yêu, học ranh giới, giao tiếp chân thật, **không dùng Tử Vi để đổ lỗi cho bạn đời.**"
         }
       ],
       "faq": [
@@ -12459,15 +12807,23 @@
           "answer": "Nhiều người lầm tưởng: \"Chuyện tình cảm vợ chồng là chuyện của hai người, không liên quan gì đến cha mẹ hai bên hay tuổi thơ.\". Sự thật dưới góc nhìn Tử Vi Chữa Lành: Trong tâm lý học hệ thống và Tử Vi, cách cha mẹ chung sống (Phụ Mẫu) chính là 'bản mẫu hôn nhân đầu tiên' in vào tiềm thức. Nhận diện mô thức gia đình gốc giúp bạn bước vào cung Phu Thê bằng sự tự do, không lặp lại kịch bản cũ."
         },
         {
+          "question": "Cung Phụ Mẫu khó có làm hôn nhân khó?",
+          "answer": "Không tất yếu, nhưng mô thức gắn bó từ tuổi thơ thường được lặp lại trong tình yêu. Nhận diện và chuyển hóa mô thức đó là cách cải cả hai cung."
+        },
+        {
+          "question": "Làm sao biết mình thuộc kiểu gắn bó nào?",
+          "answer": "Có thể tự quan sát qua mô tả ba kiểu gắn bó; để đánh giá kỹ, nên làm việc với chuyên gia tâm lý."
+        },
+        {
           "question": "Làm sao để ứng dụng bài học này vào cải mệnh thực tế ngay hôm nay?",
-          "answer": "Viết ra 1 thói quen giao tiếp cũ bạn từng thấy ở người lớn ngày bé và chọn 1 câu nói mới ấm áp hơn để thay thế trong gia đình nhỏ của mình."
+          "answer": "Viết ba điểm giống nhau giữa cách bố mẹ bạn đối xử với nhau và cách bạn đang yêu, rồi chọn một điểm muốn thay đổi."
         }
       ],
       "reflectionPrompts": [
-        "Trong cách bạn cư xử với người thương hiện tại, có nét nào bạn nhận ra mình đã học từ bố hoặc mẹ một cách vô thức không?",
-        "Đâu là truyền thống tốt đẹp từ gia đình gốc mà bạn muốn giữ lại, và đâu là mô thức cũ bạn muốn khép lại?"
+        "Bạn đang lặp lại mô thức nào của gia đình trong tình yêu?",
+        "Bạn có đang đối xử với chính mình như cha mẹ từng đối xử với bạn?"
       ],
-      "microPractice": "Viết ra 1 thói quen giao tiếp cũ bạn từng thấy ở người lớn ngày bé và chọn 1 câu nói mới ấm áp hơn để thay thế trong gia đình nhỏ của mình.",
+      "microPractice": "Viết ba điểm giống nhau giữa cách bố mẹ bạn đối xử với nhau và cách bạn đang yêu, rồi chọn một điểm muốn thay đổi.",
       "recommendedCourse": {
         "title": "Chương trình Tử Vi Chữa Lành Tình Duyên & Hôn Nhân",
         "desc": "Thấu hiểu mô thức gắn bó của 14 Chính Tinh, hóa giải xung đột và cải thiện cung Phu Thê qua hệ sinh thái 3P4C."
@@ -13059,7 +13415,7 @@
       "lifeDomain": "su-nghiep",
       "personaId": "anh-gia-su",
       "authorName": "Anh Gia Sư TVCL",
-      "readTime": "8 phút đọc",
+      "readTime": "9 phút",
       "featured": false,
       "tags": [
         "KhoiViet",
@@ -13135,12 +13491,20 @@
       ],
       "sections": [
         {
-          "heading": "1. Cơ chế 'Giải Thần' của Hóa Khoa và Khôi – Việt vận hành thế nào?",
-          "bodyMarkdown": "Vì sao cổ nhân gọi [Sao Hóa Khoa](wiki:HoaKhoa) và [Thiên Khôi – Thiên Việt](wiki:KhoiViet) là những ngôi sao cứu giải hàng đầu? Dưới góc nhìn khoa học và nhân quả:\n\n- **Hóa Khoa** giải hạn bằng **Tri thức và Sự điềm tĩnh**: Khi gặp khủng hoảng, người có năng lượng Hóa Khoa không hoảng loạn mà tìm hiểu nguyên nhân gốc rễ, hỏi chuyên gia, đọc tài liệu để xử lý bài bản.\n- **Thiên Khôi – Thiên Việt** giải hạn bằng **Mạng lưới Nhân duyên thiện lành**: Nhờ sống trọng nghĩa tình và cầu tiến, khi cần chuyển việc hay gỡ rối, họ luôn có người thầy, người anh chị đi trước chỉ đường."
+          "heading": "1. Ba ngôi sao quý nhân",
+          "bodyMarkdown": "- **Thiên Khôi:** ngọn đèn của bậc thầy; quý nhân, danh dự, cơ hội chính đáng, sự nâng đỡ từ người có vị thế.\n- **Thiên Việt:** bàn tay quý nhân đúng lúc; sự trợ duyên trong hoàn cảnh cụ thể.\n- **[Hóa Khoa](wiki:HoaKhoa):** giảng sư danh tiếng; học hành, bằng cấp, danh tiếng, tay nghề chuyên môn cao. *Hóa Khoa là tấm khiên bảo vệ được tạo nên từ trí tuệ.*\n\nXem thêm: [Khôi Việt](wiki:KhoiViet)."
         },
         {
-          "heading": "2. Làm sao để kích hoạt Khôi Việt & Hóa Khoa ngay cả khi cung Mệnh không có?",
-          "bodyMarkdown": "Theo nguyên lý [Tam Phương Tứ Chính (3P4C)](wiki:3P4C) và Nhân Quả, bạn luôn có thể tự gieo hạt giống Hóa Khoa – Khôi Việt bằng 2 thói quen:\n1. **Khi gặp vấn đề ở cung nào, hãy đưa ánh sáng tri thức vào cung đó:** Đọc sách tâm lý khi Phu Thê trục trặc, học quản lý tài chính khi Tài Bạch thất thoát.\n2. **Chủ động làm quý nhân của người khác:** Khi bạn tận tâm hướng dẫn đàn em ([Tả Phù – Hữu Bật](wiki:TaHuu)), bạn đang kích hoạt trực tiếp trường năng lượng Khôi Việt trên lá số của mình."
+          "heading": "2. Hai mặt",
+          "bodyMarkdown": "- **Thiên Khôi:** sáng là dễ gặp quý nhân, được người có vị thế nhìn thấy; tối là phụ thuộc người nâng đỡ, vất vả vì kỳ vọng của người khác, tự cho mình đặc biệt.\n- **Thiên Việt:** sáng là dễ có cơ hội, được giúp đúng lúc, có duyên giao tiếp; tối là chờ may mắn thay vì hành động, phiền não quan hệ.\n- **Hóa Khoa:** sáng là học giỏi, chuyên môn sâu, có bằng cấp; tối là trọng lý thuyết hơn thực hành, sĩ diện tri thức, tự cho mình đúng."
+        },
+        {
+          "heading": "3. Quý nhân đến từ đâu?",
+          "bodyMarkdown": "- **Bài học Thiên Khôi:** *tu dưỡng bản thân để xứng đáng với cơ hội.*\n- **Bài học Thiên Việt:** *đón nhận trợ giúp mà không đánh mất tự chủ.*\n- **8 nguyên lý Cải Mệnh:** có Khôi Việt thì phát huy quan hệ với bậc bề trên, **biết phò tá và tham vấn họ.**\n- **Dụng vận:** học tập (Quan Lộc – Hóa Khoa) là cách nâng tầm tư duy, mở ra nhiều cơ hội; dễ tiếp cận nhưng cần thời gian."
+        },
+        {
+          "heading": "4. Thực hành kích hoạt quý nhân",
+          "bodyMarkdown": "- **Gần người giỏi, tìm thầy tốt,** học từ bậc cao hơn, giữ thái độ khiêm tốn.\n- **Giữ nhân duyên tốt, biết ơn người giúp mình,** không lợi dụng quý nhân.\n- **Học chuyên môn sâu** để Hóa Khoa thành danh tiếng thật.\n- **Làm quý nhân cho người khác**: bộ tri thức TVCL gợi ý đây cũng là cách tạo phúc lực trong những năm khó."
         }
       ],
       "faq": [
@@ -13149,15 +13513,23 @@
           "answer": "Nhiều người lầm tưởng: \"Có Thiên Khôi, Thiên Việt, Hóa Khoa là cứ ngồi yên ắt có người tới cứu giúp và dọn sẵn đường công danh.\". Sự thật dưới góc nhìn Tử Vi Chữa Lành: Khôi – Việt là cơ hội và sự trợ lực từ người đi trước; Hóa Khoa là trí tuệ phân giải và uy tín chuyên môn. Quý nhân chỉ thật sự xuất hiện khi bạn có thái độ khiêm cung, cầu thị và sẵn sàng trao giá trị trước."
         },
         {
+          "question": "Không có Khôi Việt thì có gặp quý nhân không?",
+          "answer": "Có thể. Quý nhân còn đến từ cách bạn sống: gần người giỏi, khiêm tốn, giữ chữ tín, biết ơn, và làm quý nhân cho người khác."
+        },
+        {
+          "question": "Hóa Khoa có phải chỉ về học hành?",
+          "answer": "Hóa Khoa là học hành, bằng cấp, danh tiếng, tay nghề chuyên môn cao và vai trò đại diện; mặt tối là trọng lý thuyết hơn thực hành."
+        },
+        {
           "question": "Làm sao để ứng dụng bài học này vào cải mệnh thực tế ngay hôm nay?",
-          "answer": "Nhắn một lời cảm ơn chân thành tới một người thầy, người anh/chị hoặc người bạn đã từng nâng đỡ bạn lúc khó khăn."
+          "answer": "Gửi lời cảm ơn cụ thể tới một người từng giúp bạn, và chọn một người giỏi để xin học hỏi trong tháng này."
         }
       ],
       "reflectionPrompts": [
-        "Ai là 3 'quý nhân' đã từng giúp bạn thay đổi tư duy hoặc mở ra cơ hội lớn nhất trong đời?",
-        "Hôm nay bạn có thể chia sẻ một kiến thức hữu ích nào để giúp đỡ một người đang bỡ ngỡ?"
+        "Quý nhân gần nhất của bạn đến qua con đường nào?",
+        "Bạn đã làm quý nhân cho ai gần đây?"
       ],
-      "microPractice": "Nhắn một lời cảm ơn chân thành tới một người thầy, người anh/chị hoặc người bạn đã từng nâng đỡ bạn lúc khó khăn.",
+      "microPractice": "Gửi lời cảm ơn cụ thể tới một người từng giúp bạn, và chọn một người giỏi để xin học hỏi trong tháng này.",
       "recommendedCourse": {
         "title": "Khóa học Luận Nhanh Lá Số Tử Vi (S37)",
         "desc": "Lộ trình từng bước dành cho người mới: nắm vững 32 sao cốt lõi, công thức 3P4C và 5 bước tự đọc lá số của chính mình."
@@ -13219,7 +13591,7 @@
       "lifeDomain": "su-nghiep",
       "personaId": "quan-trung",
       "authorName": "Tộc trưởng Quán Trung",
-      "readTime": "9 phút đọc",
+      "readTime": "8 phút",
       "featured": false,
       "tags": [
         "CungHuynhDe",
@@ -13299,12 +13671,20 @@
       ],
       "sections": [
         {
-          "heading": "1. Ý nghĩa thực sự của trục Huynh Đệ – Nô Bộc trong đời sống hiện đại",
-          "bodyMarkdown": "Trong Tử Vi Đẩu Số, [Cung Huynh Đệ](wiki:CungHuynhDe) và [Cung Nô Bộc](wiki:CungNoBoc) nằm đối xứng nhau (xung chiếu 60% lực), tạo thành trục quan hệ xã hội ngang hàng:\n\n- **Cung Huynh Đệ:** Không chỉ nói về anh chị em ruột thịt mà còn đại diện cho những cộng sự thân tín nhất, nguồn lực tiền mặt dự phòng (giáp Mệnh và Tài Bạch).\n- **Cung Nô Bộc (Giao Hữu):** Đại diện cho bạn bè xã hội, đồng nghiệp, nhân sự cấp dưới, học viên hoặc tệp khách hàng của bạn."
+          "heading": "1. Huynh Đệ và Nô Bộc",
+          "bodyMarkdown": "- [Huynh Đệ](wiki:CungHuynhDe): anh chị em ruột, bạn thân, người ngang hàng, cộng sự sát sườn. Góc nhìn chữa lành: khả năng kết nối ngang hàng, chia sẻ, cạnh tranh, hỗ trợ hoặc so sánh.\n- [Nô Bộc](wiki:CungNoBoc): bạn bè xã hội, đồng nghiệp, khách hàng, nhân sự, cộng đồng. Góc nhìn chữa lành: cách ta kết nối với người ngang hàng hoặc người đi theo mình.\n\nHai cung đối nhau. Bộ tri thức TVCL gọi Huynh – Nô là **tuyến thành tựu, tuyến trợ lực từ người khác**; bài học: *\"Mở rộng vòng tay nhưng không bỏ quên tình thân.\"*"
         },
         {
-          "heading": "2. Khi trục Huynh Đệ – Nô Bộc có Hóa Kỵ, Kình Đà, Không Kiếp thì ứng xử thế nào?",
-          "bodyMarkdown": "Nếu thấy trục này có [Sao Hóa Kỵ](wiki:HoaKy) hay [Địa Không – Địa Kiếp](wiki:KhongKiep), đó không phải là bản án 'bị bạn lừa', mà là lời nhắc nhở thiết thực:\n- **Không trộn lẫn tình cảm với tiền bạc:** Tránh cho vay mượn không giấy tờ vì cả nể.\n- **Hợp tác trên thế mạnh bổ khuyết:** Thay vì đòi hỏi người đồng hành phải giống hệt mình, hãy tôn trọng sự khác biệt và phân định rõ vai trò của từng người."
+          "heading": "2. Khi cung tốt, khi cung khó",
+          "bodyMarkdown": "- **Huynh Đệ tốt:** dễ có anh em, bạn bè, người đồng hành trợ lực. **Khó:** dễ bất hòa, cạnh tranh, cô độc, khó tin người ngang hàng.\n- **Nô Bộc tốt:** dễ có bạn tốt, đội nhóm tốt, cộng đồng hỗ trợ. **Khó:** dễ bị bạn bè, cộng sự gây phiền, khó xây đội nhóm, dễ chọn sai người.\n\nTheo nguyên lý Dụng Cung Cát: Huynh Nô tốt thì làm việc, đầu tư, kết hợp cùng anh em, bạn bè; học cách để được mọi người quý mến, trợ giúp."
+        },
+        {
+          "heading": "3. Mượn lực cung đối",
+          "bodyMarkdown": "- **Khi Nô Bộc phản trắc** (bạn bè lừa dối, đối tác quay lưng): đừng phân bua hay trả thù; thu về Huynh Đệ, tìm người thân tín, gắn bó lâu năm.\n- **Khi Huynh Đệ mâu thuẫn** (anh em tranh giành, nội bộ lục đục): đừng cố phân xử lúc đang căng; đi ra ngoài, mở rộng mạng lưới, gặp gỡ những người bạn mới."
+        },
+        {
+          "heading": "4. Cách cải",
+          "bodyMarkdown": "- **Huynh Đệ:** chữa lành ganh tị và so sánh; học hợp tác; biết nhờ người giúp; biết giúp người đúng mức.\n- **Nô Bộc:** chọn bạn mà chơi; xây cộng đồng lành mạnh; học kỹ năng lãnh đạo và giao tiếp; **rõ ràng quyền lợi – trách nhiệm.**\n\nVới Hóa Kỵ ở Huynh Đệ, bài học là ranh giới lành mạnh trong quan hệ ngang hàng."
         }
       ],
       "faq": [
@@ -13313,15 +13693,23 @@
           "answer": "Nhiều người lầm tưởng: \"Cung Huynh Đệ hay Nô Bộc có Sát tinh, Hóa Kỵ là cả đời bị bạn bè phản bội, không thể hùn hạp làm ăn với ai.\". Sự thật dưới góc nhìn Tử Vi Chữa Lành: Trục Huynh Đệ – Nô Bộc chỉ ra mô thức giao tiếp ngang hàng và kỳ vọng của bạn với tập thể. Khi có quy chế minh bạch (Hóa Khoa/Vũ Khúc) và ranh giới rõ ràng, bạn hoàn toàn xây dựng được đội ngũ cộng sự vững mạnh."
         },
         {
+          "question": "Cung Nô Bộc khó có nên làm kinh doanh hợp tác?",
+          "answer": "Nên cẩn trọng: rõ ràng quyền lợi – trách nhiệm từ đầu, chọn người kỹ, và dựa nhiều hơn vào người thân tín (Huynh Đệ) nếu cung đó tốt."
+        },
+        {
+          "question": "Vì sao hay so sánh với anh chị em?",
+          "answer": "Huynh Đệ phản ánh cả hỗ trợ lẫn cạnh tranh ngang hàng; chữa lành ganh tị và so sánh là bài học của cung này."
+        },
+        {
           "question": "Làm sao để ứng dụng bài học này vào cải mệnh thực tế ngay hôm nay?",
-          "answer": "Rà soát lại một mối quan hệ hợp tác hiện tại và viết rõ 3 nguyên tắc làm việc chung minh bạch, tôn trọng lẫn nhau."
+          "answer": "Liệt kê 5 người đồng hành gần nhất, đánh dấu ai nâng đỡ bạn, ai làm bạn kiệt sức, và chọn một ranh giới cần đặt lại."
         }
       ],
       "reflectionPrompts": [
-        "Trong các mối quan hệ bạn bè hoặc hợp tác trước đây, xung đột thường nảy sinh từ sự thiếu minh bạch ban đầu hay do kỳ vọng ngầm không nói ra?",
-        "Bạn cần thiết lập nguyên tắc nào trước khi bắt đầu một dự án chung tiếp theo?"
+        "Ai là người đồng hành bạn tin cậy nhất?",
+        "Bạn có đang giúp người quá mức của mình?"
       ],
-      "microPractice": "Rà soát lại một mối quan hệ hợp tác hiện tại và viết rõ 3 nguyên tắc làm việc chung minh bạch, tôn trọng lẫn nhau.",
+      "microPractice": "Liệt kê 5 người đồng hành gần nhất, đánh dấu ai nâng đỡ bạn, ai làm bạn kiệt sức, và chọn một ranh giới cần đặt lại.",
       "recommendedCourse": {
         "title": "Khóa học Luận Nhanh Lá Số Tử Vi (S37)",
         "desc": "Lộ trình từng bước dành cho người mới: nắm vững 32 sao cốt lõi, công thức 3P4C và 5 bước tự đọc lá số của chính mình."
@@ -13383,7 +13771,7 @@
       "lifeDomain": "su-nghiep",
       "personaId": "anh-gia-su",
       "authorName": "Anh Gia Sư TVCL",
-      "readTime": "8 phút đọc",
+      "readTime": "8 phút",
       "featured": false,
       "tags": [
         "CungThienDi",
@@ -13457,12 +13845,20 @@
       ],
       "sections": [
         {
-          "heading": "1. Trục Mệnh – Thiên Di: Thế giới bên trong và Thế giới bên ngoài",
-          "bodyMarkdown": "Trong công thức [Tam Phương Tứ Chính (3P4C)](wiki:3P4C), [Cung Mệnh – Thân](wiki:CungMenhThan) là hạt giống bên trong, còn [Cung Thiên Di](wiki:CungThienDi) là vùng đất, ánh nắng và bầu khí quyển bên ngoài. Một hạt giống tốt nếu để mãi trong bóng tối cũng khó nảy mầm; ngược lại, khi đặt đúng môi trường Thiên Di phù hợp, hạt giống ấy sẽ vươn lên mạnh mẽ."
+          "heading": "1. Thiên Di: cánh cửa ra thế giới",
+          "bodyMarkdown": "[Thiên Di](wiki:CungThienDi) là thế giới bên ngoài, môi trường xã hội, sự đi xa, giao tiếp với đời và khả năng thích nghi ngoại cảnh. Đây là **cánh cửa ra ngoài thế giới.**\n\nThiên Di đối cung với Mệnh, ảnh hưởng **60%** tới Mệnh. Với Mệnh Vô Chính Diệu, Chính tinh cung Thiên Di còn được mượn về để luận Mệnh."
         },
         {
-          "heading": "2. Khi nào bạn cần 'Mượn lực Thiên Di' để giải cứu cung Mệnh?",
-          "bodyMarkdown": "- **Khi cung Mệnh Vô Chính Diệu hoặc có sao Hãm địa:** Bước ra môi trường năng động, học hỏi từ cộng đồng lớn giúp bạn hấp thụ trực tiếp 60% cát khí từ Thiên Di.\n- **Khi Thiên Di nằm trong tam hợp Phúc – Di – Thê:** Mỗi khi bước ra ngoài xã hội với tâm thế trao giá trị ([Cung Phúc Đức](wiki:PhucDuc)), bạn đồng thời thu hút những nhân duyên tốt lành cho cả sự nghiệp lẫn [Cung Phu Thê](wiki:PhuThe)."
+          "heading": "2. Khi Thiên Di tốt và khi Thiên Di khó",
+          "bodyMarkdown": "- **Tốt:** ra ngoài dễ gặp cơ hội, quý nhân, môi trường nâng đỡ; **càng đi càng mở vận.** Hợp thay đổi môi trường, công việc đi lại, thương mại, buôn bán.\n- **Khó:** ra ngoài dễ va chạm, thị phi, bất ổn hoặc cảm giác lạc lõng.\n\nCách cải: chọn môi trường tốt; đi xa đúng thời; học kỹ năng xã hội; **chủ động đổi môi trường nếu nơi cũ làm mình suy kiệt.**"
+        },
+        {
+          "heading": "3. Trục Mệnh – Thiên Di: \"Tâm bình thế giới bình\"",
+          "bodyMarkdown": "- **Khi Mệnh (nội tâm) u tối:** mất định hướng, tự ti, nhốt mình trong nhà. Không thể tự chữa bằng ngồi suy nghĩ; hãy dùng Thiên Di: đi du lịch, chuyển chỗ ở, đổi môi trường làm việc, tham gia cộng đồng mới.\n- **Khi Thiên Di độc hại:** ra ngoài toàn va chạm. Ngừng cố thay đổi xã hội; rút về Mệnh: tu tập, đọc sách, rèn kỹ năng.\n\nTrong 8 nguyên lý Cải Mệnh, **thay đổi môi trường (Thiên Di)** được xem là phương pháp bền vững và tác động sâu nhất, đặc biệt khi bế tắc về công việc, tình duyên, quan hệ."
+        },
+        {
+          "heading": "4. Thực hành",
+          "bodyMarkdown": "- Liệt kê ba môi trường bạn đang ở (nhà, nơi làm, nhóm bạn) và chấm mỗi nơi nuôi dưỡng hay rút cạn bạn.\n- Tham gia một cộng đồng hoặc lớp học mới trong tháng này.\n- Chọn thời điểm: muốn đi xa, đổi môi trường, ưu tiên những năm vận Thiên Di tốt.\n- Dùng Thiên Di cho Phu Thê: ra ngoài gặp gỡ nhiều hơn để mở nhân duyên."
         }
       ],
       "faq": [
@@ -13471,15 +13867,23 @@
           "answer": "Nhiều người lầm tưởng: \"Cung Thiên Di chỉ dùng để xem việc đi xa, xuất ngoại hay tai nạn xe cộ trên đường.\". Sự thật dưới góc nhìn Tử Vi Chữa Lành: Thiên Di là không gian phát triển xã hội, cách thế giới nhìn nhận bạn và nguồn năng lượng đối lưu 60% với cung Mệnh. Thay đổi môi trường sống, làm việc và kết nối tại Thiên Di là đòn bẩy trực tiếp nhất để đánh thức cung Mệnh."
         },
         {
+          "question": "Thiên Di tốt có nên đi xa lập nghiệp?",
+          "answer": "Thiên Di tốt thì ra ngoài dễ gặp cơ hội, càng đi càng mở vận; nhưng quyết định cụ thể cần xét cả Mệnh, Quan Lộc và thời vận."
+        },
+        {
+          "question": "Thiên Di khó thì có nên ở yên?",
+          "answer": "Không hẳn; bài học là chọn môi trường kỹ, học kỹ năng xã hội, và khi môi trường độc hại thì rút về tu dưỡng nội lực (Mệnh)."
+        },
+        {
           "question": "Làm sao để ứng dụng bài học này vào cải mệnh thực tế ngay hôm nay?",
-          "answer": "Dành 1 buổi cuối tuần này bước ra một không gian mới (thư viện, công viên xanh hoặc một buổi sinh hoạt tri thức) để làm mới góc nhìn."
+          "answer": "Chấm điểm ba môi trường bạn đang sống và làm việc, rồi chọn một thay đổi nhỏ cho môi trường rút cạn bạn nhất."
         }
       ],
       "reflectionPrompts": [
-        "Môi trường bạn đang tiếp xúc mỗi ngày (không gian làm việc, nhóm bạn, mạng xã hội) đang nâng đỡ hay làm tiêu hao năng lượng của bạn?",
-        "Bạn có thể bước vào một môi trường học tập hoặc rèn luyện mới nào trong tháng này?"
+        "Môi trường nào đang nuôi dưỡng bạn, môi trường nào đang rút cạn bạn?",
+        "Lần gần nhất bạn bước ra khỏi vùng quen thuộc là khi nào?"
       ],
-      "microPractice": "Dành 1 buổi cuối tuần này bước ra một không gian mới (thư viện, công viên xanh hoặc một buổi sinh hoạt tri thức) để làm mới góc nhìn.",
+      "microPractice": "Chấm điểm ba môi trường bạn đang sống và làm việc, rồi chọn một thay đổi nhỏ cho môi trường rút cạn bạn nhất.",
       "recommendedCourse": {
         "title": "Khóa học Luận Nhanh Lá Số Tử Vi (S37)",
         "desc": "Lộ trình từng bước dành cho người mới: nắm vững 32 sao cốt lõi, công thức 3P4C và 5 bước tự đọc lá số của chính mình."

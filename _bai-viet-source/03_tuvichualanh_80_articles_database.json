@@ -2283,7 +2283,7 @@
       "lifeDomain": "noi-tam",
       "personaId": "quan-trung",
       "authorName": "Tộc trưởng Quán Trung",
-      "readTime": "6 phút",
+      "readTime": "12 phút",
       "featured": false,
       "tags": [
         "3P4C",
@@ -2330,7 +2330,7 @@
       "subtitle": "Thấu hiểu quy luật Âm – Dương trên lá số Tử Vi: Cùng một ngôi sao, tâm thức tỉnh thức hay vô minh sẽ quyết định nó nở thành hoa hay thành gai.",
       "mythVsTruth": {
         "myth": "Chia sao thành hai phe cố định: Cát tinh là hoàn toàn tốt, Hung tinh là hoàn toàn xấu.",
-        "truth": "Mỗi ngôi sao chỉ là một dạng năng lượng trung tính: Cát tinh dùng quá đà hoặc ỷ lại sẽ hóa thành điểm yếu; Hung tinh được rèn luyện bằng kỷ luật và lòng từ bi sẽ hóa thành kỳ tài."
+        "truth": "Không sao nào tốt tuyệt đối hay xấu tuyệt đối. Mỗi sao trong 32 sao cốt lõi đều có mặt sáng (năng lượng cao) và mặt tối (năng lượng thấp): Cát tinh dùng lệch sinh ỷ lại, Hung tinh được rèn luyện thành bản lĩnh."
       },
       "chart3P4CAxes": "Quy luật Âm – Dương trong 14 Chính Tinh & 18 Trung Tinh · [Tàng Kinh Các TVCL](wiki:3P4C)",
       "causalFlow5Steps": [
@@ -2357,29 +2357,53 @@
       ],
       "sections": [
         {
-          "heading": "1. Khi Cát tinh bị dùng lệch và khi Hung tinh được thuần hóa",
-          "bodyMarkdown": "Hãy nhìn vào thực tế: Văn Xương – Văn Khúc là sao văn chương tài hoa, nhưng nếu lệch thì thành đa sầu đa cảm, lý thuyết suông; Hóa Quyền là sao bản lĩnh, nhưng nếu quá đà thì thành độc đoán, áp đặt người thân. Ngược lại, [Kình Dương](wiki:KinhDa) hay Thất Sát nghe tên thì dữ, nhưng trong tay một bác sĩ phẫu thuật, một vận động viên marathon hay một người lãnh đạo kỷ luật, đó lại là năng lượng cứu người và tạo dựng giá trị."
+          "heading": "1. Mỗi ngôi sao là một dòng năng lượng có hai mặt",
+          "bodyMarkdown": "Trong Tử Vi Chữa Lành, các sao không phải thần linh ban thưởng hay trừng phạt. Mỗi sao là một dòng năng lượng, một hình tượng (cổ mẫu) có **mặt sáng** khi năng lượng ở mức cao và **mặt tối** khi năng lượng ở mức thấp.\n\n- Cát tinh là món quà, nhưng lạm dụng dễ sinh ỷ lại, lười biếng. Cây mọc trong nhà kính thường kém sức đề kháng trước giông bão hơn cây mọc giữa đồi trọc.\n- Hung tinh là vùng bóng tối cần được nhìn thấy. Vượt qua sự nóng nảy (Hỏa Linh), sự cố chấp (Kình Đà) hay sự dính mắc (Không Kiếp), bạn tôi luyện được bản lĩnh.\n\nDưới đây là hai mặt của **32 sao cốt lõi** (14 Chính tinh và 18 Trung tinh), tóm từ bộ tri thức TVCL."
         },
         {
-          "heading": "2. Bạn chính là người bật công tắc Mặt Sáng cho ngôi sao của mình",
-          "bodyMarkdown": "Lá số cho bạn biết mình đang cầm chất liệu gì trong tay (gỗ, sắt, nước hay lửa). Không có chất liệu nào là phế phẩm. Sắt có thể rèn thành kiếm báu hoặc để rỉ sét; lửa có thể nấu chín thức ăn hoặc gây bỏng. Nhận thức và sự tu tập mỗi ngày của bạn chính là bàn tay người thợ rèn."
+          "heading": "2. Hai mặt của 14 Chính tinh",
+          "bodyMarkdown": "- **[Tử Vi](wiki:TuVi):** sáng là khí chất lãnh đạo, trách nhiệm, bao dung; tối là cái tôi cao, sĩ diện, gia trưởng.\n- **[Thiên Cơ](wiki:ThienCo):** sáng là thông minh, ham học, tư duy nhanh; tối là nghĩ quá nhiều, lo âu, thiếu quyết đoán.\n- **[Thái Dương](wiki:ThaiDuong):** sáng là rộng rãi, chính trực, cống hiến; tối là ôm trách nhiệm quá nhiều, kiệt sức vì cho đi.\n- **[Vũ Khúc](wiki:VuKhuc):** sáng là quyết đoán, giỏi làm việc, thực tế; tối là khô khan, cứng rắn, khó bày tỏ cảm xúc.\n- **[Thiên Đồng](wiki:ThienDong):** sáng là dễ thương, biết tận hưởng, có lòng trắc ẩn; tối là dễ lười, né khó, phụ thuộc.\n- **[Liêm Trinh](wiki:LiemTrinh):** sáng là chính trực, có tiêu chuẩn, có sức hút; tối là cực đoan, hay phán xét, kiểm soát.\n- **[Thiên Phủ](wiki:ThienPhu):** sáng là chín chắn, biết tích lũy, biết quản lý; tối là bảo thủ, an phận, sợ mất an toàn.\n- **[Thái Âm](wiki:ThaiAm):** sáng là dịu dàng, sâu sắc, giàu trực giác; tối là dễ buồn, dễ lo, quá nhạy cảm.\n- **[Tham Lang](wiki:ThamLang):** sáng là sức hút, giỏi giao tiếp, kết nối; tối là dễ tham, nghiện trải nghiệm, đào hoa.\n- **[Cự Môn](wiki:CuMon):** sáng là giỏi nói, phân tích, phản biện; tối là khẩu nghiệp, thị phi, nghi ngờ.\n- **[Thiên Tướng](wiki:ThienTuong):** sáng là trách nhiệm, bảo vệ người khác, công bằng; tối là sống vì vai trò, gồng mình, cần được hệ thống công nhận.\n- **[Thiên Lương](wiki:ThienLuong):** sáng là đạo đức, lòng bảo hộ, năng lực chữa lành; tối là hay lên lớp, phán xét, già trước tuổi.\n- **[Thất Sát](wiki:ThatSat):** sáng là dũng cảm, quyết liệt, khí chất chiến binh; tối là cứng, lạnh, cực đoan.\n- **[Phá Quân](wiki:PhaQuan):** sáng là sáng tạo, dám đổi mới, không sợ phá khuôn; tối là bốc đồng, phá trước khi xây, chóng chán cái cũ."
+        },
+        {
+          "heading": "3. Hai mặt của 6 Cát tinh",
+          "bodyMarkdown": "- **Tả Phù:** sáng là trọng tình nghĩa, biết giúp người, xắn tay vào làm; tối là bao đồng, lụy tình, gánh việc thay người khác.\n- **Hữu Bật:** sáng là giỏi kết nối, có mưu lược, hỗ trợ đúng lúc; tối là chiều lòng người, thao túng mềm, rối rắm quan hệ.\n- **Văn Xương:** sáng là ham học, tư duy hệ thống, thành tựu qua chuyên môn; tối là cầu toàn, màu mè chữ nghĩa, kiêu ngạo tri thức.\n- **Văn Khúc:** sáng là năng khiếu nghệ thuật, giỏi nói, cảm xúc tinh tế; tối là ngụy biện, che giấu, lãng mạn hóa nỗi đau.\n- **Thiên Khôi:** sáng là dễ gặp quý nhân, được người có vị thế nhìn thấy; tối là phụ thuộc người nâng đỡ, vất vả vì kỳ vọng của người khác.\n- **Thiên Việt:** sáng là có cơ hội, được giúp đúng lúc, có duyên giao tiếp; tối là chờ may mắn thay vì hành động, vướng phiền não quan hệ.\n\nXem thêm: [Tả Hữu](wiki:TaHuu), [Xương Khúc](wiki:XuongKhuc), [Khôi Việt](wiki:KhoiViet)."
+        },
+        {
+          "heading": "4. Hai mặt của 6 Hung tinh",
+          "bodyMarkdown": "- **Kình Dương (Chiến thần):** sáng là quyết đoán, can đảm, ý chí sắt đá, giỏi trong môi trường cạnh tranh; tối là nóng nảy, hiếu thắng, cực đoan, dễ gây va chạm.\n- **Đà La (Nhà nghiên cứu nội tâm):** sáng là kiên trì, bất khuất, chịu áp lực tốt, \"đi chậm nhưng không ngừng tiến\"; tối là dây dưa, trì hoãn, suy nghĩ luẩn quẩn, tự dằn vặt.\n- **Hỏa Tinh (Ngọn lửa tâm linh):** sáng là chớp thời cơ, hành động nhanh, nhiệt huyết; tối là bốc đồng, giận quá mất khôn, cả thèm chóng chán.\n- **Linh Tinh (Người giữ lửa bộ tộc):** sáng là bền bỉ, trầm ổn, trực giác nhạy; tối là để bụng, uất ức ngầm, khổ tâm kéo dài.\n- **Địa Không (Nhà hiền triết):** sáng là tư duy khác lạ, đi trước thời đại, năng lượng buông bỏ; tối là lý tưởng cao nhưng hành động kém, dễ rơi vào lo âu, hụt hẫng.\n- **Địa Kiếp (Nhà sáng tạo, nhà từ thiện):** sáng là độc đáo, gan góc, vươn lên từ tro tàn; tối là tụ rồi tán, bấp bênh, nghĩ nhiều làm ít.\n\nXem thêm: [Kình Đà](wiki:KinhDa), [Hỏa Linh](wiki:HoaTinh), [Không Kiếp](wiki:KhongKiep)."
+        },
+        {
+          "heading": "5. Hai mặt của Tứ Hóa, Lộc Tồn và Thiên Mã",
+          "bodyMarkdown": "- **[Hóa Lộc](wiki:HoaLoc):** sáng là duyên với người, tài lộc tốt; tối là tiền vào nhanh ra cũng nhanh, ham hưởng thụ. *Hóa Lộc là tiền sinh ra từ nhân duyên và nỗ lực.*\n- **[Hóa Quyền](wiki:HoaQuyen):** sáng là quyết đoán, tự tin, kiên định; tối là kiêu ngạo, thích kiểm soát, áp đặt. *Hóa Quyền là quyền lực tạo ra từ năng lực và hành động.*\n- **[Hóa Khoa](wiki:HoaKhoa):** sáng là học giỏi, chuyên môn sâu; tối là trọng lý thuyết hơn thực hành, sĩ diện tri thức. *Hóa Khoa là tấm khiên bảo vệ tạo nên từ trí tuệ.*\n- **[Hóa Kỵ](wiki:HoaKy):** sáng là sâu sắc, quan sát tốt, hiểu nỗi đau con người; tối là lo âu, chấp trước, mặc cảm. *Hóa Kỵ là nơi cuộc đời buộc ta phải lớn lên.*\n- **Lộc Tồn:** sáng là lộc nhỏ mà đều, giỏi tiết kiệm; tối là keo kiệt, bảo thủ, chậm thay đổi.\n- **[Thiên Mã](wiki:ThienMa):** sáng là năng động, nhanh nhẹn, linh hoạt; tối là thiếu ổn định, đứng núi này trông núi nọ."
+        },
+        {
+          "heading": "6. Bạn là người bật công tắc mặt sáng",
+          "bodyMarkdown": "Lá số cho biết bạn đang cầm chất liệu gì trong tay. Không chất liệu nào là phế phẩm: sắt có thể rèn thành kiếm hoặc để rỉ sét, lửa có thể nấu chín thức ăn hoặc gây bỏng. Nhận thức và sự tu tập mỗi ngày là bàn tay người thợ rèn.\n\nVì vậy, khi đọc một sao, TVCL luôn hỏi hai câu: *Mặt sáng của sao này là gì để tôi dụng? Mặt tối là gì để tôi tỉnh thức và chuyển hóa?* Và luôn đọc sao trong hệ sinh thái [3P4C](wiki:3P4C), không tách riêng một sao để kết luận."
         }
       ],
       "faq": [
         {
           "question": "Quan niệm dân gian thường hiểu lầm điều gì về \"Vì sao không có ngôi sao nào hoàn toàn tốt hay hoàn toàn xấu? Nguyên lý Mặt Sáng – Mặt Tối của 32 sao\"?",
-          "answer": "Nhiều người lầm tưởng: \"Chia sao thành hai phe cố định: Cát tinh là hoàn toàn tốt, Hung tinh là hoàn toàn xấu.\". Sự thật dưới góc nhìn Tử Vi Chữa Lành: Mỗi ngôi sao chỉ là một dạng năng lượng trung tính: Cát tinh dùng quá đà hoặc ỷ lại sẽ hóa thành điểm yếu; Hung tinh được rèn luyện bằng kỷ luật và lòng từ bi sẽ hóa thành kỳ tài."
+          "answer": "Nhiều người lầm tưởng: \"Chia sao thành hai phe cố định: Cát tinh là hoàn toàn tốt, Hung tinh là hoàn toàn xấu.\". Sự thật dưới góc nhìn Tử Vi Chữa Lành: Không sao nào tốt tuyệt đối hay xấu tuyệt đối. Mỗi sao trong 32 sao cốt lõi đều có mặt sáng (năng lượng cao) và mặt tối (năng lượng thấp): Cát tinh dùng lệch sinh ỷ lại, Hung tinh được rèn luyện thành bản lĩnh."
+        },
+        {
+          "question": "Cát tinh có lúc nào thành điểm yếu không?",
+          "answer": "Có. Khi dựa dẫm vào thuận lợi, Cát tinh dễ sinh ỷ lại: Thiên Khôi thành phụ thuộc người nâng đỡ, Văn Xương thành cầu toàn, Hóa Quyền thành kiểm soát."
+        },
+        {
+          "question": "Hung tinh có mặt sáng thật không, hay chỉ là cách nói cho dễ nghe?",
+          "answer": "Bộ tri thức TVCL ghi rõ mặt sáng của từng Hung tinh: Kình Dương là quyết đoán, Đà La là kiên trì, Hỏa Tinh là chớp thời cơ, Linh Tinh là bền bỉ, Địa Không là tư duy khác lạ, Địa Kiếp là sáng tạo. Mặt sáng ấy cần được rèn luyện mới hiện ra."
         },
         {
           "question": "Làm sao để ứng dụng bài học này vào cải mệnh thực tế ngay hôm nay?",
-          "answer": "Viết tên Chính tinh cung Mệnh của bạn ra giấy, kẻ 2 cột 'Mặt sáng mình đang có' và 'Điểm lệch cần lưu tâm' để tự quan sát trong tuần này."
+          "answer": "Chọn một sao tại cung Mệnh của bạn, viết ba biểu hiện mặt sáng và ba biểu hiện mặt tối bạn thấy ở chính mình, rồi chọn một hành động nhỏ nuôi mặt sáng trong tuần này."
         }
       ],
       "reflectionPrompts": [
-        "Ngôi sao Chính tinh tại cung Mệnh của bạn đang biểu hiện nhiều ở Mặt Sáng hay Mặt Tối trong 1 tháng gần đây?",
-        "Đâu là thói quen giúp bạn giữ ngôi sao đó ở trạng thái cân bằng?"
+        "Sao nào trên lá số bạn đang sống nhiều ở mặt tối hơn mặt sáng?",
+        "Hung tinh nào của bạn đã từng giúp bạn vượt qua một giai đoạn khó?"
       ],
-      "microPractice": "Viết tên Chính tinh cung Mệnh của bạn ra giấy, kẻ 2 cột 'Mặt sáng mình đang có' và 'Điểm lệch cần lưu tâm' để tự quan sát trong tuần này.",
+      "microPractice": "Chọn một sao tại cung Mệnh của bạn, viết ba biểu hiện mặt sáng và ba biểu hiện mặt tối bạn thấy ở chính mình, rồi chọn một hành động nhỏ nuôi mặt sáng trong tuần này.",
       "recommendedCourse": {
         "title": "Khóa học Luận Nhanh Lá Số Tử Vi (S37)",
         "desc": "Lộ trình từng bước dành cho người mới: nắm vững 32 sao cốt lõi, công thức 3P4C và 5 bước tự đọc lá số của chính mình."
@@ -3533,7 +3557,7 @@
       "lifeDomain": "su-nghiep",
       "personaId": "anh-gia-su",
       "authorName": "Anh Gia Sư TVCL",
-      "readTime": "6 phút",
+      "readTime": "10 phút",
       "featured": true,
       "tags": [
         "3P4C",
@@ -3616,56 +3640,76 @@
       "subtitle": "Nguyên lý 80/20 trong Tử Vi Chữa Lành: Danh sách đầy đủ 14 Chính Tinh và 18 Trung Tinh quyết định toàn bộ cấu trúc lá số.",
       "mythVsTruth": {
         "myth": "Muốn xem được Tử Vi phải thuộc làu hơn 110 sao phụ tinh cùng hàng trăm cách cục phức tạp.",
-        "truth": "80% thông điệp quan trọng nhất của lá số nằm ở 32 ngôi sao cốt lõi: 14 Chính Tinh và 18 Trung Tinh (6 Cát tinh, 6 Hung tinh, 4 Tứ Hóa, Lộc Tồn, Thiên Mã)."
+        "truth": "Theo phân cấp sao, 32 sao cấp 1 (Giáp cấp tinh) quyết định bản chất và khung nền cuộc đời; luận kỹ 32 sao này trên mệnh bàn nguyên cục đã luận được khoảng 70–80% cuộc đời."
       },
-      "chart3P4CAxes": "32 Sao Cốt Lõi = 14 Chính Tinh + 6 Cát Tinh + 6 Hung Tinh + 4 Tứ Hóa + Lộc Tồn & Thiên Mã",
+      "chart3P4CAxes": "32 sao cốt lõi: 14 Chính tinh (giám đốc) → 6 Cát tinh → 6 Hung tinh → Tứ Hóa → Lộc Tồn – Thiên Mã",
       "causalFlow5Steps": [
         {
           "step": "SAO / GỐC",
-          "description": "Nhìn vào lá số hơn 100 sao dễ bị loạn thông tin"
+          "description": "Bước 1 (14 Chính tinh): Học hình tượng và mặt sáng – mặt tối của 14 \"vị giám đốc\" trước tiên."
         },
         {
           "step": "DUYÊN / BỐI CẢNH",
-          "description": "Áp dụng nguyên tắc lọc nhiễu: ưu tiên Chính tinh và Trung tinh"
+          "description": "Bước 2 (6 Cát tinh): Học ba cặp nguồn lực Tả Hữu, Xương Khúc, Khôi Việt."
         },
         {
           "step": "TÂM / NHẬN THỨC",
-          "description": "Xác định 14 Chính tinh (khí chất gốc) tại cung đang xét"
+          "description": "Bước 3 (6 Hung tinh): Học ba cặp năng lượng thử thách Kình Đà, Hỏa Linh, Không Kiếp và mặt sáng của chúng."
         },
         {
           "step": "HÀNH / PHƯƠNG PHÁP",
-          "description": "Kết hợp 18 Trung tinh (trợ lực Cát tinh, thử thách Hung tinh, động lực Tứ Hóa)"
+          "description": "Bước 4 (Tứ Hóa, Lộc Tồn, Thiên Mã): Học bốn lực kích hoạt Lộc, Quyền, Khoa, Kỵ và cặp Lộc – Mã."
         },
         {
           "step": "QUẢ / CHUYỂN HÓA",
-          "description": "Đọc ra bức tranh tổng thể mạch lạc, chuẩn xác mà không bị phụ tinh làm nhiễu"
+          "description": "Bước 5 (Ghép trong 3P4C): Tập đọc 32 sao cùng nhau trong Tam Phương Tứ Chính trên chính lá số của bạn."
         }
       ],
       "sections": [
         {
-          "heading": "1. Danh sách 32 ngôi sao cốt lõi trong hệ thống Tử Vi Chữa Lành",
-          "bodyMarkdown": "• 14 Chính Tinh (14 nguyên mẫu tâm thức): Tử Vi, Thiên Cơ, Thái Dương, Vũ Khúc, Thiên Đồng, Liêm Trinh, Thiên Phủ, Thái Âm, Tham Lang, Cự Môn, Thiên Tướng, Thiên Lương, Thất Sát, Phá Quân.\n• 6 Cát Tinh (6 nguồn lực trợ giúp): Tả Phù, Hữu Bật, Văn Xương, Văn Khúc, Thiên Khôi, Thiên Việt.\n• 6 Hung Tinh (6 bài học sức mạnh): [Kình Dương, Đà La](wiki:KinhDa), [Hỏa Tinh, Linh Tinh](wiki:HoaTinh), [Địa Không, Địa Kiếp](wiki:KhongKiep).\n• 4 Sao Tứ Hóa & Lộc Mã (Dòng chảy vận động): Hóa Lộc, Hóa Quyền, Hóa Khoa, [Hóa Kỵ](wiki:HoaKy), cùng Lộc Tồn và Thiên Mã."
+          "heading": "1. Tử Vi có hơn 100 sao, nhưng không phải sao nào cũng nặng như nhau",
+          "bodyMarkdown": "Người xưa đã chia hơn 100 sao thành các **cấp độ** theo sức ảnh hưởng. Hiểu phân cấp giúp bạn biết đâu là diễn viên chính, đâu là diễn viên quần chúng trong vở kịch cuộc đời, tránh cảnh \"thấy cây mà không thấy rừng\".\n\n- **Giáp cấp tinh (sao cấp 1):** 32 sao quan trọng nhất, quyết định bản chất và khung nền cuộc đời. Giống như các **giám đốc chi nhánh và trưởng phòng** định hướng chiến lược công ty.\n- **Ất cấp tinh:** các tổ trưởng, làm phụ trợ, biến sắc.\n- **Bính và Đinh cấp tinh:** nhân viên thực thi những nhiệm vụ nhỏ hơn.\n\nBộ tri thức TVCL ghi rõ: khi luận mệnh bàn nguyên cục, **trọng điểm 32 sao này đã luận được khoảng 70–80% cuộc đời.** Đó là lý do người mới nên bắt đầu từ đây."
         },
         {
-          "heading": "2. Vì sao tập trung vào 32 sao lại giúp bạn luận sâu và trúng hơn?",
-          "bodyMarkdown": "Khi bạn không còn bị phân tâm bởi những sao vụn vặt, bạn sẽ có đủ sự tĩnh lặng để nhìn sâu vào mối tương tác giữa 32 sao này qua mạng lưới [3P4C](wiki:3P4C), kết hợp cùng lăng kính Tâm lý học và Nhân quả. Đó là nền tảng vững chắc nhất trước khi bạn muốn mở rộng sang bất kỳ chi tiết nâng cao nào."
+          "heading": "2. Danh sách 32 sao cốt lõi",
+          "bodyMarkdown": "**14 Chính tinh (14 \"vị giám đốc\", 14 cổ mẫu nòng cốt):**\n\n- Hệ Tử Vi (6 sao): [Tử Vi](wiki:TuVi), [Thiên Cơ](wiki:ThienCo), [Thái Dương](wiki:ThaiDuong), [Vũ Khúc](wiki:VuKhuc), [Thiên Đồng](wiki:ThienDong), [Liêm Trinh](wiki:LiemTrinh).\n- Hệ Thiên Phủ (8 sao): [Thiên Phủ](wiki:ThienPhu), [Thái Âm](wiki:ThaiAm), [Tham Lang](wiki:ThamLang), [Cự Môn](wiki:CuMon), [Thiên Tướng](wiki:ThienTuong), [Thiên Lương](wiki:ThienLuong), [Thất Sát](wiki:ThatSat), [Phá Quân](wiki:PhaQuan).\n\n**18 Trung tinh (18 \"trưởng phòng\"):**\n\n- 6 Cát tinh: [Tả Phù – Hữu Bật](wiki:TaHuu), [Văn Xương – Văn Khúc](wiki:XuongKhuc), [Thiên Khôi – Thiên Việt](wiki:KhoiViet).\n- 6 Hung tinh: [Kình Dương – Đà La](wiki:KinhDa), [Hỏa Tinh – Linh Tinh](wiki:HoaTinh), [Địa Không – Địa Kiếp](wiki:KhongKiep).\n- Tứ Hóa: [Hóa Lộc](wiki:HoaLoc), [Hóa Quyền](wiki:HoaQuyen), [Hóa Khoa](wiki:HoaKhoa), [Hóa Kỵ](wiki:HoaKy).\n- Lộc Tồn và [Thiên Mã](wiki:ThienMa)."
+        },
+        {
+          "heading": "3. Học 14 Chính tinh qua hình tượng",
+          "bodyMarkdown": "Nếu các cung là sân khấu thì các sao là diễn viên. TVCL học 14 Chính tinh qua hình tượng triều đình để dễ nhớ:\n\n- **Tử Vi:** hoàng đế, nhà lãnh đạo. **Thiên Cơ:** quân sư, nhà cố vấn. **Thái Dương:** minh chủ, người dẫn dắt và phục vụ cộng đồng.\n- **Vũ Khúc:** nhà kinh doanh, người thực thi. **Thiên Đồng:** đứa trẻ của trời. **Liêm Trinh:** quan giám sát.\n- **Thiên Phủ:** người quản kho, người chị cả. **Thái Âm:** nhà tài chính, người giữ tiền, người phụ nữ dịu dàng. **Tham Lang:** người chinh phục, nhà ngoại giao.\n- **Cự Môn:** nhà phát ngôn, diễn thuyết. **Thiên Tướng:** tể tướng giữ ấn. **Thiên Lương:** thanh quan ngự sử, trưởng lão.\n- **Thất Sát:** chủ soái nơi biên cương. **Phá Quân:** tướng tiên phong, nhà sáng tạo.\n\nKhông có Chính tinh nào tốt tuyệt đối hay xấu tuyệt đối. Cùng khao khát khẳng định bản thân, Thái Dương chọn tỏa sáng để che chở người khác, còn Thất Sát chọn cầm kiếm ra chiến trường. Nhìn Chính tinh là thấy cái \"tạng\" của người."
+        },
+        {
+          "heading": "4. Học 18 Trung tinh: nguồn lực, thử thách và lực kích hoạt",
+          "bodyMarkdown": "- **Cát tinh là món quà:** góc nhìn TVCL xem đây là những bài học bạn \"đã thi đậu\", nay thành tài năng hoặc môi trường thuận lợi. Nhưng lạm dụng dễ sinh ỷ lại.\n- **Hung tinh là vùng bóng tối (Shadow):** những tổn thương, khuyết điểm, dính mắc mà bản ngã che giấu. Đây là \"bài kiểm tra sức bền\"; vượt qua được, bạn tôi luyện bản lĩnh.\n- **Tứ Hóa là lực kích hoạt:** Lộc mở dòng giá trị, Quyền thêm sức mạnh, Khoa thêm danh tiếng và trí tuệ, Kỵ chỉ nơi vướng mắc để lớn lên.\n- **Lộc Tồn – Thiên Mã:** tài sản tích lũy từ phước đức và tài lộc tạo ra từ sự vận động.\n\nHọc theo **cặp** sẽ nhanh hơn học từng sao lẻ, vì khi đi theo cặp, sức mạnh được nhân lên rõ rệt."
+        },
+        {
+          "heading": "5. Vì sao tập trung vào 32 sao giúp luận sâu hơn?",
+          "bodyMarkdown": "Khi không còn bị phân tâm bởi những sao vụn vặt, bạn có đủ sự tĩnh lặng để nhìn sâu vào tương tác giữa 32 sao qua mạng lưới [3P4C](wiki:3P4C): Chính tinh làm gốc, Trung tinh kích hoạt mặt sáng hay mặt tối của Chính tinh. Đó là nền tảng vững nhất trước khi mở rộng sang các sao cấp thấp hơn.\n\nLộ trình gợi ý: học 14 Chính tinh → 6 Cát tinh → 6 Hung tinh → Tứ Hóa, Lộc, Mã → tập ghép trên lá số của chính mình theo 5 bước luận nhanh."
         }
       ],
       "faq": [
         {
           "question": "Quan niệm dân gian thường hiểu lầm điều gì về \"Học Tử Vi có phải thuộc lòng hơn 100 sao? Vì sao nắm vững 32 sao cốt lõi là đọc được 80% lá số?\"?",
-          "answer": "Nhiều người lầm tưởng: \"Muốn xem được Tử Vi phải thuộc làu hơn 110 sao phụ tinh cùng hàng trăm cách cục phức tạp.\". Sự thật dưới góc nhìn Tử Vi Chữa Lành: 80% thông điệp quan trọng nhất của lá số nằm ở 32 ngôi sao cốt lõi: 14 Chính Tinh và 18 Trung Tinh (6 Cát tinh, 6 Hung tinh, 4 Tứ Hóa, Lộc Tồn, Thiên Mã)."
+          "answer": "Nhiều người lầm tưởng: \"Muốn xem được Tử Vi phải thuộc làu hơn 110 sao phụ tinh cùng hàng trăm cách cục phức tạp.\". Sự thật dưới góc nhìn Tử Vi Chữa Lành: Theo phân cấp sao, 32 sao cấp 1 (Giáp cấp tinh) quyết định bản chất và khung nền cuộc đời; luận kỹ 32 sao này trên mệnh bàn nguyên cục đã luận được khoảng 70–80% cuộc đời."
+        },
+        {
+          "question": "Các sao ngoài 32 sao có vô dụng không?",
+          "answer": "Không. Chúng là sao cấp thấp hơn (tổ trưởng, nhân viên), làm phụ trợ và biến sắc. Nên học sau khi đã vững 32 sao cấp 1."
+        },
+        {
+          "question": "Nên học 32 sao theo thứ tự nào?",
+          "answer": "Bắt đầu từ 14 Chính tinh, rồi 6 Cát tinh, 6 Hung tinh, Tứ Hóa và cuối cùng là Lộc Tồn – Thiên Mã; học theo cặp sẽ nhanh hơn."
         },
         {
           "question": "Làm sao để ứng dụng bài học này vào cải mệnh thực tế ngay hôm nay?",
-          "answer": "Liệt kê toàn bộ các sao thuộc nhóm 32 sao cốt lõi đang có mặt tại 3 cung Mệnh – Tài – Quan của bạn ra một trang giấy riêng."
+          "answer": "Lấy lá số của bạn, khoanh tròn đúng 32 sao cốt lõi, bỏ qua các sao còn lại, và viết một câu về Chính tinh tại cung Mệnh."
         }
       ],
       "reflectionPrompts": [
-        "Trên cung Mệnh và cung Thân của bạn hiện có những ngôi sao nào nằm trong danh sách 32 sao cốt lõi này?",
-        "Ngôi sao nào trong số đó bạn cảm thấy giống tính cách ngoài đời của mình nhất?"
+        "Trong 32 sao, bạn đã thuộc hình tượng của bao nhiêu sao?",
+        "Chính tinh tại cung Mệnh của bạn là \"vị giám đốc\" nào?"
       ],
-      "microPractice": "Liệt kê toàn bộ các sao thuộc nhóm 32 sao cốt lõi đang có mặt tại 3 cung Mệnh – Tài – Quan của bạn ra một trang giấy riêng.",
+      "microPractice": "Lấy lá số của bạn, khoanh tròn đúng 32 sao cốt lõi, bỏ qua các sao còn lại, và viết một câu về Chính tinh tại cung Mệnh.",
       "recommendedCourse": {
         "title": "Khóa học Luận Nhanh Lá Số Tử Vi (S37)",
         "desc": "Lộ trình từng bước dành cho người mới: nắm vững 32 sao cốt lõi, công thức 3P4C và 5 bước tự đọc lá số của chính mình."
@@ -3887,7 +3931,7 @@
       "lifeDomain": "su-nghiep",
       "personaId": "anh-gia-su",
       "authorName": "Anh Gia Sư TVCL",
-      "readTime": "7 phút",
+      "readTime": "11 phút",
       "featured": false,
       "tags": [
         "3P4C",
@@ -3930,56 +3974,85 @@
       "subtitle": "Làm sao để cầm một lá số Tử Vi lên là biết bắt đầu đọc từ đâu, nối các cung thế nào mà không bị ngợp trước hàng trăm ngôi sao?",
       "mythVsTruth": {
         "myth": "Nhìn lá số theo kiểu chấm phá tùy hứng: thấy sao nào quen thì đọc sao đó, không có trình tự trước sau.",
-        "truth": "Đọc lá số chuẩn cần đi đúng 5 bước từ tổng quan đến chi tiết: (1) Xét trục Mệnh – Thân & Cục, (2) Đọc 3P4C của Mệnh – Tài – Quan, (3) Xét gốc Phúc – Phối – Di, (4) Điểm danh Cát/Hung & Tứ Hóa, (5) Tổng hợp hướng Cải Mệnh."
+        "truth": "Đọc lá số chuẩn đi 5 bước từ tổng quan đến chi tiết: (1) Xét nhanh Cát – Hung của cung, (2) Luận Chính tinh làm gốc, (3) Luận Trung tinh trong 3P4C, (4) Kết hợp Chính tinh với Trung tinh, (5) Kiểm tra sức mạnh các sao trên thực tế đời sống rồi mới đưa ra hướng chuyển hóa."
       },
-      "chart3P4CAxes": "5 Bước Luận Giải Chuẩn TVCL: Mệnh–Thân → Mệnh–Tài–Quan → Phúc–Phối–Di → Tứ Hóa → Chiến lược Cải Mệnh",
+      "chart3P4CAxes": "5 Bước Luận Nhanh TVCL: Cát – Hung của cung → Chính tinh làm gốc → Trung tinh 3P4C → Kết hợp Chính tinh + Trung tinh → Kiểm tra trên thực tế",
       "causalFlow5Steps": [
         {
           "step": "SAO / GỐC",
-          "description": "Bước 1: Xác định Mệnh, vị trí Thân cư và tương quan Mệnh – Cục"
+          "description": "Bước 1 (Quét radar tổng quan): Xét nhanh Cát – Hung của cung cần xem. Nhiều Cát tinh là vùng thuận lợi; nhiều Hung tinh là vùng áp lực, thử thách và bài học."
         },
         {
           "step": "DUYÊN / BỐI CẢNH",
-          "description": "Bước 2: Đọc trục nội lực Mệnh – Tài Bạch – Quan Lộc – Thiên Di"
+          "description": "Bước 2 (Gặp gỡ gia chủ): Luận Chính tinh làm gốc. Nhớ từ khóa mặt sáng – mặt tối, xét Miếu/Vượng/Đắc/Bình/Hãm; cung Vô Chính Diệu thì mượn Chính tinh cung đối."
         },
         {
           "step": "TÂM / NHẬN THỨC",
-          "description": "Bước 3: Đọc trục tinh thần và quan hệ [Phúc Đức](wiki:PhucDuc) – [Phu Thê](wiki:PhuThe)"
+          "description": "Bước 3 (Gặp mặt quản gia): Luận Trung tinh trong [3P4C](wiki:3P4C) theo thứ tự sức mạnh: bản cung 100%, đối cung 60%, tam hợp 30%, chú ý các cặp sao."
         },
         {
           "step": "HÀNH / PHƯƠNG PHÁP",
-          "description": "Bước 4: Tìm vị trí 4 sao Tứ Hóa (Lộc, Quyền, Khoa, [Hóa Kỵ](wiki:HoaKy)) để thấy động lực chính"
+          "description": "Bước 4 (Bức tranh toàn cảnh): Kết hợp Chính tinh với Trung tinh. Nguyên tắc vàng: Trung tinh chỉ kích hoạt những gì Chính tinh vốn có."
         },
         {
           "step": "QUẢ / CHUYỂN HÓA",
-          "description": "Bước 5: Chỉ ra Cung Cát để Dụng (thành công) và Cung Hung để Chuyển hóa (hạnh phúc)"
+          "description": "Bước 5 (Đối chiếu đời thật): Kiểm tra sao nào đang thật sự biểu hiện, mặt sáng hay mặt tối, rồi đưa ra lời khuyên để chuyển hóa."
         }
       ],
       "sections": [
         {
-          "heading": "1. Vì sao cần một quy trình 5 bước cố định khi đọc lá số?",
-          "bodyMarkdown": "Giống như một người bác sĩ đọc hồ sơ sức khỏe, nếu không có quy trình chuẩn, bạn sẽ rất dễ bị một vài ngôi sao bắt mắt đánh lạc hướng. Quy trình 5 bước của Tử Vi Chữa Lành giúp bạn giữ được cái nhìn toàn cục: luôn đặt con người (Mệnh – Thân) và gốc rễ tinh thần ([Cung Phúc Đức](wiki:PhucDuc)) làm trung tâm trước khi đi vào từng khía cạnh tiền bạc hay tình cảm."
+          "heading": "1. Vì sao cần một quy trình 5 bước cố định?",
+          "bodyMarkdown": "Một lá số có 12 cung và hàng chục ngôi sao. Không có trình tự, người mới rất dễ bị một sao \"nổi bật\" kéo đi: thấy [Hóa Kỵ](wiki:HoaKy) là lo, thấy Hóa Lộc là mừng, rồi kết luận cả một đời người từ một chi tiết.\n\nQuy trình 5 bước luận nhanh của Tử Vi Chữa Lành đi từ tổng quan đến chi tiết, giống như bước vào một ngôi nhà:\n\n- **Bước 1 – Quét radar:** đứng ngoài cổng, cảm nhận không khí ngôi nhà (cung này thuận hay nhiều sóng gió).\n- **Bước 2 – Gặp gỡ gia chủ:** biết người làm chủ ngôi nhà là ai (Chính tinh).\n- **Bước 3 – Gặp mặt quản gia:** xem gia chủ có ai phò tá, ai gây khó (Trung tinh trong [3P4C](wiki:3P4C)).\n- **Bước 4 – Bức tranh toàn cảnh:** gia chủ và quản gia cùng nhau tạo nên điều gì.\n- **Bước 5 – Đối chiếu đời thật:** những gì lá số gợi ý có đang thật sự diễn ra trong đời sống không.\n\nCác bước dưới đây có thể áp dụng cho cung Mệnh hoặc bất kỳ cung nào bạn đang muốn tìm hiểu."
         },
         {
-          "heading": "2. Điểm khác biệt ở Bước 5 của Tử Vi Chữa Lành",
-          "bodyMarkdown": "Một buổi luận giải theo tinh thần TVCL không bao giờ dừng lại ở việc phán 'cung này tốt, cung kia xấu'. Bước thứ 5 luôn là bước quan trọng nhất: dựa trên [3P4C](wiki:3P4C), chỉ ra cho chủ nhân lá số biết đâu là điểm tựa (cung Cát) để họ phát huy tài năng, và đâu là bài tập về nhà (cung Hung) kèm phương pháp tâm lý/đạo học cụ thể để tháo gỡ."
+          "heading": "2. Bước 1: Xét nhanh Cát – Hung của cung (quét radar tổng quan)",
+          "bodyMarkdown": "Mục tiêu của bước này là có một cảm nhận ban đầu về năng lượng của cung: đây là vùng thuận lợi hay vùng bài học. Thao tác rất đơn giản: nhìn lướt qua cung cần xem. Nhiều Cát tinh thì thuận lợi, dễ dàng. Nhiều Hung tinh thì nhiều áp lực, thử thách và bài học.\n\nTVCL tổng hợp thành **6 trường hợp Cát – Hung** của một cung:\n\n- **Bách Quan Triều Củng** (Chính tinh + 2 cặp Cát tinh, không gặp Hung tinh): hình tượng vị minh quân có văn võ bá quan phò tá. Mặt tốt đẹp nhất được phát huy, quý nhân nhiều, làm gì cũng thuận.\n- **Cát Cách** (Chính tinh + Cát tinh, không gặp Hung tinh): người có tài lại có bạn tốt và môi trường thuận lợi; nhiều trợ lực.\n- **Cát Hung lẫn lộn** (Chính tinh + Cát tinh + Hung tinh): viên ngọc quý còn bám đất đá. Dùng Cát tinh để phát triển, dùng Hung tinh để rèn bản lĩnh; cần xét sức mạnh trung tinh 3P4C để biết cung nghiêng về phía nào.\n- **Hung Cách** (Chính tinh + Hung tinh, không có Cát tinh): người đi trong mưa gió mà chưa có ô dù. Mặt sáng của Chính tinh bị che bớt, dễ gặp cản trở, phải nỗ lực nhiều hơn.\n- **Đế Ngộ Hung Đồ** (Chính tinh + 2 cặp Hung tinh, không có Cát tinh): hình tượng vị vua sa cơ giữa vòng vây. Đây là vùng bài học sâu nhất của lá số, nơi thăng trầm và tâm lý dễ bất ổn, cần được quan tâm và chữa lành sớm.\n- **Tại Dã Cô Quân** (Chính tinh đứng một mình, không trung tinh đi kèm): nhà hiền triết ở ẩn. Có tài nhưng thiếu người chia sẻ, thiếu trợ lực, dễ cảm thấy không ai hiểu mình.\n\nĐây mới chỉ là cảm nhận đầu tiên, chưa phải kết luận. Một cung \"Hung Cách\" không có nghĩa đời bạn khổ; nó cho biết đây là nơi bạn cần đầu tư nhiều nhận thức và nỗ lực hơn."
+        },
+        {
+          "heading": "3. Bước 2: Luận Chính tinh làm gốc (gặp gỡ gia chủ)",
+          "bodyMarkdown": "Mục tiêu là hiểu cốt lõi tính cách và bản chất vấn đề của cung. Chính tinh là gia chủ, nên luôn luận Chính tinh trước rồi mới đến các sao khác.\n\n- **Nhớ từ khóa mặt sáng – mặt tối của Chính tinh.** Mặt sáng là khi năng lượng sao ở mức cao, mặt tối là khi năng lượng ở mức thấp. Ví dụ: [Tử Vi](wiki:TuVi) là hình tượng hoàng đế, nhà lãnh đạo; [Thiên Cơ](wiki:ThienCo) là quân sư, nhà cố vấn; [Thiên Lương](wiki:ThienLuong) là thanh quan ngự sử, trưởng lão của cộng đồng.\n- **Kiểm tra trạng thái Miếu / Vượng / Đắc / Bình / Hãm** để biết sao đang mạnh hay yếu.\n- **Cung Vô Chính Diệu** (không có Chính tinh): lấy Chính tinh ở cung đối diện mang về để luận.\n- **Cung có 2 Chính tinh:** luận cả hai, xem sao nào đang thể hiện mạnh hơn và sức mạnh kết hợp của hai sao nằm ở điểm nào.\n\nTVCL ví lá số như **gen di truyền**. Sao Miếu Vượng giống gen tốt: có tiềm năng, nhưng lười biếng thì vẫn thất bại. Sao Hãm giống điểm xuất phát thấp hơn: nếu nỗ lực gấp đôi và rèn luyện đúng cách, bạn vẫn có thể thành công, thậm chí rực rỡ hơn người thường. Cổ nhân gọi đó là \"Phản vi kỳ cách\".\n\nVì vậy, cách cải mệnh đầu tiên chính là **phát huy điểm mạnh, tiềm năng tốt của Chính tinh và hạn chế điểm yếu** ngay từ bước này."
+        },
+        {
+          "heading": "4. Bước 3: Luận Trung tinh trong 3P4C (gặp mặt quản gia)",
+          "bodyMarkdown": "Nếu Bước 2 cho biết \"ông giám đốc là ai\", thì Bước 3 cho biết \"ông ấy có quân lính không, quản gia là ai\". Ở bước này, bạn xét **tất cả các Trung tinh** trong [Tam Phương Tứ Chính](wiki:3P4C) hội về cung đang xét.\n\n**3P4C là gì?** Lấy cung Mệnh làm ví dụ: Tam Phương gồm Mệnh + Tài Bạch + Quan Lộc (tam giác vàng); Tứ Chính thêm cung Thiên Di ở vị trí xung chiếu.\n\n**18 Trung tinh quan trọng cần xét:**\n\n- 6 Cát tinh: [Tả Phù – Hữu Bật](wiki:TaHuu), [Thiên Khôi – Thiên Việt](wiki:KhoiViet), [Văn Xương – Văn Khúc](wiki:XuongKhuc).\n- 6 Hung tinh: [Kình Dương – Đà La](wiki:KinhDa), [Hỏa Tinh – Linh Tinh](wiki:HoaTinh), [Địa Không – Địa Kiếp](wiki:KhongKiep).\n- Tứ Hóa: [Hóa Lộc](wiki:HoaLoc), [Hóa Quyền](wiki:HoaQuyen), [Hóa Khoa](wiki:HoaKhoa), [Hóa Kỵ](wiki:HoaKy).\n- Lộc Tồn và [Thiên Mã](wiki:ThienMa).\n\n**Cách làm:**\n\n- Xét theo thứ tự: bản cung, đối cung, tam hợp và giáp cung (nếu có cặp trung tinh giáp).\n- Liệt kê từ khóa, đặc tính tốt – xấu của từng trung tinh.\n- Đo sức mạnh khi tác động về bản cung: **bản cung 100%, đối cung 60%, tam hợp 30%**.\n- Lưu ý sức mạnh theo cặp: một cặp sao đi cùng nhau mạnh hơn hẳn một sao lẻ."
+        },
+        {
+          "heading": "5. Bước 4: Kết hợp Chính tinh + Trung tinh (bức tranh toàn cảnh)",
+          "bodyMarkdown": "Giờ là lúc ghép gia chủ với quản gia để nhìn bức tranh toàn cảnh.\n\n**Nguyên tắc vàng: Trung tinh chỉ kích hoạt những gì Chính tinh có.** Câu hỏi then chốt là: trung tinh đang làm nổi bật tính chất nào của Chính tinh, mặt sáng hay mặt tối?\n\nTVCL tổng hợp 4 trường hợp thường gặp:\n\n- **Chính tinh mạnh + nhiều Cát tinh:** dễ thành công lớn, thuận lợi.\n- **Chính tinh mạnh + nhiều Sát tinh:** gian nan nhưng vẫn có thể thành công, thậm chí bạo phát, đi kèm vài vết xước trên đường.\n- **Chính tinh yếu (Hãm) + nhiều Cát tinh:** được che chở, cuộc sống bình an, nhẹ nhàng, nhưng khó làm việc lớn nếu không chủ động rèn luyện.\n- **Chính tinh yếu + nhiều Sát tinh:** cổ thư mô tả đây là cách cục nhiều gian nan. Dưới góc nhìn TVCL, đây là vùng bài học lớn nhất, nơi cần học sớm, xây nội lực và tìm trợ lực bên ngoài.\n\nĐây vẫn là **khuynh hướng**, chưa phải sự kiện. Bước 5 mới cho biết khuynh hướng ấy đang thật sự diễn ra thế nào."
+        },
+        {
+          "heading": "6. Bước 5: Kiểm tra sức mạnh các sao trên thực tế cuộc sống",
+          "bodyMarkdown": "Đây là bước tạo nên khác biệt của Tử Vi Chữa Lành. **Lá số là tấm bản đồ (Tiên thiên). Bước chân của bạn mới tạo nên con đường (Hậu thiên).**\n\nỞ bước này, bạn đối chiếu lá số với đời thật bằng ba câu hỏi:\n\n- Các Chính tinh đang biểu hiện sức mạnh nào? Từ khóa nào (mặt sáng hay mặt tối) đang được sử dụng?\n- Trung tinh có đang phát huy sức mạnh không? Sức mạnh đó là gì?\n- Từ đó, lời khuyên nào giúp người này chuyển hóa?\n\n**Ví dụ từ bài luận của một học viên TVCL:** cung Mệnh có Tử Vi và Phá Quân, kèm Đà La. Học viên tự nhận thấy: mặt Tử Vi là bao dung, ngay thẳng, trách nhiệm, bao quát tốt; mặt Phá Quân là quyết liệt, sáng tạo, nghĩ là làm. Khi còn trẻ, Phá Quân chi phối mạnh hơn; sau tuổi 30, Tử Vi rõ nét hơn. Đà La khiến có lúc trì hoãn, kéo dài, ngược với tính nhanh nhẹn của Phá Quân. Từ đó học viên nhận ra hướng phù hợp là sáng tạo, điều hành, dẫn dắt tinh thần cho người khác, và hiện đang làm giáo dục.\n\nĐiểm quý của bài luận này: người học không dừng ở việc đọc sao, mà soi từng sao vào chính đời mình, thấy sao nào đang \"lên\", sao nào đang ngủ, rồi mới chọn hướng đi."
+        },
+        {
+          "heading": "7. Từ 5 bước luận đến hành trình Cải Mệnh",
+          "bodyMarkdown": "Năm bước luận không nhằm dán nhãn \"cung này tốt, cung kia xấu\". Chúng giúp bạn đi trọn con đường mà TVCL gọi là **Tri Mệnh (biết mình) → Thuận Mệnh (chấp nhận mình) → Cải Mệnh (sửa mình)**.\n\n- Bước 1–4 giúp bạn **biết mình**: thấy rõ vùng thuận lợi và vùng bài học.\n- Bước 5 giúp bạn **chấp nhận mình**: thấy mình đang sống mặt nào của các sao.\n- Lời khuyên cuối cùng mở đường cho **sửa mình**: phát huy mặt sáng, chuyển hóa mặt tối.\n\nLưu ý quan trọng: luận lá số giúp hiểu khuynh hướng, không thay thế chuyên gia y tế, tâm lý, pháp lý hay tài chính khi bạn cần hỗ trợ chuyên môn."
         }
       ],
       "faq": [
         {
           "question": "Quan niệm dân gian thường hiểu lầm điều gì về \"Quy trình 5 bước luận một lá số Tử Vi chuẩn xác, mạch lạc cho người mới bắt đầu\"?",
-          "answer": "Nhiều người lầm tưởng: \"Nhìn lá số theo kiểu chấm phá tùy hứng: thấy sao nào quen thì đọc sao đó, không có trình tự trước sau.\". Sự thật dưới góc nhìn Tử Vi Chữa Lành: Đọc lá số chuẩn cần đi đúng 5 bước từ tổng quan đến chi tiết: (1) Xét trục Mệnh – Thân & Cục, (2) Đọc 3P4C của Mệnh – Tài – Quan, (3) Xét gốc Phúc – Phối – Di, (4) Điểm danh Cát/Hung & Tứ Hóa, (5) Tổng hợp hướng Cải Mệnh."
+          "answer": "Nhiều người lầm tưởng: \"Nhìn lá số theo kiểu chấm phá tùy hứng: thấy sao nào quen thì đọc sao đó, không có trình tự trước sau.\". Sự thật dưới góc nhìn Tử Vi Chữa Lành: Đọc lá số chuẩn đi 5 bước từ tổng quan đến chi tiết: (1) Xét nhanh Cát – Hung của cung, (2) Luận Chính tinh làm gốc, (3) Luận Trung tinh trong 3P4C, (4) Kết hợp Chính tinh với Trung tinh, (5) Kiểm tra sức mạnh các sao trên thực tế đời sống rồi mới đưa ra hướng chuyển hóa."
+        },
+        {
+          "question": "Cung không có Chính tinh (Vô Chính Diệu) thì luận thế nào?",
+          "answer": "Lấy Chính tinh ở cung đối diện mang về để luận ở Bước 2, rồi vẫn xét Trung tinh trong 3P4C như bình thường."
+        },
+        {
+          "question": "Vì sao đối cung chỉ tính 60% và tam hợp 30%?",
+          "answer": "Đó là trọng số TVCL dùng để đo sức ảnh hưởng của trung tinh về bản cung: sao tại bản cung tác động trực tiếp nhất (100%), cung đối chiếu vào mạnh thứ hai (60%), hai cung tam hợp hỗ trợ từ xa (30%)."
         },
         {
           "question": "Làm sao để ứng dụng bài học này vào cải mệnh thực tế ngay hôm nay?",
-          "answer": "Hãy tập viết một bản tự luận ngắn 5 gạch đầu dòng cho chính lá số của bạn theo đúng 5 bước trên."
+          "answer": "Chọn cung Mệnh của bạn, viết 5 dòng tương ứng 5 bước, rồi ở dòng thứ 5 ghi một ví dụ thật trong đời cho thấy sao nào đang biểu hiện."
         }
       ],
       "reflectionPrompts": [
-        "Khi nhìn vào lá số của mình, bạn đã xác định được cung Thân nằm ở đâu và bộ 3P4C của cung Mệnh gồm những Chính tinh nào chưa?",
-        "Đâu là cung sáng nhất trên lá số để bạn làm điểm tựa?"
+        "Cung Mệnh của bạn rơi vào trường hợp nào trong 6 trường hợp Cát – Hung?",
+        "Chính tinh tại Mệnh của bạn đang được bạn sống ở mặt sáng hay mặt tối nhiều hơn?",
+        "Trung tinh mạnh nhất trong 3P4C đang làm nổi bật tính chất nào của Chính tinh?"
       ],
-      "microPractice": "Hãy tập viết một bản tự luận ngắn 5 gạch đầu dòng cho chính lá số của bạn theo đúng 5 bước trên.",
+      "microPractice": "Chọn cung Mệnh của bạn, viết 5 dòng tương ứng 5 bước, rồi ở dòng thứ 5 ghi một ví dụ thật trong đời cho thấy sao nào đang biểu hiện.",
       "recommendedCourse": {
         "title": "Khóa học Luận Nhanh Lá Số Tử Vi (S37)",
         "desc": "Lộ trình từng bước dành cho người mới: nắm vững 32 sao cốt lõi, công thức 3P4C và 5 bước tự đọc lá số của chính mình."
@@ -5275,7 +5348,7 @@
       "lifeDomain": "noi-tam",
       "personaId": "quan-trung",
       "authorName": "Tộc trưởng Quán Trung",
-      "readTime": "7 phút",
+      "readTime": "12 phút",
       "featured": false,
       "tags": [
         "3P4C",
@@ -5326,45 +5399,97 @@
       "subtitle": "Hệ thống hóa 8 con đường thực hành giúp bạn chuyển hóa lá số một cách khoa học, nhân văn mà không cần bất kỳ hình thức mê tín nào.",
       "mythVsTruth": {
         "myth": "Cải mệnh là làm lễ cúng sao giải hạn, đổi tên, mua vật phẩm phong thủy đắt tiền để đổi số.",
-        "truth": "Cải mệnh chân chính là quá trình chuyển hóa Tâm và Hành qua 8 nguyên lý: Dụng Chính tinh, Dụng Cung Cát, Phát huy Cát tinh, Thuần hóa Hung tinh, Dụng Tứ Hóa, Dụng Vận, Mượn lực 3P4C và Chữa lành tổn thương."
+        "truth": "Cải mệnh chân chính là quá trình chuyển hóa Tâm và Hành qua 8 nguyên lý: Dụng điểm mạnh Chính tinh, Dụng Cung Cát, Phát huy Cát tinh, Chuyển hóa Hung tinh, Dụng Tứ Hóa, Dụng Vận, Cải cung qua 3P4C và Chữa lành tổn thương."
       },
-      "chart3P4CAxes": "8 Nguyên Lý Cải Mệnh TVCL · 'Muốn thành công dụng cung Cát, muốn hạnh phúc chuyển hóa cung Hung'",
+      "chart3P4CAxes": "8 Nguyên Lý Cải Mệnh TVCL: Chính tinh → Cung Cát → Cát tinh → Hung tinh → Tứ Hóa → Vận → Cải cung qua 3P4C → Chữa lành tổn thương",
       "causalFlow5Steps": [
         {
           "step": "SAO / GỐC",
-          "description": "1–3: Phát huy Mặt Sáng của Chính tinh, Cung Cát và 6 Cát tinh làm đòn bẩy thành tựu"
+          "description": "Nguyên lý 1 (Dụng điểm mạnh Chính tinh): Dụng điểm mạnh Chính tinh tại Mệnh và Thân, biến điểm mạnh thành mũi nhọn, đồng thời hạn chế điểm yếu."
+        },
+        {
+          "step": "SAO / GỐC",
+          "description": "Nguyên lý 2 (Dụng Cung Cát): Dụng Cung Cát, lấy những cung mạnh nhất lá số làm đòn bẩy phát triển cuộc đời."
         },
         {
           "step": "DUYÊN / BỐI CẢNH",
-          "description": "4–5: Thuần hóa 6 Hung tinh và nhận diện bài học của [Hóa Kỵ](wiki:HoaKy)"
+          "description": "Nguyên lý 3 (Phát huy Cát tinh): Phát huy sức mạnh 6 Cát tinh: trợ lực của [Tả Hữu](wiki:TaHuu), quý nhân [Khôi Việt](wiki:KhoiViet), tri thức [Xương Khúc](wiki:XuongKhuc)."
+        },
+        {
+          "step": "DUYÊN / BỐI CẢNH",
+          "description": "Nguyên lý 4 (Chuyển hóa Hung tinh): Chuyển hóa Hung tinh: không sợ, không loại bỏ, mà biến sát khí thành quyết đoán, trì trệ thành kiên trì."
         },
         {
           "step": "TÂM / NHẬN THỨC",
-          "description": "6: Dụng Vận — biết thời tiến, thời lùi theo 3 tầng vận"
+          "description": "Nguyên lý 5 (Dụng Tứ Hóa): Dụng Tứ Hóa: vận dụng Lộc, Quyền, Khoa và học bài học từ [Hóa Kỵ](wiki:HoaKy)."
+        },
+        {
+          "step": "TÂM / NHẬN THỨC",
+          "description": "Nguyên lý 6 (Dụng Vận): Dụng Vận: biết thời, biết lúc tiến, lúc lùi, gieo hạt đúng mùa."
         },
         {
           "step": "HÀNH / PHƯƠNG PHÁP",
-          "description": "7: Cải cung qua cung bằng mạng lưới [3P4C](wiki:3P4C)"
+          "description": "Nguyên lý 7 (Cải cung qua 3P4C): Cải cung qua [3P4C](wiki:3P4C): thay đổi một cung bằng nội lực (100%), cung đối (60%) và hai cung tam hợp (30%)."
         },
         {
           "step": "QUẢ / CHUYỂN HÓA",
-          "description": "8: Chữa lành vết thương nội tâm bằng CBT, ACT, [IFS](wiki:IFS) và Đạo học"
+          "description": "Nguyên lý 8 (Chữa lành tổn thương): Chữa lành tổn thương mà lá số chỉ ra qua sao lệch/hãm, cung hung và hung tinh tại cung."
         }
       ],
       "sections": [
         {
-          "heading": "1. Nhóm nguyên lý Dương (Vươn lên tạo dựng thành tựu)",
-          "bodyMarkdown": "gồm 3 nguyên lý đầu: (1) Dụng điểm mạnh của Chính tinh tại Mệnh – Thân; (2) Dụng Cung Cát — tập trung 80% nguồn lực sự nghiệp vào những cung sáng nhất trên lá số để làm bàn đạp; và (3) Phát huy tối đa sức mạnh của 6 Cát tinh (sự trợ giúp của Tả Hữu, trí tuệ Xương Khúc, quý nhân Khôi Việt)."
+          "heading": "1. Cải mệnh trong Tử Vi Chữa Lành là gì?",
+          "bodyMarkdown": "Trong TVCL, lá số là **bản đồ khuynh hướng**, không phải bản án. Cải mệnh không phải là cầu xin đổi số, chờ phép màu hay làm nghi lễ thay cho hành động có trách nhiệm. Cải mệnh là đi trọn con đường:\n\n**Tri Mệnh (biết mình) → Thuận Mệnh (chấp nhận mình) → Cải Mệnh (sửa mình).**\n\nTám nguyên lý dưới đây là tám \"cửa\" để bước vào con đường đó. Bạn không cần làm cả tám cùng lúc. Hãy đọc hết, rồi chọn một cửa phù hợp nhất với lá số và hoàn cảnh hiện tại của mình."
         },
         {
-          "heading": "2. Nhóm nguyên lý Âm (Chuyển hóa khổ đau để tìm thấy hạnh phúc)",
-          "bodyMarkdown": "Gồm 5 nguyên lý tiếp theo: (4) Không sợ Hung tinh mà chuyển sát khí thành nghị lực; (5) Vận dụng Lộc – Quyền – Khoa và tháo gỡ điểm vướng [Hóa Kỵ](wiki:HoaKy); (6) Thuận thời theo Đại vận – Tiểu vận; (7) Dùng nghệ thuật mượn lực [3P4C](wiki:3P4C) khi một cung bị khóa; và sâu sắc nhất là (8) Chữa lành những tổn thương tâm thức ẩn sau các cung Hung. Đó chính là trọn vẹn 'Cây Cải Mệnh' của Bộ Tộc."
+          "heading": "2. Nguyên lý 1: Dụng điểm mạnh Chính tinh",
+          "bodyMarkdown": "Tập trung phát huy năng lực cốt lõi của Chính tinh tại Mệnh và Thân, đưa điểm mạnh đó thành **mũi nhọn, xuất sắc**, đồng thời hạn chế điểm yếu.\n\nBốn câu hỏi để thực hành:\n\n- Chính tinh của tôi còn **tiềm năng** nào chưa được phát huy?\n- **Công việc** hiện tại đã phù hợp với Chính tinh chưa?\n- Điểm yếu, tổn thương nào của Chính tinh đang chi phối tôi?\n- Cách chuyển hóa điểm yếu đó là gì?"
+        },
+        {
+          "heading": "3. Nguyên lý 2: Dụng Cung Cát",
+          "bodyMarkdown": "Cung nào tốt, tập trung vào cung đó. 12 cung là 12 khía cạnh cuộc đời; dồn năng lượng vào cung đẹp sẽ nâng cả nền tảng cuộc đời lên. Với cung hung, ta học bài học và chuyển hóa (xem Nguyên lý 4 và 8).\n\nTrước hết, xem **Mệnh hay Thân đẹp hơn** để phát triển cái đẹp, rồi tìm những **cung đẹp nhất lá số**. Gợi ý cách dụng từng cung tốt:\n\n- **Mệnh – Thân tốt:** phát huy nội lực, tự mình học hỏi, rèn luyện, gây dựng cơ đồ.\n- **Thiên Di tốt:** thay đổi môi trường; làm việc gắn với đi lại, năng động, thương mại.\n- **Phu Thê tốt:** nhờ vợ/chồng, gia đình bên vợ/chồng; kết hợp làm ăn với người bạn đời.\n- **Tử Tức tốt:** nhờ con, làm việc liên quan đến trẻ em, hoặc nhờ các học trò tâm phúc.\n- **Phụ Mẫu tốt:** nhờ cha mẹ, cấp trên, người quản lý, các vị thầy.\n- **Huynh Đệ – Nô Bộc tốt:** làm việc, đầu tư cùng anh em, bạn bè, đàn em; học cách để được mọi người quý mến, trợ giúp.\n- **Tài Bạch tốt:** kinh doanh, dùng đồng tiền tạo ra tiền.\n- **Phúc Đức tốt:** dựa vào học tập, tri thức, thay đổi tư tưởng để thay đổi cuộc đời.\n- **Điền Trạch tốt:** kinh doanh dựa trên bất động sản, cho thuê, nhà xưởng; hoặc làm việc tại một công ty tốt.\n- **Quan Lộc tốt:** chọn môi trường có thăng tiến về cấp bậc, vị trí tạo ra tài sản."
+        },
+        {
+          "heading": "4. Nguyên lý 3: Phát huy sức mạnh Cát tinh",
+          "bodyMarkdown": "Sống đúng với năng lượng tích cực và phát huy tối đa ba cặp Cát tinh:\n\n- **[Tả Phù – Hữu Bật](wiki:TaHuu):** trợ lực từ anh em, người ngang vai, đàn em. Cần phát huy khả năng lãnh đạo, tính tự lực và cách đối nhân xử thế.\n- **[Thiên Khôi – Thiên Việt](wiki:KhoiViet):** trợ lực từ bậc bề trên, nhiều cơ hội, nhiều quý nhân. Phát huy mối quan hệ với người có vị thế, biết phò tá và tham vấn họ.\n- **[Văn Xương – Văn Khúc](wiki:XuongKhuc):** sức mạnh từ tri thức, học tập, nghiên cứu, thi cử, tài hoa, ăn nói, nghệ thuật. Cần tập trung đào sâu chuyên môn của mình."
+        },
+        {
+          "heading": "5. Nguyên lý 4: Chuyển hóa Hung tinh",
+          "bodyMarkdown": "Không loại bỏ, không sợ Hung tinh. Muốn hạnh phúc, cần chuyển năng lượng Hung tinh thành sức mạnh và động lực trưởng thành. Mỗi Hung tinh đều có một hình tượng mặt sáng:\n\n- **Kình Dương – Chiến thần dũng cảm:** can đảm, dũng mãnh, hợp công việc cần sự quyết đoán mạnh mẽ.\n- **Đà La – Nhà nghiên cứu nội tâm:** kiên trì, bền bỉ, giỏi quan sát, nghiên cứu sâu, làm việc lặp lại lâu dài; bài học là cởi mở và quyết đoán hơn.\n- **Hỏa Tinh – Ngọn lửa tâm linh:** nhiệt tình, sức bộc phát mạnh, chớp được thời cơ.\n- **Linh Tinh – Người giữ lửa bộ tộc:** trầm ổn, điềm tĩnh, tính toán kỹ, sức chiến đấu bền bỉ.\n- **Địa Không – Nhà hiền triết, ẩn sĩ, nhà chữa lành:** hợp công việc tinh thần, sáng tạo, tư duy bay bổng (tâm lý, tâm linh, mệnh lý); trước hết cần chữa lành cho chính mình.\n- **Địa Kiếp – Nhà từ thiện, nhà sáng tạo:** nhiều ý tưởng mới lạ, phá vỡ khuôn khổ, đặt lợi ích người khác lên trước.\n\nKhi đi theo cặp, [Kình Dương – Đà La](wiki:KinhDa), [Hỏa – Linh](wiki:HoaTinh), [Không – Kiếp](wiki:KhongKiep) càng cần được \"đặt đúng chỗ\": công việc cần sức chiến đấu, cần sự bền bỉ, hoặc cần chiều sâu chuyên môn vượt khỏi trào lưu."
+        },
+        {
+          "heading": "6. Nguyên lý 5: Dụng Tứ Hóa",
+          "bodyMarkdown": "Muốn phát huy tính chất nào, hãy dụng Hóa cho bộ sao đó:\n\n- **[Hóa Lộc](wiki:HoaLoc) – Nhà kinh doanh tài ba:** tài lộc, nhân duyên, giao tiếp, ngoại giao, kinh doanh.\n- **[Hóa Quyền](wiki:HoaQuyen) – Lãnh đạo quyền lực:** sức ảnh hưởng, chức vụ, kiểm soát; công việc cần mạnh mẽ, quyết đoán.\n- **[Hóa Khoa](wiki:HoaKhoa) – Giảng sư danh tiếng:** học hành, bằng cấp, danh tiếng; nghề có tay nghề cao, mang tính đại diện, đại chúng.\n- **[Hóa Kỵ](wiki:HoaKy) – Người giải quyết vấn đề khó, nhà nghiên cứu nội tâm:** công việc xử lý khó khăn cho người khác (luật sư, kiểm thử, phê bình, thực thi pháp luật) hoặc công việc đào sâu suy tư như triết học, mệnh lý, y học, khoa học.\n\nHóa Kỵ không phải điều để sợ. Nó chỉ ra nơi ta vướng mắc, và cũng là nơi ta có thể đào sâu nhất."
+        },
+        {
+          "heading": "7. Nguyên lý 6: Dụng Vận",
+          "bodyMarkdown": "Biết thời. Biết thuận thời. Biết lúc tiến, biết lúc lùi. Biết gieo hạt đúng mùa. TVCL gợi ý các cách dụng vận (Đại vận, Tiểu vận):\n\n- **Thay đổi môi trường (Thiên Di):** cách bền vững và tác động sâu nhất, nhất là khi bế tắc về công việc, tình duyên, quan hệ. Chọn vận Thiên Di tốt; muốn đổi việc thì chọn vận Quan Lộc, Phụ Mẫu tốt.\n- **Thay đổi tư tưởng (Phúc Đức):** thay thái độ, đổi cuộc đời. Tu tập, thiền, đọc sách, tham gia nhóm học tập, tìm ý nghĩa sống và sứ mệnh, chữa lành tổn thương.\n- **Làm nhiều thiện nghiệp:** giúp người khó khăn, làm từ thiện, tình nguyện, làm công việc ý nghĩa giúp mình, giúp người.\n- **Học tập (Quan Lộc – Hóa Khoa):** nâng chuyên môn, nâng tầm tư duy; dễ tiếp cận nhưng cần thời gian.\n- **Cải thiện mối quan hệ:** chọn đại vận/tiểu vận có cung quan hệ tốt (Huynh, Nô, Phụ, Tử, Phu) để nhờ trợ giúp, kết hợp với người khác.\n\n**Khi vận khó:** hành xử cẩn trọng, phòng bị trước, tránh mạo hiểm và xung đột, nhẫn nại chờ thời; tập trung học tập, tu tập, kiện toàn nội lực. Vận sức khỏe khó thì chú trọng khám chữa bệnh với bác sĩ.\n\n**Khi vận thuận:** mở rộng, phát triển nhanh, dốc sức đạt thành tựu. Vận thuận cho việc gì thì dụng việc đó: vận thi cử tốt thì thi lấy bằng cấp, vận có Lộc tốt thì mở rộng kinh doanh."
+        },
+        {
+          "heading": "8. Nguyên lý 7: Cải cung qua cung (3P4C)",
+          "bodyMarkdown": "Một cung có thể được thay đổi không chỉ từ chính nó, mà từ cả mạng lưới [Tam Phương Tứ Chính](wiki:3P4C):\n\n- **Nội lực của chính cung đó:** ảnh hưởng 100%.\n- **Ngoại lực 1 – cung đối:** ảnh hưởng 60%.\n- **Ngoại lực 2 – hai cung tam hợp:** ảnh hưởng 30%.\n\nTrên thực tế, cải thiện một cung thì các cung trong 3P4C của nó đều được nâng lên.\n\n**Ví dụ: cải cung [Phu Thê](wiki:PhuThe) mà không tác động trực tiếp vào Phu Thê.**\n\n- **Dụng Quan Lộc (cung đối):** công việc ổn định, có thu nhập tốt và có niềm vui sẽ cải Phu Thê rất mạnh. Công việc tốt cũng giúp bạn bớt bám chấp, bớt nương tựa vào người thương.\n- **Dụng Thiên Di (tam hợp):** ra ngoài nhiều hơn, gặp gỡ nhiều người hơn thì có nhiều nhân duyên hơn, và hiểu mình, hiểu người hơn khi chọn bạn đời.\n- **Dụng [Phúc Đức](wiki:PhucDuc) (tam hợp):** làm thiện nghiệp, thay đổi thái độ, học tâm lý con người, chữa lành những mô thức cũ trong tình cảm. Người thương thường tương ứng với mức trưởng thành nội tâm của chính bạn."
+        },
+        {
+          "heading": "9. Nguyên lý 8: Chữa lành tổn thương",
+          "bodyMarkdown": "Lá số cho ta thấy **bản đồ tổn thương**. Tổn thương có thể đến từ:\n\n- Mặt tối của Chính tinh phát huy quá mạnh.\n- Hung tinh hoành hành trong khi Cát tinh ẩn nấp.\n- Các cung hung đang chi phối lá số.\n- Vận trình của vận hạn.\n\n**Cách chữa lành:**\n\n- Từng bước tu tập, chuyển hóa nội tâm. Nội tâm là gốc, mọi thay đổi bắt nguồn từ bên trong.\n- Nhận ra nguyên nhân: tổn thương từ trải nghiệm quá khứ, từ khung nhận thức; thanh lọc cảm xúc tiêu cực và xây dựng hành vi mới.\n- Chuyển hóa năng lượng các biểu tượng trên lá số (sao, cung) để phát huy tiềm năng tốt nhất của chúng.\n\nĐây là nguyên lý sâu nhất, và cũng là hành trình xuyên suốt của khóa học Tử Vi Chữa Lành, nơi Tử Vi được kết hợp với tâm lý học ([CBT](wiki:CBT), [ACT](wiki:ACT), [IFS](wiki:IFS)) và Đạo học. Với những tổn thương nặng, hãy tìm đến chuyên gia trị liệu tâm lý; Tử Vi Chữa Lành không thay thế trị liệu."
+        },
+        {
+          "heading": "10. Bắt đầu từ đâu?",
+          "bodyMarkdown": "Hãy chọn **một cung** bạn muốn cải nhất lúc này, rồi tự trả lời:\n\n- Cung đối của nó là cung nào? Cung tam hợp là những cung nào?\n- Cải từ nội lực: bạn sẽ làm gì để cải thiện chính cung đó?\n- Cải từ ngoại lực cung đối: bạn sẽ tận dụng cung đối thế nào?\n- Cải từ ngoại lực tam hợp: bạn sẽ tận dụng hai cung tam hợp thế nào?\n\nVà nhớ rằng: **muốn thành công, dụng cung Cát; muốn hạnh phúc, chuyển hóa cung Hung.** Bạn có thể chia sẻ câu chuyện của mình với Bộ Tộc để được các tộc viên cùng đồng hành."
         }
       ],
       "faq": [
         {
           "question": "Quan niệm dân gian thường hiểu lầm điều gì về \"Tám nguyên lý Cải Mệnh cốt lõi trong Tử Vi Chữa Lành\"?",
-          "answer": "Nhiều người lầm tưởng: \"Cải mệnh là làm lễ cúng sao giải hạn, đổi tên, mua vật phẩm phong thủy đắt tiền để đổi số.\". Sự thật dưới góc nhìn Tử Vi Chữa Lành: Cải mệnh chân chính là quá trình chuyển hóa Tâm và Hành qua 8 nguyên lý: Dụng Chính tinh, Dụng Cung Cát, Phát huy Cát tinh, Thuần hóa Hung tinh, Dụng Tứ Hóa, Dụng Vận, Mượn lực 3P4C và Chữa lành tổn thương."
+          "answer": "Nhiều người lầm tưởng: \"Cải mệnh là làm lễ cúng sao giải hạn, đổi tên, mua vật phẩm phong thủy đắt tiền để đổi số.\". Sự thật dưới góc nhìn Tử Vi Chữa Lành: Cải mệnh chân chính là quá trình chuyển hóa Tâm và Hành qua 8 nguyên lý: Dụng điểm mạnh Chính tinh, Dụng Cung Cát, Phát huy Cát tinh, Chuyển hóa Hung tinh, Dụng Tứ Hóa, Dụng Vận, Cải cung qua 3P4C và Chữa lành tổn thương."
+        },
+        {
+          "question": "Có cần thực hành cả 8 nguyên lý cùng lúc không?",
+          "answer": "Không. Hãy chọn một nguyên lý phù hợp nhất với lá số và hoàn cảnh hiện tại, thực hành đủ sâu, rồi mới mở rộng sang nguyên lý khác."
+        },
+        {
+          "question": "Cung Phu Thê không đẹp thì có cải được không?",
+          "answer": "Có thể cải qua 3P4C mà không cần tác động trực tiếp vào Phu Thê: dụng Quan Lộc (cung đối, 60%), dụng Thiên Di và Phúc Đức (tam hợp, 30%)."
         },
         {
           "question": "Làm sao để ứng dụng bài học này vào cải mệnh thực tế ngay hôm nay?",
@@ -5372,8 +5497,9 @@
         }
       ],
       "reflectionPrompts": [
-        "Trong 8 nguyên lý cải mệnh trên, nguyên lý nào bạn đã áp dụng hiệu quả và nguyên lý nào bạn đang muốn thực hành sâu hơn?",
-        "Đâu là 'vùng thiên tài' (Cung Cát) trên lá số của bạn?"
+        "Trong 8 nguyên lý, nguyên lý nào bạn đã vô tình áp dụng hiệu quả, và nguyên lý nào bạn muốn thực hành sâu hơn?",
+        "Đâu là cung đẹp nhất trên lá số để bạn làm đòn bẩy?",
+        "Cung bạn muốn cải nhất lúc này có thể được nâng đỡ từ cung đối và tam hợp nào?"
       ],
       "microPractice": "Chọn đúng 1 nguyên lý trong 8 nguyên lý trên làm chủ đề thực hành trọng tâm của bạn trong tháng này.",
       "recommendedCourse": {
@@ -5437,7 +5563,7 @@
       "lifeDomain": "su-nghiep",
       "personaId": "anh-gia-su",
       "authorName": "Anh Gia Sư TVCL",
-      "readTime": "6 phút",
+      "readTime": "10 phút",
       "featured": false,
       "tags": [
         "3P4C",
@@ -5507,12 +5633,24 @@
       ],
       "sections": [
         {
-          "heading": "1. Nếu 6 Cát tinh là 6 dòng nước mát trên lá số của bạn",
-          "bodyMarkdown": "Tả Phù là người cộng sự thực tiễn, trọng tình nghĩa; Hữu Bật là nhà mưu lược mềm mỏng, khéo kết nối; Văn Xương là trí tuệ sách vở, chính luận; Văn Khúc là tiếng lòng nghệ thuật và sự tinh tế; Thiên Khôi là quý nhân nâng đỡ công khai; Thiên Việt là sự trợ giúp âm thầm đúng lúc ngặt nghèo."
+          "heading": "1. Cát tinh là công cụ tốt, phải biết dùng mới có kết quả",
+          "bodyMarkdown": "Bộ tri thức TVCL định nghĩa: Cát tinh là các sao mang năng lượng hỗ trợ, tăng cường, bảo vệ. Cát tinh **không phải chìa khóa vàng tự động mở cửa**, mà là công cụ tốt, phải biết dùng mới có kết quả.\n\n6 Cát tinh chia thành 3 cặp năng lượng nâng đỡ:\n\n- **[Tả Phù – Hữu Bật](wiki:TaHuu):** trợ lực, đồng đội, thực thi. Đôi tay giúp ta có đồng đội và năng lực tổ chức.\n- **[Văn Xương – Văn Khúc](wiki:XuongKhuc):** tri thức, tài hoa, biểu đạt.\n- **[Thiên Khôi – Thiên Việt](wiki:KhoiViet):** quý nhân, cơ hội, nâng đỡ. Đôi mắt giúp ta thấy con đường cao hơn.\n\nKhi Cát tinh đi theo cặp, sức mạnh được nhân lên rõ rệt."
         },
         {
-          "heading": "2. Tuyệt chiêu 'Tạo Cát tinh' ngay cả khi cung của bạn ít sao tốt",
-          "bodyMarkdown": "Trong Tử Vi Chữa Lành có một bí quyết rất đẹp: ngay cả khi cung Mệnh của bạn không có sẵn Khôi Việt hay Tả Hữu, bạn vẫn có thể 'tạo Cát tinh trong đời thực' bằng cách sống đúng với năng lượng của chúng: chủ động giúp đỡ người khác (tạo Tả Hữu), chăm chỉ đọc sách ghi chép (tạo Xương Khúc) và lễ phép, cầu thị với người đi trước (thu hút Khôi Việt)."
+          "heading": "2. Tả Phù – Hữu Bật: đôi tay trợ lực",
+          "bodyMarkdown": "**Tả Phù** là cánh tay trái trung nghĩa, người phụ tá biết xắn tay vào việc.\n\n- Mặt sáng: trọng tình nghĩa, biết giúp người, có trách nhiệm.\n- Mặt tối: dễ bao đồng, lụy tình, gánh việc thay người khác.\n- Bài học chữa lành: *giúp người nhưng không cứu hộ; trọng tình nhưng không đánh mất ranh giới.*\n- Cách phát huy: xây đội nhóm tốt, lãnh đạo bằng trách nhiệm, học kỹ năng hợp tác.\n\n**Hữu Bật** là cánh tay phải mưu lược, hỗ trợ bằng sự linh hoạt, khéo léo, khả năng điều phối.\n\n- Mặt sáng: giỏi kết nối, có mưu lược, hỗ trợ đúng lúc, phối hợp nguồn lực.\n- Mặt tối: dễ chiều lòng người, thao túng mềm, rối rắm quan hệ.\n- Bài học chữa lành: *dùng mưu lược để phụng sự, không dùng để kiểm soát.*\n- Cách phát huy: học giao tiếp, lãnh đạo mềm, làm cố vấn, điều phối, xây mạng lưới có đạo đức."
+        },
+        {
+          "heading": "3. Văn Xương – Văn Khúc: trí tuệ và tài hoa",
+          "bodyMarkdown": "**Văn Xương** là cây bút của trí tuệ sáng rõ: học thuật, văn chương, lý trí, thi cử, diễn đạt mạch lạc.\n\n- Mặt sáng: ham học, có năng lực nghiên cứu, tư duy hệ thống, thành tựu qua chuyên môn.\n- Mặt tối: cầu toàn, màu mè chữ nghĩa, quá tin vào lý trí, kiêu ngạo tri thức.\n- Bài học chữa lành: *tri thức cần đi cùng khiêm tốn; biết nhiều chưa đủ, cần sống đúng.*\n- Cách phát huy: học chuyên môn sâu, viết, nghiên cứu, giảng dạy, xây hệ thống tri thức.\n\n**Văn Khúc** là tiếng đàn của người nghệ sĩ: tinh tế, cảm thụ, ngôn từ mềm mại.\n\n- Mặt sáng: năng khiếu nghệ thuật, giỏi nói, cảm xúc tinh tế, tài kể chuyện.\n- Mặt tối: ngụy biện, che giấu, cảm xúc hóa vấn đề, lãng mạn hóa nỗi đau.\n- Bài học chữa lành: *biểu đạt cảm xúc chân thật, không dùng cảm xúc để né sự thật.*\n- Cách phát huy: nghệ thuật, viết lách, diễn thuyết, kể chuyện."
+        },
+        {
+          "heading": "4. Thiên Khôi – Thiên Việt: quý nhân và cơ hội",
+          "bodyMarkdown": "**Thiên Khôi** là ngọn đèn của bậc thầy: quý nhân, danh dự, cơ hội chính đáng, sự nâng đỡ từ người đi trước.\n\n- Mặt sáng: dễ gặp quý nhân, được người có vị thế nhìn thấy, có duyên với học thuật và danh tiếng.\n- Mặt tối: phụ thuộc vào người nâng đỡ, vất vả vì kỳ vọng của người khác, tự cho mình đặc biệt.\n- Bài học chữa lành: *tu dưỡng bản thân để xứng đáng với cơ hội.*\n- Cách phát huy: gần người giỏi, tìm thầy tốt, học từ bậc cao hơn, giữ thái độ khiêm tốn.\n\n**Thiên Việt** là bàn tay quý nhân đúng lúc, sự trợ duyên xuất hiện trong hoàn cảnh cụ thể.\n\n- Mặt sáng: dễ có cơ hội, được giúp đúng lúc, có duyên giao tiếp.\n- Mặt tối: chờ may mắn thay vì hành động, phụ thuộc duyên bên ngoài, phiền não quan hệ.\n- Bài học chữa lành: *đón nhận trợ giúp mà không đánh mất tự chủ.*\n- Cách phát huy: mở lòng với cơ hội, giữ nhân duyên tốt, biết ơn người giúp mình, không lợi dụng quý nhân."
+        },
+        {
+          "heading": "5. Dụng Cát tinh trong hành trình Cải Mệnh",
+          "bodyMarkdown": "Phát huy Cát tinh là **nguyên lý thứ 3** trong 8 nguyên lý Cải Mệnh của TVCL:\n\n- Có **Tả Hữu**: phát huy khả năng lãnh đạo, tính tự lực và cách đối nhân xử thế với anh em, bạn bè, đàn em.\n- Có **Khôi Việt**: phát huy quan hệ với bậc bề trên, biết phò tá và tham vấn họ.\n- Có **Xương Khúc**: tập trung đào sâu chuyên môn, học tập, nghiên cứu.\n\nVà nhớ rằng Cát tinh cũng có mặt tối. Lạm dụng thuận lợi dễ sinh ỷ lại; người biết dùng Cát tinh là người vừa nhận món quà, vừa tự rèn để xứng đáng với nó."
         }
       ],
       "faq": [
@@ -5521,15 +5659,23 @@
           "answer": "Nhiều người lầm tưởng: \"Có Tả Phù, Hữu Bật, Văn Xương, Văn Khúc, Thiên Khôi, Thiên Việt là cứ ngồi yên chờ quý nhân đến dọn sẵn thành công.\". Sự thật dưới góc nhìn Tử Vi Chữa Lành: Mỗi cặp Cát tinh là một loại nguồn lực: Tả – Hữu là tinh thần đồng đội, Xương – Khúc là tri thức và sự thấu cảm, Khôi – Việt là tinh thần cầu học để thu hút quý nhân. Bạn phải chủ động sống với phẩm chất đó thì Cát tinh mới sáng."
         },
         {
+          "question": "Cung có Cát tinh thì chắc chắn tốt?",
+          "answer": "Không chắc chắn. Cát tinh là công cụ tốt, phải biết dùng mới có kết quả; dùng lệch thì mặt tối hiện ra, như Thiên Khôi thành phụ thuộc hay Văn Xương thành cầu toàn."
+        },
+        {
+          "question": "Vì sao Cát tinh đi theo cặp lại mạnh hơn?",
+          "answer": "Bộ tri thức TVCL ghi nhận khi Cát tinh đi theo cặp (Tả Hữu, Xương Khúc, Khôi Việt), sức mạnh được nhân lên rõ rệt."
+        },
+        {
           "question": "Làm sao để ứng dụng bài học này vào cải mệnh thực tế ngay hôm nay?",
-          "answer": "Chủ động gửi lời hỏi thăm hoặc hỗ trợ một người đồng nghiệp/bạn học đang gặp việc khó trong tuần này (kích hoạt năng lượng Tả Phù – Hữu Bật)."
+          "answer": "Tìm Cát tinh mạnh nhất trong 3P4C cung Mệnh của bạn và làm một việc nuôi mặt sáng của nó trong tuần này."
         }
       ],
       "reflectionPrompts": [
-        "Cặp Cát tinh nào (Tả Hữu, Xương Khúc hay Khôi Việt) đang đóng ở vị trí đẹp nhất trên lá số của bạn?",
-        "Hôm nay bạn có thể làm gì để trở thành 'quý nhân' của một người xung quanh?"
+        "Cát tinh nào trên lá số bạn đang dùng tốt, Cát tinh nào bạn đang ỷ lại?",
+        "Quý nhân gần nhất trong đời bạn đến qua con đường nào?"
       ],
-      "microPractice": "Chủ động gửi lời hỏi thăm hoặc hỗ trợ một người đồng nghiệp/bạn học đang gặp việc khó trong tuần này (kích hoạt năng lượng Tả Phù – Hữu Bật).",
+      "microPractice": "Tìm Cát tinh mạnh nhất trong 3P4C cung Mệnh của bạn và làm một việc nuôi mặt sáng của nó trong tuần này.",
       "recommendedCourse": {
         "title": "Khóa học Luận Nhanh Lá Số Tử Vi (S37)",
         "desc": "Lộ trình từng bước dành cho người mới: nắm vững 32 sao cốt lõi, công thức 3P4C và 5 bước tự đọc lá số của chính mình."
@@ -6867,7 +7013,7 @@
       "lifeDomain": "tai-chinh",
       "personaId": "anh-gia-su",
       "authorName": "Anh Gia Sư TVCL",
-      "readTime": "7 phút",
+      "readTime": "11 phút",
       "featured": false,
       "tags": [
         "3P4C",
@@ -6918,56 +7064,80 @@
       "subtitle": "Nếu cung Tài Bạch của bạn có Hung tinh, Hóa Kỵ hoặc Chính tinh Hãm địa, đây là 4 bước thực tế giúp bạn chuyển hóa dòng chảy tài chính.",
       "mythVsTruth": {
         "myth": "Cung Tài Bạch có sao xấu thì cả đời nghèo túng, có cố gắng làm lụng cũng công dã tràng.",
-        "truth": "Tài Bạch chỉ là 'cổng thu – chi', còn nguồn sinh tài nằm ở cả 5 cung liên kết (Mệnh, Quan Lộc, Phúc Đức, Điền Trạch, Phụ Mẫu/Nô Bộc). Áp dụng 4 chiến lược cải Tài giúp bạn bịt lỗ rò rỉ và mở nguồn thu bền vững."
+        "truth": "Tài Bạch không đứng một mình. Theo công thức 3P4C, Tài Bạch được cải từ chính nó (100%), từ cung đối Phúc Đức (60%) và từ hai cung tam hợp Quan Lộc, Mệnh (30%). Cung Tài sáng không bảo đảm giàu; cung Tài khó không kết án nghèo."
       },
-      "chart3P4CAxes": "Cung Tài Bạch (100%) ← Đối cung [Phúc Đức](wiki:PhucDuc) (60%) + Tam hợp Mệnh (30%) & Quan Lộc (30%)",
+      "chart3P4CAxes": "Cải Tài Bạch qua 3P4C: Bản cung Tài (100%) → Phúc Đức (đối cung, 60%) → Quan Lộc (tam hợp, 30%) → Mệnh (tam hợp, 30%)",
       "causalFlow5Steps": [
         {
           "step": "SAO / GỐC",
-          "description": "Chiến lược 1: Chữa lành tâm thức tiền bạc và bồi đắp phước báu tại cung Phúc Đức (60% lực)"
+          "description": "Chiến lược 1 (Bản cung Tài – 100%): Chọn cách kiếm tiền hợp với Chính tinh và Trung tinh đang ở cung Tài Bạch."
         },
         {
           "step": "DUYÊN / BỐI CẢNH",
-          "description": "Chiến lược 2: Nâng cấp năng lực chuyên môn tạo giá trị thật tại cung Quan Lộc (30% lực)"
+          "description": "Chiến lược 2 (Phúc Đức – 60%): Chữa lành tâm thức tài chính, làm thiện nghiệp, giữ thái độ biết ơn; Phúc chưa đẹp thì tránh việc trông chờ may rủi."
         },
         {
           "step": "TÂM / NHẬN THỨC",
-          "description": "Chiến lược 3: Chuyển dòng tiền mặt sang tích sản bền vững tại cung Điền Trạch"
-        },
-        {
-          "step": "HÀNH / PHƯƠNG PHÁP",
-          "description": "Chiến lược 4: Thuần hóa Hung tinh tại Tài Bạch (kỷ luật chi tiêu, không đầu cơ mạo hiểm)"
+          "description": "Chiến lược 3 (Quan Lộc – 30%): Cải công việc. Với người làm thuê, Quan Lộc là cung quan trọng nhất để cải tiền bạc."
         },
         {
           "step": "QUẢ / CHUYỂN HÓA",
-          "description": "Dòng tài chính chuyển từ bấp bênh sang ổn định và thịnh vượng"
+          "description": "Chiến lược 4 (Mệnh – 30%): Kiếm tiền theo sức mạnh của Chính tinh tại cung Mệnh."
         }
       ],
       "sections": [
         {
-          "heading": "1. Năm cung sinh tài trên lá số Tử Vi mà ít người để ý",
-          "bodyMarkdown": "Nhiều người xem tài lộc chỉ nhìn chằm chằm vào mỗi cung Tài Bạch. Thực tế trong hệ thống Tử Vi Chữa Lành, dòng tiền của bạn là kết quả của cả một hệ sinh thái: Mệnh (năng lực và kỷ luật bản thân), Quan Lộc (sự nghiệp tạo ra dòng tiền đều đặn), [Cung Phúc Đức](wiki:PhucDuc) (độ dày phước báu và sự sáng suốt khi ra quyết định tiền bạc), Điền Trạch (cái kho giữ tài sản) và Nô Bộc (khách hàng, đối tác)."
+          "heading": "1. Hiểu đúng cung Tài Bạch",
+          "bodyMarkdown": "Trong Tử Vi, [Tài Bạch](wiki:CungTaiBach) phản ánh sinh kế, dòng tiền và năng lực quản trị tài nguyên. Bộ Tử Vi Chữa Lành Tài Lộc nêu một nguyên tắc nền: **không đọc Tài Bạch đơn lẻ.** Tối thiểu phải đối chiếu Mệnh/Thân, Quan Lộc, Phúc Đức, Điền Trạch và Thiên Di. **Cung Tài sáng không bảo đảm giàu; cung Tài khó không kết án nghèo.**\n\nSáu chức năng của tiền cần quan sát:\n\n- **Kiếm:** tiền thường đến qua năng lực, quan hệ, tài sản hay biến động?\n- **Nhận:** tôi có cho phép mình nhận thù lao xứng đáng không?\n- **Giữ:** tiền đến rồi ở lại, chuyển thành tài sản, hay nhanh chóng rời đi?\n- **Dùng:** chi tiêu đang phục vụ giá trị sống hay đang điều hòa cảm xúc?\n- **Chia sẻ:** tôi cho đi từ tự do, hay từ tội lỗi, sợ bị chê trách?\n- **Luân chuyển:** tôi có biết dùng tiền tạo giá trị mới với rủi ro phù hợp?"
         },
         {
-          "heading": "2. Bốn chiến lược thực tế khi cung Tài Bạch có Hung tinh hoặc Hóa Kỵ",
-          "bodyMarkdown": "• Không giữ nhiều tiền mặt nhàn rỗi dễ hao tán mà chuyển hóa sang tài sản hữu hình hoặc đầu tư vào tri thức (Điền Trạch / Hóa Khoa).\n• Chọn phương thức thu nhập gắn với chuyên môn sâu tại Quan Lộc thay vì lướt sóng may rủi.\n• Khi Tài Bạch có [Địa Không – Địa Kiếp](wiki:KhongKiep), hãy chủ động trích một phần thu nhập làm việc thiện ('Tán tài tạo phước') để chuyển hóa năng lượng hao tán thành phước lành."
+          "heading": "2. Bản đồ nguồn tài lộc trên 12 cung",
+          "bodyMarkdown": "Xem nguồn tiền là bước trước khi xem số lượng tiền. Một người có thể không mạnh tự doanh nhưng lại tốt qua nghề nghiệp, tài sản hoặc cộng đồng.\n\n- **Mệnh – Thân:** nội lực, phong cách dùng tiền, khả năng gánh trách nhiệm.\n- **[Quan Lộc](wiki:CungQuanLoc):** nghề nghiệp, chức vụ, chuyên môn, thăng tiến.\n- **[Thiên Di](wiki:CungThienDi):** thương mại, bán hàng, thị trường bên ngoài.\n- **[Điền Trạch](wiki:CungDienTrach):** nhà đất, mặt bằng, tài sản tích lũy.\n- **[Phúc Đức](wiki:PhucDuc):** khả năng hưởng thụ, quyết định rủi ro, đầu tư.\n- **Phụ Mẫu – Phu Thê – Huynh Đệ – Tử Tức:** hỗ trợ gia đình, hợp tác, chung vốn, thừa kế.\n- **Nô Bộc:** khách hàng, đội ngũ, cộng đồng.\n- **Tật Ách:** bảo hiểm, bồi thường, và cả chi phí sức khỏe cần quản trị."
+        },
+        {
+          "heading": "3. Công thức cải Tài Bạch qua 3P4C",
+          "bodyMarkdown": "Theo nguyên lý cải cung của TVCL:\n\n- **Bản cung Tài Bạch:** 100% sức mạnh.\n- **Cung đối – Phúc Đức:** ảnh hưởng 60%.\n- **Hai cung tam hợp – Quan Lộc và Mệnh:** mỗi cung ảnh hưởng 30%.\n\nTrên thực tế, cải thiện một cung thì các cung trong [3P4C](wiki:3P4C) của nó đều được nâng lên. Tiền tốt hơn thì đời sống tinh thần (Phúc) dễ tốt hơn; Phúc tốt, Quan tốt thì tiền cũng thuận hơn. Từ đó có 4 chiến lược dưới đây."
+        },
+        {
+          "heading": "4. Chiến lược 1: Cải ngay tại cung Tài (100%)",
+          "bodyMarkdown": "Chủ động chọn cách kiếm tiền hợp với Chính tinh và Trung tinh đang ở cung Tài.\n\n**Ví dụ: Thiên Cơ cư Tài.** Thiên Cơ là trí tài tinh, kiếm tiền bằng khối óc, tùy cơ ứng biến, dùng trí tuệ và kỹ năng. Hợp với những việc chu kỳ nhanh như trung gian, xuất bản, phần mềm, giao thông, du lịch. Nếu Thiên Cơ hóa Khoa thì có thể kiếm tiền bằng tư vấn, cố vấn, dựa vào chuyên môn và tiếng tăm.\n\nKhi cung Tài có Hung tinh, bộ Tài Lộc gợi ý chuyển hóa thay vì sợ hãi: Kình Dương (kiếm tiền như cuộc chiến), Đà La (dòng chảy tài lộc bị trì trệ), Địa Không – Địa Kiếp (bài học về mất mát vật chất)... đều là những giá trị và bài học cần nhận diện để dụng đúng chỗ."
+        },
+        {
+          "heading": "5. Chiến lược 2: Cải Tài qua Phúc Đức (60%)",
+          "bodyMarkdown": "[Phúc Đức](wiki:PhucDuc) đối cung Tài Bạch, nên muốn Tài tốt có thể cải từ Phúc:\n\n- **Làm nhiều thiện nghiệp** để hỗ trợ vận may và cơ hội.\n- **Chữa lành tâm thức tài chính:** xác định vì sao mình mất tiền hoặc ra quyết định sai về tiền. Quan niệm về tiền thường chịu ảnh hưởng từ gia đình, xã hội, trải nghiệm quá khứ.\n- Giữ thái độ **vui vẻ, biết ơn**; trân trọng sự giúp đỡ của mọi người để nhân duyên tốt lên.\n- **Chọn công việc phù hợp** với đời sống tinh thần của mình.\n\n**Phúc, Tài và đầu tư:**\n\n- Phúc chưa đẹp: hạn chế đầu tư, đầu cơ, những việc trông chờ may rủi.\n- Phúc và Tài đều khó: càng tránh việc dựa vào may rủi.\n- Phúc đẹp, Tài đẹp: thuận lợi hơn trong đầu tư và quyết định.\n\nVí dụ: Phúc Đức có Cự Môn hóa Kỵ thường hay so sánh tài lộc với người xung quanh, tự tạo áp lực. Có thể dụng nghề ăn nói, bán hàng, giải quyết rắc rối cho người khác; đồng thời giảm bớt sự sắc bén trong lời nói để đời sống tinh thần nhẹ hơn."
+        },
+        {
+          "heading": "6. Chiến lược 3 và 4: Cải Tài qua Quan Lộc và Mệnh (30%)",
+          "bodyMarkdown": "**Qua Quan Lộc:** nếu tiền của bạn đến chủ yếu từ công việc làm thuê, Quan Lộc là cung quan trọng nhất để cải tiền bạc. Thay đổi tích cực ở công việc mang lại cơ hội, thăng tiến và may mắn về tiền.\n\n- Ví dụ Quan Lộc có Thiên Đồng – Thiên Lương: hợp công việc chăm sóc, mang lại giá trị tinh thần và vật chất cho người khác.\n- Nếu Quan Lộc khó: chọn môi trường hỗ trợ cho sự phát triển, hợp với tính chất cung Quan, thay vì cố leo cấp bậc trong tổ chức hành chính.\n\n**Qua Mệnh:** kiếm tiền theo sức mạnh của cung Mệnh.\n\n- Ví dụ Thái Âm cư Mệnh hóa Lộc: nhiều nhân duyên về tài lộc; hợp công việc kế hoạch, tích lũy, nhà đất; nên học quản lý tài chính và dùng tiền để chăm sóc đời sống tinh thần."
+        },
+        {
+          "heading": "7. Lưu ý quan trọng",
+          "bodyMarkdown": "Tử Vi gợi một ngôn ngữ để hiểu khuynh hướng của mình với tiền. Quyết định tài chính thực tế vẫn cần dữ kiện, giới hạn rủi ro và ý kiến chuyên môn phù hợp. Tử Vi Chữa Lành không thay thế tư vấn tài chính, đầu tư hay pháp lý."
         }
       ],
       "faq": [
         {
           "question": "Quan niệm dân gian thường hiểu lầm điều gì về \"Cung Tài Bạch không quyết định bạn giàu hay nghèo\"?",
-          "answer": "Nhiều người lầm tưởng: \"Cung Tài Bạch có sao xấu thì cả đời nghèo túng, có cố gắng làm lụng cũng công dã tràng.\". Sự thật dưới góc nhìn Tử Vi Chữa Lành: Tài Bạch chỉ là 'cổng thu – chi', còn nguồn sinh tài nằm ở cả 5 cung liên kết (Mệnh, Quan Lộc, Phúc Đức, Điền Trạch, Phụ Mẫu/Nô Bộc). Áp dụng 4 chiến lược cải Tài giúp bạn bịt lỗ rò rỉ và mở nguồn thu bền vững."
+          "answer": "Nhiều người lầm tưởng: \"Cung Tài Bạch có sao xấu thì cả đời nghèo túng, có cố gắng làm lụng cũng công dã tràng.\". Sự thật dưới góc nhìn Tử Vi Chữa Lành: Tài Bạch không đứng một mình. Theo công thức 3P4C, Tài Bạch được cải từ chính nó (100%), từ cung đối Phúc Đức (60%) và từ hai cung tam hợp Quan Lộc, Mệnh (30%). Cung Tài sáng không bảo đảm giàu; cung Tài khó không kết án nghèo."
+        },
+        {
+          "question": "Cung Tài Bạch nhiều Hung tinh có nghĩa là nghèo cả đời?",
+          "answer": "Không. Bộ tri thức TVCL ghi rõ: cung Tài khó không kết án nghèo. Tài Bạch được cải từ Phúc Đức (60%), Quan Lộc và Mệnh (30%), và từ cách bạn chọn kiếm tiền đúng với sao tại cung Tài."
+        },
+        {
+          "question": "Phúc Đức chưa đẹp thì có nên đầu tư?",
+          "answer": "Bộ tri thức TVCL gợi ý hạn chế đầu tư, đầu cơ và những việc trông chờ may rủi khi Phúc chưa đẹp; quyết định thực tế vẫn cần dữ kiện và chuyên gia tài chính."
         },
         {
           "question": "Làm sao để ứng dụng bài học này vào cải mệnh thực tế ngay hôm nay?",
-          "answer": "Rà soát lại 3 khoản chi hoặc quyết định tài chính làm bạn hao hụt nhiều nhất trong 2 năm qua để rút ra 1 nguyên tắc kỷ luật không lặp lại."
+          "answer": "Viết ra 6 chức năng của tiền (Kiếm, Nhận, Giữ, Dùng, Chia sẻ, Luân chuyển), đánh dấu chức năng bạn yếu nhất, rồi chọn một trong 4 chiến lược để cải trong tháng này."
         }
       ],
       "reflectionPrompts": [
-        "Trong 4 cung đồng minh của Tài Bạch (Mệnh, Quan Lộc, Phúc Đức, Điền Trạch), cung nào trên lá số của bạn đang sáng và vững nhất?",
-        "Lỗ rò rỉ tài chính lớn nhất của bạn những năm qua đến từ đâu?"
+        "Trong 6 chức năng Kiếm – Nhận – Giữ – Dùng – Chia sẻ – Luân chuyển, bạn yếu nhất ở đâu?",
+        "Tiền của bạn chủ yếu đến từ cung nào: Quan Lộc, Thiên Di, Điền Trạch hay Nô Bộc?"
       ],
-      "microPractice": "Rà soát lại 3 khoản chi hoặc quyết định tài chính làm bạn hao hụt nhiều nhất trong 2 năm qua để rút ra 1 nguyên tắc kỷ luật không lặp lại.",
+      "microPractice": "Viết ra 6 chức năng của tiền (Kiếm, Nhận, Giữ, Dùng, Chia sẻ, Luân chuyển), đánh dấu chức năng bạn yếu nhất, rồi chọn một trong 4 chiến lược để cải trong tháng này.",
       "recommendedCourse": {
         "title": "Chương trình Tử Vi Chữa Lành Tài Lộc & Tâm Thức Tài Chính",
         "desc": "Chữa lành mối quan hệ với tiền, tháo gỡ 4 kịch bản tâm lý tiền bạc và nuôi dưỡng khí chất Hóa Lộc từ gốc Phúc Đức."
@@ -7029,7 +7199,7 @@
       "lifeDomain": "tai-chinh",
       "personaId": "anh-gia-su",
       "authorName": "Anh Gia Sư TVCL",
-      "readTime": "7 phút",
+      "readTime": "13 phút",
       "featured": false,
       "tags": [
         "3P4C",
@@ -7113,12 +7283,32 @@
       ],
       "sections": [
         {
-          "heading": "1. Khi bạn kiếm tiền đúng với 'mùa' và 'khí chất' của Chính tinh",
-          "bodyMarkdown": "Hãy nhìn một người có [Thiên Đồng](wiki:ThienDong) hoặc Thiên Lương ở Tài Bạch: họ kiếm tiền tốt nhất khi tâm trạng vui vẻ, được làm công việc mang lại sự dễ chịu, chữa lành, giáo dục hoặc chăm sóc người khác; nếu ép họ vào môi trường đấu đá gay gắt, họ vừa mất động lực vừa dễ hỏng việc. Ngược lại, Vũ Khúc hay Thất Sát lại cần mục tiêu rõ ràng, con số cụ thể và thử thách thực chiến."
+          "heading": "1. Mỗi Chính tinh có một cách kiếm tiền thuận tự nhiên",
+          "bodyMarkdown": "Bộ Tử Vi Chữa Lành Tài Lộc mô tả ý nghĩa của từng Chính tinh khi đóng tại cung [Tài Bạch](wiki:CungTaiBach). Khi bạn kiếm tiền đúng với khí chất mặt sáng của sao, tiền đến cùng với niềm vui và sự bền vững. Khi đi ngược, bạn vừa mất động lực vừa dễ hao tổn.\n\nLưu ý: các gợi ý nghề nghiệp dưới đây là **môi trường tham khảo** để phát huy năng lực, không phải chỉ định nghề. Luôn đối chiếu với toàn bộ [3P4C](wiki:3P4C) và trải nghiệm thật của bạn."
         },
         {
-          "heading": "2. Cách giữ tiền phù hợp cho từng nhóm sao",
-          "bodyMarkdown": "Người có Thiên Phủ, Thái Âm, Vũ Khúc tự nhiên đã giỏi tích lũy. Còn những bạn có Phá Quân, Tham Lang, Thiên Đồng hay Thái Dương (hào sảng, trọng tình cảm) tại Tài Bạch thì nên thiết lập cơ chế 'tự động trích lập tích sản' ngay khi tiền vừa về để giữ được thành quả lâu dài."
+          "heading": "2. Nhóm lãnh đạo, danh vị: Tử Vi, Thái Dương, Thiên Phủ, Thiên Tướng",
+          "bodyMarkdown": "- **[Tử Vi](wiki:TuVi) cư Tài:** quý nhiều hơn phú, tài vận rộng và ổn định, nên **dựa vào danh vọng để tạo tài phú**; có tiền bằng chính nghĩa, đòi hỏi sự hoàn mỹ, dễ thành người có uy trong lĩnh vực của mình. *Giữ lộc:* giữ vị thế và phẩm giá, không hạ mình tranh lợi nhỏ.\n- **[Thái Dương](wiki:ThaiDuong) cư Tài:** tiền **đi sau danh tiếng**, kiếm tiền bằng cách mang lại giá trị cho cộng đồng; hào phóng, tiền ra vào nhiều, cần chú ý tiết kiệm. *Giữ lộc:* gánh trách nhiệm lớn, không dùng danh để hưởng lợi.\n- **[Thiên Phủ](wiki:ThienPhu) cư Tài:** \"kho tàng trên trời\", biết mở nguồn thu và tiết kiệm nguồn chi; hợp làm chủ quản tài chính, giữ tiền bằng bất động sản, vàng bạc. *Giữ lộc:* tích lũy bền vững, không đầu tư mạo hiểm.\n- **[Thiên Tướng](wiki:ThienTuong) cư Tài:** nguồn tiền đến từ con đường chính đáng, kinh doanh dựa vào sự thành thật; hợp ngành dịch vụ, chăm sóc khách hàng, môi giới, kế toán. *Giữ lộc:* tuân thủ nguyên tắc, lộc qua ổn định và kỷ luật."
+        },
+        {
+          "heading": "3. Nhóm trí tuệ, ngôn ngữ: Thiên Cơ, Cự Môn, Thiên Lương",
+          "bodyMarkdown": "- **[Thiên Cơ](wiki:ThienCo) cư Tài:** trí tài tinh, kiếm tiền bằng khối óc và kỹ năng, tùy cơ ứng biến; tài vận hay thay đổi, nên dùng **sự chuyên nghiệp và ổn định** để kiếm tiền. *Giữ lộc:* hành động sau khi suy nghĩ, tránh đổi hướng liên tục.\n- **[Cự Môn](wiki:CuMon) cư Tài:** kiếm tiền bằng tài ăn nói (giáo dục, bán hàng, truyền thông, luật...), phải dùng hết tâm sức; khó tích lũy nếu không kiểm soát chi tiêu. *Giữ lộc:* giảm thị phi, lời nói xây dựng, uy tín đến từ sự thành thật.\n- **[Thiên Lương](wiki:ThienLuong) cư Tài:** có danh trước có lợi sau, nhờ tiếng tăm bậc trưởng bối mà được trợ lực; **nên lấy phục vụ làm mục đích, không lấy kiếm tiền làm mục đích.** Khi có tâm phục vụ, tài lộc tự sung túc. *Giữ lộc:* tâm trong sáng, công bằng, giúp người không tính toán."
+        },
+        {
+          "heading": "4. Nhóm tài chính, tích lũy: Vũ Khúc, Thái Âm",
+          "bodyMarkdown": "- **[Vũ Khúc](wiki:VuKhuc) cư Tài:** sao chính tài, chủ cung Tài Bạch, có duyên đặc biệt với tiền, giỏi quản lý và xoay chuyển tiền. Tiền của Vũ Khúc như **mỏ vàng, cần khai thác, tinh luyện**; sự nghiệp thành thì tiền về. *Giữ lộc:* tập trung, kiên định mục tiêu tài chính, không bốc đồng.\n- **[Thái Âm](wiki:ThaiAm) cư Tài:** biết tiết kiệm, cân đối thu chi, thích nhà đất; tiền \"như dòng nước\", chăm chỉ tích lũy dần mà thành; hợp dịch vụ, đại lý, công việc hỗ trợ người khác. *Giữ lộc:* quản lý tiền tỉ mỉ, tích lũy ổn định, không đầu cơ."
+        },
+        {
+          "heading": "5. Nhóm hưởng thụ, nhân duyên: Thiên Đồng, Liêm Trinh, Tham Lang",
+          "bodyMarkdown": "- **[Thiên Đồng](wiki:ThienDong) cư Tài:** nguồn tiền cả đời không thiếu, dựa vào năng lực bản thân; hợp nghề có tính hưởng thụ, giải trí, văn hóa, nghệ thuật, giáo dục, du lịch; nhân duyên tốt. *Giữ lộc:* giữ tâm vui vẻ, biết ơn, không ỷ lại.\n- **[Liêm Trinh](wiki:LiemTrinh) cư Tài:** thường kiếm tiền trong cạnh tranh, dùng trí tuệ; giỏi dùng tiền để tăng quan hệ; có thể có thành tích đặc biệt trong kỹ thuật hoặc nghệ thuật chuyên môn. *Giữ lộc:* kiểm soát bản thân, thanh bạch trong quan hệ.\n- **[Tham Lang](wiki:ThamLang) cư Tài:** tiền có tính cạnh tranh, biến hóa, thích đầu tư; trẻ thì tiền đến tiền đi, sau trung niên nguồn tài dần phong phú; nên chú trọng cả đời sống tâm linh. *Giữ lộc:* chọn đúng hướng dù nhiều đam mê, cần quý nhân chỉ lối, không phân tán."
+        },
+        {
+          "heading": "6. Nhóm khai phá: Thất Sát, Phá Quân",
+          "bodyMarkdown": "- **[Thất Sát](wiki:ThatSat) cư Tài:** chủ về nắm quyền tài chính, sáng lập cục diện mới; tiền cần qua một thời gian phấn đấu mới thành, hợp công việc cạnh tranh; tiền biến động nên tập thói quen tiết kiệm và kế hoạch đầu tư. *Giữ lộc:* mạnh mẽ nhưng có kiểm soát, không đơn độc, cần đồng minh.\n- **[Phá Quân](wiki:PhaQuan) cư Tài:** không giỏi quản lý tài chính nhưng giỏi **tìm ra nguồn tiền mới**; kinh doanh cần thường xuyên đổi mới phương thức và sản phẩm; tài vận lúc đến lúc đi. *Giữ lộc:* quản trị rủi ro, biết dừng đúng lúc, cần người bổ sung sự ổn định."
+        },
+        {
+          "heading": "7. Giữ lộc là giữ đúng dòng chảy của chính mình",
+          "bodyMarkdown": "Bộ Tài Lộc nhấn mạnh: mỗi Chính tinh có một nguyên lý giữ lộc riêng, bắt nguồn từ bản chất của sao. **Giữ lộc không phải là ôm khư khư những gì đã có, mà là duy trì đúng dòng chảy năng lượng của bản thân.**\n\nĐừng lấy sao làm lý do từ chối học một năng lực mới. Dụng sao là phát triển mặt sáng và chuyển hóa điểm mù. Và nhớ rằng Tử Vi không thay thế tư vấn tài chính chuyên nghiệp."
         }
       ],
       "faq": [
@@ -7127,15 +7317,23 @@
           "answer": "Nhiều người lầm tưởng: \"Ai kiếm tiền cũng phải dùng chung một công thức sắc lạnh, cạnh tranh khốc liệt mới thành công.\". Sự thật dưới góc nhìn Tử Vi Chữa Lành: Mỗi Chính tinh có một 'cơ chế thu hút tài lộc thuận tự nhiên': khi bạn kiếm tiền đúng với phẩm chất mặt sáng của ngôi sao tại Mệnh – Tài – Quan, tiền bạc đến cùng với niềm vui và sự bình an."
         },
         {
+          "question": "Cung Tài Bạch không có Chính tinh thì xem thế nào?",
+          "answer": "Cung Vô Chính Diệu thì mượn Chính tinh ở cung đối (Phúc Đức) để luận, rồi xét thêm Trung tinh trong 3P4C."
+        },
+        {
+          "question": "Gợi ý nghề nghiệp trong bài có phải là chỉ định bắt buộc?",
+          "answer": "Không. Đây là môi trường tham khảo để phát huy năng lực; sự phù hợp thật cần đối chiếu toàn bộ lá số, năng lực và hoàn cảnh hiện tại."
+        },
+        {
           "question": "Làm sao để ứng dụng bài học này vào cải mệnh thực tế ngay hôm nay?",
-          "answer": "Đối chiếu công việc tạo thu nhập hiện tại của bạn với tính chất Chính tinh cung Tài Bạch để tinh chỉnh lại phong cách làm việc cho thuận tự nhiên."
+          "answer": "Tìm Chính tinh tại cung Tài Bạch của bạn, đọc dòng \"Giữ lộc\" của sao đó, và chọn một thói quen tiền bạc để điều chỉnh trong 30 ngày tới."
         }
       ],
       "reflectionPrompts": [
-        "Chính tinh nào đang đóng tại cung Tài Bạch của bạn?",
-        "Những lúc bạn kiếm được tiền thuận lợi và hạnh phúc nhất trong đời có khớp với tính chất của ngôi sao đó không?"
+        "Cách bạn đang kiếm tiền có thuận với Chính tinh tại cung Tài Bạch không?",
+        "Nguyên tắc giữ lộc nào của sao bạn đang làm ngược lại?"
       ],
-      "microPractice": "Đối chiếu công việc tạo thu nhập hiện tại của bạn với tính chất Chính tinh cung Tài Bạch để tinh chỉnh lại phong cách làm việc cho thuận tự nhiên.",
+      "microPractice": "Tìm Chính tinh tại cung Tài Bạch của bạn, đọc dòng \"Giữ lộc\" của sao đó, và chọn một thói quen tiền bạc để điều chỉnh trong 30 ngày tới.",
       "recommendedCourse": {
         "title": "Chương trình Tử Vi Chữa Lành Tài Lộc & Tâm Thức Tài Chính",
         "desc": "Chữa lành mối quan hệ với tiền, tháo gỡ 4 kịch bản tâm lý tiền bạc và nuôi dưỡng khí chất Hóa Lộc từ gốc Phúc Đức."
@@ -7197,7 +7395,7 @@
       "lifeDomain": "tai-chinh",
       "personaId": "quan-trung",
       "authorName": "Tộc trưởng Quán Trung",
-      "readTime": "6 phút",
+      "readTime": "13 phút",
       "featured": false,
       "tags": [
         "PhucDuc",
@@ -7254,7 +7452,7 @@
       "subtitle": "Bí quyết 'kích Lộc' chân chính trong Tử Vi Chữa Lành: Không dùng bùa chú mà đánh thức phẩm chất Hóa Lộc sẵn có từ Can năm sinh của bạn.",
       "mythVsTruth": {
         "myth": "Muốn kích hoạt Hóa Lộc là phải mua đồ phong thủy hoặc làm lễ cầu tài đầu năm.",
-        "truth": "Hóa Lộc là dòng năng lượng ấm áp, niềm nở, thích mang lại niềm vui và lợi ích cho người khác. Mỗi tuổi (10 Thiên Can) đều có 1 Chính tinh Hóa Lộc riêng — sống đúng mặt sáng của ngôi sao đó chính là cách kích Lộc mạnh nhất."
+        "truth": "Hóa Lộc là dòng giá trị sinh ra từ nhân duyên, năng lực và nỗ lực, rồi được giữ bền bằng trí tuệ, kỷ luật và đạo đức. Mỗi Thiên Can năm sinh có một Chính tinh Hóa Lộc; sống đúng mặt sáng của sao đó là cách nuôi dòng Lộc thuận nhất."
       },
       "chart3P4CAxes": "10 Thiên Can (Giáp → Quý) = 10 Chính Tinh Hóa Lộc (Liêm, Cơ, Đồng, Âm, Tham, Vũ, Dương, Cự, Lương, Phá)",
       "causalFlow5Steps": [
@@ -7281,29 +7479,53 @@
       ],
       "sections": [
         {
-          "heading": "1. Mười ngôi sao Hóa Lộc theo 10 Thiên Can năm sinh",
-          "bodyMarkdown": "Ai sinh ra trên đời cũng được vũ trụ trao tặng một ngôi sao Hóa Lộc theo chữ đầu của năm sinh âm lịch: tuổi Giáp (Liêm Trinh Hóa Lộc), tuổi Ất (Thiên Cơ Hóa Lộc), tuổi Bính ([Thiên Đồng](wiki:ThienDong) Hóa Lộc), tuổi Đinh (Thái Âm Hóa Lộc), tuổi Mậu (Tham Lang Hóa Lộc), tuổi Kỷ (Vũ Khúc Hóa Lộc), tuổi Canh (Thái Dương Hóa Lộc), tuổi Tân (Cự Môn Hóa Lộc), tuổi Nhâm (Thiên Lương Hóa Lộc), tuổi Quý (Phá Quân Hóa Lộc)."
+          "heading": "1. Hóa Lộc dưới góc nhìn Tử Vi Chữa Lành",
+          "bodyMarkdown": "Trong Tứ Hóa, [Hóa Lộc](wiki:HoaLoc) là hướng vận động thiên về **khai mở, phát triển, kết nối giá trị, nhân duyên và nguồn lực.** Hóa Lộc có thể liên quan đến tiền, nhưng không chỉ là tiền.\n\n**Hóa Lộc không bảo đảm giàu có.** Nó là một tiềm năng; tiềm năng ấy có thể phân tán khi thiếu kỷ luật, hao hụt vì hưởng thụ cảm xúc, hoặc không thành kết quả nếu chỉ có ý tưởng mà không hành động.\n\nBộ Tài Lộc cũng nói rõ: \"kích Lộc\" **không phải là dùng nghi thức để gọi tiền**, mà là nhận diện hạt giống Hóa Lộc, tạo duyên lành, phát triển năng lực, hành động có trách nhiệm và biết thuận thời."
         },
         {
-          "heading": "2. Nuôi dưỡng 'Khí chất Hóa Lộc' mỗi ngày",
-          "bodyMarkdown": "Người có khí chất Hóa Lộc đi đến đâu cũng làm bầu không khí ấm lên: họ không cau có, không tính toán chi li phần thiệt hơn nhỏ nhặt, luôn sẵn lòng giúp người khác một tay. Khi bạn nuôi dưỡng tâm thái rộng mở, biết ơn và trao đi chất lượng công việc vượt mong đợi, bạn đang tự bật sáng ngôi sao Hóa Lộc trên lá số của mình."
+          "heading": "2. Mười Chính tinh Hóa Lộc theo 10 Thiên Can",
+          "bodyMarkdown": "Theo bảng Tứ Hóa TVCL, mỗi Thiên Can năm sinh có một Chính tinh Hóa Lộc:\n\n- **Giáp:** [Liêm Trinh](wiki:LiemTrinh) Hóa Lộc\n- **Ất:** [Thiên Cơ](wiki:ThienCo) Hóa Lộc\n- **Bính:** [Thiên Đồng](wiki:ThienDong) Hóa Lộc\n- **Đinh:** [Thái Âm](wiki:ThaiAm) Hóa Lộc\n- **Mậu:** [Tham Lang](wiki:ThamLang) Hóa Lộc\n- **Kỷ:** [Vũ Khúc](wiki:VuKhuc) Hóa Lộc\n- **Canh:** [Thái Dương](wiki:ThaiDuong) Hóa Lộc\n- **Tân:** [Cự Môn](wiki:CuMon) Hóa Lộc\n- **Nhâm:** [Thiên Lương](wiki:ThienLuong) Hóa Lộc\n- **Quý:** [Phá Quân](wiki:PhaQuan) Hóa Lộc\n\nVí dụ: người sinh năm can Giáp (1974, 1984, 1994, 2004...) có Liêm Trinh Hóa Lộc."
+        },
+        {
+          "heading": "3. Cách kích Lộc của 5 sao đầu",
+          "bodyMarkdown": "- **Liêm Trinh Hóa Lộc:** kích Lộc bằng nhân duyên, chủ động giao thiệp, xây kết nối. Hợp nghệ thuật, làm đẹp, tư vấn, nhân sự, ngoại giao. *Câu khóa: thanh bạch tạo niềm tin; ranh giới lành mạnh giúp nhân duyên trở thành giá trị bền.*\n- **Thiên Cơ Hóa Lộc:** khai thác tư duy, học hỏi liên tục, **biến ý tưởng thành hành động**. Hợp tư vấn, giảng dạy, nghiên cứu, kỹ thuật. *Câu khóa: trí tuệ chỉ sinh Lộc khi được chuyển thành quyết định và giải pháp có ích.*\n- **Thiên Đồng Hóa Lộc:** nuôi tâm thế vui vẻ, cởi mở, lan tỏa năng lượng tích cực. Hợp ẩm thực, du lịch, sự kiện, hỗ trợ cộng đồng. *Câu khóa: sự dễ chịu tạo duyên; trách nhiệm và kỷ luật nhẹ nhàng giúp duyên ấy thành Lộc.*\n- **Thái Âm Hóa Lộc:** quản lý tài chính chặt, kế hoạch thu chi rõ, kết hợp với điền trạch. Hợp tài chính, bất động sản, thiết kế, chăm sóc. *Câu khóa: nuôi chiều sâu, tích lũy có kế hoạch, kiểm chứng trực giác bằng dữ kiện.*\n- **Tham Lang Hóa Lộc:** mở rộng quan hệ, tìm quý nhân chỉ đường. Hợp dịch vụ, truyền thông, thương mại. Giữ Lộc bằng cách tập trung đúng con đường. *Câu khóa: ham muốn được soi sáng sẽ thành sức sống; thiếu tỉnh thức dễ thành phân tán.*"
+        },
+        {
+          "heading": "4. Cách kích Lộc của 5 sao sau",
+          "bodyMarkdown": "- **Vũ Khúc Hóa Lộc:** dồn lực vào sự nghiệp, kiên trì một mục tiêu lớn. Hợp kinh doanh, tài chính, quản lý doanh nghiệp. *Câu khóa: kỷ luật tạo tài sản; trái tim mở giúp tài sản không trở thành chiếc áo giáp cô độc.*\n- **Thái Dương Hóa Lộc:** xây danh tiếng, nuôi tinh thần bác ái, cho đi trước khi nhận. Hợp giáo dục, truyền thông, cộng đồng. *Câu khóa: danh đi cùng giá trị và cống hiến; ánh sáng bền khi người soi đường cũng biết nghỉ.*\n- **Cự Môn Hóa Lộc:** rèn khả năng diễn đạt rõ ràng, để lời nói mang lại giá trị; tránh tranh luận đúng sai. Hợp tư vấn, giảng dạy, truyền thông, đàm phán. *Câu khóa: nói đúng, nói cần, nói lành và chịu trách nhiệm với lời nói.*\n- **Thiên Lương Hóa Lộc:** lấy việc giúp người làm trọng, đóng vai người thầy, người cố vấn. Hợp y dược, tâm lý, giáo dục. *Câu khóa: phụng sự có giới hạn; trí tuệ và lương tri tạo uy tín bền hơn vai trò cứu hộ.*\n- **Phá Quân Hóa Lộc:** dám làm, bước vào lĩnh vực mới, biến thách thức thành cơ hội; cần quản trị rủi ro và biết dừng đúng lúc. *Câu khóa: đổi mới tạo Lộc khi biết mình sẽ xây gì, có giới hạn rủi ro và chịu trách nhiệm với hệ quả.*"
+        },
+        {
+          "heading": "5. Người có \"chất\" Hóa Lộc",
+          "bodyMarkdown": "Bộ Tài Lộc mô tả 6 phẩm chất của người có khí chất Hóa Lộc:\n\n- Biết **tạo giá trị hữu ích** và diễn đạt giá trị ấy rõ ràng.\n- **Có duyên** với người nhưng không dùng quan hệ để thao túng hay vụ lợi.\n- **Hào phóng có giới hạn:** biết cho đi và biết bảo toàn nguồn lực.\n- Có **cảm xúc sống động** nhưng không để cảm xúc quyết định mọi lựa chọn.\n- **Biết đón cơ hội, biết học hỏi** và hành động đúng thời.\n- Biết tận hưởng mà không lệ thuộc vào tiêu dùng để lấp khoảng trống."
+        },
+        {
+          "heading": "6. Bảy nguyên tắc nuôi dưỡng dòng Lộc",
+          "bodyMarkdown": "1. **Ý niệm rõ, nhưng không biến mong muốn thành ám ảnh.** Định nghĩa \"đủ đầy\" bằng con số, nhu cầu và giá trị thật.\n2. **Hành động trung thực và bền bỉ.** Mỗi ngày ít nhất một hành động tạo giá trị.\n3. **Nhân duyên là dòng trao đổi giữa người với người,** không phải công cụ khai thác.\n4. **Chăm \"ruộng Phúc\" bằng tác ý và hành động lành,** không xem Phúc Đức như tài khoản để đổi thiện nghiệp lấy tiền.\n5. **Dùng đúng bản tính, nhưng không đóng khung mình.**\n6. **Tu tâm để tiền phục vụ đời sống.**\n7. **Biết thời, thuận vận, quản trị rủi ro.**\n\n*Đạo của Lộc: không cưỡng cầu, không buông xuôi. Gieo đúng nhân, tạo đủ duyên, hành động đúng thời và bình thản trước những phần chưa thể kiểm soát.*"
         }
       ],
       "faq": [
         {
           "question": "Quan niệm dân gian thường hiểu lầm điều gì về \"Mười sao Hóa Lộc và nghệ thuật nuôi dưỡng khí chất Hóa Lộc\"?",
-          "answer": "Nhiều người lầm tưởng: \"Muốn kích hoạt Hóa Lộc là phải mua đồ phong thủy hoặc làm lễ cầu tài đầu năm.\". Sự thật dưới góc nhìn Tử Vi Chữa Lành: Hóa Lộc là dòng năng lượng ấm áp, niềm nở, thích mang lại niềm vui và lợi ích cho người khác. Mỗi tuổi (10 Thiên Can) đều có 1 Chính tinh Hóa Lộc riêng — sống đúng mặt sáng của ngôi sao đó chính là cách kích Lộc mạnh nhất."
+          "answer": "Nhiều người lầm tưởng: \"Muốn kích hoạt Hóa Lộc là phải mua đồ phong thủy hoặc làm lễ cầu tài đầu năm.\". Sự thật dưới góc nhìn Tử Vi Chữa Lành: Hóa Lộc là dòng giá trị sinh ra từ nhân duyên, năng lực và nỗ lực, rồi được giữ bền bằng trí tuệ, kỷ luật và đạo đức. Mỗi Thiên Can năm sinh có một Chính tinh Hóa Lộc; sống đúng mặt sáng của sao đó là cách nuôi dòng Lộc thuận nhất."
+        },
+        {
+          "question": "Làm sao biết mình có Chính tinh nào Hóa Lộc?",
+          "answer": "Xem Thiên Can năm sinh âm lịch: Giáp – Liêm Trinh, Ất – Thiên Cơ, Bính – Thiên Đồng, Đinh – Thái Âm, Mậu – Tham Lang, Kỷ – Vũ Khúc, Canh – Thái Dương, Tân – Cự Môn, Nhâm – Thiên Lương, Quý – Phá Quân."
+        },
+        {
+          "question": "Có Hóa Lộc ở Mệnh là chắc chắn giàu?",
+          "answer": "Không. Hóa Lộc là tiềm năng, không bảo đảm giàu có; cần xét Hóa Lộc ở cung nào, được nâng đỡ hay xung chiếu bởi sao gì, và quan trọng nhất là cách bạn hành động."
         },
         {
           "question": "Làm sao để ứng dụng bài học này vào cải mệnh thực tế ngay hôm nay?",
-          "answer": "Hôm nay, hãy chủ động trao đi 3 nụ cười ấm áp và 1 lời khen ngợi chân thành cho những người bạn gặp để nuôi dưỡng khí chất Hóa Lộc."
+          "answer": "Tìm Chính tinh Hóa Lộc theo năm sinh của bạn, đọc câu khóa của sao đó, và chọn một hành động tạo giá trị theo đúng khí chất ấy trong tuần này."
         }
       ],
       "reflectionPrompts": [
-        "Theo Thiên Can năm sinh của bạn, ngôi sao nào là Hóa Lộc và nó đang nằm ở cung nào trên lá số?",
-        "Làm sao để bạn mang nhiều 'năng lượng mùa xuân' (ấm áp, tử tế) hơn vào công việc hàng ngày?"
+        "Chính tinh Hóa Lộc của bạn là sao nào, và bạn đang sống mặt sáng của nó đến đâu?",
+        "Trong 7 nguyên tắc nuôi dưỡng dòng Lộc, nguyên tắc nào bạn cần thực hành nhất?"
       ],
-      "microPractice": "Hôm nay, hãy chủ động trao đi 3 nụ cười ấm áp và 1 lời khen ngợi chân thành cho những người bạn gặp để nuôi dưỡng khí chất Hóa Lộc.",
+      "microPractice": "Tìm Chính tinh Hóa Lộc theo năm sinh của bạn, đọc câu khóa của sao đó, và chọn một hành động tạo giá trị theo đúng khí chất ấy trong tuần này.",
       "recommendedCourse": {
         "title": "Chương trình Tử Vi Chữa Lành Tài Lộc & Tâm Thức Tài Chính",
         "desc": "Chữa lành mối quan hệ với tiền, tháo gỡ 4 kịch bản tâm lý tiền bạc và nuôi dưỡng khí chất Hóa Lộc từ gốc Phúc Đức."
@@ -9839,7 +10061,7 @@
       "lifeDomain": "noi-tam",
       "personaId": "quan-trung",
       "authorName": "Tộc trưởng Quán Trung",
-      "readTime": "7 phút",
+      "readTime": "10 phút",
       "featured": false,
       "tags": [
         "IFS",
@@ -9896,7 +10118,7 @@
       "subtitle": "Cuộc gặp gỡ Đông – Tây: Kết nối học thuyết Nguyên mẫu (Archetypes), Phần Bóng Tối (Shadow) của Carl Jung với cấu trúc lá số Tử Vi.",
       "mythVsTruth": {
         "myth": "Tử Vi phương Đông và Tâm lý học phương Tây là hai thế giới đối lập, không liên quan gì đến nhau.",
-        "truth": "Nhà tâm lý học Carl Jung dành cả đời nghiên cứu các biểu tượng phương Đông và nhận ra: các hệ thống cổ học chính là bản đồ phóng chiếu 14 Nguyên mẫu tâm lý (Archetypes) và hành trình Cá nhân hóa (Individuation)."
+        "truth": "Tử Vi Chữa Lành dùng ngôn ngữ của Carl Jung như một lăng kính: 14 Chính tinh như 14 cổ mẫu tâm lý nòng cốt, Sát tinh và Hóa Kỵ như vùng Bóng tối (Shadow) cần được nhìn thấy và ôm ấp, để những mô thức vô thức không còn lặp lại mãi."
       },
       "chart3P4CAxes": "14 Chính Tinh = 14 Nguyên Mẫu (Archetypes) · Cung Hung & Sát Tinh = Shadow Work (Làm việc với Bóng tối)",
       "causalFlow5Steps": [
@@ -9923,29 +10145,49 @@
       ],
       "sections": [
         {
-          "heading": "1. 14 Chính Tinh khi dịch sang ngôn ngữ Nguyên mẫu (Archetypes) của Carl Jung",
-          "bodyMarkdown": "Carl Jung chỉ ra rằng trong vô thức tập thể của nhân loại luôn tồn tại những nguyên mẫu phổ quát: Người Cai Trị (Tử Vi – Thiên Phủ), Nhà Hiền Triết (Thiên Cơ – Thiên Lương), Chiến Binh (Thất Sát – Vũ Khúc), Người Đổi Mới (Phá Quân), Người Hồn Nhiên ([Thiên Đồng](wiki:ThienDong)), Người Tình & Nghệ Sĩ (Tham Lang – Liêm Trinh)... Đọc lá số Tử Vi chính là đọc tổ hợp nguyên mẫu đang vận hành bên trong bạn."
+          "heading": "1. Vì sao Tử Vi Chữa Lành dùng lăng kính Jung?",
+          "bodyMarkdown": "Tử Vi Chữa Lành kết hợp Tử Vi với tâm lý học ([CBT](wiki:CBT), [ACT](wiki:ACT), [IFS](wiki:IFS)), phân tâm học Jung và Đạo học, để biến lá số thành **công cụ tự nhận thức và cải mệnh**, không phải cải mệnh bằng sợ hãi hay mê tín.\n\nLăng kính Jung giúp ta đọc lá số bằng ba khái niệm:\n\n- **Cổ mẫu (Archetypes):** những hình mẫu phổ quát trong tâm thức con người.\n- **Bóng tối (Shadow):** những góc khuất, khao khát bị đè nén, tổn thương ta chưa dám đối diện.\n- **Vô thức tập thể (Collective Unconscious):** những gì được \"lập trình sẵn\" bên trong ta, tương ứng với phần **Tiên thiên** mà lá số mã hóa.\n\nĐây là một cách **liên hệ biểu tượng** của TVCL, không phải là lý thuyết của chính Jung về Tử Vi."
         },
         {
-          "heading": "2. Câu nói bất hủ của Carl Jung và ý nghĩa thật của Tử Vi Chữa Lành",
-          "bodyMarkdown": "Carl Jung từng viết: 'Cho đến khi bạn đưa những gì trong vô thức ra ánh sáng ý thức, nó sẽ điều khiển cuộc đời bạn và bạn gọi đó là số phận'. Đó chính xác là lý do Tử Vi Chữa Lành ra đời: đưa những mô thức vô thức trên lá số ra ánh sáng nhận thức để bạn không còn bị 'số phận' giật dây."
+          "heading": "2. 14 Chính tinh như 14 cổ mẫu nòng cốt",
+          "bodyMarkdown": "Bộ tri thức TVCL gọi 14 Chính tinh là 14 \"vị giám đốc\" điều hành các phòng ban trong nội tâm, hay **14 cổ mẫu tâm lý**. Mỗi cổ mẫu là một hình tượng có mặt sáng và mặt tối:\n\n- **[Tử Vi](wiki:TuVi)** – hoàng đế: lãnh đạo, bao dung / cái tôi cao, gia trưởng.\n- **[Thiên Cơ](wiki:ThienCo)** – quân sư: thông minh, ham học / nghĩ quá nhiều, lo âu.\n- **[Thái Dương](wiki:ThaiDuong)** – minh chủ: cống hiến / kiệt sức vì cho đi.\n- **[Vũ Khúc](wiki:VuKhuc)** – nhà kinh doanh: thực tế, quyết đoán / khô khan.\n- **[Thiên Đồng](wiki:ThienDong)** – đứa trẻ của trời: trắc ẩn, biết tận hưởng / né khó, phụ thuộc.\n- **[Liêm Trinh](wiki:LiemTrinh)** – quan giám sát: chính trực / cực đoan, kiểm soát.\n- **[Thiên Phủ](wiki:ThienPhu)** – người quản kho: chín chắn / bảo thủ.\n- **[Thái Âm](wiki:ThaiAm)** – người mẹ, người giữ tiền: sâu sắc, trực giác / dễ buồn, dễ lo.\n- **[Tham Lang](wiki:ThamLang)** – người chinh phục: sức hút / tham, nghiện trải nghiệm.\n- **[Cự Môn](wiki:CuMon)** – nhà diễn thuyết: phân tích, phản biện / thị phi, nghi ngờ.\n- **[Thiên Tướng](wiki:ThienTuong)** – tể tướng giữ ấn: trách nhiệm / sống vì vai trò.\n- **[Thiên Lương](wiki:ThienLuong)** – trưởng lão: đạo đức, chữa lành / hay lên lớp.\n- **[Thất Sát](wiki:ThatSat)** – chủ soái: dũng cảm / lạnh, cực đoan.\n- **[Phá Quân](wiki:PhaQuan)** – tướng tiên phong: sáng tạo, đổi mới / bốc đồng, phá trước khi xây. Bộ tri thức TVCL liên hệ Phá Quân với cổ mẫu *Kẻ Hủy Diệt* (The Destroyer) của Jung: thanh lọc những gì không còn phục vụ sự sống, nhưng khi lệch có thể thành tự hủy.\n\nĐọc lá số là đọc tổ hợp cổ mẫu đang vận hành bên trong một con người."
+        },
+        {
+          "heading": "3. Sát tinh và Hóa Kỵ: vùng Bóng tối cần được ôm ấp",
+          "bodyMarkdown": "Trong Tử Vi truyền thống, Lục Sát tinh và Hóa Kỵ thường bị xem là \"hung thần\", và người ta tìm cách cúng bái để hóa giải. Tử Vi Chữa Lành nhìn khác:\n\n- Dưới góc nhìn Jung, **Sát tinh và Hóa Kỵ chính là vùng Bóng tối (Shadow)**: những góc khuất, khao khát bị đè nén, tổn thương từ ấu thơ.\n- [Không Kiếp](wiki:KhongKiep) là bài học về sự dính mắc và nỗi sợ mất mát. [Kình Đà](wiki:KinhDa) là sự trì hoãn và vỏ bọc an toàn. [Hóa Kỵ](wiki:HoaKy) là đứa trẻ tự ti, mặc cảm, luôn khao khát được công nhận.\n\n**Chữa lành không phải là cắt bỏ Hóa Kỵ hay Không Kiếp.** Chữa lành là nhìn thẳng vào chúng, gọi tên chúng và bao dung với chúng. Khi ta chấp nhận những khuyết điểm sâu nhất của mình, Sát tinh bắt đầu chuyển hóa."
+        },
+        {
+          "heading": "4. Vòng lặp vô thức và nhân quả",
+          "bodyMarkdown": "Bộ tri thức TVCL nối Jung với nhân quả: những \"nghiệp lực\" chưa được giải quyết chính là những phần Bóng tối bị vùi sâu trong vô thức. Ta có thể liên tục gặp lại những kiểu người cũ, những kiểu đau khổ lặp đi lặp lại, **cho đến khi nhận diện được vết thương và chuyển hóa nó.**\n\nĐây là lý do TVCL nói lá số là bản đồ, không phải bản án: bản đồ giúp ta đưa những mô thức vô thức ra ánh sáng nhận thức, để không còn bị chúng âm thầm dẫn dắt."
+        },
+        {
+          "heading": "5. Làm việc với Bóng tối trên lá số",
+          "bodyMarkdown": "Bộ tri thức TVCL gợi ý phương pháp phù hợp theo từng nhóm sao:\n\n- **Jungian shadow work** (làm việc với ham muốn, bóng tối, phần bị chối bỏ): phù hợp với Tham Lang, Liêm Trinh, Phá Quân, Cự Môn.\n- **IFS** (làm việc với các \"phần\" bên trong như đứa trẻ, chiến binh, người nổi loạn, người bảo vệ): phù hợp với Thiên Đồng, Thái Âm, Phá Quân, Thất Sát.\n- **Viết trị liệu** (chuyển cảm xúc thành ngôn ngữ): phù hợp với Xương Khúc, Cự Môn, Thái Âm, Hóa Kỵ.\n\nVới những tổn thương sâu, hãy làm việc cùng chuyên gia trị liệu tâm lý. Tử Vi Chữa Lành là bản đồ để hiểu mình, không thay thế trị liệu."
         }
       ],
       "faq": [
         {
           "question": "Quan niệm dân gian thường hiểu lầm điều gì về \"Tử Vi dưới lăng kính Phân tâm học Carl Jung\"?",
-          "answer": "Nhiều người lầm tưởng: \"Tử Vi phương Đông và Tâm lý học phương Tây là hai thế giới đối lập, không liên quan gì đến nhau.\". Sự thật dưới góc nhìn Tử Vi Chữa Lành: Nhà tâm lý học Carl Jung dành cả đời nghiên cứu các biểu tượng phương Đông và nhận ra: các hệ thống cổ học chính là bản đồ phóng chiếu 14 Nguyên mẫu tâm lý (Archetypes) và hành trình Cá nhân hóa (Individuation)."
+          "answer": "Nhiều người lầm tưởng: \"Tử Vi phương Đông và Tâm lý học phương Tây là hai thế giới đối lập, không liên quan gì đến nhau.\". Sự thật dưới góc nhìn Tử Vi Chữa Lành: Tử Vi Chữa Lành dùng ngôn ngữ của Carl Jung như một lăng kính: 14 Chính tinh như 14 cổ mẫu tâm lý nòng cốt, Sát tinh và Hóa Kỵ như vùng Bóng tối (Shadow) cần được nhìn thấy và ôm ấp, để những mô thức vô thức không còn lặp lại mãi."
+        },
+        {
+          "question": "Carl Jung có nghiên cứu Tử Vi Đẩu Số không?",
+          "answer": "Bài viết không khẳng định điều đó. Đây là cách Tử Vi Chữa Lành dùng các khái niệm của Jung (cổ mẫu, Bóng tối, vô thức tập thể) như một lăng kính để đọc lá số."
+        },
+        {
+          "question": "Hóa Kỵ là phần Bóng tối thì có nên sợ không?",
+          "answer": "Không. Bóng tối là phần cần được nhìn thấy và bao dung; khi được nhận diện, Hóa Kỵ trở thành nơi ta hiểu sâu nỗi đau và trưởng thành."
         },
         {
           "question": "Làm sao để ứng dụng bài học này vào cải mệnh thực tế ngay hôm nay?",
-          "answer": "Suy ngẫm về câu nói của Carl Jung: 'Khi vô thức trở thành ý thức, số phận trở thành sự lựa chọn' và đối chiếu với 1 thói quen bạn vừa nhận ra ở mình."
+          "answer": "Tìm Sát tinh hoặc Hóa Kỵ gần cung Mệnh nhất trên lá số, viết một đoạn ngắn gọi tên phần Bóng tối đó bằng giọng bao dung như nói với một người bạn."
         }
       ],
       "reflectionPrompts": [
-        "Nguyên mẫu Chính tinh nào bạn đang thể hiện rõ ra bên ngoài xã hội (Persona), và nguyên mẫu nào bạn đang giấu kín bên trong (Shadow)?",
-        "Nét tính cách nào ở người khác thường làm bạn khó chịu nhất (đó có thể là tấm gương phản chiếu phần Shadow nào)?"
+        "Chính tinh tại Mệnh của bạn là cổ mẫu nào, và bạn đang sống mặt sáng hay mặt tối của nó?",
+        "Có mô thức nào trong đời bạn cứ lặp lại, và nó gợi đến sao nào trên lá số?"
       ],
-      "microPractice": "Suy ngẫm về câu nói của Carl Jung: 'Khi vô thức trở thành ý thức, số phận trở thành sự lựa chọn' và đối chiếu với 1 thói quen bạn vừa nhận ra ở mình.",
+      "microPractice": "Tìm Sát tinh hoặc Hóa Kỵ gần cung Mệnh nhất trên lá số, viết một đoạn ngắn gọi tên phần Bóng tối đó bằng giọng bao dung như nói với một người bạn.",
       "recommendedCourse": {
         "title": "Khóa học Tử Vi Bí Kíp Ứng Dụng Chữa Lành (CBT · ACT · IFS)",
         "desc": "Dùng lá số như bản đồ tâm thức để nhận diện niềm tin cốt lõi và thực hành chuyển hóa sâu qua CBT, ACT, IFS và Đạo học."
@@ -11433,7 +11675,7 @@
       "lifeDomain": "van-han",
       "personaId": "quan-trung",
       "authorName": "Tộc trưởng Quán Trung",
-      "readTime": "7 phút",
+      "readTime": "11 phút",
       "featured": true,
       "tags": [
         "3P4C",
@@ -11476,56 +11718,72 @@
       "subtitle": "Đặc sản của Tử Vi Chữa Lành: Kết hợp tinh hoa Khâm Thiên Giám, Nam Phái và Trung Châu để đọc 'thời tiết cuộc đời' một cách toàn diện, không hù dọa.",
       "mythVsTruth": {
         "myth": "Đến năm hạn có Hóa Kỵ, Không Kiếp hay Kình Dương lưu niên là chắc chắn gặp tai họa, phải làm lễ giải hạn tốn kém mới qua được.",
-        "truth": "Luận vận chuẩn xác bắt buộc phải đặt trên 3 tầng: Nguyên Cục (chiếc thuyền) – Đại Vận 10 năm (vùng biển) – Tiểu Vận 1 năm (thời tiết). Vận Cát thì giương buồm ra khơi; Vận Hung thì chủ động xây thuyền đón bão."
+        "truth": "Luận vận phải đi cả 3 tầng: Nguyên Cục là gốc, Đại Vận 10 năm cho biết giai đoạn, Tiểu Vận là thời điểm ngòi nổ chạm vào. Bản chất cung quyết định Cát – Hung; Hóa chỉ là lực kích hoạt. Biết trước thì giữ tâm, thủ chắc và chuyển lực sang cung đẹp."
       },
-      "chart3P4CAxes": "Mô Hình 3 Tầng: Nguyên Cục (Gốc) → Đại Vận 10 năm (Bối cảnh) → Tiểu Vận 1 năm (Lưu Thái Tuế & Tứ Hóa)",
+      "chart3P4CAxes": "Luận vận 3 tầng: Nguyên Cục (gốc) → Đại Vận 10 năm (cảnh báo) → Tiểu Vận 1 năm (ngòi nổ) → Hóa lưu (lực kích hoạt)",
       "causalFlow5Steps": [
         {
           "step": "SAO / GỐC",
-          "description": "Tầng 1 (Nguyên Cục): Đánh giá độ vững của chiếc thuyền gốc (Mệnh – Thân – [Phúc Đức](wiki:PhucDuc))"
+          "description": "Câu hỏi 1 (Nguyên Cục): Cung mà năm nay đi vào có bản chất Cát hay Hung? Có phải \"cung Hố\" của lá số không?"
         },
         {
           "step": "DUYÊN / BỐI CẢNH",
-          "description": "Tầng 2 (Đại Vận 10 năm): Xem con thuyền đang đi trên sông êm hay vùng biển nhiều sóng"
-        },
-        {
-          "step": "TÂM / NHẬN THỨC",
-          "description": "Tầng 3 (Tiểu Vận 1 năm): Đặt Lưu Thái Tuế và Tứ Hóa lưu niên vào để biết lĩnh vực nào cần lưu tâm"
-        },
-        {
-          "step": "HÀNH / PHƯƠNG PHÁP",
-          "description": "Hỏi 3 câu tỉnh thức: (1) Tổng thể Cát hay Hung? (2) Năm nay nên Tiến hay Lùi? (3) Bài học tâm thức là gì?"
+          "description": "Câu hỏi 2 (Đại Vận): Đại vận 10 năm có đang đi qua cung khó hoặc xung chiếu cung Hố không?"
         },
         {
           "step": "QUẢ / CHUYỂN HÓA",
-          "description": "Hành động thuận thời: Mùa xuân gieo hạt, mùa đông ủ mầm, tâm bình an đi qua mọi mùa vận"
+          "description": "Câu hỏi 3 (Tiểu Vận và Hóa lưu): Năm nay Hóa nào chiếu về, và nên Thủ hay Công, chuyển lực sang cung đẹp nào?"
         }
       ],
       "sections": [
         {
-          "heading": "1. Vì sao xem hạn chỉ nhìn 1 sao hay năm tuổi là mất đi tính tổng thể của Tử Vi?",
-          "bodyMarkdown": "Hiện nay phần nhiều cách xem vận hạn chỉ căn cứ vào năm tuổi hoặc một vài sao đơn lẻ để kết luận năm nay tốt hay xấu. Trong mô hình Luận Vận Hạn 3 Tầng của Tử Vi Chữa Lành (kết hợp nền tảng Khâm Thiên Giám, Nam Phái và Trung Châu), một biến cố hay thành tựu chỉ thật sự rõ nét khi có sự giao thoa của cả 3 tầng: Nguyên Cục, Đại Vận và Tiểu Vận."
+          "heading": "1. Vì sao không thể xem hạn chỉ bằng một sao hay một năm?",
+          "bodyMarkdown": "Nhiều người thấy năm tới có [Hóa Kỵ](wiki:HoaKy) hay [Không Kiếp](wiki:KhongKiep) là lo. Nhưng trong Tử Vi Chữa Lành, một năm chỉ thật sự rõ nét khi đặt trên **3 tầng**:\n\n- **Nguyên Cục (NC):** là gốc. Cung nào có vấn đề trong lá số gốc thì cần để ý.\n- **Đại Vận (ĐV):** 10 năm ấy ảnh hưởng ra sao. Nếu Đại vận đi qua cung khó hoặc xung chiếu cung Hố, đó là bắt đầu cảnh báo.\n- **Tiểu Vận (TV):** chính là thời điểm ngòi nổ chạm vào.\n\nLuận cả chuỗi năm Tiểu vận nối tiếp nhau, ta sẽ thấy **biến động đến dần, không bất ngờ.** Xem thêm: [Luận vận hạn 3 tầng](wiki:VanHan3Tang)."
         },
         {
-          "heading": "2. Ba câu hỏi tỉnh thức khi thấy năm Tiểu vận có Hung tinh",
-          "bodyMarkdown": "Khi thấy năm tới đi vào cung có [Địa Không – Địa Kiếp](wiki:KhongKiep) hay [Hóa Kỵ](wiki:HoaKy), hãy hỏi 3 câu: (1) Nguyên cục và Đại vận 10 năm có đang vững không? (Nếu thuyền to và biển êm, một cơn mưa rào Tiểu vận không làm chìm thuyền được); (2) Năm nay Đạo đang mời mình Tiến (mở rộng) hay Lùi (học sâu, chăm sóc sức khỏe, giữ quỹ an toàn)?; và (3) Cung nào trong [3P4C](wiki:3P4C) của năm đang sáng để mình mượn lực?"
+          "heading": "2. Nguyên lý gốc: Cung là nền, Hóa là lực kích hoạt",
+          "bodyMarkdown": "Bộ tri thức TVCL viết: *\"Không phải Hóa quyết định Hung – Cát. Mà là bản chất cung quyết định.\"* Hóa chỉ như lửa bén vào mồi; cháy thành gì phụ thuộc vào mồi là gì.\n\n- **Cung Cát gặp Hóa Kỵ → Cát kèm rắc rối.** Ví dụ cung Tài nguyên cục rất tốt, năm đó Hóa Kỵ chiếu về: vẫn có tài lộc, nhưng có thể trục trặc giấy tờ, thị phi với đối tác, tốn công hơn. Kết quả vẫn là Cát.\n- **Cung Hung gặp Hóa Lộc → vẫn Hung, có chút lộc bù.** Ví dụ Quan Lộc nguyên cục nhiều hung tinh, năm đó Hóa Lộc chiếu về: biến động công việc vẫn có thể xảy ra, nhưng đi kèm đền bù, cơ hội mới sau rủi ro, hoặc quý nhân dẫn sang hướng khác.\n\n**Cung là nền, Hóa là lực động, thành bại là sự kết hợp.**"
+        },
+        {
+          "heading": "3. Cung Hố: điểm trũng cần biết trước",
+          "bodyMarkdown": "**Cung Hố** không đồng nghĩa với cung không có Chính tinh. Nó có thể chứa cả Chính tinh rất mạnh, nhưng đi kèm tổ hợp nhiều hung tinh nặng như Không Kiếp, Kình Đà, Hỏa Linh, Hóa Kỵ. Gọi là \"Hố\" vì đó là điểm trũng, nơi dễ \"rơi xuống\" khi vận đi qua và bị kích hoạt.\n\nKhi xét hạn, cần để ý:\n\n- Cung Hố là cung nào (Phụ Mẫu, Quan Lộc, Thiên Di...)?\n- Hóa khí lưu niên, nhất là Hóa Kỵ, có chiếu hoặc xung cung Hố không?\n- Cung chức năng nào đang bị ảnh hưởng: tài chính, công việc hay gia đình?\n\nCung Hố là điểm yếu, **nhưng không phải bản án.** Biết trước, giữ tâm, sống đúng Đạo thì có thể chuyển nặng thành nhẹ, vận khó thành cơ hội trưởng thành."
+        },
+        {
+          "heading": "4. Ba câu hỏi tỉnh thức trước một năm khó",
+          "bodyMarkdown": "**Câu hỏi 1 – Nguyên Cục:** Cung mà Tiểu vận năm nay đi vào có bản chất Cát hay Hung? Có phải cung Hố của lá số không? Nếu bản chất cung Cát, một Hóa Kỵ chỉ làm con đường khó hơn, không làm hỏng kết quả.\n\n**Câu hỏi 2 – Đại Vận:** Đại vận 10 năm đang đi qua đâu? Nếu Đại vận vững, một năm Tiểu vận khó ít khi làm chao đảo toàn bộ. Nếu Đại vận cũng đang xung chiếu cung Hố, đó là lúc cần chuẩn bị kỹ hơn.\n\n**Câu hỏi 3 – Tiểu Vận và Hóa lưu:** Năm nay Hóa nào chiếu về cung nào? Từ đó quyết định nên **Thủ** hay **Công**, và chuyển lực sang cung nào đang đẹp.\n\nThêm một câu hỏi soi chiếu: Tiểu vận cứ **12 năm quay lại một cung**. Hãy mở lại ký ức 12 năm trước: đã xảy ra điều gì, có vết thương nào, cơ hội nào bị bỏ lỡ, hay một hạt giống nào đã được gieo?"
+        },
+        {
+          "heading": "5. Cách ứng xử: Thủ khi cung Hung bị kích, vẫn Công khi cung Cát gặp Kỵ",
+          "bodyMarkdown": "**Khi cung Hung bị kích hoạt:**\n\n- Thủ, đừng công; giữ tâm định, tránh tạo sóng.\n- Làm tốt ở cung khác đang tốt, đừng cố vẫy vùng ở cung Hung.\n- Tránh kích hoạt mạnh cung đó: Phu Thê khó thì tránh quyết định lớn về hôn nhân; Quan Lộc khó thì tránh đổi việc nếu không bắt buộc; Điền Trạch khó thì chưa nên đầu tư nhà đất; Tài Bạch khó thì tránh đầu tư lớn, mạo hiểm.\n- **Chuyển lực sang cung đẹp trong năm:** ví dụ Quan khó nhưng Mệnh, Tài đẹp thì phát triển nghề tay trái, kinh doanh phụ, xây cộng đồng.\n\n**Khi cung Cát bị Hóa Kỵ kích:** đừng hoảng, vẫn là Cát. Cẩn trọng thủ tục, giấy tờ, thị phi, nhưng cứ hành động theo hướng cung ấy, và giữ tâm an trước va chạm nhỏ."
+        },
+        {
+          "heading": "6. Chuẩn bị trước: xây thuyền khi trời còn yên",
+          "bodyMarkdown": "Bộ tri thức TVCL nhắc: *đừng đợi biến cố mới tu, hãy chuẩn bị sớm.*\n\n- **Làm phúc có chủ đích:** giúp đúng người, đúng việc; làm quý nhân cho người khác.\n- **Tu tập tâm:** thiền định, giữ lời nói và hành động trong chánh niệm.\n- **Ghi nhật ký** mỗi ngày trong giai đoạn khó: hôm nay thấy gì, nghĩ gì, học được gì.\n- **Củng cố nội lực:** hạ kỳ vọng, củng cố kỹ năng, nhẫn nại chờ thời.\n- Vận sức khỏe khó thì chủ động khám và chăm sóc sức khỏe cùng bác sĩ.\n\n*\"Thời gian không chữa lành, mà chỉ người sống có ý thức trong thời gian mới chuyển được nghiệp.\"*"
         }
       ],
       "faq": [
         {
           "question": "Quan niệm dân gian thường hiểu lầm điều gì về \"Luận Vận Hạn 3 Tầng (Nguyên Cục – Đại Vận – Tiểu Vận)\"?",
-          "answer": "Nhiều người lầm tưởng: \"Đến năm hạn có Hóa Kỵ, Không Kiếp hay Kình Dương lưu niên là chắc chắn gặp tai họa, phải làm lễ giải hạn tốn kém mới qua được.\". Sự thật dưới góc nhìn Tử Vi Chữa Lành: Luận vận chuẩn xác bắt buộc phải đặt trên 3 tầng: Nguyên Cục (chiếc thuyền) – Đại Vận 10 năm (vùng biển) – Tiểu Vận 1 năm (thời tiết). Vận Cát thì giương buồm ra khơi; Vận Hung thì chủ động xây thuyền đón bão."
+          "answer": "Nhiều người lầm tưởng: \"Đến năm hạn có Hóa Kỵ, Không Kiếp hay Kình Dương lưu niên là chắc chắn gặp tai họa, phải làm lễ giải hạn tốn kém mới qua được.\". Sự thật dưới góc nhìn Tử Vi Chữa Lành: Luận vận phải đi cả 3 tầng: Nguyên Cục là gốc, Đại Vận 10 năm cho biết giai đoạn, Tiểu Vận là thời điểm ngòi nổ chạm vào. Bản chất cung quyết định Cát – Hung; Hóa chỉ là lực kích hoạt. Biết trước thì giữ tâm, thủ chắc và chuyển lực sang cung đẹp."
+        },
+        {
+          "question": "Năm Tiểu vận có Hóa Kỵ có phải là năm xấu?",
+          "answer": "Chưa chắc. Bản chất cung quyết định Cát – Hung; nếu cung đó Cát thì Hóa Kỵ chỉ khiến con đường khó hơn (giấy tờ, thị phi), kết quả vẫn có thể tốt."
+        },
+        {
+          "question": "Cung Hố là gì?",
+          "answer": "Là cung trong Nguyên Cục hội tụ nhiều hung tinh nặng (Không Kiếp, Kình Đà, Hỏa Linh, Hóa Kỵ...), dễ thành điểm trũng khi vận đi qua và bị kích hoạt. Biết trước để chuẩn bị, không phải để sợ."
         },
         {
           "question": "Làm sao để ứng dụng bài học này vào cải mệnh thực tế ngay hôm nay?",
-          "answer": "Lập danh sách 3 việc 'xây thuyền' cho năm mới: 1 kỹ năng chuyên môn cần học sâu, 1 thói quen rèn luyện thân tâm mỗi ngày và 1 nguyên tắc quản trị tài chính an toàn."
+          "answer": "Xác định cung Tiểu vận năm tới của bạn, trả lời 3 câu hỏi Nguyên Cục – Đại Vận – Tiểu Vận, rồi ghi ra một việc nên Thủ và một cung đẹp để dồn lực."
         }
       ],
       "reflectionPrompts": [
-        "Nhìn lại 3 năm vừa qua của bạn, đâu là giai đoạn bạn trưởng thành vượt bậc nhất — lúc thuận lợi hay lúc đi qua thử thách?",
-        "Trong năm 2027 sắp tới, lĩnh vực nào bạn muốn ưu tiên 'xây thuyền vững chắc'?"
+        "12 năm trước, khi Tiểu vận đi qua cung năm nay, điều gì đã xảy ra với bạn?",
+        "Năm tới, cung nào là nơi bạn nên dồn lực, cung nào là nơi bạn nên giữ?"
       ],
-      "microPractice": "Lập danh sách 3 việc 'xây thuyền' cho năm mới: 1 kỹ năng chuyên môn cần học sâu, 1 thói quen rèn luyện thân tâm mỗi ngày và 1 nguyên tắc quản trị tài chính an toàn.",
+      "microPractice": "Xác định cung Tiểu vận năm tới của bạn, trả lời 3 câu hỏi Nguyên Cục – Đại Vận – Tiểu Vận, rồi ghi ra một việc nên Thủ và một cung đẹp để dồn lực.",
       "recommendedCourse": {
         "title": "Khóa học Nghiệm Lý Luận Vận Hạn Tử Vi (3 Tầng)",
         "desc": "Thấu hiểu dòng chảy Nguyên cục – Đại vận – Tiểu vận để vận Cát biết giương buồm, vận Hung biết xây thuyền đón bão."
@@ -12051,7 +12309,7 @@
       "lifeDomain": "su-nghiep",
       "personaId": "anh-gia-su",
       "authorName": "Anh Gia Sư TVCL",
-      "readTime": "7 phút",
+      "readTime": "10 phút",
       "featured": true,
       "tags": [
         "3P4C",
@@ -12104,37 +12362,49 @@
         "myth": "Người mới vào đọc lá số không biết bắt đầu từ đâu, dễ sa vào đọc những bài dọa hạn năm hoặc sao xấu.",
         "truth": "Bắt đầu từ 8 viên gạch nền tảng trên tuvichualanh.com giúp bạn có ngay bộ khung chuẩn: hiểu 12 vùng đời sống, 14 nguyên mẫu chính tinh và cách biến Cát tinh thành năng lực, thuần hóa Hung tinh thành bản lĩnh."
       },
-      "chart3P4CAxes": "8 Bài Nền Tảng TVCL: 12 Cung · 14 Chính Tinh · 6 Cát Tinh · 6 Hung Tinh · Tử Vi · Thiên Cơ · [Kình Dương](wiki:KinhDa) · Thiên Khôi",
+      "chart3P4CAxes": "Bắt đầu từ đây: 12 Cung → 14 Chính Tinh → Cát Tinh → Hung Tinh → Tử Vi · Thiên Cơ · Kình Dương · Thiên Khôi",
       "causalFlow5Steps": [
         {
           "step": "SAO / GỐC",
-          "description": "Bước 1 (12 Cung): Hiểu 12 vùng đời sống được phản chiếu trên lá số"
+          "description": "Chặng 1 (Sân khấu): Đọc bài 12 Cung để hiểu 12 vùng đời sống trên lá số."
         },
         {
           "step": "DUYÊN / BỐI CẢNH",
-          "description": "Bước 2 (14 Chính Tinh): Khám phá 14 nguyên mẫu năng lượng cốt lõi tại từng cung"
+          "description": "Chặng 2 (Diễn viên chính): Đọc bài 14 Chính Tinh để gặp 14 nguyên mẫu năng lượng cốt lõi."
         },
         {
           "step": "TÂM / NHẬN THỨC",
-          "description": "Bước 3 (6 Cát Tinh): Nhận diện nguồn lực sẵn có và cách biến phước báu thành năng lực"
-        },
-        {
-          "step": "HÀNH / PHƯƠNG PHÁP",
-          "description": "Bước 4 (6 Hung Tinh): Hiểu năng lượng mạnh để thuần hóa thay vì sợ hãi"
+          "description": "Chặng 3 (Nguồn lực và thử thách): Đọc bài Cát Tinh và Hung Tinh để biết dụng phước, chuyển hóa thử thách."
         },
         {
           "step": "QUẢ / CHUYỂN HÓA",
-          "description": "Bước 5 (Thực hành sao mẫu): Đọc Tử Vi (lãnh đạo), Thiên Cơ (trí tuệ), Kình Dương (kỷ luật), Thiên Khôi (cầu học)"
+          "description": "Chặng 4 (Bốn sao mẫu): Đọc 4 bài Tử Vi, Thiên Cơ, Kình Dương, Thiên Khôi để thấy cách đọc một sao theo hai mặt."
         }
       ],
       "sections": [
         {
-          "heading": "1. Bốn trụ cột cấu trúc của một lá số Tử Vi Chữa Lành",
-          "bodyMarkdown": "Trên trang chủ tuvichualanh.com, hành trình của mọi Tộc viên đều bắt đầu từ 4 khái niệm gốc: (1) **12 Cung** là 12 vùng đời sống (từ Mệnh, [Phúc Đức](wiki:PhucDuc), Quan Lộc, Tài Bạch đến [Phu Thê](wiki:PhuThe)...); (2) **14 Chính Tinh** là 14 nguyên mẫu tính cách chính; (3) **Cát Tinh** là những nguồn trợ lực cần được đem ra sử dụng; và (4) **Hung Tinh** là những năng lượng mạnh mẽ cần được rèn luyện trong kỷ luật."
+          "heading": "1. Tám bài nền tảng trong mục \"Bắt đầu từ đây\"",
+          "bodyMarkdown": "Trên trang chủ tuvichualanh.com, mục **\"Bắt đầu từ đây\"** gồm 8 bài nền tảng:\n\n- **12 Cung:** hiểu 12 vùng đời sống được phản chiếu trên lá số.\n- **14 Chính Tinh:** khám phá 14 nguyên mẫu năng lượng cốt lõi.\n- **Cát Tinh:** nhận diện nguồn lực và cách biến phước thành năng lực.\n- **Hung Tinh:** hiểu năng lượng mạnh để chuyển hóa thay vì sợ hãi.\n- **Sao Tử Vi:** năng lượng lãnh đạo, trách nhiệm và khả năng quy tụ.\n- **Sao Thiên Cơ:** trí tuệ, khả năng thích nghi và bài học an định.\n- **Sao Kình Dương:** chuyển sức mạnh đối đầu thành quyết đoán có kỷ luật.\n- **Sao Thiên Khôi:** quý nhân, tinh thần cầu học và cơ hội trưởng thành.\n\nBốn bài đầu là **khung nền**, bốn bài sau là **bốn sao mẫu** để tập cách đọc một ngôi sao theo hai mặt."
         },
         {
-          "heading": "2. Bốn ngôi sao mẫu đại diện cho tinh thần chuyển hóa",
-          "bodyMarkdown": "• **Sao Tử Vi**: Năng lượng lãnh đạo, trách nhiệm và bài học khiêm hạ quy tụ.\n• **Sao Thiên Cơ**: Trí tuệ linh hoạt, khả năng thích nghi và bài học an định tâm trí.\n• **Sao [Kình Dương](wiki:KinhDa)**: Chuyển sức mạnh đối đầu, nóng nảy thành sự quyết đoán có kỷ luật.\n• **Sao Thiên Khôi**: Tinh thần cầu học, trọng chữ tín và cơ hội gặp gỡ quý nhân trưởng thành."
+          "heading": "2. 12 Cung: sân khấu của cuộc đời",
+          "bodyMarkdown": "Mỗi lá số có vị trí cung Mệnh khác nhau; 11 cung còn lại được an theo cung Mệnh. Ngoài 12 cung còn có **cung Thân**, cung không có vị trí riêng mà \"ở nhờ\" vào một trong các cung Mệnh, Phúc Đức, Phu Thê, Quan Lộc, Tài Bạch, Thiên Di.\n\n12 cung thể hiện:\n\n- **12 khía cạnh** của cuộc đời.\n- **Mối quan hệ** của ta với sự việc, sự kiện diễn ra tại cung đó.\n- **Thái độ, cách hành xử** của chính ta với khía cạnh đó.\n- **Nhân duyên**: người và việc ta dễ thu hút, gặp phải.\n\nMỗi cung giống như một **\"tiểu nhân cách\"**, một bộ mặt ta dùng để đối xử với khía cạnh đó của đời sống. Xem thêm: [Cung Mệnh – Thân](wiki:CungMenhThan), [Phúc Đức](wiki:PhucDuc), [Phu Thê](wiki:PhuThe)."
+        },
+        {
+          "heading": "3. 14 Chính Tinh: 14 nguyên mẫu cốt lõi",
+          "bodyMarkdown": "Nếu cung là sân khấu thì sao là diễn viên. 14 Chính tinh là 14 \"vị giám đốc\" điều hành các phòng ban trong nội tâm, mỗi vị là một hình tượng: hoàng đế (Tử Vi), quân sư (Thiên Cơ), minh chủ (Thái Dương), nhà kinh doanh (Vũ Khúc), đứa trẻ của trời (Thiên Đồng), quan giám sát (Liêm Trinh), người quản kho (Thiên Phủ), người giữ tiền dịu dàng (Thái Âm), người chinh phục (Tham Lang), nhà diễn thuyết (Cự Môn), tể tướng giữ ấn (Thiên Tướng), thanh quan ngự sử (Thiên Lương), chủ soái (Thất Sát), tướng tiên phong (Phá Quân).\n\nKhông có Chính tinh nào tốt tuyệt đối hay xấu tuyệt đối; mỗi sao đều có mặt sáng và mặt tối."
+        },
+        {
+          "heading": "4. Cát Tinh và Hung Tinh: dụng phước, chuyển hóa thử thách",
+          "bodyMarkdown": "- **Cát tinh** là năng lượng hỗ trợ, tăng cường, bảo vệ. Không phải chìa khóa vàng tự mở cửa, mà là công cụ tốt phải biết dùng. Ba cặp: [Tả Hữu](wiki:TaHuu) (trợ lực), [Xương Khúc](wiki:XuongKhuc) (tri thức, tài hoa), [Khôi Việt](wiki:KhoiViet) (quý nhân).\n- **Hung tinh** là năng lượng mạnh, là vùng bóng tối cần được nhìn thấy. Ba cặp: [Kình Đà](wiki:KinhDa), [Hỏa Linh](wiki:HoaTinh), [Không Kiếp](wiki:KhongKiep). Mỗi sao đều có hình tượng mặt sáng: Chiến thần, Nhà nghiên cứu nội tâm, Ngọn lửa tâm linh, Người giữ lửa bộ tộc, Nhà hiền triết, Nhà sáng tạo.\n\nTinh thần chung: **Cát tinh là phước báu cần dụng, Hung tinh là bài học cần chữa lành.**"
+        },
+        {
+          "heading": "5. Bốn sao mẫu: tập đọc một ngôi sao theo hai mặt",
+          "bodyMarkdown": "- **[Tử Vi](wiki:TuVi):** mặt sáng là khí chất lãnh đạo, trách nhiệm, bao dung; mặt tối là cái tôi cao, sĩ diện, gia trưởng.\n- **[Thiên Cơ](wiki:ThienCo):** mặt sáng là thông minh, ham học, tư duy nhanh; mặt tối là nghĩ quá nhiều, lo âu, thiếu quyết đoán.\n- **[Kình Dương](wiki:KinhDa):** mặt sáng là can đảm, quyết đoán, ý chí sắt đá; mặt tối là nóng nảy, hiếu thắng, cực đoan.\n- **[Thiên Khôi](wiki:KhoiViet):** mặt sáng là dễ gặp quý nhân, được người có vị thế nhìn thấy; mặt tối là phụ thuộc người nâng đỡ. Bài học: tu dưỡng bản thân để xứng đáng với cơ hội.\n\nMột Chính tinh, một Chính tinh, một Hung tinh, một Cát tinh: bốn sao mẫu đủ để bạn tập thói quen quan trọng nhất của TVCL, là luôn nhìn hai mặt trước khi kết luận."
+        },
+        {
+          "heading": "6. Đọc xong 8 bài, đi tiếp đâu?",
+          "bodyMarkdown": "Sau 8 bài nền tảng, lộ trình gợi ý là: học trọn 32 sao cốt lõi → tập đọc trong [3P4C](wiki:3P4C) → luyện 5 bước luận nhanh một lá số → tìm hiểu 8 nguyên lý Cải Mệnh. Lá số là bản đồ, không phải bản án."
         }
       ],
       "faq": [
@@ -12143,15 +12413,23 @@
           "answer": "Nhiều người lầm tưởng: \"Người mới vào đọc lá số không biết bắt đầu từ đâu, dễ sa vào đọc những bài dọa hạn năm hoặc sao xấu.\". Sự thật dưới góc nhìn Tử Vi Chữa Lành: Bắt đầu từ 8 viên gạch nền tảng trên tuvichualanh.com giúp bạn có ngay bộ khung chuẩn: hiểu 12 vùng đời sống, 14 nguyên mẫu chính tinh và cách biến Cát tinh thành năng lực, thuần hóa Hung tinh thành bản lĩnh."
         },
         {
+          "question": "Người mới nên đọc 8 bài theo thứ tự nào?",
+          "answer": "Đọc 12 Cung trước, rồi 14 Chính Tinh, Cát Tinh, Hung Tinh, sau cùng là 4 bài sao mẫu Tử Vi, Thiên Cơ, Kình Dương, Thiên Khôi."
+        },
+        {
+          "question": "Vì sao chọn Tử Vi, Thiên Cơ, Kình Dương, Thiên Khôi làm sao mẫu?",
+          "answer": "Bốn sao này đại diện cho cả ba nhóm: hai Chính tinh, một Hung tinh và một Cát tinh, đủ để luyện cách đọc mặt sáng – mặt tối ở mỗi nhóm."
+        },
+        {
           "question": "Làm sao để ứng dụng bài học này vào cải mệnh thực tế ngay hôm nay?",
-          "answer": "Sau khi đọc xong bài tổng quan này, hãy mở mục lục bên trái để chọn đọc sâu từng bài viết thuộc nhóm chủ đề bạn đang quan tâm nhất."
+          "answer": "Đọc bài 12 Cung, rồi xác định cung Mệnh và cung Thân của bạn đang nằm ở đâu trên lá số."
         }
       ],
       "reflectionPrompts": [
-        "Trong 4 nhóm nền tảng (12 Cung, 14 Chính Tinh, 6 Cát Tinh, 6 Hung Tinh), phần nào bạn muốn đào sâu nhất hôm nay?",
-        "Ngôi sao nào trên cung Mệnh của bạn đang mời gọi bạn thực hành bài học trưởng thành?"
+        "Cung Thân của bạn ở nhờ vào cung nào, và điều đó gợi ý gì về cách bạn nhập thế?",
+        "Trong 4 sao mẫu, sao nào giống bạn nhất?"
       ],
-      "microPractice": "Sau khi đọc xong bài tổng quan này, hãy mở mục lục bên trái để chọn đọc sâu từng bài viết thuộc nhóm chủ đề bạn đang quan tâm nhất.",
+      "microPractice": "Đọc bài 12 Cung, rồi xác định cung Mệnh và cung Thân của bạn đang nằm ở đâu trên lá số.",
       "recommendedCourse": {
         "title": "Khóa học Luận Nhanh Lá Số Tử Vi (S37)",
         "desc": "Lộ trình từng bước dành cho người mới: nắm vững 32 sao cốt lõi, công thức 3P4C và 5 bước tự đọc lá số của chính mình."

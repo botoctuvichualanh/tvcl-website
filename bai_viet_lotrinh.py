@@ -171,11 +171,11 @@ def steps_html(article, md):
     return "".join(out)
 
 
-PRAC_RE = re.compile(r"^(Bước|Chiến lược|Tầng|Chặng|Phần)\s*(\d+)\s*(?:\(([^)]*)\))?\s*:\s*(.*)$", re.S)
+PRAC_RE = re.compile(r"^(Bước|Chiến lược|Tầng|Chặng|Phần|Nguyên lý|Bài học|Câu hỏi)\s*(\d+)\s*(?:\(([^)]*)\))?\s*:\s*(.*)$", re.S)
 DE_RE = re.compile(r"^([A-ZÀ-Ỹ ]+ĐẾ)\s*:\s*(.*)$", re.S)
 NUM_RE = re.compile(r"^([\d–-]+)\s*:\s*(.*)$", re.S)
 PRAC_HEAD = {"Bước": "Các bước thực hành", "Chiến lược": "Các chiến lược thực hành", "Tầng": "Luận theo từng tầng",
-             "Chặng": "Lộ trình từng chặng", "Phần": "Cấu trúc bài luận", "ĐẾ": "Tứ Diệu Đế ứng dụng", "NUM": "Các nguyên lý cải mệnh"}
+             "Chặng": "Lộ trình từng chặng", "Phần": "Cấu trúc bài luận", "Nguyên lý": "Các nguyên lý cải mệnh", "Bài học": "Các bài học thực hành", "Câu hỏi": "Các câu hỏi then chốt", "ĐẾ": "Tứ Diệu Đế ứng dụng", "NUM": "Các nguyên lý cải mệnh"}
 
 
 def practice_html(article, md):

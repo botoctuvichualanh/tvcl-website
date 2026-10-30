@@ -17,7 +17,7 @@ ROOT = Path(__file__).resolve().parent
 SOURCE = ROOT / "_bai-viet-source"
 OUT = ROOT / "bai-viet"
 SITE = "https://tuvichualanh.com"
-CSS_URL = "/bai-viet/assets/tvcl-bv.css?v=20261030-topic-chips"
+CSS_URL = "/bai-viet/assets/tvcl-bv-topic-chips.css"
 LOGO_URL = "/bai-viet/assets/logo-tvcl.webp"
 SLOGAN = "Tử Vi Chữa Lành: Ứng dụng Tử Vi, Tâm Lý, Đạo Học để Hiểu Mình, Cải Mệnh &amp; Chữa Lành"
 TAGLINE = "Lá số là bản đồ, không phải bản án."
@@ -553,7 +553,9 @@ def write_assets():
     assets = OUT / "assets"
     assets.mkdir(parents=True, exist_ok=True)
     base = (SOURCE / "tvcl-lotrinh-base.css").read_text(encoding="utf-8")
-    (assets / "tvcl-bv.css").write_text(base + "\n" + EXTRA_CSS, encoding="utf-8")
+    css = base + "\n" + EXTRA_CSS
+    (assets / "tvcl-bv.css").write_text(css, encoding="utf-8")
+    (assets / "tvcl-bv-topic-chips.css").write_text(css, encoding="utf-8")
     shutil.copyfile(SOURCE / "logo-tvcl.webp", assets / "logo-tvcl.webp")
 
 

@@ -230,7 +230,9 @@ def kb_html(article, kb, wiki):
                     rows.append(("Cải mệnh", "<ul>" + "".join(f"<li>{esc(x)}</li>" for x in it["remedy"]) + "</ul>"))
         if w.get("healingView"):
             rows.append(("Góc nhìn TVCL", esc(w["healingView"])))
-        body = "".join(f'<div class="row"><span class="k">{k}</span><span>{v}</span></div>' for k, v in rows)
+        RC = {"Tóm lược": "r-tom", "Định nghĩa": "r-tom", "Hình tượng": "r-hinh", "Mặt sáng · Dụng": "r-sang",
+              "Vùng bài học": "r-hoc", "Chuyển hóa": "r-chuyen", "Cải mệnh": "r-chuyen", "Góc nhìn TVCL": "r-tvcl"}
+        body = "".join(f'<div class="row {RC.get(k, "")}"><span class="k">{k}</span><span>{v}</span></div>' for k, v in rows)
         blocks.append(f'<details class="stage"><summary><span class="num">{esc(typ)}</span><span class="stitle">{esc(title)}</span><span class="chev">›</span></summary><div class="sbody">{body}</div></details>')
         if len(blocks) == 4:
             break
@@ -540,6 +542,16 @@ EXTRA_CSS = r'''
 .node-card b{color:var(--c);font-size:1.05rem}.node-card span{font-size:.9rem;color:var(--ink)}.axis-cap{margin-top:10px;color:var(--muted);font-size:.9rem}
 .step-sm{font-size:.95rem;color:var(--ink)}.course .cbody{padding-bottom:26px}
 .sbody .row>span:last-child ul{margin:4px 0 0}.sbody b{color:var(--c)}
+.sbody .row[class*="r-"]{padding:10px 12px;border-radius:10px;border-left:4px solid var(--rc);background:var(--rb)}
+.sbody .row[class*="r-"] .k{color:var(--rc)}
+.sbody .row[class*="r-"] b{color:var(--rc)}
+.r-tom{--rc:#4A8FD4;--rb:#F1F6FC}
+.r-hinh{--rc:#8A7A5C;--rb:#F7F5F0}
+.r-sang{--rc:#2F6FB3;--rb:#E3EEF9}
+.r-hoc{--rc:#5B6B80;--rb:#EEF1F5}
+.r-chuyen{--rc:#3E8A69;--rb:#E9F5EF}
+.r-tvcl{--rc:#187888;--rb:#E3F4F5}
+@media (prefers-color-scheme:dark){.r-tom,.r-hinh,.r-sang,.r-hoc,.r-chuyen,.r-tvcl{--rb:color-mix(in srgb,var(--rc) 14%,transparent)}}
 .faq summary{list-style:none}.faq summary::-webkit-details-marker{display:none}.faq summary::before{content:"+";display:inline-block;width:1.2em;color:var(--c);font-weight:800}.faq details[open] summary::before{content:"–"}
 .offer-box{background:var(--card);border:1px solid var(--line);border-top:4px solid var(--c);border-radius:14px;padding:22px;display:grid;gap:12px;max-width:760px}
 .cta{display:inline-block;background:var(--sky);color:#fff;text-decoration:none;font-weight:700;padding:11px 20px;border-radius:999px;border:0;cursor:pointer;font:inherit;font-weight:700}

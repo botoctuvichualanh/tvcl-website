@@ -397,6 +397,13 @@ def render_library(data, category, articles, title, description, canonical, is_r
     sugg = "".join(f'<button type="button" class="query-chip" data-query="{esc(tag_label[k])}">{esc(tag_label[k])}</button>' for k in popular)
     cards = "".join(story_card(a) for a in articles)
     topics = "".join(f'<a class="card pillar {CAT_K.get(c["id"], "k2")} pick" href="/bai-viet/{c["id"]}/"><span class="pk">{counts[c["id"]]} bài viết</span><h3>{esc(short_cat(c["name"]))}</h3><p>{esc(c["heroDesc"])}</p><span class="go">Xem chuyên đề →</span></a>' for c in cats)
+    topics_section = f'''<section class="band paper" style="--c:var(--k1)">
+    <div class="wrap stack">
+      <p class="eyebrow">5 chuyên đề</p>
+      <h2>Đi sâu theo từng chủ đề</h2>
+      <div class="grid topics" style="margin-top:8px">{topics}</div>
+    </div>
+  </section>''' if is_root else ""
     h1 = 'Bài viết &amp; <span>Chiêm nghiệm</span> lá số' if is_root else esc(category.get("heroTitle") or category["name"])
     eyebrow = "Tàng Kinh Các · Thư viện bài viết" if is_root else "Chuyên đề · " + esc(short_cat(category["name"]))
     schema = jscript({"@context": "https://schema.org", "@graph": [
@@ -423,6 +430,7 @@ def render_library(data, category, articles, title, description, canonical, is_r
   </div>
 </header>
 <main>
+  {topics_section}
   <section class="band" style="--c:var(--k2)">
     <div class="wrap stack">
       <p class="eyebrow">Tìm bài viết</p>
@@ -456,13 +464,6 @@ def render_library(data, category, articles, title, description, canonical, is_r
           <div class="aside-note"><p class="eyebrow">Tinh thần TVCL</p><p>Tử Vi gợi ra khuynh hướng. Nhận thức và hành động mở thêm con đường.</p><a href="/lo-trinh-hanh-nghe-tvcl/">Xem lộ trình học →</a></div>
         </aside>
       </div>
-    </div>
-  </section>
-  <section class="band paper" style="--c:var(--k4)">
-    <div class="wrap stack">
-      <p class="eyebrow">5 chuyên đề</p>
-      <h2>Đi sâu theo từng chủ đề</h2>
-      <div class="grid topics" style="margin-top:8px">{topics}</div>
     </div>
   </section>
 </main>

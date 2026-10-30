@@ -17,7 +17,7 @@ ROOT = Path(__file__).resolve().parent
 SOURCE = ROOT / "_bai-viet-source"
 OUT = ROOT / "bai-viet"
 SITE = "https://tuvichualanh.com"
-CSS_URL = "/bai-viet/assets/tvcl-bv.css?v=20261030-reading-size"
+CSS_URL = "/bai-viet/assets/tvcl-bv.css?v=20261030-topic-chips"
 LOGO_URL = "/bai-viet/assets/logo-tvcl.webp"
 SLOGAN = "Tử Vi Chữa Lành: Ứng dụng Tử Vi, Tâm Lý, Đạo Học để Hiểu Mình, Cải Mệnh &amp; Chữa Lành"
 TAGLINE = "Lá số là bản đồ, không phải bản án."
@@ -502,7 +502,7 @@ EXTRA_CSS = r'''
 .related{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
 .related a,.prevnext a{display:block;padding:14px 16px;border:1px solid var(--line);border-left:4px solid var(--sky);border-radius:12px;background:var(--card);text-decoration:none;font-weight:600;color:var(--ink);line-height:1.45}
 .related a span,.prevnext a span{display:block;font-size:.78rem;color:var(--muted);font-weight:500;margin-bottom:2px}.related a:hover,.prevnext a:hover{border-color:var(--sky)}
-.tagrow{display:flex;flex-wrap:wrap;gap:6px}.tagchip{font-size:.82rem;text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:4px 11px;color:var(--ink);background:var(--card)}.tagchip:hover{border-color:var(--sky);color:var(--sky-ink)}
+.tagrow{display:flex;flex-wrap:wrap;gap:6px}.tagchip{font-size:.82rem;text-decoration:none;border:1px solid color-mix(in srgb,var(--sky) 28%,var(--line));border-radius:999px;padding:4px 11px;color:var(--sky-ink);background:color-mix(in srgb,var(--sky) 11%,var(--card));transition:background-color .18s,border-color .18s,color .18s}.tagchip:hover{border-color:var(--sky);color:var(--sky-ink);background:color-mix(in srgb,var(--sky) 19%,var(--card))}
 .prevnext{display:grid;gap:10px;grid-template-columns:1fr 1fr;margin-top:16px}.prevnext a.nx{text-align:right;border-left:1px solid var(--line);border-right:4px solid var(--sky)}
 .wiki-modal{position:fixed;inset:0;z-index:30;display:none;place-items:center;padding:16px;background:rgba(20,27,36,.55)}.wiki-modal.open{display:grid}
 .wiki-card{max-width:520px;width:100%;background:var(--card);border-radius:16px;border-top:4px solid var(--sky);padding:22px;box-shadow:0 20px 60px rgba(0,0,0,.25)}.wiki-card h3{font-size:1.35rem;color:var(--sky-ink);margin:6px 40px 4px 0}

@@ -55,7 +55,7 @@ tbody tr{background:color-mix(in srgb,var(--c) 9%,var(--card))}
 .slogan{margin-top:6px;color:var(--muted);font-size:.95rem;max-width:60ch}
 .quote{margin-top:28px;font-size:clamp(1.15rem,2.6vw,1.45rem);font-weight:600;border-left:3px solid var(--heal);padding-left:16px;max-width:30ch}
 .path-strip{margin-top:32px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
-.pill{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:6px 14px;font-weight:600;font-size:.9rem}
+.pill{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:6px 14px;font-weight:600;font-size:1.04rem}
 .pill{border-color:var(--c);color:var(--c)}
 .pill.end{background:var(--c);color:#fff}
 .arrow{color:var(--muted)}
@@ -114,8 +114,8 @@ td.c{font-weight:700;color:var(--c);white-space:nowrap;border-left:4px solid var
 
 /* Pass criteria */
 .criteria{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(180px,1fr))}
-.crit{border-top:3px solid var(--sky);background:var(--card);border-radius:0 0 10px 10px;padding:14px;font-size:.92rem;border-left:1px solid var(--line);border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
-.crit b{display:block;font-size:.78rem;color:var(--muted);letter-spacing:.06em}
+.crit{border-top:3px solid var(--sky);background:var(--card);border-radius:0 0 10px 10px;padding:14px;font-size:1.04rem;border-left:1px solid var(--line);border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
+.crit b{display:block;font-size:1.04rem;color:var(--muted);letter-spacing:.06em}
 .pass{margin-top:6px;background:var(--sky-soft);border-radius:12px;padding:16px 18px}
 
 /* 5 Không 5 Luôn */

@@ -1129,7 +1129,6 @@
         "KhongKiep",
         "PhucDuc",
         "3P4C",
-        "TuVi",
         "DaoHoc"
       ],
       "tagLabels": [
@@ -1313,7 +1312,8 @@
         "Hệ thống Gia đình Nội tâm (IFS)",
         "Công thức 3P4C (Tam Phương Tứ Chính)",
         "Sao Thất Sát (Chính Tinh)",
-        "Cung Quan Lộc"
+        "Cung Quan Lộc",
+        "Sao Thất Sát"
       ],
       "seo": {
         "metaTitle": "Sao Thất Sát là gì? | Tử Vi Chữa Lành",
@@ -1493,7 +1493,8 @@
         "Sao Phá Quân (Chính Tinh)",
         "Cung Quan Lộc",
         "Cung Tài Bạch",
-        "Cung Phu Thê"
+        "Cung Phu Thê",
+        "Sao Phá Quân"
       ],
       "seo": {
         "metaTitle": "Sao Phá Quân là gì? | Tử Vi Chữa Lành",
@@ -1673,7 +1674,8 @@
         "Sao Tham Lang (Chính Tinh)",
         "Địa Không – Địa Kiếp (Lục Sát Tinh)",
         "Đào Hoa – Hồng Loan – Thiên Hỷ",
-        "Đạo Học Phương Đông & Luật Nhân Quả"
+        "Đạo Học Phương Đông & Luật Nhân Quả",
+        "Sao Tham Lang"
       ],
       "seo": {
         "metaTitle": "Sao Tham Lang là gì? | Tử Vi Chữa Lành",
@@ -1851,7 +1853,9 @@
         "Công thức 3P4C (Tam Phương Tứ Chính)",
         "Sao Thái Dương (Chính Tinh)",
         "Sao Cự Môn (Chính Tinh)",
-        "Cung Phúc Đức"
+        "Cung Phúc Đức",
+        "Sao Thái Dương",
+        "Sao Cự Môn"
       ],
       "seo": {
         "metaTitle": "Sao Cự Môn là gì? | Tử Vi Chữa Lành",
@@ -2027,7 +2031,8 @@
         "Hệ thống Gia đình Nội tâm (IFS)",
         "Công thức 3P4C (Tam Phương Tứ Chính)",
         "Sao Liêm Trinh (Chính Tinh)",
-        "Đào Hoa – Hồng Loan – Thiên Hỷ"
+        "Đào Hoa – Hồng Loan – Thiên Hỷ",
+        "Sao Liêm Trinh"
       ],
       "seo": {
         "metaTitle": "Sao Liêm Trinh là gì? | Tử Vi Chữa Lành",
@@ -2207,7 +2212,8 @@
         "Sao Tử Vi (Chính Tinh)",
         "Tả Phù – Hữu Bật (Lục Cát Tinh)",
         "Sao Hóa Quyền (Tứ Hóa)",
-        "Cung Phu Thê"
+        "Cung Phu Thê",
+        "Sao Tử Vi"
       ],
       "seo": {
         "metaTitle": "Sao Tử Vi cư Mệnh có chắc là sướng không? | Tử Vi Chữa Lành",
@@ -2389,7 +2395,8 @@
         "Kình Dương – Đà La (Lục Sát Tinh)",
         "Văn Xương – Văn Khúc (Lục Cát Tinh)",
         "Sao Hóa Quyền (Tứ Hóa)",
-        "Liệu pháp Nhận thức – Hành vi (CBT)"
+        "Liệu pháp Nhận thức – Hành vi (CBT)",
+        "Sao Thất Sát"
       ],
       "seo": {
         "metaTitle": "Vì sao không có ngôi sao nào hoàn toàn tốt hay hoàn toàn xấu?",
@@ -2575,7 +2582,8 @@
         "Sao Hóa Quyền (Tứ Hóa)",
         "Cung Mệnh – Cung Thân",
         "Cung Quan Lộc",
-        "Cung Tài Bạch"
+        "Cung Tài Bạch",
+        "Sao Thiên Phủ"
       ],
       "seo": {
         "metaTitle": "Có Hóa Lộc, Lộc Tồn trên lá số có chắc chắn giàu có không?",
@@ -2915,7 +2923,6 @@
         "PhucDuc",
         "3P4C",
         "IFS",
-        "TuVi",
         "ThaiDuong",
         "ThienPhu",
         "ThienTuong",
@@ -2933,7 +2940,10 @@
         "Sao Thiên Tướng (Chính Tinh)",
         "Sao Hóa Quyền (Tứ Hóa)",
         "Cung Phụ Mẫu",
-        "Cung Tử Tức"
+        "Cung Tử Tức",
+        "Sao Thái Dương",
+        "Sao Thiên Phủ",
+        "Sao Thiên Tướng"
       ],
       "seo": {
         "metaTitle": "Vì sao chọn giờ đẹp sinh mổ cho con mà con vẫn khổ?",
@@ -3117,7 +3127,8 @@
         "Thiên Khôi – Thiên Việt (Lục Cát Tinh)",
         "Đào Hoa – Hồng Loan – Thiên Hỷ",
         "Cung Quan Lộc",
-        "Cung Nô Bộc (Giao Hữu)"
+        "Cung Nô Bộc (Giao Hữu)",
+        "Sao Cự Môn"
       ],
       "seo": {
         "metaTitle": "Cung Phu Thê xấu liệu quen ai cũng dễ đổ vỡ?",
@@ -3651,7 +3662,8 @@
         "HoaQuyen",
         "HoaKhoa",
         "ThienMa",
-        "DaoHoc"
+        "DaoHoc",
+        "TuVi"
       ],
       "tagLabels": [
         "Công thức 3P4C (Tam Phương Tứ Chính)",
@@ -3679,7 +3691,21 @@
         "Sao Hóa Quyền (Tứ Hóa)",
         "Sao Hóa Khoa (Tứ Hóa)",
         "Sao Thiên Mã (Lộc Mã)",
-        "Đạo Học Phương Đông & Luật Nhân Quả"
+        "Đạo Học Phương Đông & Luật Nhân Quả",
+        "Sao Tử Vi",
+        "Sao Thiên Cơ",
+        "Sao Thái Dương",
+        "Sao Vũ Khúc",
+        "Sao Thiên Đồng",
+        "Sao Liêm Trinh",
+        "Sao Thiên Phủ",
+        "Sao Thái Âm",
+        "Sao Tham Lang",
+        "Sao Cự Môn",
+        "Sao Thiên Tướng",
+        "Sao Thiên Lương",
+        "Sao Thất Sát",
+        "Sao Phá Quân"
       ],
       "seo": {
         "metaTitle": "Học Tử Vi có phải thuộc lòng hơn 100 sao? | Tử Vi Chữa Lành",
@@ -4029,7 +4055,8 @@
         "HoaKy",
         "CungMenhThan",
         "CungTaiBach",
-        "DaoHoc"
+        "DaoHoc",
+        "PhaQuan"
       ],
       "tagLabels": [
         "Công thức 3P4C (Tam Phương Tứ Chính)",
@@ -4037,7 +4064,8 @@
         "Sao Hóa Kỵ (Tứ Hóa)",
         "Cung Mệnh – Cung Thân",
         "Cung Tài Bạch",
-        "Đạo Học Phương Đông & Luật Nhân Quả"
+        "Đạo Học Phương Đông & Luật Nhân Quả",
+        "Sao Phá Quân"
       ],
       "seo": {
         "metaTitle": "5 bước luận lá số Tử Vi cho người mới | Tử Vi Chữa Lành",
@@ -4220,7 +4248,9 @@
         "Địa Không – Địa Kiếp (Lục Sát Tinh)",
         "Sao Thái Dương (Chính Tinh)",
         "Sao Thái Âm (Chính Tinh)",
-        "Cung Vô Chính Diệu"
+        "Cung Vô Chính Diệu",
+        "Sao Thái Dương",
+        "Sao Thái Âm"
       ],
       "seo": {
         "metaTitle": "Cách luận cung Vô Chính Diệu chuẩn xác | Tử Vi Chữa Lành",
@@ -4562,7 +4592,8 @@
         "Hỏa Tinh – Linh Tinh (Lục Sát Tinh)",
         "Liệu pháp Nhận thức – Hành vi (CBT)",
         "Sao Vũ Khúc (Chính Tinh)",
-        "Văn Xương – Văn Khúc (Lục Cát Tinh)"
+        "Văn Xương – Văn Khúc (Lục Cát Tinh)",
+        "Sao Vũ Khúc"
       ],
       "seo": {
         "metaTitle": "Bộ sao Linh Xương Đà Vũ trong Tử Vi | Tử Vi Chữa Lành",
@@ -6152,7 +6183,6 @@
       "tags": [
         "3P4C",
         "PhucDuc",
-        "TuVi",
         "ThienCo",
         "ThaiDuong",
         "ThienDong",
@@ -6185,7 +6215,17 @@
         "Hỏa Tinh – Linh Tinh (Lục Sát Tinh)",
         "Cung Quan Lộc",
         "Cung Nô Bộc (Giao Hữu)",
-        "Cung Phu Thê"
+        "Cung Phu Thê",
+        "Sao Thiên Cơ",
+        "Sao Thái Dương",
+        "Sao Thiên Đồng",
+        "Sao Thiên Phủ",
+        "Sao Tham Lang",
+        "Sao Cự Môn",
+        "Sao Thiên Tướng",
+        "Sao Thiên Lương",
+        "Sao Thất Sát",
+        "Sao Phá Quân"
       ],
       "seo": {
         "metaTitle": "Định hướng sự nghiệp qua trục Mệnh, Tài, Quan",
@@ -6537,7 +6577,10 @@
         "Sao Thiên Phủ (Chính Tinh)",
         "Sao Hóa Lộc – Lộc Tồn",
         "Cung Tài Bạch",
-        "Hệ thống Gia đình Nội tâm (IFS)"
+        "Hệ thống Gia đình Nội tâm (IFS)",
+        "Sao Vũ Khúc",
+        "Sao Thiên Đồng",
+        "Sao Thiên Phủ"
       ],
       "seo": {
         "metaTitle": "Bạn đang kiếm tiền hay đang tìm kiếm 'cảm giác an toàn'?",
@@ -6891,7 +6934,11 @@
         "Cung Tật Ách",
         "Cung Tài Bạch",
         "Cung Tử Tức",
-        "Cung Phu Thê"
+        "Cung Phu Thê",
+        "Sao Thái Dương",
+        "Sao Vũ Khúc",
+        "Sao Tham Lang",
+        "Sao Thiên Tướng"
       ],
       "seo": {
         "metaTitle": "Ám ảnh tiền bạc và danh vọng | Tử Vi Chữa Lành",
@@ -7069,7 +7116,11 @@
         "Sao Thiên Phủ (Chính Tinh)",
         "Sao Thái Âm (Chính Tinh)",
         "Sao Hóa Lộc – Lộc Tồn",
-        "Cung Tài Bạch"
+        "Cung Tài Bạch",
+        "Sao Thiên Cơ",
+        "Sao Vũ Khúc",
+        "Sao Thiên Phủ",
+        "Sao Thái Âm"
       ],
       "seo": {
         "metaTitle": "Sao Lộc Tồn, Thiên Cơ cư Tài Bạch | Tử Vi Chữa Lành",
@@ -7239,7 +7290,8 @@
         "CungDienTrach",
         "CungQuanLoc",
         "CungNoBoc",
-        "CungTaiBach"
+        "CungTaiBach",
+        "ThienCo"
       ],
       "tagLabels": [
         "Công thức 3P4C (Tam Phương Tứ Chính)",
@@ -7251,7 +7303,8 @@
         "Cung Điền Trạch",
         "Cung Quan Lộc",
         "Cung Nô Bộc (Giao Hữu)",
-        "Cung Tài Bạch"
+        "Cung Tài Bạch",
+        "Sao Thiên Cơ"
       ],
       "seo": {
         "metaTitle": "Cung Tài Bạch không quyết định bạn giàu hay nghèo",
@@ -7432,7 +7485,12 @@
         "ThatSat",
         "PhaQuan",
         "HoaLoc",
-        "CungTaiBach"
+        "CungTaiBach",
+        "TuVi",
+        "ThienCo",
+        "LiemTrinh",
+        "CuMon",
+        "ThienTuong"
       ],
       "tagLabels": [
         "Công thức 3P4C (Tam Phương Tứ Chính)",
@@ -7447,7 +7505,21 @@
         "Sao Thất Sát (Chính Tinh)",
         "Sao Phá Quân (Chính Tinh)",
         "Sao Hóa Lộc – Lộc Tồn",
-        "Cung Tài Bạch"
+        "Cung Tài Bạch",
+        "Sao Tử Vi",
+        "Sao Thiên Cơ",
+        "Sao Thái Dương",
+        "Sao Vũ Khúc",
+        "Sao Thiên Đồng",
+        "Sao Liêm Trinh",
+        "Sao Thiên Phủ",
+        "Sao Thái Âm",
+        "Sao Tham Lang",
+        "Sao Cự Môn",
+        "Sao Thiên Tướng",
+        "Sao Thiên Lương",
+        "Sao Thất Sát",
+        "Sao Phá Quân"
       ],
       "seo": {
         "metaTitle": "Cách kiếm tiền thuận Đạo của 14 Chính Tinh | Tử Vi Chữa Lành",
@@ -7643,7 +7715,17 @@
         "Sao Cự Môn (Chính Tinh)",
         "Sao Thiên Lương (Chính Tinh)",
         "Sao Phá Quân (Chính Tinh)",
-        "Sao Hóa Lộc – Lộc Tồn"
+        "Sao Hóa Lộc – Lộc Tồn",
+        "Sao Thiên Cơ",
+        "Sao Thái Dương",
+        "Sao Vũ Khúc",
+        "Sao Thiên Đồng",
+        "Sao Liêm Trinh",
+        "Sao Thái Âm",
+        "Sao Tham Lang",
+        "Sao Cự Môn",
+        "Sao Thiên Lương",
+        "Sao Phá Quân"
       ],
       "seo": {
         "metaTitle": "Mười sao Hóa Lộc và nghệ thuật nuôi dưỡng khí chất Hóa Lộc",
@@ -7831,7 +7913,8 @@
         "Sao Hóa Lộc – Lộc Tồn",
         "Cung Phúc Đức",
         "Cung Tài Bạch",
-        "Cung Phu Thê"
+        "Cung Phu Thê",
+        "Sao Thiên Phủ"
       ],
       "seo": {
         "metaTitle": "Khi cung Tài Bạch có Không Kiếp, Kình Đà, Hỏa Linh",
@@ -8359,7 +8442,8 @@
         "Sao Thiên Cơ (Chính Tinh)",
         "Kình Dương – Đà La (Lục Sát Tinh)",
         "Hỏa Tinh – Linh Tinh (Lục Sát Tinh)",
-        "Liệu pháp Chấp nhận & Cam kết (ACT)"
+        "Liệu pháp Chấp nhận & Cam kết (ACT)",
+        "Sao Thiên Cơ"
       ],
       "seo": {
         "metaTitle": "Sao Thiên Cơ là gì? | Tử Vi Chữa Lành",
@@ -8537,7 +8621,8 @@
         "Cung Quan Lộc",
         "Cung Nô Bộc (Giao Hữu)",
         "Cung Phu Thê",
-        "Liệu pháp Chấp nhận & Cam kết (ACT)"
+        "Liệu pháp Chấp nhận & Cam kết (ACT)",
+        "Sao Cự Môn"
       ],
       "seo": {
         "metaTitle": "Sao Hóa Kỵ cư Mệnh, Phúc Đức | Tử Vi Chữa Lành",
@@ -8711,7 +8796,9 @@
         "Công thức 3P4C (Tam Phương Tứ Chính)",
         "Sao Thiên Tướng (Chính Tinh)",
         "Sao Thiên Lương (Chính Tinh)",
-        "Tả Phù – Hữu Bật (Lục Cát Tinh)"
+        "Tả Phù – Hữu Bật (Lục Cát Tinh)",
+        "Sao Thiên Tướng",
+        "Sao Thiên Lương"
       ],
       "seo": {
         "metaTitle": "Sao Thiên Tướng, Tả Phù cư Mệnh | Tử Vi Chữa Lành",
@@ -9214,7 +9301,8 @@
         "ThaiDuong",
         "HoaQuyen",
         "ACT",
-        "DaoHoc"
+        "DaoHoc",
+        "TuVi"
       ],
       "tagLabels": [
         "Liệu pháp Nhận thức – Hành vi (CBT)",
@@ -9223,7 +9311,9 @@
         "Sao Thái Dương (Chính Tinh)",
         "Sao Hóa Quyền (Tứ Hóa)",
         "Liệu pháp Chấp nhận & Cam kết (ACT)",
-        "Đạo Học Phương Đông & Luật Nhân Quả"
+        "Đạo Học Phương Đông & Luật Nhân Quả",
+        "Sao Tử Vi",
+        "Sao Thái Dương"
       ],
       "seo": {
         "metaTitle": "Sao Hóa Quyền, Tử Vi cư Mệnh | Tử Vi Chữa Lành",
@@ -9388,7 +9478,6 @@
         "HoaKy",
         "KinhDa",
         "3P4C",
-        "TuVi",
         "PhaQuan",
         "ThienMa"
       ],
@@ -9399,7 +9488,8 @@
         "Công thức 3P4C (Tam Phương Tứ Chính)",
         "Sao Tử Vi (Chính Tinh)",
         "Sao Phá Quân (Chính Tinh)",
-        "Sao Thiên Mã (Lộc Mã)"
+        "Sao Thiên Mã (Lộc Mã)",
+        "Sao Phá Quân"
       ],
       "seo": {
         "metaTitle": "Sao Thiên Mã, Phá Quân cư Mệnh – Thiên Di | Tử Vi Chữa Lành",
@@ -9747,7 +9837,9 @@
         "Sao Thái Dương (Chính Tinh)",
         "Sao Thái Âm (Chính Tinh)",
         "Cung Phụ Mẫu",
-        "Cung Quan Lộc"
+        "Cung Quan Lộc",
+        "Sao Thái Dương",
+        "Sao Thái Âm"
       ],
       "seo": {
         "metaTitle": "Sao Thái Dương và vết thương người cha | Tử Vi Chữa Lành",
@@ -9919,7 +10011,10 @@
         "Hệ thống Gia đình Nội tâm (IFS)",
         "Cung Phúc Đức",
         "Sao Thái Dương (Chính Tinh)",
-        "Sao Thái Âm (Chính Tinh)"
+        "Sao Thái Âm (Chính Tinh)",
+        "Sao Thái Dương",
+        "Sao Thiên Đồng",
+        "Sao Thái Âm"
       ],
       "seo": {
         "metaTitle": "Sao Thái Âm và Thiên Đồng dưới góc nhìn Chữa Lành",
@@ -10093,7 +10188,9 @@
         "Cung Phúc Đức",
         "Sao Liêm Trinh (Chính Tinh)",
         "Sao Thiên Lương (Chính Tinh)",
-        "Sao Hóa Quyền (Tứ Hóa)"
+        "Sao Hóa Quyền (Tứ Hóa)",
+        "Sao Liêm Trinh",
+        "Sao Thiên Lương"
       ],
       "seo": {
         "metaTitle": "Sao Thiên Lương và Liêm Trinh dưới góc nhìn Chữa Lành",
@@ -10273,7 +10370,11 @@
         "Sao Thiên Đồng (Chính Tinh)",
         "Sao Thái Âm (Chính Tinh)",
         "Sao Thất Sát (Chính Tinh)",
-        "Sao Hóa Kỵ (Tứ Hóa)"
+        "Sao Hóa Kỵ (Tứ Hóa)",
+        "Sao Vũ Khúc",
+        "Sao Thiên Đồng",
+        "Sao Thái Âm",
+        "Sao Thất Sát"
       ],
       "seo": {
         "metaTitle": "Liệu pháp IFS trong Tử Vi Chữa Lành | Tử Vi Chữa Lành",
@@ -10446,7 +10547,12 @@
         "ThienLuong",
         "ThatSat",
         "PhaQuan",
-        "CBT"
+        "CBT",
+        "TuVi",
+        "ThaiDuong",
+        "ThaiAm",
+        "CuMon",
+        "ThienTuong"
       ],
       "tagLabels": [
         "Hệ thống Gia đình Nội tâm (IFS)",
@@ -10461,7 +10567,21 @@
         "Sao Thiên Lương (Chính Tinh)",
         "Sao Thất Sát (Chính Tinh)",
         "Sao Phá Quân (Chính Tinh)",
-        "Liệu pháp Nhận thức – Hành vi (CBT)"
+        "Liệu pháp Nhận thức – Hành vi (CBT)",
+        "Sao Tử Vi",
+        "Sao Thiên Cơ",
+        "Sao Thái Dương",
+        "Sao Vũ Khúc",
+        "Sao Thiên Đồng",
+        "Sao Liêm Trinh",
+        "Sao Thiên Phủ",
+        "Sao Thái Âm",
+        "Sao Tham Lang",
+        "Sao Cự Môn",
+        "Sao Thiên Tướng",
+        "Sao Thiên Lương",
+        "Sao Thất Sát",
+        "Sao Phá Quân"
       ],
       "seo": {
         "metaTitle": "Tử Vi dưới lăng kính Phân tâm học Carl Jung | Tử Vi Chữa Lành",
@@ -10635,7 +10755,8 @@
         "Cung Phúc Đức",
         "Công thức 3P4C (Tam Phương Tứ Chính)",
         "Sao Thiên Đồng (Chính Tinh)",
-        "Cung Điền Trạch"
+        "Cung Điền Trạch",
+        "Sao Thiên Đồng"
       ],
       "seo": {
         "metaTitle": "Cung Điền Trạch & Cung Phúc Đức | Tử Vi Chữa Lành",
@@ -11159,7 +11280,8 @@
         "Sao Thiên Phủ (Chính Tinh)",
         "Luận Vận Hạn 3 Tầng",
         "Liệu pháp Chấp nhận & Cam kết (ACT)",
-        "Đạo Học Phương Đông & Luật Nhân Quả"
+        "Đạo Học Phương Đông & Luật Nhân Quả",
+        "Sao Thiên Phủ"
       ],
       "seo": {
         "metaTitle": "Lộ trình tự đọc lá số Tử Vi cho người mới | Tử Vi Chữa Lành",
@@ -11501,7 +11623,19 @@
         "KhoiViet",
         "CungQuanLoc",
         "CungTaiBach",
-        "PhuThe"
+        "PhuThe",
+        "ThaiDuong",
+        "VuKhuc",
+        "ThienDong",
+        "LiemTrinh",
+        "ThienPhu",
+        "ThaiAm",
+        "ThamLang",
+        "CuMon",
+        "ThienTuong",
+        "ThienLuong",
+        "ThatSat",
+        "PhaQuan"
       ],
       "tagLabels": [
         "Công thức 3P4C (Tam Phương Tứ Chính)",
@@ -11513,7 +11647,21 @@
         "Thiên Khôi – Thiên Việt (Lục Cát Tinh)",
         "Cung Quan Lộc",
         "Cung Tài Bạch",
-        "Cung Phu Thê"
+        "Cung Phu Thê",
+        "Sao Tử Vi",
+        "Sao Thiên Cơ",
+        "Sao Thái Dương",
+        "Sao Vũ Khúc",
+        "Sao Thiên Đồng",
+        "Sao Liêm Trinh",
+        "Sao Thiên Phủ",
+        "Sao Thái Âm",
+        "Sao Tham Lang",
+        "Sao Cự Môn",
+        "Sao Thiên Tướng",
+        "Sao Thiên Lương",
+        "Sao Thất Sát",
+        "Sao Phá Quân"
       ],
       "seo": {
         "metaTitle": "8 bài Tử Vi Chữa Lành cho người mới bắt đầu | Tử Vi Chữa Lành",
@@ -11693,7 +11841,9 @@
         "Công thức 3P4C (Tam Phương Tứ Chính)",
         "Liệu pháp Nhận thức – Hành vi (CBT)",
         "Cung Phúc Đức",
-        "Cung Phu Thê"
+        "Cung Phu Thê",
+        "Sao Vũ Khúc",
+        "Sao Thiên Phủ"
       ],
       "seo": {
         "metaTitle": "Sao Vũ Khúc và Thiên Phủ là gì? | Tử Vi Chữa Lành",
@@ -11869,7 +12019,9 @@
         "Sao Thái Âm (Chính Tinh)",
         "Công thức 3P4C (Tam Phương Tứ Chính)",
         "Hệ thống Gia đình Nội tâm (IFS)",
-        "Cung Phúc Đức"
+        "Cung Phúc Đức",
+        "Sao Thái Dương",
+        "Sao Thái Âm"
       ],
       "seo": {
         "metaTitle": "Sao Thái Dương và Thái Âm (Nhật Nguyệt) | Tử Vi Chữa Lành",
@@ -12237,7 +12389,8 @@
         "Địa Không – Địa Kiếp (Lục Sát Tinh)",
         "Sao Hóa Khoa (Tứ Hóa)",
         "Sao Hóa Kỵ (Tứ Hóa)",
-        "Cung Tài Bạch"
+        "Cung Tài Bạch",
+        "Sao Vũ Khúc"
       ],
       "seo": {
         "metaTitle": "Cung Huynh Đệ và Cung Nô Bộc trong Tử Vi | Tử Vi Chữa Lành",

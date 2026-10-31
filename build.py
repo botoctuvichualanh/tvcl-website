@@ -828,9 +828,9 @@ def index_page():
     <p class="section-sub">Khám phá 4 hành trình học tập nổi bật của TVCL và chọn lộ trình phù hợp với bạn.</p>
     <div class="learning-grid" aria-label="4 khóa học nổi bật của Tử Vi Chữa Lành">
       <article class="learning-card">
-        <a class="learning-art learning-art-timing" href="khoa-hoc/luan-nhanh-tu-vi/" aria-label="Xem khóa học Luận Nhanh Lá Số Tử Vi S37" target="_blank" rel="noopener"><img src="assets/img/luan-nhanh-og.png" alt="Khóa học Luận Nhanh Lá Số Tử Vi S37" loading="lazy" decoding="async"></a>
+        <a class="learning-art learning-art-timing" href="khoa-hoc/luan-nhanh-tu-vi/" aria-label="Xem khóa học Luận Nhanh Lá Số Tử Vi" target="_blank" rel="noopener"><img src="assets/img/luan-nhanh-og.png" alt="Khóa học Luận Nhanh Lá Số Tử Vi" loading="lazy" decoding="async"></a>
         <div class="learning-card-body"><p class="learning-category">Khóa học · Tử Vi căn bản</p>
-          <h3><a href="khoa-hoc/luan-nhanh-tu-vi/" target="_blank" rel="noopener">Luận Nhanh Lá Số Tử Vi S37</a></h3><p>Lộ trình từng bước dành cho người mới, giúp bạn tự lập, đọc và hiểu những nét chính trong lá số của mình.</p>
+          <h3><a href="khoa-hoc/luan-nhanh-tu-vi/" target="_blank" rel="noopener">Luận Nhanh Lá Số Tử Vi</a></h3><p>Lộ trình từng bước dành cho người mới, giúp bạn tự lập, đọc và hiểu những nét chính trong lá số của mình.</p>
           <a class="learning-link" href="/khoa-hoc/luan-nhanh-tu-vi/" target="_blank" rel="noopener">Đọc thêm <span aria-hidden="true">↗</span><span class="learning-sr"> Luận Nhanh Lá Số Tử Vi</span></a>
         </div>
       </article>

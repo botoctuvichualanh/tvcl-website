@@ -338,14 +338,6 @@ def render_article(article, category, data, kb, B):
         if article.get("showPracticeSteps"):
             ph, pbody = practice_html(article, md)
             band("Thực hành", ph, '<p class="lead" style="margin-bottom:16px">Đi lần lượt từng bước, đối chiếu ngay trên lá số của chính bạn.</p>' + pbody, "thuc-hanh")
-    elif article.get("causalFlow8Steps"):
-        band("Chuỗi nhân quả", "Bản đồ nhân quả trong Tử Vi Chữa Lành",
-             '<p class="lead" style="margin-bottom:16px">Sao không trực tiếp tạo ra sự kiện. Sao là hạt giống, Duyên nuôi hạt giống, Tâm diễn dịch, Hành đưa nội tâm ra đời sống; lặp lại thành Nghiệp, gặp Vận và duyên ngoài thì trổ thành Quả. Ở mỗi bước, bạn đều có chỗ để chọn lại và gieo nhân mới.</p>'
-             + steps_html(article, md), "chuyen-hoa")
-    elif article.get("causalFlow5Steps"):
-        band("Chuỗi nhân quả", "5 điểm then chốt trên hành trình chuyển hóa",
-             '<p class="lead" style="margin-bottom:16px">Tiến trình nhân quả đầy đủ trong Tử Vi là Sao → Duyên → Tâm → Hành → Nghiệp → Vận → Quả → Chuyển hóa. Dưới đây là 5 điểm then chốt của chủ đề này, mỗi điểm đều có chỗ để bạn chọn lại.</p>'
-             + steps_html(article, md), "chuyen-hoa")
     toc = []
     for i, s in enumerate(article.get("sections", []), 1):
         heading = re.sub(r"^\d+\.\s*", "", s["heading"])
@@ -362,6 +354,14 @@ def render_article(article, category, data, kb, B):
         crit = "".join(f'<div class="crit"><b>CÂU HỎI {i}</b>{esc(p)}</div>' for i, p in enumerate(prompts, 1))
         practice = f'<div class="pass"><b>Thực hành hôm nay:</b> {esc(article.get("microPractice"))}</div>' if article.get("microPractice") else ""
         band("Tự soi chiếu", "Câu hỏi cho bạn và thực hành hôm nay", f'<div class="criteria" style="margin-top:8px">{crit}</div>{practice}', "tu-soi-chieu")
+    if article.get("showCausalMap") is not False and article.get("causalFlow8Steps"):
+        band("Chuỗi nhân quả", "Bản đồ nhân quả trong Tử Vi Chữa Lành",
+             '<p class="lead" style="margin-bottom:16px">Sao không trực tiếp tạo ra sự kiện. Sao là hạt giống, Duyên nuôi hạt giống, Tâm diễn dịch, Hành đưa nội tâm ra đời sống; lặp lại thành Nghiệp, gặp Vận và duyên ngoài thì trổ thành Quả. Ở mỗi bước, bạn đều có chỗ để chọn lại và gieo nhân mới.</p>'
+             + steps_html(article, md), "chuyen-hoa")
+    elif article.get("causalFlow5Steps"):
+        band("Chuỗi nhân quả", "5 điểm then chốt trên hành trình chuyển hóa",
+             '<p class="lead" style="margin-bottom:16px">Tiến trình nhân quả đầy đủ trong Tử Vi là Sao → Duyên → Tâm → Hành → Nghiệp → Vận → Quả → Chuyển hóa. Dưới đây là 5 điểm then chốt của chủ đề này, mỗi điểm đều có chỗ để bạn chọn lại.</p>'
+             + steps_html(article, md), "chuyen-hoa")
     faqs = article.get("faq", [])
     if faqs:
         items = "".join(f'<details><summary>{esc(f["question"])}</summary><p>{esc(f["answer"])}</p></details>' for f in faqs)

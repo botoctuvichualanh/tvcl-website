@@ -791,7 +791,7 @@ def index_page():
 }, ensure_ascii=False)}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&family=Noto+Serif:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css?v=20261025-featured-courses">
+<link rel="stylesheet" href="assets/css/style.css?v=20261031-learning-path-style">
 <link rel="stylesheet" href="assets/css/homepage-nav.css?v=20261024-service-menu">
 </head>
 <body>

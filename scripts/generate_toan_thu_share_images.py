@@ -170,8 +170,8 @@ def main() -> None:
     hub.save(OUT / HUB_IMAGE, format="PNG", optimize=True)
     write_metadata(
         HUB_IMAGE,
-        ROOT / "docs" / "tt1-tu-vi-dau-so-toan-thu.html",
-        "https://tuvichualanh.com/docs/tt1-tu-vi-dau-so-toan-thu.html",
+        ROOT / "tu-vi-dau-so-toan-thu" / "index.html",
+        "https://tuvichualanh.com/tu-vi-dau-so-toan-thu/",
         "Tử Vi Đẩu Số Toàn Thư — tra cứu 14 chính tinh, Tử Vi Chữa Lành",
     )
 

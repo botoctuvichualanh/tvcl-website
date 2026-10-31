@@ -5,6 +5,7 @@ import re, os, html, base64, json, secrets
 import markdown as md
 from unidecode import unidecode
 from build_bai_viet import build as build_bai_viet
+import seo_meta  # SEO Phương án A (01/11/2026): nguồn chung title/description
 from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.ciphers.aead import AESGCM
@@ -19,7 +20,7 @@ COMMUNITY = "Bộ Tộc Tử Vi Chữa Lành"
 SLOGAN = "Tử Vi Chữa Lành: Ứng dụng Tử Vi, Tâm Lý, Đạo Học để Hiểu Mình, Cải Mệnh & Chữa Lành"
 TAGLINE = "Lá số là bản đồ, không phải bản án"
 SITE_URL = "https://tuvichualanh.com"
-SITE_DESC = "Tử Vi Chữa Lành kết hợp Tử Vi, Tâm lý học, Phật học và Đạo học để giúp bạn hiểu mình, nhận diện khuynh hướng, thuận thời và chuyển hóa cuộc sống. Lá số là bản đồ, không phải bản án."
+SITE_DESC = seo_meta.HOME_DESC
 HOME_OG_TITLE = f"{SITE_TITLE} | Tử Vi, Tâm lý & Đạo học"
 HOME_OG_DESC = "Ứng dụng Tử Vi, Tâm lý và Đạo học trên hành trình Hiểu Mình – Cải Mệnh – Chữa Lành."
 HERO_SUBTITLE = "Ứng dụng Tử Vi, Tâm lý và Đạo học trên hành trình Hiểu Mình – Cải Mệnh – Chữa Lành."
@@ -78,6 +79,28 @@ DOC_META_OVERRIDES = {
         "desc": "Cát tinh là phước báu cần dụng. Luận giải Tả Phù, Hữu Bật, Văn Xương, Văn Khúc, Thiên Khôi, Thiên Việt — ý nghĩa và cách khai thác năng lượng sao theo Tử Vi Chữa Lành.",
     },
 }
+
+# Gộp meta chuẩn SEO từ seo_meta.py (desc 120–160, title ≤65 kể cả hậu tố).
+for _slug, _m in seo_meta.DOCS_META.items():
+    DOC_META_OVERRIDES[_slug] = {**DOC_META_OVERRIDES.get(_slug, {}), **_m}
+
+
+def demote_extra_h1(body):
+    """Giữ đúng 1 H1/trang: H1 thứ 2 trở đi trong nội dung markdown hạ thành H2."""
+    seen = [0]
+    def rep(m):
+        seen[0] += 1
+        return m.group(0) if seen[0] == 1 else m.group(0).replace("h1", "h2", 1)
+    body = re.sub(r"<h1(?=[\s>])", rep, body)
+    # đóng thẻ tương ứng
+    parts = re.split(r"(<h[12][\s>][\s\S]*?</h1>)", body)
+    out = []
+    for part in parts:
+        if part.startswith("<h2") and part.endswith("</h1>"):
+            part = part[:-5] + "</h2>"
+        out.append(part)
+    return "".join(out)
+
 
 # Contextual internal-link clusters for the eight public SEO priority pages.
 # These links are intentionally separate from the global sidebar: they help
@@ -596,7 +619,7 @@ def doc_page(d):
     meta_desc = _meta_override.get("desc", d["cat"]["desc"])
     protect_script = ""
     if protected:
-        payload = encrypt_for_gate(d["body_html"], SITE_PASSWORD)
+        payload = encrypt_for_gate(demote_extra_h1(d["body_html"]), SITE_PASSWORD)
         body_block = f'''<div class="lock-gate" id="lock-gate">
       <div class="lock-card">
         <div class="lock-icon">🔒</div>
@@ -613,7 +636,7 @@ def doc_page(d):
     <div id="protected-content" style="display:none"></div>'''
         protect_script = '<script src="../assets/js/protect.js" defer></script>'
     else:
-        body_block = d["body_html"]
+        body_block = demote_extra_h1(d["body_html"])
 
     page = f'''<!DOCTYPE html>
 <html lang="vi">

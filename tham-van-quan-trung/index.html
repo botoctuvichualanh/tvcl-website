@@ -15,478 +15,505 @@
   <meta property="og:image" content="https://tuvichualanh.com/assets/img/hero-shanshui.jpg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../assets/css/style.css?v=20261015-channel-colors">
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
-    :root{--q-ink:#243447;--q-blue:#286BA7;--q-blue-soft:#DCEAF7;--q-green:#39785F;--q-paper:#F7F4EC;--q-line:#d9e3eb;--q-white:#fff;--q-text:16px;--q-small:14px;--q-micro:13px}
-    html{scroll-behavior:smooth;scroll-padding-top:86px}
-    body{font-family:"Be Vietnam Pro",sans-serif;color:var(--q-ink);background:var(--q-white);line-height:1.75}
-    .q-wrap{overflow:hidden}
-    .q-container{width:min(1120px,calc(100% - 40px));margin-inline:auto}
-    .site-header{background:#fff;border-bottom:1px solid var(--q-line)}
-    .site-header-inner{max-width:1120px;flex-direction:row;align-items:center;gap:20px}
-    .brand-lockup .main-title{font-family:"Be Vietnam Pro",sans-serif;font-size:19px;color:var(--q-blue)}
-    .brand-lockup .sub-title{color:#587087;opacity:1;font-size:var(--q-micro)}
-    .brand-lockup .tvcl-logo{display:block;width:68px;height:68px;object-fit:contain;background:#fff;border-radius:50%}
-    .main-nav{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:5px 17px}
-    .main-nav a{font-family:"Be Vietnam Pro",sans-serif;color:#45627a;font-size:var(--q-small)}
-    .q-hero{position:relative;padding:84px 0 74px;background:linear-gradient(115deg,rgba(251,248,242,.98) 8%,rgba(244,247,243,.92) 53%,rgba(224,237,233,.78)),url('../assets/img/hero-shanshui.jpg') center/cover}
-    .q-hero::after{content:"";position:absolute;inset:auto 0 0;height:1px;background:var(--q-line)}
-    .q-hero-grid{display:grid;grid-template-columns:1.08fr .92fr;align-items:center;gap:62px;position:relative;z-index:1}
-    .q-eyebrow,.q-kicker{font-size:var(--q-micro);letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:var(--q-blue)}
-    .q-eyebrow{display:inline-flex;align-items:center;gap:10px;padding:8px 13px;border:1px solid #c7dced;border-radius:99px;background:#ffffffbd}
-    .q-eyebrow::before{content:"✦";color:var(--q-green)}
-    .q-hero h1,.q-section h2,.q-form-head h2{font-family:"Cormorant Garamond",Georgia,serif;line-height:1.08;font-weight:600;letter-spacing:-.02em}
-    .q-hero h1{font-size:clamp(48px,6.4vw,78px);margin:23px 0 10px;color:#2d659d}
-    .q-community{font-weight:600;color:#55728d;margin:0 0 22px}
-    .q-slogan{max-width:590px;font-size:18px;color:#41566b;margin:0 0 26px}
-    .q-tagline{font-family:"Cormorant Garamond",Georgia,serif;font-size:27px;font-style:italic;color:#356c9f;margin:0 0 30px}
-    .q-actions{display:flex;flex-wrap:wrap;gap:12px}
-    .q-btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:48px;padding:12px 20px;border-radius:7px;font:600 15px "Be Vietnam Pro",sans-serif;text-decoration:none;transition:transform .2s,background .2s}
-    .q-btn:hover{transform:translateY(-2px);text-decoration:none}
-    .q-btn-primary{background:var(--q-blue);color:white;box-shadow:0 8px 22px #347db52b}
-    .q-btn-primary:hover{background:#286ba7;color:white}
-    .q-btn-outline{border:1px solid #8eb8d8;color:#2c679e;background:#ffffff9e}
-    .q-portrait{margin:0;border-radius:18px;overflow:hidden;background:#f4f8fb;border:1px solid #e3edf4;box-shadow:0 24px 70px #2c58731c}
-    .q-portrait img{display:block;width:100%;height:460px;object-fit:cover;object-position:center 10%;background:#fff}
-    .q-portrait figcaption{padding:16px 21px 18px;background:#fff;border-top:1px solid #e8eef2}
-    .q-portrait figcaption strong{display:block;color:#2d659d;font:600 25px/1.2 "Cormorant Garamond",Georgia,serif}
-    .q-portrait figcaption span{font-size:var(--q-small);color:#5a7184}
-    .q-trust{background:#fff;padding:18px 0;border-bottom:1px solid #e8eef2}
-    .q-trust-row{display:flex;justify-content:center;gap:clamp(18px,4vw,58px);flex-wrap:wrap;color:#53687a;font-size:var(--q-small);font-weight:600}
-    .q-trust-row span{display:flex;align-items:center;gap:8px}
-    .q-trust-row i{font-style:normal;color:#5eaa8b;font-size:17px}
-    .q-principles{max-width:900px;margin:20px auto 0;border:1px solid #dce8ed;border-radius:12px;background:#f8fbfc;overflow:hidden}
-    .q-principles summary{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:17px 20px;color:#315d83;cursor:pointer;list-style:none}
-    .q-principles summary::-webkit-details-marker{display:none}
-    .q-principles summary:focus-visible{outline:3px solid #58a6a2;outline-offset:-4px;border-radius:12px}
-    .q-principles-summary{display:grid;gap:3px}
-    .q-principles-summary strong{font-size:17px}
-    .q-principles-summary span{font-size:var(--q-small);font-weight:400;color:#5d7182}
-    .q-principles-toggle{flex:none;color:var(--q-blue);font-size:15px;font-weight:700}
-    .q-principles-toggle::after{content:"⌄";display:inline-block;margin-left:8px;font-size:20px;transition:transform .2s}
-    .q-principles[open] .q-principles-toggle::after{transform:rotate(180deg)}
-    .q-principles-content{display:grid;grid-template-columns:1fr 1fr;gap:30px;padding:4px 20px 20px;border-top:1px solid #e1ebf0}
-    .q-principles-content h3{margin:16px 0 10px;color:#287c8e;font-size:18px}
-    .q-principles-content ol{margin:0;padding-left:22px;color:#4e6477;font-size:var(--q-small);line-height:1.65}
-    .q-principles-content li+li{margin-top:8px}
-    .q-principles-content strong{color:#315d83}
-    .q-section{padding:88px 0}
-    .q-section h2,.q-form-head h2{font-size:clamp(36px,4.2vw,52px);margin:11px 0 17px;color:#2d659d}
-    .q-lede{max-width:710px;color:#53687a;font-size:16px;margin:0}
-    .q-about-grid{display:grid;grid-template-columns:.78fr 1.22fr;gap:76px;align-items:start}
-    .q-about-aside{padding:29px;border-left:3px solid var(--q-green);background:var(--q-paper);border-radius:0 12px 12px 0}
-    .q-about-aside blockquote{margin:0;font:600 25px/1.35 "Cormorant Garamond",Georgia,serif;color:#3977ad}
-    .q-about-aside p{margin:16px 0 0;font-size:var(--q-small);color:#66798a}
-    .q-about-copy p{margin:0 0 16px;color:#465c70}
-    .q-story{background:#fbf8f2}
-    .q-story-head{max-width:760px}
-    .q-timeline{margin:38px 0 0 8px;padding:0 0 0 28px;border-left:1px solid #b9d2e4;display:grid;gap:27px}
-    .q-moment{position:relative;display:grid;grid-template-columns:130px 1fr;gap:20px;max-width:890px}
-    .q-moment::before{content:"";position:absolute;width:11px;height:11px;left:-34px;top:7px;border-radius:50%;background:var(--q-green);border:3px solid #fbf8f2;box-shadow:0 0 0 1px var(--q-green)}
-    .q-moment time{font-size:var(--q-micro);line-height:1.5;font-weight:700;color:var(--q-blue);letter-spacing:.04em}
-    .q-moment h3{font-size:18px;margin:0 0 5px;color:#315d83}
-    .q-moment p{font-size:15px;color:#5a6e80;margin:0}
-    .q-story-note{margin:35px 0 0 158px;max-width:680px;padding:18px 22px;background:#fff;border-left:3px solid var(--q-green);border-radius:0 8px 8px 0;color:#3b6384;font:600 22px/1.4 "Cormorant Garamond",Georgia,serif}
-    .q-tvcl{background:#fff}
-    .q-tvcl-head{max-width:780px;margin-bottom:30px}
-    .q-tvcl-grid{display:grid;grid-template-columns:1.35fr .65fr;gap:44px;align-items:start}
-    .q-tvcl-copy p{margin:0 0 15px;color:#4b6073;font-size:16px;line-height:1.75}
-    .q-tvcl-copy p strong{color:#315f89}
-    .q-course-list{list-style:none;padding:0;margin:18px 0 20px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
-    .q-course-list li{display:flex;align-items:center;gap:12px;min-height:74px;padding:12px 14px;background:#f5f9fc;border:1px solid #e1ebf2;border-radius:8px}
-    .q-course-list li strong{flex:none;font:700 25px/1 "Cormorant Garamond",Georgia,serif;color:var(--q-blue)}
-    .q-course-list li span{font-size:var(--q-small);line-height:1.55;color:#52697d}
-    .q-tvcl-link{display:inline-flex;flex-wrap:wrap;align-items:center;gap:5px;color:var(--q-blue);font-size:var(--q-text);font-weight:500}
-    .q-tvcl-aside{background:#f5f9fc;border:1px solid #e0ebf2;border-radius:14px;padding:24px;text-align:center}
-    .q-tvcl-aside img{display:block;width:min(100%,230px);height:auto;margin:0 auto 12px;border-radius:50%}
-    .q-tvcl-aside p{margin:0;color:#287c8e;font:600 21px/1.5 "Cormorant Garamond",Georgia,serif}
-    .q-services{background:var(--q-paper)}
-    .q-services-head{display:flex;justify-content:space-between;gap:28px;align-items:end;margin-bottom:34px}
-    .q-services-head .q-lede{max-width:440px}
-    .q-service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-    .q-service{display:flex;flex-direction:column;align-items:flex-start;position:relative;border:1px solid;border-radius:13px;padding:29px 27px 27px;min-height:290px;box-shadow:0 10px 30px #253d4b08}
-    .q-service:nth-child(1){background:#eff8f3;border-color:#cce5d8}
-    .q-service:nth-child(2){background:#eff5fa;border-color:#d2e2f1}
-    .q-service:nth-child(3){background:#faf4e8;border-color:#e8dfc6}
-    .q-service-label{display:inline-flex;align-items:center;min-height:30px;padding:5px 12px;border-radius:99px;background:#ffffffb8;color:#287c8e;font-size:var(--q-micro);font-weight:700;letter-spacing:.06em;text-transform:uppercase}
-    .q-service:nth-child(2) .q-service-label{color:#356c9f}
-    .q-service:nth-child(3) .q-service-label{color:#806b37}
-    .q-service h3{font-size:20px;line-height:1.4;margin:16px 0 8px;color:#305f8a}
-    .q-service p{font-size:var(--q-text);line-height:1.7;color:#4f6477;margin:0}
-    .q-service-price{display:block;margin:0 0 12px;color:#287c8e;font-size:26px;line-height:1.25;font-weight:700}
-    .q-service:nth-child(2) .q-service-price{color:#356c9f}
-    .q-service:nth-child(3) .q-service-price{color:#806b37}
-    .q-service-featured{grid-column:1/-1;min-height:0;display:grid;grid-template-columns:minmax(0,1.2fr) minmax(260px,.8fr);align-items:center;gap:18px 36px;background:linear-gradient(115deg,#eaf4ef,#f3f6f1)!important;border-color:#c5dfd2!important}
-    .q-service-featured h3{font-size:25px;margin:14px 0 7px}
-    .q-service-featured .q-service-price{margin-bottom:8px}
-    .q-service-featured .q-service-actions{grid-column:2;grid-row:1;justify-content:flex-end;margin:0;padding:0}
-    .q-service-featured .q-service-label{color:#287c8e}
-    .q-service-actions{display:flex;align-items:center;gap:18px;flex-wrap:wrap;margin-top:auto;padding-top:20px}
-    .q-service-more{display:inline-flex;align-items:center;gap:8px;padding:0;border:0;background:none;color:var(--q-blue);font:700 15px "Be Vietnam Pro",sans-serif;cursor:pointer}
-    .q-service-more span{display:grid;place-items:center;width:22px;height:22px;border:1px solid #b9d5e8;border-radius:50%;font-size:15px;line-height:1;transition:transform .2s}
-    .q-service-more:hover span{transform:translateX(3px)}
-    .q-service-apply{color:var(--q-blue);font-size:15px;font-weight:700}
-    .q-service-more:focus-visible,.q-dialog-close:focus-visible,.q-service-dialog a:focus-visible{outline:3px solid #58a6a2;outline-offset:4px;border-radius:4px}
-    .q-service-dialog{width:min(760px,calc(100% - 28px));max-width:none;max-height:min(86vh,900px);padding:0;border:1px solid #dbe8ed;border-radius:16px;color:#40566a;background:#fff;box-shadow:0 28px 90px #19334c3d}
-    .q-service-dialog::backdrop{background:#17354fcc;backdrop-filter:blur(3px)}
-    .q-dialog-inner{max-height:min(86vh,900px);overflow:auto;padding:clamp(23px,5vw,42px)}
-    .q-dialog-top{display:flex;justify-content:space-between;gap:20px;align-items:flex-start;border-bottom:1px solid #e4edf1;padding-bottom:18px;margin-bottom:22px}
-    .q-dialog-kicker{display:block;color:var(--q-green);font-size:var(--q-micro);font-weight:700;letter-spacing:.12em;text-transform:uppercase}
-    .q-dialog-top h2{margin:6px 0 0;color:#2d659d;font:600 clamp(28px,5vw,38px)/1.15 "Cormorant Garamond",Georgia,serif}
-    .q-dialog-close{flex:none;width:38px;height:38px;border:1px solid #d6e5ec;border-radius:50%;background:#f7fafb;color:#315d83;font-size:24px;line-height:1;cursor:pointer}
-    .q-dialog-content{font-size:var(--q-text);line-height:1.75}
-    .q-dialog-content section+section{margin-top:22px;padding-top:20px;border-top:1px solid #e8eff2}
-    .q-dialog-content h3{margin:0 0 8px;color:#315f89;font-size:20px;line-height:1.45}
-    .q-dialog-content h4{margin:14px 0 5px;color:var(--q-blue);font-size:var(--q-text)}
-    .q-dialog-content p{margin:0 0 10px}
-    .q-dialog-content ul{margin:8px 0 0;padding-left:21px}
-    .q-dialog-content li+li{margin-top:5px}
-    .q-dialog-price{color:#287c8e;font-size:15px;font-weight:700}
-    .q-dialog-cta{display:inline-flex;margin-top:24px;padding:11px 16px;border-radius:6px;background:var(--q-blue);color:#fff;font-size:15px;font-weight:700;text-decoration:none}
-    .q-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:38px;border:1px solid var(--q-line);border-radius:12px;overflow:hidden}
-    .q-step{padding:24px;background:#fff}
-    .q-step+.q-step{border-left:1px solid var(--q-line)}
-    .q-step b{display:block;font-size:var(--q-micro);letter-spacing:.1em;text-transform:uppercase;color:var(--q-green);margin-bottom:8px}
-    .q-step h3{font-size:20px;line-height:1.45;margin:0 0 7px;color:#315d83}
-    .q-step p{font-size:var(--q-text);line-height:1.7;color:#566b7d;margin:0}
-    .q-form-section{background:linear-gradient(145deg,#f4f2e9 0%,#f6f8f4 70%);padding:84px 0}
-    .q-form-layout{display:grid;grid-template-columns:.72fr 1.28fr;gap:44px;align-items:start}
-    .q-form-head{position:sticky;top:30px}
-    .q-form-head p{font-size:var(--q-text);color:#52677a}
-    .q-form-flow-note{margin-top:22px;padding:15px 17px;border-left:3px solid var(--q-green);border-radius:0 8px 8px 0;background:#fff;color:#42647f;font-size:var(--q-small);line-height:1.65}
-    .q-form-shell{background:#fff;border:1px solid #e1e9ef;border-radius:12px;overflow:hidden;box-shadow:0 18px 45px #23405a0c}
-    .q-form-stage,.q-payment-stage{padding:clamp(22px,4vw,38px)}
-    .q-form-stage[hidden],.q-payment-stage[hidden],.q-form-fallback[hidden]{display:none!important}
-    .q-form-progress{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:0 0 27px;padding:0;list-style:none}
-    .q-form-progress li{padding:10px 12px;border-bottom:2px solid #dce8ee;color:#5d7080;font-size:var(--q-small);font-weight:700}
-    .q-form-progress li[aria-current="step"]{border-color:var(--q-green);color:#287c8e}
-    .q-registration-form{display:grid;gap:19px}
-    .q-form-field{display:grid;gap:7px}
-    .q-form-field label,.q-service-options legend{color:#315d83;font-size:var(--q-text);font-weight:700}
-    .q-form-field label span{color:#b65454}
-    .q-form-field label .q-optional-label{color:#5b6e7d;font-size:var(--q-small);font-weight:500}
-    .q-form-field input,.q-form-field select,.q-form-field textarea{width:100%;min-height:50px;padding:11px 13px;border:1px solid #d5e1e8;border-radius:6px;background:#fff;color:#344b5e;font:400 var(--q-text)/1.55 "Be Vietnam Pro",sans-serif}
-    .q-form-field textarea{min-height:112px;resize:vertical}
-    .q-form-field input::placeholder,.q-form-field textarea::placeholder{color:#5b6e7d}
-    .q-form-field input:focus,.q-form-field select:focus,.q-form-field textarea:focus{outline:3px solid #d8ebe2;border-color:var(--q-green)}
-    .q-form-hint{color:#5b6e7d;font-size:var(--q-small);line-height:1.6}
-    .q-service-options{display:grid;gap:9px;margin:0;padding:0;border:0}
-    .q-service-options legend{margin-bottom:8px}
-    .q-service-choice{display:flex;align-items:flex-start;gap:11px;padding:13px;border:1px solid #dbe6eb;border-radius:7px;background:#fbfcfc;color:#40566a;font-size:var(--q-small);cursor:pointer}
-    .q-service-choice:has(input:checked){border-color:var(--q-green);background:#f1f9f5;box-shadow:0 0 0 1px var(--q-green)}
-    .q-service-choice input{flex:none;margin-top:4px;accent-color:var(--q-green)}
-    .q-service-choice strong{display:block;color:#315d83;font-size:var(--q-text)}
-    .q-service-choice span{display:block;margin-top:2px;color:#65798a;font-size:var(--q-small)}
-    .q-form-consent{display:flex;align-items:flex-start;gap:10px;color:#586d7f;font-size:var(--q-small);line-height:1.65}
-    .q-form-consent input{flex:none;margin-top:4px;accent-color:var(--q-green)}
-    .q-form-submit{min-height:52px;padding:13px 20px;border:0;border-radius:7px;background:var(--q-blue);color:#fff;font:700 16px "Be Vietnam Pro",sans-serif;cursor:pointer;box-shadow:0 8px 22px #347db52b}
-    .q-form-submit:hover{background:#286ba7}
-    .q-form-submit:disabled{opacity:.65;cursor:wait}
-    .q-form-status{min-height:20px;margin:0;color:#637687;font-size:var(--q-small)}
-    .q-form-fallback{padding:15px 17px;border:1px solid #ead8b7;border-radius:7px;background:#fffaf0;color:#725d3c;font-size:var(--q-small);line-height:1.65}
-    .q-form-fallback a{font-weight:700;color:var(--q-blue)}
-    .q-payment-kicker{display:block;color:var(--q-green);font-size:var(--q-micro);font-weight:700;letter-spacing:.12em;text-transform:uppercase}
-    .q-payment-stage h3{margin:7px 0;color:#2d659d;font:600 clamp(30px,4vw,40px)/1.15 "Cormorant Garamond",Georgia,serif}
-    .q-payment-lede{margin:0 0 22px;color:#53687a;font-size:var(--q-text);line-height:1.7}
-    .q-payment-amount{display:flex;justify-content:space-between;gap:16px;padding:15px 17px;border-radius:8px;background:#f1f8f6;color:#42647f;font-size:var(--q-small)}
-    .q-payment-amount strong{color:#287c8e;font-size:19px;text-align:right}
-    .q-bank-card{margin-top:16px;padding:19px;border:1px solid #dbe8ed;border-radius:9px;background:#fbfcfd}
-    .q-bank-card h4{margin:0 0 12px;color:#315d83;font-size:18px}
-    .q-bank-row{display:flex;justify-content:space-between;gap:18px;padding:9px 0;border-top:1px solid #e7eef1;font-size:var(--q-small)}
-    .q-bank-row span{color:#5b6e7d}
-    .q-bank-row strong{color:#345570;text-align:right}
-    .q-payment-qr-wrap{margin:18px 0 2px;text-align:center}
-    .q-payment-qr{display:block;width:min(100%,300px);height:auto;margin:0 auto;border:1px solid #e3ebee;border-radius:12px;background:#fff}
-    .q-payment-qr-caption{margin:9px 0 0;color:#64798a;font-size:var(--q-small)}
-    .q-payment-note{margin:16px 0 0;color:#5a6f80;font-size:var(--q-small);line-height:1.7}
-    .q-payment-contact{display:inline-flex;margin-top:18px;padding:12px 16px;border-radius:7px;background:var(--q-blue);color:#fff;font-size:15px;font-weight:700;text-decoration:none}
-    .q-hidden-submit-frame{position:absolute;left:-9999px;width:1px;height:1px;opacity:0;pointer-events:none;border:0}
-    .q-boundary{padding:38px 0;background:#fff}
-    .q-boundary-inner{display:flex;gap:20px;align-items:flex-start;border:1px solid #dce6eb;border-radius:10px;padding:22px 25px;background:#fbfcfc}
-    .q-boundary-icon{font-size:21px;color:#63a88b}
-    .q-boundary h2{font-size:var(--q-text);margin:0 0 4px;color:#355b79}
-    .q-boundary p{font-size:var(--q-small);color:#586d7f;margin:0}
-    .q-footer{background:#f1f5f7;padding:26px 0;text-align:center;font-size:var(--q-micro);color:#586d7f}
-    .q-footer p{margin:3px}
-    .q-footer a{color:var(--q-blue);font-weight:600}
-    .q-hero-facts{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 26px;padding:0;list-style:none}
-    .q-hero-facts li{padding:7px 13px;border-radius:99px;background:#ffffffd9;border:1px solid #cfe0ee;color:#315d83;font-size:var(--q-small);font-weight:600}
-    .q-hero-facts li::before{content:"✦ ";color:var(--q-green)}
-    .q-foryou{background:#fff}
-    .q-foryou-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:30px}
-    .q-foryou-grid p{margin:0;padding:20px 22px;border:1px solid #dfeaf1;border-radius:12px;background:#f7fafc;color:#41586c;font-size:var(--q-text);line-height:1.65}
-    .q-foryou-grid p::before{content:"✦";display:block;color:var(--q-green);margin-bottom:6px}
-    .q-foryou-note{margin:24px 0 0;color:#3b6384;font:600 22px/1.45 "Cormorant Garamond",Georgia,serif}
-    .q-info{background:#fff}
-    .q-info-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:30px}
-    .q-info-card{padding:24px 26px;border:1px solid #dfeaf1;border-radius:12px;background:#fbfcfd}
-    .q-info-card h3{margin:0 0 6px;color:#315d83;font-size:19px;line-height:1.4}
-    .q-info-card p{margin:0;color:#4f6477;font-size:var(--q-text);line-height:1.7}
-    .q-info-card .q-info-icon{display:inline-grid;place-items:center;width:38px;height:38px;margin-bottom:10px;border-radius:50%;background:#e9f4ef;color:var(--q-green);font-size:18px}
-    .q-faq{background:#fbf8f2}
-    .q-faq-list{max-width:860px;margin-top:28px;display:grid;gap:10px}
-    .q-faq-list details{border:1px solid #e3e9e4;border-radius:10px;background:#fff}
-    .q-faq-list summary{padding:16px 20px;cursor:pointer;color:#315d83;font-weight:700;list-style:none;display:flex;justify-content:space-between;gap:16px}
-    .q-faq-list summary::-webkit-details-marker{display:none}
-    .q-faq-list summary::after{content:"+";color:var(--q-blue);font-size:20px;line-height:1}
-    .q-faq-list details[open] summary::after{content:"–"}
-    .q-faq-list details p{margin:0;padding:0 20px 18px;color:#4f6477}
-    .q-form-field[hidden]{display:none!important}
-    .q-free-tag{display:inline-block;margin-left:6px;padding:1px 8px;border-radius:99px;background:#e6f3ec;color:#2f7a5b;font-size:12px;font-weight:700;vertical-align:middle}
-    @media(max-width:850px){.q-foryou-grid{grid-template-columns:1fr 1fr}.q-info-grid{grid-template-columns:1fr}}
-    @media(max-width:600px){.q-foryou-grid{grid-template-columns:1fr}.q-foryou-note{font-size:20px}}
-    @media(max-width:900px){.site-header-inner{flex-direction:column;align-items:flex-start}}
-    @media(max-width:850px){.q-hero-grid,.q-about-grid,.q-form-layout,.q-tvcl-grid{grid-template-columns:1fr;gap:32px}.q-hero{padding:62px 0}.q-portrait img{height:min(540px,105vw)}.q-services-head{display:block}.q-services-head .q-lede{margin-top:12px}.q-form-head{position:static}.q-service-grid{grid-template-columns:1fr}.q-service{min-height:auto}.q-service-featured{grid-template-columns:1fr;gap:14px}.q-service-featured .q-service-actions{grid-column:1;grid-row:auto;justify-content:flex-start;padding-top:8px}.q-about-grid{gap:28px}}
-    @media(max-width:600px){.q-container{width:min(100% - 28px,1120px)}.q-section{padding:62px 0}.q-hero h1{font-size:clamp(44px,12vw,53px)}.q-slogan{font-size:16px}.q-trust-row{justify-content:flex-start;gap:10px 18px}.q-trust-row span{font-size:var(--q-micro)}.q-principles{margin-top:16px}.q-principles summary{align-items:flex-start;padding:15px}.q-principles-summary strong{font-size:16px}.q-principles-toggle{font-size:14px}.q-principles-content{grid-template-columns:1fr;gap:8px;padding:4px 15px 16px}.q-principles-content h3{margin-top:14px}.q-steps{grid-template-columns:1fr}.q-step+.q-step{border-left:0;border-top:1px solid var(--q-line)}.q-form-section{padding:60px 0}.q-form-stage,.q-payment-stage{padding:21px}.q-payment-amount,.q-bank-row{align-items:flex-start;flex-direction:column;gap:4px}.q-bank-row strong{text-align:left}.q-moment{grid-template-columns:1fr;gap:4px}.q-timeline{padding-left:23px}.q-moment::before{left:-29px}.q-story-note{margin:28px 0 0 0}.q-course-list{grid-template-columns:1fr}.brand-lockup .tvcl-logo{width:58px;height:58px}.q-service{padding:25px 22px}}
-    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.q-btn{transition:none}}
 
-    /* ===== Đồng bộ phong cách trang Lộ trình Hành nghề ===== */
-    :root{--q-blue:#3D82CC;--q-green:#3E9A78;--q-paper:#F7F5F0;--q-teal:#2A9D8F}
-    .q-hero h1,.q-section h2,.q-form-head h2,.q-dialog-top h2,.q-payment-stage h3,.q-portrait figcaption strong{font-family:"Be Vietnam Pro",sans-serif;font-weight:800;letter-spacing:-.01em}
-    .q-hero{background:linear-gradient(180deg,#E2EDF9 0%,#EEF5FB 55%,#ffffffee 100%),url('../assets/img/hero-shanshui.jpg') center bottom/cover}
-    .q-hero h1{font-size:clamp(40px,5.2vw,58px);line-height:1.18;color:#243447}
-    .q-hero h1 .q-h1-accent{color:var(--q-blue)}
-    .q-community{color:var(--q-blue)}
-    .q-section h2,.q-form-head h2{font-size:clamp(28px,3.4vw,36px);line-height:1.3;color:var(--q-blue)}
-    .q-dialog-top h2{font-size:clamp(24px,4vw,30px);line-height:1.3}
-    .q-payment-stage h3{font-size:clamp(24px,3vw,30px);line-height:1.3}
-    .q-portrait figcaption strong{font-size:20px;color:var(--q-blue)}
-    .q-kicker,.q-eyebrow{font-size:12px;letter-spacing:.12em}
-    .q-kicker{display:inline-flex;align-items:center;gap:10px;color:var(--q-blue)}
-    .q-kicker::before{content:"";width:22px;height:2px;background:currentColor;border-radius:2px}
-    .q-eyebrow{color:var(--q-blue);border-color:#bcd6ef}
-    .q-btn{border-radius:10px}
-    .q-btn-primary,.q-form-submit,.q-dialog-cta,.q-payment-contact{background:var(--q-blue)}
-    .q-btn-primary:hover,.q-form-submit:hover{background:#2F6FB3}
-    .q-story,.q-services,.q-faq{background:var(--q-paper)}
-    .q-form-section{background:linear-gradient(180deg,#EEF5FB 0%,var(--q-paper) 100%)}
-    .q-foryou-grid p,.q-info-card,.q-service,.q-step{border:1px solid #d6e5f3;border-top:4px solid var(--q-blue);border-radius:14px;box-shadow:none}
-    .q-foryou-grid p{background:#E4EEF8}
-    .q-foryou-grid p:nth-child(3n+2){background:#E2F1EF;border-color:#c9e4df;border-top-color:var(--q-teal)}
-    .q-foryou-grid p:nth-child(3n){background:#E5F2EA;border-color:#cde5d6;border-top-color:var(--q-green)}
-    .q-foryou-grid p::before{color:inherit}
-    .q-info-card{background:#fff}
-    .q-info-card:nth-child(2n){border-top-color:var(--q-green)}
-    .q-info-card h3{color:var(--q-blue)}
-    .q-service:nth-child(1){background:#E4EEF8;border-color:#d0e1f2;border-top-color:var(--q-blue)}
-    .q-service:nth-child(2){background:#E2F1EF;border-color:#c9e4df;border-top-color:var(--q-teal)}
-    .q-service:nth-child(3){background:#F3F1EA;border-color:#e3ddcc;border-top-color:#B49A5E}
-    .q-service:nth-child(1) .q-service-label,.q-service:nth-child(1) .q-service-price{color:var(--q-blue)}
-    .q-service:nth-child(2) .q-service-label,.q-service:nth-child(2) .q-service-price{color:#23827A}
-    .q-service h3{font-weight:700}
-    .q-service-featured{background:#E5F2EA!important;border-color:#cde5d6!important;border-top:4px solid var(--q-green)!important}
-    .q-service-featured .q-service-label,.q-service-featured .q-service-price{color:#2F7F60}
-    .q-steps{border:0;gap:14px;overflow:visible}
-    .q-step{background:#fff}
-    .q-step+.q-step{border-left:1px solid #d6e5f3}
-    .q-step b{color:var(--q-blue)}
-    .q-step h3,.q-moment h3,.q-faq-list summary{color:#243447}
-    .q-faq-list details{border-radius:12px;border-color:#e2e8ee}
-    .q-about-aside{border-left-color:var(--q-blue);background:#E4EEF8}
-    .q-about-aside blockquote,.q-story-note,.q-tagline{color:#2F6FB3}
-    .q-story-note{border-left-color:var(--q-blue)}
-    .q-moment::before{background:var(--q-blue);box-shadow:0 0 0 1px var(--q-blue);border-color:var(--q-paper)}
-    .q-moment time{color:var(--q-blue)}
-    .q-course-list li{background:#E4EEF8;border-color:#d0e1f2}
-    .q-tvcl-aside{background:#E2F1EF;border-color:#c9e4df}
-    .q-form-shell{border-top:4px solid var(--q-blue);border-radius:14px}
-    .q-principles{border-radius:14px}
-    .q-course-list li strong{font:800 22px/1 "Be Vietnam Pro",sans-serif;color:var(--q-blue)}
-    @media(max-width:600px){.q-step+.q-step{border-left:1px solid #d6e5f3;border-top:4px solid var(--q-blue)}}
+/* Layout: một trục dọc như con đường — các khóa là trạm dừng, chặng là bậc thang; nền giấy ngà, xanh TVCL nhận diện, xanh lá chỉ cho "chuyển hóa / đạt" */
+:root{
+  --bg:#FFFFFF; --paper:#F7F5F0; --sky:#4A8FD4; --sky-soft:#DCEAF7; --heal:#6FB496; --ink:#243447;
+  --muted:#5B6B7D; --line:#E3E6EA; --card:#FFFFFF; --sky-ink:#2F6FB0;
+  --k1:#1E9AA3; --k2:#3D82CC; --k3:#6A6FD0; --k4:#4FA27E; --k5:#D9785E;
+  --font:"Be Vietnam Pro", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#141B24; --paper:#1A2330; --sky:#6FA9E2; --sky-soft:#22344A; --heal:#7FC4A5; --ink:#E6ECF2;
+  --muted:#9FB0C2; --line:#2B3747; --card:#1C2633; --sky-ink:#8DBDEB;
+  --k1:#4CC3CB; --k2:#6FA9E2; --k3:#9599EA; --k4:#7FC4A5; --k5:#EE9A82; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#141B24; --paper:#1A2330; --sky:#6FA9E2; --sky-soft:#22344A; --heal:#7FC4A5; --ink:#E6ECF2;
+  --muted:#9FB0C2; --line:#2B3747; --card:#1C2633; --sky-ink:#8DBDEB;
+  --k1:#4CC3CB; --k2:#6FA9E2; --k3:#9599EA; --k4:#7FC4A5; --k5:#EE9A82; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--font);font-size:16px;line-height:1.65}
+.wrap{max-width:1040px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.band{padding-block:56px}
+.band.paper{background:var(--paper)}
+h1,h2,h3{line-height:1.25;text-wrap:balance;margin:0}
+h2{font-size:clamp(1.5rem,3.2vw,2rem);font-weight:800}
+h3{font-size:1.1rem;font-weight:700}
+main>section:nth-of-type(1){--c:var(--k2)}main>section:nth-of-type(2){--c:var(--k1)}main>section:nth-of-type(3){--c:var(--k3)}main>section:nth-of-type(4){--c:var(--k4)}main>section:nth-of-type(5){--c:var(--k5)}main>section:nth-of-type(6){--c:var(--k2)}main>section:nth-of-type(7){--c:var(--k4)}main>section:nth-of-type(8){--c:var(--k5)}main>section:nth-of-type(9){--c:var(--k3)}
+main>section>.wrap>h2{color:var(--c)}
+main>section>.wrap>.eyebrow:first-child{color:var(--c);display:inline-flex;align-items:center;gap:8px}
+main>section>.wrap>.eyebrow:first-child::before{content:"";width:22px;height:3px;border-radius:2px;background:var(--c)}
+p{margin:0}
+.lead{max-width:62ch;color:var(--muted);font-size:1.05rem}
+.eyebrow{font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:var(--sky-ink)}
+.stack{display:flex;flex-direction:column;gap:16px}
+a{color:var(--sky-ink)}
+a:focus-visible,summary:focus-visible{outline:2px solid var(--sky);outline-offset:3px;border-radius:6px}
+
+/* Hero */
+.hero{padding-block:64px 48px;background:linear-gradient(180deg,var(--sky-soft),var(--bg))}
+.hero h1{font-size:clamp(2rem,5.5vw,3.4rem);font-weight:800;letter-spacing:-.01em;max-width:18ch}
+.hero h1 span{color:var(--sky-ink)}.home-logo{display:inline-block}
+.logo{display:block;width:120px;height:120px;margin-bottom:12px}
+.logo.sm{width:64px;height:64px;margin-bottom:4px}
+.hero{position:relative;overflow:hidden}
+.hero>.wrap{position:relative;z-index:1}
+@media (min-width:900px){.hero>.wrap{padding-left:calc(max(16px,env(safe-area-inset-left,0px)) + 72px)}}
+.hero-bg{position:absolute;inset:0;width:100%;height:100%;opacity:.95;pointer-events:none}
+@media (max-width:700px){.hero-bg{opacity:.35}}
+main>section:nth-of-type(2) .card:nth-child(1){--c:var(--k1)}main>section:nth-of-type(2) .card:nth-child(2){--c:var(--k2)}main>section:nth-of-type(2) .card:nth-child(3){--c:var(--k3)}
+main>section:nth-of-type(2) .card{background:color-mix(in srgb,var(--c) 13%,var(--card));border-color:color-mix(in srgb,var(--c) 30%,transparent);border-top:4px solid var(--c)}
+main>section:nth-of-type(2) .card h3{color:var(--c)}main>section:nth-of-type(2) .card p{color:var(--ink)}
+.course details.stage{background:color-mix(in srgb,var(--c) 11%,var(--card))}
+.course details.stage[open]{background:color-mix(in srgb,var(--c) 7%,var(--card))}
+tbody tr{background:color-mix(in srgb,var(--c) 9%,var(--card))}
+.hero h1 .hn{background:#D9785E;color:#fff;padding:0 .22em;border-radius:.18em;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.tribe{margin-top:10px;font-weight:600;color:var(--sky-ink);font-size:1.05rem}
+.slogan{margin-top:6px;color:var(--muted);font-size:.95rem;max-width:60ch}
+.quote{margin-top:28px;font-size:clamp(1.15rem,2.6vw,1.45rem);font-weight:600;border-left:3px solid var(--heal);padding-left:16px;max-width:30ch}
+.path-strip{margin-top:32px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.pill{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:6px 14px;font-weight:600;font-size:.9rem}
+.pill{border-color:var(--c);color:var(--c)}
+.pill.end{background:var(--c);color:#fff}
+.arrow{color:var(--muted)}
+
+/* Grid cards */
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.card p{color:var(--muted);font-size:.95rem}
+.card.pillar{background:color-mix(in srgb,var(--c) 14%,var(--card));border-color:color-mix(in srgb,var(--c) 35%,transparent);border-top:4px solid var(--c)}
+.card.pillar h3{color:var(--c)}
+.card.pillar p{color:var(--ink)}
+
+/* Order rules */
+.rules{display:grid;gap:12px;counter-reset:r}
+.rule{display:grid;grid-template-columns:40px 1fr;gap:14px;align-items:start}
+.rule::before{counter-increment:r;content:counter(r);width:40px;height:40px;border-radius:50%;background:var(--sky);color:#fff;display:grid;place-items:center;font-weight:700}
+.rule p{color:var(--muted)}
+.rule b{color:var(--ink)}
+.routes{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));margin-top:8px}
+.route{border:1px dashed var(--line);border-radius:12px;padding:14px 16px;font-size:.92rem}
+.route strong{display:block;font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;color:var(--sky-ink);margin-bottom:4px}
+
+/* Courses timeline */
+.course{display:grid;grid-template-columns:56px 1fr;gap:18px}
+.node{display:flex;flex-direction:column;align-items:center}
+.k1{--c:var(--k1)}.k2{--c:var(--k2)}.k3{--c:var(--k3)}.k4{--c:var(--k4)}.k5{--c:var(--k5)}
+.dot{width:44px;height:44px;border-radius:50%;background:var(--c);color:#fff;font-weight:800;display:grid;place-items:center;flex:none}
+.rail{flex:1;width:2px;background:linear-gradient(var(--c),var(--line));margin-top:6px}
+.course:last-child .rail{display:none}
+.cbody{padding-bottom:36px;min-width:0;display:flex;flex-direction:column;gap:12px}
+.meta{display:flex;flex-wrap:wrap;gap:6px}
+.tag{font-size:.78rem;background:color-mix(in srgb,var(--c) 15%,transparent);color:var(--ink);border-radius:6px;padding:3px 9px;font-weight:600}
+.becomes{font-size:.95rem}
+.becomes b{color:var(--c)}
+.cname{font-size:1.35rem;color:var(--c)}
+details.stage{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--c);border-radius:12px}
+details.stage summary{cursor:pointer;list-style:none;padding:14px 16px;display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:center}
+details.stage summary::-webkit-details-marker{display:none}
+.num{font-size:.78rem;font-weight:700;color:var(--c);min-width:62px}
+.stitle{font-weight:600}
+.chev{color:var(--muted);transition:transform .2s}
+details[open] .chev{transform:rotate(90deg)}
+.sbody{padding:0 16px 16px;display:grid;gap:10px;font-size:.94rem}
+.sbody .row{display:grid;grid-template-columns:130px 1fr;gap:10px}
+.sbody .k{color:var(--muted);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.04em;padding-top:2px}
+.sbody ul{margin:0;padding-left:18px}
+.link-out{font-size:.9rem;font-weight:600}
+
+/* Table */
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--card)}
+table{border-collapse:collapse;width:100%;min-width:640px;font-size:.92rem}
+th,td{text-align:left;padding:10px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:.78rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);background:var(--paper)}
+tr:last-child td{border-bottom:none}
+td.c{font-weight:700;color:var(--c);white-space:nowrap;border-left:4px solid var(--c)}
+
+/* Pass criteria */
+.criteria{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(180px,1fr))}
+.crit{border-top:3px solid var(--sky);background:var(--card);border-radius:0 0 10px 10px;padding:14px;font-size:.92rem;border-left:1px solid var(--line);border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
+.crit b{display:block;font-size:.78rem;color:var(--muted);letter-spacing:.06em}
+.pass{margin-top:6px;background:var(--sky-soft);border-radius:12px;padding:16px 18px}
+
+/* 5 Không 5 Luôn */
+.vows{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.vow ul{margin:0;padding:0;list-style:none;display:grid;gap:8px}
+.vow li{padding:10px 14px;border-radius:10px;background:var(--card);border:1px solid var(--line);font-weight:500}
+.vow.no li::before{content:"✕  ";color:var(--muted)}
+.vow.yes li::before{content:"✓  ";color:var(--heal);font-weight:700}
+
+/* FAQ */
+.faq details{border-bottom:1px solid var(--line);padding-block:14px}
+.faq summary{cursor:pointer;font-weight:600}
+.faq p{margin-top:8px;color:var(--muted);max-width:70ch}
+
+footer{padding-block:40px;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}
+footer .brand{color:var(--sky-ink);font-weight:700}
+
+@media (max-width:560px){
+  .sbody .row{grid-template-columns:1fr;gap:2px}
+  .course{grid-template-columns:44px 1fr;gap:12px}
+  .dot{width:36px;height:36px;font-size:.9rem}
+  .num{min-width:auto}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+
+
+      .pricing-band{background:linear-gradient(180deg,var(--bg),var(--sky-soft))}
+      .price-grid{display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));align-items:start}
+      .plist{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+      .prow{display:grid;grid-template-columns:1fr auto;gap:12px;padding:14px 18px;border-bottom:1px solid var(--line);border-left:5px solid var(--c);font-variant-numeric:tabular-nums}
+      .prow span:last-child{font-weight:700}
+      .ptotal{display:grid;grid-template-columns:1fr auto;gap:12px;padding:14px 18px;background:var(--paper);color:var(--muted);font-variant-numeric:tabular-nums}
+      .ptotal s{font-weight:700}
+      .offer{background:var(--card);border:2px solid var(--sky);border-radius:16px;padding:24px;display:flex;flex-direction:column;gap:12px}
+      .offer .big{font-size:clamp(2.2rem,6vw,3rem);font-weight:800;color:var(--k5);line-height:1.1;font-variant-numeric:tabular-nums}
+      .badges{display:flex;flex-wrap:wrap;gap:8px}
+      .badge{font-size:.82rem;font-weight:700;border-radius:999px;padding:5px 12px;background:color-mix(in srgb,var(--heal) 20%,transparent)}
+      .badge.time{background:var(--sky-soft);color:var(--sky-ink)}
+      .perks{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));margin-top:8px}
+      .perk{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;display:grid;gap:6px}
+      .perk b{font-size:1rem}
+      .perk p{color:var(--muted);font-size:.93rem}
+      .contact{font-size:.95rem;color:var(--muted)}
+      .contact b{color:var(--ink)}
+      .phone{font-variant-numeric:tabular-nums;user-select:all;white-space:nowrap}
+      .cta{display:inline-block;background:var(--sky);color:#fff;text-decoration:none;font-weight:700;border-radius:10px;padding:12px 20px;align-self:flex-start}
+      .principles{margin:8px 0 0;max-width:760px}
+      .prow{background:color-mix(in srgb,var(--c) 10%,var(--card))}
+      .prow span:first-child{font-weight:600}
+      .criteria{grid-template-columns:repeat(auto-fit,minmax(170px,1fr))}
+      .criteria .crit:nth-child(1),.perks .perk:nth-child(1){--c:var(--k1)}
+      .criteria .crit:nth-child(2),.perks .perk:nth-child(2){--c:var(--k2)}
+      .criteria .crit:nth-child(3),.perks .perk:nth-child(3){--c:var(--k3)}
+      .criteria .crit:nth-child(4),.perks .perk:nth-child(4){--c:var(--k4)}
+      .criteria .crit:nth-child(5),.perks .perk:nth-child(5){--c:var(--k5)}
+      .crit{border-top-color:var(--c);background:color-mix(in srgb,var(--c) 13%,var(--card));border-color:color-mix(in srgb,var(--c) 30%,transparent);border-top:4px solid var(--c)}
+      .crit b{color:var(--c)}
+      .perks{grid-template-columns:repeat(auto-fit,minmax(170px,1fr))}
+      .perk{background:color-mix(in srgb,var(--c) 13%,var(--card));border-color:color-mix(in srgb,var(--c) 30%,transparent);border-top:4px solid var(--c);align-content:start}
+      .perk b{color:var(--c)}
+      .perk p{color:var(--ink)}
+      .principles img{display:block;width:100%;height:auto;border-radius:16px;border:1px solid var(--line)}
+    
+main>section:nth-of-type(10){--c:var(--k2)}
+.hero-cta{margin-top:28px;display:flex;flex-wrap:wrap;gap:10px}
+.cta.ghost{background:var(--card);color:var(--sky-ink);border:1px solid color-mix(in srgb,var(--sky) 45%,transparent)}
+.cta:hover{filter:brightness(1.05)}
+.subnav{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(6px);border-bottom:1px solid var(--line)}
+.subnav .wrap{display:flex;gap:6px 18px;overflow-x:auto;padding-block:10px;white-space:nowrap;scrollbar-width:none}
+.subnav a{text-decoration:none;color:var(--muted);font-size:.88rem;font-weight:600}
+.subnav a.go{color:#fff;background:var(--sky);border-radius:999px;padding:2px 12px}
+html{scroll-behavior:smooth;scroll-padding-top:56px}
+.eyebrow.plain{color:var(--muted)}
+.svc-grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.svc{background:color-mix(in srgb,var(--c) 12%,var(--card));border:1px solid color-mix(in srgb,var(--c) 30%,transparent);border-top:4px solid var(--c);border-radius:14px;padding:20px;display:flex;flex-direction:column;gap:8px}
+.svc .tag{align-self:flex-start;color:var(--c);background:var(--card)}
+.svc h3{color:var(--ink)}
+.svc .price{font-size:1.6rem;font-weight:800;color:var(--c);font-variant-numeric:tabular-nums;line-height:1.2}
+.svc p{font-size:.95rem}
+.svc .link-out{margin-top:auto;padding-top:6px}
+.offer-title{font-size:1.3rem;color:var(--ink)}
+.offer .big{color:var(--k4)}
+.free-note{background:color-mix(in srgb,var(--heal) 16%,var(--card));border-left:4px solid var(--heal);border-radius:10px;padding:14px 16px;font-size:.95rem}
+.perks.info .perk:nth-child(1){--c:var(--k1)}.perks.info .perk:nth-child(2){--c:var(--k2)}.perks.info .perk:nth-child(3){--c:var(--k3)}.perks.info .perk:nth-child(4){--c:var(--k4)}.perks.info .perk:nth-child(5){--c:var(--k5)}
+.hero .logo{border-radius:50%}
+.hero-grid{display:grid;gap:32px;align-items:center}
+@media (min-width:900px){.hero-grid{grid-template-columns:minmax(0,1.25fr) minmax(260px,.75fr)}}
+.hero-portrait{background:var(--card);box-shadow:0 20px 50px color-mix(in srgb,var(--ink) 14%,transparent);max-width:380px;justify-self:center;width:100%}
+.hero-portrait img{aspect-ratio:4/4.6}
+.about.solo{grid-template-columns:1fr;max-width:820px}
+.about{display:grid;gap:28px;grid-template-columns:minmax(220px,340px) 1fr;align-items:start;margin-top:8px}
+.portrait{margin:0;border-radius:16px;overflow:hidden;border:1px solid var(--line);background:var(--card);border-top:4px solid var(--k2)}
+.portrait img{display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:center 12%;background:#fff}
+.portrait figcaption{padding:12px 16px;display:grid;gap:2px}
+.portrait figcaption b{color:var(--sky-ink)}
+.portrait figcaption span{color:var(--muted);font-size:.85rem}
+.about .quote{margin-top:12px}
+.vow h3{margin-bottom:10px}.vow.no h3{color:var(--k5)}.vow.yes h3{color:var(--k4)}
+/* Form */
+.form-layout{display:grid;gap:32px;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);align-items:start}
+.q-form-shell{background:var(--card);border:1px solid var(--line);border-top:4px solid var(--sky);border-radius:14px;overflow:hidden}
+.q-form-stage,.q-payment-stage{padding:clamp(18px,4vw,32px)}
+.q-form-stage[hidden],.q-payment-stage[hidden],.q-form-fallback[hidden],.q-form-field[hidden],.q-bank-card[hidden]{display:none!important}
+.q-form-progress{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:0 0 22px;padding:0;list-style:none}
+.q-form-progress li{padding:8px 4px;border-bottom:3px solid var(--line);color:var(--muted);font-size:.88rem;font-weight:700}
+.q-form-progress li[aria-current="step"]{border-color:var(--heal);color:var(--ink)}
+.q-registration-form{display:grid;gap:18px}
+.q-form-field{display:grid;gap:6px}
+.q-form-field label,.q-service-options legend{color:var(--ink);font-weight:700}
+.q-form-field label span{color:var(--k5)}
+.q-form-field label .q-optional-label{color:var(--muted);font-weight:500;font-size:.88rem}
+.q-form-field input,.q-form-field select,.q-form-field textarea{width:100%;min-height:48px;padding:10px 13px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink);font:400 1rem/1.5 var(--font)}
+.q-form-field textarea{min-height:112px;resize:vertical}
+.q-form-field input:focus,.q-form-field select:focus,.q-form-field textarea:focus{outline:3px solid color-mix(in srgb,var(--sky) 25%,transparent);border-color:var(--sky)}
+.q-form-hint{color:var(--muted);font-size:.86rem;line-height:1.55}
+.q-service-options{display:grid;gap:8px;margin:0;padding:0;border:0}
+.q-service-options legend{margin-bottom:8px}
+.q-service-choice{display:flex;align-items:flex-start;gap:10px;padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:var(--bg);cursor:pointer;font-size:.9rem}
+.q-service-choice:has(input:checked){border-color:var(--sky);background:color-mix(in srgb,var(--sky) 9%,var(--card));box-shadow:0 0 0 1px var(--sky)}
+.q-service-choice input{flex:none;margin-top:4px;accent-color:var(--sky)}
+.q-service-choice strong{display:block;color:var(--ink);font-size:1rem}
+.q-service-choice span{display:block;color:var(--muted)}
+.q-form-consent{display:flex;align-items:flex-start;gap:10px;color:var(--muted);font-size:.88rem;line-height:1.6}
+.q-form-consent input{flex:none;margin-top:4px;accent-color:var(--sky)}
+.q-form-submit{min-height:52px;border:0;border-radius:10px;background:var(--sky);color:#fff;font:700 1rem var(--font);cursor:pointer}
+.q-form-submit:disabled{opacity:.65;cursor:wait}
+.q-form-status{min-height:20px;margin:0;color:var(--muted);font-size:.88rem}
+.q-form-fallback{padding:14px 16px;border:1px solid color-mix(in srgb,var(--k5) 40%,transparent);border-radius:10px;background:color-mix(in srgb,var(--k5) 10%,var(--card));font-size:.88rem}
+.q-payment-kicker{display:block;color:var(--heal);font-size:.75rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
+.q-payment-stage h3{margin:6px 0;color:var(--sky-ink);font-size:1.6rem;font-weight:800}
+.q-payment-lede{margin:0 0 18px;color:var(--muted)}
+.q-payment-amount{display:flex;justify-content:space-between;gap:16px;padding:12px 16px;margin-top:8px;border-radius:10px;background:var(--sky-soft);font-size:.9rem}
+.q-payment-amount strong{text-align:right}
+.q-bank-card{margin-top:14px;padding:18px;border:1px solid var(--line);border-radius:12px;background:var(--bg)}
+.q-bank-card h4{margin:0 0 10px;font-size:1.05rem}
+.q-bank-row{display:flex;justify-content:space-between;gap:16px;padding:8px 0;border-top:1px solid var(--line);font-size:.9rem}
+.q-bank-row span{color:var(--muted)}.q-bank-row strong{text-align:right}
+.q-payment-qr-wrap{margin:16px 0 0;text-align:center}
+.q-payment-qr{display:block;width:min(100%,280px);height:auto;margin:0 auto;border-radius:12px;background:#fff}
+.q-payment-qr-caption{margin-top:8px;color:var(--muted);font-size:.86rem}
+.q-payment-note{margin-top:14px;color:var(--muted);font-size:.9rem}
+.q-payment-contact{display:inline-flex;margin-top:16px;padding:12px 16px;border-radius:10px;background:var(--sky);color:#fff;font-weight:700;text-decoration:none}
+.q-hidden-submit-frame{position:absolute;left:-9999px;width:1px;height:1px;opacity:0;pointer-events:none;border:0}
+@media (max-width:820px){.about,.form-layout{grid-template-columns:1fr}.portrait{max-width:360px}}
+@media (max-width:560px){.q-payment-amount,.q-bank-row{flex-direction:column;gap:2px}.q-bank-row strong,.q-payment-amount strong{text-align:left}}
+
   </style>
 </head>
 <body>
-<div class="q-wrap">
-  <header class="site-header">
-    <div class="site-header-inner">
-      <a href="../index.html" class="brand-lockup" aria-label="Về trang chủ Tử Vi Chữa Lành">
-        <img class="tvcl-logo" src="../assets/img/tvcl-logo-6.png" alt="Logo Tử Vi Chữa Lành">
-        <div class="titles"><span class="main-title">Tử Vi Chữa Lành</span><span class="sub-title">Bộ tộc Tử Vi Chữa Lành</span></div>
-      </a>
-      <nav class="main-nav" aria-label="Điều hướng chính">
-        <a href="/">Trang chủ</a>
-        <a href="#dich-vu">Dịch vụ &amp; mức phí</a>
-        <a href="#buoi-tham-van">Buổi tham vấn</a>
-        <a href="#ve-quan-trung">Về Quán Trung</a>
-        <a href="#ve-tvcl">Về TVCL</a>
-        <a href="#hoi-dap">Hỏi đáp</a>
-        <a href="#dang-ky">Đăng ký</a>
-      </nav>
+<header class="hero">
+  <svg class="hero-bg" viewBox="0 0 1200 600" preserveAspectRatio="xMaxYMax slice" aria-hidden="true">
+    <defs>
+      <linearGradient id="gFar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="var(--k3)" stop-opacity=".32"/><stop offset="1" stop-color="var(--k3)" stop-opacity=".05"/></linearGradient>
+      <linearGradient id="gMid" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="var(--k2)" stop-opacity=".36"/><stop offset="1" stop-color="var(--k2)" stop-opacity=".08"/></linearGradient>
+      <linearGradient id="gNear" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="var(--k1)" stop-opacity=".4"/><stop offset="1" stop-color="var(--k4)" stop-opacity=".22"/></linearGradient>
+      <radialGradient id="gGlow"><stop offset="0" stop-color="#FFE7B0" stop-opacity=".75"/><stop offset=".5" stop-color="#FFE7B0" stop-opacity=".25"/><stop offset="1" stop-color="#FFE7B0" stop-opacity="0"/></radialGradient>
+    </defs>
+    <g fill="var(--sky-ink)" opacity=".5"><path d="M560 64 Q560 70 566 70 Q560 70 560 76 Q560 70 554 70 Q560 70 560 64Z"/><path d="M650 146 Q650 150 654 150 Q650 150 650 154 Q650 150 646 150 Q650 150 650 146Z"/><path d="M730 55 Q730 60 735 60 Q730 60 730 65 Q730 60 725 60 Q730 60 730 55Z"/><path d="M820 186.5 Q820 190 823.5 190 Q820 190 820 193.5 Q820 190 816.5 190 Q820 190 820 186.5Z"/><path d="M880 83 Q880 90 887 90 Q880 90 880 97 Q880 90 873 90 Q880 90 880 83Z"/><path d="M1120 75 Q1120 80 1125 80 Q1120 80 1120 85 Q1120 80 1115 80 Q1120 80 1120 75Z"/><path d="M1170 196 Q1170 200 1174 200 Q1170 200 1170 204 Q1170 200 1166 200 Q1170 200 1170 196Z"/><path d="M960 147 Q960 150 963 150 Q960 150 960 153 Q960 150 957 150 Q960 150 960 147Z"/><path d="M1060 206 Q1060 210 1064 210 Q1060 210 1060 214 Q1060 210 1056 210 Q1060 210 1060 206Z"/><path d="M700 247 Q700 250 703 250 Q700 250 700 253 Q700 250 697 250 Q700 250 700 247Z"/><path d="M770 117 Q770 120 773 120 Q770 120 770 123 Q770 120 767 120 Q770 120 770 117Z"/><path d="M1180 135 Q1180 140 1185 140 Q1180 140 1180 145 Q1180 140 1175 140 Q1180 140 1180 135Z"/><path d="M610 227 Q610 230 613 230 Q610 230 610 233 Q610 230 607 230 Q610 230 610 227Z"/><path d="M950 46 Q950 50 954 50 Q950 50 950 54 Q950 50 946 50 Q950 50 950 46Z"/><path d="M1010 107 Q1010 110 1013 110 Q1010 110 1010 113 Q1010 110 1007 110 Q1010 110 1010 107Z"/></g>
+    <g fill="var(--sky-ink)" opacity=".3"><circle cx="943" cy="306" r="1.2"/><circle cx="942" cy="280" r="1.6"/><circle cx="674" cy="114" r="1.6"/><circle cx="967" cy="115" r="1"/><circle cx="937" cy="175" r="1"/><circle cx="572" cy="295" r="1.6"/><circle cx="1129" cy="41" r="1.6"/><circle cx="885" cy="251" r="1.6"/><circle cx="1110" cy="100" r="1.6"/><circle cx="495" cy="290" r="1"/><circle cx="540" cy="38" r="1"/><circle cx="727" cy="35" r="1.2"/><circle cx="814" cy="245" r="1.6"/><circle cx="680" cy="285" r="1"/><circle cx="1135" cy="170" r="1.2"/><circle cx="484" cy="63" r="1.2"/><circle cx="1150" cy="162" r="1.2"/><circle cx="1044" cy="62" r="1.6"/><circle cx="740" cy="181" r="1"/><circle cx="1005" cy="167" r="1"/><circle cx="551" cy="308" r="1"/><circle cx="890" cy="75" r="1.2"/><circle cx="875" cy="54" r="1"/><circle cx="1181" cy="20" r="1"/><circle cx="694" cy="46" r="1.2"/><circle cx="864" cy="223" r="1.2"/><circle cx="554" cy="309" r="1.6"/><circle cx="683" cy="158" r="1.2"/><circle cx="569" cy="179" r="1.2"/><circle cx="495" cy="229" r="1"/></g>
+    <g transform="translate(0 -80)">
+    <circle cx="1010" cy="400" r="170" fill="url(#gGlow)"/>
+    <circle cx="1010" cy="400" r="62" fill="#FFF3D1"/>
+    <path d="M420 600 C540 480 650 450 760 462 C870 474 930 430 1020 436 C1100 441 1160 462 1200 470 V720Z" fill="url(#gFar)"/>
+    <ellipse cx="900" cy="500" rx="360" ry="26" fill="var(--bg)" opacity=".45"/>
+    <path d="M460 600 C580 528 700 512 810 520 C910 528 990 494 1080 498 C1140 501 1180 512 1200 516 V720Z" fill="url(#gMid)"/>
+    <path d="M500 600 C620 575 760 560 880 550 C990 540 1100 505 1200 492 V720Z" fill="url(#gNear)"/>
+    <path d="M540 640 C650 600 740 590 830 565 S980 530 1060 505 S1150 480 1200 468" fill="none" stroke="var(--bg)" stroke-width="8" stroke-linecap="round" opacity=".9"/>
+    <path d="M540 640 C650 600 740 590 830 565 S980 530 1060 505 S1150 480 1200 468" fill="none" stroke="var(--k5)" stroke-width="1.5" stroke-dasharray="1 9" stroke-linecap="round" opacity=".7"/>
+    <g fill="var(--ink)" opacity=".4" transform="translate(1150 481) scale(.8)"><path d="M-14 0 h28 l-3 -4 h-22z"/><rect x="-8" y="-10" width="16" height="6"/><path d="M-14 -10 Q0 -21 14 -10z"/></g>
+    <g fill="var(--ink)" opacity="0.7" transform="translate(955 534) scale(1.0)"><circle cx="0" cy="-33" r="4.4"/><path d="M-5 -28 C-2 -30 3 -30 5 -28 C7.5 -18 9 -8 9.5 0 L-8.5 0 C-8 -8 -7.5 -18 -5 -28Z"/></g>
+    <g fill="var(--ink)" opacity="0.66" transform="translate(918 543) scale(0.98)"><circle cx="0" cy="-33" r="4.4"/><path d="M-5 -28 C-2 -30 3 -30 5 -28 C7.5 -18 9 -8 9.5 0 L-8.5 0 C-8 -8 -7.5 -18 -5 -28Z"/></g>
+    <g fill="var(--ink)" opacity="0.62" transform="translate(882 552) scale(0.96)"><circle cx="0" cy="-33" r="4.4"/><path d="M-5 -28 C-2 -30 3 -30 5 -28 C7.5 -18 9 -8 9.5 0 L-8.5 0 C-8 -8 -7.5 -18 -5 -28Z"/></g>
+    <g fill="var(--ink)" opacity="0.58" transform="translate(846 562) scale(0.94)"><circle cx="0" cy="-33" r="4.4"/><path d="M-5 -28 C-2 -30 3 -30 5 -28 C7.5 -18 9 -8 9.5 0 L-8.5 0 C-8 -8 -7.5 -18 -5 -28Z"/></g>
+    <g fill="var(--ink)" opacity=".8" transform="translate(1005 522) scale(1.3)">
+      <g transform="rotate(7)"><circle cx="1.5" cy="-31" r="4.3"/>
+      <path d="M-5 -26 C-2 -28 3 -28 5 -26 C8 -18 10 -8 10.5 0 L-9 0 C-8.5 -8 -8 -18 -5 -26Z"/></g>
+      <path d="M12 -38 Q13.5 -19 14.5 1" fill="none" stroke="var(--ink)" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M5 -22 Q9 -20 12.5 -22" fill="none" stroke="var(--ink)" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <g stroke="var(--ink)" stroke-width="1.4" fill="none" opacity=".25" stroke-linecap="round"><path d="M700 300 q7 -6 14 0 q7 -6 14 0"/><path d="M750 275 q5 -4 10 0 q5 -4 10 0"/></g>
+  </svg>
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+    <a class="home-logo" href="/" aria-label="Về trang chủ Tử Vi Chữa Lành"><img class="logo" src="../assets/img/tvcl-logo-6.png" alt="Logo Tử Vi Chữa Lành" width="120" height="120"></a>
+    <p class="eyebrow">Đồng hành cùng Tộc trưởng</p>
+    <h1>Tham vấn <mark class="hn">1:1</mark> <span>cùng Quán Trung</span></h1>
+    <p class="tribe">Bộ tộc Tử Vi Chữa Lành</p>
+    <p class="slogan">Tử Vi Chữa Lành: Ứng dụng Tử Vi, Tâm Lý, Đạo Học để Hiểu Mình, Cải Mệnh &amp; Chữa Lành</p>
+    <p class="quote">“Lá số là bản đồ, không phải bản án.”</p>
+    <div class="path-strip" aria-label="Thông tin nhanh">
+      <span class="pill k1">Online qua Zoom</span>
+      <span class="pill k2">Thứ 2 – Thứ 6 · 9:00–15:00</span>
+      <span class="pill k3">Mỗi ngày chỉ 1 ca</span>
+      <span class="pill k4">Có bản ghi riêng</span>
     </div>
-  </header>
+    <div class="hero-cta"><a class="cta" href="#dang-ky">Đặt lịch tham vấn ↓</a><a class="cta ghost" href="#dich-vu">Xem dịch vụ &amp; mức phí</a></div>
+    </div>
+    <figure class="portrait hero-portrait"><img src="../assets/img/thay-quan-trung.png" alt="Thầy Quán Trung, người sáng lập Bộ tộc Tử Vi Chữa Lành" fetchpriority="high"><figcaption><b>Thầy Quán Trung</b><span>Người sáng lập · Người nghiên cứu, giảng dạy và tham vấn</span></figcaption></figure>
+  </div>
+</header>
 
-  <main>
-    <section class="q-hero">
-      <div class="q-container q-hero-grid">
-        <div>
-          <span class="q-eyebrow">Đồng hành cùng Tộc trưởng</span>
-          <h1>Tham vấn<br><span class="q-h1-accent">cùng Quán Trung</span></h1>
-          <p class="q-community">Người sáng lập · Bộ Tộc Tử Vi Chữa Lành</p>
-          <p class="q-slogan">Tử Vi Chữa Lành: Ứng dụng Tử Vi, Tâm Lý, Đạo Học để Hiểu Mình, Cải Mệnh &amp; Chữa Lành</p>
-          <p class="q-tagline">Lá số là bản đồ, không phải bản án.</p>
-          <ul class="q-hero-facts" aria-label="Thông tin nhanh"><li>Online qua Zoom</li><li>Thứ 2 – Thứ 6 · 9:00–15:00</li><li>Mỗi ngày chỉ nhận 1 ca</li><li>Có bản ghi buổi tham vấn</li></ul>
-          <div class="q-actions">
-            <a class="q-btn q-btn-primary" href="#dang-ky">Đặt lịch tham vấn <span aria-hidden="true">↓</span></a>
-            <a class="q-btn q-btn-outline" href="#dich-vu">Xem dịch vụ &amp; mức phí</a>
-          </div>
-        </div>
-        <figure class="q-portrait"><img src="../assets/img/thay-quan-trung.png" alt="Thầy Quán Trung, người sáng lập Bộ tộc Tử Vi Chữa Lành" fetchpriority="high"><figcaption><strong>Thầy Quán Trung</strong><span>Người sáng lập · Người nghiên cứu, giảng dạy và tham vấn</span></figcaption></figure>
+<nav class="subnav" aria-label="Mục lục trang"><div class="wrap">
+  <a href="#danh-cho-ban">Dành cho bạn</a><a href="#dich-vu">Dịch vụ &amp; phí</a><a href="#quy-trinh">Quy trình</a><a href="#buoi-tham-van">Buổi tham vấn</a><a href="#ve-quan-trung">Về Quán Trung</a><a href="#hoi-dap">Hỏi đáp</a><a href="#dang-ky" class="go">Đăng ký</a>
+</div></nav>
+
+<main>
+  <section class="band" id="danh-cho-ban">
+    <div class="wrap stack">
+      <p class="eyebrow">Buổi tham vấn dành cho bạn nếu</p>
+      <h2>Có điều gì đó bạn muốn hiểu rõ hơn</h2>
+      <p class="lead">Bạn không cần biết gì về Tử Vi. Chỉ cần mang theo điều bạn đang trăn trở.</p>
+      <div class="grid" style="margin-top:12px">
+        <div class="card pillar k2"><h3>Những vòng lặp</h3><p>Bạn thấy mình cứ lặp lại một kiểu quan hệ, một kiểu tổn thương, dù đã cố thay đổi.</p></div>
+        <div class="card pillar k1"><h3>Ngã rẽ sự nghiệp</h3><p>Bạn đang đứng giữa ngã rẽ công việc, sự nghiệp hay khởi nghiệp và muốn nhìn rõ nguồn lực của mình.</p></div>
+        <div class="card pillar k4"><h3>Con và người thương</h3><p>Bạn muốn hiểu khí chất của con, của người thương để đồng hành nhẹ nhàng hơn.</p></div>
+        <div class="card pillar k3"><h3>Tiền bạc &amp; gốc rễ</h3><p>Bạn muốn nhìn lại mối quan hệ với tiền bạc, với cha mẹ, với chính mình.</p></div>
+        <div class="card pillar k5"><h3>Thoát khỏi nỗi sợ</h3><p>Bạn đã từng nghe những lời luận khiến mình lo sợ và muốn một cách nhìn bình an, rõ ràng hơn.</p></div>
+        <div class="card pillar k2"><h3>Dừng lại để hiểu mình</h3><p>Bạn đơn giản là muốn dừng lại, hiểu mình sâu hơn và chọn bước tiếp theo có ý thức.</p></div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="q-section q-foryou" id="danh-cho-ban">
-      <div class="q-container">
-        <span class="q-kicker">Buổi tham vấn dành cho bạn nếu</span><h2>Có điều gì đó bạn muốn hiểu rõ hơn</h2>
-        <div class="q-foryou-grid">
-          <p>Bạn thấy mình cứ lặp lại một kiểu quan hệ, một kiểu tổn thương, dù đã cố thay đổi.</p>
-          <p>Bạn đang đứng giữa ngã rẽ công việc, sự nghiệp hay khởi nghiệp và muốn nhìn rõ nguồn lực của mình.</p>
-          <p>Bạn muốn hiểu khí chất của con, của người thương để đồng hành nhẹ nhàng hơn.</p>
-          <p>Bạn muốn nhìn lại mối quan hệ với tiền bạc, với cha mẹ, với chính mình.</p>
-          <p>Bạn đã từng nghe những lời luận khiến mình lo sợ và muốn một cách nhìn bình an, rõ ràng hơn.</p>
-          <p>Bạn đơn giản là muốn dừng lại, hiểu mình sâu hơn và chọn bước tiếp theo có ý thức.</p>
-        </div>
-        <p class="q-foryou-note">Bạn không cần biết gì về Tử Vi. Chỉ cần mang theo điều bạn đang trăn trở.</p>
+  <section class="band paper pricing-band" id="dich-vu">
+    <div class="wrap stack">
+      <p class="eyebrow">Dịch vụ &amp; mức phí</p>
+      <h2>Chọn hình thức tham vấn phù hợp</h2>
+      <p class="lead">Tử Vi, Tâm lý và các phương pháp chữa lành được kết nối để cùng nhìn rõ điều bạn đang quan tâm. Tất cả các buổi đều diễn ra online qua Zoom.</p>
+      <div class="svc-grid" style="margin-top:12px">
+        <div class="svc k2"><span class="tag">Tử Vi Chữa Lành · 1 tiếng</span><h3>Tử Vi 1 tiếng</h3><p class="price">1.500.000đ</p><p>Hiểu mình qua lá số, nhìn lại những bài học và tìm hướng chuyển hóa phù hợp.</p><a class="link-out" href="#dang-ky">Đăng ký ↓</a></div>
+        <div class="svc k1"><span class="tag">Chọn một chủ đề · 1,5 tiếng</span><h3>Tử Vi Chuyên Đề</h3><p class="price">2.000.000đ</p><p>Đi sâu vào một khía cạnh cụ thể như gia đình, sự nghiệp, tài lộc hoặc tình duyên.</p><a class="link-out" href="#dang-ky">Đăng ký ↓</a></div>
+        <div class="svc k3"><span class="tag">Theo nhu cầu riêng</span><h3>Trường hợp đặc biệt</h3><p class="price">Trao đổi riêng</p><p>Nội dung hoặc thời lượng riêng sẽ được trợ lý trao đổi và xác nhận cùng bạn.</p><a class="link-out" href="#dang-ky">Gửi nhu cầu ↓</a></div>
       </div>
-    </section>
 
-    <section class="q-section q-services" id="dich-vu">
-      <div class="q-container">
-        <div class="q-services-head"><div><span class="q-kicker">Dịch vụ &amp; mức phí</span><h2>Chọn hình thức tham vấn phù hợp</h2></div><p class="q-lede">Tử Vi, Tâm lý và các phương pháp chữa lành được kết nối để cùng nhìn rõ điều bạn đang quan tâm. Tất cả các buổi đều diễn ra online qua Zoom.</p></div>
-        <div class="q-service-grid">
-          <article class="q-service"><span class="q-service-label">Tử Vi Chữa Lành · 1 tiếng</span><h3>Tử Vi 1 tiếng</h3><strong class="q-service-price">1.500.000đ</strong><p>Hiểu mình qua lá số, nhìn lại những bài học và tìm hướng chuyển hóa phù hợp.</p><div class="q-service-actions"><button class="q-service-more" type="button" data-dialog-open="detail-tvcl" aria-haspopup="dialog" aria-controls="detail-tvcl">Xem chi tiết <span aria-hidden="true">+</span></button><a class="q-service-apply" href="#dang-ky">Đăng ký ↓</a></div></article>
-          <article class="q-service"><span class="q-service-label">Chọn một chủ đề · 1,5 tiếng</span><h3>Tử Vi Chuyên Đề</h3><strong class="q-service-price">2.000.000đ</strong><p>Đi sâu vào một khía cạnh cụ thể như gia đình, sự nghiệp, tài lộc hoặc tình duyên.</p><div class="q-service-actions"><button class="q-service-more" type="button" data-dialog-open="detail-chuyen-de" aria-haspopup="dialog" aria-controls="detail-chuyen-de">Xem chi tiết <span aria-hidden="true">+</span></button><a class="q-service-apply" href="#dang-ky">Đăng ký ↓</a></div></article>
-          <article class="q-service"><span class="q-service-label">Theo nhu cầu riêng</span><h3>Trường hợp đặc biệt</h3><strong class="q-service-price">Trao đổi riêng</strong><p>Nội dung hoặc thời lượng riêng sẽ được admin trao đổi và xác nhận cùng bạn.</p><div class="q-service-actions"><button class="q-service-more" type="button" data-dialog-open="detail-dac-biet" aria-haspopup="dialog" aria-controls="detail-dac-biet">Xem chi tiết <span aria-hidden="true">+</span></button><a class="q-service-apply" href="#dang-ky">Gửi nhu cầu ↓</a></div></article>
-          <article class="q-service q-service-featured"><div><span class="q-service-label">Đồng hành 1:1 · Chỉ 5 suất mới mỗi tháng</span><h3>Gói đồng hành cùng Tộc trưởng Quán Trung</h3><strong class="q-service-price">Từ 5.000.000đ</strong><p>Đồng hành qua các buổi tham vấn, hướng dẫn và phản hồi trong quá trình chuyển hóa. Có lựa chọn 1 tháng, 3 tháng và 1 năm. Bạn có thể trao đổi <strong>miễn phí 30 phút</strong> với Tộc trưởng trước khi quyết định.</p></div><div class="q-service-actions"><button class="q-service-more" type="button" data-dialog-open="detail-dong-hanh" aria-haspopup="dialog" aria-controls="detail-dong-hanh">Xem các gói <span aria-hidden="true">+</span></button><a class="q-service-apply" href="#dang-ky">Trao đổi miễn phí 30 phút ↓</a></div></article>
+      <div class="offer" style="margin-top:8px">
+        <div class="badges"><span class="badge">Đồng hành 1:1</span><span class="badge time">Chỉ 5 suất mới mỗi tháng</span></div>
+        <h3 class="offer-title">Gói đồng hành cùng Tộc trưởng Quán Trung</h3>
+        <p class="big">Từ 5.000.000đ</p>
+        <p>Không chỉ luận giải lá số hay tham vấn trong một buổi, Tộc trưởng Quán Trung sẽ đồng hành cùng bạn qua các buổi trao đổi trực tiếp, hướng dẫn và phản hồi trong quá trình thực hành. Hai bên cùng xác định khía cạnh cần tập trung và điều chỉnh cách đồng hành theo trải nghiệm thực tế của bạn.</p>
+        <div class="perks">
+          <div class="perk"><b>Gói 1 tháng · 5.000.000đ</b><p>02 buổi tham vấn trực tiếp, mỗi buổi 60–90 phút. Tập trung vào một khía cạnh trong cuộc sống. Mỗi tháng chỉ nhận 03 khách mới.</p></div>
+          <div class="perk"><b>Gói 3 tháng · ưu đãi 10.000.000đ</b><p><s>15.000.000đ</s> · 06 buổi, mỗi buổi 60 phút, dự kiến 02 buổi mỗi tháng. Tập trung tối đa 03 khía cạnh. Mỗi tháng chỉ nhận 02 khách mới.</p></div>
+          <div class="perk"><b>Gói 1 năm · 50.000.000đ</b><p>Phạm vi đồng hành và lịch sẽ được trao đổi trực tiếp trước khi quyết định.</p></div>
         </div>
-        <dialog class="q-service-dialog" id="detail-tvcl" aria-labelledby="detail-tvcl-title"><div class="q-dialog-inner"><div class="q-dialog-top"><div><span class="q-dialog-kicker">Tử Vi Chữa Lành · 1 tiếng</span><h2 id="detail-tvcl-title">Tử Vi 1 tiếng</h2><span class="q-dialog-price">1.500.000đ</span></div><button class="q-dialog-close" type="button" aria-label="Đóng cửa sổ">×</button></div><div class="q-dialog-content">
-          <section><h3>A. Tử Vi — thấu hiểu cuộc đời</h3><p><em>Trong 60 phút, trọng tâm buổi tham vấn sẽ được chọn theo điều bạn quan tâm nhất; các nội dung dưới đây là phạm vi có thể cùng đi qua.</em></p><p>Khám phá các khuynh hướng và nguồn lực qua 12 khía cạnh trên lá số; dùng lá số như bản đồ tham khảo, không phải kết luận cố định.</p><ul><li>Tổng quan 12 cung; nhận diện những mặt thuận lợi và những bài học cần lưu tâm.</li><li>Quan sát Mệnh – Thân – Phúc – Quan để hiểu thêm điểm mạnh, xu hướng công việc và điều bạn coi trọng.</li><li>Tham khảo Đại Vận, Tiểu Vận và những thời điểm cần chuẩn bị, cân nhắc lựa chọn.</li><li>Nhìn lại nguồn trợ lực, quý nhân, tài lộc, cách làm việc phù hợp và các mối quan hệ gia đình, công việc.</li></ul></section>
-          <section><h3>B. Tâm lý — nhận diện những mô thức lặp lại</h3><p>Cùng nhìn lại những điều khiến bạn khổ tâm hoặc chưa hài lòng, các mô thức khó khăn lặp lại và những nguyên nhân có thể liên quan qua lăng kính Tâm lý học và Phân tâm học.</p></section>
-          <section><h3>C. Chữa lành &amp; cải mệnh — tìm hướng chuyển hóa</h3><p>Kết nối điều nhận ra từ lá số với những lựa chọn và thực hành phù hợp trong đời sống.</p><ul><li>Quan hệ tình cảm với vợ/chồng; mối quan hệ với con, cha mẹ, đồng nghiệp hoặc cấp trên.</li><li>Tâm thức tài chính và định hướng sứ mệnh, giá trị cá nhân.</li></ul></section>
-        </div><a class="q-dialog-cta" href="#dang-ky" data-dialog-close>Gửi thông tin tham vấn ↓</a></div></dialog>
-        <dialog class="q-service-dialog" id="detail-chuyen-de" aria-labelledby="detail-chuyen-de-title"><div class="q-dialog-inner"><div class="q-dialog-top"><div><span class="q-dialog-kicker">Chọn một chủ đề · 1,5 tiếng</span><h2 id="detail-chuyen-de-title">Tử Vi Chuyên Đề</h2><span class="q-dialog-price">2.000.000đ</span></div><button class="q-dialog-close" type="button" aria-label="Đóng cửa sổ">×</button></div><div class="q-dialog-content">
+        <div class="free-note"><b>Trao đổi miễn phí 30 phút trước khi quyết định.</b> Nếu bạn đang cân nhắc gói đồng hành, hãy đặt một buổi trao đổi miễn phí 30 phút qua Zoom với Tộc trưởng để làm rõ nhu cầu và cùng xem gói có thật sự phù hợp. Buổi này dành riêng cho người quan tâm gói đồng hành; nếu bạn muốn tham vấn một buổi, chỉ cần đăng ký trực tiếp Tử Vi 1 tiếng hoặc Tử Vi Chuyên Đề.</div>
+        <a class="cta" href="#dang-ky">Đặt lịch trao đổi miễn phí 30 phút ↓</a>
+        <p class="contact">Quá trình chuyển hóa và kết quả có thể khác nhau tùy hoàn cảnh, mức độ tham gia và thực hành của mỗi người; gói đồng hành không cam kết một kết quả giống nhau cho tất cả.</p>
+      </div>
+
+      <div class="stack" style="margin-top:12px;gap:10px">
+        <p class="eyebrow plain">Nội dung chi tiết từng dịch vụ</p>
+        <details class="stage k2"><summary><span class="num">1 tiếng</span><span class="stitle">Tử Vi 1 tiếng · 1.500.000đ</span><span class="chev">›</span></summary><div class="sbody">
+          <p><em>Trong 60 phút, trọng tâm buổi tham vấn sẽ được chọn theo điều bạn quan tâm nhất; các nội dung dưới đây là phạm vi có thể cùng đi qua.</em></p>
+          <div class="row"><span class="k">A. Tử Vi</span><div><p>Khám phá các khuynh hướng và nguồn lực qua 12 khía cạnh trên lá số; dùng lá số như bản đồ tham khảo, không phải kết luận cố định.</p><ul><li>Tổng quan 12 cung; nhận diện những mặt thuận lợi và những bài học cần lưu tâm.</li><li>Quan sát Mệnh – Thân – Phúc – Quan để hiểu thêm điểm mạnh, xu hướng công việc và điều bạn coi trọng.</li><li>Tham khảo Đại Vận, Tiểu Vận và những thời điểm cần chuẩn bị, cân nhắc lựa chọn.</li><li>Nhìn lại nguồn trợ lực, quý nhân, tài lộc, cách làm việc phù hợp và các mối quan hệ gia đình, công việc.</li></ul></div></div>
+          <div class="row"><span class="k">B. Tâm lý</span><p>Cùng nhìn lại những điều khiến bạn khổ tâm hoặc chưa hài lòng, các mô thức khó khăn lặp lại và những nguyên nhân có thể liên quan qua lăng kính Tâm lý học và Phân tâm học.</p></div>
+          <div class="row"><span class="k">C. Chữa lành &amp; cải mệnh</span><div><p>Kết nối điều nhận ra từ lá số với những lựa chọn và thực hành phù hợp trong đời sống.</p><ul><li>Quan hệ tình cảm với vợ/chồng; mối quan hệ với con, cha mẹ, đồng nghiệp hoặc cấp trên.</li><li>Tâm thức tài chính và định hướng sứ mệnh, giá trị cá nhân.</li></ul></div></div>
+        </div></details>
+        <details class="stage k1"><summary><span class="num">1,5 tiếng</span><span class="stitle">Tử Vi Chuyên Đề · 2.000.000đ</span><span class="chev">›</span></summary><div class="sbody">
           <p>Cùng tập trung vào một khía cạnh bạn quan tâm trong đời sống. Các chủ đề dưới đây thuộc 12 khía cạnh trên lá số và được chọn theo thông tin bạn gửi:</p>
-          <section><h3>Chuyên đề theo cung và mối quan hệ</h3><ul><li><strong>Mệnh:</strong> tổng quan về bản thân và khuynh hướng cuộc đời.</li><li><strong>Phụ Mẫu, Phúc Đức:</strong> mối quan hệ với cha mẹ, cấp trên, người thầy; đời sống tinh thần và nguồn lực.</li><li><strong>Điền Trạch:</strong> nhà cửa, bất động sản hoặc hoạt động kinh doanh gắn với mặt bằng.</li><li><strong>Nô Bộc, Huynh Đệ:</strong> quan hệ với nhân viên, đối tác, đồng nghiệp, anh chị em và các kết nối xã hội.</li><li><strong>Phu Thê:</strong> quan hệ tình cảm, đời sống vợ chồng và những điều mỗi người muốn nhìn lại.</li></ul></section>
-          <section><h3>Tử Vi cho con</h3><p>Tham khảo lá số của con kết hợp với cung Tử Tức của cha/mẹ để cùng quan sát mối quan hệ và cân nhắc cách đồng hành, nuôi dạy phù hợp.</p></section>
-          <section><h3>Sự nghiệp &amp; khởi nghiệp</h3><ul><li>Xu hướng công việc; cân nhắc con đường làm thuê hay làm chủ.</li><li>Sản phẩm, thời điểm phát triển hoặc tạm dừng, lựa chọn người hợp tác và văn hóa công ty.</li></ul></section>
-          <section><h3>Tài Bạch</h3><ul><li>Cách tạo thu nhập và tận dụng nguồn lực, cơ hội tài lộc.</li><li>Tham khảo khuynh hướng đầu tư và những nguồn tiền có thể phù hợp.</li></ul></section>
-          <section><h3>Tình duyên</h3><ul><li>Nhìn lại khuynh hướng trong tình cảm, hình mẫu quan hệ và các bài học cá nhân.</li><li>Nhận diện điều khiến bạn tổn thương và những điểm có thể chủ động cải thiện.</li></ul></section>
-        </div><a class="q-dialog-cta" href="#dang-ky" data-dialog-close>Gửi thông tin tham vấn ↓</a></div></dialog>
-        <dialog class="q-service-dialog" id="detail-dac-biet" aria-labelledby="detail-dac-biet-title"><div class="q-dialog-inner"><div class="q-dialog-top"><div><span class="q-dialog-kicker">Theo nhu cầu riêng</span><h2 id="detail-dac-biet-title">Trường hợp đặc biệt</h2><span class="q-dialog-price">Thời lượng và phí trao đổi riêng</span></div><button class="q-dialog-close" type="button" aria-label="Đóng cửa sổ">×</button></div><div class="q-dialog-content"><p>Nếu chủ đề của bạn cần thời lượng hoặc cách tham vấn riêng, hãy mô tả ngắn gọn trong biểu mẫu. Admin sẽ liên hệ trực tiếp để trao đổi nội dung, mức phí và lịch hẹn trước khi xác nhận.</p></div><a class="q-dialog-cta" href="#dang-ky" data-dialog-close>Chia sẻ nhu cầu ↓</a></div></dialog>
-        <dialog class="q-service-dialog" id="detail-dong-hanh" aria-labelledby="detail-dong-hanh-title"><div class="q-dialog-inner"><div class="q-dialog-top"><div><span class="q-dialog-kicker">Đồng hành 1:1 · Chỉ 5 suất mới mỗi tháng</span><h2 id="detail-dong-hanh-title">Gói đồng hành cùng Tộc trưởng Quán Trung</h2><span class="q-dialog-price">Các lựa chọn 1 tháng, 3 tháng và 1 năm</span></div><button class="q-dialog-close" type="button" aria-label="Đóng cửa sổ">×</button></div><div class="q-dialog-content">
-          <p>Không chỉ luận giải lá số hay tham vấn trong một buổi, Tộc trưởng Quán Trung sẽ đồng hành cùng bạn qua các buổi trao đổi trực tiếp, hướng dẫn và phản hồi trong quá trình thực hành. Hai bên cùng xác định khía cạnh cần tập trung và điều chỉnh cách đồng hành theo trải nghiệm thực tế của bạn.</p>
-          <section><h3>Gói 1 tháng · 5.000.000đ</h3><ul><li>02 buổi tham vấn trực tiếp, mỗi buổi 60–90 phút.</li><li>01 tháng đồng hành chuyển hóa.</li><li>Tập trung vào một khía cạnh trong cuộc sống.</li><li>Mỗi tháng chỉ nhận 03 khách mới cho gói này.</li></ul></section>
-          <section><h3>Gói 3 tháng · ưu đãi còn 10.000.000đ</h3><p><del>Giá gói: 15.000.000đ</del></p><ul><li>06 buổi tham vấn trực tiếp, mỗi buổi 60 phút; dự kiến 02 buổi mỗi tháng.</li><li>03 tháng đồng hành chuyển hóa.</li><li>Tập trung vào tối đa 03 khía cạnh trong cuộc sống.</li><li>Mỗi tháng chỉ nhận 02 khách mới cho gói này.</li></ul></section>
-          <section><h3>Gói 1 năm · 50.000.000đ</h3><p>Phạm vi đồng hành và lịch sẽ được trao đổi trực tiếp trước khi quyết định.</p></section>
-          <section><h3>Trao đổi miễn phí 30 phút trước khi quyết định</h3><p>Nếu bạn đang cân nhắc gói đồng hành, bạn có thể đặt một buổi trao đổi <strong>miễn phí 30 phút</strong> qua Zoom với Tộc trưởng Quán Trung để làm rõ nhu cầu và cùng xem gói đồng hành có thật sự phù hợp với bạn không. Trong biểu mẫu, chọn “Gói đồng hành · Trao đổi miễn phí 30 phút”; trợ lý sẽ nhắn Zalo để sắp xếp lịch.</p><p>Buổi 30 phút này dành riêng cho người quan tâm gói đồng hành. Nếu bạn muốn tham vấn một buổi, chỉ cần đăng ký trực tiếp gói Tử Vi 1 tiếng hoặc Tử Vi Chuyên Đề.</p></section>
-          <section><h3>Lưu ý</h3><p>Quá trình chuyển hóa và kết quả có thể khác nhau tùy hoàn cảnh, mức độ tham gia và thực hành của mỗi người; gói đồng hành không cam kết một kết quả giống nhau cho tất cả. Dịch vụ hỗ trợ tự hiểu và thực hành, không thay thế chẩn đoán hoặc điều trị y khoa, tâm lý trị liệu hay tư vấn pháp lý, tài chính chuyên môn.</p></section>
-        </div><a class="q-dialog-cta" href="#dang-ky" data-dialog-close>Đặt lịch trao đổi miễn phí 30 phút ↓</a></div></dialog>
-        <div class="q-steps" aria-label="Các bước gửi yêu cầu">
-          <div class="q-step"><b>Bước 01</b><h3>Gửi thông tin</h3><p>Chia sẻ chủ đề bạn quan tâm và thông tin liên hệ qua biểu mẫu.</p></div>
-          <div class="q-step"><b>Bước 02</b><h3>Trợ lý nhắn Zalo chốt lịch</h3><p>Trợ lý Phương Anh sẽ nhắn Zalo để cùng bạn chọn ca phù hợp; bạn cũng có thể chủ động nhắn trợ lý (Thứ 2 – Thứ 6, mỗi ngày 1 ca).</p></div>
-          <div class="q-step"><b>Bước 03</b><h3>Chuyển khoản giữ lịch &amp; nhận link Zoom</h3><p>Sau khi chốt ca, bạn chuyển khoản để giữ lịch. Link Zoom được gửi qua Zalo trước buổi hẹn.</p></div>
+          <div class="row"><span class="k">Theo cung</span><ul><li><b>Mệnh:</b> tổng quan về bản thân và khuynh hướng cuộc đời.</li><li><b>Phụ Mẫu, Phúc Đức:</b> mối quan hệ với cha mẹ, cấp trên, người thầy; đời sống tinh thần và nguồn lực.</li><li><b>Điền Trạch:</b> nhà cửa, bất động sản hoặc hoạt động kinh doanh gắn với mặt bằng.</li><li><b>Nô Bộc, Huynh Đệ:</b> quan hệ với nhân viên, đối tác, đồng nghiệp, anh chị em và các kết nối xã hội.</li><li><b>Phu Thê:</b> quan hệ tình cảm, đời sống vợ chồng và những điều mỗi người muốn nhìn lại.</li></ul></div>
+          <div class="row"><span class="k">Tử Vi cho con</span><p>Tham khảo lá số của con kết hợp với cung Tử Tức của cha/mẹ để cùng quan sát mối quan hệ và cân nhắc cách đồng hành, nuôi dạy phù hợp.</p></div>
+          <div class="row"><span class="k">Sự nghiệp</span><ul><li>Xu hướng công việc; cân nhắc con đường làm thuê hay làm chủ.</li><li>Sản phẩm, thời điểm phát triển hoặc tạm dừng, lựa chọn người hợp tác và văn hóa công ty.</li></ul></div>
+          <div class="row"><span class="k">Tài Bạch</span><ul><li>Cách tạo thu nhập và tận dụng nguồn lực, cơ hội tài lộc.</li><li>Tham khảo khuynh hướng đầu tư và những nguồn tiền có thể phù hợp.</li></ul></div>
+          <div class="row"><span class="k">Tình duyên</span><ul><li>Nhìn lại khuynh hướng trong tình cảm, hình mẫu quan hệ và các bài học cá nhân.</li><li>Nhận diện điều khiến bạn tổn thương và những điểm có thể chủ động cải thiện.</li></ul></div>
+        </div></details>
+        <details class="stage k3"><summary><span class="num">Riêng</span><span class="stitle">Trường hợp đặc biệt · trao đổi riêng</span><span class="chev">›</span></summary><div class="sbody"><p>Nếu chủ đề của bạn cần thời lượng hoặc cách tham vấn riêng, hãy mô tả ngắn gọn trong biểu mẫu. Trợ lý sẽ liên hệ trực tiếp để trao đổi nội dung, mức phí và lịch hẹn trước khi xác nhận.</p></div></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="quy-trinh">
+    <div class="wrap stack">
+      <p class="eyebrow">Quy trình đặt lịch</p>
+      <h2>3 bước nhẹ nhàng</h2>
+      <div class="rules" style="margin-top:8px">
+        <div class="rule"><p><b>Gửi thông tin.</b> Chia sẻ chủ đề bạn quan tâm và thông tin liên hệ qua biểu mẫu bên dưới.</p></div>
+        <div class="rule"><p><b>Trợ lý nhắn Zalo chốt lịch.</b> Trợ lý Phương Anh sẽ nhắn Zalo để cùng bạn chọn ca phù hợp; bạn cũng có thể chủ động nhắn trợ lý (Thứ 2 – Thứ 6, mỗi ngày 1 ca).</p></div>
+        <div class="rule"><p><b>Chuyển khoản giữ lịch &amp; nhận link Zoom.</b> Sau khi chốt ca, bạn chuyển khoản để giữ lịch. Link Zoom được gửi qua Zalo trước buổi hẹn.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band paper" id="buoi-tham-van">
+    <div class="wrap stack">
+      <p class="eyebrow">Buổi tham vấn diễn ra thế nào</p>
+      <h2>Rõ ràng trước khi bắt đầu</h2>
+      <div class="perks info" style="margin-top:12px">
+        <div class="perk"><b>Online qua Zoom</b><p>Bạn vui lòng cài sẵn ứng dụng Zoom trên máy tính hoặc điện thoại, kiểm tra micro, loa và chọn một không gian yên tĩnh để có thể chia sẻ thoải mái.</p></div>
+        <div class="perk"><b>Có bản ghi để xem lại</b><p>Buổi tham vấn được ghi hình, ghi âm qua Zoom và chỉ ghi riêng cho bạn. Sau buổi hẹn, link tải bản ghi được gửi đến email bạn đăng ký.</p></div>
+        <div class="perk"><b>Thứ 2 – Thứ 6 · 9:00–15:00</b><p>Tộc trưởng Quán Trung chỉ nhận tham vấn vào các ngày trong tuần. Mỗi ca kéo dài 1–1,5 tiếng tùy dịch vụ.</p></div>
+        <div class="perk"><b>Mỗi ngày chỉ nhận 1 ca</b><p>Để dành trọn sự chuẩn bị và hiện diện cho câu chuyện của bạn. Bạn nên đăng ký sớm để chọn được ngày phù hợp.</p></div>
+        <div class="perk"><b>Giờ sinh chính xác</b><p>Tộc trưởng chỉ nhận case có ngày, giờ sinh rõ ràng. Chưa rõ giờ sinh? Đặt lịch tìm giờ sinh riêng với thầy Nhật Mạnh qua trợ lý.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="ve-quan-trung">
+    <div class="wrap stack">
+      <p class="eyebrow">Về Quán Trung</p>
+      <h2>Một cuộc trò chuyện để hiểu mình rõ hơn</h2>
+      <div class="about solo">
+        <div class="stack">
+          <p>Quán Trung là người sáng lập Bộ Tộc Tử Vi Chữa Lành. Cách tiếp cận TVCL kết hợp Tử Vi, Tâm lý học và Đạo học để mỗi người có thêm góc nhìn về khí chất, nguồn lực, điểm mù và những khuynh hướng trong đời sống.</p>
+          <p>Trong buổi tham vấn, lá số được dùng như một tấm bản đồ để cùng quan sát và đặt câu hỏi. Mục tiêu là giúp bạn hiểu trải nghiệm của mình, cân nhắc lựa chọn và xác định bước tiếp theo phù hợp; không dùng lá số để kết luận tuyệt đối về tương lai.</p>
+          <p>Buổi trao đổi được bắt đầu từ điều bạn đang quan tâm. Bạn có thể chia sẻ chủ đề, bối cảnh và kỳ vọng trong biểu mẫu bên dưới.</p>
+          <p class="quote">“Tử Vi cho ta thấy khuynh hướng. Nhận thức và hành động quyết định cách ta bước đi cùng khuynh hướng ấy.”</p>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="q-section q-info" id="buoi-tham-van">
-      <div class="q-container">
-        <span class="q-kicker">Buổi tham vấn diễn ra thế nào</span><h2>Rõ ràng trước khi bắt đầu</h2>
-        <div class="q-info-grid">
-          <div class="q-info-card"><span class="q-info-icon" aria-hidden="true">◎</span><h3>Online qua Zoom</h3><p>Bạn vui lòng cài sẵn ứng dụng Zoom trên máy tính hoặc điện thoại, kiểm tra micro, loa và chọn một không gian yên tĩnh để có thể chia sẻ thoải mái.</p></div>
-          <div class="q-info-card"><span class="q-info-icon" aria-hidden="true">▶</span><h3>Có bản ghi để xem lại</h3><p>Buổi tham vấn được ghi hình, ghi âm qua Zoom và chỉ ghi riêng cho bạn. Sau buổi hẹn, link tải bản ghi được gửi đến email bạn đăng ký để bạn nghe lại, chiêm nghiệm và thực hành.</p></div>
-          <div class="q-info-card"><span class="q-info-icon" aria-hidden="true">◷</span><h3>Thứ 2 – Thứ 6 · 9:00–15:00</h3><p>Tộc trưởng Quán Trung chỉ nhận tham vấn vào các ngày trong tuần. Mỗi ca kéo dài 1–1,5 tiếng tùy dịch vụ.</p></div>
-          <div class="q-info-card"><span class="q-info-icon" aria-hidden="true">✦</span><h3>Mỗi ngày chỉ nhận 1 ca</h3><p>Để dành trọn sự chuẩn bị và hiện diện cho câu chuyện của bạn, mỗi ngày chỉ có một buổi tham vấn. Bạn nên đăng ký sớm để chọn được ngày phù hợp.</p></div>
+  <section class="band paper" id="cau-chuyen">
+    <div class="wrap stack">
+      <p class="eyebrow">Câu chuyện hình thành</p>
+      <h2>Từ một người cha đi tìm cách hiểu mình</h2>
+      <p class="lead">Tử Vi Chữa Lành bắt đầu từ một câu hỏi rất riêng trong đời sống gia đình của Quán Trung, rồi dần thành một hành trình học tập, thực hành và chia sẻ.</p>
+      <div style="margin-top:16px">
+        <div class="course k1"><div class="node"><span class="dot">1</span><span class="rail"></span></div><div class="cbody"><div class="meta"><span class="tag">Trước năm 2021</span></div><h3 class="cname">Con đường công nghệ và những mối quan tâm lâu năm</h3><p>Quán Trung từng làm kinh doanh, công nghệ và quản lý sản phẩm. Song song với công việc, anh dành nhiều năm tìm hiểu đời sống tinh thần, Phật học và triết học phương Đông.</p></div></div>
+        <div class="course k2"><div class="node"><span class="dot">2</span><span class="rail"></span></div><div class="cbody"><div class="meta"><span class="tag">2021 · Đà Nẵng</span></div><h3 class="cname">Bước ngoặt đến từ những ngày ở nhà chăm con</h3><p>Trong giai đoạn COVID-19, gia đình chuyển từ Hà Nội vào Đà Nẵng và Quán Trung tạm dừng công việc để chăm hai con nhỏ. Quãng thời gian gần gũi với con khiến anh nhìn rõ sự mất kiên nhẫn và những cơn giận của chính mình — nhất là với những người thân yêu nhất.</p></div></div>
+        <div class="course k3"><div class="node"><span class="dot">3</span><span class="rail"></span></div><div class="cbody"><div class="meta"><span class="tag">Hành trình tự quan sát</span></div><h3 class="cname">Học tâm lý để hiểu những phản ứng bên trong</h3><p>Thay vì dừng ở lời giải thích chung chung, anh bắt đầu tìm hiểu tâm lý và chữa lành để nhận diện cơ chế cảm xúc, những khuôn mẫu có thể lặp lại qua nhiều thế hệ và khả năng lựa chọn cách phản ứng khác. Việc nhìn lại quá khứ không nhằm quy lỗi cho cha mẹ.</p></div></div>
+        <div class="course k4"><div class="node"><span class="dot">4</span><span class="rail"></span></div><div class="cbody"><div class="meta"><span class="tag">Học tập &amp; nghiên cứu</span></div><h3 class="cname">Tìm một cách tiếp cận Tử Vi có hệ thống và nhân văn</h3><p>Sau thời gian học Kinh Dịch và tự tìm hiểu Tử Vi, anh tạm dừng khi gặp nhiều nguồn mâu thuẫn và cách luận khiến người nghe sợ hãi. Về sau, anh tiếp tục học với người thầy phù hợp, đối chiếu nhiều trường phái và kết nối kiến thức với Tâm lý học, Phật học và Đạo học. Hơn 15 năm tìm hiểu đời sống tinh thần cùng thực hành quan sát tâm trở thành một phần trong nền tảng của anh.</p></div></div>
+      </div>
+      <p class="pass">Tử Vi để hiểu mình. Tâm lý để nhìn rõ cơ chế bên trong. Từ hiểu mình, mỗi người có thêm khả năng lựa chọn cách sống và hành động.</p>
+    </div>
+  </section>
+
+  <section class="band" id="ve-tvcl">
+    <div class="wrap stack">
+      <p class="eyebrow">Giới thiệu Bộ Tộc</p>
+      <h2>Về Tử Vi Chữa Lành</h2>
+      <p class="lead">Với TVCL, lá số là bản đồ khuynh hướng, không phải bản án số phận. Chúng mình học Tử Vi không phải để sợ hãi hay trông chờ một lời phán, mà để hiểu mình, hiểu người, hiểu thời và chủ động hơn với những lựa chọn của cuộc đời.</p>
+      <p><b>Tử Vi Chữa Lành chuyên đào tạo nhà luận giải, hành nghề Tử Vi theo hướng chữa lành.</b> Trong hơn 5 năm xây dựng và phát triển, tính tới tháng 8/2026, Bộ Tộc đã tổ chức hơn <b>70 khóa học</b>:</p>
+      <div class="criteria">
+        <div class="crit"><b>35+ KHÓA</b>Hướng dẫn Luận Nhanh Lá Số Tử Vi</div>
+        <div class="crit"><b>15+ KHÓA</b>Tử Vi Chữa Lành Chuyên Sâu</div>
+        <div class="crit"><b>12+ KHÓA</b>Luận Vận Hạn</div>
+        <div class="crit"><b>07+ KHÓA</b>Tử Vi Chữa Lành Tài Lộc</div>
+        <div class="crit"><b>02 KHÓA</b>Tình Duyên &amp; Tử Vi Nâng Cao</div>
+      </div>
+      <p class="contact">Cùng nhiều chương trình chuyên đề ứng dụng Tử Vi vào Tài Lộc, Tình Duyên, Gia Đình, Vận Hạn và phát triển bản thân. <a class="link-out" href="/">Tìm hiểu các khóa học tại tuvichualanh.com ↗</a></p>
+    </div>
+  </section>
+
+  <section class="band paper" id="nguyen-tac">
+    <div class="wrap stack">
+      <p class="eyebrow">Nguyên tắc luận giải</p>
+      <h2>5 KHÔNG – 5 LUÔN</h2>
+      <p class="lead">Lá số là bản đồ khuynh hướng; bạn luôn giữ quyền tự quyết.</p>
+      <div class="vows" style="margin-top:8px">
+        <div class="vow no"><h3>5 KHÔNG</h3><ul><li>Không phán xét định mệnh</li><li>Không gieo sợ hãi</li><li>Không bịa đặt</li><li>Không thay thế chuyên gia</li><li>Không kết luận tuyệt đối</li></ul></div>
+        <div class="vow yes"><h3>5 LUÔN</h3><ul><li>Luôn trao quyền</li><li>Luôn nhìn nhiều mặt sáng – tối</li><li>Luôn kết nối với trải nghiệm</li><li>Luôn hướng đến thực hành</li><li>Luôn giữ sự từ bi và rõ ràng</li></ul></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="hoi-dap">
+    <div class="wrap stack faq">
+      <p class="eyebrow">Hỏi đáp</p>
+      <h2>Những điều bạn có thể đang thắc mắc</h2>
+      <div>
+        <details><summary>Tôi không nhớ chính xác giờ sinh thì sao?</summary><p>Tộc trưởng Quán Trung chỉ nhận tham vấn khi bạn có ngày, giờ sinh rõ ràng và chính xác. Nếu bạn chưa chắc chắn, bạn cần đặt lịch <b>tìm giờ sinh</b> riêng với thầy Nhật Mạnh trước. Lịch tìm giờ sinh độc lập với lịch tham vấn; bạn nhắn Zalo trợ lý Phương Anh <b>085 694 1341</b> để được hướng dẫn đặt lịch.</p></details>
+        <details><summary>Tôi cần chuẩn bị gì trước buổi tham vấn?</summary><p>Chuẩn bị ngày, giờ sinh chính xác, cài sẵn Zoom trên máy tính hoặc điện thoại, chọn nơi yên tĩnh, và ghi ra 1–3 điều bạn muốn hiểu rõ nhất. Bạn không cần biết trước kiến thức Tử Vi.</p></details>
+        <details><summary>Buổi tham vấn có được ghi lại không?</summary><p>Có. Buổi tham vấn được ghi hình, ghi âm qua Zoom và chỉ ghi riêng cho bạn. Sau buổi hẹn, link tải bản ghi được gửi đến email bạn đăng ký.</p></details>
+        <details><summary>Câu chuyện của tôi có được giữ kín không?</summary><p>Có. Mọi thông tin bạn chia sẻ và bản ghi buổi tham vấn được bảo mật, chỉ dùng cho buổi tham vấn của bạn và không chia sẻ cho bất kỳ ai khác.</p></details>
+        <details><summary>Khi nào tôi cần chuyển khoản?</summary><p>Sau khi trợ lý nhắn Zalo và cùng bạn chốt được ca tham vấn, bạn chuyển khoản để giữ lịch. Với “Trường hợp đặc biệt”, bạn chờ trợ lý xác nhận mức phí trước.</p></details>
+        <details><summary>Nếu tôi cần đổi lịch thì sao?</summary><p>Bạn nhắn Zalo cho trợ lý Phương Anh càng sớm càng tốt để được sắp xếp lại vào một ngày khác còn trống.</p></details>
+        <details><summary>Buổi trao đổi miễn phí 30 phút dành cho ai?</summary><p>Buổi 30 phút dành cho bạn đang cân nhắc gói đồng hành 1 tháng, 3 tháng hoặc 1 năm, để cùng Tộc trưởng làm rõ nhu cầu và xem gói có phù hợp không. Nếu bạn muốn tham vấn một buổi, chỉ cần đăng ký trực tiếp Tử Vi 1 tiếng hoặc Tử Vi Chuyên Đề.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="band pricing-band" id="dang-ky">
+    <div class="wrap">
+      <div class="form-layout">
+        <div class="stack">
+          <p class="eyebrow">Bắt đầu cuộc trò chuyện</p>
+          <h2>Đăng ký tham vấn</h2>
+          <p class="lead">Chỉ mất khoảng 3 phút. Sau khi bạn gửi, trợ lý sẽ nhắn Zalo để chốt ca trước, rồi bạn mới chuyển khoản giữ lịch.</p>
+          <p class="pass">Online qua Zoom · Thứ 2 – Thứ 6, 9:00–15:00 · Mỗi ngày chỉ 1 ca. Mọi thông tin bạn chia sẻ và bản ghi buổi tham vấn đều được bảo mật, chỉ dành riêng cho bạn.</p>
         </div>
-      </div>
-    </section>
-
-    <section class="q-section" id="ve-quan-trung">
-      <div class="q-container q-about-grid">
-        <div class="q-about-aside"><blockquote>“Tử Vi cho ta thấy khuynh hướng. Nhận thức và hành động quyết định cách ta bước đi cùng khuynh hướng ấy.”</blockquote><p>Tinh thần Tử Vi Chữa Lành</p></div>
-        <div class="q-about-copy"><span class="q-kicker">Về Quán Trung</span><h2>Một cuộc trò chuyện để hiểu mình rõ hơn</h2><p>Quán Trung là người sáng lập Bộ Tộc Tử Vi Chữa Lành. Cách tiếp cận TVCL kết hợp Tử Vi, Tâm lý học và Đạo học để mỗi người có thêm góc nhìn về khí chất, nguồn lực, điểm mù và những khuynh hướng trong đời sống.</p><p>Trong buổi tham vấn, lá số được dùng như một tấm bản đồ để cùng quan sát và đặt câu hỏi. Mục tiêu là giúp bạn hiểu trải nghiệm của mình, cân nhắc lựa chọn và xác định bước tiếp theo phù hợp; không dùng lá số để kết luận tuyệt đối về tương lai.</p><p>Buổi trao đổi được bắt đầu từ điều bạn đang quan tâm. Bạn có thể chia sẻ chủ đề, bối cảnh và kỳ vọng trong biểu mẫu bên dưới.</p></div>
-      </div>
-    </section>
-
-    <section class="q-section q-story" id="cau-chuyen">
-      <div class="q-container">
-        <div class="q-story-head"><span class="q-kicker">Câu chuyện hình thành</span><h2>Từ một người cha đi tìm cách hiểu mình</h2><p class="q-lede">Tử Vi Chữa Lành bắt đầu từ một câu hỏi rất riêng trong đời sống gia đình của Quán Trung, rồi dần thành một hành trình học tập, thực hành và chia sẻ.</p></div>
-        <div class="q-timeline">
-          <article class="q-moment"><time>TRƯỚC NĂM 2021</time><div><h3>Con đường công nghệ và những mối quan tâm lâu năm</h3><p>Quán Trung từng làm kinh doanh, công nghệ và quản lý sản phẩm. Song song với công việc, anh dành nhiều năm tìm hiểu đời sống tinh thần, Phật học và triết học phương Đông.</p></div></article>
-          <article class="q-moment"><time>2021 · ĐÀ NẴNG</time><div><h3>Bước ngoặt đến từ những ngày ở nhà chăm con</h3><p>Trong giai đoạn COVID-19, gia đình chuyển từ Hà Nội vào Đà Nẵng và Quán Trung tạm dừng công việc để chăm hai con nhỏ. Quãng thời gian gần gũi với con khiến anh nhìn rõ sự mất kiên nhẫn và những cơn giận của chính mình — nhất là với những người thân yêu nhất.</p></div></article>
-          <article class="q-moment"><time>HÀNH TRÌNH TỰ QUAN SÁT</time><div><h3>Học tâm lý để hiểu những phản ứng bên trong</h3><p>Thay vì dừng ở lời giải thích chung chung, anh bắt đầu tìm hiểu tâm lý và chữa lành để nhận diện cơ chế cảm xúc, những khuôn mẫu có thể lặp lại qua nhiều thế hệ và khả năng lựa chọn cách phản ứng khác. Việc nhìn lại quá khứ không nhằm quy lỗi cho cha mẹ.</p></div></article>
-          <article class="q-moment"><time>HỌC TẬP & NGHIÊN CỨU</time><div><h3>Tìm một cách tiếp cận Tử Vi có hệ thống và nhân văn</h3><p>Sau thời gian học Kinh Dịch và tự tìm hiểu Tử Vi, anh tạm dừng khi gặp nhiều nguồn mâu thuẫn và cách luận khiến người nghe sợ hãi. Về sau, anh tiếp tục học với người thầy phù hợp, đối chiếu nhiều trường phái và kết nối kiến thức với Tâm lý học, Phật học và Đạo học. Hơn 15 năm tìm hiểu đời sống tinh thần cùng thực hành quan sát tâm trở thành một phần trong nền tảng của anh.</p></div></article>
-        </div>
-        <p class="q-story-note">Tử Vi để hiểu mình. Tâm lý để nhìn rõ cơ chế bên trong. Từ hiểu mình, mỗi người có thêm khả năng lựa chọn cách sống và hành động.</p>
-      </div>
-    </section>
-
-    <section class="q-section q-tvcl" id="ve-tvcl">
-      <div class="q-container">
-        <div class="q-tvcl-head"><span class="q-kicker">Giới thiệu Bộ Tộc</span><h2>Về Tử Vi Chữa Lành</h2><p class="q-lede">Tử Vi Chữa Lành ứng dụng Tử Vi kết hợp Tâm lý học và Đạo học để giúp mỗi người Hiểu Mình — Cải Mệnh — Chữa Lành.</p></div>
-        <div class="q-tvcl-grid">
-          <div class="q-tvcl-copy">
-            <p>Với TVCL, lá số là bản đồ khuynh hướng, không phải bản án số phận. Chúng mình học Tử Vi không phải để sợ hãi hay trông chờ một lời phán, mà để hiểu mình, hiểu người, hiểu thời và chủ động hơn với những lựa chọn của cuộc đời.</p>
-            <p><strong>Tử Vi Chữa Lành chuyên đào tạo nhà luận giải, hành nghề Tử Vi theo hướng chữa lành.</strong></p>
-            <p>Trong hơn 5 năm xây dựng và phát triển, tính tới tháng 8/2026, Bộ Tộc Tử Vi Chữa Lành đã tổ chức hơn <strong>70 khóa học</strong>, gồm:</p>
-            <ul class="q-course-list">
-              <li><strong>35+</strong><span>khóa Hướng dẫn Luận Nhanh Lá Số Tử Vi</span></li>
-              <li><strong>15+</strong><span>khóa Tử Vi Chữa Lành Chuyên Sâu</span></li>
-              <li><strong>12+</strong><span>khóa Luận Vận Hạn</span></li>
-              <li><strong>07+</strong><span>khóa Tử Vi Chữa Lành Tài Lộc</span></li>
-              <li><strong>02</strong><span>khóa Tử Vi Chữa Lành Tình Duyên &amp; Tử Vi Nâng Cao</span></li>
-            </ul>
-            <p>Cùng nhiều chương trình chuyên đề ứng dụng Tử Vi vào Tài Lộc, Tình Duyên, Gia Đình, Vận Hạn và phát triển bản thân.</p>
-            <a class="q-tvcl-link" href="https://tuvichualanh.com/" target="_blank" rel="noopener noreferrer">Tìm hiểu Tử Vi Chữa Lành và các khóa học tại <strong>tuvichualanh.com</strong> <span aria-hidden="true">↗</span></a>
-          </div>
-          <aside class="q-tvcl-aside"><img src="../assets/img/tvcl-logo-6.png" alt="Logo Tử Vi Chữa Lành"><p>Tử Vi để Hiểu Mình.<br>Tâm Lý để Chữa Lành.<br>Thuận Đạo để Cải Mệnh.</p></aside>
-        </div>
-      </div>
-    </section>
-
-    <section class="q-trust" aria-label="Nguyên tắc tham vấn">
-      <div class="q-container">
-        <div class="q-trust-row"><span><i>✦</i> Tôn trọng trải nghiệm riêng</span><span><i>✦</i> Không định mệnh hóa lá số</span><span><i>✦</i> Hướng đến lựa chọn có trách nhiệm</span></div>
-        <details class="q-principles">
-          <summary><span class="q-principles-summary"><strong>Nguyên tắc luận giải: 5 KHÔNG – 5 LUÔN</strong><span>Lá số là bản đồ khuynh hướng; bạn luôn giữ quyền tự quyết.</span></span><span class="q-principles-toggle">Xem chi tiết</span></summary>
-          <div class="q-principles-content">
-            <section aria-labelledby="q-principles-no"><h3 id="q-principles-no">5 KHÔNG</h3><ol>
-              <li><strong>Không phán xét định mệnh:</strong> không xem lá số như bản án cuộc đời.</li>
-              <li><strong>Không gieo sợ hãi:</strong> không dùng hung tinh, vận hạn hay nghiệp để tạo lệ thuộc.</li>
-              <li><strong>Không bịa đặt:</strong> không tự thêm dữ kiện, sự kiện hay động cơ chưa được xác minh.</li>
-              <li><strong>Không thay thế chuyên gia:</strong> không chẩn đoán hay thay tư vấn y tế, tâm lý, pháp lý và tài chính chuyên môn.</li>
-              <li><strong>Không kết luận tuyệt đối:</strong> diễn đạt theo khuynh hướng, điều kiện và mức độ chắc chắn.</li>
-            </ol></section>
-            <section aria-labelledby="q-principles-always"><h3 id="q-principles-always">5 LUÔN</h3><ol>
-              <li><strong>Luôn trao quyền:</strong> bạn giữ quyền cân nhắc và quyết định hướng đi của mình.</li>
-              <li><strong>Luôn nhìn nhiều mặt:</strong> cùng nhận diện mặt sáng, mặt tối và khả năng trưởng thành.</li>
-              <li><strong>Luôn kết nối với trải nghiệm:</strong> nhìn cảm xúc, cơ thể và mô thức khi có dữ kiện.</li>
-              <li><strong>Luôn hướng đến thực hành:</strong> tìm hành động cụ thể, phù hợp và an toàn.</li>
-              <li><strong>Luôn giữ sự từ bi và rõ ràng:</strong> thực tế, không phán xét hay áp đặt.</li>
-            </ol></section>
-          </div>
-        </details>
-      </div>
-    </section>
-
-    <section class="q-section q-faq" id="hoi-dap">
-      <div class="q-container">
-        <span class="q-kicker">Hỏi đáp</span><h2>Những điều bạn có thể đang thắc mắc</h2>
-        <div class="q-faq-list">
-          <details><summary>Tôi không nhớ chính xác giờ sinh thì sao?</summary><p>Tộc trưởng Quán Trung chỉ nhận tham vấn khi bạn có ngày, giờ sinh rõ ràng và chính xác. Nếu bạn chưa chắc chắn, bạn cần đặt lịch <strong>tìm giờ sinh</strong> riêng với thầy Nhật Mạnh trước. Lịch tìm giờ sinh độc lập với lịch tham vấn; bạn nhắn Zalo trợ lý Phương Anh <strong>085 694 1341</strong> để được hướng dẫn đặt lịch.</p></details>
-          <details><summary>Tôi cần chuẩn bị gì trước buổi tham vấn?</summary><p>Chuẩn bị ngày, giờ sinh chính xác, cài sẵn Zoom trên máy tính hoặc điện thoại, chọn nơi yên tĩnh, và ghi ra 1–3 điều bạn muốn hiểu rõ nhất. Bạn không cần biết trước kiến thức Tử Vi.</p></details>
-          <details><summary>Buổi tham vấn có được ghi lại không?</summary><p>Có. Buổi tham vấn được ghi hình, ghi âm qua Zoom và chỉ ghi riêng cho bạn. Sau buổi hẹn, link tải bản ghi được gửi đến email bạn đăng ký.</p></details>
-          <details><summary>Câu chuyện của tôi có được giữ kín không?</summary><p>Có. Mọi thông tin bạn chia sẻ và bản ghi buổi tham vấn được bảo mật, chỉ dùng cho buổi tham vấn của bạn và không chia sẻ cho bất kỳ ai khác.</p></details>
-          <details><summary>Khi nào tôi cần chuyển khoản?</summary><p>Sau khi trợ lý nhắn Zalo và cùng bạn chốt được ca tham vấn, bạn chuyển khoản để giữ lịch. Với “Trường hợp đặc biệt”, bạn chờ trợ lý xác nhận mức phí trước.</p></details>
-          <details><summary>Nếu tôi cần đổi lịch thì sao?</summary><p>Bạn nhắn Zalo cho trợ lý Phương Anh càng sớm càng tốt để được sắp xếp lại vào một ngày khác còn trống.</p></details>
-          <details><summary>Buổi trao đổi miễn phí 30 phút dành cho ai?</summary><p>Buổi 30 phút dành cho bạn đang cân nhắc gói đồng hành 1 tháng, 3 tháng hoặc 1 năm, để cùng Tộc trưởng làm rõ nhu cầu và xem gói có phù hợp không. Nếu bạn muốn tham vấn một buổi, chỉ cần đăng ký trực tiếp Tử Vi 1 tiếng hoặc Tử Vi Chuyên Đề.</p></details>
-        </div>
-      </div>
-    </section>
-
-    <section class="q-form-section" id="dang-ky">
-      <div class="q-container q-form-layout">
-        <div class="q-form-head"><span class="q-kicker">Bắt đầu cuộc trò chuyện</span><h2>Đăng ký tham vấn</h2><p>Chỉ mất khoảng 3 phút. Sau khi bạn gửi, trợ lý sẽ nhắn Zalo để chốt ca trước, rồi bạn mới chuyển khoản giữ lịch.</p><div class="q-form-flow-note">Buổi tham vấn diễn ra online qua Zoom, Thứ 2 – Thứ 6, 9:00–15:00, mỗi ngày chỉ 1 ca. Mọi thông tin bạn chia sẻ và bản ghi buổi tham vấn đều được bảo mật, chỉ dành riêng cho bạn.</div></div>
         <div class="q-form-shell">
           <div class="q-form-stage" id="q-form-stage">
             <ol class="q-form-progress" aria-label="Tiến trình đăng ký"><li aria-current="step">1. Thông tin</li><li>2. Chốt lịch &amp; giữ lịch</li></ol>
@@ -531,15 +558,17 @@
           <iframe class="q-hidden-submit-frame" name="q-google-response" id="q-google-response" title="Phản hồi đăng ký" aria-hidden="true" tabindex="-1"></iframe>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
+</main>
 
-    <section class="q-boundary">
-      <div class="q-container q-boundary-inner"><span class="q-boundary-icon" aria-hidden="true">✦</span><div><h2>Phạm vi tham vấn</h2><p>Tham vấn TVCL hỗ trợ tự hiểu và quán chiếu, không thay thế chẩn đoán hoặc điều trị y khoa, tham vấn tâm lý lâm sàng, tư vấn pháp lý hay tư vấn đầu tư chuyên môn. Bạn luôn có quyền cân nhắc và tự quyết định hướng đi của mình.</p></div></div>
-    </section>
-  </main>
+<footer><div class="wrap stack" style="gap:6px">
+  <p class="brand">Bộ tộc Tử Vi Chữa Lành</p>
+  <p>Tử Vi Chữa Lành: Ứng dụng Tử Vi, Tâm Lý, Đạo Học để Hiểu Mình, Cải Mệnh &amp; Chữa Lành</p>
+  <p><b>Phạm vi tham vấn:</b> Tham vấn TVCL hỗ trợ tự hiểu và quán chiếu, không thay thế chẩn đoán hoặc điều trị y khoa, tham vấn tâm lý lâm sàng, tư vấn pháp lý hay tư vấn đầu tư chuyên môn. Bạn luôn có quyền cân nhắc và tự quyết định hướng đi của mình.</p>
+  <p><a href="/">Trang chủ TVCL</a> · <a href="../chinh-sach-bao-mat/">Chính sách bảo mật</a></p>
+</div></footer>
 
-  <footer class="q-footer"><div class="q-container"><p><strong>Bộ tộc Tử Vi Chữa Lành</strong></p><p>Tử Vi Chữa Lành: Ứng dụng Tử Vi, Tâm Lý, Đạo Học để Hiểu Mình, Cải Mệnh &amp; Chữa Lành</p><p><a href="../index.html">Trang chủ TVCL</a> · <a href="../chinh-sach-bao-mat/">Chính sách bảo mật</a></p></div></footer>
-</div>
 <script>
   document.querySelectorAll('[data-dialog-open]').forEach((button) => {
     const dialog = document.getElementById(button.dataset.dialogOpen);

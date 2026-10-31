@@ -463,6 +463,13 @@ def render_library(data, category, articles, title, description, canonical, is_r
       <div class="grid topics" style="margin-top:8px">{topics}</div>
     </div>
   </section>''' if is_root else ""
+    reading_section = f'''<section class="band paper" style="--c:var(--k1)">
+    <div class="wrap stack">
+      <p class="eyebrow">Bắt đầu từ đây</p>
+      <h2>Đọc từ điều cốt lõi</h2>
+      <div class="grid" style="margin-top:8px">{pick_html}</div>
+    </div>
+  </section>''' if is_root else ""
     h1 = 'Bài viết &amp; <span>Chiêm nghiệm</span> lá số' if is_root else esc(category.get("heroTitle") or category["name"])
     eyebrow = "Tàng Kinh Các · Thư viện bài viết" if is_root else "Chuyên đề · " + esc(short_cat(category["name"]))
     schema = jscript({"@context": "https://schema.org", "@graph": [
@@ -502,13 +509,7 @@ def render_library(data, category, articles, title, description, canonical, is_r
       </form>
     </div>
   </section>
-  <section class="band paper" style="--c:var(--k1)">
-    <div class="wrap stack">
-      <p class="eyebrow">Bắt đầu từ đây</p>
-      <h2>Đọc từ điều cốt lõi</h2>
-      <div class="grid" style="margin-top:8px">{pick_html}</div>
-    </div>
-  </section>
+{reading_section}
   <section class="band" style="--c:var(--k3)" id="thu-vien">
     <div class="wrap stack">
       <p class="eyebrow">Thư viện chiêm nghiệm</p>

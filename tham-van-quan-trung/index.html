@@ -210,10 +210,90 @@
     .q-footer{background:#f1f5f7;padding:26px 0;text-align:center;font-size:var(--q-micro);color:#586d7f}
     .q-footer p{margin:3px}
     .q-footer a{color:var(--q-blue);font-weight:600}
+    .q-hero-facts{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 26px;padding:0;list-style:none}
+    .q-hero-facts li{padding:7px 13px;border-radius:99px;background:#ffffffd9;border:1px solid #cfe0ee;color:#315d83;font-size:var(--q-small);font-weight:600}
+    .q-hero-facts li::before{content:"✦ ";color:var(--q-green)}
+    .q-foryou{background:#fff}
+    .q-foryou-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:30px}
+    .q-foryou-grid p{margin:0;padding:20px 22px;border:1px solid #dfeaf1;border-radius:12px;background:#f7fafc;color:#41586c;font-size:var(--q-text);line-height:1.65}
+    .q-foryou-grid p::before{content:"✦";display:block;color:var(--q-green);margin-bottom:6px}
+    .q-foryou-note{margin:24px 0 0;color:#3b6384;font:600 22px/1.45 "Cormorant Garamond",Georgia,serif}
+    .q-info{background:#fff}
+    .q-info-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:30px}
+    .q-info-card{padding:24px 26px;border:1px solid #dfeaf1;border-radius:12px;background:#fbfcfd}
+    .q-info-card h3{margin:0 0 6px;color:#315d83;font-size:19px;line-height:1.4}
+    .q-info-card p{margin:0;color:#4f6477;font-size:var(--q-text);line-height:1.7}
+    .q-info-card .q-info-icon{display:inline-grid;place-items:center;width:38px;height:38px;margin-bottom:10px;border-radius:50%;background:#e9f4ef;color:var(--q-green);font-size:18px}
+    .q-faq{background:#fbf8f2}
+    .q-faq-list{max-width:860px;margin-top:28px;display:grid;gap:10px}
+    .q-faq-list details{border:1px solid #e3e9e4;border-radius:10px;background:#fff}
+    .q-faq-list summary{padding:16px 20px;cursor:pointer;color:#315d83;font-weight:700;list-style:none;display:flex;justify-content:space-between;gap:16px}
+    .q-faq-list summary::-webkit-details-marker{display:none}
+    .q-faq-list summary::after{content:"+";color:var(--q-blue);font-size:20px;line-height:1}
+    .q-faq-list details[open] summary::after{content:"–"}
+    .q-faq-list details p{margin:0;padding:0 20px 18px;color:#4f6477}
+    .q-form-field[hidden]{display:none!important}
+    .q-free-tag{display:inline-block;margin-left:6px;padding:1px 8px;border-radius:99px;background:#e6f3ec;color:#2f7a5b;font-size:12px;font-weight:700;vertical-align:middle}
+    @media(max-width:850px){.q-foryou-grid{grid-template-columns:1fr 1fr}.q-info-grid{grid-template-columns:1fr}}
+    @media(max-width:600px){.q-foryou-grid{grid-template-columns:1fr}.q-foryou-note{font-size:20px}}
     @media(max-width:900px){.site-header-inner{flex-direction:column;align-items:flex-start}}
     @media(max-width:850px){.q-hero-grid,.q-about-grid,.q-form-layout,.q-tvcl-grid{grid-template-columns:1fr;gap:32px}.q-hero{padding:62px 0}.q-portrait img{height:min(540px,105vw)}.q-services-head{display:block}.q-services-head .q-lede{margin-top:12px}.q-form-head{position:static}.q-service-grid{grid-template-columns:1fr}.q-service{min-height:auto}.q-service-featured{grid-template-columns:1fr;gap:14px}.q-service-featured .q-service-actions{grid-column:1;grid-row:auto;justify-content:flex-start;padding-top:8px}.q-about-grid{gap:28px}}
     @media(max-width:600px){.q-container{width:min(100% - 28px,1120px)}.q-section{padding:62px 0}.q-hero h1{font-size:clamp(44px,12vw,53px)}.q-slogan{font-size:16px}.q-trust-row{justify-content:flex-start;gap:10px 18px}.q-trust-row span{font-size:var(--q-micro)}.q-principles{margin-top:16px}.q-principles summary{align-items:flex-start;padding:15px}.q-principles-summary strong{font-size:16px}.q-principles-toggle{font-size:14px}.q-principles-content{grid-template-columns:1fr;gap:8px;padding:4px 15px 16px}.q-principles-content h3{margin-top:14px}.q-steps{grid-template-columns:1fr}.q-step+.q-step{border-left:0;border-top:1px solid var(--q-line)}.q-form-section{padding:60px 0}.q-form-stage,.q-payment-stage{padding:21px}.q-payment-amount,.q-bank-row{align-items:flex-start;flex-direction:column;gap:4px}.q-bank-row strong{text-align:left}.q-moment{grid-template-columns:1fr;gap:4px}.q-timeline{padding-left:23px}.q-moment::before{left:-29px}.q-story-note{margin:28px 0 0 0}.q-course-list{grid-template-columns:1fr}.brand-lockup .tvcl-logo{width:58px;height:58px}.q-service{padding:25px 22px}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.q-btn{transition:none}}
+
+    /* ===== Đồng bộ phong cách trang Lộ trình Hành nghề ===== */
+    :root{--q-blue:#3D82CC;--q-green:#3E9A78;--q-paper:#F7F5F0;--q-teal:#2A9D8F}
+    .q-hero h1,.q-section h2,.q-form-head h2,.q-dialog-top h2,.q-payment-stage h3,.q-portrait figcaption strong{font-family:"Be Vietnam Pro",sans-serif;font-weight:800;letter-spacing:-.01em}
+    .q-hero{background:linear-gradient(180deg,#E2EDF9 0%,#EEF5FB 55%,#ffffffee 100%),url('../assets/img/hero-shanshui.jpg') center bottom/cover}
+    .q-hero h1{font-size:clamp(40px,5.2vw,58px);line-height:1.18;color:#243447}
+    .q-hero h1 .q-h1-accent{color:var(--q-blue)}
+    .q-community{color:var(--q-blue)}
+    .q-section h2,.q-form-head h2{font-size:clamp(28px,3.4vw,36px);line-height:1.3;color:var(--q-blue)}
+    .q-dialog-top h2{font-size:clamp(24px,4vw,30px);line-height:1.3}
+    .q-payment-stage h3{font-size:clamp(24px,3vw,30px);line-height:1.3}
+    .q-portrait figcaption strong{font-size:20px;color:var(--q-blue)}
+    .q-kicker,.q-eyebrow{font-size:12px;letter-spacing:.12em}
+    .q-kicker{display:inline-flex;align-items:center;gap:10px;color:var(--q-blue)}
+    .q-kicker::before{content:"";width:22px;height:2px;background:currentColor;border-radius:2px}
+    .q-eyebrow{color:var(--q-blue);border-color:#bcd6ef}
+    .q-btn{border-radius:10px}
+    .q-btn-primary,.q-form-submit,.q-dialog-cta,.q-payment-contact{background:var(--q-blue)}
+    .q-btn-primary:hover,.q-form-submit:hover{background:#2F6FB3}
+    .q-story,.q-services,.q-faq{background:var(--q-paper)}
+    .q-form-section{background:linear-gradient(180deg,#EEF5FB 0%,var(--q-paper) 100%)}
+    .q-foryou-grid p,.q-info-card,.q-service,.q-step{border:1px solid #d6e5f3;border-top:4px solid var(--q-blue);border-radius:14px;box-shadow:none}
+    .q-foryou-grid p{background:#E4EEF8}
+    .q-foryou-grid p:nth-child(3n+2){background:#E2F1EF;border-color:#c9e4df;border-top-color:var(--q-teal)}
+    .q-foryou-grid p:nth-child(3n){background:#E5F2EA;border-color:#cde5d6;border-top-color:var(--q-green)}
+    .q-foryou-grid p::before{color:inherit}
+    .q-info-card{background:#fff}
+    .q-info-card:nth-child(2n){border-top-color:var(--q-green)}
+    .q-info-card h3{color:var(--q-blue)}
+    .q-service:nth-child(1){background:#E4EEF8;border-color:#d0e1f2;border-top-color:var(--q-blue)}
+    .q-service:nth-child(2){background:#E2F1EF;border-color:#c9e4df;border-top-color:var(--q-teal)}
+    .q-service:nth-child(3){background:#F3F1EA;border-color:#e3ddcc;border-top-color:#B49A5E}
+    .q-service:nth-child(1) .q-service-label,.q-service:nth-child(1) .q-service-price{color:var(--q-blue)}
+    .q-service:nth-child(2) .q-service-label,.q-service:nth-child(2) .q-service-price{color:#23827A}
+    .q-service h3{font-weight:700}
+    .q-service-featured{background:#E5F2EA!important;border-color:#cde5d6!important;border-top:4px solid var(--q-green)!important}
+    .q-service-featured .q-service-label,.q-service-featured .q-service-price{color:#2F7F60}
+    .q-steps{border:0;gap:14px;overflow:visible}
+    .q-step{background:#fff}
+    .q-step+.q-step{border-left:1px solid #d6e5f3}
+    .q-step b{color:var(--q-blue)}
+    .q-step h3,.q-moment h3,.q-faq-list summary{color:#243447}
+    .q-faq-list details{border-radius:12px;border-color:#e2e8ee}
+    .q-about-aside{border-left-color:var(--q-blue);background:#E4EEF8}
+    .q-about-aside blockquote,.q-story-note,.q-tagline{color:#2F6FB3}
+    .q-story-note{border-left-color:var(--q-blue)}
+    .q-moment::before{background:var(--q-blue);box-shadow:0 0 0 1px var(--q-blue);border-color:var(--q-paper)}
+    .q-moment time{color:var(--q-blue)}
+    .q-course-list li{background:#E4EEF8;border-color:#d0e1f2}
+    .q-tvcl-aside{background:#E2F1EF;border-color:#c9e4df}
+    .q-form-shell{border-top:4px solid var(--q-blue);border-radius:14px}
+    .q-principles{border-radius:14px}
+    .q-course-list li strong{font:800 22px/1 "Be Vietnam Pro",sans-serif;color:var(--q-blue)}
+    @media(max-width:600px){.q-step+.q-step{border-left:1px solid #d6e5f3;border-top:4px solid var(--q-blue)}}
   </style>
 </head>
 <body>
@@ -226,10 +306,11 @@
       </a>
       <nav class="main-nav" aria-label="Điều hướng chính">
         <a href="/">Trang chủ</a>
+        <a href="#dich-vu">Dịch vụ &amp; mức phí</a>
+        <a href="#buoi-tham-van">Buổi tham vấn</a>
         <a href="#ve-quan-trung">Về Quán Trung</a>
-        <a href="#cau-chuyen">Câu chuyện</a>
         <a href="#ve-tvcl">Về TVCL</a>
-        <a href="#dich-vu">Hướng tham vấn</a>
+        <a href="#hoi-dap">Hỏi đáp</a>
         <a href="#dang-ky">Đăng ký</a>
       </nav>
     </div>
@@ -240,16 +321,90 @@
       <div class="q-container q-hero-grid">
         <div>
           <span class="q-eyebrow">Đồng hành cùng Tộc trưởng</span>
-          <h1>Tham vấn<br>cùng Quán Trung</h1>
+          <h1>Tham vấn<br><span class="q-h1-accent">cùng Quán Trung</span></h1>
           <p class="q-community">Người sáng lập · Bộ Tộc Tử Vi Chữa Lành</p>
           <p class="q-slogan">Tử Vi Chữa Lành: Ứng dụng Tử Vi, Tâm Lý, Đạo Học để Hiểu Mình, Cải Mệnh &amp; Chữa Lành</p>
           <p class="q-tagline">Lá số là bản đồ, không phải bản án.</p>
+          <ul class="q-hero-facts" aria-label="Thông tin nhanh"><li>Online qua Zoom</li><li>Thứ 2 – Thứ 6 · 9:00–15:00</li><li>Mỗi ngày chỉ nhận 1 ca</li><li>Có bản ghi buổi tham vấn</li></ul>
           <div class="q-actions">
-            <a class="q-btn q-btn-primary" href="#dang-ky">Gửi thông tin tham vấn <span aria-hidden="true">↘</span></a>
-            <a class="q-btn q-btn-outline" href="#dich-vu">Tìm hiểu các hướng tham vấn</a>
+            <a class="q-btn q-btn-primary" href="#dang-ky">Đặt lịch tham vấn <span aria-hidden="true">↓</span></a>
+            <a class="q-btn q-btn-outline" href="#dich-vu">Xem dịch vụ &amp; mức phí</a>
           </div>
         </div>
         <figure class="q-portrait"><img src="../assets/img/thay-quan-trung.png" alt="Thầy Quán Trung, người sáng lập Bộ tộc Tử Vi Chữa Lành" fetchpriority="high"><figcaption><strong>Thầy Quán Trung</strong><span>Người sáng lập · Người nghiên cứu, giảng dạy và tham vấn</span></figcaption></figure>
+      </div>
+    </section>
+
+    <section class="q-section q-foryou" id="danh-cho-ban">
+      <div class="q-container">
+        <span class="q-kicker">Buổi tham vấn dành cho bạn nếu</span><h2>Có điều gì đó bạn muốn hiểu rõ hơn</h2>
+        <div class="q-foryou-grid">
+          <p>Bạn thấy mình cứ lặp lại một kiểu quan hệ, một kiểu tổn thương, dù đã cố thay đổi.</p>
+          <p>Bạn đang đứng giữa ngã rẽ công việc, sự nghiệp hay khởi nghiệp và muốn nhìn rõ nguồn lực của mình.</p>
+          <p>Bạn muốn hiểu khí chất của con, của người thương để đồng hành nhẹ nhàng hơn.</p>
+          <p>Bạn muốn nhìn lại mối quan hệ với tiền bạc, với cha mẹ, với chính mình.</p>
+          <p>Bạn đã từng nghe những lời luận khiến mình lo sợ và muốn một cách nhìn bình an, rõ ràng hơn.</p>
+          <p>Bạn đơn giản là muốn dừng lại, hiểu mình sâu hơn và chọn bước tiếp theo có ý thức.</p>
+        </div>
+        <p class="q-foryou-note">Bạn không cần biết gì về Tử Vi. Chỉ cần mang theo điều bạn đang trăn trở.</p>
+      </div>
+    </section>
+
+    <section class="q-section q-services" id="dich-vu">
+      <div class="q-container">
+        <div class="q-services-head"><div><span class="q-kicker">Dịch vụ &amp; mức phí</span><h2>Chọn hình thức tham vấn phù hợp</h2></div><p class="q-lede">Tử Vi, Tâm lý và các phương pháp chữa lành được kết nối để cùng nhìn rõ điều bạn đang quan tâm. Tất cả các buổi đều diễn ra online qua Zoom.</p></div>
+        <div class="q-service-grid">
+          <article class="q-service"><span class="q-service-label">Tử Vi Chữa Lành · 1 tiếng</span><h3>Tử Vi 1 tiếng</h3><strong class="q-service-price">1.500.000đ</strong><p>Hiểu mình qua lá số, nhìn lại những bài học và tìm hướng chuyển hóa phù hợp.</p><div class="q-service-actions"><button class="q-service-more" type="button" data-dialog-open="detail-tvcl" aria-haspopup="dialog" aria-controls="detail-tvcl">Xem chi tiết <span aria-hidden="true">+</span></button><a class="q-service-apply" href="#dang-ky">Đăng ký ↓</a></div></article>
+          <article class="q-service"><span class="q-service-label">Chọn một chủ đề · 1,5 tiếng</span><h3>Tử Vi Chuyên Đề</h3><strong class="q-service-price">2.000.000đ</strong><p>Đi sâu vào một khía cạnh cụ thể như gia đình, sự nghiệp, tài lộc hoặc tình duyên.</p><div class="q-service-actions"><button class="q-service-more" type="button" data-dialog-open="detail-chuyen-de" aria-haspopup="dialog" aria-controls="detail-chuyen-de">Xem chi tiết <span aria-hidden="true">+</span></button><a class="q-service-apply" href="#dang-ky">Đăng ký ↓</a></div></article>
+          <article class="q-service"><span class="q-service-label">Theo nhu cầu riêng</span><h3>Trường hợp đặc biệt</h3><strong class="q-service-price">Trao đổi riêng</strong><p>Nội dung hoặc thời lượng riêng sẽ được admin trao đổi và xác nhận cùng bạn.</p><div class="q-service-actions"><button class="q-service-more" type="button" data-dialog-open="detail-dac-biet" aria-haspopup="dialog" aria-controls="detail-dac-biet">Xem chi tiết <span aria-hidden="true">+</span></button><a class="q-service-apply" href="#dang-ky">Gửi nhu cầu ↓</a></div></article>
+          <article class="q-service q-service-featured"><div><span class="q-service-label">Đồng hành 1:1 · Chỉ 5 suất mới mỗi tháng</span><h3>Gói đồng hành cùng Tộc trưởng Quán Trung</h3><strong class="q-service-price">Từ 5.000.000đ</strong><p>Đồng hành qua các buổi tham vấn, hướng dẫn và phản hồi trong quá trình chuyển hóa. Có lựa chọn 1 tháng, 3 tháng và 1 năm. Bạn có thể trao đổi <strong>miễn phí 30 phút</strong> với Tộc trưởng trước khi quyết định.</p></div><div class="q-service-actions"><button class="q-service-more" type="button" data-dialog-open="detail-dong-hanh" aria-haspopup="dialog" aria-controls="detail-dong-hanh">Xem các gói <span aria-hidden="true">+</span></button><a class="q-service-apply" href="#dang-ky">Trao đổi miễn phí 30 phút ↓</a></div></article>
+        </div>
+        <dialog class="q-service-dialog" id="detail-tvcl" aria-labelledby="detail-tvcl-title"><div class="q-dialog-inner"><div class="q-dialog-top"><div><span class="q-dialog-kicker">Tử Vi Chữa Lành · 1 tiếng</span><h2 id="detail-tvcl-title">Tử Vi 1 tiếng</h2><span class="q-dialog-price">1.500.000đ</span></div><button class="q-dialog-close" type="button" aria-label="Đóng cửa sổ">×</button></div><div class="q-dialog-content">
+          <section><h3>A. Tử Vi — thấu hiểu cuộc đời</h3><p><em>Trong 60 phút, trọng tâm buổi tham vấn sẽ được chọn theo điều bạn quan tâm nhất; các nội dung dưới đây là phạm vi có thể cùng đi qua.</em></p><p>Khám phá các khuynh hướng và nguồn lực qua 12 khía cạnh trên lá số; dùng lá số như bản đồ tham khảo, không phải kết luận cố định.</p><ul><li>Tổng quan 12 cung; nhận diện những mặt thuận lợi và những bài học cần lưu tâm.</li><li>Quan sát Mệnh – Thân – Phúc – Quan để hiểu thêm điểm mạnh, xu hướng công việc và điều bạn coi trọng.</li><li>Tham khảo Đại Vận, Tiểu Vận và những thời điểm cần chuẩn bị, cân nhắc lựa chọn.</li><li>Nhìn lại nguồn trợ lực, quý nhân, tài lộc, cách làm việc phù hợp và các mối quan hệ gia đình, công việc.</li></ul></section>
+          <section><h3>B. Tâm lý — nhận diện những mô thức lặp lại</h3><p>Cùng nhìn lại những điều khiến bạn khổ tâm hoặc chưa hài lòng, các mô thức khó khăn lặp lại và những nguyên nhân có thể liên quan qua lăng kính Tâm lý học và Phân tâm học.</p></section>
+          <section><h3>C. Chữa lành &amp; cải mệnh — tìm hướng chuyển hóa</h3><p>Kết nối điều nhận ra từ lá số với những lựa chọn và thực hành phù hợp trong đời sống.</p><ul><li>Quan hệ tình cảm với vợ/chồng; mối quan hệ với con, cha mẹ, đồng nghiệp hoặc cấp trên.</li><li>Tâm thức tài chính và định hướng sứ mệnh, giá trị cá nhân.</li></ul></section>
+        </div><a class="q-dialog-cta" href="#dang-ky" data-dialog-close>Gửi thông tin tham vấn ↓</a></div></dialog>
+        <dialog class="q-service-dialog" id="detail-chuyen-de" aria-labelledby="detail-chuyen-de-title"><div class="q-dialog-inner"><div class="q-dialog-top"><div><span class="q-dialog-kicker">Chọn một chủ đề · 1,5 tiếng</span><h2 id="detail-chuyen-de-title">Tử Vi Chuyên Đề</h2><span class="q-dialog-price">2.000.000đ</span></div><button class="q-dialog-close" type="button" aria-label="Đóng cửa sổ">×</button></div><div class="q-dialog-content">
+          <p>Cùng tập trung vào một khía cạnh bạn quan tâm trong đời sống. Các chủ đề dưới đây thuộc 12 khía cạnh trên lá số và được chọn theo thông tin bạn gửi:</p>
+          <section><h3>Chuyên đề theo cung và mối quan hệ</h3><ul><li><strong>Mệnh:</strong> tổng quan về bản thân và khuynh hướng cuộc đời.</li><li><strong>Phụ Mẫu, Phúc Đức:</strong> mối quan hệ với cha mẹ, cấp trên, người thầy; đời sống tinh thần và nguồn lực.</li><li><strong>Điền Trạch:</strong> nhà cửa, bất động sản hoặc hoạt động kinh doanh gắn với mặt bằng.</li><li><strong>Nô Bộc, Huynh Đệ:</strong> quan hệ với nhân viên, đối tác, đồng nghiệp, anh chị em và các kết nối xã hội.</li><li><strong>Phu Thê:</strong> quan hệ tình cảm, đời sống vợ chồng và những điều mỗi người muốn nhìn lại.</li></ul></section>
+          <section><h3>Tử Vi cho con</h3><p>Tham khảo lá số của con kết hợp với cung Tử Tức của cha/mẹ để cùng quan sát mối quan hệ và cân nhắc cách đồng hành, nuôi dạy phù hợp.</p></section>
+          <section><h3>Sự nghiệp &amp; khởi nghiệp</h3><ul><li>Xu hướng công việc; cân nhắc con đường làm thuê hay làm chủ.</li><li>Sản phẩm, thời điểm phát triển hoặc tạm dừng, lựa chọn người hợp tác và văn hóa công ty.</li></ul></section>
+          <section><h3>Tài Bạch</h3><ul><li>Cách tạo thu nhập và tận dụng nguồn lực, cơ hội tài lộc.</li><li>Tham khảo khuynh hướng đầu tư và những nguồn tiền có thể phù hợp.</li></ul></section>
+          <section><h3>Tình duyên</h3><ul><li>Nhìn lại khuynh hướng trong tình cảm, hình mẫu quan hệ và các bài học cá nhân.</li><li>Nhận diện điều khiến bạn tổn thương và những điểm có thể chủ động cải thiện.</li></ul></section>
+        </div><a class="q-dialog-cta" href="#dang-ky" data-dialog-close>Gửi thông tin tham vấn ↓</a></div></dialog>
+        <dialog class="q-service-dialog" id="detail-dac-biet" aria-labelledby="detail-dac-biet-title"><div class="q-dialog-inner"><div class="q-dialog-top"><div><span class="q-dialog-kicker">Theo nhu cầu riêng</span><h2 id="detail-dac-biet-title">Trường hợp đặc biệt</h2><span class="q-dialog-price">Thời lượng và phí trao đổi riêng</span></div><button class="q-dialog-close" type="button" aria-label="Đóng cửa sổ">×</button></div><div class="q-dialog-content"><p>Nếu chủ đề của bạn cần thời lượng hoặc cách tham vấn riêng, hãy mô tả ngắn gọn trong biểu mẫu. Admin sẽ liên hệ trực tiếp để trao đổi nội dung, mức phí và lịch hẹn trước khi xác nhận.</p></div><a class="q-dialog-cta" href="#dang-ky" data-dialog-close>Chia sẻ nhu cầu ↓</a></div></dialog>
+        <dialog class="q-service-dialog" id="detail-dong-hanh" aria-labelledby="detail-dong-hanh-title"><div class="q-dialog-inner"><div class="q-dialog-top"><div><span class="q-dialog-kicker">Đồng hành 1:1 · Chỉ 5 suất mới mỗi tháng</span><h2 id="detail-dong-hanh-title">Gói đồng hành cùng Tộc trưởng Quán Trung</h2><span class="q-dialog-price">Các lựa chọn 1 tháng, 3 tháng và 1 năm</span></div><button class="q-dialog-close" type="button" aria-label="Đóng cửa sổ">×</button></div><div class="q-dialog-content">
+          <p>Không chỉ luận giải lá số hay tham vấn trong một buổi, Tộc trưởng Quán Trung sẽ đồng hành cùng bạn qua các buổi trao đổi trực tiếp, hướng dẫn và phản hồi trong quá trình thực hành. Hai bên cùng xác định khía cạnh cần tập trung và điều chỉnh cách đồng hành theo trải nghiệm thực tế của bạn.</p>
+          <section><h3>Gói 1 tháng · 5.000.000đ</h3><ul><li>02 buổi tham vấn trực tiếp, mỗi buổi 60–90 phút.</li><li>01 tháng đồng hành chuyển hóa.</li><li>Tập trung vào một khía cạnh trong cuộc sống.</li><li>Mỗi tháng chỉ nhận 03 khách mới cho gói này.</li></ul></section>
+          <section><h3>Gói 3 tháng · ưu đãi còn 10.000.000đ</h3><p><del>Giá gói: 15.000.000đ</del></p><ul><li>06 buổi tham vấn trực tiếp, mỗi buổi 60 phút; dự kiến 02 buổi mỗi tháng.</li><li>03 tháng đồng hành chuyển hóa.</li><li>Tập trung vào tối đa 03 khía cạnh trong cuộc sống.</li><li>Mỗi tháng chỉ nhận 02 khách mới cho gói này.</li></ul></section>
+          <section><h3>Gói 1 năm · 50.000.000đ</h3><p>Phạm vi đồng hành và lịch sẽ được trao đổi trực tiếp trước khi quyết định.</p></section>
+          <section><h3>Trao đổi miễn phí 30 phút trước khi quyết định</h3><p>Nếu bạn đang cân nhắc gói đồng hành, bạn có thể đặt một buổi trao đổi <strong>miễn phí 30 phút</strong> qua Zoom với Tộc trưởng Quán Trung để làm rõ nhu cầu và cùng xem gói đồng hành có thật sự phù hợp với bạn không. Trong biểu mẫu, chọn “Gói đồng hành · Trao đổi miễn phí 30 phút”; trợ lý sẽ nhắn Zalo để sắp xếp lịch.</p><p>Buổi 30 phút này dành riêng cho người quan tâm gói đồng hành. Nếu bạn muốn tham vấn một buổi, chỉ cần đăng ký trực tiếp gói Tử Vi 1 tiếng hoặc Tử Vi Chuyên Đề.</p></section>
+          <section><h3>Lưu ý</h3><p>Quá trình chuyển hóa và kết quả có thể khác nhau tùy hoàn cảnh, mức độ tham gia và thực hành của mỗi người; gói đồng hành không cam kết một kết quả giống nhau cho tất cả. Dịch vụ hỗ trợ tự hiểu và thực hành, không thay thế chẩn đoán hoặc điều trị y khoa, tâm lý trị liệu hay tư vấn pháp lý, tài chính chuyên môn.</p></section>
+        </div><a class="q-dialog-cta" href="#dang-ky" data-dialog-close>Đặt lịch trao đổi miễn phí 30 phút ↓</a></div></dialog>
+        <div class="q-steps" aria-label="Các bước gửi yêu cầu">
+          <div class="q-step"><b>Bước 01</b><h3>Gửi thông tin</h3><p>Chia sẻ chủ đề bạn quan tâm và thông tin liên hệ qua biểu mẫu.</p></div>
+          <div class="q-step"><b>Bước 02</b><h3>Trợ lý nhắn Zalo chốt lịch</h3><p>Trợ lý Phương Anh sẽ nhắn Zalo để cùng bạn chọn ca phù hợp; bạn cũng có thể chủ động nhắn trợ lý (Thứ 2 – Thứ 6, mỗi ngày 1 ca).</p></div>
+          <div class="q-step"><b>Bước 03</b><h3>Chuyển khoản giữ lịch &amp; nhận link Zoom</h3><p>Sau khi chốt ca, bạn chuyển khoản để giữ lịch. Link Zoom được gửi qua Zalo trước buổi hẹn.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="q-section q-info" id="buoi-tham-van">
+      <div class="q-container">
+        <span class="q-kicker">Buổi tham vấn diễn ra thế nào</span><h2>Rõ ràng trước khi bắt đầu</h2>
+        <div class="q-info-grid">
+          <div class="q-info-card"><span class="q-info-icon" aria-hidden="true">◎</span><h3>Online qua Zoom</h3><p>Bạn vui lòng cài sẵn ứng dụng Zoom trên máy tính hoặc điện thoại, kiểm tra micro, loa và chọn một không gian yên tĩnh để có thể chia sẻ thoải mái.</p></div>
+          <div class="q-info-card"><span class="q-info-icon" aria-hidden="true">▶</span><h3>Có bản ghi để xem lại</h3><p>Buổi tham vấn được ghi hình, ghi âm qua Zoom và chỉ ghi riêng cho bạn. Sau buổi hẹn, link tải bản ghi được gửi đến email bạn đăng ký để bạn nghe lại, chiêm nghiệm và thực hành.</p></div>
+          <div class="q-info-card"><span class="q-info-icon" aria-hidden="true">◷</span><h3>Thứ 2 – Thứ 6 · 9:00–15:00</h3><p>Tộc trưởng Quán Trung chỉ nhận tham vấn vào các ngày trong tuần. Mỗi ca kéo dài 1–1,5 tiếng tùy dịch vụ.</p></div>
+          <div class="q-info-card"><span class="q-info-icon" aria-hidden="true">✦</span><h3>Mỗi ngày chỉ nhận 1 ca</h3><p>Để dành trọn sự chuẩn bị và hiện diện cho câu chuyện của bạn, mỗi ngày chỉ có một buổi tham vấn. Bạn nên đăng ký sớm để chọn được ngày phù hợp.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="q-section" id="ve-quan-trung">
+      <div class="q-container q-about-grid">
+        <div class="q-about-aside"><blockquote>“Tử Vi cho ta thấy khuynh hướng. Nhận thức và hành động quyết định cách ta bước đi cùng khuynh hướng ấy.”</blockquote><p>Tinh thần Tử Vi Chữa Lành</p></div>
+        <div class="q-about-copy"><span class="q-kicker">Về Quán Trung</span><h2>Một cuộc trò chuyện để hiểu mình rõ hơn</h2><p>Quán Trung là người sáng lập Bộ Tộc Tử Vi Chữa Lành. Cách tiếp cận TVCL kết hợp Tử Vi, Tâm lý học và Đạo học để mỗi người có thêm góc nhìn về khí chất, nguồn lực, điểm mù và những khuynh hướng trong đời sống.</p><p>Trong buổi tham vấn, lá số được dùng như một tấm bản đồ để cùng quan sát và đặt câu hỏi. Mục tiêu là giúp bạn hiểu trải nghiệm của mình, cân nhắc lựa chọn và xác định bước tiếp theo phù hợp; không dùng lá số để kết luận tuyệt đối về tương lai.</p><p>Buổi trao đổi được bắt đầu từ điều bạn đang quan tâm. Bạn có thể chia sẻ chủ đề, bối cảnh và kỳ vọng trong biểu mẫu bên dưới.</p></div>
       </div>
     </section>
 
@@ -271,7 +426,7 @@
         <div class="q-tvcl-head"><span class="q-kicker">Giới thiệu Bộ Tộc</span><h2>Về Tử Vi Chữa Lành</h2><p class="q-lede">Tử Vi Chữa Lành ứng dụng Tử Vi kết hợp Tâm lý học và Đạo học để giúp mỗi người Hiểu Mình — Cải Mệnh — Chữa Lành.</p></div>
         <div class="q-tvcl-grid">
           <div class="q-tvcl-copy">
-            <p>Với TVCL, lá số là bản đồ khuynh hướng, không phải bản án số phận. Chúng mình học Tử Vi không phải để sợ số hay phụ thuộc vào bói toán, mà để hiểu mình, hiểu người, hiểu thời và chủ động hơn với những lựa chọn của cuộc đời.</p>
+            <p>Với TVCL, lá số là bản đồ khuynh hướng, không phải bản án số phận. Chúng mình học Tử Vi không phải để sợ hãi hay trông chờ một lời phán, mà để hiểu mình, hiểu người, hiểu thời và chủ động hơn với những lựa chọn của cuộc đời.</p>
             <p><strong>Tử Vi Chữa Lành chuyên đào tạo nhà luận giải, hành nghề Tử Vi theo hướng chữa lành.</strong></p>
             <p>Trong hơn 5 năm xây dựng và phát triển, tính tới tháng 8/2026, Bộ Tộc Tử Vi Chữa Lành đã tổ chức hơn <strong>70 khóa học</strong>, gồm:</p>
             <ul class="q-course-list">
@@ -314,58 +469,27 @@
       </div>
     </section>
 
-    <section class="q-section" id="ve-quan-trung">
-      <div class="q-container q-about-grid">
-        <div class="q-about-aside"><blockquote>“Tử Vi cho ta thấy khuynh hướng. Nhận thức và hành động quyết định cách ta bước đi cùng khuynh hướng ấy.”</blockquote><p>Tinh thần Tử Vi Chữa Lành</p></div>
-        <div class="q-about-copy"><span class="q-kicker">Về Quán Trung</span><h2>Một cuộc trò chuyện để hiểu mình rõ hơn</h2><p>Quán Trung là người sáng lập Bộ Tộc Tử Vi Chữa Lành. Cách tiếp cận TVCL kết hợp Tử Vi, Tâm lý học và Đạo học để mỗi người có thêm góc nhìn về khí chất, nguồn lực, điểm mù và những khuynh hướng trong đời sống.</p><p>Trong buổi tham vấn, lá số được dùng như một tấm bản đồ để cùng quan sát và đặt câu hỏi. Mục tiêu là giúp bạn hiểu trải nghiệm của mình, cân nhắc lựa chọn và xác định bước tiếp theo phù hợp; không dùng lá số để kết luận tuyệt đối về tương lai.</p><p>Buổi trao đổi được bắt đầu từ điều bạn đang quan tâm. Bạn có thể chia sẻ chủ đề, bối cảnh và kỳ vọng trong biểu mẫu bên dưới.</p></div>
-      </div>
-    </section>
-
-    <section class="q-section q-services" id="dich-vu">
+    <section class="q-section q-faq" id="hoi-dap">
       <div class="q-container">
-        <div class="q-services-head"><div><span class="q-kicker">Dịch vụ &amp; mức phí</span><h2>Chọn hình thức tham vấn phù hợp</h2></div><p class="q-lede">Tử Vi, Tâm lý và các phương pháp chữa lành được kết nối để cùng nhìn rõ điều bạn đang quan tâm. Chọn “Xem thêm” để đọc nội dung từng dịch vụ.</p></div>
-        <div class="q-service-grid">
-          <article class="q-service"><span class="q-service-label">Tử Vi Chữa Lành · 1 giờ</span><h3>Tử Vi 1 tiếng</h3><strong class="q-service-price">1.500.000đ</strong><p>Hiểu mình qua lá số, nhìn lại những bài học và tìm hướng chuyển hóa phù hợp.</p><div class="q-service-actions"><button class="q-service-more" type="button" data-dialog-open="detail-tvcl" aria-haspopup="dialog" aria-controls="detail-tvcl">Xem thêm <span aria-hidden="true">↗</span></button><a class="q-service-apply" href="#dang-ky">Đăng ký ↓</a></div></article>
-          <article class="q-service"><span class="q-service-label">Chọn một chủ đề · 1,5 giờ</span><h3>Tử Vi Chuyên Đề</h3><strong class="q-service-price">2.000.000đ</strong><p>Đi sâu vào một khía cạnh cụ thể như gia đình, sự nghiệp, tài lộc hoặc tình duyên.</p><div class="q-service-actions"><button class="q-service-more" type="button" data-dialog-open="detail-chuyen-de" aria-haspopup="dialog" aria-controls="detail-chuyen-de">Xem thêm <span aria-hidden="true">↗</span></button><a class="q-service-apply" href="#dang-ky">Đăng ký ↓</a></div></article>
-          <article class="q-service"><span class="q-service-label">Theo nhu cầu riêng</span><h3>Trường hợp đặc biệt</h3><strong class="q-service-price">Trao đổi riêng</strong><p>Nội dung hoặc thời lượng riêng sẽ được admin trao đổi và xác nhận cùng bạn.</p><div class="q-service-actions"><button class="q-service-more" type="button" data-dialog-open="detail-dac-biet" aria-haspopup="dialog" aria-controls="detail-dac-biet">Xem thêm <span aria-hidden="true">↗</span></button><a class="q-service-apply" href="#dang-ky">Gửi nhu cầu ↓</a></div></article>
-          <article class="q-service q-service-featured"><div><span class="q-service-label">Đồng hành 1:1 · Tối đa 5 khách mới/tháng</span><h3>Gói đồng hành cùng Tộc trưởng Quán Trung</h3><strong class="q-service-price">Từ 5.000.000đ</strong><p>Đồng hành qua các buổi tham vấn, hướng dẫn và phản hồi trong quá trình chuyển hóa. Có lựa chọn 1 tháng, 3 tháng và 1 năm.</p></div><div class="q-service-actions"><button class="q-service-more" type="button" data-dialog-open="detail-dong-hanh" aria-haspopup="dialog" aria-controls="detail-dong-hanh">Xem các gói <span aria-hidden="true">↗</span></button><a class="q-service-apply" href="#dang-ky">Trao đổi 30 phút ↓</a></div></article>
-        </div>
-        <dialog class="q-service-dialog" id="detail-tvcl" aria-labelledby="detail-tvcl-title"><div class="q-dialog-inner"><div class="q-dialog-top"><div><span class="q-dialog-kicker">Tử Vi Chữa Lành · 1 giờ</span><h2 id="detail-tvcl-title">Tử Vi 1 tiếng</h2><span class="q-dialog-price">1.500.000đ</span></div><button class="q-dialog-close" type="button" aria-label="Đóng cửa sổ">×</button></div><div class="q-dialog-content">
-          <section><h3>A. Tử Vi — thấu hiểu cuộc đời</h3><p>Khám phá các khuynh hướng và nguồn lực qua 12 khía cạnh trên lá số; dùng lá số như bản đồ tham khảo, không phải kết luận cố định.</p><ul><li>Tổng quan 12 cung; nhận diện những mặt thuận lợi và những bài học cần lưu tâm.</li><li>Quan sát Mệnh – Thân – Phúc – Quan để hiểu thêm điểm mạnh, xu hướng công việc và điều bạn coi trọng.</li><li>Tham khảo Đại Vận, Tiểu Vận và những thời điểm cần chuẩn bị, cân nhắc lựa chọn.</li><li>Nhìn lại nguồn trợ lực, quý nhân, tài lộc, cách làm việc phù hợp và các mối quan hệ gia đình, công việc.</li></ul></section>
-          <section><h3>B. Tâm lý — nhận diện những mô thức lặp lại</h3><p>Cùng nhìn lại những điều khiến bạn khổ tâm hoặc chưa hài lòng, các mô thức khó khăn lặp lại và những nguyên nhân có thể liên quan qua lăng kính Tâm lý học và Phân tâm học.</p></section>
-          <section><h3>C. Chữa lành &amp; cải mệnh — tìm hướng chuyển hóa</h3><p>Kết nối điều nhận ra từ lá số với những lựa chọn và thực hành phù hợp trong đời sống.</p><ul><li>Quan hệ tình cảm với vợ/chồng; mối quan hệ với con, cha mẹ, đồng nghiệp hoặc cấp trên.</li><li>Tâm thức tài chính và định hướng sứ mệnh, giá trị cá nhân.</li></ul></section>
-        </div><a class="q-dialog-cta" href="#dang-ky" data-dialog-close>Gửi thông tin tham vấn ↓</a></div></dialog>
-        <dialog class="q-service-dialog" id="detail-chuyen-de" aria-labelledby="detail-chuyen-de-title"><div class="q-dialog-inner"><div class="q-dialog-top"><div><span class="q-dialog-kicker">Chọn một chủ đề · 1,5 giờ</span><h2 id="detail-chuyen-de-title">Tử Vi Chuyên Đề</h2><span class="q-dialog-price">2.000.000đ</span></div><button class="q-dialog-close" type="button" aria-label="Đóng cửa sổ">×</button></div><div class="q-dialog-content">
-          <p>Cùng tập trung vào một khía cạnh bạn quan tâm trong đời sống. Các chủ đề dưới đây thuộc 12 khía cạnh trên lá số và được chọn theo thông tin bạn gửi:</p>
-          <section><h3>Chuyên đề theo cung và mối quan hệ</h3><ul><li><strong>Mệnh:</strong> tổng quan về bản thân và khuynh hướng cuộc đời.</li><li><strong>Phụ Mẫu, Phúc Đức:</strong> mối quan hệ với cha mẹ, cấp trên, người thầy; đời sống tinh thần và nguồn lực.</li><li><strong>Điền Trạch:</strong> nhà cửa, bất động sản hoặc hoạt động kinh doanh gắn với mặt bằng.</li><li><strong>Nô Bộc, Huynh Đệ:</strong> quan hệ với nhân viên, đối tác, đồng nghiệp, anh chị em và các kết nối xã hội.</li><li><strong>Phu Thê:</strong> quan hệ tình cảm, đời sống vợ chồng và những điều mỗi người muốn nhìn lại.</li></ul></section>
-          <section><h3>Tử Vi cho con</h3><p>Tham khảo lá số của con kết hợp với cung Tử Tức của cha/mẹ để cùng quan sát mối quan hệ và cân nhắc cách đồng hành, nuôi dạy phù hợp.</p></section>
-          <section><h3>Sự nghiệp &amp; khởi nghiệp</h3><ul><li>Xu hướng công việc; cân nhắc con đường làm thuê hay làm chủ.</li><li>Sản phẩm, thời điểm phát triển hoặc tạm dừng, lựa chọn người hợp tác và văn hóa công ty.</li></ul></section>
-          <section><h3>Tài Bạch</h3><ul><li>Cách tạo thu nhập và tận dụng nguồn lực, cơ hội tài lộc.</li><li>Tham khảo khuynh hướng đầu tư và những nguồn tiền có thể phù hợp.</li></ul></section>
-          <section><h3>Tình duyên</h3><ul><li>Nhìn lại khuynh hướng trong tình cảm, hình mẫu quan hệ và các bài học cá nhân.</li><li>Nhận diện điều khiến bạn tổn thương và những điểm có thể chủ động cải thiện.</li></ul></section>
-        </div><a class="q-dialog-cta" href="#dang-ky" data-dialog-close>Gửi thông tin tham vấn ↓</a></div></dialog>
-        <dialog class="q-service-dialog" id="detail-dac-biet" aria-labelledby="detail-dac-biet-title"><div class="q-dialog-inner"><div class="q-dialog-top"><div><span class="q-dialog-kicker">Theo nhu cầu riêng</span><h2 id="detail-dac-biet-title">Trường hợp đặc biệt</h2><span class="q-dialog-price">Thời lượng và phí trao đổi riêng</span></div><button class="q-dialog-close" type="button" aria-label="Đóng cửa sổ">×</button></div><div class="q-dialog-content"><p>Nếu chủ đề của bạn cần thời lượng hoặc cách tham vấn riêng, hãy mô tả ngắn gọn trong biểu mẫu. Admin sẽ liên hệ trực tiếp để trao đổi nội dung, mức phí và lịch hẹn trước khi xác nhận.</p></div><a class="q-dialog-cta" href="#dang-ky" data-dialog-close>Chia sẻ nhu cầu ↓</a></div></dialog>
-        <dialog class="q-service-dialog" id="detail-dong-hanh" aria-labelledby="detail-dong-hanh-title"><div class="q-dialog-inner"><div class="q-dialog-top"><div><span class="q-dialog-kicker">Đồng hành 1:1 · Tối đa 5 khách mới/tháng</span><h2 id="detail-dong-hanh-title">Gói đồng hành cùng Tộc trưởng Quán Trung</h2><span class="q-dialog-price">Các lựa chọn 1 tháng, 3 tháng và 1 năm</span></div><button class="q-dialog-close" type="button" aria-label="Đóng cửa sổ">×</button></div><div class="q-dialog-content">
-          <p>Không chỉ luận giải lá số hay tham vấn trong một buổi, Tộc trưởng Quán Trung sẽ đồng hành cùng bạn qua các buổi trao đổi trực tiếp, hướng dẫn và phản hồi trong quá trình thực hành. Hai bên cùng xác định khía cạnh cần tập trung và điều chỉnh cách đồng hành theo trải nghiệm thực tế của bạn.</p>
-          <section><h3>Gói 1 tháng · 5.000.000đ</h3><ul><li>02 buổi tham vấn trực tiếp, mỗi buổi 60–90 phút.</li><li>01 tháng đồng hành chuyển hóa.</li><li>Tập trung vào một khía cạnh trong cuộc sống.</li><li>Chỉ nhận tối đa 03 khách mới mỗi tháng.</li></ul></section>
-          <section><h3>Gói 3 tháng · ưu đãi còn 10.000.000đ</h3><p><del>Giá gói: 15.000.000đ</del></p><ul><li>06 buổi tham vấn trực tiếp, mỗi buổi 60 phút; dự kiến 02 buổi mỗi tháng.</li><li>03 tháng đồng hành chuyển hóa.</li><li>Tập trung vào tối đa 03 khía cạnh trong cuộc sống.</li><li>Chỉ nhận tối đa 02 khách mới mỗi tháng.</li></ul></section>
-          <section><h3>Gói 1 năm · 50.000.000đ</h3><p>Phạm vi đồng hành và lịch sẽ được trao đổi trực tiếp trước khi quyết định.</p></section>
-          <section><h3>Trao đổi trước khi quyết định</h3><p>Vui lòng gửi yêu cầu đặt lịch trao đổi trực tiếp 30 phút với thầy Quán Trung để làm rõ nhu cầu và tìm hiểu gói phù hợp. Trong biểu mẫu, chọn “Trường hợp đặc biệt” và ghi rõ “Gói đồng hành”; admin sẽ liên hệ để sắp xếp lịch.</p></section>
-          <section><h3>Lưu ý</h3><p>Quá trình chuyển hóa và kết quả có thể khác nhau tùy hoàn cảnh, mức độ tham gia và thực hành của mỗi người; gói đồng hành không cam kết một kết quả giống nhau cho tất cả. Dịch vụ hỗ trợ tự hiểu và thực hành, không thay thế chẩn đoán hoặc điều trị y khoa, tâm lý trị liệu hay tư vấn pháp lý, tài chính chuyên môn.</p></section>
-        </div><a class="q-dialog-cta" href="#dang-ky" data-dialog-close>Gửi yêu cầu trao đổi 30 phút ↓</a></div></dialog>
-        <div class="q-steps" aria-label="Các bước gửi yêu cầu">
-          <div class="q-step"><b>Bước 01</b><h3>Gửi thông tin</h3><p>Chia sẻ chủ đề bạn quan tâm và thông tin liên hệ qua biểu mẫu.</p></div>
-          <div class="q-step"><b>Bước 02</b><h3>Chọn lịch phù hợp và thanh toán chi phí dịch vụ</h3><p>Thống nhất thời gian tham vấn và chuyển khoản theo mức phí của dịch vụ đã chọn.</p></div>
-          <div class="q-step"><b>Bước 03</b><h3>Xác nhận buổi hẹn</h3><p>Admin sẽ trao đổi trực tiếp với bạn để xác nhận thông tin và lịch hẹn.</p></div>
+        <span class="q-kicker">Hỏi đáp</span><h2>Những điều bạn có thể đang thắc mắc</h2>
+        <div class="q-faq-list">
+          <details><summary>Tôi không nhớ chính xác giờ sinh thì sao?</summary><p>Bạn cứ ghi khoảng giờ mình biết (ví dụ: “buổi sáng, khoảng 7–9 giờ”). Trong buổi tham vấn, hai bên sẽ cùng đối chiếu với trải nghiệm thực tế để chọn giờ sinh phù hợp nhất.</p></details>
+          <details><summary>Tôi cần chuẩn bị gì trước buổi tham vấn?</summary><p>Cài sẵn Zoom trên máy tính hoặc điện thoại, chọn nơi yên tĩnh, và ghi ra 1–3 điều bạn muốn hiểu rõ nhất. Bạn không cần biết trước kiến thức Tử Vi.</p></details>
+          <details><summary>Buổi tham vấn có được ghi lại không?</summary><p>Có. Buổi tham vấn được ghi hình, ghi âm qua Zoom và chỉ ghi riêng cho bạn. Sau buổi hẹn, link tải bản ghi được gửi đến email bạn đăng ký.</p></details>
+          <details><summary>Câu chuyện của tôi có được giữ kín không?</summary><p>Có. Mọi thông tin bạn chia sẻ và bản ghi buổi tham vấn được bảo mật, chỉ dùng cho buổi tham vấn của bạn và không chia sẻ cho bất kỳ ai khác.</p></details>
+          <details><summary>Khi nào tôi cần chuyển khoản?</summary><p>Sau khi trợ lý nhắn Zalo và cùng bạn chốt được ca tham vấn, bạn chuyển khoản để giữ lịch. Với “Trường hợp đặc biệt”, bạn chờ trợ lý xác nhận mức phí trước.</p></details>
+          <details><summary>Nếu tôi cần đổi lịch thì sao?</summary><p>Bạn nhắn Zalo cho trợ lý Phương Anh càng sớm càng tốt để được sắp xếp lại vào một ngày khác còn trống.</p></details>
+          <details><summary>Buổi trao đổi miễn phí 30 phút dành cho ai?</summary><p>Buổi 30 phút dành cho bạn đang cân nhắc gói đồng hành 1 tháng, 3 tháng hoặc 1 năm, để cùng Tộc trưởng làm rõ nhu cầu và xem gói có phù hợp không. Nếu bạn muốn tham vấn một buổi, chỉ cần đăng ký trực tiếp Tử Vi 1 tiếng hoặc Tử Vi Chuyên Đề.</p></details>
         </div>
       </div>
     </section>
 
     <section class="q-form-section" id="dang-ky">
       <div class="q-container q-form-layout">
-        <div class="q-form-head"><span class="q-kicker">Bắt đầu cuộc trò chuyện</span><h2>Đăng ký tham vấn</h2><p>Điền thông tin ngay trên trang. Sau khi gửi đăng ký, website sẽ hiển thị thông tin chuyển khoản và cách xác nhận lịch hẹn.</p><div class="q-form-flow-note">Thông tin đăng ký được gửi đến Google Forms của Tử Vi Chữa Lành để admin liên hệ và chuẩn bị buổi tham vấn.</div></div>
+        <div class="q-form-head"><span class="q-kicker">Bắt đầu cuộc trò chuyện</span><h2>Đăng ký tham vấn</h2><p>Chỉ mất khoảng 3 phút. Sau khi bạn gửi, trợ lý sẽ nhắn Zalo để chốt ca trước, rồi bạn mới chuyển khoản giữ lịch.</p><div class="q-form-flow-note">Buổi tham vấn diễn ra online qua Zoom, Thứ 2 – Thứ 6, 9:00–15:00, mỗi ngày chỉ 1 ca. Mọi thông tin bạn chia sẻ và bản ghi buổi tham vấn đều được bảo mật, chỉ dành riêng cho bạn.</div></div>
         <div class="q-form-shell">
           <div class="q-form-stage" id="q-form-stage">
-            <ol class="q-form-progress" aria-label="Tiến trình đăng ký"><li aria-current="step">1. Thông tin</li><li>2. Chuyển khoản</li></ol>
+            <ol class="q-form-progress" aria-label="Tiến trình đăng ký"><li aria-current="step">1. Thông tin</li><li>2. Chốt lịch &amp; giữ lịch</li></ol>
             <form class="q-registration-form" id="q-registration-form" action="https://docs.google.com/forms/d/e/1FAIpQLSfLSqrFZCSoVxpOmma9Ez-pXM8pNsPny01xZvAO6WVJyk52xg/formResponse" method="post" target="q-google-response">
               <input type="hidden" name="entry.372016065" id="q-google-name">
               <input type="hidden" name="entry.1305731018" id="q-google-phone">
@@ -377,31 +501,32 @@
               <div class="q-form-field"><label for="q-full-name">Họ tên <span>*</span></label><input id="q-full-name" name="fullName" type="text" autocomplete="name" required maxlength="120" placeholder="Tên bạn muốn được gọi"></div>
               <div class="q-form-field"><label for="q-gender">Giới tính <span>*</span></label><select id="q-gender" name="gender" required><option value="">Chọn giới tính</option><option value="Nam">Nam</option><option value="Nữ">Nữ</option><option value="Khác">Khác</option></select></div>
               <div class="q-form-field"><label for="q-phone">Số điện thoại Zalo <span>*</span></label><input id="q-phone" name="phone" type="tel" autocomplete="tel" required maxlength="30" placeholder="Số điện thoại bạn dùng trên Zalo"></div>
+              <div class="q-form-field"><label for="q-email">Email nhận bản ghi buổi tham vấn <span>*</span></label><input id="q-email" name="email" type="email" autocomplete="email" required maxlength="160" placeholder="email@cuaban.com"><span class="q-form-hint">Link tải bản ghi Zoom sẽ được gửi riêng đến email này sau buổi tham vấn.</span></div>
               <div class="q-form-field"><label for="q-birthday">Ngày sinh dương lịch <span>*</span></label><input id="q-birthday" name="birthday" type="date" required><span class="q-form-hint">Vui lòng điền ngày sinh thật, chính xác.</span></div>
               <div class="q-form-field"><label for="q-birthtime">Giờ sinh <span>*</span></label><input id="q-birthtime" name="birthTime" type="text" required maxlength="100" placeholder="Ví dụ: 14:30 hoặc khoảng 14:00–15:00"><span class="q-form-hint">Nếu chỉ nhớ khoảng giờ, bạn ghi rõ khoảng thời gian.</span></div>
-              <div class="q-form-field"><label for="q-availability">Lịch rảnh bạn có thể tham vấn với thầy Quán Trung <span>*</span></label><input id="q-availability" name="availability" type="text" required maxlength="300" placeholder="Ví dụ: Thứ Hai, 9:00–10:30"><span class="q-form-hint">Thời gian tham vấn từ 9:00 đến 15:00; mỗi ca kéo dài 1–1,5 tiếng. Ghi ngày và khung giờ thuận tiện với bạn.</span></div>
+              <div class="q-form-field"><label for="q-availability">Lịch rảnh bạn có thể tham vấn với thầy Quán Trung <span>*</span></label><input id="q-availability" name="availability" type="text" required maxlength="300" placeholder="Ví dụ: Thứ Ba 9:00 hoặc Thứ Năm 13:30"><span class="q-form-hint">Lịch tham vấn: Thứ 2 – Thứ 6, từ 9:00 đến 15:00; mỗi ngày chỉ nhận 1 ca (1–1,5 tiếng). Bạn ghi 2–3 lựa chọn để dễ sắp xếp.</span></div>
               <div class="q-form-field"><label for="q-topic">Điều bạn muốn tham vấn <span>*</span></label><textarea id="q-topic" name="topic" required maxlength="3000" placeholder="Chia sẻ ngắn gọn vấn đề hoặc khía cạnh bạn muốn hiểu rõ hơn"></textarea><span class="q-form-hint">Bạn chia sẻ càng chi tiết về điều đang quan tâm, nhà tham vấn càng dễ đồng hành cùng bạn trên hành trình Hiểu Mình – Cải Mệnh – Chữa Lành.</span></div>
-              <div class="q-form-field"><label for="q-companion-package">Bạn muốn đăng ký gói đồng hành nào? <span class="q-optional-label">(Không bắt buộc)</span></label><input id="q-companion-package" name="companionPackage" type="text" maxlength="300" placeholder="Ví dụ: gói 1 tháng, 3 tháng, 1 năm hoặc đang tìm hiểu"><span class="q-form-hint">Bạn có thể để trống nếu chưa quyết định; admin sẽ trao đổi thêm với bạn.</span></div>
               <fieldset class="q-service-options"><legend>Dịch vụ bạn muốn đăng ký <span>*</span></legend>
                 <label class="q-service-choice"><input type="radio" name="serviceChoice" required value="Tử Vi 1 tiếng (1,5 triệu)" data-amount="1.500.000đ"><span><strong>Tử Vi 1 tiếng · 1.500.000đ</strong><span>Tham vấn Tử Vi Chữa Lành</span></span></label>
                 <label class="q-service-choice"><input type="radio" name="serviceChoice" required value="Tử Vi Chuyên Đề 1,5 tiếng (2 triệu)" data-amount="2.000.000đ"><span><strong>Tử Vi Chuyên Đề 1,5 tiếng · 2.000.000đ</strong><span>Chọn một chủ đề chuyên sâu</span></span></label>
                 <label class="q-service-choice"><input type="radio" name="serviceChoice" required value="Trường hợp đặc biệt" data-amount="Admin trao đổi riêng"><span><strong>Trường hợp đặc biệt</strong><span>Thời lượng và mức phí trao đổi riêng</span></span></label>
-                <label class="q-service-choice"><input type="radio" name="serviceChoice" required value="Gói đồng hành cùng Tộc trưởng Quán Trung" data-amount="Admin xác nhận theo gói"><span><strong>Gói đồng hành cùng Tộc trưởng Quán Trung</strong><span>Gói 1 tháng, 3 tháng hoặc 1 năm</span></span></label>
+                <label class="q-service-choice"><input type="radio" name="serviceChoice" required value="Gói đồng hành cùng Tộc trưởng Quán Trung" data-amount="Miễn phí buổi trao đổi 30 phút"><span><strong>Gói đồng hành · Trao đổi miễn phí 30 phút</strong><span>Trao đổi trước để cùng xem gói 1 tháng, 3 tháng hoặc 1 năm có phù hợp</span></span></label>
               </fieldset>
-              <label class="q-form-consent"><input type="checkbox" name="consent" required><span>Tôi đồng ý gửi thông tin đăng ký cho Tử Vi Chữa Lành qua Google Forms để được liên hệ về buổi tham vấn. Thông tin được dùng để tiếp nhận và chuẩn bị lịch hẹn.</span></label>
-              <button class="q-form-submit" type="submit">Đăng ký và tiếp tục thanh toán <span aria-hidden="true">→</span></button>
+              <div class="q-form-field" id="q-companion-field" hidden><label for="q-companion-package">Bạn đang quan tâm gói đồng hành nào? <span class="q-optional-label">(Không bắt buộc)</span></label><input id="q-companion-package" name="companionPackage" type="text" maxlength="300" placeholder="Ví dụ: gói 1 tháng, 3 tháng, 1 năm hoặc đang tìm hiểu"><span class="q-form-hint">Bạn có thể để trống nếu chưa quyết định; admin sẽ trao đổi thêm với bạn.</span></div>
+              <label class="q-form-consent"><input type="checkbox" name="consent" required><span>Tôi đồng ý gửi thông tin đăng ký cho Tử Vi Chữa Lành để được liên hệ về buổi tham vấn, và biết rằng buổi tham vấn được ghi hình riêng qua Zoom để gửi link bản ghi về email của tôi.</span></label>
+              <button class="q-form-submit" type="submit">Gửi đăng ký <span aria-hidden="true">→</span></button>
               <p class="q-form-status" id="q-form-status" role="status" aria-live="polite"></p>
               <div class="q-form-fallback" id="q-form-fallback" hidden>Google Forms chưa phản hồi. Bạn có thể <a href="https://docs.google.com/forms/d/e/1FAIpQLSfLSqrFZCSoVxpOmma9Ez-pXM8pNsPny01xZvAO6WVJyk52xg/viewform" target="_blank" rel="noopener noreferrer">mở biểu mẫu dự phòng</a> để gửi thông tin.</div>
             </form>
           </div>
           <section class="q-payment-stage" id="q-payment-stage" aria-labelledby="q-payment-title" hidden>
-            <ol class="q-form-progress" aria-label="Tiến trình đăng ký"><li>1. Thông tin</li><li aria-current="step">2. Chuyển khoản</li></ol>
-            <span class="q-payment-kicker">Đăng ký đã được gửi</span><h3 id="q-payment-title">Thông tin chuyển khoản</h3><p class="q-payment-lede">Chuyển khoản theo dịch vụ đã chọn. Sau đó gửi ảnh giao dịch cho trợ lý Phương Anh qua Zalo để admin xác nhận lịch hẹn.</p>
+            <ol class="q-form-progress" aria-label="Tiến trình đăng ký"><li>1. Thông tin</li><li aria-current="step">2. Chốt lịch &amp; giữ lịch</li></ol>
+            <span class="q-payment-kicker">Đăng ký đã được gửi</span><h3 id="q-payment-title">Cảm ơn bạn đã tin tưởng</h3><p class="q-payment-lede" id="q-payment-lede">Trợ lý Phương Anh sẽ nhắn Zalo để cùng bạn chốt ca tham vấn; bạn cũng có thể chủ động nhắn trợ lý qua Zalo <strong>085 694 1341</strong>. <strong>Sau khi chốt lịch</strong>, bạn chuyển khoản theo thông tin bên dưới để giữ ca; link Zoom sẽ được gửi qua Zalo trước buổi hẹn.</p>
             <div class="q-payment-amount"><span>Dịch vụ đã đăng ký</span><strong id="q-payment-service">—</strong></div>
             <div class="q-payment-amount"><span>Chi phí</span><strong id="q-payment-amount">—</strong></div>
-            <div class="q-bank-card"><h4>Ngân hàng Techcombank</h4><div class="q-bank-row"><span>Số tài khoản</span><strong>9999 5511 11</strong></div><div class="q-bank-row"><span>Chủ tài khoản</span><strong>NGUYEN VAN NHAT</strong></div><div class="q-bank-row"><span>Nội dung chuyển khoản</span><strong id="q-transfer-note">Họ tên · Dịch vụ</strong></div><div class="q-payment-qr-wrap"><img class="q-payment-qr" src="../assets/img/qr-thanh-toan-quan-trung.png" alt="Mã QR thanh toán Techcombank, chủ tài khoản NGUYEN VAN NHAT"><p class="q-payment-qr-caption">Quét mã QR để chuyển khoản</p></div></div>
+            <div class="q-bank-card" id="q-bank-card"><h4>Ngân hàng Techcombank</h4><div class="q-bank-row"><span>Số tài khoản</span><strong>9999 5511 11</strong></div><div class="q-bank-row"><span>Chủ tài khoản</span><strong>NGUYEN VAN NHAT</strong></div><div class="q-bank-row"><span>Nội dung chuyển khoản</span><strong id="q-transfer-note">Họ tên · Dịch vụ</strong></div><div class="q-payment-qr-wrap"><img class="q-payment-qr" src="../assets/img/qr-thanh-toan-quan-trung.png" alt="Mã QR thanh toán Techcombank, chủ tài khoản NGUYEN VAN NHAT"><p class="q-payment-qr-caption">Quét mã QR để chuyển khoản</p></div></div>
             <p class="q-payment-note" id="q-payment-note">Nếu bạn chọn “Trường hợp đặc biệt”, vui lòng chờ admin xác nhận mức phí trước khi chuyển khoản. Sau khi thanh toán, gửi ảnh giao dịch và trao đổi lịch hẹn với Trợ lý Phương Anh qua Zalo <strong>085 694 1341</strong>.</p>
-            <a class="q-payment-contact" href="https://zalo.me/0856941341" target="_blank" rel="noopener noreferrer">Gửi ảnh giao dịch &amp; hẹn lịch với Trợ lý Phương Anh ↗</a>
+            <a class="q-payment-contact" href="https://zalo.me/0856941341" target="_blank" rel="noopener noreferrer">Nhắn Zalo Trợ lý Phương Anh ↗</a>
           </section>
           <iframe class="q-hidden-submit-frame" name="q-google-response" id="q-google-response" title="Phản hồi đăng ký" aria-hidden="true" tabindex="-1"></iframe>
         </div>
@@ -424,7 +549,12 @@
     dialog.querySelector('.q-dialog-close')?.addEventListener('click', () => dialog.close());
     dialog.querySelector('[data-dialog-close]')?.addEventListener('click', () => dialog.close());
   });
+  const COMPANION = 'Gói đồng hành cùng Tộc trưởng Quán Trung';
   const registrationForm = document.getElementById('q-registration-form');
+  registrationForm?.addEventListener('change', (e) => {
+    if (e.target.name !== 'serviceChoice') return;
+    document.getElementById('q-companion-field').hidden = e.target.value !== COMPANION;
+  });
   const responseFrame = document.getElementById('q-google-response');
   const formStage = document.getElementById('q-form-stage');
   const paymentStage = document.getElementById('q-payment-stage');
@@ -443,16 +573,23 @@
     document.getElementById('q-google-birthtime').value = String(values.get('birthTime') || '').trim();
     const topic = String(values.get('topic') || '').trim();
     const availability = String(values.get('availability') || '').trim();
-    document.getElementById('q-google-topic').value = `${topic}\n\nLịch rảnh có thể tham vấn: ${availability}`;
+    const email = String(values.get('email') || '').trim();
+    document.getElementById('q-google-topic').value = `${topic}\n\nLịch rảnh có thể tham vấn: ${availability}\nEmail nhận bản ghi: ${email}`;
     document.getElementById('q-google-companion-package').value = String(values.get('companionPackage') || '').trim();
     document.getElementById('q-google-service').value = chosenService?.value || '';
     document.getElementById('q-payment-service').textContent = chosenService?.value || '—';
     document.getElementById('q-payment-amount').textContent = chosenService?.dataset.amount || '—';
     document.getElementById('q-transfer-note').textContent = `${fullName} · ${chosenService?.value || 'Tham vấn TVCL'}`;
-    if (chosenService?.value === 'Gói đồng hành cùng Tộc trưởng Quán Trung') {
-      document.getElementById('q-payment-note').innerHTML = 'Với Gói đồng hành, vui lòng chờ admin xác nhận lựa chọn gói và mức phí trước khi chuyển khoản. Sau khi được xác nhận và thanh toán, gửi ảnh giao dịch và trao đổi lịch hẹn với Trợ lý Phương Anh qua Zalo <strong>085 694 1341</strong>.';
+    const isCompanion = chosenService?.value === COMPANION;
+    const isSpecial = chosenService?.value === 'Trường hợp đặc biệt';
+    document.getElementById('q-bank-card').hidden = isCompanion;
+    if (isCompanion) {
+      document.getElementById('q-payment-lede').innerHTML = 'Trợ lý Phương Anh sẽ nhắn Zalo để hẹn buổi <strong>trao đổi miễn phí 30 phút</strong> qua Zoom với Tộc trưởng Quán Trung. Bạn chưa cần chuyển khoản lúc này.';
+      document.getElementById('q-payment-note').innerHTML = 'Sau buổi trao đổi, nếu bạn quyết định tham gia gói đồng hành, trợ lý sẽ gửi thông tin thanh toán theo gói đã chọn. Cần hỏi thêm, bạn nhắn Zalo <strong>085 694 1341</strong>.';
+    } else if (isSpecial) {
+      document.getElementById('q-payment-note').innerHTML = 'Với “Trường hợp đặc biệt”, bạn vui lòng chờ trợ lý xác nhận nội dung, thời lượng và mức phí trước khi chuyển khoản. Zalo trợ lý Phương Anh: <strong>085 694 1341</strong>.';
     } else {
-      document.getElementById('q-payment-note').innerHTML = 'Nếu bạn chọn “Trường hợp đặc biệt”, vui lòng chờ admin xác nhận mức phí trước khi chuyển khoản. Sau khi thanh toán, gửi ảnh giao dịch và trao đổi lịch hẹn với Trợ lý Phương Anh qua Zalo <strong>085 694 1341</strong>.';
+      document.getElementById('q-payment-note').innerHTML = 'Sau khi chuyển khoản, bạn gửi ảnh giao dịch cho trợ lý Phương Anh qua Zalo <strong>085 694 1341</strong> để hoàn tất giữ ca. Nhớ cài sẵn Zoom trên máy tính hoặc điện thoại trước buổi hẹn nhé.';
     }
     document.getElementById('q-form-status').textContent = 'Đang gửi thông tin đăng ký…';
     document.getElementById('q-form-fallback').hidden = true;

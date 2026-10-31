@@ -247,3 +247,23 @@ footer .brand{color:var(--sky-ink);font-weight:700}
 @media (prefers-color-scheme:dark){#thu-vien{background:var(--paper)}.story-card{background:var(--card);border-color:var(--line);box-shadow:none}.story-card.category-goc-nhin-moi{--story-accent:#6FC4BD;--story-tint:#203B3A}.story-card{--story-accent:#D2AA6A;--story-tint:#393127}.filter-panel{background:var(--card)}.filter-panel[open]>summary{background:color-mix(in srgb,#167F7B 16%,var(--card))}}
 @media (max-width:860px){.lib-layout{grid-template-columns:1fr}.lib-aside{position:static;order:-1}}
 @media (max-width:560px){.ax{grid-template-columns:1fr 46px;gap:6px 10px}.ax .lbl{grid-column:1/-1}.prevnext{grid-template-columns:1fr}.prevnext a.nx{text-align:left;border-right:1px solid var(--line);border-left:4px solid var(--sky)}.search-row{flex-direction:column}}
+
+/* Toàn Thư: an archival folio with a clear route through the source text. */
+.tt-index{display:grid;gap:14px;margin:22px 0 10px;padding:20px;border:1px solid var(--line);border-left:4px solid var(--c);border-radius:14px;background:var(--card)}
+.tt-index-heading .eyebrow{margin:0 0 3px;color:var(--c);font-size:.72rem;font-weight:800;letter-spacing:.12em}
+.tt-index-heading h3{font-size:1.12rem;color:var(--ink)}
+.tt-index-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.tt-index-links a{display:flex;align-items:flex-start;gap:11px;padding:10px 12px;border:1px solid color-mix(in srgb,var(--c) 16%,var(--line));border-radius:10px;background:color-mix(in srgb,var(--c) 5%,var(--card));color:var(--ink);font-size:.91rem;line-height:1.45;text-decoration:none;transition:background .18s,border-color .18s,transform .18s}
+.tt-index-links a:hover{background:color-mix(in srgb,var(--c) 11%,var(--card));border-color:color-mix(in srgb,var(--c) 38%,var(--line));transform:translateY(-1px)}
+.tt-index-links a:focus-visible{outline:3px solid color-mix(in srgb,var(--c) 55%,white);outline-offset:2px}
+.tt-index-no{flex:0 0 1.7em;color:var(--c);font-size:.75rem;font-weight:800;letter-spacing:.04em}
+.toan-thu-original{max-width:900px;margin:24px auto 0;padding:clamp(18px,3vw,34px);border:1px solid var(--line);border-left:5px solid var(--c);border-radius:16px;background:var(--card);color:var(--ink);font-family:Georgia,"Times New Roman",serif;font-size:1.03rem;line-height:1.82;overflow-wrap:anywhere}
+.toan-thu-original .tt-source-title{margin:0 0 22px;padding:0 0 16px;border-bottom:1px solid color-mix(in srgb,var(--c) 24%,var(--line));color:var(--c);font-family:var(--font);font-size:clamp(1.45rem,2.5vw,1.9rem);line-height:1.3}
+.toan-thu-original .tt-preface{margin:0 0 18px;padding:16px 20px;border:1px solid color-mix(in srgb,var(--c) 14%,var(--line));border-radius:12px;background:var(--paper)}
+.toan-thu-original .tt-preface p:first-child{margin-top:0}.toan-thu-original .tt-preface p:last-child{margin-bottom:0}
+.toan-thu-original .tt-chapter{margin:18px 0 0;padding:clamp(15px,2.2vw,24px);border:1px solid color-mix(in srgb,var(--c) 14%,var(--line));border-radius:13px;background:color-mix(in srgb,var(--c) 2.5%,var(--card));scroll-margin-top:20px}
+.toan-thu-original .tt-chapter h4{margin:0 0 14px;padding:0 0 10px;border-bottom:1px solid color-mix(in srgb,var(--c) 20%,var(--line));color:var(--c);font-family:var(--font);font-size:1.16rem;line-height:1.4;scroll-margin-top:20px}
+.toan-thu-original p{margin:.85em 0}.toan-thu-original ul,.toan-thu-original ol{margin:.8em 0;padding-left:1.45em}.toan-thu-original li{padding-left:.15em}.toan-thu-original li+li{margin-top:.48em}.toan-thu-original li>ul,.toan-thu-original li>ol{margin:.48em 0}
+.toan-thu-original blockquote{margin:1.1em 0;padding:14px 18px;border-left:3px solid var(--c);border-radius:0 10px 10px 0;background:color-mix(in srgb,var(--c) 7%,var(--paper));color:var(--ink)}
+.toan-thu-original blockquote p:first-child{margin-top:0}.toan-thu-original blockquote p:last-child{margin-bottom:0}.toan-thu-original strong{font-weight:700}
+@media(max-width:680px){.tt-index{padding:15px}.tt-index-links{grid-template-columns:1fr}.toan-thu-original{font-size:1rem;line-height:1.78;padding:16px;border-radius:12px}.toan-thu-original .tt-preface{padding:14px}.toan-thu-original .tt-chapter{padding:15px}}

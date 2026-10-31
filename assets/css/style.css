@@ -1,5 +1,6 @@
 /* ===== TVCL Web Stylesheet v2.1 — "Tàng Kinh Các" (xanh rừng + vàng đồng, kem, serif) ===== */
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap");
 :root{
   --white:#F7F1E5;      /* nền kem sáng — trang / thẻ */
   --ivory:#EFE3C8;      /* nền kem đậm hơn — mảng, sidebar, blockquote */
@@ -517,6 +518,63 @@ ul.subitem-list li a:hover{color:var(--blue);opacity:1;}
 @media(max-width:560px){.priority-guides{margin-bottom:44px;padding-bottom:44px}.priority-guides-grid{grid-template-columns:1fr}.related-guides{padding:22px 18px}}
 
 
+
+/* Homepage sections aligned with the learning-path page: airy surfaces, clear sans-serif type, and soft color accents. */
+:is(.learning-section,#cong-dong) .section-title,
+.priority-guides .section-title{font-family:"Be Vietnam Pro",system-ui,sans-serif;font-size:clamp(1.8rem,3.2vw,2.35rem);font-weight:800;letter-spacing:-.035em;color:#243447}
+:is(.learning-section,#cong-dong) .section-sub,
+.priority-guides .section-sub{font-family:"Be Vietnam Pro",system-ui,sans-serif;color:#5B6B7D;opacity:1;font-size:1rem;line-height:1.7}
+:is(.learning-section,#cong-dong) .kicker-label,
+.priority-guides .kicker-label{font-family:"Be Vietnam Pro",system-ui,sans-serif;color:#2F6FB0;font-size:.76rem;font-weight:700;letter-spacing:.11em}
+:is(.learning-section,#cong-dong) .kicker-label::before,
+.priority-guides .kicker-label::before{color:#4A8FD4}
+
+.learning-section{background:#F7F9FC;border-color:#E3EAF1}
+.learning-section .learning-card{border-color:#DCE4EC;border-radius:14px;box-shadow:0 5px 18px rgba(36,52,71,.055);transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}
+.learning-section .learning-card:hover{transform:translateY(-4px);border-color:#AFC9E3;box-shadow:0 14px 28px rgba(36,52,71,.11)}
+.learning-section .learning-art{background:#DCEAF7}
+.learning-section .learning-card-body{padding:22px 22px 24px;font-family:"Be Vietnam Pro",system-ui,sans-serif}
+.learning-section .learning-category{color:#2F6FB0;font-size:.76rem;font-weight:600;line-height:1.5}
+.learning-section .learning-card h3{font-family:"Be Vietnam Pro",system-ui,sans-serif;color:#243447;font-size:clamp(1.1rem,1.4vw,1.3rem);font-weight:700;line-height:1.4;letter-spacing:-.02em}
+.learning-section .learning-card-body>p:not(.learning-category){color:#5B6B7D;font-size:.9rem;line-height:1.75}
+.learning-section .learning-link{border-color:#E3EAF1;color:#2F6FB0;font-size:.9rem}
+.learning-section .learning-link:hover{color:#1E5C96}
+
+.priority-guides{font-family:"Be Vietnam Pro",system-ui,sans-serif;border-bottom-color:#DCE4EC}
+.priority-guides-grid{gap:16px}
+.priority-guide-card{gap:10px;padding:20px 21px;border-color:#DCE4EC;border-radius:14px;background:#fff;color:#243447;box-shadow:0 4px 15px rgba(36,52,71,.04);transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease}
+.priority-guide-card:hover{transform:translateY(-3px);border-color:#AFC9E3;box-shadow:0 12px 24px rgba(36,52,71,.09)}
+.priority-guide-card strong{font-family:"Be Vietnam Pro",system-ui,sans-serif;color:#243447;font-size:1.05rem;font-weight:700;line-height:1.4}
+.priority-guide-card span{color:#5B6B7D;font-size:.88rem;line-height:1.65}
+.priority-guide-card .priority-guide-cta{margin-top:auto;padding-top:6px;color:#2F6FB0;font-size:.82rem;font-weight:700}
+.priority-guide-card:nth-child(4n+1){border-top:3px solid #4A8FD4}
+.priority-guide-card:nth-child(4n+2){border-top:3px solid #6A6FD0}
+.priority-guide-card:nth-child(4n+3){border-top:3px solid #4FA27E}
+.priority-guide-card:nth-child(4n){border-top:3px solid #D9785E}
+.priority-guide-card:focus-visible{outline-color:#4A8FD4}
+
+#cong-dong.channel-section{padding:60px 0;background:#EFF5FA;color:#243447}
+#cong-dong .section-title{color:#243447}
+#cong-dong .section-sub{color:#5B6B7D}
+#cong-dong .kicker-label{color:#2F6FB0}
+#cong-dong .cat-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin-bottom:0}
+#cong-dong .channel-card{border:1px solid #DCE4EC;border-top:4px solid #4A8FD4;border-radius:15px;background:#fff;box-shadow:0 6px 20px rgba(36,52,71,.06);padding:26px 24px}
+#cong-dong .channel-card.tone-blue{background:#EAF2FA;border-color:#D5E2EF;border-top-color:#4A8FD4}
+#cong-dong .channel-card.tone-green{background:#EAF4EF;border-color:#D5E7DD;border-top-color:#4FA27E}
+#cong-dong .channel-card.tone-teal{background:#F8F1E7;border-color:#E9DDC9;border-top-color:#D1A04B}
+#cong-dong .channel-card::before{color:#243447;opacity:.08}
+#cong-dong .channel-card h3{font-family:"Be Vietnam Pro",system-ui,sans-serif;color:#243447;font-size:1.3rem;font-weight:700;line-height:1.4;margin-bottom:16px}
+#cong-dong .channel-list{gap:0}
+#cong-dong .channel-list li{border-bottom:1px solid rgba(36,52,71,.11);padding:0 0 10px;margin-bottom:10px}
+#cong-dong .channel-list li:last-child{border:0;padding-bottom:0;margin-bottom:0}
+#cong-dong .channel-list a{font-family:"Be Vietnam Pro",system-ui,sans-serif;color:#33485C;font-size:.9rem;line-height:1.6}
+#cong-dong .channel-list a:hover{color:#2F6FB0}
+#cong-dong .channel-note{border-top-color:rgba(36,52,71,.15);color:#33485C;font-family:"Be Vietnam Pro",system-ui,sans-serif}
+#cong-dong .channel-note-heading{color:#9A6A1E}
+#cong-dong .btn-gold{font-family:"Be Vietnam Pro",system-ui,sans-serif;background:#4A8FD4;color:#fff;box-shadow:0 6px 15px rgba(74,143,212,.2)}
+#cong-dong .btn-gold:hover{background:#347CBF}
+@media(max-width:900px){#cong-dong .cat-grid{grid-template-columns:1fr}}
+@media(max-width:650px){#cong-dong.channel-section{padding:44px 0}.learning-section .learning-card-body{padding:22px}.priority-guides-grid{gap:12px}}
 
 /* ---- Tàng Kinh Các: bảng màu sáng, riêng cho từng nhóm ---- */
 #kham-pha .cat-grid > .cat-card{

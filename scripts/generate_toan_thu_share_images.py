@@ -53,6 +53,14 @@ def f(size: int, bold: bool = False) -> ImageFont.FreeTypeFont:
     return ImageFont.truetype(str(FONT_BOLD if bold else FONT_REG), size * SCALE)
 
 
+def fitted_font(text: str, max_size: int, max_width: int) -> ImageFont.FreeTypeFont:
+    for size in range(max_size, 67, -1):
+        font = f(size, True)
+        if font.getlength(text) / SCALE <= max_width:
+            return font
+    return f(67, True)
+
+
 def draw_star(draw: ImageDraw.ImageDraw, cx: int, cy: int, radius: int, color: tuple[int, int, int], alpha: int = 255) -> None:
     points = []
     for index in range(8):
@@ -118,15 +126,16 @@ def make_image(title: str, accent_hex: str, hub: bool = False) -> Image.Image:
     draw.text((87 * SCALE, 86 * SCALE), "TÀNG KINH CÁC  ·  TỬ VI ĐẨU SỐ TOÀN THƯ", font=f(15, True), fill=(*accent, 255))
 
     if hub:
-        draw.text((84 * SCALE, 194 * SCALE), "Tử Vi Đẩu Số", font=f(58, True), fill=(*ink, 255))
-        draw.text((84 * SCALE, 270 * SCALE), "Toàn Thư", font=f(58, True), fill=(*ink, 255))
+        draw.text((84 * SCALE, 185 * SCALE), "Tử Vi Đẩu Số", font=f(74, True), fill=(*ink, 255))
+        draw.text((84 * SCALE, 272 * SCALE), "Toàn Thư", font=f(74, True), fill=(*ink, 255))
         draw.rounded_rectangle((87 * SCALE, 370 * SCALE, 466 * SCALE, 413 * SCALE), radius=21 * SCALE, fill=(*tint((30, 154, 163), paper, .09), 255), outline=(*tint((30, 154, 163), paper, .34), 255), width=1 * SCALE)
-        draw.text((107 * SCALE, 379 * SCALE), "TRA CỨU 14 CHÍNH TINH", font=f(16, True), fill=(30, 121, 129, 255))
+        draw.text((107 * SCALE, 379 * SCALE), "TRA CỨU 14 CHÍNH TINH", font=f(18, True), fill=(30, 121, 129, 255))
     else:
-        draw.text((84 * SCALE, 190 * SCALE), "Sao " + title, font=f(64, True), fill=(*ink, 255))
-        draw.text((89 * SCALE, 282 * SCALE), "TRONG TỬ VI ĐẨU SỐ", font=f(25, True), fill=(*accent, 255))
-        draw.text((89 * SCALE, 322 * SCALE), "TOÀN THƯ", font=f(25, True), fill=(*accent, 255))
-        draw.text((89 * SCALE, 386 * SCALE), "Luận giải một chính tinh · theo góc nhìn TVCL", font=f(17), fill=(*muted, 255))
+        heading = "Sao " + title
+        draw.text((84 * SCALE, 182 * SCALE), heading, font=fitted_font(heading, 78, 600), fill=(*ink, 255))
+        draw.text((89 * SCALE, 284 * SCALE), "TRONG TỬ VI ĐẨU SỐ", font=f(30, True), fill=(*accent, 255))
+        draw.text((89 * SCALE, 329 * SCALE), "TOÀN THƯ", font=f(30, True), fill=(*accent, 255))
+        draw.text((89 * SCALE, 391 * SCALE), "Luận giải một chính tinh · theo góc nhìn TVCL", font=f(19), fill=(*muted, 255))
 
     draw.line((87 * SCALE, 459 * SCALE, 678 * SCALE, 459 * SCALE), fill=(227, 230, 234, 255), width=1 * SCALE)
     return base.convert("RGB").resize((W, H), Image.Resampling.LANCZOS)

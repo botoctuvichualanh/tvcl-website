@@ -17,7 +17,7 @@ ROOT = Path(__file__).resolve().parent
 SOURCE = ROOT / "_bai-viet-source"
 OUT = ROOT / "bai-viet"
 SITE = "https://tuvichualanh.com"
-CSS_URL = "/bai-viet/assets/tvcl-bv-reading-suggestions.css?v=20261030-library-palette"
+CSS_URL = "/bai-viet/assets/tvcl-bv-reading-suggestions.css?v=20261031-article-search"
 LOGO_URL = "/bai-viet/assets/logo-tvcl.webp"
 SLOGAN = "Tử Vi Chữa Lành: Ứng dụng Tử Vi, Tâm Lý, Đạo Học để Hiểu Mình, Cải Mệnh &amp; Chữa Lành"
 TAGLINE = "Lá số là bản đồ, không phải bản án."
@@ -385,6 +385,17 @@ def render_article(article, category, data, kb, B):
 
     toc_links = "".join(f'<a href="#{a}">{esc(h)}</a>' for a, h in toc)
     toc_html = f'<nav class="toc" aria-label="Trong bài viết"><span>Trong bài</span>{toc_links}<a href="#cau-hoi-thuong-gap">Hỏi đáp</a></nav>' if toc else ""
+    discovery_tags = "".join(
+        f'<a class="article-discovery-chip" href="/bai-viet/?tag={html.escape(k, quote=True)}">{esc(lbl)} <span aria-hidden="true">→</span></a>'
+        for k, lbl in list(zip(article.get("tags", []), article.get("tagLabels", [])))[:6]
+    )
+    discovery = f'''<section class="article-discovery" aria-label="Tìm và đọc thêm bài viết">
+      <form action="/bai-viet/" method="get" role="search" class="article-search-form">
+        <label for="article-search">Tìm bài viết</label>
+        <div class="article-search-row"><input id="article-search" type="search" name="q" placeholder="Nhập chủ đề bạn muốn tìm…" autocomplete="off"><button type="submit">Tìm kiếm <span aria-hidden="true">→</span></button></div>
+      </form>
+      <div class="article-discovery-suggestions"><span class="article-discovery-label">Gợi ý đọc tiếp</span>{discovery_tags}</div>
+    </section>'''
     wiki = jscript(data["wikiEntries"])
     return head(title_tag, description, canonical, "article", f'<script type="application/ld+json">{schema}</script>', article.get("datePublished", "2026-10-30"), og_img=f"{SITE}/assets/img/og/{article['id']}.jpg") + f'''
 <body class="art">
@@ -402,6 +413,7 @@ def render_article(article, category, data, kb, B):
     {path_strip()}
     <p class="byline"><span>Viết bởi <b>{esc(article.get("authorName", "Bộ tộc Tử Vi Chữa Lành"))}</b></span><span class="sep">·</span><span>{esc(article.get("readTime", ""))} đọc</span><span class="sep">·</span><a class="{ck}" href="/bai-viet/{category["id"]}/">{esc(short_cat(category["shortName"]))}</a></p>
     {toc_html}
+    {discovery}
   </div>
 </header>
 <main>

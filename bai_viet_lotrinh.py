@@ -310,7 +310,7 @@ def cta_html(article, category, rc):
 def render_article(article, category, data, kb, B):
     md = B.render_markdown
     base_title = article["seo"].get("metaTitle") or article["title"]
-    title_tag = base_title + " | Tử Vi Chữa Lành" if len(base_title) <= 46 else base_title
+    title_tag = base_title if "Tử Vi Chữa Lành" in base_title or len(base_title) > 46 else base_title + " | Tử Vi Chữa Lành"
     description = article["seo"].get("metaDescription") or article["subtitle"]
     canonical = article["canonicalUrl"]
     schema = jscript(B.schema_for(article, category, data))

@@ -633,7 +633,8 @@ def write_assets():
     assets.mkdir(parents=True, exist_ok=True)
     base = (SOURCE / "tvcl-lotrinh-base.css").read_text(encoding="utf-8")
     css = base + "\n" + EXTRA_CSS
-    (assets / "tvcl-bv.css").write_text(css, encoding="utf-8")
+    extra_tt = SOURCE / "tvcl-bv-extra-toan-thu.css"  # CSS trang sao Toàn Thư (do Codex thêm) — giữ lại khi build
+    (assets / "tvcl-bv.css").write_text(css + ("\n" + extra_tt.read_text(encoding="utf-8") if extra_tt.exists() else ""), encoding="utf-8")
     (assets / "tvcl-bv-topic-chips.css").write_text(css, encoding="utf-8")
     (assets / "tvcl-bv-reading-suggestions.css").write_text(css, encoding="utf-8")
     shutil.copyfile(SOURCE / "logo-tvcl.webp", assets / "logo-tvcl.webp")

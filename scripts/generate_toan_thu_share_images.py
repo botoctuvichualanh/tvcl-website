@@ -104,6 +104,21 @@ def make_image(title: str, accent_hex: str, hub: bool = False) -> Image.Image:
         draw.text((89 * SCALE, 286 * SCALE), "TRONG TỬ VI ĐẨU SỐ", font=f(51, True), fill=(*accent, 255))
         draw.text((89 * SCALE, 354 * SCALE), "TOÀN THƯ", font=f(51, True), fill=(*accent, 255))
 
+    draw.text((89 * SCALE, 431 * SCALE), "Bộ tộc Tử Vi Chữa Lành", font=f(22, True), fill=(46, 112, 177, 255))
+    draw.text(
+        (89 * SCALE, 473 * SCALE),
+        "Tử Vi Chữa Lành: Ứng dụng Tử Vi, Tâm Lý, Đạo Học để Hiểu Mình, Cải Mệnh & Chữa Lành",
+        font=f(18),
+        fill=(*muted, 255),
+    )
+    draw.rounded_rectangle((58 * SCALE, 527 * SCALE, 64 * SCALE, 586 * SCALE), radius=3 * SCALE, fill=(112, 181, 156, 255))
+    draw.text(
+        (89 * SCALE, 535 * SCALE),
+        "“Lá số là bản đồ, không phải bản án.”",
+        font=f(25, True),
+        fill=(*ink, 255),
+    )
+
     return base.convert("RGB").resize((W, H), Image.Resampling.LANCZOS)
 
 

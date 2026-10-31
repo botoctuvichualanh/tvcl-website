@@ -94,15 +94,15 @@ def make_image(title: str, accent_hex: str, hub: bool = False) -> Image.Image:
     draw.text((87 * SCALE, 86 * SCALE), "TÀNG KINH CÁC  ·  TỬ VI ĐẨU SỐ TOÀN THƯ", font=f(16, True), fill=(*accent, 255))
 
     if hub:
-        draw.text((84 * SCALE, 185 * SCALE), "Tử Vi Đẩu Số", font=f(74, True), fill=(*ink, 255))
-        draw.text((84 * SCALE, 272 * SCALE), "Toàn Thư", font=f(74, True), fill=(*ink, 255))
+        draw.text((84 * SCALE, 167 * SCALE), "Tử Vi Đẩu Số", font=f(90, True), fill=(*ink, 255))
+        draw.text((84 * SCALE, 270 * SCALE), "Toàn Thư", font=f(90, True), fill=(*ink, 255))
         draw.rounded_rectangle((87 * SCALE, 370 * SCALE, 466 * SCALE, 413 * SCALE), radius=21 * SCALE, fill=(*tint((30, 154, 163), paper, .09), 255), outline=(*tint((30, 154, 163), paper, .34), 255), width=1 * SCALE)
         draw.text((107 * SCALE, 379 * SCALE), "TRA CỨU 14 CHÍNH TINH", font=f(18, True), fill=(30, 121, 129, 255))
     else:
         heading = "Sao " + title
-        draw.text((84 * SCALE, 176 * SCALE), heading, font=fitted_font(heading, 82, 680), fill=(*ink, 255))
-        draw.text((89 * SCALE, 286 * SCALE), "TRONG TỬ VI ĐẨU SỐ", font=f(38, True), fill=(*accent, 255))
-        draw.text((89 * SCALE, 342 * SCALE), "TOÀN THƯ", font=f(38, True), fill=(*accent, 255))
+        draw.text((84 * SCALE, 157 * SCALE), heading, font=fitted_font(heading, 98, 700), fill=(*ink, 255))
+        draw.text((89 * SCALE, 286 * SCALE), "TRONG TỬ VI ĐẨU SỐ", font=f(51, True), fill=(*accent, 255))
+        draw.text((89 * SCALE, 354 * SCALE), "TOÀN THƯ", font=f(51, True), fill=(*accent, 255))
 
     return base.convert("RGB").resize((W, H), Image.Resampling.LANCZOS)
 

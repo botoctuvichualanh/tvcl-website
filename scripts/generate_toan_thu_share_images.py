@@ -3,7 +3,7 @@ from __future__ import annotations
 import re
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageChops
+from PIL import Image, ImageDraw, ImageFont, ImageChops
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -37,7 +37,7 @@ _logo_r, _logo_g, _logo_b = _logo_rgb.split()
 _logo_alpha = ImageChops.invert(ImageChops.darker(ImageChops.darker(_logo_r, _logo_g), _logo_b))
 _logo = _logo_rgb.convert("RGBA")
 _logo.putalpha(_logo_alpha)
-_logo.thumbnail((86 * SCALE, 86 * SCALE), Image.Resampling.LANCZOS)
+_logo.thumbnail((330 * SCALE, 330 * SCALE), Image.Resampling.LANCZOS)
 
 
 def rgb(hex_color: str) -> tuple[int, int, int]:
@@ -61,17 +61,6 @@ def fitted_font(text: str, max_size: int, max_width: int) -> ImageFont.FreeTypeF
     return f(67, True)
 
 
-def draw_star(draw: ImageDraw.ImageDraw, cx: int, cy: int, radius: int, color: tuple[int, int, int], alpha: int = 255) -> None:
-    points = []
-    for index in range(8):
-        import math
-
-        angle = -math.pi / 2 + index * math.pi / 4
-        distance = radius if index % 2 == 0 else radius * 0.22
-        points.append((cx + int(math.cos(angle) * distance), cy + int(math.sin(angle) * distance)))
-    draw.polygon(points, fill=(*color, alpha))
-
-
 def make_image(title: str, accent_hex: str, hub: bool = False) -> Image.Image:
     width, height = W * SCALE, H * SCALE
     accent = rgb(accent_hex)
@@ -93,37 +82,16 @@ def make_image(title: str, accent_hex: str, hub: bool = False) -> Image.Image:
     landscape.putalpha(fade)
     base.alpha_composite(landscape)
 
-    # A calm accent wash keeps the artwork connected to the corresponding star.
-    wash = Image.new("RGBA", base.size, (*accent, 0))
-    wash_alpha = Image.new("L", base.size, 0)
-    wash_draw = ImageDraw.Draw(wash_alpha)
-    wash_draw.ellipse((780 * SCALE, 10 * SCALE, 1220 * SCALE, 500 * SCALE), fill=30)
-    wash.putalpha(wash_alpha.filter(ImageFilter.GaussianBlur(55 * SCALE)))
-    base.alpha_composite(wash)
-
     draw = ImageDraw.Draw(base, "RGBA")
-    # Thin frame, house palette, accent stripe, and constellation orbit.
+    # Thin frame, house palette, and accent stripe.
     draw.rounded_rectangle((28 * SCALE, 28 * SCALE, (W - 28) * SCALE, (H - 28) * SCALE), radius=28 * SCALE, outline=(227, 230, 234, 230), width=2 * SCALE)
     draw.rounded_rectangle((58 * SCALE, 76 * SCALE, 65 * SCALE, 160 * SCALE), radius=4 * SCALE, fill=(*accent, 255))
 
-    cx, cy = 930 * SCALE, 300 * SCALE
-    for radius, alpha, stroke in ((218, 38, 2), (168, 50, 2), (108, 64, 2)):
-        box = ((cx - radius * SCALE), (cy - radius * SCALE), (cx + radius * SCALE), (cy + radius * SCALE))
-        draw.ellipse(box, outline=(*tint(accent, paper, .45), 255), width=stroke * SCALE)
-    draw.ellipse((cx - 65 * SCALE, cy - 65 * SCALE, cx + 65 * SCALE, cy + 65 * SCALE), fill=(*tint(accent, paper, .10), 255), outline=(*tint(accent, paper, .48), 255), width=2 * SCALE)
-    draw_star(draw, cx, cy, 42 * SCALE, tint(accent, paper, .82), 255)
-    for dx, dy, radius in ((-175, -74, 9), (156, -116, 8), (175, 62, 7), (-126, 141, 7), (55, 191, 6)):
-        draw_star(draw, cx + dx * SCALE, cy + dy * SCALE, radius * SCALE, tint(accent, paper, .72), 255)
-    draw.line((cx - 180 * SCALE, cy - 65 * SCALE, cx - 124 * SCALE, cy + 136 * SCALE, cx + 58 * SCALE, cy + 185 * SCALE, cx + 160 * SCALE, cy + 60 * SCALE), fill=(*tint(accent, paper, .34), 255), width=2 * SCALE)
-
-    # Brand mark is made from the real TVCL roundel with its white background knocked out.
-    base.alpha_composite(_logo, (83 * SCALE, 481 * SCALE))
+    # Use the official TVCL roundel alone in the former orbit area.
+    base.alpha_composite(_logo, (823 * SCALE, 148 * SCALE))
     draw = ImageDraw.Draw(base, "RGBA")
 
-    draw.text((184 * SCALE, 499 * SCALE), "TỬ VI CHỮA LÀNH", font=f(17, True), fill=(*ink, 255))
-    draw.text((184 * SCALE, 528 * SCALE), "HIỂU MÌNH · CẢI MỆNH · CHỮA LÀNH", font=f(11, True), fill=(*muted, 255))
-
-    draw.text((87 * SCALE, 86 * SCALE), "TÀNG KINH CÁC  ·  TỬ VI ĐẨU SỐ TOÀN THƯ", font=f(15, True), fill=(*accent, 255))
+    draw.text((87 * SCALE, 86 * SCALE), "TÀNG KINH CÁC  ·  TỬ VI ĐẨU SỐ TOÀN THƯ", font=f(16, True), fill=(*accent, 255))
 
     if hub:
         draw.text((84 * SCALE, 185 * SCALE), "Tử Vi Đẩu Số", font=f(74, True), fill=(*ink, 255))
@@ -132,12 +100,10 @@ def make_image(title: str, accent_hex: str, hub: bool = False) -> Image.Image:
         draw.text((107 * SCALE, 379 * SCALE), "TRA CỨU 14 CHÍNH TINH", font=f(18, True), fill=(30, 121, 129, 255))
     else:
         heading = "Sao " + title
-        draw.text((84 * SCALE, 182 * SCALE), heading, font=fitted_font(heading, 78, 600), fill=(*ink, 255))
-        draw.text((89 * SCALE, 284 * SCALE), "TRONG TỬ VI ĐẨU SỐ", font=f(30, True), fill=(*accent, 255))
-        draw.text((89 * SCALE, 329 * SCALE), "TOÀN THƯ", font=f(30, True), fill=(*accent, 255))
-        draw.text((89 * SCALE, 391 * SCALE), "Luận giải một chính tinh · theo góc nhìn TVCL", font=f(19), fill=(*muted, 255))
+        draw.text((84 * SCALE, 176 * SCALE), heading, font=fitted_font(heading, 82, 680), fill=(*ink, 255))
+        draw.text((89 * SCALE, 286 * SCALE), "TRONG TỬ VI ĐẨU SỐ", font=f(38, True), fill=(*accent, 255))
+        draw.text((89 * SCALE, 342 * SCALE), "TOÀN THƯ", font=f(38, True), fill=(*accent, 255))
 
-    draw.line((87 * SCALE, 459 * SCALE, 678 * SCALE, 459 * SCALE), fill=(227, 230, 234, 255), width=1 * SCALE)
     return base.convert("RGB").resize((W, H), Image.Resampling.LANCZOS)
 
 

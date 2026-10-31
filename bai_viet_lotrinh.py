@@ -60,7 +60,7 @@ def hero_svg():
     return (SOURCE / "hero-shanshui.svg.html").read_text(encoding="utf-8")
 
 
-def head(title, description, canonical, og_type, extra="", pub=""):
+def head(title, description, canonical, og_type, extra="", pub="", og_img=""):
     pubmeta = (f'<meta property="article:published_time" content="{pub}T08:00:00+07:00">'
                f'<meta property="article:modified_time" content="{pub}T08:00:00+07:00">') if pub else ""
     return f'''<!doctype html>
@@ -74,7 +74,7 @@ def head(title, description, canonical, og_type, extra="", pub=""):
 <link rel="canonical" href="{esc(canonical)}">
 <meta property="og:type" content="{og_type}">{pubmeta}<meta property="og:site_name" content="Tử Vi Chữa Lành — Bộ tộc Tử Vi Chữa Lành">
 <meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(description)}"><meta property="og:url" content="{esc(canonical)}">
-<meta property="og:image" content="{SITE}/assets/img/hero-shanshui.jpg"><meta name="twitter:card" content="summary_large_image">
+<meta property="og:image" content="{og_img or SITE + '/assets/img/hero-shanshui.jpg'}">{'<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="' + esc(title) + '">' if og_img else ''}<meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="{og_img or SITE + '/assets/img/hero-shanshui.jpg'}">
 <link rel="icon" href="{LOGO_URL}" type="image/webp">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap">
@@ -386,7 +386,7 @@ def render_article(article, category, data, kb, B):
     toc_links = "".join(f'<a href="#{a}">{esc(h)}</a>' for a, h in toc)
     toc_html = f'<nav class="toc" aria-label="Trong bài viết"><span>Trong bài</span>{toc_links}<a href="#cau-hoi-thuong-gap">Hỏi đáp</a></nav>' if toc else ""
     wiki = jscript(data["wikiEntries"])
-    return head(title_tag, description, canonical, "article", f'<script type="application/ld+json">{schema}</script>', article.get("datePublished", "2026-10-30")) + f'''
+    return head(title_tag, description, canonical, "article", f'<script type="application/ld+json">{schema}</script>', article.get("datePublished", "2026-10-30"), og_img=f"{SITE}/assets/img/og/{article['id']}.jpg") + f'''
 <body class="art">
 <div class="progress" id="progress"></div>
 <header class="hero">

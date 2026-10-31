@@ -222,7 +222,7 @@ def schema_for(article, category, data):
     canonical = article["canonicalUrl"]
     author = article.get("authorName", "Bộ Tộc Tử Vi Chữa Lành")
     graph = [
-        {"@type": "Article", "headline": article["title"], "description": article["seo"]["metaDescription"],
+        {"@type": "Article", "headline": article["title"], "description": article["seo"]["metaDescription"], "image": f"{SITE}/assets/img/og/{article['id']}.jpg",
          "mainEntityOfPage": {"@type": "WebPage", "@id": canonical}, "url": canonical,
          "author": {"@type": "Person", "name": author}, "publisher": {"@type": "Organization", "name": "Bộ Tộc Tử Vi Chữa Lành", "url": SITE + "/"},
          "datePublished": article.get("datePublished", "2026-10-30") + "T08:00:00+07:00", "dateModified": article.get("dateModified", article.get("datePublished", "2026-10-30")) + "T08:00:00+07:00", "articleSection": category["name"], "keywords": article["seo"].get("keywords", []), "inLanguage": "vi"},

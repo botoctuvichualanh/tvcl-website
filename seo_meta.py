@@ -29,7 +29,7 @@ DOCS_META = {
   "cc1-y-nghia-14-chinh-tinh-cu-tai-12-cung": {"desc": "Ý nghĩa 14 Chính Tinh khi cư tại 12 cung: tra cứu Tử Vi, Thiên Cơ, Thái Dương… ở Mệnh, Tài Bạch, Quan Lộc, Phu Thê với Mặt Sáng, Mặt Tối theo TVCL."},
   "cc2-y-nghia-18-trung-tinh-cu-tai-12-cung": {"desc": "Ý nghĩa 18 Trung Tinh khi cư tại 12 cung: tra cứu năng lượng từng sao ở Mệnh, Tài Bạch, Quan Lộc, Phu Thê… cùng Mặt Sáng, Mặt Tối và hướng chuyển hóa."},
   "th1-tinh-hoa-tvcl": {"desc": "Tinh Hoa Tử Vi Chữa Lành: tri thức nền tảng qua năm phần — đổi cách nhìn, bốn lăng kính, đọc tấm bản đồ lá số, chữa lành và cải mệnh, ứng dụng."},
-  "tt1-tu-vi-dau-so-toan-thu": {"desc": "Tử Vi Đẩu Số Toàn Thư dưới góc nhìn Tử Vi Chữa Lành: tri thức cổ điển về 14 Chính Tinh, đọc lại bằng Tâm lý học và Đạo học để Hiểu Mình, Cải Mệnh."},
+  # tt1: Codex đã chuyển hướng sang /tu-vi-dau-so-toan-thu/ (01/11)
 }
 
 # 28 trang sao (HTML tĩnh, không có generator): tên, nguyên mẫu ngắn

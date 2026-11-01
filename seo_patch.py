@@ -79,7 +79,7 @@ def main():
         '<meta property="og:title" content="Tham vấn Tình yêu &amp; Hôn nhân | Tử Vi Chữa Lành">',
         '<meta property="og:description" content="Lộ trình 3 buổi tham vấn 1:1 cùng Tộc trưởng Quán Trung: Tử Vi, Tâm lý học Tình yêu &amp; Đạo học. Hiểu mình, Thấy người, Chọn thời điểm.">',
         f'<meta property="og:url" content="{SITE}/tham-van-tinh-duyen/">',
-        f'<meta property="og:image" content="{OG_DEFAULT}">',
+        f'<meta property="og:image" content="{SITE}/assets/img/og-tham-van-tinh-duyen.jpg">',
         '<meta name="twitter:card" content="summary_large_image">',
         ldjson({"@context": "https://schema.org", "@type": "Service", "name": "Tham vấn Tình yêu & Hôn nhân",
             "serviceType": "Tham vấn Tử Vi Chữa Lành về tình duyên", "url": f"{SITE}/tham-van-tinh-duyen/",
@@ -98,7 +98,7 @@ def main():
         '<meta property="og:type" content="website">',
         '<meta property="og:title" content="Chính sách bảo mật | Tử Vi Chữa Lành">',
         f'<meta property="og:url" content="{SITE}/chinh-sach-bao-mat/">',
-        f'<meta property="og:image" content="{OG_DEFAULT}">']), 'og:image')
+        f'<meta property="og:image" content="{SITE}/assets/img/og-chinh-sach-bao-mat.jpg">']), 'og:image')
     print("done")
 
 if __name__ == "__main__":

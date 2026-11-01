@@ -77,3 +77,21 @@ PAGE_DESC = {
   "chinh-sach-bao-mat/index.html": "Chính sách bảo mật của Tử Vi Chữa Lành (tuvichualanh.com): thông tin chúng tôi nhận, cách sử dụng, bảo vệ dữ liệu và công cụ quản lý kênh YouTube TVCL.",
   "khoa-hoc-tu-vi-chua-lanh/index.html": "Khóa học Tử Vi Chữa Lành: kết hợp Tử Vi, Tâm lý học và Đạo học để hiểu mình sâu sắc, chuyển hóa vòng lặp cũ và chủ động định hướng cuộc đời.",
 }
+
+# 14 trang Toàn Thư (Codex dựng trang; Claude chuẩn hóa mô tả 01/11)
+PAGE_DESC.update({
+  "sao-cu-mon-tu-vi-dau-so-toan-thu/index.html": "Sao Cự Môn trong Tử Vi Đẩu Số Toàn Thư: ngôn ngữ, chất vấn, phân tích và khả năng nói ra điều chưa nói. Mặt sáng và vùng cần điều hòa theo Tử Vi Chữa Lành.",
+  "sao-liem-trinh-tu-vi-dau-so-toan-thu/index.html": "Sao Liêm Trinh trong Tử Vi Đẩu Số Toàn Thư: nguyên tắc, ranh giới, sức hút và năng lực tự rèn luyện. Mặt sáng và vùng cần điều hòa theo Tử Vi Chữa Lành.",
+  "sao-pha-quan-tu-vi-dau-so-toan-thu/index.html": "Sao Phá Quân trong Tử Vi Đẩu Số Toàn Thư: đổi mới, phá bỏ khuôn cũ và tái cấu trúc điều không còn phù hợp. Mặt sáng và vùng cần điều hòa theo Tử Vi Chữa Lành.",
+  "sao-thai-am-tu-vi-dau-so-toan-thu/index.html": "Sao Thái Âm trong Tử Vi Đẩu Số Toàn Thư: nội tâm, sự nuôi dưỡng, chiều sâu cảm nhận và tài sản tích lũy. Mặt sáng và vùng cần điều hòa theo Tử Vi Chữa Lành.",
+  "sao-thai-duong-tu-vi-dau-so-toan-thu/index.html": "Sao Thái Dương trong Tử Vi Đẩu Số Toàn Thư: ánh sáng, sự hiện diện, tinh thần đóng góp và vai trò công khai. Mặt sáng và vùng cần điều hòa theo Tử Vi Chữa Lành.",
+  "sao-tham-lang-tu-vi-dau-so-toan-thu/index.html": "Sao Tham Lang trong Tử Vi Đẩu Số Toàn Thư: ham muốn, sức hút xã hội và năng lực khai mở tiềm năng. Mặt sáng và vùng cần điều hòa theo Tử Vi Chữa Lành.",
+  "sao-that-sat-tu-vi-dau-so-toan-thu/index.html": "Sao Thất Sát trong Tử Vi Đẩu Số Toàn Thư: quyết đoán, dũng khí hành động và khả năng đối diện thách thức. Mặt sáng và vùng cần điều hòa theo Tử Vi Chữa Lành.",
+  "sao-thien-co-tu-vi-dau-so-toan-thu/index.html": "Sao Thiên Cơ trong Tử Vi Đẩu Số Toàn Thư: trí tuệ linh hoạt, mưu lược và khả năng xoay chuyển. Mặt sáng và vùng cần điều hòa theo Tử Vi Chữa Lành.",
+  "sao-thien-dong-tu-vi-dau-so-toan-thu/index.html": "Sao Thiên Đồng trong Tử Vi Đẩu Số Toàn Thư: sự hòa ái, khả năng thích nghi và nhu cầu sống nhẹ nhàng. Mặt sáng và vùng cần điều hòa theo Tử Vi Chữa Lành.",
+  "sao-thien-luong-tu-vi-dau-so-toan-thu/index.html": "Sao Thiên Lương trong Tử Vi Đẩu Số Toàn Thư: đạo lý, kinh nghiệm, che chở và khả năng chỉ dẫn. Mặt sáng và vùng cần điều hòa theo Tử Vi Chữa Lành.",
+  "sao-thien-phu-tu-vi-dau-so-toan-thu/index.html": "Sao Thiên Phủ trong Tử Vi Đẩu Số Toàn Thư: kho tàng, sự bao bọc, năng lực quản trị và gìn giữ nguồn lực. Mặt sáng và vùng cần điều hòa theo Tử Vi Chữa Lành.",
+  "sao-thien-tuong-tu-vi-dau-so-toan-thu/index.html": "Sao Thiên Tướng trong Tử Vi Đẩu Số Toàn Thư: bảo hộ, điều phối, tinh thần phục vụ và vai trò cầu nối. Mặt sáng và vùng cần điều hòa theo Tử Vi Chữa Lành.",
+  "sao-tu-vi-tu-vi-dau-so-toan-thu/index.html": "Sao Tử Vi trong Tử Vi Đẩu Số Toàn Thư: trung tâm, uy quyền và năng lực quy tụ. Mặt sáng và vùng cần điều hòa theo Tử Vi Chữa Lành.",
+  "sao-vu-khuc-tu-vi-dau-so-toan-thu/index.html": "Sao Vũ Khúc trong Tử Vi Đẩu Số Toàn Thư: tài chính, kỷ luật, năng lực thực thi và tính tự chủ. Mặt sáng và vùng cần điều hòa theo Tử Vi Chữa Lành.",
+})

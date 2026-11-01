@@ -99,12 +99,6 @@ def main():
         '<meta property="og:title" content="Chính sách bảo mật | Tử Vi Chữa Lành">',
         f'<meta property="og:url" content="{SITE}/chinh-sach-bao-mat/">',
         f'<meta property="og:image" content="{OG_DEFAULT}">']), 'og:image')
-    add_head("tham-van-quan-trung/index.html", ldjson({"@context": "https://schema.org", "@type": "Service",
-        "name": "Tham vấn 1:1 cùng Quán Trung", "serviceType": "Tham vấn Tử Vi Chữa Lành",
-        "url": f"{SITE}/tham-van-quan-trung/",
-        "description": "Tham vấn 1:1 cùng Quán Trung, người sáng lập Bộ Tộc Tử Vi Chữa Lành: dùng lá số như bản đồ để hiểu mình và chủ động chọn bước đi tiếp theo.",
-        "image": f"{SITE}/assets/img/og-tham-van-quan-trung.jpg",
-        "provider": {**QT, "worksFor": ORG}, "areaServed": "VN"}), '"@type": "Service"')
     print("done")
 
 if __name__ == "__main__":

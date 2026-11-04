@@ -183,6 +183,7 @@ footer{background:linear-gradient(135deg,#243447,#187888)}
 @media(min-width:760px){.steps{grid-template-columns:repeat(3,1fr)}.st{flex-direction:column}}
 </style>
 <style>.home-logo{display:inline-block;margin-bottom:14px}.home-logo img{width:96px;height:96px;display:block;transition:transform .2s}.home-logo:hover img{transform:scale(1.06)}</style>
+<style>.sl{display:inline-block;vertical-align:middle;margin-left:6px;font-size:12px;font-weight:700;letter-spacing:.3px;padding:2px 10px;border-radius:20px;background:#fff;color:var(--ac,#4A8FD4);border:1px solid currentColor}</style>
 </head>
 <body>
 
@@ -331,10 +332,10 @@ const ROWS = [
   {m:'2027-01', label:'Tháng 1/2027', pct:30, total:10}
 ];
 const PACKS = [
-  {id:'p1', name:'Tham vấn 1:1 cùng Tộc trưởng', desc:'1 buổi · 90 phút', base:2000000, zalo:'0856941341'},
-  {id:'p2', name:'Đồng hành 1 tháng', desc:'2 buổi tham vấn & 1 tháng đồng hành chuyển hóa', base:5000000, zalo:'0856941341'},
-  {id:'p3', name:'Đồng hành 3 tháng', desc:'6 buổi tham vấn (60 phút/buổi) & 3 tháng đồng hành chuyển hóa', base:10000000, zalo:'0856941341'},
-  {id:'p4', name:'Tham vấn Tình Yêu & Hôn nhân', desc:'3 buổi × 90 phút & 1 tháng đồng hành', base:7000000, zalo:'0856941341'}
+  {id:'p1', s:4, name:'Tham vấn 1:1 cùng Tộc trưởng', desc:'1 buổi · 90 phút', base:2000000, zalo:'0856941341'},
+  {id:'p2', s:2, name:'Đồng hành 1 tháng', desc:'2 buổi tham vấn (90 phút/buổi) & 1 tháng đồng hành chuyển hóa', base:5000000, zalo:'0856941341'},
+  {id:'p3', s:2, name:'Đồng hành 3 tháng', desc:'6 buổi tham vấn (60 phút/buổi) & 3 tháng đồng hành chuyển hóa', base:10000000, zalo:'0856941341'},
+  {id:'p4', s:2, name:'Tham vấn Tình Yêu & Hôn nhân', desc:'3 buổi × 90 phút & 1 tháng đồng hành', base:7000000, zalo:'0856941341'}
 ];
 // ====================
 const $ = id => document.getElementById(id);
@@ -356,10 +357,10 @@ function pick(){
     (NEXT ? `<span class="tierNext">${NEXT.label}: ${NEXT.total} suất ưu đãi ${NEXT.pct}%</span>` : '');
   const sale = p => Math.round(p.base*(1-DISC));
   $('pricelist').innerHTML = PACKS.map(p =>
-    `<div class="price"><div class="n">${p.name}<small>${p.desc}</small></div><div class="p">${DISC?`<s>${vnd(p.base)}</s>`:''}<strong>${vnd(sale(p))}</strong></div></div>`).join('');
+    `<div class="price"><div class="n">${p.name} <span class="sl">${p.s} suất</span><small>${p.desc}</small></div><div class="p">${DISC?`<s>${vnd(p.base)}</s>`:''}<strong>${vnd(sale(p))}</strong></div></div>`).join('');
   const cur = (document.querySelector('input[name=pack]:checked')||{}).value || 'p1';
   $('packs').innerHTML = PACKS.map(p =>
-    `<label class="opt"><input type="radio" name="pack" value="${p.id}" ${p.id===cur?'checked':''}><span><span class="t">${p.name}</span><br><span class="s">${p.desc}</span></span><span class="pp">${DISC?`<s>${vnd(p.base)}</s><b>${vnd(sale(p))}</b>`:`<b>${vnd(p.base)}</b>`}</span></label>`).join('');
+    `<label class="opt"><input type="radio" name="pack" value="${p.id}" ${p.id===cur?'checked':''}><span><span class="t">${p.name} <span class="sl">${p.s} suất</span></span><br><span class="s">${p.desc}</span></span><span class="pp">${DISC?`<s>${vnd(p.base)}</s><b>${vnd(sale(p))}</b>`:`<b>${vnd(p.base)}</b>`}</span></label>`).join('');
   document.querySelectorAll('input').forEach(el => el.onchange = update);
   update();
 }

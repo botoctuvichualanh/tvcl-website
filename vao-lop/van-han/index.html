@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hướng dẫn vào lớp Tử Vi Luận Vận Hạn</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --xanh:#0f5e5a; --xanh-dam:#0b3f3c; --xanh-nhat:#e8f3f1;
+    --vang:#d9a441; --chu:#1f2a2a; --phu:#5b6b6a; --nen:#f7f5f0; --the:#ffffff;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--nen);color:var(--chu);font-family:"Be Vietnam Pro",system-ui,sans-serif;font-size:16px;line-height:1.6}
+  .khung{max-width:640px;margin:0 auto;padding:0 18px 48px}
+  header{background:var(--xanh-dam);color:#fff;padding:36px 18px 32px;text-align:center}
+  header .nho{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--vang);font-weight:600}
+  header h1{margin:10px 0 8px;font-size:26px;line-height:1.3}
+  header p{margin:0 auto;max-width:520px;color:#d6e6e3;font-size:15px}
+  h2{font-size:20px;margin:36px 0 6px;color:var(--xanh-dam)}
+  h2 span{display:inline-block;background:var(--vang);color:#fff;border-radius:999px;font-size:13px;padding:2px 10px;margin-right:8px;vertical-align:middle}
+  .mo{color:var(--phu);margin:0 0 14px}
+  .the{background:var(--the);border-radius:14px;padding:18px;margin:12px 0;box-shadow:0 1px 3px rgba(0,0,0,.06);border:1px solid #ece8df}
+  .the h3{margin:0 0 6px;font-size:17px}
+  .the p{margin:0 0 10px}
+  .the .luu-y{font-size:14px;color:var(--xanh-dam);background:var(--xanh-nhat);border-radius:8px;padding:8px 12px;margin:10px 0 0}
+  .nut{display:block;text-align:center;text-decoration:none;font-weight:600;border-radius:10px;padding:13px 16px;margin-top:12px;font-size:16px}
+  .nut-chinh{background:var(--xanh);color:#fff}
+  .nut-phu{background:#fff;color:var(--xanh);border:1.5px solid var(--xanh)}
+  .the-tai{display:flex;align-items:center;justify-content:space-between;gap:12px;background:var(--the);border:1px solid #ece8df;border-radius:12px;padding:14px 16px;margin:10px 0;text-decoration:none;color:var(--chu)}
+  .the-tai b{display:block;font-size:15px}
+  .the-tai small{color:var(--phu)}
+  .the-tai .mui{color:var(--xanh);font-weight:700;white-space:nowrap}
+  ol.buoc{margin:6px 0 0;padding-left:20px}
+  ol.buoc li{margin:4px 0}
+  figure{margin:10px 0 12px}
+  figure img{display:block;width:100%;height:auto;border-radius:10px;border:1px solid #e3ded3}
+  figure.nho img{max-width:260px;margin:0 auto}
+  figcaption{font-size:14px;color:var(--phu);text-align:center;margin-top:6px}
+  .buoc-hinh{display:flex;gap:10px;align-items:flex-start;margin:16px 0 8px}
+  .buoc-hinh .so{flex:0 0 28px;height:28px;border-radius:50%;background:var(--xanh);color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center;font-size:15px;margin-top:1px}
+  .buoc-hinh p{margin:0}
+  .dt{border:1px solid #d9dde3;border-radius:14px;overflow:hidden;background:#fff;margin:8px 0 6px;font-family:-apple-system,"Segoe UI",Roboto,"Be Vietnam Pro",sans-serif;color:#050505;box-shadow:0 2px 8px rgba(0,0,0,.06)}
+  .fb-bia img{display:block;width:100%;height:auto}
+  .fb-nhan{background:#0866ff;color:#fff;font-weight:600;font-size:13px;padding:7px 12px}
+  .fb-than{padding:12px 12px 14px}
+  .fb-ten{font-size:21px;font-weight:700;line-height:1.25}
+  .fb-ten.nho{font-size:16px}
+  .fb-phu{font-size:13px;color:#65676b;margin-top:3px}
+  .fb-hang{display:flex;gap:8px;margin-top:22px;margin-bottom:18px;align-items:center}
+  .fb-nut-xanh{display:inline-block;background:#0866ff;color:#fff;font-weight:600;border-radius:8px;padding:8px 16px;font-size:15px}
+  .fb-nut-xam{display:inline-block;background:#e4e6eb;color:#050505;font-weight:600;border-radius:8px;padding:8px 14px;font-size:15px}
+  .khoanh{position:relative;display:block;border:3px solid;border-radius:10px;padding:8px 9px;margin:6px -4px 0}
+  .khoanh.do{border-color:#e02424}
+  .khoanh.cam{border-color:#f08c00}
+  .khoanh.nut-o,.khoanh.tab-o{display:inline-block;padding:3px;margin:0}
+  .nhan-khoanh{position:absolute;right:8px;bottom:-13px;background:#e02424;color:#fff;font-size:12px;font-weight:700;border-radius:999px;padding:2px 9px;white-space:nowrap;font-family:"Be Vietnam Pro",sans-serif}
+  .nhan-khoanh.cam-nen{background:#f08c00}
+  .khoanh.nut-o .nhan-khoanh,.khoanh.tab-o .nhan-khoanh{right:auto;left:50%;transform:translateX(-50%);bottom:-24px}
+  .fb-hop-dau{display:flex;justify-content:space-between;align-items:center;padding:12px;border-bottom:1px solid #e4e6eb;font-size:17px}
+  .fb-x{width:30px;height:30px;border-radius:50%;background:#e4e6eb;display:flex;align-items:center;justify-content:center;font-size:14px}
+  .fb-bao{background:#f0f2f5;border-radius:8px;padding:10px;font-size:13px;color:#65676b;margin-bottom:10px}
+  .fb-bao b{color:#050505;font-size:14px}
+  .fb-cauhoi{font-weight:600;font-size:15px;line-height:1.4}
+  .fb-o{border:1px solid #ced0d4;border-radius:8px;padding:10px;color:#8a8d91;margin-top:8px;min-height:62px;font-size:15px}
+  .fb-tick{display:flex;gap:9px;align-items:flex-start;font-size:15px;margin:7px 0;line-height:1.4}
+  .o-tick{flex:0 0 20px;height:20px;border-radius:4px;background:#0866ff;color:#fff;font-size:13px;display:flex;align-items:center;justify-content:center;margin-top:1px}
+  .o-tron{flex:0 0 20px;height:20px;border-radius:50%;border:2px solid #8a8d91;background:#fff;margin-top:1px;position:relative}
+  .o-tron.chon{border-color:#0866ff}
+  .o-tron.chon::after{content:"";position:absolute;left:3px;top:3px;width:10px;height:10px;border-radius:50%;background:#0866ff}
+  .fb-nhom{display:flex;gap:10px;align-items:center;margin-bottom:12px}
+  .fb-nhom img{width:44px;height:44px;border-radius:8px;object-fit:cover;object-position:center;border:1px solid #e4e6eb}
+  .fb-chan{display:flex;justify-content:flex-end;gap:10px;align-items:center;border-top:1px solid #e4e6eb;padding:10px 12px 28px}
+  .fb-chan .ghi{flex:1;font-size:11px;color:#65676b;line-height:1.35;padding-right:4px}
+  .fb-huy{color:#0866ff;font-weight:600;font-size:15px;padding:0 6px}
+  .fb-tab{display:flex;gap:14px;align-items:center;font-size:14px;color:#65676b;font-weight:600;border-bottom:1px solid #e4e6eb;padding:10px 0 26px;margin-bottom:12px;flex-wrap:nowrap}
+  .tab-chon{display:inline-block;color:#0866ff;padding:4px 6px}
+  .fb-bai-dau{font-size:14px;margin-bottom:4px}
+  .fb-tieude{font-weight:700;font-size:16px;line-height:1.35}
+  .fb-trich{font-style:italic;color:#65676b;font-size:13px;border-left:3px solid #ced0d4;padding-left:9px;margin-top:18px}
+  .fb-phan{font-weight:700;font-size:16px;margin:4px 0 6px}
+  .fb-ds{margin:0 0 12px;padding-left:20px;font-size:14px;line-height:1.45}
+  .fb-ds li{margin:6px 0}
+  .fb-link{display:block;color:#0866ff;font-size:13px}
+  .fb-ds2{font-size:14px}
+  .keo{text-align:center;color:#e02424;font-weight:700;font-size:14px;margin-top:10px}
+  .fb-top{display:flex;align-items:center;justify-content:space-between;padding:8px 12px;border-bottom:1px solid #e4e6eb}
+  .fb-logo{width:28px;height:28px;border-radius:50%;background:#0866ff;color:#fff;display:flex;align-items:center;justify-content:center;font-size:20px;font-family:Arial,sans-serif}
+  .fb-top .ic{width:22px;height:18px;border:2px solid #65676b;border-radius:5px}
+  .fb-av{display:flex;margin-top:10px}
+  .fb-av i{width:26px;height:26px;border-radius:50%;border:2px solid #fff;margin-left:-6px}
+  .fb-av i:first-child{margin-left:0}
+  .fb-tabs{display:flex;gap:14px;align-items:center;font-size:14px;color:#65676b;font-weight:600;border-top:1px solid #e4e6eb;padding:16px 12px 10px;white-space:nowrap;overflow:hidden}
+  .fb-nen{background:#f0f2f5;padding:10px 8px}
+  .fb-bai{background:#fff;border-radius:10px;padding:12px}
+  .fb-bai-dau{display:flex;gap:8px;align-items:center;font-size:14px;margin-bottom:8px}
+  .av-tron{flex:0 0 34px;height:34px;border-radius:50%;background:#e6f4f1;border:2px solid #2a9d8f;color:#2a9d8f;font-size:11px;font-weight:700;display:flex;align-items:center;justify-content:center}
+  .fb-the{display:inline-block;background:#e7f3ff;color:#0866ff;font-size:11px;font-weight:600;border-radius:5px;padding:1px 6px;margin:2px 4px 0 0}
+  .fb-the.xam{background:#e4e6eb;color:#050505}
+  .fb-tieude.nho{font-size:14px}
+  .fb-poster{display:block;width:100%;height:auto;margin-top:0;border-radius:0 0 10px 10px}
+  .ghim{position:absolute;top:-11px;right:-11px;width:26px;height:26px;border-radius:50%;background:#e02424;color:#fff;font-weight:800;font-size:14px;display:flex;align-items:center;justify-content:center;box-shadow:0 0 0 3px #fff;font-family:"Be Vietnam Pro",sans-serif}
+  .khoanh.xemthem{display:inline-block;padding:2px 8px;margin:6px 0 2px;color:#050505;border-width:2.5px}
+  .tab-o .ghim{top:-15px;right:-17px}
+  .ghim.ben{top:50%;right:-36px;transform:translateY(-50%)}
+  .fb-ds li .fb-link .khoanh{word-break:normal}
+  .khoanh.ds-o{padding:8px 8px 4px}
+  .fb-bai-ds{list-style:none;padding:0;margin:0 0 6px;font-size:14px;line-height:1.45}
+  .fb-bai-ds li{margin:7px 0}
+  .fb-bai-ds u{font-weight:700}
+  .chu-thich{font-size:13px;color:var(--phu);text-align:center;margin:4px 0 10px}
+  footer{text-align:center;color:var(--phu);font-size:13px;margin-top:40px;padding-top:18px;border-top:1px solid #e3ded3}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="nho">Bộ tộc Tử Vi Chữa Lành</div>
+  <h1>Hướng dẫn vào lớp<br>Tử Vi Luận Vận Hạn</h1>
+  <p>Khi mới bắt đầu vào lớp, bạn làm lần lượt 3 bước dưới đây nhé.</p>
+</header>
+
+<div class="khung">
+
+  <h2><span>Bước 1</span>Tham gia đủ 3 nhóm của khóa học</h2>
+  <p class="mo">Có tất cả 3 nhóm: 2 nhóm Zalo và 1 nhóm Facebook. Bạn bấm vào nút để tham gia.</p>
+
+  <div class="the">
+    <h3>1. Nhóm Zalo tổng của lớp Tử Vi Luận Vận Hạn</h3>
+    <p>Nhóm Zalo chung của lớp, bạn bấm nút bên dưới để vào nhóm.</p>
+    <a class="nut nut-chinh" href="https://zalo.me/g/joahhu637" target="_blank" rel="noopener">Vào nhóm Zalo tổng</a>
+  </div>
+
+  <div class="the">
+    <h3>2. Nhóm Zalo lớp học</h3>
+    <p>Nhóm có ghi tên khóa như V09, V11, V12, V14… <b>Admin sẽ đưa bạn vào</b>, bạn không cần tự tìm.</p>
+  </div>
+
+  <div class="the">
+    <h3>3. Nhóm Facebook tài liệu video</h3>
+    <p>Nhóm lưu trữ các video của khóa học, bạn tra cứu bất kỳ lúc nào. Bạn cần vào nhóm này để xem video.</p>
+    <p><b>Cách xin vào nhóm:</b></p>
+    <div class="buoc-hinh"><span class="so">1</span><p>Bấm nút <b>Vào nhóm Facebook</b> ở cuối khung này.</p></div>
+
+    <div class="buoc-hinh"><span class="so">2</span><p>Kiểm tra đúng nhóm, rồi bấm nút xanh <b>Tham gia nhóm</b>.</p></div>
+    <div class="dt">
+      <div class="fb-bia"><img src="bia.jpg" alt="Ảnh bìa nhóm Luận Vận Hạn Online"></div>
+      <div class="fb-than">
+        <div class="khoanh cam"><div class="fb-ten">Luận Vận Hạn Online - Tử Vi Chữa Lành</div>
+        <div class="fb-phu">🔒 Nhóm Riêng tư · 144 thành viên</div><span class="nhan-khoanh cam-nen">Đúng tên nhóm này</span></div>
+        <div class="fb-hang"><span class="khoanh do nut-o"><span class="fb-nut-xanh">Tham gia nhóm</span><span class="nhan-khoanh">Bấm vào đây</span></span><span class="fb-nut-xam">Chia sẻ</span></div>
+      </div>
+    </div>
+
+    <div class="buoc-hinh"><span class="so">3</span><p>Facebook hiện bảng <b>Trả lời câu hỏi</b> có 3 câu. <b>Câu 1:</b> bấm chọn <b>“Có, tôi đã đăng ký”</b>.</p></div>
+    <div class="dt">
+      <div class="fb-hop-dau"><b>Trả lời câu hỏi</b><span class="fb-x">✕</span></div>
+      <div class="fb-than">
+        <div class="fb-nhom"><img src="bia.jpg" alt=""><div><b>Luận Vận Hạn Online - Tử Vi Chữa Lành</b><div class="fb-phu">🔒 Nhóm Riêng tư · 144 thành viên</div></div></div>
+        <div class="fb-bao"><b>Yêu cầu tham gia của bạn đang chờ phê duyệt</b><br>Hãy trả lời những câu hỏi sau của quản trị viên nhóm để họ có thể xem xét yêu cầu tham gia của bạn. Câu trả lời của bạn sẽ chỉ hiển thị với quản trị viên và người kiểm duyệt.</div>
+        <div class="fb-cauhoi">Nhóm chỉ dành cho ACE đã đăng ký học. Nếu bạn chưa đăng ký, vui lòng nhắn tin qua zalo admin Phương Anh - 0983 674 064</div>
+        <div class="fb-phu">Bạn có thể chọn 1 mục</div>
+        <div class="khoanh do" style="margin-top:10px">
+          <div class="fb-tick"><span class="o-tron chon"></span>Có, tôi đã đăng ký</div>
+          <span class="nhan-khoanh">Bấm chọn dòng này</span>
+        </div>
+        <div class="fb-tick" style="margin-top:14px"><span class="o-tron"></span>Chưa, tôi chưa đăng ký</div>
+      </div>
+    </div>
+
+    <div class="buoc-hinh"><span class="so">4</span><p><b>Câu 2:</b> ghi <b>họ tên</b> và <b>số điện thoại / Zalo</b> bạn đã đăng ký học. <b>Câu 3:</b> bấm chọn <b>“Có, tôi hoàn toàn đồng ý…”</b>. Sau đó bấm nút <b>Gửi</b>.</p></div>
+    <div class="dt">
+      <div class="fb-than">
+        <div class="fb-cauhoi">Vui lòng chia sẻ HỌ TÊN bạn, SĐT/ ZALO đã đăng ký</div>
+        <div class="khoanh do" style="margin-top:10px">
+          <div class="fb-o">Viết câu trả lời...</div>
+          <span class="nhan-khoanh">Ghi họ tên và SĐT/Zalo vào ô này</span>
+        </div>
+        <div class="fb-cauhoi" style="margin-top:30px">Nhóm này là nhóm bí mật, vui lòng KHÔNG CHIA SẺ bất cứ VIDEO nào của lớp học ra bên ngoài. Bạn ĐỒNG Ý CHỨ?</div>
+        <div class="fb-phu">Bạn có thể chọn 1 mục</div>
+        <div class="khoanh do" style="margin-top:10px">
+          <div class="fb-tick"><span class="o-tron chon"></span>Có, tôi hoàn toàn đồng ý BẢO MẬT VIDEO LỚP HỌCvà KHÔNG CHIA SẺ tới người khác</div>
+          <span class="nhan-khoanh">Bấm chọn dòng này</span>
+        </div>
+        <div class="fb-tick" style="margin-top:14px"><span class="o-tron"></span>Không, tôi không muốn học</div>
+      </div>
+      <div class="fb-chan"><span class="ghi">Không nhập mật khẩu hoặc thông tin nhạy cảm khác tại đây, ngay cả khi quản trị viên nhóm Luận Vận Hạn Online - Tử Vi Chữa Lành yêu cầu.</span><span class="fb-huy">Hủy</span><span class="khoanh do nut-o"><span class="fb-nut-xanh">Gửi</span><span class="nhan-khoanh">Bấm Gửi</span></span></div>
+    </div>
+
+    <div class="buoc-hinh"><span class="so">5</span><p>Chờ admin duyệt là bạn vào được nhóm.</p></div>
+    <p class="luu-y">Nếu bấm ✕ thoát ra mà chưa trả lời, admin sẽ không biết bạn là học viên để duyệt. Hãy trả lời đủ 3 câu rồi mới bấm Gửi.</p>
+    <a class="nut nut-chinh" href="https://www.facebook.com/groups/tuviluanvanhan" target="_blank" rel="noopener">Vào nhóm Facebook</a>
+  </div>
+
+  <h2><span>Bước 2</span>Xem video bài học</h2>
+  <p class="mo">Video nằm trong nhóm Facebook ở trên. Sau khi được duyệt vào nhóm, bạn làm theo 4 bước, nhìn số trong hình để biết chỗ bấm:</p>
+  <div class="the">
+    <div class="buoc-hinh"><span class="so">1</span><p>Mở nhóm, bấm mục <b>Đáng chú ý</b> trên hàng mục ngay dưới tên nhóm.</p></div>
+    <div class="buoc-hinh"><span class="so">2</span><p>Tìm bài <b>“HƯỚNG DẪN KHÓA HỌC NGHIỆM LÝ LUẬN VẬN HẠN”</b>.</p></div>
+    <div class="buoc-hinh"><span class="so">3</span><p>Bài viết đang thu gọn. Bấm chữ <b>Xem thêm</b> để mở hết danh sách video.</p></div>
+
+    <div class="dt">
+      <div class="fb-top"><b class="fb-logo">f</b><span class="ic"></span><span class="ic"></span><span class="ic"></span><span class="ic"></span></div>
+      <div class="fb-bia"><img src="bia.jpg" alt="Ảnh bìa nhóm"></div>
+      <div class="fb-than">
+        <div class="fb-ten">Luận Vận Hạn Online - Tử Vi Chữa Lành</div>
+        <div class="fb-phu">🔒 Nhóm Riêng tư · 144 thành viên</div>
+        <div class="fb-av"><i style="background:#c9a7d8"></i><i style="background:#f2b8a0"></i><i style="background:#a7c7e7"></i><i style="background:#e8c07d"></i><i style="background:#9fd3c7"></i><i style="background:#d7a9a9"></i><i style="background:#b5c99a"></i><i style="background:#f1c6de"></i><i style="background:#a0b4d6"></i><i style="background:#e3b5a4"></i><i style="background:#c3d9a5"></i><i style="background:#d4b3e0"></i></div>
+      </div>
+      <div class="fb-tabs"><span>Thảo luận</span><span class="khoanh do tab-o"><span class="tab-chon">Đáng chú ý</span><span class="ghim">1</span></span><span>Thành viên</span><span>Sự kiện</span><span>File phương tiện</span></div>
+      <div class="fb-nen">
+        <div class="fb-bai">
+          <div class="fb-bai-dau"><span class="av-tron">TV</span><div><b>Bộ tộc Tử Vi Chữa Lành</b><div><span class="fb-the">Quản trị viên</span><span class="fb-the xam">Người đóng góp nhiều nhất</span></div><div class="fb-phu">16 tháng 4, 2024</div></div></div>
+          <div class="khoanh do"><div class="fb-tieude">HƯỚNG DẪN KHÓA HỌC “ NGHIỆM LÝ LUẬN VẬN HẠN”</div><span class="ghim">2</span></div>
+          <div class="fb-trich">Cảm ơn bạn đã tham gia khóa học “Nghiệm lý Luận Vận Hạn” – hay gọi ngắn là “Luận Vận Hạn Online”. Khóa học này sẽ cung cấp cho bạn chi tiết, hướng dẫn từng bước để Luận Vận Hạn trên chính là số của mình.</div>
+          <div class="fb-phan" style="margin-top:10px">Tại sao lại là “NGHIỆM LÝ” ?</div>
+          <div class="fb-ds2"><b><i>· BƯỚC 1: NHÌN VỀ QUÁ KHỨ.</i></b></div>
+          <span class="khoanh do xemthem"><b>Xem thêm</b><span class="ghim ben">3</span></span>
+        </div>
+        <img class="fb-poster" src="poster.jpg" alt="Ảnh bài viết: Hướng dẫn học">
+      </div>
+    </div>
+    <p class="chu-thich">Đây là trang nhóm khi bạn bấm mục Đáng chú ý.</p>
+
+    <div class="buoc-hinh"><span class="so">4</span><p>Sau khi bấm Xem thêm, danh sách video hiện ra. <b>Bấm vào dòng link màu xanh</b> dưới mỗi bài để xem, học lần lượt từ Bài 1.</p></div>
+    <div class="dt">
+      <div class="fb-nen">
+        <div class="fb-bai">
+          <div class="fb-bai-dau"><span class="av-tron">TV</span><div><b>Bộ tộc Tử Vi Chữa Lành</b><div class="fb-phu">Quản trị viên</div></div></div>
+          <div class="fb-tieude nho">HƯỚNG DẪN KHÓA HỌC “ NGHIỆM LÝ LUẬN VẬN HẠN”</div>
+          <div class="fb-trich">Cảm ơn bạn đã tham gia khóa học…</div>
+          <div class="khoanh do ds-o" style="margin-top:16px">
+            <div class="fb-phan">A – PHẦN 1: LUẬN ĐẠI VẬN</div>
+            <ul class="fb-bai-ds">
+              <li><u>Bài 1:</u> Hướng dẫn lập LSTV luận Đại Vận &amp; Tiểu Vận<span class="fb-link">facebook.com/…/posts/…</span></li>
+              <li><u>Bài 2:</u> Tìm MỆNH Đại Vận<span class="fb-link">facebook.com/…/posts/…</span></li>
+              <li><u>Bài 3:</u> Tìm cung CHỨC NĂNG của Đại Vận<span class="fb-link">facebook.com/…/posts/…</span></li>
+              <li><u>Bài 4:</u> Đánh giá CÁT - HUNG của Đại Vận<span class="fb-link">facebook.com/…/posts/…</span></li>
+              <li><u>Bài 5:</u> So sánh MỆNH ĐV với MỆNH NC<span class="fb-link">facebook.com/…/posts/…</span></li>
+              <li><u>Bài 6:</u> Tổng kết MQH Đại Vận &amp; Nguyên Cục<span class="fb-link">facebook.com/…/posts/…</span></li>
+              <li><u>Bài 7:</u> So sánh 2 ĐẠI VẬN<span class="fb-link">facebook.com/…/posts/…</span></li>
+              <li><u>Bài 8:</u> CUNG CHỨC NĂNG ĐẠI VẬN<span class="fb-link">facebook.com/…/posts/…</span></li>
+              <li><u>Bài 9:</u> Thực hành luận TÀI - ĐIỀN ĐẠI VẬN<span class="fb-link">facebook.com/…/posts/…</span></li>
+            </ul>
+            <span class="ghim">4</span>
+          </div>
+          <div class="keo">↓ Kéo xuống dưới, còn nữa</div>
+        </div>
+      </div>
+    </div>
+    <p class="chu-thich">Đây là bài hướng dẫn sau khi bấm Xem thêm.</p>
+    <a class="nut nut-phu" href="https://www.facebook.com/groups/tuviluanvanhan/announcements" target="_blank" rel="noopener">Mở nhóm Facebook (mục Đáng chú ý)</a>
+  </div>
+
+  <h2><span>Bước 3</span>Tải tài liệu của lớp</h2>
+  <p class="mo">Bấm vào từng file để mở trên Google Drive, rồi bấm nút tải xuống.</p>
+
+  <a class="the-tai" href="https://drive.google.com/file/d/1IHi9AWpTMi9PP3QB1Atkf1aziPUt3h6h/view" target="_blank" rel="noopener">
+    <span><b>File 1 – Bài giảng Luận Vận Hạn chi tiết</b><small>PDF · 10 trang · 8,4 MB</small></span><span class="mui">Mở ›</span>
+  </a>
+  <a class="the-tai" href="https://drive.google.com/file/d/1dsNc8_PAwV16JE2NwSQB1hqe3d8LWbp-/view" target="_blank" rel="noopener">
+    <span><b>File 2 – Healing Tử Vi: Luận Đại Vận</b><small>PDF · 16 trang · 4,5 MB</small></span><span class="mui">Mở ›</span>
+  </a>
+  <a class="the-tai" href="https://drive.google.com/file/d/1lIAFgsFc1Kz7M2TjQgXHuah1CYG7XCkq/view" target="_blank" rel="noopener">
+    <span><b>File 3 – 14 Chính Tinh</b><small>PDF · 16 trang · 2,2 MB</small></span><span class="mui">Mở ›</span>
+  </a>
+  <a class="the-tai" href="https://drive.google.com/file/d/1Wp04ANOdRWfUunbsqhlyaYsAoWd7cUBS/view" target="_blank" rel="noopener">
+    <span><b>File 4 – 18 Trung Tinh</b><small>PDF · 7 trang · 2,1 MB</small></span><span class="mui">Mở ›</span>
+  </a>
+  <a class="the-tai" href="https://drive.google.com/file/d/1K5kSRSBWeX2AHzGf1aNlDBKKS04r4GlR/view" target="_blank" rel="noopener">
+    <span><b>File 5 – Kỹ thuật Cung Hố</b><small>PDF · 5 trang · 1,4 MB</small></span><span class="mui">Mở ›</span>
+  </a>
+  <a class="the-tai" href="https://drive.google.com/file/d/1EzeLXItSzaMPj4KDT6xRRCyZ7UotDijU/view" target="_blank" rel="noopener">
+    <span><b>File 6 – Hình minh họa bài giảng</b><small>PDF · 9 trang · 2,4 MB</small></span><span class="mui">Mở ›</span>
+  </a>
+  <a class="nut nut-phu" href="https://drive.google.com/drive/folders/1ZGPfnf2lmVHHB1uEtSgQXnncq3YafRc3" target="_blank" rel="noopener">Mở cả thư mục tài liệu</a>
+
+  <footer>
+    Bộ Tộc Tử Vi Chữa Lành<br>nơi đào tạo người luận giải tử vi theo triết lí chữa lành
+  </footer>
+</div>
+</body>
+</html>

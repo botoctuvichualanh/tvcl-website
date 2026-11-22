@@ -1,8 +1,10 @@
 <!doctype html>
-<html lang="vi">
+<html lang="vi" data-mau="rung">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+<script>try{var tm=localStorage.getItem('tvcl_mau_s');if(tm)document.documentElement.dataset.mau=tm}catch(e){}</script>
+
   <title>Luận Nhanh Lá Số Tử Vi | Bộ Tộc Tử Vi Chữa Lành</title>
   <meta name="description" content="Lớp Luận Nhanh Lá Số Tử Vi cùng thầy Nhật Mạnh. Học qua 5 buổi Zoom, 11 video chính và hơn 50 video tham khảo. Học phí 666.000đ.">
   <meta property="og:title" content="Luận Nhanh Lá Số Tử Vi (Lớp cơ bản) | Bộ Tộc Tử Vi Chữa Lành">
@@ -146,7 +148,10 @@
     @media (max-width: 730px) { .stats-grid { grid-template-columns: repeat(2, minmax(0,1fr)); } .checks { grid-template-columns: 1fr; } .gallery img { height: 320px; } }
     .lead { margin: -8px 0 18px; max-width: 70ch; }
     .quote { margin: 0; } .quote blockquote { margin: 0; font-size: 1.05rem; } .quote figcaption, .note { margin-top: 10px; font-size: .94rem; color: var(--forest); }
-  </style>
+  /* Mau rieng tung lop: chon trong bang dieu khien (mau_lop_*) */
+html[data-mau="cham"]{--forest:#1f3563;--deep:#121f3d;--sage:#e7ebf4;--line:#1f356329;--ink:#1e2433}
+html[data-mau="man"]{--forest:#4b1d3f;--deep:#2c1026;--sage:#f3e8ef;--line:#4b1d3f29;--ink:#2a1c25}
+</style>
 </head>
 <body>
   <a class="skip" href="#noi-dung">Đến nội dung</a>
@@ -439,6 +444,7 @@ if(live){let fbq=window.fbq;if(typeof fbq!=='function'){fbq=window.fbq=function(
  fbq('init',cfg.pixel);fbq('track','PageView');fbq('track','ViewContent',{content_name:offer.title,content_ids:[offer.slug],content_type:'product',value:offer.value,currency:'VND'});}
 // Ngày khai giảng + công tắc từ Sheet điều khiển
 window.__tvclDieuKhien=function(d){try{const m={};(d.table.rows||[]).forEach(r=>{const k=r.c&&r.c[0]&&r.c[0].v;if(k)m[String(k).trim()]=r.c[1]&&r.c[1].v!=null?String(r.c[1].v).trim():'';});
+ const mau={'xanh rừng':'rung','xanh chàm':'cham','tím mận':'man'}[(m.mau_lop_s||'').normalize('NFC').toLowerCase()];if(mau){document.documentElement.dataset.mau=mau;try{localStorage.setItem('tvcl_mau_s',mau)}catch(_){}}
  const kg=m.khai_giang_luan_nhanh;if(kg){document.getElementById('khai-giang').textContent=kg;}
  if((m.dang_ky_luan_nhanh||'').toUpperCase().replace('Ó','O')==='DONG'){document.getElementById('khung-dang-ky').hidden=true;document.getElementById('dang-ky-dong').hidden=false;}}catch(_){}};
 if(cfg.controlSheet){const s=document.createElement('script');s.src='https://docs.google.com/spreadsheets/d/'+cfg.controlSheet+'/gviz/tq?tqx=responseHandler:__tvclDieuKhien&headers=1&t='+Date.now();s.async=true;document.head.append(s);}
